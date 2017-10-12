@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Essay on 贤民的比特记忆</title>
-    <link>http://xianmin.org/categories/essay/</link>
+    <link>http://www.xianmin.org/categories/essay/</link>
     <description>Recent content in Essay on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 01 Mar 2017 18:03:09 +0800</lastBuildDate>
     
-	<atom:link href="http://xianmin.org/categories/essay/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.xianmin.org/categories/essay/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Linux 下，使用 Git 管理 dotfiles（配置文件）</title>
-      <link>http://xianmin.org/post/02-manage-dotfiles/</link>
+      <link>http://www.xianmin.org/post/02-manage-dotfiles/</link>
       <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
       
-      <guid>http://xianmin.org/post/02-manage-dotfiles/</guid>
+      <guid>http://www.xianmin.org/post/02-manage-dotfiles/</guid>
       <description>&lt;p&gt;作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code&gt;.&lt;/code&gt; 开头，管它们叫 &lt;code&gt;dotfiles&lt;/code&gt; 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>主题与markdown语法测试</title>
-      <link>http://xianmin.org/post/00-even-theme-preview/</link>
+      <link>http://www.xianmin.org/post/00-even-theme-preview/</link>
       <pubDate>Sun, 01 Jan 2017 18:03:09 +0800</pubDate>
       
-      <guid>http://xianmin.org/post/00-even-theme-preview/</guid>
+      <guid>http://www.xianmin.org/post/00-even-theme-preview/</guid>
       <description>&lt;p&gt;主题与markdown语法测试。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
