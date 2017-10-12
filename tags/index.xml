@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 贤民的比特记忆</title>
+    <link>http://xianmin.org/tags/</link>
+    <description>Recent content in Tags on 贤民的比特记忆</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 01 Mar 2017 18:03:09 +0800</lastBuildDate>
+    
+	<atom:link href="http://xianmin.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dotfile</title>
+      <link>http://xianmin.org/tags/dotfile/</link>
+      <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
+      
+      <guid>http://xianmin.org/tags/dotfile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://xianmin.org/tags/git/</link>
+      <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
+      
+      <guid>http://xianmin.org/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://xianmin.org/tags/linux/</link>
+      <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
+      
+      <guid>http://xianmin.org/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>http://xianmin.org/tags/markdown/</link>
+      <pubDate>Sun, 01 Jan 2017 18:03:09 +0800</pubDate>
+      
+      <guid>http://xianmin.org/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tool</title>
+      <link>http://xianmin.org/tags/tool/</link>
+      <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
+      
+      <guid>http://xianmin.org/tags/tool/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
