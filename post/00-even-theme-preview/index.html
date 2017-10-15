@@ -72,7 +72,7 @@
 
 
 <meta itemprop="dateModified" content="2017-01-01T18:03:09&#43;08:00" />
-<meta itemprop="wordCount" content="688">
+<meta itemprop="wordCount" content="870">
 
 
 
@@ -90,6 +90,14 @@
   <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
 <![endif]-->
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-34199129-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
 
 </head>
 <body>
@@ -158,7 +166,7 @@
         <div class="post-category">
             <a href="/categories/essay/">essay</a>
           </div>
-        <span class="more-meta"> 约 688 字 </span>
+        <span class="more-meta"> 约 870 字 </span>
         <span class="more-meta"> 预计阅读 2 分钟 </span>
       </div>
     </header>
@@ -200,8 +208,14 @@
 <li><a href="#图片">图片</a></li>
 <li><a href="#表格">表格</a></li>
 <li><a href="#数学公式">数学公式</a></li>
+<li><a href="#shortcodes">Shortcodes</a>
+<ul>
 <li><a href="#网易云音乐">网易云音乐</a></li>
 <li><a href="#youtube">YouTube</a></li>
+<li><a href="#blockquote">blockquote</a></li>
+<li><a href="#wikipedia-link-generator">Wikipedia Link Generator</a></li>
+<li><a href="#image-caption">Image Caption</a></li>
+</ul></li>
 <li><a href="#参考资料">参考资料</a></li>
 </ul></li>
 </ul>
@@ -390,7 +404,9 @@ if (document.getElementById('my-player') !== null) {
 
 <p>$$ evidence_{i}=\sum_{j}W_{ij}x_{j}+b_{i} $$</p>
 
-<h2 id="网易云音乐">网易云音乐</h2>
+<h2 id="shortcodes">Shortcodes</h2>
+
+<h3 id="网易云音乐">网易云音乐</h3>
 
 <p>主题文章中可以轻松插入 <a href="https://music.163.com/">网易云音乐</a> 的指定音乐，你可以根据需要将音乐设置为自动播放，在主题目录 <code>layouts/shortcodes</code> 文件夹下的 <code>music.html</code> 对该标签进行定义。</p>
 
@@ -405,7 +421,7 @@ if (document.getElementById('my-player') !== null) {
       src="//music.163.com/outchain/player?type=2&id=28196554&auto=0&height=66">
     </iframe>
 
-<h2 id="youtube">YouTube</h2>
+<h3 id="youtube">YouTube</h3>
 
 <p>由于不明原因可能无法播放。</p>
 
@@ -413,6 +429,473 @@ if (document.getElementById('my-player') !== null) {
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
   <iframe src="//www.youtube.com/embed/wC5pJm8RAu4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
  </div>
+
+
+<h3 id="blockquote">blockquote</h3>
+
+<p>Normal quote:
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<blockquote>
+  <p>
+  This is a simple quote.
+</p>
+  <footer>
+    <strong></strong>
+    
+      
+    
+  </footer>
+</blockquote>
+</p>
+
+<p>Quote with author
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+<blockquote>
+  <p>
+  This is a quote with only an Author named Author2.
+</p>
+  <footer>
+    <strong>Author2</strong>
+    
+      
+    
+  </footer>
+</blockquote>
+</p>
+
+<p>Quote with author and source
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+<blockquote>
+  <p>
+  This is a quote from Author3 and source "source."
+</p>
+  <footer>
+    <strong>Author3</strong>
+    
+      <cite>Source</cite>
+    
+  </footer>
+</blockquote>
+</p>
+
+<p>Quote with author and link
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+  
+
+
+<blockquote>
+  <p>
+  This is a quote from Author4 and links to https://www.google.com.
+</p>
+  <footer>
+    <strong>Author4</strong>
+    
+      
+        <cite>
+          <a href="https://www.google.com" title="https://www.google.com">google.com</a> 
+        </cite>
+      
+    
+  </footer>
+</blockquote>
+</p>
+
+<p>Quote with author, link and title
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+<blockquote>
+  <p>
+  This is a quote from Author5 and links to https://www.google.com with title "Google."
+</p>
+  <footer>
+    <strong>Author5</strong>
+    
+      
+        <cite>
+          <a href="https://www.google.com" title="https://www.google.com">Google</a> 
+        </cite>
+      
+    
+  </footer>
+</blockquote>
+</p>
+
+<p>Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+<blockquote>
+  <p>
+  This is a quote from Author5 and links to https://twitter.com/CryptoGangsta/status/716427930126196737 which is longer than 32 characters.
+  <br>And this is a new line in the quote with the HTML br tag.
+</p>
+  <footer>
+    <strong>Author6</strong>
+    
+      
+        <cite>
+          <a href="https://twitter.com/CryptoGangsta/status/716427930126196737" title="https://twitter.com/CryptoGangsta/status/716427930126196737">twitter.com/CryptoGangsta/...</a> 
+        </cite>
+      
+    
+  </footer>
+</blockquote>
+</p>
+
+<p>Test from the Octopress blockquote page at: <a href="http://octopress.org/docs/plugins/blockquote/">http://octopress.org/docs/plugins/blockquote/</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+<blockquote>
+  <p>
+  Over the past 24 hours I've been reflecting on my life & I've realized only one thing. I need a medieval battle axe.
+</p>
+  <footer>
+    <strong>@allanbranch</strong>
+    
+      
+        <cite>
+          <a href="https://twitter.com/allanbranch/status/90766146063712256" title="https://twitter.com/allanbranch/status/90766146063712256">twitter.com/allanbranch/status/...</a> 
+        </cite>
+      
+    
+  </footer>
+</blockquote>
+</p>
+
+<h3 id="wikipedia-link-generator">Wikipedia Link Generator</h3>
+
+<ul>
+<li>
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+<a href="https://en.wikipedia.org/wiki/VIC_cipher">VIC_cipher</a>
+</li>
+<li>
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+<a href="https://fr.wikipedia.org/wiki/VIC_cipher">VIC_cipher</a>
+</li>
+<li>
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+<a href="https://fr.wikipedia.org/wiki/VIC_cipher">VIC_cipher</a>
+</li>
+<li>
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+<a href="https://en.wikipedia.org/wiki/VIC_cipher">VIC Cipher</a>
+</li>
+<li>
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+<a href="https://en.wikipedia.org/wiki/VIC_cipher">VIC Cipher</a>
+</li>
+</ul>
+
+<h3 id="image-caption">Image Caption</h3>
+
+
+
+
+
+
+
+
+
+
+
+<span class="caption-wrapper">
+  <img class="caption" src="https://raw.githubusercontent.com/olOwOlo/hugo-theme-even/master/images/showcase.png" title="Sample caption" alt="Sample caption">
+  <span class="caption-text">Sample caption</span>
+</span>
 
 
 <h2 id="参考资料">参考资料</h2>
@@ -536,15 +1019,13 @@ if (document.getElementById('my-player') !== null) {
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
 <script type="text/javascript" src="/dist/even.min.js?v=2.6.3"></script>
-
-
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-34199129-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
-
+  <script type="text/javascript">
+    window.MathJax = {
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
 
 
 </body>
