@@ -6,20 +6,18 @@
     <description>Recent content on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 21:38:52 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About</title>
+      <title>关于</title>
       <link>http://www.xianmin.org/about/</link>
-      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      <pubDate>Sun, 01 Jan 2017 21:38:52 +0800</pubDate>
       
       <guid>http://www.xianmin.org/about/</guid>
-      <description>Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+      <description>关于我暂时没有更多可说的。</description>
     </item>
     
     <item>
