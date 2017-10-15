@@ -10,8 +10,15 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/post/04-zen-and-the-art-of-motorcycle-maintenance/</loc>
+    <lastmod>2017-05-01T15:31:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/post/03-focus-on-content/</loc>
-    <lastmod>2017-10-14T09:13:20+08:00</lastmod>
+    <lastmod>2017-04-01T09:13:20+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -52,7 +59,7 @@
   
   <url>
     <loc>http://www.xianmin.org/categories/essay/</loc>
-    <lastmod>2017-10-14T09:13:20+08:00</lastmod>
+    <lastmod>2017-04-01T09:13:20+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -79,8 +86,22 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/tags/note/</loc>
+    <lastmod>2017-05-01T15:31:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/post/</loc>
-    <lastmod>2017-10-14T09:13:20+08:00</lastmod>
+    <lastmod>2017-05-01T15:31:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xianmin.org/categories/read/</loc>
+    <lastmod>2017-05-01T15:31:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -95,6 +116,13 @@
   <url>
     <loc>http://www.xianmin.org/tags/tool/</loc>
     <lastmod>2017-03-01T18:03:09+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xianmin.org/tags/%E7%A6%85/</loc>
+    <lastmod>2017-05-01T15:31:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
