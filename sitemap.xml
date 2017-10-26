@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/post/read-peak/</loc>
+    <lastmod>2017-10-26T14:03:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/post/05-tools-addict/</loc>
     <lastmod>2017-06-01T09:32:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -108,14 +115,14 @@
   
   <url>
     <loc>http://www.xianmin.org/post/</loc>
-    <lastmod>2017-06-01T09:32:56+08:00</lastmod>
+    <lastmod>2017-10-26T14:03:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.xianmin.org/categories/read/</loc>
-    <lastmod>2017-05-05T10:04:20+08:00</lastmod>
+    <lastmod>2017-10-26T14:03:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -137,6 +144,13 @@
   <url>
     <loc>http://www.xianmin.org/tags/%E7%A6%85/</loc>
     <lastmod>2017-05-01T15:31:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xianmin.org/tags/%E7%BB%83%E4%B9%A0/</loc>
+    <lastmod>2017-10-26T14:03:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
