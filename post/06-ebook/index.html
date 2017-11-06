@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>构建你的移动书库——电子书阅读经验分享 - 贤民的比特记忆</title>
+  <link rel="alternate" hreflang="zh-CN" href="http://www.xianmin.com/" />
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="贤民" />
+  <meta name="description" content="写在前面 作为一个农民的儿子，我从小跟随父母在外漂泊，长年都是租的房子，家里地方不大，除了教科书、习题册，基本没有任何藏书。那时候，没两年就会搬一次家，光是搬教科书都觉得挺累赘的。即便在成年后，自己依然一直在外漂泊，没有固定的居所，还是不敢买太多书，没地方安置。当然，还有一个很实际的问题，买书花钱，自己没多少钱。很多书像消费品，看完就丢一边了，它摆在那儿更多的像是一种象征性的装饰。
+
+" />
+
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.29" />
+
+
+<link rel="canonical" href="http://www.xianmin.org/post/06-ebook/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" href="/favicon.ico" />
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.min.css?v=2.6.3" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+<meta property="og:title" content="构建你的移动书库——电子书阅读经验分享" />
+<meta property="og:description" content="写在前面
+
+作为一个农民的儿子，我从小跟随父母在外漂泊，长年都是租的房子，家里地方不大，除了教科书、习题册，基本没有任何藏书。那时候，没两年就会搬一次家，光是搬教科书都觉得挺累赘的。即便在成年后，自己依然一直在外漂泊，没有固定的居所，还是不敢买太多书，没地方安置。当然，还有一个很实际的问题，买书花钱，自己没多少钱。很多书像消费品，看完就丢一边了，它摆在那儿更多的像是一种象征性的装饰。
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.xianmin.org/post/06-ebook/" />
+
+
+
+<meta property="article:published_time" content="2017-11-06T13:13:15&#43;08:00"/>
+<meta property="article:modified_time" content="2017-11-06T13:13:15&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="构建你的移动书库——电子书阅读经验分享">
+<meta itemprop="description" content="写在前面
+
+作为一个农民的儿子，我从小跟随父母在外漂泊，长年都是租的房子，家里地方不大，除了教科书、习题册，基本没有任何藏书。那时候，没两年就会搬一次家，光是搬教科书都觉得挺累赘的。即便在成年后，自己依然一直在外漂泊，没有固定的居所，还是不敢买太多书，没地方安置。当然，还有一个很实际的问题，买书花钱，自己没多少钱。很多书像消费品，看完就丢一边了，它摆在那儿更多的像是一种象征性的装饰。
+
+">
+
+
+<meta itemprop="dateModified" content="2017-11-06T13:13:15&#43;08:00" />
+<meta itemprop="wordCount" content="2365">
+
+
+
+<meta itemprop="keywords" content="ebook,tool," />
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="构建你的移动书库——电子书阅读经验分享"/>
+<meta name="twitter:description" content="写在前面
+
+作为一个农民的儿子，我从小跟随父母在外漂泊，长年都是租的房子，家里地方不大，除了教科书、习题册，基本没有任何藏书。那时候，没两年就会搬一次家，光是搬教科书都觉得挺累赘的。即便在成年后，自己依然一直在外漂泊，没有固定的居所，还是不敢买太多书，没地方安置。当然，还有一个很实际的问题，买书花钱，自己没多少钱。很多书像消费品，看完就丢一边了，它摆在那儿更多的像是一种象征性的装饰。
+
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-34199129-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">贤民的比特记忆</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">主页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">全部文章</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">贤民的比特记忆</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">主页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">全部文章</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">构建你的移动书库——电子书阅读经验分享</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2017年11月06日 </span>
+        <div class="post-category">
+            <a href="/categories/essay/">essay</a>
+          </div>
+        <span class="more-meta"> 约 2365 字 </span>
+        <span class="more-meta"> 预计阅读 5 分钟 </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#写在前面">写在前面</a></li>
+<li><a href="#阅读电子书的工具">阅读电子书的工具</a>
+<ul>
+<li><a href="#kindle">Kindle</a></li>
+<li><a href="#android-平板-moon-reader-静读天下">Android 平板 + 【Moon+ Reader】（静读天下）</a></li>
+</ul></li>
+<li><a href="#电子书的获取方式">电子书的获取方式</a>
+<ul>
+<li><a href="#关于电子书格式的选择">关于电子书格式的选择</a></li>
+</ul></li>
+<li><a href="#使用-calibre-管理电子书">使用 Calibre 管理电子书</a></li>
+<li><a href="#写在最后">写在最后</a></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <h1 id="写在前面">写在前面</h1>
+
+<p>作为一个农民的儿子，我从小跟随父母在外漂泊，长年都是租的房子，家里地方不大，除了教科书、习题册，基本没有任何藏书。那时候，没两年就会搬一次家，光是搬教科书都觉得挺累赘的。即便在成年后，自己依然一直在外漂泊，没有固定的居所，还是不敢买太多书，没地方安置。当然，还有一个很实际的问题，买书花钱，自己没多少钱。很多书像消费品，看完就丢一边了，它摆在那儿更多的像是一种象征性的装饰。</p>
+
+<p></p>
+
+<p>现在的书籍太多了，想看的也太多，根本买不过来。电子书的好处则显而易见，携带方便，一块 1T 的移动硬盘就可以安置几万本电子书，在需要的时候，也可以随时随地的翻一翻。随着技术的进步，阅读设备不断改进完善，电子阅读必然越来越趋于主流。即便在快递业如此发达的中国，身处乡下，买实体书也要等上一个星期，而电子书呢？点击下载，等上几秒钟就可以翻阅了。</p>
+
+<p>我写此篇文章的目的，是想和大家分享一下我的电子阅读经验，尤其是像我一样没什么钱，又有阅读需求的朋友。这几年我通过阅读电子书，不光获取了很多信息，在物质上，我估算了下，至少给我省下了几万块人民币。比如说，很多优质的信息，你只能通过英文来获取，英文是一手资料，但是原版的英文书，太贵了，国内还买不到，而电子书就完美解决了这个问题。</p>
+
+<p>下面，本文从三个方便来分享我的电子阅读经验：</p>
+
+<ol>
+<li>阅读电子书的工具</li>
+<li>电子书的获取方式</li>
+<li>使用 Calibre 管理电子书</li>
+</ol>
+
+<h1 id="阅读电子书的工具">阅读电子书的工具</h1>
+
+<p>先谈一谈阅读电子书的工具。</p>
+
+<h2 id="kindle">Kindle</h2>
+
+<p><img src="/image/ebook/00.jpg" alt="img" /></p>
+
+<p>5年前，我买了一台 Kindle4 。它是真的好用，重量轻，价格不算贵，续航时间长，是电子水墨屏，就算看的时间久了眼睛也不会很累。配合 calibre 管理电子书非常方便。</p>
+
+<p>用了一段时间之后，也渐渐发现了它的缺陷：</p>
+
+<ol>
+<li>做标注不方便，标注了也不容易导出。</li>
+<li>由于不是触摸屏，搜索不方便，跳转也不方便。</li>
+<li>不方便阅读一些大尺寸的 PDF</li>
+</ol>
+
+<p>直到去年买了一台 Android 平板，就替代了 Kindle4 ，成了我的主力阅读工具。</p>
+
+<h2 id="android-平板-moon-reader-静读天下">Android 平板 + 【Moon+ Reader】（静读天下）</h2>
+
+<p><img src="/image/ebook/01.jpg" alt="img" /></p>
+
+<p>说起购买平板的缘由，只是因为当时看到一个朋友在用，国产的，只要几百块，一时就心动了。苹果系列我是买不起的，也不喜欢它封闭的生态圈，所以从没考虑过。至于我买的这个平板的品牌型号，我就不推荐了，充电慢续航短实在是硬伤（可能大部分平板都有这个问题？）。它让我惊艳的，是搭载了 Android 这个开放的系统，再配合上 <strong>Moon+ Reader</strong> （中文叫【静读天下】）APP ，阅读体验比 Kindle4 好太多了。体现在以下几个方面：</p>
+
+<ol>
+<li>更快捷的目录跳转</li>
+<li>功能齐全的批注，也支持快速跳转，还能够导出</li>
+<li>支持自定义样式</li>
+<li>阅读扫描版的 PDF</li>
+</ol>
+
+<p>只要是 Android 系统都可以安装，你不妨在手机上体验一下。</p>
+
+<h1 id="电子书的获取方式">电子书的获取方式</h1>
+
+<p>我主要使用的几个网站（按先后顺序）：</p>
+
+<ul>
+<li><a href="https://www.mlook.mobi/">mLook 看书</a> 电子书分享网站</li>
+<li><a href="http://readfree.me/">readfree.me</a> 电子书分享网站</li>
+<li><a href="https://www.jiumodiary.com/">Jiumo E-Book Search 鸠摩搜书 - 电子书搜索引擎</a></li>
+<li><a href="http://www.bdybbs.com/">Bdybbs资源站</a> 搜索百度盘分享的资源</li>
+<li><a href="http://gen.lib.rus.ec/">Library Genesis</a> 搜索英文书</li>
+<li>Google</li>
+</ul>
+
+<p>网站数量在精而不在多。基本上，这几年我 99% 的阅读需求，通过这几个网站都能找到合适的电子版。</p>
+
+<p>电子书分享（主要是正版书）出于版权保护的原因，通常处于法律的灰色地带。比如未在国内发行的英文正版书，可能就不受中国法律保护；而未在美国发行的中文正版书，也许就不受美国法律保护（具体法律法规我也不太清楚）。我在网上发现，很多电子版英文书都是俄罗斯人“盗版”然后流传开的。那么，只要是一个开放的互联网环境，掌握了合适的方法，就能找到他人分享的盗版电子书。很多人不懂得怎样找书。明明很简单的方法，我认为就是缺少一点计算机使用技巧，主要是搜索技巧，还有折腾（学习新工具）的动力。</p>
+
+<h2 id="关于电子书格式的选择">关于电子书格式的选择</h2>
+
+<p>一、 首选 azw3 中亚正版格式</p>
+
+<p>什么是中亚正版？就是在亚马逊中国（amazon.cn）上购买的正版电子书，它们的格式通常是 azw3, 是由 Amazon 专为电子出版物推出的格式。既然是正版电子书，它的优势也是显而易见的，由 Amazon 官方制作，经过编辑校对，排版极佳。但是缺陷也很明显，由于是亚马逊公司出于商业目的单独开发的私有标准，很多软件并不支持该格式的读写。</p>
+
+<p>二、 次选 epub 开源格式</p>
+
+<p>epub 是一种开放的电子图书标准，它同 azw3 一样支持一些复杂的排版。既然是一种开放的格式，各种软件对它的支持也是最好的。</p>
+
+<p>三、Kindle 专属格式 mobi</p>
+
+<p>mobi 格式的流行，绝大程度上依靠 Amazon 这个巨大的内容提供商及其电子书阅读器 Kindle 的流行普及，是 Amazon 早期的标准格式。因此一些 Amazon 早期制作的排版好的电子书是 mobi 格式的，但自从推出 azw3 之后就逐渐被取代了。mobi 对复杂排版的支持度相比 epub 要弱很多。</p>
+
+<p>四、最常见的电子书格式 PDF</p>
+
+<p>PDF 在移动设备上使用有一个非常大的缺陷，无法自适应屏幕，比如用 6 寸的屏幕阅读 8 寸的 PDF 文档，在全屏显示下字体就要小很多。如果有其他格式选择，一般不选择 PDF 。</p>
+
+<p>五、纯文本格式 txt</p>
+
+<p>总结：选择顺序 azw3 &gt; epub &gt; mobi &gt; pdf &gt; txt。（注：这几种格式都可以通过 calibre 进行格式转换）</p>
+
+<h1 id="使用-calibre-管理电子书">使用 Calibre 管理电子书</h1>
+
+<p>传统的方法是使用文件夹分类管理，当书目多了以后，这种管理方式比较低效。</p>
+
+<p><img src="/image/ebook/03.png" alt="img" /></p>
+
+<p>Clibre 这个软件，集电子书管理、编辑、格式转换、阅读于一身，可以说是最好的电子书管理软件。有了它，你完全可以构建一个属于自己的移动图书馆。</p>
+
+<p><img src="/image/ebook/04.png" alt="img" /></p>
+
+<p>关于它的使用教程，网上搜一下有很多，我就不多做介绍了。</p>
+
+<h1 id="写在最后">写在最后</h1>
+
+<p>记得十年前我在老家县城读书的时候，资源很有限，学校的图书馆很小，基本没什么感兴趣的书，另外能找到书的地方，一个是租书店，大多是网络小说，一个是图书城，类别相对会多一些。前年再回到县城，发现图书城搬迁了，规模小了很多，里面卖的绝大多数都是教辅材料了。在落后的地方，能够获取到的信息太少，而互联网改变了这一切。</p>
+
+<p>这个年代，我不知道还有多少人在看书呢？不是没书可看，是信息太丰富了，互联网上铺天盖地的信息，每天微信订阅号的推送都看不完，哪还有时间看书呢？我很难回答，阅读带给了我什么，同样的收获，也许通过电影、综艺节目、与人交流，包括自身的经历，一样能够获得。“阅读”对我而言，是一项成本较低，信息表达更充分的媒介，仅此而已。</p>
+
+<p>希望这篇文章，能够对你在获取更多的信息上有所帮助。</p>
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/ebook/">ebook</a>
+          
+          <a href="/tags/tool/">tool</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/read-peak/">
+            <span class="next-text nav-default">关于编程的练习方法——读《刻意练习》有感</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    (function() {
+        
+        
+        if (window.location.hostname === 'localhost') return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'xianmin12';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com/" class="dsq-brlink" target="_blank">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  
+      </div>  
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:xianmin12@qq.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com/xian_min" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/xianmin" class="iconfont icon-github" title="github"></a>
+      <a href="https://weibo.com/xianmin12" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com/people/xian-min" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://www.douban.com/people/xianmin12/" class="iconfont icon-douban" title="douban"></a>
+  <a href="http://www.xianmin.org/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy; 
+    2017
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">贤民</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=2.6.3"></script>
+
+
+</body>
+</html>
