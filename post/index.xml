@@ -6,10 +6,28 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 06 Nov 2017 13:13:15 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 14 Nov 2017 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JavaScript —— this 绑定</title>
+      <link>http://www.xianmin.org/post/javascript-this/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/javascript-this/</guid>
+      <description>&lt;p&gt;Google 搜索出来的两个不错的链接：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jeffjade.com/2015/08/03/2015-08-03-javascript-this/&#34;&gt;JavaScript 之 this 详解 | 晚晴幽草轩&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://segmentfault.com/a/1190000003046071&#34;&gt;JS 中 this 关键字详解 - JSer - SegmentFault&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;我是先阅读的 &lt;a href=&#34;https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&amp;amp;%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes&#34;&gt;You-Dont-Know-JS: this &amp;amp; Object Prototypes&lt;/a&gt; 。再回过头看上面的那两篇文章，我觉得他们讲解的太复杂了，而 《You-Dont-Know-JS》 就归纳的非常好。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>构建你的移动书库——电子书阅读经验分享</title>
