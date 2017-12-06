@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>JavaScript —— this 绑定 - 贤民的比特记忆</title>
+  <title>什么都略懂一点却一样也不精通 - 贤民的比特记忆</title>
   <link rel="alternate" hreflang="zh-CN" href="http://www.xianmin.com/" />
 
 <meta name="renderer" content="webkit" />
@@ -19,10 +19,7 @@
 
 
 <meta name="author" content="贤民" />
-  <meta name="description" content="Google 搜索出来的两个不错的链接：
- JavaScript 之 this 详解 | 晚晴幽草轩 JS 中 this 关键字详解 - JSer - SegmentFault  我是先阅读的 You-Dont-Know-JS: this &amp;amp; Object Prototypes 。再回过头看上面的那两篇文章，我觉得他们讲解的太复杂了，而 《You-Dont-Know-JS》 就归纳的非常好。
-
-" />
+  <meta name="description" content="翻阅这一年写的日记，“2017年6月26日：我是一个无知、无明、无趣的年轻人，对烟酒没有控制，自制力差，拖延症严重，喜欢胡思乱想，空想而缺乏" />
 
 
 
@@ -33,7 +30,7 @@
 <meta name="generator" content="Hugo 0.29" />
 
 
-<link rel="canonical" href="http://www.xianmin.org/post/javascript-this/" />
+<link rel="canonical" href="http://www.xianmin.org/post/07-2017/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -46,28 +43,15 @@
 <link href="/dist/even.min.css?v=2.6.3" rel="stylesheet">
 <link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
-<meta property="og:title" content="JavaScript —— this 绑定" />
-<meta property="og:description" content="Google 搜索出来的两个不错的链接：
-
-
-JavaScript 之 this 详解 | 晚晴幽草轩
-JS 中 this 关键字详解 - JSer - SegmentFault
-
-
-我是先阅读的 You-Dont-Know-JS: this &amp; Object Prototypes 。再回过头看上面的那两篇文章，我觉得他们讲解的太复杂了，而 《You-Dont-Know-JS》 就归纳的非常好。
-
-" />
+<meta property="og:title" content="什么都略懂一点却一样也不精通" />
+<meta property="og:description" content="翻阅这一年写的日记，“2017年6月26日：我是一个无知、无明、无趣的年轻人，对烟酒没有控制，自制力差，拖延症严重，喜欢胡思乱想，空想而缺乏" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.xianmin.org/post/javascript-this/" />
+<meta property="og:url" content="http://www.xianmin.org/post/07-2017/" />
 
 
 
-<meta property="article:published_time" content="2017-11-14T14:39:00&#43;08:00"/>
-<meta property="article:modified_time" content="2017-11-14T15:06:14&#43;08:00"/>
-
-
-
-
+<meta property="article:published_time" content="2017-12-06T20:59:00&#43;08:00"/>
+<meta property="article:modified_time" content="2017-12-06T20:59:40&#43;08:00"/>
 
 
 
@@ -75,36 +59,22 @@ JS 中 this 关键字详解 - JSer - SegmentFault
 
 
 
-<meta itemprop="name" content="JavaScript —— this 绑定">
-<meta itemprop="description" content="Google 搜索出来的两个不错的链接：
-
-
-JavaScript 之 this 详解 | 晚晴幽草轩
-JS 中 this 关键字详解 - JSer - SegmentFault
-
-
-我是先阅读的 You-Dont-Know-JS: this &amp; Object Prototypes 。再回过头看上面的那两篇文章，我觉得他们讲解的太复杂了，而 《You-Dont-Know-JS》 就归纳的非常好。
-
-">
-
-
-<meta itemprop="dateModified" content="2017-11-14T14:39:00&#43;08:00" />
-<meta itemprop="wordCount" content="604">
 
 
 
-<meta itemprop="keywords" content="JavaScript," />
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="JavaScript —— this 绑定"/>
-<meta name="twitter:description" content="Google 搜索出来的两个不错的链接：
+
+<meta itemprop="name" content="什么都略懂一点却一样也不精通">
+<meta itemprop="description" content="翻阅这一年写的日记，“2017年6月26日：我是一个无知、无明、无趣的年轻人，对烟酒没有控制，自制力差，拖延症严重，喜欢胡思乱想，空想而缺乏">
 
 
-JavaScript 之 this 详解 | 晚晴幽草轩
-JS 中 this 关键字详解 - JSer - SegmentFault
+<meta itemprop="dateModified" content="2017-12-06T20:59:00&#43;08:00" />
+<meta itemprop="wordCount" content="608">
 
 
-我是先阅读的 You-Dont-Know-JS: this &amp; Object Prototypes 。再回过头看上面的那两篇文章，我觉得他们讲解的太复杂了，而 《You-Dont-Know-JS》 就归纳的非常好。
 
-"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="什么都略懂一点却一样也不精通"/>
+<meta name="twitter:description" content="翻阅这一年写的日记，“2017年6月26日：我是一个无知、无明、无趣的年轻人，对烟酒没有控制，自制力差，拖延症严重，喜欢胡思乱想，空想而缺乏"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -179,14 +149,14 @@ ga('send', 'pageview');
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">JavaScript —— this 绑定</h1>
+      <h1 class="post-title">什么都略懂一点却一样也不精通</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2017年11月14日 </span>
+        <span class="post-time"> 2017年12月06日 </span>
         <div class="post-category">
-            <a href="/categories/tech/">tech</a>
+            <a href="/categories/essay/">essay</a>
           </div>
-        <span class="more-meta"> 约 604 字 </span>
+        <span class="more-meta"> 约 608 字 </span>
         <span class="more-meta"> 预计阅读 2 分钟 </span>
       </div>
     </header>
@@ -196,124 +166,38 @@ ga('send', 'pageview');
 <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content">
-      <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#默认绑定">默认绑定</a></li>
-<li><a href="#隐式绑定">隐式绑定</a></li>
-<li><a href="#注意-隐式绑定的丢失问题">注意：隐式绑定的丢失问题</a></li>
-<li><a href="#强制绑定-apply-call-bind">强制绑定： apply, call, bind</a></li>
-<li><a href="#new-绑定">new 绑定</a></li>
-</ul></li>
-</ul>
-</nav>
+      
   </div>
 </div>
 
     
     <div class="post-content">
-      <p>Google 搜索出来的两个不错的链接：</p>
+      <p>翻阅这一年写的日记，“2017年6月26日：我是一个无知、无明、无趣的年轻人，对烟酒没有控制，自制力差，拖延症严重，喜欢胡思乱想，空想而缺乏行动，空有抱负却一事无成，喜好很多但一无所长。也许再过几年，我就是一个无知、无明、无趣的中年人了。”</p>
 
-<ul>
-<li><a href="https://jeffjade.com/2015/08/03/2015-08-03-javascript-this/">JavaScript 之 this 详解 | 晚晴幽草轩</a></li>
-<li><a href="https://segmentfault.com/a/1190000003046071">JS 中 this 关键字详解 - JSer - SegmentFault</a></li>
-</ul>
+<p>回想起这几年，似乎每年总有那么几天，感到焦虑，厌恶自己。因为对生活充满困惑，我翻看佛经还有哲学，希望从中能够得到答案，但这个世界的复杂程度远非短时间的阅读就解释的了。疲惫了，学习乐器，学会用箫吹几首简单的曲子，学会用吉他弹几首简单的民谣，仅此而已，更多的时候是玩几局游戏。每当想到现在以及未来存在的经济压力问题，学习英语，学习计算机，然而路还很长，实际能力始终达不到期望。目前我管理的这家青年旅舍，只能说勉强维持运转，经营、管理、推广、人际交往，这些都是问题，困扰着我。什么都略懂一点却一样也不精通，这就是自己当下的状态吧。</p>
 
-<p>我是先阅读的 <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&amp;%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes">You-Dont-Know-JS: this &amp; Object Prototypes</a> 。再回过头看上面的那两篇文章，我觉得他们讲解的太复杂了，而 《You-Dont-Know-JS》 就归纳的非常好。</p>
+<p>不知不觉就到了12月，这一年又快要结束了。似乎还是老样子，没什么说得出口的，即便是小小的成就。除了店里的营业额比去年略高了些，仅仅只是略高而已。也许是输出太少了吧，学习需要记录，思想需要表达，我应该多做一些输出的事情。搭建这个博客写文章的目的之一，就是输出内容。</p>
 
-<p></p>
-
-<p>以下是总结笔记：</p>
-
-<p>JS 中的 <code>this</code> 总是指向一个对象 (Object)，这个对象是基于函数运行时 <strong>动态绑定</strong> 的。要判断 <code>this</code> 的绑定对象，首先找到这个函数的直接调用位置，然后应用下面四条规则来判断：</p>
+<p>今年印象较深的几个收获：</p>
 
 <ol>
-<li>（new 绑定）由 <code>new</code> 调用？绑定到新创建的对象。</li>
-<li>（强制绑定）由 <code>call</code> 或者 <code>apply</code> （或者 <code>bind</code> ）调用？绑定到指定的对象。</li>
-<li>（隐式绑定）由上下文对象调用？绑定到那个上下文对象。</li>
-<li>（默认绑定）在严格模式下绑定到 <code>undefined</code> ，否则绑定到全局对象。</li>
+<li>开始学习 JS</li>
+<li>《刻意练习》、《正念的奇迹》</li>
+<li>和女友吵了几次架</li>
 </ol>
 
-<p>例外，ES6 中的箭头函数会继承外层函数调用的 <code>this</code> 绑定。（和 ES6 之前代码中的 <code>self = this</code> 机制一样）</p>
+<p>关于 JS 的学习</p>
 
-<h2 id="默认绑定">默认绑定</h2>
+<ol>
+<li>《JavaScript 权威指南》了解基本语法</li>
+<li>从 CodeWars 的练习中强化了自己的基本功</li>
+<li>《你不知道的 JS》进阶学习 JS 中的难点</li>
+<li>了解了 npm、gulp 等现代 JS 构建工具</li>
+<li>electron 的学习</li>
+</ol>
 
-<pre><code class="language-javascript">function foo() {
-  console.log( this.a );
-}
+<p>简单的对本年度作个小结，很多事都不大记得了。</p>
 
-var a = 2;
-
-foo(); // 输出 2
-// 绑定到全局对象 a， 如果是严格模式，绑定到 undefined
-</code></pre>
-
-<h2 id="隐式绑定">隐式绑定</h2>
-
-<pre><code class="language-javascript">function foo() {
-  console.log( this.a );
-}
-
-var obj = {
-  a: 2,
-  foo: foo
-};
-
-obj.foo(); // 输出 2
-// 由对象 obj 调用，绑定到 obj
-</code></pre>
-
-<h2 id="注意-隐式绑定的丢失问题">注意：隐式绑定的丢失问题</h2>
-
-<pre><code class="language-js">function foo() {
-  console.log( this.a );
-}
-
-var obj = {
-  a: 2,
-  foo: foo
-};
-
-var bar = obj.foo; // 注意这个引用！
-
-var a = &quot;oops, global&quot;; // 全局对象 a
-
-bar(); // 输出： &quot;oops, global&quot; 绑定丢失！
-
-setTimeout( obj.foo, 100 ); // 输出： &quot;oops, global&quot; 绑定丢失！
-</code></pre>
-
-<h2 id="强制绑定-apply-call-bind">强制绑定： apply, call, bind</h2>
-
-<pre><code class="language-js">function foo() {
-  console.log( this.a );
-}
-
-var obj = {
-  a: 2
-};
-
-var bar = function() {
-  foo.call( obj ); // 将 foo 的 this 强制绑定到对象 obj
-};
-
-bar(); // 输出：2
-setTimeout( bar, 100 ); // 输出： 2
-
-// 强制绑定的对象无法被覆盖
-bar.call( window ); // 2
-</code></pre>
-
-<h2 id="new-绑定">new 绑定</h2>
-
-<pre><code class="language-js">function foo(a) {
-  this.a = a;
-}
-
-var bar = new foo( 2 ); // 使用 new 绑定到对象 bar
-console.log( bar.a ); // 输出 2
-</code></pre>
     </div>
 
     
@@ -325,7 +209,7 @@ console.log( bar.a ); // 输出 2
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
-    <span class="item-content">2017年11月14日</span>
+    <span class="item-content">2017年12月06日</span>
   </p>
   
   <p class="copyright-item">
@@ -338,23 +222,14 @@ console.log( bar.a ); // 输出 2
     
 
     <footer class="post-footer">
-      <div class="post-tags">
-          
-          <a href="/tags/javascript/">JavaScript</a>
-          
-        </div>
+      
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/07-2017/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">什么都略懂一点却一样也不精通</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
         
-          <a class="next" href="/post/06-ebook/">
-            <span class="next-text nav-default">构建你的移动书库——电子书阅读经验分享</span>
+          <a class="next" href="/post/javascript-this/">
+            <span class="next-text nav-default">JavaScript —— this 绑定</span>
             <span class="prev-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
