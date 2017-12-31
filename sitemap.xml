@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/post/2017/</loc>
+    <lastmod>2017-12-31T14:00:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/post/javascript-this/</loc>
     <lastmod>2017-11-14T15:06:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -101,7 +108,7 @@
   
   <url>
     <loc>http://www.xianmin.org/categories/essay/</loc>
-    <lastmod>2017-11-06T13:13:15+08:00</lastmod>
+    <lastmod>2017-12-31T14:00:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -143,7 +150,7 @@
   
   <url>
     <loc>http://www.xianmin.org/post/</loc>
-    <lastmod>2017-11-14T15:06:14+08:00</lastmod>
+    <lastmod>2017-12-31T14:00:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -177,6 +184,13 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/tags/%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2017-12-31T14:00:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/tags/%E7%A6%85/</loc>
     <lastmod>2017-05-01T15:31:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -193,6 +207,13 @@
   <url>
     <loc>http://www.xianmin.org/</loc>
     <lastmod>2017-10-10T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xianmin.org/tags/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2017-12-31T14:00:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
