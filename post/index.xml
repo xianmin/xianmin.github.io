@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 30 Dec 2017 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jan 2018 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>一些 Visual Studio Code 的使用技巧</title>
+      <link>http://www.xianmin.org/post/vscode/</link>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/vscode/</guid>
+      <description>简介 Visual Studio Code （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。 官方文档： https://code.visualstudio.com/docs VScode github 地址： https://github.com/Microsoft/vscode Visual Studio Tips and Tricks 本文旨在分享我个人的 VSCode</description>
+    </item>
     
     <item>
       <title>别了，2017！</title>

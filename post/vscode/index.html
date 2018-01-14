@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>一些 Visual Studio Code 的使用技巧 - 贤民的比特记忆</title>
+  <link rel="alternate" hreflang="zh-CN" href="http://www.xianmin.com/" />
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="贤民" />
+  <meta name="description" content="简介 Visual Studio Code （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。 官方文档： https://code.visualstudio.com/docs VScode github 地址： https://github.com/Microsoft/vscode Visual Studio Tips and Tricks 本文旨在分享我个人的 VSCode" />
+
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<link rel="canonical" href="http://www.xianmin.org/post/vscode/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" href="/favicon.ico" />
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+<meta property="og:title" content="一些 Visual Studio Code 的使用技巧" />
+<meta property="og:description" content="简介 Visual Studio Code （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。 官方文档： https://code.visualstudio.com/docs VScode github 地址： https://github.com/Microsoft/vscode Visual Studio Tips and Tricks 本文旨在分享我个人的 VSCode" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.xianmin.org/post/vscode/" />
+
+
+
+<meta property="article:published_time" content="2018-01-10T00:00:00&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-01-14T22:06:26&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="一些 Visual Studio Code 的使用技巧">
+<meta itemprop="description" content="简介 Visual Studio Code （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。 官方文档： https://code.visualstudio.com/docs VScode github 地址： https://github.com/Microsoft/vscode Visual Studio Tips and Tricks 本文旨在分享我个人的 VSCode">
+
+
+<meta itemprop="datePublished" content="2018-01-10T00:00:00&#43;08:00" />
+<meta itemprop="dateModified" content="2018-01-10T00:00:00&#43;08:00" />
+<meta itemprop="wordCount" content="1216">
+
+
+
+<meta itemprop="keywords" content="vscode,tips,editor,tool," />
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="一些 Visual Studio Code 的使用技巧"/>
+<meta name="twitter:description" content="简介 Visual Studio Code （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。 官方文档： https://code.visualstudio.com/docs VScode github 地址： https://github.com/Microsoft/vscode Visual Studio Tips and Tricks 本文旨在分享我个人的 VSCode"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-34199129-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">贤民的比特记忆</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">主页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">全部文章</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a>
+  </ul>
+</nav>
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">贤民的比特记忆</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">主页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">全部文章</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li>
+  </ul>
+</nav>
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">一些 Visual Studio Code 的使用技巧</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018年01月10日 </span>
+        <div class="post-category">
+            
+              <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"> 计算机 </a>
+            
+          </div>
+        <span class="more-meta"> 约 1216 字 </span>
+        <span class="more-meta"> 预计阅读 3 分钟 </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#简介">简介</a></li>
+<li><a href="#安装">安装</a></li>
+<li><a href="#界面">界面</a></li>
+<li><a href="#特色-与常见编辑器不同的地方">特色（与常见编辑器不同的地方）</a>
+<ul>
+<li><a href="#标签预览模式">标签预览模式</a></li>
+<li><a href="#命令面板">命令面板</a></li>
+<li><a href="#peek-definition">Peek Definition</a></li>
+</ul></li>
+<li><a href="#编辑相关技巧">编辑相关技巧</a>
+<ul>
+<li><a href="#快捷键">快捷键</a></li>
+<li><a href="#多光标编辑-multi-cursor-selection">多光标编辑 Multi cursor selection</a></li>
+<li><a href="#辅助线">辅助线</a></li>
+</ul></li>
+<li><a href="#zenmode-让编辑界面更简洁">zenmode——让编辑界面更简洁</a></li>
+<li><a href="#设置的级别">设置的级别</a></li>
+<li><a href="#一些不错的扩展">一些不错的扩展</a>
+<ul>
+<li><a href="#官方推荐">官方推荐</a></li>
+<li><a href="#bookmarks">Bookmarks</a></li>
+<li><a href="#git-history">Git History</a></li>
+<li><a href="#path-intellisense">Path Intellisense</a></li>
+</ul></li>
+<li><a href="#debug"><span class="todo TODO_">TODO </span> DEBUG</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      
+
+<h2 id="简介">简介</h2>
+
+<p><code>Visual Studio Code</code> （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。</p>
+
+<ul>
+<li>官方文档： <a href="https://code.visualstudio.com/docs">https://code.visualstudio.com/docs</a></li>
+<li>VScode github 地址： <a href="https://github.com/Microsoft/vscode">https://github.com/Microsoft/vscode</a></li>
+<li><a href="https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_editing-hacks">Visual Studio Tips and Tricks</a></li>
+</ul>
+
+<p>本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。</p>
+
+<h2 id="安装">安装</h2>
+
+<p>官网下载地址： <a href="https://code.visualstudio.com/download">Download Visual Studio Code - Mac, Linux, Windows</a></p>
+
+<p>如果你和我一样使用 Deepin Linux，可以直接从 Deepin Store 进行安装。</p>
+
+<h2 id="界面">界面</h2>
+
+
+<figure >
+    
+        <img src="/image/vscode/00.png" />
+    
+    
+</figure>
+
+
+<h2 id="特色-与常见编辑器不同的地方">特色（与常见编辑器不同的地方）</h2>
+
+<h3 id="标签预览模式">标签预览模式</h3>
+
+
+<figure >
+    
+        <img src="/image/vscode/01.gif" />
+    
+    
+</figure>
+
+
+<p>VSCode 中的标签和我们平常使用的软件中的标签不太一样，我开始的时候很疑惑，为什么 VSCode 打开新文件不是在新标签中打开，后来才知道是因为它默认开启了“预览模式”（Preview mode）。预览模式中的“标签名字体”显示的是 <strong>斜体</strong> ， <strong>单击文件</strong> 不会开启新的标签， <strong>双击文件</strong> 或者 <strong>双击标签</strong> 就可以将文件固定了。</p>
+
+<p>在设置中可以取消预览模式： <code>workbench.editor.enablePreview</code> 。</p>
+
+<h3 id="命令面板">命令面板</h3>
+
+<p>快捷键 <code>Ctrl+Shift+P</code> 呼出命令面板，通过命令面板可以快速使用一些指令。</p>
+
+
+<figure >
+    
+        <img src="/image/vscode/02.gif" />
+    
+    
+</figure>
+
+
+<h3 id="peek-definition">Peek Definition</h3>
+
+<p>这个功能，可以快速预览函数（或类）的定义内容，右键菜单中有选项，或者用快捷键 <code>Ctrl+shift+F10</code> 。</p>
+
+
+<figure >
+    
+        <img src="/image/vscode/references.png" />
+    
+    
+</figure>
+
+
+<h2 id="编辑相关技巧">编辑相关技巧</h2>
+
+<h3 id="快捷键">快捷键</h3>
+
+<p>官方文档： <a href="https://code.visualstudio.com/docs/getstarted/keybindings">Visual Studio Code Key Bindings</a></p>
+
+<p>熟练使用快捷键可以极大的提高效率，但是不同编辑器的快捷键一般都不一样，为了减少迁移后改变习惯的代价，可以通过安装扩展解决这个问题。比如我要将 VSCode 的快捷键设定改为 Emacs 的设定，安装下面这个扩展就行了。</p>
+
+<p><a href="https://marketplace.visualstudio.com/items?itemName=lfs.vscode-emacs-friendly">Emacs Friendly Keymap - Visual Studio Marketplace</a> （ <strong>官方推荐的那个没有再维护了</strong> ）</p>
+
+<p>由于 <code>Ctrl</code> 是一个经常需要用到的按键，不妨将 <code>Ctrl</code> 和 <code>CapsLock</code> 这两个键调换。调换之后再按 <code>Ctrl</code> 就舒服快捷的多。</p>
+
+<h3 id="多光标编辑-multi-cursor-selection">多光标编辑 Multi cursor selection</h3>
+
+<ul>
+<li><strong>基本：</strong> <code>Alt+Click</code> 即，按住 Alt 键，依次单击（或者选择）需要编辑的位置，可以依次添加光标。 Alt 键可以在设置中更改。</li>
+<li><strong>一列多光标：</strong> <code>Shift+Alt+Down</code> 或者 <code>Shift+Alt+Up</code> 可以在上下位置添加光标。</li>
+<li><strong>依次选中相同单词：</strong> 选中一个单词，按 <code>Ctrl+D</code> ，可以依次选中下一个相同单词。</li>
+<li><strong>选中所有相同单词：</strong> 选中一个单词，按 <code>Ctrl+Shift+L</code> ，可以一次性选中文本中 <strong>所有相同单词</strong> 。</li>
+<li><strong>矩形选择：</strong> 按住 <code>Shift+Alt</code> ，再进行选择，则选择区域是一个矩形。</li>
+<li><strong>括号选择：</strong> <code>Shift+Alt+Right</code> ，会选中匹配括号中的内容，并可以扩大选中区域。</li>
+</ul>
+
+
+<figure >
+    
+        <img src="/image/vscode/multicursor.gif" />
+    
+    
+</figure>
+
+
+
+<figure >
+    
+        <img src="/image/vscode/column-select.gif" />
+    
+    
+</figure>
+
+
+<h3 id="辅助线">辅助线</h3>
+
+<ol>
+<li>显示代码缩进的辅助线，设置 &ldquo;editor.renderIndentGuides&rdquo;: true</li>
+<li>代码长度标尺，比如在第80列的地方显示标尺，设置 &ldquo;editor.rulers&rdquo;: [80]</li>
+</ol>
+
+<h2 id="zenmode-让编辑界面更简洁">zenmode——让编辑界面更简洁</h2>
+
+<p>如果你像我一样，有时候需要一边开着浏览器（或者终端等等）一边编辑文件，那么使用 <code>zenmode</code> 模式，则可以使 VSCode 的界面更加简洁。</p>
+
+
+<figure >
+    
+        <img src="/image/vscode/03.png" />
+    
+    
+</figure>
+
+
+<p>小技巧：</p>
+
+<ol>
+<li>设置 &ldquo;zenMode.fullScreen&rdquo;: false ，默认为全屏。</li>
+<li>设置 &ldquo;window.menuBarVisibility&rdquo;: &ldquo;toggle&rdquo; ，这样可以在需要的时候显示目录栏。</li>
+</ol>
+
+<h2 id="设置的级别">设置的级别</h2>
+
+<p>官方文档： <a href="https://code.visualstudio.com/docs/getstarted/settings">Visual Studio Code User and Workspace Settings</a></p>
+
+<p>vscode 的设置分三个级别：</p>
+
+<ul>
+<li>默认设置（安装完成后）</li>
+<li>用户设置（用户自行修改的设定）</li>
+<li>工作区设置（团队项目下的统一设定）</li>
+</ul>
+
+<p>优先级依次递增。即，优先采用工作区的设置，再采用用户的个人设置，最后采用默认设置。</p>
+
+<p>对于团队项目，一些规范设置可以通过在项目目录下新建一个 <code>.vscode/setting.json</code> 文件进行配置。</p>
+
+<h2 id="一些不错的扩展">一些不错的扩展</h2>
+
+<h3 id="官方推荐">官方推荐</h3>
+
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome">Debugger for Chrome</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">ESLint</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner">Code Runner</a></li>
+<li>等等支持各种程序语言的扩展</li>
+</ul>
+
+<h3 id="bookmarks">Bookmarks</h3>
+
+<p>地址： <a href="https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks">Bookmarks - Visual Studio Marketplace</a></p>
+
+<p>为 VSCode 添加书签功能，方便跳转。</p>
+
+<h3 id="git-history">Git History</h3>
+
+<p>地址： <a href="https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory">Git History (git log) - Visual Studio Marketplace</a></p>
+
+<p>非常方便的查看 Git Log，也算是必装的一个扩展了。</p>
+
+<h3 id="path-intellisense">Path Intellisense</h3>
+
+<p>地址： <a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense">Path Intellisense - Visual Studio Marketplace</a></p>
+
+<p>自动补全路径以及文件名。</p>
+
+<h2 id="debug"><span class="todo TODO_">TODO </span> DEBUG</h2>
+
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">贤民</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">2018年01月14日</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/vscode/">vscode</a>
+          
+          <a href="/tags/tips/">tips</a>
+          
+          <a href="/tags/editor/">editor</a>
+          
+          <a href="/tags/tool/">tool</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/2017/">
+            <span class="next-text nav-default">别了，2017！</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+    
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    (function() {
+        
+        
+        if (window.location.hostname === 'localhost') return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'xianmin12';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com/" class="dsq-brlink" target="_blank">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  
+  </article>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:xianmin12@qq.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com/xian_min" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/xianmin" class="iconfont icon-github" title="github"></a>
+      <a href="https://weibo.com/xianmin12" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com/people/xian-min" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://www.douban.com/people/xianmin12/" class="iconfont icon-douban" title="douban"></a>
+  <a href="http://www.xianmin.org/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2017 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">贤民</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+
+
+</body>
+</html>

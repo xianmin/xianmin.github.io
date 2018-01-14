@@ -11,29 +11,29 @@
     
     
     <item>
-      <title>Essay</title>
-      <link>http://www.xianmin.org/categories/essay/</link>
+      <title>杂文</title>
+      <link>http://www.xianmin.org/categories/%E6%9D%82%E6%96%87/</link>
       <pubDate>Sat, 30 Dec 2017 00:00:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/categories/essay/</guid>
+      <guid>http://www.xianmin.org/categories/%E6%9D%82%E6%96%87/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Read</title>
-      <link>http://www.xianmin.org/categories/read/</link>
+      <title>计算机</title>
+      <link>http://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>阅读</title>
+      <link>http://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/</link>
       <pubDate>Sat, 21 Oct 2017 14:03:06 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/categories/read/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tech</title>
-      <link>http://www.xianmin.org/categories/tech/</link>
-      <pubDate>Tue, 14 Nov 2017 14:39:00 +0800</pubDate>
-      
-      <guid>http://www.xianmin.org/categories/tech/</guid>
+      <guid>http://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/</guid>
       <description></description>
     </item>
     

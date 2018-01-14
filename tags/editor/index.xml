@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Editor on 贤民的比特记忆</title>
+    <link>http://www.xianmin.org/tags/editor/</link>
+    <description>Recent content in Editor on 贤民的比特记忆</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 10 Jan 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://www.xianmin.org/tags/editor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>一些 Visual Studio Code 的使用技巧</title>
+      <link>http://www.xianmin.org/post/vscode/</link>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/vscode/</guid>
+      <description>简介 Visual Studio Code （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。 官方文档： https://code.visualstudio.com/docs VScode github 地址： https://github.com/Microsoft/vscode Visual Studio Tips and Tricks 本文旨在分享我个人的 VSCode</description>
+    </item>
+    
+  </channel>
+</rss>
