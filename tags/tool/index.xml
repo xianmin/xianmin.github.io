@@ -17,7 +17,19 @@
       <pubDate>Wed, 10 Jan 2018 00:00:00 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/vscode/</guid>
-      <description>简介 Visual Studio Code （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。 官方文档： https://code.visualstudio.com/docs VScode github 地址： https://github.com/Microsoft/vscode Visual Studio Tips and Tricks 本文旨在分享我个人的 VSCode</description>
+      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;Visual Studio Code&lt;/code&gt; （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;官方文档： &lt;a href=&#34;https://code.visualstudio.com/docs&#34;&gt;https://code.visualstudio.com/docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;VScode github 地址： &lt;a href=&#34;https://github.com/Microsoft/vscode&#34;&gt;https://github.com/Microsoft/vscode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_editing-hacks&#34;&gt;Visual Studio Tips and Tricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
