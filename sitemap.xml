@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/post/wartime-notes/</loc>
+    <lastmod>2018-02-09T22:00:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/post/vscode/</loc>
     <lastmod>2018-01-14T22:13:43+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -150,14 +157,14 @@
   
   <url>
     <loc>http://www.xianmin.org/tags/note/</loc>
-    <lastmod>2017-05-05T10:04:20+08:00</lastmod>
+    <lastmod>2018-02-09T22:00:31+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.xianmin.org/post/</loc>
-    <lastmod>2018-01-14T22:13:43+08:00</lastmod>
+    <lastmod>2018-02-09T22:00:31+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -191,6 +198,20 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/tags/%E5%93%B2%E5%AD%A6/</loc>
+    <lastmod>2018-02-09T22:00:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xianmin.org/tags/%E6%80%9D%E8%80%83/</loc>
+    <lastmod>2018-02-09T22:00:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/tags/%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2018-01-14T22:06:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -219,6 +240,13 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/tags/%E7%BB%B4%E7%89%B9%E6%A0%B9%E6%96%AF%E5%9D%A6/</loc>
+    <lastmod>2018-02-09T22:00:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
     <lastmod>2018-01-14T22:13:43+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -241,7 +269,7 @@
   
   <url>
     <loc>http://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/</loc>
-    <lastmod>2017-10-26T14:03:06+08:00</lastmod>
+    <lastmod>2018-02-09T22:00:31+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
