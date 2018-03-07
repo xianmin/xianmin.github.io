@@ -322,9 +322,12 @@ $PATH                           # 查看 PATH
       </nav>
     </footer>
     
-  <div id="disqus_thread"></div>
+  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
+      显示 Disqus 评论
+    </div>
+    <div id="disqus_thread"></div>
     <script type="text/javascript">
-    (function() {
+    function load_disqus() {
         
         
         if (window.location.hostname === 'localhost') return;
@@ -333,10 +336,12 @@ $PATH                           # 查看 PATH
         var disqus_shortname = 'xianmin12';
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+
+        $('#load_disqus').remove();
+    };
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com/" class="dsq-brlink" target="_blank">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
 
   
   </article>
