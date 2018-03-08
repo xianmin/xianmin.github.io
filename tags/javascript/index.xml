@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <lastBuildDate>Tue, 14 Nov 2017 14:39:00 +0800</lastBuildDate>
     
-	<atom:link href="http://www.xianmin.org/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://www.xianmin.org/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,7 +17,8 @@
       <pubDate>Tue, 14 Nov 2017 14:39:00 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/javascript-this/</guid>
-      <description>&lt;p&gt;Google 搜索出来的两个不错的链接：&lt;/p&gt;
+      
+        <description>&lt;p&gt;Google 搜索出来的两个不错的链接：&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://jeffjade.com/2015/08/03/2015-08-03-javascript-this/&#34;&gt;JavaScript 之 this 详解 | 晚晴幽草轩&lt;/a&gt;&lt;/li&gt;
@@ -26,7 +27,99 @@
 
 &lt;p&gt;我是先阅读的 &lt;a href=&#34;https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&amp;amp;%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes&#34;&gt;You-Dont-Know-JS: this &amp;amp; Object Prototypes&lt;/a&gt; 。再回过头看上面的那两篇文章，我觉得他们讲解的太复杂了，而 《You-Dont-Know-JS》 就归纳的非常好。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;以下是总结笔记：&lt;/p&gt;
+
+&lt;p&gt;JS 中的 &lt;code&gt;this&lt;/code&gt; 总是指向一个对象 (Object)，这个对象是基于函数运行时 &lt;strong&gt;动态绑定&lt;/strong&gt; 的。要判断 &lt;code&gt;this&lt;/code&gt; 的绑定对象，首先找到这个函数的直接调用位置，然后应用下面四条规则来判断：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;（new 绑定）由 &lt;code&gt;new&lt;/code&gt; 调用？绑定到新创建的对象。&lt;/li&gt;
+&lt;li&gt;（强制绑定）由 &lt;code&gt;call&lt;/code&gt; 或者 &lt;code&gt;apply&lt;/code&gt; （或者 &lt;code&gt;bind&lt;/code&gt; ）调用？绑定到指定的对象。&lt;/li&gt;
+&lt;li&gt;（隐式绑定）由上下文对象调用？绑定到那个上下文对象。&lt;/li&gt;
+&lt;li&gt;（默认绑定）在严格模式下绑定到 &lt;code&gt;undefined&lt;/code&gt; ，否则绑定到全局对象。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;例外，ES6 中的箭头函数会继承外层函数调用的 &lt;code&gt;this&lt;/code&gt; 绑定。（和 ES6 之前代码中的 &lt;code&gt;self = this&lt;/code&gt; 机制一样）&lt;/p&gt;
+
+&lt;h2 id=&#34;默认绑定&#34;&gt;默认绑定&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function foo() {
+  console.log( this.a );
+}
+
+var a = 2;
+
+foo(); // 输出 2
+// 绑定到全局对象 a， 如果是严格模式，绑定到 undefined
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;隐式绑定&#34;&gt;隐式绑定&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function foo() {
+  console.log( this.a );
+}
+
+var obj = {
+  a: 2,
+  foo: foo
+};
+
+obj.foo(); // 输出 2
+// 由对象 obj 调用，绑定到 obj
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;注意-隐式绑定的丢失问题&#34;&gt;注意：隐式绑定的丢失问题&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function foo() {
+  console.log( this.a );
+}
+
+var obj = {
+  a: 2,
+  foo: foo
+};
+
+var bar = obj.foo; // 注意这个引用！
+
+var a = &amp;quot;oops, global&amp;quot;; // 全局对象 a
+
+bar(); // 输出： &amp;quot;oops, global&amp;quot; 绑定丢失！
+
+setTimeout( obj.foo, 100 ); // 输出： &amp;quot;oops, global&amp;quot; 绑定丢失！
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;强制绑定-apply-call-bind&#34;&gt;强制绑定： apply, call, bind&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function foo() {
+  console.log( this.a );
+}
+
+var obj = {
+  a: 2
+};
+
+var bar = function() {
+  foo.call( obj ); // 将 foo 的 this 强制绑定到对象 obj
+};
+
+bar(); // 输出：2
+setTimeout( bar, 100 ); // 输出： 2
+
+// 强制绑定的对象无法被覆盖
+bar.call( window ); // 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;new-绑定&#34;&gt;new 绑定&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function foo(a) {
+  this.a = a;
+}
+
+var bar = new foo( 2 ); // 使用 new 绑定到对象 bar
+console.log( bar.a ); // 输出 2
+&lt;/code&gt;&lt;/pre&gt;</description>
+      
     </item>
     
   </channel>

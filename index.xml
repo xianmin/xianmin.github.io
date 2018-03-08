@@ -8,7 +8,7 @@
     <language>zh-CN</language>
     <lastBuildDate>Sun, 01 Jan 2017 21:38:52 +0800</lastBuildDate>
     
-	<atom:link href="http://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,7 +17,10 @@
       <pubDate>Sun, 01 Jan 2017 21:38:52 +0800</pubDate>
       
       <guid>http://www.xianmin.org/about/</guid>
-      <description>关于我暂时没有更多可说的。</description>
+      
+        <description>&lt;p&gt;关于我暂时没有更多可说的。&lt;/p&gt;
+</description>
+      
     </item>
     
     <item>
@@ -26,9 +29,29 @@
       <pubDate>Fri, 09 Feb 2018 21:53:00 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/wartime-notes/</guid>
-      <description>&lt;p&gt;这本书是维特根斯坦在 1914年 至 1917年 一战期间当兵时所写的笔记。这份笔记包含两部分，一部分是私人日记，一部分是哲学笔记。他出身富贵人家，又有很高的学识，完全可以不去服兵役，但他还是去了，这是为什么？那年他 25 岁，与我的年龄相仿，我很好奇他的所思所想，并且窥探一个“天才”的私人日记会是一件很有趣的事儿。&lt;/p&gt;
+      
+        <description>&lt;p&gt;这本书是维特根斯坦在 1914年 至 1917年 一战期间当兵时所写的笔记。这份笔记包含两部分，一部分是私人日记，一部分是哲学笔记。他出身富贵人家，又有很高的学识，完全可以不去服兵役，但他还是去了，这是为什么？那年他 25 岁，与我的年龄相仿，我很好奇他的所思所想，并且窥探一个“天才”的私人日记会是一件很有趣的事儿。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;又过得非常感性了-几乎每天都手淫&#34;&gt;又过得非常感性了，几乎每天都手淫&lt;/h2&gt;
+
+&lt;p&gt;他在私人日记中经常提到的两件事，手淫和工作。今天又感性了，或者，直接点就是今天又手淫了，或者今天工作了多久。工作，指的是对逻辑问题的思考。他即便身在战场，每天听着炮火声，也在不断的思考学问。&lt;/p&gt;
+
+&lt;p&gt;也许是因为精神上的压力？而手淫则是放松的方式？不管怎么说，拥有高智商，也不一定就能够完全的自控。&lt;/p&gt;
+
+&lt;p&gt;他在部队里是孤独的，被排斥的。他在日记中不断提到，周围都是些愚蠢的野蛮人。在那样的环境下，他只能够给曾经的朋友写信交流思想。把托尔斯泰的一句话，”一个人从肉体上来说是软弱无力的，但是经由精神他成为自由的人“，当作内在的精神支柱。&lt;/p&gt;
+
+&lt;h2 id=&#34;关于记录与思考&#34;&gt;关于记录与思考&lt;/h2&gt;
+
+&lt;p&gt;这三年间，他不断的在思考逻辑哲学的问题，并且做了大量的记录和笔记，这也成就了他之后创作出《逻辑哲学论》这本书。长时间保持热情、深入钻研，还有一点，大量的记录，没有一个天才是平白无故就能创作出杰作的，必定是投入了常人所不能投入的努力。如果非要说是天才的话，那我以为，就是他找到了他一生所要去追随的事业。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;你有热衷的事业吗？&lt;/li&gt;
+&lt;li&gt;你有每天都为它思考、并且努力工作吗？&lt;/li&gt;
+&lt;li&gt;即便遇到挫折，你有反省吗？&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
     </item>
     
     <item>
@@ -37,7 +60,8 @@
       <pubDate>Wed, 10 Jan 2018 00:00:00 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/vscode/</guid>
-      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+      
+        <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 
 &lt;p&gt;&lt;code&gt;Visual Studio Code&lt;/code&gt; （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。&lt;/p&gt;
 
@@ -49,7 +73,183 @@
 
 &lt;p&gt;本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
+
+&lt;p&gt;官网下载地址： &lt;a href=&#34;https://code.visualstudio.com/download&#34;&gt;Download Visual Studio Code - Mac, Linux, Windows&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;如果你和我一样使用 Deepin Linux，可以直接从 Deepin Store 进行安装。&lt;/p&gt;
+
+&lt;h2 id=&#34;界面&#34;&gt;界面&lt;/h2&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/vscode/00.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;h2 id=&#34;特色-与常见编辑器不同的地方&#34;&gt;特色（与常见编辑器不同的地方）&lt;/h2&gt;
+
+&lt;h3 id=&#34;标签预览模式&#34;&gt;标签预览模式&lt;/h3&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/vscode/01.gif&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;VSCode 中的标签和我们平常使用的软件中的标签不太一样，我开始的时候很疑惑，为什么 VSCode 打开新文件不是在新标签中打开，后来才知道是因为它默认开启了“预览模式”（Preview mode）。预览模式中的“标签名字体”显示的是 &lt;strong&gt;斜体&lt;/strong&gt; ， &lt;strong&gt;单击文件&lt;/strong&gt; 不会开启新的标签， &lt;strong&gt;双击文件&lt;/strong&gt; 或者 &lt;strong&gt;双击标签&lt;/strong&gt; 就可以将文件固定了。&lt;/p&gt;
+
+&lt;p&gt;在设置中可以取消预览模式： &lt;code&gt;workbench.editor.enablePreview&lt;/code&gt; 。&lt;/p&gt;
+
+&lt;h3 id=&#34;命令面板&#34;&gt;命令面板&lt;/h3&gt;
+
+&lt;p&gt;快捷键 &lt;code&gt;Ctrl+Shift+P&lt;/code&gt; 呼出命令面板，通过命令面板可以快速使用一些指令。&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/vscode/02.gif&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;h3 id=&#34;peek-definition&#34;&gt;Peek Definition&lt;/h3&gt;
+
+&lt;p&gt;这个功能，可以快速预览函数（或类）的定义内容，右键菜单中有选项，或者用快捷键 &lt;code&gt;Ctrl+shift+F10&lt;/code&gt; 。&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/vscode/references.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;h2 id=&#34;编辑相关技巧&#34;&gt;编辑相关技巧&lt;/h2&gt;
+
+&lt;h3 id=&#34;快捷键&#34;&gt;快捷键&lt;/h3&gt;
+
+&lt;p&gt;官方文档： &lt;a href=&#34;https://code.visualstudio.com/docs/getstarted/keybindings&#34;&gt;Visual Studio Code Key Bindings&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;熟练使用快捷键可以极大的提高效率，但是不同编辑器的快捷键一般都不一样，为了减少迁移后改变习惯的代价，可以通过安装扩展解决这个问题。比如我要将 VSCode 的快捷键设定改为 Emacs 的设定，安装下面这个扩展就行了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=lfs.vscode-emacs-friendly&#34;&gt;Emacs Friendly Keymap - Visual Studio Marketplace&lt;/a&gt; （ &lt;strong&gt;官方推荐的那个没有再维护了&lt;/strong&gt; ）&lt;/p&gt;
+
+&lt;p&gt;由于 &lt;code&gt;Ctrl&lt;/code&gt; 是一个经常需要用到的按键，不妨将 &lt;code&gt;Ctrl&lt;/code&gt; 和 &lt;code&gt;CapsLock&lt;/code&gt; 这两个键调换。调换之后再按 &lt;code&gt;Ctrl&lt;/code&gt; 就舒服快捷的多。&lt;/p&gt;
+
+&lt;h3 id=&#34;多光标编辑-multi-cursor-selection&#34;&gt;多光标编辑 Multi cursor selection&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;基本：&lt;/strong&gt; &lt;code&gt;Alt+Click&lt;/code&gt; 即，按住 Alt 键，依次单击（或者选择）需要编辑的位置，可以依次添加光标。 Alt 键可以在设置中更改。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;一列多光标：&lt;/strong&gt; &lt;code&gt;Shift+Alt+Down&lt;/code&gt; 或者 &lt;code&gt;Shift+Alt+Up&lt;/code&gt; 可以在上下位置添加光标。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;依次选中相同单词：&lt;/strong&gt; 选中一个单词，按 &lt;code&gt;Ctrl+D&lt;/code&gt; ，可以依次选中下一个相同单词。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;选中所有相同单词：&lt;/strong&gt; 选中一个单词，按 &lt;code&gt;Ctrl+Shift+L&lt;/code&gt; ，可以一次性选中文本中 &lt;strong&gt;所有相同单词&lt;/strong&gt; 。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;矩形选择：&lt;/strong&gt; 按住 &lt;code&gt;Shift+Alt&lt;/code&gt; ，再进行选择，则选择区域是一个矩形。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;括号选择：&lt;/strong&gt; &lt;code&gt;Shift+Alt+Right&lt;/code&gt; ，会选中匹配括号中的内容，并可以扩大选中区域。&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/vscode/multicursor.gif&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/vscode/column-select.gif&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;h3 id=&#34;辅助线&#34;&gt;辅助线&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;显示代码缩进的辅助线，设置 &amp;ldquo;editor.renderIndentGuides&amp;rdquo;: true&lt;/li&gt;
+&lt;li&gt;代码长度标尺，比如在第80列的地方显示标尺，设置 &amp;ldquo;editor.rulers&amp;rdquo;: [80]&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;zenmode-让编辑界面更简洁&#34;&gt;zenmode——让编辑界面更简洁&lt;/h2&gt;
+
+&lt;p&gt;如果你像我一样，有时候需要一边开着浏览器（或者终端等等）一边编辑文件，那么使用 &lt;code&gt;zenmode&lt;/code&gt; 模式，则可以使 VSCode 的界面更加简洁。&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/vscode/03.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;小技巧：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;设置 &amp;ldquo;zenMode.fullScreen&amp;rdquo;: false ，默认为全屏。&lt;/li&gt;
+&lt;li&gt;设置 &amp;ldquo;window.menuBarVisibility&amp;rdquo;: &amp;ldquo;toggle&amp;rdquo; ，这样可以在需要的时候显示目录栏。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;设置的级别&#34;&gt;设置的级别&lt;/h2&gt;
+
+&lt;p&gt;官方文档： &lt;a href=&#34;https://code.visualstudio.com/docs/getstarted/settings&#34;&gt;Visual Studio Code User and Workspace Settings&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;vscode 的设置分三个级别：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;默认设置（安装完成后）&lt;/li&gt;
+&lt;li&gt;用户设置（用户自行修改的设定）&lt;/li&gt;
+&lt;li&gt;工作区设置（团队项目下的统一设定）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;优先级依次递增。即，优先采用工作区的设置，再采用用户的个人设置，最后采用默认设置。&lt;/p&gt;
+
+&lt;p&gt;对于团队项目，一些规范设置可以通过在项目目录下新建一个 &lt;code&gt;.vscode/setting.json&lt;/code&gt; 文件进行配置。&lt;/p&gt;
+
+&lt;h2 id=&#34;一些不错的扩展&#34;&gt;一些不错的扩展&lt;/h2&gt;
+
+&lt;h3 id=&#34;官方推荐&#34;&gt;官方推荐&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome&#34;&gt;Debugger for Chrome&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&#34;&gt;ESLint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner&#34;&gt;Code Runner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;等等支持各种程序语言的扩展&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bookmarks&#34;&gt;Bookmarks&lt;/h3&gt;
+
+&lt;p&gt;地址： &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks&#34;&gt;Bookmarks - Visual Studio Marketplace&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;为 VSCode 添加书签功能，方便跳转。&lt;/p&gt;
+
+&lt;h3 id=&#34;git-history&#34;&gt;Git History&lt;/h3&gt;
+
+&lt;p&gt;地址： &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory&#34;&gt;Git History (git log) - Visual Studio Marketplace&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;非常方便的查看 Git Log，也算是必装的一个扩展了。&lt;/p&gt;
+
+&lt;h3 id=&#34;path-intellisense&#34;&gt;Path Intellisense&lt;/h3&gt;
+
+&lt;p&gt;地址： &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense&#34;&gt;Path Intellisense - Visual Studio Marketplace&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;自动补全路径以及文件名。&lt;/p&gt;
+
+&lt;h2 id=&#34;debug&#34;&gt;&lt;span class=&#34;todo TODO_&#34;&gt;TODO &lt;/span&gt; DEBUG&lt;/h2&gt;</description>
+      
     </item>
     
     <item>
@@ -58,11 +258,142 @@
       <pubDate>Sat, 30 Dec 2017 00:00:00 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/2017/</guid>
-      <description>&lt;p&gt;翻阅你在这一年写的日记，“2017年6月26日：我是一个无知、无明、无趣的年轻人，对烟酒没有控制，自制力差，拖延症严重，喜欢胡思乱想，空想而缺乏行动，空有抱负却一事无成，喜好很多但一无所长。也许再过几年，我就是一个无知、无明、无趣的中年人了。”&lt;/p&gt;
+      
+        <description>&lt;p&gt;翻阅你在这一年写的日记，“2017年6月26日：我是一个无知、无明、无趣的年轻人，对烟酒没有控制，自制力差，拖延症严重，喜欢胡思乱想，空想而缺乏行动，空有抱负却一事无成，喜好很多但一无所长。也许再过几年，我就是一个无知、无明、无趣的中年人了。”&lt;/p&gt;
 
 &lt;p&gt;似乎每年总有那么几天，你会感到焦虑，厌恶自己。但不管怎么说，一年又要过去了，我想从以下几个方面对你的2017年做一个总结：工作、锻炼、编程、英语、写作、阅读。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;关于工作&#34;&gt;关于工作&lt;/h2&gt;
+
+&lt;p&gt;今年店里的营业额比去年略高了些，请注意，仅仅只是略高而已，勉强维持运转。据了解，很多生意都不好做，很多店铺在转让，经济环境不景气，这是可以理解的。但是，仍然有不少新的店铺在开张，还是有不少商家是能挣到钱的。经营不好，是你自身能力问题。&lt;/p&gt;
+
+&lt;p&gt;做生意涉及到，经营管理、营销推广、人际交往等等，这是一门复杂的学问，不能安于现状。要在生活与工作之间、生意与情怀之间、现实与理想之间，达到一种平衡，并不容易。多看看、多交流、多摸索，找到解决问题更好的办法。&lt;/p&gt;
+
+&lt;p&gt;竞争是残酷的。&lt;/p&gt;
+
+&lt;h2 id=&#34;关于锻炼&#34;&gt;关于锻炼&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;站桩，要坚持下去。一是强身健体，二是锻炼正念。&lt;/li&gt;
+&lt;li&gt;多组织户外活动，出门走走。今年户外活动组织的少了。&lt;/li&gt;
+&lt;li&gt;每周有一个固定日子，骑行、登山、跑步都可以。走出去，走远一点。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;关于编程&#34;&gt;关于编程&lt;/h2&gt;
+
+&lt;p&gt;你首先得明确，编程是你的一项长期而重要的事业。保持警觉、厚积薄发，总会有开花结果的一天。过程是漫长的，不要操之过急。你在今年已经有了好的开始，但问题是，还没有一个拿得出手的实质性的产品，这是来年要认真做的事情。建议：认真对待你写的内容，把它们当做真正的产品一样去打磨。&lt;/p&gt;
+
+&lt;p&gt;目前可以改进的地方：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;熟练使用 git, gitflow&lt;/li&gt;
+&lt;li&gt;写好 commit&lt;/li&gt;
+&lt;li&gt;详细的 README&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;关于英语&#34;&gt;关于英语&lt;/h2&gt;
+
+&lt;p&gt;你的英语水平有提高吗？没有。为什么？缺少刻意练习，缺少反馈。没有反馈，这是严重的问题，所以你感觉一直停留在原地。建议：做练习，这是最好的方法。&lt;/p&gt;
+
+&lt;h2 id=&#34;关于写作&#34;&gt;关于写作&lt;/h2&gt;
+
+&lt;p&gt;你在今年重新搭建了自己的写作平台，文章数量不多，也没有多少内容，这都没有关系。千万不要被互联网上浮躁的信息流所影响，你的文字就是属于你的，真诚的表达，而非虚伪的说些假大空、附和他人的内容。把每一篇文章，都当作你的一个产品，精雕细琢，这是对读者负责的态度。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在大原则不变的前提下创作&lt;/li&gt;
+&lt;li&gt;对2018年的文章数量，字数，访问量做一个统计&lt;/li&gt;
+&lt;li&gt;记录与分享是相辅相成的事情，多记录&lt;/li&gt;
+&lt;li&gt;避免一叶障目、哗众取宠&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;关于阅读&#34;&gt;关于阅读&lt;/h2&gt;
+
+&lt;p&gt;很遗憾，由于记录的不够详细，很多看过的书、看过的内容，你都已经不记得了。今年的阅读，主要以阅读电子书为主。&lt;/p&gt;
+
+&lt;p&gt;下面列出印象较深的几本书：&lt;/p&gt;
+
+&lt;h3 id=&#34;刻意练习-正念的奇迹&#34;&gt;《刻意练习》《正念的奇迹》&lt;/h3&gt;
+
+&lt;p&gt;有关提升技能、提升专注力的方法。&lt;/p&gt;
+
+&lt;h3 id=&#34;激荡三十年-邓小平时代&#34;&gt;《激荡三十年》《邓小平时代》&lt;/h3&gt;
+
+&lt;p&gt;了解了改革开放后三十年的历史，在这期间国内的种种变化。政治变化，经济变革。&lt;/p&gt;
+
+&lt;p&gt;通过《激荡三十年》了解了一些企业家的崛起。&lt;/p&gt;
+
+&lt;p&gt;通过《邓小平时代》了解了一个伟人的崛起。其中叙述了一部分毛泽东与邓小平的恩怨，以及党内各种势力的明争暗斗。&lt;/p&gt;
+
+&lt;h3 id=&#34;人类简史-未来简史&#34;&gt;《人类简史》《未来简史》&lt;/h3&gt;
+
+&lt;p&gt;即便对书中的部分内容不敢苟同，但有一点是可以肯定的：这两本书开拓了你对整个人类的发展宏观上的思考。&lt;/p&gt;
+
+&lt;h3 id=&#34;佛祖都说了些什么&#34;&gt;《佛祖都说了些什么》&lt;/h3&gt;
+
+&lt;p&gt;了解了佛教的发展与思想变迁。&lt;/p&gt;
+
+&lt;h3 id=&#34;月亮与六便士&#34;&gt;《月亮与六便士》&lt;/h3&gt;
+
+&lt;p&gt;以下内容摘录自你写的日记：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;那天在大厅里和朋友们一起喝茶，一位客人与我告别，留下了一本书赠予旅舍，供其他客人翻阅，这本书叫《月亮和六便士》。我很早就听说过这本书了，它的电子版一直躺在我的电脑硬盘里，差不多被我遗忘了。当时接过这本书，我把它放在了桌子上，第二天随手拿起来翻看，没想到一下子就被吸引了。&lt;/p&gt;
+
+&lt;p&gt;一口气翻完，不知怎的，我想起了在云南、西藏遇到的一些人，辞职旅行的，离家出走的，寻找生命意义的，净化心灵的，贫困潦倒的。不知道他们有没有看过这本书呢？&lt;/p&gt;
+
+&lt;p&gt;小说里还有个插曲，一位即将获得极好职位的实习医生，在去埃及渡假的时候，忽然觉得有冲动要在这里定居，而他也的确这样做了，放弃了他在英国即将拥有的优渥生活，一辈子在亚历山大港过着平静而贫穷的生活。很多年后，“我”遇到了当年代替这个人获得好职位的另一个医生，如今后者已经是爵士了，嘲笑前者是在“糟蹋自己”，“缺乏个性”。而“我”认为，所谓成功，衡量的标准只在每个人的内心。&lt;/p&gt;
+
+&lt;p&gt;生活嘛，需要六便士，也别忘了那个月亮。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;翻到这篇日记，突然感到惭愧，哈哈！你还在被六便士苦恼着！&lt;/p&gt;
+
+&lt;h3 id=&#34;principles-and-practice-in-second-language-acquisition&#34;&gt;《Principles and Practice in Second Language Acquisition》&lt;/h3&gt;
+
+&lt;p&gt;阅读的还算顺利，理论性非常强，只是有些啰嗦，跳着看了。
+几点重要方法其实很早就已经了解了。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;阅读原版书&lt;/li&gt;
+&lt;li&gt;可理解性的输入&lt;/li&gt;
+&lt;li&gt;i+1 不断练习&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;编程人生-15位软件先驱访谈录&#34;&gt;《编程人生：15位软件先驱访谈录》&lt;/h3&gt;
+
+&lt;p&gt;如题，了解这些编程牛人的成长历程与经验分享。&lt;/p&gt;
+
+&lt;h3 id=&#34;javascript-权威指南&#34;&gt;《JavaScript 权威指南》&lt;/h3&gt;
+
+&lt;p&gt;通过这本书了解并入门了 JS 。&lt;/p&gt;
+
+&lt;h3 id=&#34;ecmascript-6-入门&#34;&gt;《ECMAScript 6 入门》&lt;/h3&gt;
+
+&lt;p&gt;这本书适合做参考，实际的使用，你在 codewars 上的练习中不知不觉就掌握了。&lt;/p&gt;
+
+&lt;h3 id=&#34;you-don-t-know-js&#34;&gt;《You Don&amp;rsquo;t Know JS》&lt;/h3&gt;
+
+&lt;p&gt;五星推荐的好书！讲解了 JS 这门语言中方方面面难点。英文版是开源的。&lt;/p&gt;
+
+&lt;h2 id=&#34;年度总结&#34;&gt;年度总结&lt;/h2&gt;
+
+&lt;p&gt;“什么都略懂一点却一样也不精通”，这是我对你的评价。&lt;/p&gt;
+
+&lt;p&gt;回忆起这一年发生的大大小小的事情，给你几个建议：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;控制好自己的情绪。&lt;/li&gt;
+&lt;li&gt;好好培养两个人的感情。&lt;/li&gt;
+&lt;li&gt;少抽烟、少喝酒、少玩游戏。&lt;/li&gt;
+&lt;li&gt;多记录、多思考。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;我俩已经很久没有像这次这样沟通了，用了大概一上午的时间，做了这么一个迷迷糊糊的总结。日子还是照样过，没有什么是一朝一夕就能彻底改变的。也没更多可说的了，就这样结束吧！&lt;/p&gt;
+
+&lt;p&gt;别了，2017！你好，2018！&lt;/p&gt;</description>
+      
     </item>
     
     <item>
@@ -71,7 +402,8 @@
       <pubDate>Tue, 14 Nov 2017 14:39:00 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/javascript-this/</guid>
-      <description>&lt;p&gt;Google 搜索出来的两个不错的链接：&lt;/p&gt;
+      
+        <description>&lt;p&gt;Google 搜索出来的两个不错的链接：&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://jeffjade.com/2015/08/03/2015-08-03-javascript-this/&#34;&gt;JavaScript 之 this 详解 | 晚晴幽草轩&lt;/a&gt;&lt;/li&gt;
@@ -80,7 +412,99 @@
 
 &lt;p&gt;我是先阅读的 &lt;a href=&#34;https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&amp;amp;%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes&#34;&gt;You-Dont-Know-JS: this &amp;amp; Object Prototypes&lt;/a&gt; 。再回过头看上面的那两篇文章，我觉得他们讲解的太复杂了，而 《You-Dont-Know-JS》 就归纳的非常好。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;以下是总结笔记：&lt;/p&gt;
+
+&lt;p&gt;JS 中的 &lt;code&gt;this&lt;/code&gt; 总是指向一个对象 (Object)，这个对象是基于函数运行时 &lt;strong&gt;动态绑定&lt;/strong&gt; 的。要判断 &lt;code&gt;this&lt;/code&gt; 的绑定对象，首先找到这个函数的直接调用位置，然后应用下面四条规则来判断：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;（new 绑定）由 &lt;code&gt;new&lt;/code&gt; 调用？绑定到新创建的对象。&lt;/li&gt;
+&lt;li&gt;（强制绑定）由 &lt;code&gt;call&lt;/code&gt; 或者 &lt;code&gt;apply&lt;/code&gt; （或者 &lt;code&gt;bind&lt;/code&gt; ）调用？绑定到指定的对象。&lt;/li&gt;
+&lt;li&gt;（隐式绑定）由上下文对象调用？绑定到那个上下文对象。&lt;/li&gt;
+&lt;li&gt;（默认绑定）在严格模式下绑定到 &lt;code&gt;undefined&lt;/code&gt; ，否则绑定到全局对象。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;例外，ES6 中的箭头函数会继承外层函数调用的 &lt;code&gt;this&lt;/code&gt; 绑定。（和 ES6 之前代码中的 &lt;code&gt;self = this&lt;/code&gt; 机制一样）&lt;/p&gt;
+
+&lt;h2 id=&#34;默认绑定&#34;&gt;默认绑定&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function foo() {
+  console.log( this.a );
+}
+
+var a = 2;
+
+foo(); // 输出 2
+// 绑定到全局对象 a， 如果是严格模式，绑定到 undefined
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;隐式绑定&#34;&gt;隐式绑定&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function foo() {
+  console.log( this.a );
+}
+
+var obj = {
+  a: 2,
+  foo: foo
+};
+
+obj.foo(); // 输出 2
+// 由对象 obj 调用，绑定到 obj
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;注意-隐式绑定的丢失问题&#34;&gt;注意：隐式绑定的丢失问题&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function foo() {
+  console.log( this.a );
+}
+
+var obj = {
+  a: 2,
+  foo: foo
+};
+
+var bar = obj.foo; // 注意这个引用！
+
+var a = &amp;quot;oops, global&amp;quot;; // 全局对象 a
+
+bar(); // 输出： &amp;quot;oops, global&amp;quot; 绑定丢失！
+
+setTimeout( obj.foo, 100 ); // 输出： &amp;quot;oops, global&amp;quot; 绑定丢失！
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;强制绑定-apply-call-bind&#34;&gt;强制绑定： apply, call, bind&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function foo() {
+  console.log( this.a );
+}
+
+var obj = {
+  a: 2
+};
+
+var bar = function() {
+  foo.call( obj ); // 将 foo 的 this 强制绑定到对象 obj
+};
+
+bar(); // 输出：2
+setTimeout( bar, 100 ); // 输出： 2
+
+// 强制绑定的对象无法被覆盖
+bar.call( window ); // 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;new-绑定&#34;&gt;new 绑定&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function foo(a) {
+  this.a = a;
+}
+
+var bar = new foo( 2 ); // 使用 new 绑定到对象 bar
+console.log( bar.a ); // 输出 2
+&lt;/code&gt;&lt;/pre&gt;</description>
+      
     </item>
     
     <item>
@@ -89,11 +513,119 @@
       <pubDate>Mon, 06 Nov 2017 13:13:15 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/06-ebook/</guid>
-      <description>&lt;h1 id=&#34;写在前面&#34;&gt;写在前面&lt;/h1&gt;
+      
+        <description>&lt;h1 id=&#34;写在前面&#34;&gt;写在前面&lt;/h1&gt;
 
 &lt;p&gt;作为一个农民的儿子，我从小跟随父母在外漂泊，长年都是租的房子，家里地方不大，除了教科书、习题册，基本没有任何藏书。那时候，没两年就会搬一次家，光是搬教科书都觉得挺累赘的。即便在成年后，自己依然一直在外漂泊，没有固定的居所，还是不敢买太多书，没地方安置。当然，还有一个很实际的问题，买书花钱，自己没多少钱。很多书像消费品，看完就丢一边了，它摆在那儿更多的像是一种象征性的装饰。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;现在的书籍太多了，想看的也太多，根本买不过来。电子书的好处则显而易见，携带方便，一块 1T 的移动硬盘就可以安置几万本电子书，在需要的时候，也可以随时随地的翻一翻。随着技术的进步，阅读设备不断改进完善，电子阅读必然越来越趋于主流。即便在快递业如此发达的中国，身处乡下，买实体书也要等上一个星期，而电子书呢？点击下载，等上几秒钟就可以翻阅了。&lt;/p&gt;
+
+&lt;p&gt;我写此篇文章的目的，是想和大家分享一下我的电子阅读经验，尤其是像我一样没什么钱，又有阅读需求的朋友。这几年我通过阅读电子书，不光获取了很多信息，在物质上，我估算了下，至少给我省下了几万块人民币。比如说，很多优质的信息，你只能通过英文来获取，英文是一手资料，但是原版的英文书，太贵了，国内还买不到，而电子书就完美解决了这个问题。&lt;/p&gt;
+
+&lt;p&gt;下面，本文从三个方便来分享我的电子阅读经验：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;阅读电子书的工具&lt;/li&gt;
+&lt;li&gt;电子书的获取方式&lt;/li&gt;
+&lt;li&gt;使用 Calibre 管理电子书&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;阅读电子书的工具&#34;&gt;阅读电子书的工具&lt;/h1&gt;
+
+&lt;p&gt;先谈一谈阅读电子书的工具。&lt;/p&gt;
+
+&lt;h2 id=&#34;kindle&#34;&gt;Kindle&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.xianmin.org/image/ebook/00.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;5年前，我买了一台 Kindle4 。它是真的好用，重量轻，价格不算贵，续航时间长，是电子水墨屏，就算看的时间久了眼睛也不会很累。配合 calibre 管理电子书非常方便。&lt;/p&gt;
+
+&lt;p&gt;用了一段时间之后，也渐渐发现了它的缺陷：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;做标注不方便，标注了也不容易导出。&lt;/li&gt;
+&lt;li&gt;由于不是触摸屏，搜索不方便，跳转也不方便。&lt;/li&gt;
+&lt;li&gt;不方便阅读一些大尺寸的 PDF&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;直到去年买了一台 Android 平板，就替代了 Kindle4 ，成了我的主力阅读工具。&lt;/p&gt;
+
+&lt;h2 id=&#34;android-平板-moon-reader-静读天下&#34;&gt;Android 平板 + 【Moon+ Reader】（静读天下）&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.xianmin.org/image/ebook/01.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;说起购买平板的缘由，只是因为当时看到一个朋友在用，国产的，只要几百块，一时就心动了。苹果系列我是买不起的，也不喜欢它封闭的生态圈，所以从没考虑过。至于我买的这个平板的品牌型号，我就不推荐了，充电慢续航短实在是硬伤（可能大部分平板都有这个问题？）。它让我惊艳的，是搭载了 Android 这个开放的系统，再配合上 &lt;strong&gt;Moon+ Reader&lt;/strong&gt; （中文叫【静读天下】）APP ，阅读体验比 Kindle4 好太多了。体现在以下几个方面：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;更快捷的目录跳转&lt;/li&gt;
+&lt;li&gt;功能齐全的批注，也支持快速跳转，还能够导出&lt;/li&gt;
+&lt;li&gt;支持自定义样式&lt;/li&gt;
+&lt;li&gt;阅读扫描版的 PDF&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;只要是 Android 系统都可以安装，你不妨在手机上体验一下。&lt;/p&gt;
+
+&lt;h1 id=&#34;电子书的获取方式&#34;&gt;电子书的获取方式&lt;/h1&gt;
+
+&lt;p&gt;我主要使用的几个网站（按先后顺序）：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mlook.mobi/&#34;&gt;mLook 看书&lt;/a&gt; 电子书分享网站&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://readfree.me/&#34;&gt;readfree.me&lt;/a&gt; 电子书分享网站&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jiumodiary.com/&#34;&gt;Jiumo E-Book Search 鸠摩搜书 - 电子书搜索引擎&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.bdybbs.com/&#34;&gt;Bdybbs资源站&lt;/a&gt; 搜索百度盘分享的资源&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gen.lib.rus.ec/&#34;&gt;Library Genesis&lt;/a&gt; 搜索英文书&lt;/li&gt;
+&lt;li&gt;Google&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;网站数量在精而不在多。基本上，这几年我 99% 的阅读需求，通过这几个网站都能找到合适的电子版。&lt;/p&gt;
+
+&lt;p&gt;电子书分享（主要是正版书）出于版权保护的原因，通常处于法律的灰色地带。比如未在国内发行的英文正版书，可能就不受中国法律保护；而未在美国发行的中文正版书，也许就不受美国法律保护（具体法律法规我也不太清楚）。我在网上发现，很多电子版英文书都是俄罗斯人“盗版”然后流传开的。那么，只要是一个开放的互联网环境，掌握了合适的方法，就能找到他人分享的盗版电子书。很多人不懂得怎样找书。明明很简单的方法，我认为就是缺少一点计算机使用技巧，主要是搜索技巧，还有折腾（学习新工具）的动力。&lt;/p&gt;
+
+&lt;h2 id=&#34;关于电子书格式的选择&#34;&gt;关于电子书格式的选择&lt;/h2&gt;
+
+&lt;p&gt;一、 首选 azw3 中亚正版格式&lt;/p&gt;
+
+&lt;p&gt;什么是中亚正版？就是在亚马逊中国（amazon.cn）上购买的正版电子书，它们的格式通常是 azw3, 是由 Amazon 专为电子出版物推出的格式。既然是正版电子书，它的优势也是显而易见的，由 Amazon 官方制作，经过编辑校对，排版极佳。但是缺陷也很明显，由于是亚马逊公司出于商业目的单独开发的私有标准，很多软件并不支持该格式的读写。&lt;/p&gt;
+
+&lt;p&gt;二、 次选 epub 开源格式&lt;/p&gt;
+
+&lt;p&gt;epub 是一种开放的电子图书标准，它同 azw3 一样支持一些复杂的排版。既然是一种开放的格式，各种软件对它的支持也是最好的。&lt;/p&gt;
+
+&lt;p&gt;三、Kindle 专属格式 mobi&lt;/p&gt;
+
+&lt;p&gt;mobi 格式的流行，绝大程度上依靠 Amazon 这个巨大的内容提供商及其电子书阅读器 Kindle 的流行普及，是 Amazon 早期的标准格式。因此一些 Amazon 早期制作的排版好的电子书是 mobi 格式的，但自从推出 azw3 之后就逐渐被取代了。mobi 对复杂排版的支持度相比 epub 要弱很多。&lt;/p&gt;
+
+&lt;p&gt;四、最常见的电子书格式 PDF&lt;/p&gt;
+
+&lt;p&gt;PDF 在移动设备上使用有一个非常大的缺陷，无法自适应屏幕，比如用 6 寸的屏幕阅读 8 寸的 PDF 文档，在全屏显示下字体就要小很多。如果有其他格式选择，一般不选择 PDF 。&lt;/p&gt;
+
+&lt;p&gt;五、纯文本格式 txt&lt;/p&gt;
+
+&lt;p&gt;总结：选择顺序 azw3 &amp;gt; epub &amp;gt; mobi &amp;gt; pdf &amp;gt; txt。（注：这几种格式都可以通过 calibre 进行格式转换）&lt;/p&gt;
+
+&lt;h1 id=&#34;使用-calibre-管理电子书&#34;&gt;使用 Calibre 管理电子书&lt;/h1&gt;
+
+&lt;p&gt;传统的方法是使用文件夹分类管理，当书目多了以后，这种管理方式比较低效。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.xianmin.org/image/ebook/03.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Clibre 这个软件，集电子书管理、编辑、格式转换、阅读于一身，可以说是最好的电子书管理软件。有了它，你完全可以构建一个属于自己的移动图书馆。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.xianmin.org/image/ebook/04.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;关于它的使用教程，网上搜一下有很多，我就不多做介绍了。&lt;/p&gt;
+
+&lt;h1 id=&#34;写在最后&#34;&gt;写在最后&lt;/h1&gt;
+
+&lt;p&gt;记得十年前我在老家县城读书的时候，资源很有限，学校的图书馆很小，基本没什么感兴趣的书，另外能找到书的地方，一个是租书店，大多是网络小说，一个是图书城，类别相对会多一些。前年再回到县城，发现图书城搬迁了，规模小了很多，里面卖的绝大多数都是教辅材料了。在落后的地方，能够获取到的信息太少，而互联网改变了这一切。&lt;/p&gt;
+
+&lt;p&gt;这个年代，我不知道还有多少人在看书呢？不是没书可看，是信息太丰富了，互联网上铺天盖地的信息，每天微信订阅号的推送都看不完，哪还有时间看书呢？我很难回答，阅读带给了我什么，同样的收获，也许通过电影、综艺节目、与人交流，包括自身的经历，一样能够获得。“阅读”对我而言，是一项成本较低，信息表达更充分的媒介，仅此而已。&lt;/p&gt;
+
+&lt;p&gt;希望这篇文章，能够对你在获取更多的信息上有所帮助。&lt;/p&gt;</description>
+      
     </item>
     
     <item>
@@ -102,13 +634,244 @@
       <pubDate>Sat, 21 Oct 2017 14:03:06 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/read-peak/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://img3.doubanio.com/lpic/s29105145.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+      
+        <description>&lt;p&gt;&lt;img src=&#34;https://img3.doubanio.com/lpic/s29105145.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;豆瓣链接：&lt;a href=&#34;https://book.douban.com/subject/26895993/&#34;&gt;刻意练习 (豆瓣)&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;这是这样的一本书：知道如何练习的人觉得此书在说一些废话，而遇到瓶颈停滞不前的人会觉得好像突然开了窍。我就是后者，这本书对我个人而言在练习方法上的启发是巨大的。两个多月前，我读完了这本书，这两个多月，我运用此书中得到的启发练习编程，感受到了明显的进步。这篇读后感，算是对写作的练习，也算是对自己的启发做个总结。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;主要有以下几条：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;练习目的一定要明确&lt;/li&gt;
+&lt;li&gt;一定要有反馈&lt;/li&gt;
+&lt;li&gt;通过练习不断重构心理表征&lt;/li&gt;
+&lt;li&gt;专注也可以练习&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;明确练习目的&#34;&gt;明确练习目的&lt;/h2&gt;
+
+&lt;p&gt;在没有阅读此书之前，我对“练习”并没有那么重视。这可能与我的“自信”，以及经常试图消化更多知识有一定关系。从2011年开始，我断断续续一直在学习编程，但至今只能写一些短小的程序，甚至连基本的标准库都没能完全熟悉。我会写程序吗？我只是大概知道了程序是怎么一回事儿，知道了它的基本语法，能看懂一些比较短的代码，会使用一些框架api，而已。我感觉自己一直在原地打转，也因此有好几次遇到瓶颈后中断了学习。唯一庆幸的是，编程是我的乐趣，我始终都还保持着学习编程的动机。&lt;/p&gt;
+
+&lt;p&gt;认清自己的技能水平并不容易。很多时候，通过google搜索，然后复制黏贴，自以为解决了问题就算掌握了，而实际上只是个代码搬运工而已，当自己写的时候还是不会写。就像看了很多书、很多教程，以为懂了，实际上依然不知道该如何运用。我必须认清事实，我的编程技能水平还很低，我的基础很薄弱，我的练习太少了。我告诉自己，不要试图一口吃下一整个馒头，不要试图同时追两只兔子。&lt;/p&gt;
+
+&lt;p&gt;我最近在学习JavaScript，为了提升水平，我在网上找练习题来做，机缘巧合就找到了 &lt;a href=&#34;http://www.codewars.com/r/nTMAyg&#34;&gt;codewars&lt;/a&gt; 这个网站，它完全符合我目前的需要，并且也完全符合刻意练习的要求（有非常好的反馈机制）。我给自己制订了计划，每天完成5道练习，每周对练习进行总结。最初的目标也非常简单：提高 &lt;a href=&#34;http://www.codewars.com/r/nTMAyg&#34;&gt;codewars&lt;/a&gt; 上的等级。我现在的等级是 &lt;strong&gt;5kyu&lt;/strong&gt; （最高等级 1kyu，最低等级 8kyu），与游戏中打怪练级相似，升级的过程，也是动机的来源，等级越高难度越大。&lt;/p&gt;
+
+&lt;p&gt;我在练习的过程中，不断增添新目标，比如以下几个小目标：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;熟悉JS 语法&lt;/li&gt;
+&lt;li&gt;熟悉ES6新增的语法&lt;/li&gt;
+&lt;li&gt;熟悉JS标准库&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;这几个小目标我目前基本完成了。&lt;/p&gt;
+
+&lt;h2 id=&#34;没有反馈的练习是无效的&#34;&gt;没有反馈的练习是无效的&lt;/h2&gt;
+
+&lt;p&gt;我在《刻意练习》这本书中得到的一点很重要的启发是：没有反馈的练习是无效的。&lt;/p&gt;
+
+&lt;p&gt;当你写完一段代码，如何能够判断它的好坏？首先，能够运行是最基本的要求，也是最直接的反馈。但你个人很难判断它是否是最优解，很难判断它是否写的漂亮。如果有一位专家在旁边给你修正建议，那无疑是最好的反馈。但是作为自学者，很多时候根本没有人教你。我在网上看到有人给的建议是，将写的代码上传到github，问题是开源的代码太多了，根本没人关注你，没人给你提意见，你只是一个人（但对有一定开发能力的程序员来说，这其实是一个很好的获得反馈的方式，只是目前还不适合我）。还有人建议，参与开源项目的开发，为开源项目改bug贡献代码，这也是获得反馈的好方法，前提是要先找到合适的开源项目，这需要机缘（有很多不错的开源项目已经非常完善了，想要参与需要一定的编程功底），它可能是你现在正在使用的某个软件。&lt;/p&gt;
+
+&lt;p&gt;回到 &lt;a href=&#34;http://www.codewars.com/r/nTMAyg&#34;&gt;codewars&lt;/a&gt; 。&lt;a href=&#34;http://www.codewars.com/r/nTMAyg&#34;&gt;codewars&lt;/a&gt; 上最大的优点是：它有一个非常好的 &lt;strong&gt;反馈机制&lt;/strong&gt; 。每当我完成一个练习，它会给出投票数最高、以及最聪明的解答。通过参考“牛人”的解答，让我学习到了很多编程套路，还有标准库的巧妙用法，以及漂亮的代码该有的样子。&lt;/p&gt;
+
+&lt;p&gt;我总结一下几点经验：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;先独立完成习题，完成后看最佳答案是如何完成的，与自己的答案进行对比。&lt;/li&gt;
+&lt;li&gt;多关注一些牛人，看他们是如何解答的。（等级排名前50的我全部关注了）&lt;/li&gt;
+&lt;li&gt;重复，直到掌握了那个技巧 。&lt;/li&gt;
+&lt;li&gt;针对某一个知识点，强化训练。&lt;/li&gt;
+&lt;li&gt;总结并复习。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;怎样针对某一个知识点进行强化训练&#34;&gt;怎样针对某一个知识点进行强化训练？&lt;/h3&gt;
+
+&lt;p&gt;我的方法是，在google 上搜 &amp;ldquo;codewars collection&amp;rdquo; ，这样可以搜索到其他用户针对某一类型的习题做的收藏。比如下面这个链接的收藏分类非常的清楚 &lt;a href=&#34;https://www.codewars.com/users/juansgaitan/authored_collections&#34;&gt;https://www.codewars.com/users/juansgaitan/authored_collections&lt;/a&gt; （Generator， Functional， Recursion， RegEx 等等）。&lt;/p&gt;
+
+&lt;h3 id=&#34;制造竞争-加入组织&#34;&gt;制造竞争  加入组织&lt;/h3&gt;
+
+&lt;p&gt;一个小技巧，在 &lt;a href=&#34;http://www.codewars.com/r/nTMAyg&#34;&gt;codewars&lt;/a&gt; 的个人资料里设置你的 &lt;strong&gt;Clan&lt;/strong&gt; (相当于一个组织)，比如我设置的 &amp;ldquo;China&amp;rdquo;，这样相同组织里的所有人都将成为 Allies ，你可以看到他们的等级以及 Honor 值。在同一个组织中，超过你的 Allies ，这不也是答题的动力吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7faub01q.bkt.clouddn.com/images/readread-peak.png&#34; alt=&#34;read-peak&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;通过练习不断重构心理表征&#34;&gt;通过练习不断重构心理表征&lt;/h2&gt;
+
+&lt;p&gt;什么是心理表征（Mental representations）？要解释这个专业术语不太容易，你可以阅读一下下面几个链接：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/21000475&#34;&gt;认知心理学中「表征」的概念是什么？ - 知乎&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Mental_representation&#34;&gt;Mental representation - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.elizabethfloyd.com/blog/2016/09/30/peak-by-anders-ericsson-and-robert-pool&#34;&gt;Peak: Secrets from the New Science of Expertise by Anders Ericsson and Robert Pool — Elizabeth Floyd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;书中是这么说的：&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+
+&#34;心理表征是一种与我们大脑正在思考的某个物体、某个观点、某些信息或者其他任何事物相对应的心理结构，或具体或抽象&#34;
+
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+
+&#34;将杰出人物和我们其他人区分开来的主要因素是：他们经过年复一年的练习，已经改变了大脑中的神经回路，以创建高度专业化的心理表征，这些心理表征反过来使得令人难以置信的记忆、规律的识别、问题的解决等成为可能，也使得他们能够培养和发展各种高级的能力，以便在特定的专业领域中表现卓越。&#34;
+
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;（题外话：我个人觉得把 &amp;ldquo;Mental representation&amp;rdquo; 翻译成“认知表征”更合适。）&lt;/p&gt;
+
+&lt;p&gt;那么，知道了这个“心理表征”有什么用？它解释了为什么我们能够通过刻意练习提升水平。当我们习惯了在舒适区中思考，在舒适区中解决问题，我们自然而然就形成了一套认知，这套认知在应对舒适区内的情况能够得心应手，而一旦超越舒适区就会变得没那么容易。这就能说明刻意练习的目的：提升认知水平，从而应对更复杂更棘手的局面。&lt;/p&gt;
+
+&lt;p&gt;在这个信息、资源如此充分的时代，我们很容易产生一个幻觉，就是自以为知道的很多。通过google搜索我们可以解决一系列问题，好像都不必思考了，google一下就有答案。现实是，通过google 能解决的都是一个个具体的小问题，它无法代替我们思考，无法代替我们面对复杂的局面做出合理的决策。&lt;/p&gt;
+
+&lt;p&gt;从另外一个角度讲，这本书重构了我的认知。但是，如果我对此就感到满足了的话，那么我的认知水平也就仅限于此了。&lt;/p&gt;
+
+&lt;h2 id=&#34;专注也可以练习&#34;&gt;专注也可以练习&lt;/h2&gt;
+
+&lt;p&gt;这本书中不断有提到 &lt;strong&gt;专注&lt;/strong&gt; 这两个字。作者说：&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+
+“有目的的练习是专注的”，“要以专注的方式制订明确的目标”
+
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+
+“为了在没有导师的时候有效地练习某种技能，牢牢记住以下三个F，将是有帮助的。这三个F，其实是以字母F开头三个单词，即：专注（focus）、反馈（feedback）以及纠正（fix it）”。
+
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;怎样能够保持专注？作者给的建议是保持动机，但拥有了强烈的动机就能不断保持专注了吗？我对此持怀疑态度。很多时候，无法专注就是无法专注，各种各样的杂念在脑海中飘来飘去，一会儿看下微信，一会儿看看网页，很难一心一意的专注于手头的事情。&lt;/p&gt;
+
+&lt;p&gt;直到我阅读了《正念的奇迹》这本书，结合《刻意练习》，我意识到 &lt;strong&gt;专注&lt;/strong&gt; 也是可以练习的。举个例子，在你做你不喜欢做的事情，比如有一大堆的碗要洗，或者要修改别人丑陋的代码，你会不会感到烦躁？你会不会想很多别的事情？当你有各种各样的杂念的时候，你很难去保持专注。&lt;/p&gt;
+
+&lt;p&gt;关于《正念的奇迹》，关于怎样练习专注，我想另外写一篇文章，再谈一谈它对我的启发。&lt;/p&gt;
+
+&lt;h2 id=&#34;还没有结束&#34;&gt;还没有结束&lt;/h2&gt;
+
+&lt;p&gt;作者在书中质疑了天才，强调了普通人只要找到合适的方法（问题是如果没有一位好的老师指点，我们怎么知道方法是否合适呢？）通过大量刻苦刻意的练习，也能够达到天才的水平。这碗鸡汤我先喝了。毕竟在这个互联网时代，很多领域的练习方法都有现成的，就比如编程，只要沿着前人铺好的路走下去，至少说是能够达到职业水准吧。如果你还没有比别人付出更大的努力，你怎么知道自己不行呢？理论知道的再多再清楚，终究是要回归实践的，更何况这本书讲的就是练习，那就少说废话、好好练习去吧！&lt;/p&gt;</description>
+      
     </item>
     
     <item>
@@ -117,11 +880,91 @@
       <pubDate>Thu, 01 Jun 2017 09:32:56 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/05-tools-addict/</guid>
-      <description>&lt;p&gt;怎样给工具下定义？文字、语言算不算工具？知识算不算工具？数学公式算不算工具？科学方法算不算工具？甚至而言，宗教信仰算不算工具？那么工具癖又算什么呢？&lt;/p&gt;
+      
+        <description>&lt;p&gt;怎样给工具下定义？文字、语言算不算工具？知识算不算工具？数学公式算不算工具？科学方法算不算工具？甚至而言，宗教信仰算不算工具？那么工具癖又算什么呢？&lt;/p&gt;
 
 &lt;p&gt;由此可见，从更大的范围来讲，给工具下定义不是件容易的事。我在这篇文章仅谈论计算机相关的工具。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;工具癖患者的表现&#34;&gt;工具癖患者的表现&lt;/h1&gt;
+
+&lt;p&gt;以下表现请勿代号入座。&lt;/p&gt;
+
+&lt;h2 id=&#34;收集成癖&#34;&gt;收集成癖&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;并没有明确的工具使用目的，仅仅是好玩，或觉得也许将来某一天可以用上，结果可能很长一段时间都搁置一旁了。如： 安装各类 app。&lt;/li&gt;
+&lt;li&gt;喜欢关注并阅读工具类文章。如：小众软件、电脑玩物等。&lt;/li&gt;
+&lt;li&gt;寻找工具的时间超过使用工具本身。&lt;/li&gt;
+&lt;li&gt;不满足当下使用的工具，喜好对比，在同类的多种工具中进行对比。如：Emacs/Vim/Sublime/VSCode 等。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;折腾成癖&#34;&gt;折腾成癖&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;探索工具功能的时间超过使用工具本身。&lt;/li&gt;
+&lt;li&gt;喜好体验新鲜事物，没有用过的工具都要尝试一番。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;装逼成癖&#34;&gt;装逼成癖&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;使用的工具一定要与众不同！&lt;/li&gt;
+&lt;li&gt;使用的工具尽可能功能强大非一般人所能操控！&lt;/li&gt;
+&lt;li&gt;工具使用起来要看上去很厉害！&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;工具癖患者的自我修养&#34;&gt;工具癖患者的自我修养&lt;/h1&gt;
+
+&lt;p&gt;首先我必须承认我自己就是一个十足的“工具癖患者”。关于以上内容所述的种种癖好，在我个人身上多有体现。经过时间的洗礼，绕了不少弯路，自认为有所好转。工具癖是病，要治的。我曾在不少工具上浪费了时间和精力，唯一的收获仅仅只是“哦，这个工具是这样的”，并没有用这个工具解决实质性的问题。作为过来人，我想对同我相似的患者多说几句，也请您不吝赐教。&lt;/p&gt;
+
+&lt;h2 id=&#34;你真正的需求是什么&#34;&gt;你真正的需求是什么&lt;/h2&gt;
+
+&lt;p&gt;不可否认的是，此类人是追求上进的，至少在不断的追求更高的效率和易用性。癖好工具，可能是希望发现某样工具正好解决自身的需要，也可能是对当下使用的工具不甚满意，它的出发点是好的。关键是，工具之所以被称作工具，它必然是为 &lt;strong&gt;完成某一件事情&lt;/strong&gt; 而服务的。我先举一个我个人的例子（因为我也不清楚别人怎样）：&lt;/p&gt;
+
+&lt;p&gt;我折腾过三个浏览器，firefox、chrome 和 opera，这三个软件都很优秀。firefox 拥有强大的 vimperator 扩展，chrome 拥有简洁的功能和丰富的应用，opera 拥有完备的可定制性。但我总是时常对它们有所不满，有时觉得 firefox 太复杂了，有时觉得 chrome 太占用内存了，有时觉得 opera 无法兼容某个网站很懊恼。我就在这三个浏览器之间换来换去，折腾来折腾去。&lt;/p&gt;
+
+&lt;p&gt;为什么我会做出这种毫无意义的举动？具体原因我也不甚明了，也许是某种类似于“强迫症”的心理疾病在作祟吧。但是有一点是可以说明的，我忽视了该工具本身的使用目的，没有明确自己真正的需求是什么。而是在它们彼此之间瞎折腾。浏览器是做什么用的？就是浏览网页啊。我 &lt;strong&gt;真正的&lt;/strong&gt; 需求是什么？也就仅是浏览网页而已，其他扩展、脚本之类，说实在的也是可有可无的。那么就明了了，三个浏览器其实都符合我的需求，选择一个顺手的、通用性强的使用就是了。&lt;/p&gt;
+
+&lt;p&gt;再举几个我个人的例子：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;我用过多个笔记软件 evernote，为知笔记和麦库等等。实际上我的需求只是记笔记而已。&lt;/li&gt;
+&lt;li&gt;我试过多个 GTD 类工具 todoist, doit , google tasks , remember the milk。实际上我的需求只是为后面要做的事给自己做个提醒而已。&lt;/li&gt;
+&lt;li&gt;我刻意寻找过并试用过多个写博客的工具，比如 jekyll，pelican, o-blog 等等，大部分只写过零散的几篇就不了了之了。
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;什么是 &lt;strong&gt;真正的&lt;/strong&gt; 需求？这个因人而异了。我个人以为，这个工具能够完成你要做的事情，它就满足了你的需求了。因此，大多数时候，大部分人用的工具都是符合要求的。既然符合要求，那么就把时间用在正事上，而非折腾工具。&lt;/p&gt;
+
+&lt;h2 id=&#34;把时间用在正事上&#34;&gt;把时间用在正事上&lt;/h2&gt;
+
+&lt;p&gt;说实话，这比折腾工具要困难的多，就像看书和写书的差别。上面说了，工具是为“完成某一件事情”而服务的，它的重点是完成事情。至于如何完成，比如如何写作，如何做思维导图，如何自我管理等等，就不在本话题之内了。&lt;/p&gt;
+
+&lt;p&gt;这是我个人的一些反思。如果能给与我类似的工具癖患者带来些许借鉴，那是再好不过了。下面给一些实用的建议。&lt;/p&gt;
+
+&lt;h1 id=&#34;挑选工具的一些建议&#34;&gt;挑选工具的一些建议&lt;/h1&gt;
+
+&lt;p&gt;不同的同类工具之间必然还是有差别的。仅以个人经验，在清楚需求、不折腾的基础上，提以下建议，供读者参考：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;简单的工具。越简单，学习成本就越低，所需要付出的就越少。&lt;/li&gt;
+&lt;li&gt;可移植性。对于创作内容来说，这是很必要的，因为你并不十分肯定你会用这个工具一辈子。如果你重视你的创作，并希望由你随意掌控，请重视这点。&lt;/li&gt;
+&lt;li&gt;多数人使用的。小众的东西再好，当它停止服务那天，也不如多数人使用的继续服务的那个。&lt;/li&gt;
+&lt;li&gt;你所推崇的人（所谓牛人）推荐的。既然你推崇他，他就一定有过人之处，他的推荐一般是不会差的。&lt;/li&gt;
+&lt;li&gt;除了你推崇的人， &lt;strong&gt;谨慎&lt;/strong&gt; 考虑一般人推荐的。&lt;/li&gt;
+&lt;li&gt;最好是跨平台的。这和第 2 点可移植性相类似。&lt;/li&gt;
+&lt;li&gt;注意学习成本与实际效益。这是对第一点的补充。有些复杂的工具，它能带来不错的效益，与之成正比的是它的学习成本。如果未来可预见的数年内，你将一直使用它，那么花费一部分时间甚至一部分金钱，都是值得的。&lt;/li&gt;
+&lt;li&gt;随缘。好的工具，你不必刻意寻找，也会出现在你眼前。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
+
+&lt;p&gt;工具癖也并非多么严重的毛病，我用过折腾过那么多工具，多多少少知道它们之间的优缺点，以及哪个更适合我，但是以此耗费的时间和精力真的不值得。&lt;/p&gt;
+
+&lt;p&gt;用三个字结束吧：少折腾。&lt;/p&gt;</description>
+      
     </item>
     
     <item>
@@ -130,7 +973,8 @@
       <pubDate>Fri, 05 May 2017 10:04:20 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/read-how-to-read-a-book/</guid>
-      <description>&lt;blockquote&gt;
+      
+        <description>&lt;blockquote&gt;
 &lt;p&gt;原作名: How to Read a Book&lt;br /&gt;
 作者: [美] 莫提默·J. 艾德勒 / 查尔斯·范多伦&lt;br /&gt;
 译者: 郝明义 / 朱衣&lt;br /&gt;
@@ -139,7 +983,217 @@
 
 &lt;p&gt;这是一本谈论读书方法的书。目的在于提升个人的阅读技巧，包括阅读应有的步骤，阅读效率的提高，阅读的目的，以此来获得个人的成长。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;阅读的活力与艺术&#34;&gt;阅读的活力与艺术&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;主动的阅读：阅读可以是一件多少主动的事；阅读越主动，效果越好；&lt;/li&gt;
+&lt;li&gt;阅读的目标
+
+&lt;ul&gt;
+&lt;li&gt;为获得资讯而读（理解不一定增强）&lt;/li&gt;
+&lt;li&gt;为求得理解而读&lt;/li&gt;
+&lt;li&gt;没有任何外力的帮助&lt;/li&gt;
+&lt;li&gt;向更“高杆”的人学习&lt;/li&gt;
+&lt;li&gt;为了消遣而读&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;阅读就是学习：指导型的学习，以及自我发现型的学习之间的差异&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;第一层-基础阅读-elementary-reading&#34;&gt;第一层：基础阅读(elementary reading)&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;阅读准备阶段&lt;/li&gt;
+&lt;li&gt;认字&lt;/li&gt;
+&lt;li&gt;字汇的增长及对课文的运用&lt;/li&gt;
+&lt;li&gt;阅读无基本障碍&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;第二层-检视阅读-inspectional-reading&#34;&gt;第二层：检视阅读(inspectional reading)&lt;/h2&gt;
+
+&lt;h3 id=&#34;一-有系统的略读或粗读&#34;&gt;一，有系统的略读或粗读&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(1)先看书名页，然后如果有序就先看序。要很快地看过去。特别注意副标题，或其他的相关说明或宗旨，或是作者写作本书的特殊角度。&lt;/li&gt;
+&lt;li&gt;(2)研究目录页，对这本书的基本架构做概括性的理解。&lt;/li&gt;
+&lt;li&gt;(3)如果书中附有索引，也要检阅一下—大多数论说类的书籍都会有索引。快速评估一下这本书涵盖了哪些议题的范围，以及所提到的书籍种类与作者等等。如果你发现列举出来的哪一条词汇很重要，至少要看一下引用到这个词目的某几页内文。&lt;/li&gt;
+&lt;li&gt;(4)如果那是本包着书衣的新书，不妨读一下出版者的介绍。&lt;/li&gt;
+&lt;li&gt;完成以上四步，判断是想要继续读下去，还是根本不想读了。&lt;/li&gt;
+&lt;li&gt;(5)从你对一本书的目录很概略，甚至有点模糊的印象当中，开始挑几个看来跟主题息息相关的篇章来看。如果这些篇章在开头或结尾有摘要说明（很多会有），就要仔细地阅读这些说明。&lt;/li&gt;
+&lt;li&gt;(6)最后一步，把书打开来，东翻翻西翻翻，念个一两段．有时候连续读几页，但不要太多。就用这样的方法把全书翻过一遍，随时寻找主要论点的讯号，留意主题的基本脉动。最重要的是，不要忽略最后的两三页。
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;二-粗浅的阅读&#34;&gt;二，粗浅的阅读&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;头一次面对一本难读的书的时候，从头到尾先读完一遍，碰到不懂的地方不要停下来查询或思索。
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;阅读速度并非单一，不应有损于理解。&lt;/li&gt;
+&lt;li&gt;第一次阅读，不要企图了解每一个字句。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;三-主动的阅读基础&#34;&gt;三，主动的阅读基础：&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;一个阅读者要提出的四个基本问题&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;整体来说，这本书到底在谈些什么？&lt;/li&gt;
+&lt;li&gt;作者细部说了什么，怎么说的？&lt;/li&gt;
+&lt;li&gt;这本书说得有道理吗？是全部有道理，还是部分有道理？&lt;/li&gt;
+&lt;li&gt;这本书跟你有什么关系？
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;四-做笔记的方法&#34;&gt;四，做笔记的方法&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;画底线—在主要的重点，或重要又有力量的句子下画线。&lt;/li&gt;
+&lt;li&gt;在画底线处的栏外再加画一道线—把你已经画线的部分再强调一遍，或是某一段很重要，但要画底线太长了，便在这一整段外加上一个记号。&lt;/li&gt;
+&lt;li&gt;在空白处做星号或其他符号—要慎用，只用来强调书中十来个最重要的声明或段落即可。你可能想要将做过这样记号的地方每页折一个角，或是夹一张书签，这样你随时从书架上拿起这本书，打开你做记号的地方，就能唤醒你的记忆。&lt;/li&gt;
+&lt;li&gt;在空白处编号—作者的某个论点发展出一连串的重要陈述时，可以做顺序编号。&lt;/li&gt;
+&lt;li&gt;在空白处记下其他的页码—强调作者在书中其他部分也有过同样的论点，或相关的要点，或是与此处观点不同的地方。这样做能让散布全书的想法统一集中起来。许多读者会用Cf这样的记号，表示比较或参照的意思。&lt;/li&gt;
+&lt;li&gt;将关键字或句子圈出来—这跟画底线是同样的功能。&lt;/li&gt;
+&lt;li&gt;在书页的空白处做笔记—在阅读某一章节时，你可能会有些问题（或答案），在空白处记下来，这样可以帮你回想起你的问题或答案。你也可以将复杂的论点简化说明在书页的空白处。或是记下全书所有主要论点的发展顺序。书中最后一页可以用来作为个人的索引页，将作者的主要观点依序记下来。
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;五-做笔记的三种方法&#34;&gt;五，做笔记的三种方法&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;结构笔记，重点在于全书的架构。&lt;/li&gt;
+&lt;li&gt;概念笔记，用于主题阅读。&lt;/li&gt;
+&lt;li&gt;辩证笔记，许多作者共同参与的。
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;六-在检视阅读中-要回答的问题&#34;&gt;六，在检视阅读中，要回答的问题&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;这是什么样的一本书？&lt;/li&gt;
+&lt;li&gt;整本书在谈的是什么？&lt;/li&gt;
+&lt;li&gt;作者是借着怎样的整体架构，来发展他的观点或陈述他对这个主题的理解？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;第三层-分析阅读-analytical-reading&#34;&gt;第三层：分析阅读(analytical reading)&lt;/h2&gt;
+
+&lt;h3 id=&#34;第一阶段-找出一本书在谈些什么&#34;&gt;第一阶段，找出一本书在谈些什么&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;依照书的种类与主题来分类。&lt;/li&gt;
+&lt;li&gt;使用最简短的文字说明整本书在谈些什么。&lt;/li&gt;
+&lt;li&gt;按照顺序与关系，列出全书的重要部分。将全书的纲要拟出来之后，再将各个部分的纲要也一一列出。&lt;/li&gt;
+&lt;li&gt;找出作者要问的问题，或作者想要解决的问题。
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;第二阶段-诊释一本书的内容&#34;&gt;第二阶段，诊释一本书的内容&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;找出重要单字，透过它们与作者达成共识。&lt;/li&gt;
+&lt;li&gt;从最重要的句子中抓出作者的重要主旨。&lt;/li&gt;
+&lt;li&gt;找出作者的论述，重新架构这些论述的前因后果，以明白作者的主张。&lt;/li&gt;
+&lt;li&gt;确定作者已经解决了哪些问题，还有哪些是未解决的。在未解决的问题中，确定哪些是作者认为自己无法解决的问题。
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;第三阶段-像是沟通知识一样地评论一本书&#34;&gt;第三阶段，像是沟通知识一样地评论一本书&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;A. 智慧礼节的一般规则
+
+&lt;ol&gt;
+&lt;li&gt;除非你已经完成大纲架构,也能诠释整本书了,否则不要轻易批评&lt;/li&gt;
+&lt;li&gt;不要争强好胜,非辩到底不可。&lt;/li&gt;
+&lt;li&gt;在说出评论之前,你要能证明自己区别得出真正的知识与个人观点的不同。&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;B.批评观点的特别标准&lt;br /&gt;
+
+&lt;ol&gt;
+&lt;li&gt;证明作者的知识不足。&lt;/li&gt;
+&lt;li&gt;证明作者的知识错误。&lt;/li&gt;
+&lt;li&gt;证明作者不合逻辑。&lt;/li&gt;
+&lt;li&gt;证明作者的分析与理由是不完整的。&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;辅助阅读&#34;&gt;辅助阅读&lt;/h3&gt;
+
+&lt;p&gt;外在的辅助来源可以分成四个部分：第一,相关经验。第二,其他的书。第三,导论与摘要。第四,工具书。&lt;/p&gt;
+
+&lt;h2 id=&#34;阅读不同读物的方法&#34;&gt;阅读不同读物的方法&lt;/h2&gt;
+
+&lt;h3 id=&#34;实用性的书&#34;&gt;实用性的书&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;两个主要问题：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;作者的目的是什么？&lt;/li&gt;
+&lt;li&gt;他建议用什么方法达到这个目的？
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;想像文学&#34;&gt;想像文学&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;“不要”&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;不要抗拒想像文学带给你的影响力。&lt;/li&gt;
+&lt;li&gt;在想像文学中,不要去找共识、主旨或论述。&lt;/li&gt;
+&lt;li&gt;不要用适用于传递知识的,与真理一致的标准来批评小说。
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;“规则”&lt;/strong&gt; ：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;你必须将想像文学作品分类。&lt;/li&gt;
+&lt;li&gt;你要能抓住整本书的大意。&lt;/li&gt;
+&lt;li&gt;你不仅要能将整本书简化为大意,还要能发现整本书各个部分是如何架构起来的。&lt;/li&gt;
+&lt;li&gt;小说的要素是插曲、事件、角色与他们的思想、言语、感觉及行动。&lt;/li&gt;
+&lt;li&gt;共识与主旨有关。&lt;/li&gt;
+&lt;li&gt;如果说论说性作品中有任何活动,那就是论述的发展。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;对于小说,我们不该反对或赞成,而是喜欢或不喜欢。&lt;/p&gt;
+
+&lt;h3 id=&#34;故事-戏剧与诗&#34;&gt;故事、戏剧与诗&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;故事书： 快读；全身投入；看完之后再回顾。&lt;/li&gt;
+&lt;li&gt;史诗： 要求你集中注意力,全心参与并运用想像力。&lt;/li&gt;
+&lt;li&gt;戏剧： 假装看到演出的实景；最好是一气呵成；把剧本大声地读出来倒经常是不错的方法。&lt;/li&gt;
+&lt;li&gt;悲剧： 记住悲剧的精髓在时间,或是说缺乏时间；悲剧人物与旁白有极大差异。&lt;/li&gt;
+&lt;li&gt;抒情诗： 不论你觉得自己懂不懂,都要一口气读完,不要停；重读一遍—大声读出来；了解背景资料。&lt;/li&gt;
+&lt;li&gt;历史： 对你感兴趣的事件或时期,尽可能阅读一种以上的历史书；阅读历史时,不只要关心在过去某个时间、地点真正发生了什么事,还要读懂在任何时空之中,尤其是现在,人们为什么会有如此这般行动的原因&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;第四层-主题阅读-syntopicalreading&#34;&gt;第四层：主题阅读(syntopicalreading)&lt;/h2&gt;
+
+&lt;p&gt;一、观察研究范围:主题阅读的准备阶段&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;针对你要研究的主题,设计一份试验性的书目。&lt;/li&gt;
+&lt;li&gt;浏览这份书目上所有的书,确定哪些与你的主题相关,并就你的主题建立起清楚的概念。
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;二、主题阅读:阅读所有第一阶段收集到的书籍&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;浏览所有在第一阶段被认定与你主题相关的书,找出最相关的章节。&lt;/li&gt;
+&lt;li&gt;根据主题创造出一套中立的词汇,带引作者与你达成共识。&lt;/li&gt;
+&lt;li&gt;建立一个中立的主旨,列出一连串的问题。&lt;/li&gt;
+&lt;li&gt;界定主要及次要的议题。&lt;/li&gt;
+&lt;li&gt;分析这些讨论。&lt;/li&gt;
+&lt;/ol&gt;</description>
+      
     </item>
     
     <item>
@@ -148,7 +1202,8 @@
       <pubDate>Mon, 01 May 2017 15:31:38 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/read-zen-and-the-art-of-motorcycle-maintenance/</guid>
-      <description>&lt;blockquote&gt;
+      
+        <description>&lt;blockquote&gt;
   &lt;p&gt;&lt;p&gt;我因为写了一部人们把它和《禅与摩托车维修艺术》相比较的书而感到甚受恭维。我希望拙作（《时间简史》）和本书一样使人们觉得，他们不必自处于伟大的智慧及哲学的问题之外。&lt;/p&gt;
 &lt;/p&gt;
   &lt;footer&gt;
@@ -160,7 +1215,336 @@
 &lt;/blockquote&gt;
 
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;外链&#34;&gt;外链&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/1855097/&#34;&gt;万里任禅游 (豆瓣)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Zen_and_the_Art_of_Motorcycle_Maintenance&#34;&gt;Zen and the Art of Motorcycle Maintenance - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.robertpirsig.org/&#34;&gt;RobertPirsig.org - Home&lt;/a&gt;  —— 作者的官网&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Quality_(philosophy)&#34;&gt;Quality (philosophy) - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;本书说了些什么&#34;&gt;本书说了些什么？&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;父子俩骑摩托车跨越美国的旅行&lt;/li&gt;
+&lt;li&gt;在旅行过程中主角的思考&lt;/li&gt;
+&lt;li&gt;关于理性、科学、真理、人的认知、二元论等等&lt;/li&gt;
+&lt;li&gt;引申出“良质”（Quality）&lt;/li&gt;
+&lt;li&gt;良质是什么？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;怎么说的&#34;&gt;怎么说的？&lt;/h1&gt;
+
+&lt;h2 id=&#34;叙述顺序&#34;&gt;叙述顺序&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;提出科学、理性遇到的问题&lt;/li&gt;
+&lt;li&gt;引出良质这个概念&lt;/li&gt;
+&lt;li&gt;探究良质的意义&lt;/li&gt;
+&lt;li&gt;追溯到古希腊时代的良质&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;关于科学&#34;&gt;关于科学&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;科学的局限性。“各种数据不断的增加，科学把人从惟一绝对的真理，引向多元、摇摆不定的、相对的世界，带来了社会混乱与思想价值的混淆，而这一切现象，原本是科学想要消灭的。”（前言）&lt;/li&gt;
+&lt;li&gt;摩托车维修的例子。有人害怕科技，拒绝深入了解。但是，即使是专业人员，也不会真正地投入，甚至弄出更多的麻烦。&lt;/li&gt;
+&lt;li&gt;科学的“鬼魂” —— “物理定理、逻辑学……数的系统……几何代数等等，这些都是所谓的鬼魂，因为我们太相信了，所以它们看起来就是真的。” （《人类简史》中谈到了类似的观点）&lt;/li&gt;
+&lt;li&gt;科学假设 —— &amp;ldquo;你看得愈多，知道得就愈多。你不是从一大堆假设当中筛选出一项真理，你是不断地提供大量的假设。这也就是说，你想要借着科学方法接近真理，实际上你根本没有任何进展，甚至离它愈来愈远，这是你所运用的科学方法造成的。&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;认知&#34;&gt;认知&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;古典的认知和浪漫的认知&lt;/li&gt;
+&lt;li&gt;古典的认知认为这个世界是由一些基本形式组成的，而浪漫的认知则是从它的表象来观察。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;良质&#34;&gt;良质&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;良质无法准确定义，但又确实存在。（语言文字的局限性）&lt;/li&gt;
+&lt;li&gt;良质是“好”的东西&lt;/li&gt;
+&lt;li&gt;良质是关心，可以理解为“专心”、“注意力集中”&lt;/li&gt;
+&lt;li&gt;良质是内心的宁静，类似禅，心中没有杂念&lt;/li&gt;
+&lt;li&gt;良质是进取心，是热忱&lt;/li&gt;
+&lt;li&gt;世界由三种事物组成：心、物、良质。主体、客体隶属于良质。&lt;/li&gt;
+&lt;li&gt;陷阱
+
+&lt;ol&gt;
+&lt;li&gt;因外在的环境受挫折
+
+&lt;ul&gt;
+&lt;li&gt;解决办法：拿出笔记本，记录下问题，每一个步骤，记录越详细越好。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;内在因素引起的忧虑
+
+&lt;ol&gt;
+&lt;li&gt;价值陷阱，固守旧的价值观，而不会应变&lt;/li&gt;
+&lt;li&gt;真理陷阱，可以理解为自傲，自我太强&lt;/li&gt;
+&lt;li&gt;枯燥&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;良质渗入希腊人所有的思想。英语的“伦理道德”在希腊原文指的是“卓越”。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;我的启发&#34;&gt;我的启发&lt;/h1&gt;
+
+&lt;h2 id=&#34;自制力-坚持-专心-热情-都属于良质&#34;&gt;自制力、坚持、专心、热情……都属于良质&lt;/h2&gt;
+
+&lt;p&gt;良质是一种状态，物我两忘，主体与客体合二为一的状态。当你意识到了良质，自然而然就拥有了“自制力、坚持、专心和热情……”。这种状态是令人愉悦的。&lt;/p&gt;
+
+&lt;h2 id=&#34;gtd-的局限性&#34;&gt;GTD 的局限性&lt;/h2&gt;
+
+&lt;p&gt;我曾经阅读过不少关于 GTD 的文章、书籍，使用过多个相关的工具。令人疑惑的是，最初的想法是提高自制力，按计划行动。但很多时候，写下来的事情，却不想去完成它。GTD 只是方法、工具，从单纯的理性角度，它是理想状况下的行动方针，对机器而言，按照程序执行并不难。但人不是机器，人是会思考、有感性、有直觉、受环境、受个人基因等等所影响的一种生物。很多时候，人真正做事，或者把事情做好，靠的不是任务清单，而是某个动机，是热情，按本书的意思就是良质。&lt;/p&gt;
+
+&lt;h2 id=&#34;科学的局限性&#34;&gt;科学的局限性&lt;/h2&gt;
+
+&lt;p&gt;科学假设出现的速度远远快于研究的速度，一个现象可以有无限的假设去解释。若是如此，科学研究的意义是什么？&lt;/p&gt;
+
+&lt;h1 id=&#34;我的疑问&#34;&gt;我的疑问&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;良质与禅是什么关系？禅是什么？&lt;/li&gt;
+&lt;li&gt;良质与信仰有关系吗？&lt;/li&gt;
+&lt;li&gt;苏格拉底、柏拉图、亚里士多德，到底说了什么？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;摘录&#34;&gt;摘录&lt;/h1&gt;
+
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ldquo;我们刻意避免按照固定的行程前进，宁可随心所欲地走走停停，因为旅游本身远比赶赴某一个目的地更加惬意。&amp;rdquo;
+(章节:1)&lt;/p&gt;
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ldquo;这些乡间小路和一般的干道迥然不同，就连沿线居住的居民的生活步调和个性也不一样。他们一直都没有离开过本地，所以可以很悠闲地和你寒暄问候、谈天说地，那感觉好极了。反而是那些早就搬到城市里的人和他们的子子孙孙迷失了，忘记了这种情怀。&amp;rdquo;
+(章节:1)&lt;/p&gt;
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ldquo;要把问题正确地写下来，起码要兼顾到六方面： （1）问题是什么。 （2）假设问题的原因。 （3）证实每个问题的假设。 （4）预测实验的结果。 （5）观察实验的结果。 （6）由实验得出结论。&amp;rdquo;
+(章节:9)&lt;/p&gt;
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;p&gt;&amp;rdquo; 他是这样回答同事的： “要想从哲学方面解释良质，是一件既对又错的事，因为这是一种哲学的解释。哲学解释的过程就是分析，把一样东西细分成主语、述语。我的意思是（以及每一个人的意思都是如此），良质这字眼不能分解成主语和述语，这不是因为良质是神秘的，而是因为良质是非常简单、迅捷而直接的感应。 “要让我们这种背景的人了解纯粹的良质，用最简洁的语言形容就是，‘良质是有机体对环境的反应（他用这种语言，因为质问他的人习惯用刺激和反应的行为理论衡量事物）’。如果你把一只阿米巴原虫放在一盘水里，然后在附近滴一滴硫酸，我想它会避开它，即使它不知道硫酸是什么。要是它能开口说话，它也会说：‘这个环境很恶劣。’如果它有神经系统，就会用非常复杂的方式去克服恶劣的环境，于是它会从过去的经验当中寻求解释，以认定目前这种环境是不适合它的，因而对环境算是了解了。 “然而在我们高等复杂的生物体对环境的反应上，我们发明了许多事物，包括天、地、树、石头、海洋、神明、音乐、艺术、语言、哲学、工程、文化和科学，我们称这些为模拟实体。而它们的确是真实的，所以我们就说服孩子相信它们是真实的。然后把不接受这套理论的人丢进疯人院里，但是让我们发明模拟实体的是良质。良质就是环境给我们不断的刺激，让我们创造所居住的世界，包括所有的一切，以及其中的一点一滴。 “如果我们想用我们所创造的世界去涵盖、去刺激我们创造的源头，这是不可能的。这就是为什么良质无法被界定，如果我们去界定，我们所界定的就无法涵盖整体的良质。”&amp;rdquo;
+(章节:20)&lt;/p&gt;
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ldquo;写不出来是一种最常碰到的情形，如果你想一下子说太多东西，往往就会这样。你要做的就是，不要强迫自己立刻写出来，因为这会使你更写不出东西。你只要先把事情一样一样地区分清楚，然后每次只写一样。如果你一面想要说什么，一面想先说什么，就太复杂了。所以要先把它们区分清楚，列出要说的事，然后再排出先后顺序。&amp;rdquo;
+(章节:24)&lt;/p&gt;
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ldquo;宗教不是由人发明的，人是由宗教发明的。而人也创造对良质的反应。由这些反应当中人进一步了解了自己。&amp;rdquo;
+(章节:28)&lt;/p&gt;
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;p&gt;&amp;ldquo;这时他才第一次明白，人们凭借辩证法了解并统治了世界，结果却得到了令人难以置信的损失。他曾经培养了自己在科学方面极高的能力，能够运用自然现象来实现自己力量和财富的梦想——但是同时，他也付出了巨大的代价：他丢掉了一种非常重要的了解，也就是了解自己身为世界的一部分，而非它的敌人。&amp;rdquo;
+(章节:29)&lt;/p&gt;
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;</description>
+      
     </item>
     
     <item>
@@ -169,9 +1553,15 @@
       <pubDate>Sat, 01 Apr 2017 09:13:20 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/03-focus-on-content/</guid>
-      <description>&lt;p&gt;当我们开始做一件事情，首先想一想这件事的核心是什么？然后再想，完成它有哪些方案？哪个方案即便它不够完美，却是自己目前可行的？哪个方案目前不可行，但是自己能够改进的？对于目前不可行，自己又无法改进的方案，暂时搁置，应当先以完成这件事情为主。&lt;/p&gt;
+      
+        <description>&lt;p&gt;当我们开始做一件事情，首先想一想这件事的核心是什么？然后再想，完成它有哪些方案？哪个方案即便它不够完美，却是自己目前可行的？哪个方案目前不可行，但是自己能够改进的？对于目前不可行，自己又无法改进的方案，暂时搁置，应当先以完成这件事情为主。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;写作的核心，是你所要表达的内容。使用什么工具、发布在哪个平台、用什么样的格式，都是次要的。只要想表达的内容完整了、准确了，读者看的明白，那么就算完成了写作的首要目标：把内容写出来，并给读者看。即便其中有多个方面不够完美，那些也是可以慢慢改良，不必纠结在选择上。&lt;/p&gt;
+
+&lt;p&gt;很多时候可选择的太多，反倒把写作自身的重点给忘了。比如我想要搭建一个个人网站，网站生成是用 hugo 还是 hexo？写作软件是用 emacs 还是 typora？标记语言是用 markdown 还是 orgmode？诸如此类。最后，一篇文章也没有写出来。这完全背离了写作的初衷。&lt;/p&gt;</description>
+      
     </item>
     
     <item>
@@ -180,9 +1570,79 @@
       <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/02-manage-dotfiles/</guid>
-      <description>&lt;p&gt;作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code&gt;.&lt;/code&gt; 开头，管它们叫 &lt;code&gt;dotfiles&lt;/code&gt; 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p&gt;
+      
+        <description>&lt;p&gt;作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code&gt;.&lt;/code&gt; 开头，管它们叫 &lt;code&gt;dotfiles&lt;/code&gt; 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;一个简单的方法是：将所有配置文件统一丢进一个文件夹，用 git 进行管理，用 &lt;code&gt;ln -s&lt;/code&gt; 链接到原来的位置（比如家目录下）。&lt;/p&gt;
+
+&lt;p&gt;我在这里推荐一个命令行脚本——&lt;a href=&#34;https://github.com/dotphiles/dotsync&#34;&gt;dotsync&lt;/a&gt; ，它可以将上面的方法更加简化，并且在不同机器上进行同步。&lt;/p&gt;
+
+&lt;h1 id=&#34;dotsync-的使用步骤&#34;&gt;dotsync 的使用步骤&lt;/h1&gt;
+
+&lt;p&gt;第一步，将 dotsync 克隆下来，在家目录下创建一个 &lt;code&gt;Dotfiles&lt;/code&gt; 文件夹（名称任意），把 dotsync 中的配置模板 &lt;code&gt;dotsyncrc&lt;/code&gt; 文件复制进去。&lt;/p&gt;
+
+&lt;p&gt;第二步，把所有需要管理的 dotfiles 复制到 &lt;code&gt;Dotfiles/&lt;/code&gt; 目录中（例如 .vimrc, .zshrc 等等）。&lt;/p&gt;
+
+&lt;p&gt;第三步，修改 &lt;code&gt;dotsyncrc&lt;/code&gt; 这个配置文件。如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# Location of your dotfiles in $HOME
+DOTFILES=Dotfiles
+    
+# 添加你需要链接的文件
+[files]
+dotsyncrc                       # 相当于 ln -s dotsyncrc ~/.dotsyncrc
+emacs/xm-spacemacs:.emacs.d     # 相当于 ln -s emacs/xm-spacemacs ~/.emacs.d
+emacs/spacemacs                 # 相当于 ln -s emacs/spacemacs ~/.spacemacs
+# ... 等等
+[endfiles]
+    
+[hosts]
+xm-pc git=ANY                   # 计算机名称
+[endhosts]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;第四步，运行 dotsync 命令。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# 假设你把 dotsync 克隆到了家目录下
+
+~/dotsync/bin/dotsync           # 运行，会提示你选择参数
+~/dotsync/bin/dotsync -l        # 查看将要链接的文件列表
+~/dotsync/bin/dotsync -f ~/Dotfiles/dotsyncrc -L # -f 指定配置文件，-L 生成软链接
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;这个时候，你在 &lt;code&gt;dotsyncrc&lt;/code&gt; 中指定的文件，都在指定位置创建了软链接。如果文件已经存在，它们都将备份到 &lt;code&gt;~/.backup/&lt;/code&gt; 目录。当你编辑软链接文件的时候，实际上编辑的是 Dotfiles 目录中的源文件。&lt;/p&gt;
+
+&lt;p&gt;第五步，可以使用 git 管理备份 Dotfiles 文件夹了。&lt;/p&gt;
+
+&lt;h1 id=&#34;将-dotsync-添加到-shell-的-path-路径&#34;&gt;将 dotsync 添加到 Shell 的 PATH 路径&lt;/h1&gt;
+
+&lt;p&gt;一个问题：怎样在命令行中直接使用 dotsync？&lt;/p&gt;
+
+&lt;p&gt;我在 &lt;code&gt;Dotfiles/&lt;/code&gt; 目录下创建了一个 &lt;code&gt;bin/&lt;/code&gt; 目录，专门用来存放一些用户自己编写的脚本。然后把这个 bin 目录添加到 shell 的 PATH 路径，即在 .zshrc 文件中添加一行：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;export PATH=&amp;quot;$HOME/Dotfiles/bin:$PATH&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;然后，&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;source ~/.zshrc                 # 重载 zshrc 文件
+$PATH                           # 查看 PATH
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;这样，我们就可以直接在命令行中直接使用 dotsync 这个命令了。&lt;/p&gt;
+
+&lt;h1 id=&#34;参考链接&#34;&gt;参考链接&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dotphiles/dotphiles&#34;&gt;dotphiles/dotphiles: A community driven framework of dotfiles.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://notes.11ten.net/use-dotfiles.html&#34;&gt;Dotfiles 备份与同步配置文件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.coderzh.com/2016/03/19/dotfiles/&#34;&gt;懒程序员和他的 dotfiles - CoderZh Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jcouyang/dotfiles&#34;&gt;jcouyang/dotfiles: Jichao Ouyang&amp;rsquo;s awesome dotfiles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dotfiles.github.io/&#34;&gt;GitHub does dotfiles - dotfiles.github.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
     </item>
     
     <item>
@@ -191,12 +1651,77 @@
       <pubDate>Wed, 01 Feb 2017 16:01:23 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/01-syntax-highlighting/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function helloWorld () {
+      
+        <description>&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function helloWorld () {
   alert(&amp;quot;Hello, World!&amp;quot;)
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println(&amp;quot;Hello, World!&amp;quot;);
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;#include &amp;lt;stdio.h&amp;gt;
+
+/* Hello */
+int main(void){
+  printf(&amp;quot;Hello, World!&amp;quot;);
+  return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;// &#39;Hello World!&#39; program 
+ 
+#include &amp;lt;iostream&amp;gt;
+ 
+int main(){
+  std::cout &amp;lt;&amp;lt; &amp;quot;Hello World!&amp;quot; &amp;lt;&amp;lt; std::endl;
+  return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-cs&#34;&gt;using System;
+class HelloWorld{
+  public static void Main(){ 
+    System.Console.WriteLine(&amp;quot;Hello, World!&amp;quot;);
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;html&amp;gt;
+&amp;lt;body&amp;gt;
+  Hello, World!
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+import fmt &amp;quot;fmt&amp;quot;
+
+func main() 
+{
+   fmt.Printf(&amp;quot;Hello, World!\n&amp;quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-scala&#34;&gt;object HelloWorld with Application {
+  Console.println(&amp;quot;Hello, World!&amp;quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
+  echo &#39;Hello, World!&#39;;
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Hello, World!&amp;quot;) 
+&lt;/code&gt;&lt;/pre&gt;</description>
+      
     </item>
     
     <item>
@@ -205,9 +1730,696 @@
       <pubDate>Sun, 01 Jan 2017 18:03:09 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/00-even-theme-preview/</guid>
-      <description>&lt;p&gt;主题与markdown语法测试。&lt;/p&gt;
+      
+        <description>&lt;p&gt;主题与markdown语法测试。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;标题&#34;&gt;标题&lt;/h1&gt;
+
+&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
+
+&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;
+
+&lt;h3 id=&#34;h3&#34;&gt;H3&lt;/h3&gt;
+
+&lt;h4 id=&#34;h4&#34;&gt;H4&lt;/h4&gt;
+
+&lt;h5 id=&#34;h5&#34;&gt;H5&lt;/h5&gt;
+
+&lt;h6 id=&#34;h6&#34;&gt;H6&lt;/h6&gt;
+
+&lt;h2 id=&#34;段落&#34;&gt;段落&lt;/h2&gt;
+
+&lt;p&gt;使用单引号 &lt;code&gt;*&lt;/code&gt; 或者单下划线 &lt;code&gt;_&lt;/code&gt; 标记 &lt;em&gt;斜体强调&lt;/em&gt; 或者 &lt;em&gt;斜体强调&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;使用两个引号 &lt;code&gt;**&lt;/code&gt; 或者两个下划线 &lt;code&gt;__&lt;/code&gt; 标记 &lt;strong&gt;加粗强调&lt;/strong&gt; 或者 &lt;strong&gt;加粗强调&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;引号和下划线可叠加使用 → &lt;strong&gt;只是加粗 &lt;em&gt;斜体并加粗&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;使用两个波浪线 &lt;code&gt;~~&lt;/code&gt; 标记 &lt;del&gt;已删除文字&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;插入文字暂无 &lt;code&gt;Markdown&lt;/code&gt; 标记，直接使用 &lt;code&gt;HTML&lt;/code&gt; 标签 &lt;code&gt;&amp;lt;ins&amp;gt;&lt;/code&gt; 标记 &lt;ins&gt;插入文字&lt;/ins&gt;&lt;/p&gt;
+
+&lt;p&gt;行内代码使用反引号标记 → &lt;code&gt;print(&amp;quot;hello world&amp;quot;)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;上标 X&lt;sup&gt;2&lt;/sup&gt; / 下标 X&lt;sub&gt;2&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;按键 &lt;kbd&gt;Ctrl&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;参考资料 &lt;sup&gt;&lt;a href=&#34;#ref01&#34;&gt;&lt;a href=&#34;1&#34; title=&#34;这是一个注脚
+&#34;&gt;1&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a href=&#34;#ref02&#34;&gt;[2]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;链接&#34;&gt;链接&lt;/h2&gt;
+
+&lt;p&gt;外链 &lt;a href=&#34;http://www.google.com.com&#34;&gt;GOOGLE&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;注脚&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;列表&#34;&gt;列表&lt;/h2&gt;
+
+&lt;p&gt;以下的无序、有序和任务列表均支持二级嵌套，不建议使用二级以上嵌套。&lt;/p&gt;
+
+&lt;h3 id=&#34;无序列表&#34;&gt;无序列表&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;无序列表
+
+&lt;ul&gt;
+&lt;li&gt;嵌套的无序列表&lt;/li&gt;
+&lt;li&gt;嵌套的无序列表&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;无序列表
+
+&lt;ol&gt;
+&lt;li&gt;嵌套的有序列表&lt;/li&gt;
+&lt;li&gt;嵌套的有序列表&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;无序列表&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;有序列表&#34;&gt;有序列表&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;有序列表
+
+&lt;ol&gt;
+&lt;li&gt;嵌套的有序列表&lt;/li&gt;
+&lt;li&gt;嵌套的有序列表&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;有序列表
+
+&lt;ul&gt;
+&lt;li&gt;嵌套的无序列表&lt;/li&gt;
+&lt;li&gt;嵌套的无序列表&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;有序列表&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;任务列表&#34;&gt;任务列表&lt;/h3&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Cmd Markdown 开发
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 支持以 PDF 格式导出文稿&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 新增Todo列表功能 &lt;a href=&#34;https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments&#34;&gt;语法参考&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 改进 LaTex 功能&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 修复 LaTex 公式渲染问题&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 新增 LaTex 公式编号功能 &lt;a href=&#34;http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers&#34;&gt;语法参考&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 七月旅行准备
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 准备邮轮上需要携带的物品&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 浏览日本免税店的物品&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 购买蓝宝石公主号七月一日的船票&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;引用&#34;&gt;引用&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;野火烧不尽，春风吹又生。&lt;/p&gt;
+
+&lt;p&gt;&lt;cite&gt;&amp;ndash; 白居易《赋得古原草送别》&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;代码&#34;&gt;代码&lt;/h2&gt;
+
+&lt;p&gt;以本站的一段 &lt;code&gt;JavaScript&lt;/code&gt; 代码做演示。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// Initialize video.js player
+if (document.getElementById(&#39;my-player&#39;) !== null) {
+  /* eslint-disable no-undef */
+  videojs(&#39;#my-player&#39;, {
+    aspectRatio: &#39;16:9&#39;,
+    fluid: true,
+  });
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;分割线&#34;&gt;分割线&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;中间能写字的分割线，如果你修改了分割线中字的内容，请配合修改 &lt;code&gt;CSS&lt;/code&gt; 样式。&lt;/p&gt;
+
+&lt;h2 id=&#34;图片&#34;&gt;图片&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/olOwOlo/hugo-theme-even/master/images/showcase.png&#34; alt=&#34;hugo even showcase&#34; title=&#34;showcase.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;表格&#34;&gt;表格&lt;/h2&gt;
+
+&lt;p&gt;使用 &lt;code&gt;Markdown&lt;/code&gt; 画的表格，如下表👇&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Tables&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Are&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Cool&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;col 3 is&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;right-aligned&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;$1600&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;col 2 is&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;centered&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;$12&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;zebra stripes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;are neat&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;$1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;数学公式&#34;&gt;数学公式&lt;/h2&gt;
+
+&lt;p&gt;主题使用了 &lt;a href=&#34;https://www.mathjax.org/&#34;&gt;MathJax&lt;/a&gt; 开源库来实现对数学公式的支持，使用 &lt;code&gt;$$&lt;/code&gt; 标记。&lt;/p&gt;
+
+&lt;p&gt;$$ evidence_{i}=\sum_{j}W_{ij}x_{j}+b_{i} $$&lt;/p&gt;
+
+&lt;h2 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h2&gt;
+
+&lt;h3 id=&#34;网易云音乐&#34;&gt;网易云音乐&lt;/h3&gt;
+
+&lt;p&gt;主题文章中可以轻松插入 &lt;a href=&#34;https://music.163.com/&#34;&gt;网易云音乐&lt;/a&gt; 的指定音乐，你可以根据需要将音乐设置为自动播放，在主题目录 &lt;code&gt;layouts/shortcodes&lt;/code&gt; 文件夹下的 &lt;code&gt;music.html&lt;/code&gt; 对该标签进行定义。&lt;/p&gt;
+
+  &lt;iframe style=&#34;max-width: 100%&#34;
+      class=&#34;music163&#34;
+      frameborder=&#34;no&#34;
+      border=&#34;0&#34;
+      marginwidth=&#34;0&#34;
+      marginheight=&#34;0&#34;
+      width=&#34;330&#34;
+      height=&#34;86&#34;
+      src=&#34;//music.163.com/outchain/player?type=2&amp;id=28196554&amp;auto=0&amp;height=66&#34;&gt;
+    &lt;/iframe&gt;
+
+&lt;h3 id=&#34;youtube&#34;&gt;YouTube&lt;/h3&gt;
+
+&lt;p&gt;由于不明原因可能无法播放。&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/wC5pJm8RAu4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h3 id=&#34;blockquote&#34;&gt;blockquote&lt;/h3&gt;
+
+&lt;p&gt;Normal quote:
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+  This is a simple quote.
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Quote with author
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+  This is a quote with only an Author named Author2.
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author2&lt;/strong&gt;
+    
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Quote with author and source
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+  This is a quote from Author3 and source &#34;source.&#34;
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author3&lt;/strong&gt;
+    
+      &lt;cite&gt;Source&lt;/cite&gt;
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Quote with author and link
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+  This is a quote from Author4 and links to https://www.google.com.
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author4&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;google.com&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Quote with author, link and title
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+  This is a quote from Author5 and links to https://www.google.com with title &#34;Google.&#34;
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author5&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;Google&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+  This is a quote from Author5 and links to https://twitter.com/CryptoGangsta/status/716427930126196737 which is longer than 32 characters.
+  &lt;br&gt;And this is a new line in the quote with the HTML br tag.
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author6&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34; title=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;twitter.com/CryptoGangsta/...&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Test from the Octopress blockquote page at: &lt;a href=&#34;http://octopress.org/docs/plugins/blockquote/&#34;&gt;http://octopress.org/docs/plugins/blockquote/&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+  Over the past 24 hours I&#39;ve been reflecting on my life &amp; I&#39;ve realized only one thing. I need a medieval battle axe.
+&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;@allanbranch&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://twitter.com/allanbranch/status/90766146063712256&#34; title=&#34;https://twitter.com/allanbranch/status/90766146063712256&#34;&gt;twitter.com/allanbranch/status/...&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;wikipedia-link-generator&#34;&gt;Wikipedia Link Generator&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+&lt;a href=&#34;https://en.wikipedia.org/wiki/VIC_cipher&#34;&gt;VIC_cipher&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+&lt;a href=&#34;https://fr.wikipedia.org/wiki/VIC_cipher&#34;&gt;VIC_cipher&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+&lt;a href=&#34;https://fr.wikipedia.org/wiki/VIC_cipher&#34;&gt;VIC_cipher&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+&lt;a href=&#34;https://en.wikipedia.org/wiki/VIC_cipher&#34;&gt;VIC Cipher&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+    
+  
+
+
+
+
+&lt;a href=&#34;https://en.wikipedia.org/wiki/VIC_cipher&#34;&gt;VIC Cipher&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;image-caption&#34;&gt;Image Caption&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;span class=&#34;caption-wrapper&#34;&gt;
+  &lt;img class=&#34;caption&#34; src=&#34;https://raw.githubusercontent.com/olOwOlo/hugo-theme-even/master/images/showcase.png&#34; title=&#34;Sample caption&#34; alt=&#34;Sample caption&#34;&gt;
+  &lt;span class=&#34;caption-text&#34;&gt;Sample caption&lt;/span&gt;
+&lt;/span&gt;
+
+
+&lt;h2 id=&#34;参考资料&#34;&gt;参考资料&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a id=&#34;ref01&#34;&gt;&lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34;&gt;Markdown Cheatsheet&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id=&#34;ref02&#34;&gt;&lt;a href=&#34;https://www.zybuluo.com/EncyKe/note/120103&#34;&gt;Markdown 语法手册&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;这是一个注脚
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+      
     </item>
     
   </channel>
