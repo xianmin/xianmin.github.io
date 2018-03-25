@@ -5,10 +5,10 @@
     <link>http://www.xianmin.org/tags/tool/</link>
     <description>Recent content in Tool on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <lastBuildDate>Wed, 10 Jan 2018 00:00:00 +0800</lastBuildDate>
     
-        <atom:link href="http://www.xianmin.org/tags/tool/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.xianmin.org/tags/tool/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,8 +17,7 @@
       <pubDate>Wed, 10 Jan 2018 00:00:00 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/vscode/</guid>
-      
-        <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 
 &lt;p&gt;&lt;code&gt;Visual Studio Code&lt;/code&gt; （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。&lt;/p&gt;
 
@@ -30,183 +29,7 @@
 
 &lt;p&gt;本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
-
-&lt;p&gt;官网下载地址： &lt;a href=&#34;https://code.visualstudio.com/download&#34;&gt;Download Visual Studio Code - Mac, Linux, Windows&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;如果你和我一样使用 Deepin Linux，可以直接从 Deepin Store 进行安装。&lt;/p&gt;
-
-&lt;h2 id=&#34;界面&#34;&gt;界面&lt;/h2&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://www.xianmin.org/image/vscode/00.png&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;h2 id=&#34;特色-与常见编辑器不同的地方&#34;&gt;特色（与常见编辑器不同的地方）&lt;/h2&gt;
-
-&lt;h3 id=&#34;标签预览模式&#34;&gt;标签预览模式&lt;/h3&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://www.xianmin.org/image/vscode/01.gif&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;VSCode 中的标签和我们平常使用的软件中的标签不太一样，我开始的时候很疑惑，为什么 VSCode 打开新文件不是在新标签中打开，后来才知道是因为它默认开启了“预览模式”（Preview mode）。预览模式中的“标签名字体”显示的是 &lt;strong&gt;斜体&lt;/strong&gt; ， &lt;strong&gt;单击文件&lt;/strong&gt; 不会开启新的标签， &lt;strong&gt;双击文件&lt;/strong&gt; 或者 &lt;strong&gt;双击标签&lt;/strong&gt; 就可以将文件固定了。&lt;/p&gt;
-
-&lt;p&gt;在设置中可以取消预览模式： &lt;code&gt;workbench.editor.enablePreview&lt;/code&gt; 。&lt;/p&gt;
-
-&lt;h3 id=&#34;命令面板&#34;&gt;命令面板&lt;/h3&gt;
-
-&lt;p&gt;快捷键 &lt;code&gt;Ctrl+Shift+P&lt;/code&gt; 呼出命令面板，通过命令面板可以快速使用一些指令。&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://www.xianmin.org/image/vscode/02.gif&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;h3 id=&#34;peek-definition&#34;&gt;Peek Definition&lt;/h3&gt;
-
-&lt;p&gt;这个功能，可以快速预览函数（或类）的定义内容，右键菜单中有选项，或者用快捷键 &lt;code&gt;Ctrl+shift+F10&lt;/code&gt; 。&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://www.xianmin.org/image/vscode/references.png&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;h2 id=&#34;编辑相关技巧&#34;&gt;编辑相关技巧&lt;/h2&gt;
-
-&lt;h3 id=&#34;快捷键&#34;&gt;快捷键&lt;/h3&gt;
-
-&lt;p&gt;官方文档： &lt;a href=&#34;https://code.visualstudio.com/docs/getstarted/keybindings&#34;&gt;Visual Studio Code Key Bindings&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;熟练使用快捷键可以极大的提高效率，但是不同编辑器的快捷键一般都不一样，为了减少迁移后改变习惯的代价，可以通过安装扩展解决这个问题。比如我要将 VSCode 的快捷键设定改为 Emacs 的设定，安装下面这个扩展就行了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=lfs.vscode-emacs-friendly&#34;&gt;Emacs Friendly Keymap - Visual Studio Marketplace&lt;/a&gt; （ &lt;strong&gt;官方推荐的那个没有再维护了&lt;/strong&gt; ）&lt;/p&gt;
-
-&lt;p&gt;由于 &lt;code&gt;Ctrl&lt;/code&gt; 是一个经常需要用到的按键，不妨将 &lt;code&gt;Ctrl&lt;/code&gt; 和 &lt;code&gt;CapsLock&lt;/code&gt; 这两个键调换。调换之后再按 &lt;code&gt;Ctrl&lt;/code&gt; 就舒服快捷的多。&lt;/p&gt;
-
-&lt;h3 id=&#34;多光标编辑-multi-cursor-selection&#34;&gt;多光标编辑 Multi cursor selection&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;基本：&lt;/strong&gt; &lt;code&gt;Alt+Click&lt;/code&gt; 即，按住 Alt 键，依次单击（或者选择）需要编辑的位置，可以依次添加光标。 Alt 键可以在设置中更改。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;一列多光标：&lt;/strong&gt; &lt;code&gt;Shift+Alt+Down&lt;/code&gt; 或者 &lt;code&gt;Shift+Alt+Up&lt;/code&gt; 可以在上下位置添加光标。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;依次选中相同单词：&lt;/strong&gt; 选中一个单词，按 &lt;code&gt;Ctrl+D&lt;/code&gt; ，可以依次选中下一个相同单词。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;选中所有相同单词：&lt;/strong&gt; 选中一个单词，按 &lt;code&gt;Ctrl+Shift+L&lt;/code&gt; ，可以一次性选中文本中 &lt;strong&gt;所有相同单词&lt;/strong&gt; 。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;矩形选择：&lt;/strong&gt; 按住 &lt;code&gt;Shift+Alt&lt;/code&gt; ，再进行选择，则选择区域是一个矩形。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;括号选择：&lt;/strong&gt; &lt;code&gt;Shift+Alt+Right&lt;/code&gt; ，会选中匹配括号中的内容，并可以扩大选中区域。&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://www.xianmin.org/image/vscode/multicursor.gif&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://www.xianmin.org/image/vscode/column-select.gif&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;h3 id=&#34;辅助线&#34;&gt;辅助线&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;显示代码缩进的辅助线，设置 &amp;ldquo;editor.renderIndentGuides&amp;rdquo;: true&lt;/li&gt;
-&lt;li&gt;代码长度标尺，比如在第80列的地方显示标尺，设置 &amp;ldquo;editor.rulers&amp;rdquo;: [80]&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;zenmode-让编辑界面更简洁&#34;&gt;zenmode——让编辑界面更简洁&lt;/h2&gt;
-
-&lt;p&gt;如果你像我一样，有时候需要一边开着浏览器（或者终端等等）一边编辑文件，那么使用 &lt;code&gt;zenmode&lt;/code&gt; 模式，则可以使 VSCode 的界面更加简洁。&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://www.xianmin.org/image/vscode/03.png&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;小技巧：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;设置 &amp;ldquo;zenMode.fullScreen&amp;rdquo;: false ，默认为全屏。&lt;/li&gt;
-&lt;li&gt;设置 &amp;ldquo;window.menuBarVisibility&amp;rdquo;: &amp;ldquo;toggle&amp;rdquo; ，这样可以在需要的时候显示目录栏。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;设置的级别&#34;&gt;设置的级别&lt;/h2&gt;
-
-&lt;p&gt;官方文档： &lt;a href=&#34;https://code.visualstudio.com/docs/getstarted/settings&#34;&gt;Visual Studio Code User and Workspace Settings&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;vscode 的设置分三个级别：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;默认设置（安装完成后）&lt;/li&gt;
-&lt;li&gt;用户设置（用户自行修改的设定）&lt;/li&gt;
-&lt;li&gt;工作区设置（团队项目下的统一设定）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;优先级依次递增。即，优先采用工作区的设置，再采用用户的个人设置，最后采用默认设置。&lt;/p&gt;
-
-&lt;p&gt;对于团队项目，一些规范设置可以通过在项目目录下新建一个 &lt;code&gt;.vscode/setting.json&lt;/code&gt; 文件进行配置。&lt;/p&gt;
-
-&lt;h2 id=&#34;一些不错的扩展&#34;&gt;一些不错的扩展&lt;/h2&gt;
-
-&lt;h3 id=&#34;官方推荐&#34;&gt;官方推荐&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome&#34;&gt;Debugger for Chrome&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&#34;&gt;ESLint&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner&#34;&gt;Code Runner&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;等等支持各种程序语言的扩展&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bookmarks&#34;&gt;Bookmarks&lt;/h3&gt;
-
-&lt;p&gt;地址： &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks&#34;&gt;Bookmarks - Visual Studio Marketplace&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;为 VSCode 添加书签功能，方便跳转。&lt;/p&gt;
-
-&lt;h3 id=&#34;git-history&#34;&gt;Git History&lt;/h3&gt;
-
-&lt;p&gt;地址： &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory&#34;&gt;Git History (git log) - Visual Studio Marketplace&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;非常方便的查看 Git Log，也算是必装的一个扩展了。&lt;/p&gt;
-
-&lt;h3 id=&#34;path-intellisense&#34;&gt;Path Intellisense&lt;/h3&gt;
-
-&lt;p&gt;地址： &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense&#34;&gt;Path Intellisense - Visual Studio Marketplace&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;自动补全路径以及文件名。&lt;/p&gt;
-
-&lt;h2 id=&#34;debug&#34;&gt;&lt;span class=&#34;todo TODO_&#34;&gt;TODO &lt;/span&gt; DEBUG&lt;/h2&gt;</description>
-      
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -215,119 +38,11 @@
       <pubDate>Mon, 06 Nov 2017 13:13:15 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/06-ebook/</guid>
-      
-        <description>&lt;h1 id=&#34;写在前面&#34;&gt;写在前面&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;写在前面&#34;&gt;写在前面&lt;/h1&gt;
 
 &lt;p&gt;作为一个农民的儿子，我从小跟随父母在外漂泊，长年都是租的房子，家里地方不大，除了教科书、习题册，基本没有任何藏书。那时候，没两年就会搬一次家，光是搬教科书都觉得挺累赘的。即便在成年后，自己依然一直在外漂泊，没有固定的居所，还是不敢买太多书，没地方安置。当然，还有一个很实际的问题，买书花钱，自己没多少钱。很多书像消费品，看完就丢一边了，它摆在那儿更多的像是一种象征性的装饰。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;现在的书籍太多了，想看的也太多，根本买不过来。电子书的好处则显而易见，携带方便，一块 1T 的移动硬盘就可以安置几万本电子书，在需要的时候，也可以随时随地的翻一翻。随着技术的进步，阅读设备不断改进完善，电子阅读必然越来越趋于主流。即便在快递业如此发达的中国，身处乡下，买实体书也要等上一个星期，而电子书呢？点击下载，等上几秒钟就可以翻阅了。&lt;/p&gt;
-
-&lt;p&gt;我写此篇文章的目的，是想和大家分享一下我的电子阅读经验，尤其是像我一样没什么钱，又有阅读需求的朋友。这几年我通过阅读电子书，不光获取了很多信息，在物质上，我估算了下，至少给我省下了几万块人民币。比如说，很多优质的信息，你只能通过英文来获取，英文是一手资料，但是原版的英文书，太贵了，国内还买不到，而电子书就完美解决了这个问题。&lt;/p&gt;
-
-&lt;p&gt;下面，本文从三个方便来分享我的电子阅读经验：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;阅读电子书的工具&lt;/li&gt;
-&lt;li&gt;电子书的获取方式&lt;/li&gt;
-&lt;li&gt;使用 Calibre 管理电子书&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&#34;阅读电子书的工具&#34;&gt;阅读电子书的工具&lt;/h1&gt;
-
-&lt;p&gt;先谈一谈阅读电子书的工具。&lt;/p&gt;
-
-&lt;h2 id=&#34;kindle&#34;&gt;Kindle&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.xianmin.org/image/ebook/00.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;5年前，我买了一台 Kindle4 。它是真的好用，重量轻，价格不算贵，续航时间长，是电子水墨屏，就算看的时间久了眼睛也不会很累。配合 calibre 管理电子书非常方便。&lt;/p&gt;
-
-&lt;p&gt;用了一段时间之后，也渐渐发现了它的缺陷：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;做标注不方便，标注了也不容易导出。&lt;/li&gt;
-&lt;li&gt;由于不是触摸屏，搜索不方便，跳转也不方便。&lt;/li&gt;
-&lt;li&gt;不方便阅读一些大尺寸的 PDF&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;直到去年买了一台 Android 平板，就替代了 Kindle4 ，成了我的主力阅读工具。&lt;/p&gt;
-
-&lt;h2 id=&#34;android-平板-moon-reader-静读天下&#34;&gt;Android 平板 + 【Moon+ Reader】（静读天下）&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.xianmin.org/image/ebook/01.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;说起购买平板的缘由，只是因为当时看到一个朋友在用，国产的，只要几百块，一时就心动了。苹果系列我是买不起的，也不喜欢它封闭的生态圈，所以从没考虑过。至于我买的这个平板的品牌型号，我就不推荐了，充电慢续航短实在是硬伤（可能大部分平板都有这个问题？）。它让我惊艳的，是搭载了 Android 这个开放的系统，再配合上 &lt;strong&gt;Moon+ Reader&lt;/strong&gt; （中文叫【静读天下】）APP ，阅读体验比 Kindle4 好太多了。体现在以下几个方面：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;更快捷的目录跳转&lt;/li&gt;
-&lt;li&gt;功能齐全的批注，也支持快速跳转，还能够导出&lt;/li&gt;
-&lt;li&gt;支持自定义样式&lt;/li&gt;
-&lt;li&gt;阅读扫描版的 PDF&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;只要是 Android 系统都可以安装，你不妨在手机上体验一下。&lt;/p&gt;
-
-&lt;h1 id=&#34;电子书的获取方式&#34;&gt;电子书的获取方式&lt;/h1&gt;
-
-&lt;p&gt;我主要使用的几个网站（按先后顺序）：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mlook.mobi/&#34;&gt;mLook 看书&lt;/a&gt; 电子书分享网站&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://readfree.me/&#34;&gt;readfree.me&lt;/a&gt; 电子书分享网站&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.jiumodiary.com/&#34;&gt;Jiumo E-Book Search 鸠摩搜书 - 电子书搜索引擎&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.bdybbs.com/&#34;&gt;Bdybbs资源站&lt;/a&gt; 搜索百度盘分享的资源&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://gen.lib.rus.ec/&#34;&gt;Library Genesis&lt;/a&gt; 搜索英文书&lt;/li&gt;
-&lt;li&gt;Google&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;网站数量在精而不在多。基本上，这几年我 99% 的阅读需求，通过这几个网站都能找到合适的电子版。&lt;/p&gt;
-
-&lt;p&gt;电子书分享（主要是正版书）出于版权保护的原因，通常处于法律的灰色地带。比如未在国内发行的英文正版书，可能就不受中国法律保护；而未在美国发行的中文正版书，也许就不受美国法律保护（具体法律法规我也不太清楚）。我在网上发现，很多电子版英文书都是俄罗斯人“盗版”然后流传开的。那么，只要是一个开放的互联网环境，掌握了合适的方法，就能找到他人分享的盗版电子书。很多人不懂得怎样找书。明明很简单的方法，我认为就是缺少一点计算机使用技巧，主要是搜索技巧，还有折腾（学习新工具）的动力。&lt;/p&gt;
-
-&lt;h2 id=&#34;关于电子书格式的选择&#34;&gt;关于电子书格式的选择&lt;/h2&gt;
-
-&lt;p&gt;一、 首选 azw3 中亚正版格式&lt;/p&gt;
-
-&lt;p&gt;什么是中亚正版？就是在亚马逊中国（amazon.cn）上购买的正版电子书，它们的格式通常是 azw3, 是由 Amazon 专为电子出版物推出的格式。既然是正版电子书，它的优势也是显而易见的，由 Amazon 官方制作，经过编辑校对，排版极佳。但是缺陷也很明显，由于是亚马逊公司出于商业目的单独开发的私有标准，很多软件并不支持该格式的读写。&lt;/p&gt;
-
-&lt;p&gt;二、 次选 epub 开源格式&lt;/p&gt;
-
-&lt;p&gt;epub 是一种开放的电子图书标准，它同 azw3 一样支持一些复杂的排版。既然是一种开放的格式，各种软件对它的支持也是最好的。&lt;/p&gt;
-
-&lt;p&gt;三、Kindle 专属格式 mobi&lt;/p&gt;
-
-&lt;p&gt;mobi 格式的流行，绝大程度上依靠 Amazon 这个巨大的内容提供商及其电子书阅读器 Kindle 的流行普及，是 Amazon 早期的标准格式。因此一些 Amazon 早期制作的排版好的电子书是 mobi 格式的，但自从推出 azw3 之后就逐渐被取代了。mobi 对复杂排版的支持度相比 epub 要弱很多。&lt;/p&gt;
-
-&lt;p&gt;四、最常见的电子书格式 PDF&lt;/p&gt;
-
-&lt;p&gt;PDF 在移动设备上使用有一个非常大的缺陷，无法自适应屏幕，比如用 6 寸的屏幕阅读 8 寸的 PDF 文档，在全屏显示下字体就要小很多。如果有其他格式选择，一般不选择 PDF 。&lt;/p&gt;
-
-&lt;p&gt;五、纯文本格式 txt&lt;/p&gt;
-
-&lt;p&gt;总结：选择顺序 azw3 &amp;gt; epub &amp;gt; mobi &amp;gt; pdf &amp;gt; txt。（注：这几种格式都可以通过 calibre 进行格式转换）&lt;/p&gt;
-
-&lt;h1 id=&#34;使用-calibre-管理电子书&#34;&gt;使用 Calibre 管理电子书&lt;/h1&gt;
-
-&lt;p&gt;传统的方法是使用文件夹分类管理，当书目多了以后，这种管理方式比较低效。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.xianmin.org/image/ebook/03.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Clibre 这个软件，集电子书管理、编辑、格式转换、阅读于一身，可以说是最好的电子书管理软件。有了它，你完全可以构建一个属于自己的移动图书馆。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.xianmin.org/image/ebook/04.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;关于它的使用教程，网上搜一下有很多，我就不多做介绍了。&lt;/p&gt;
-
-&lt;h1 id=&#34;写在最后&#34;&gt;写在最后&lt;/h1&gt;
-
-&lt;p&gt;记得十年前我在老家县城读书的时候，资源很有限，学校的图书馆很小，基本没什么感兴趣的书，另外能找到书的地方，一个是租书店，大多是网络小说，一个是图书城，类别相对会多一些。前年再回到县城，发现图书城搬迁了，规模小了很多，里面卖的绝大多数都是教辅材料了。在落后的地方，能够获取到的信息太少，而互联网改变了这一切。&lt;/p&gt;
-
-&lt;p&gt;这个年代，我不知道还有多少人在看书呢？不是没书可看，是信息太丰富了，互联网上铺天盖地的信息，每天微信订阅号的推送都看不完，哪还有时间看书呢？我很难回答，阅读带给了我什么，同样的收获，也许通过电影、综艺节目、与人交流，包括自身的经历，一样能够获得。“阅读”对我而言，是一项成本较低，信息表达更充分的媒介，仅此而已。&lt;/p&gt;
-
-&lt;p&gt;希望这篇文章，能够对你在获取更多的信息上有所帮助。&lt;/p&gt;</description>
-      
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -336,91 +51,11 @@
       <pubDate>Thu, 01 Jun 2017 09:32:56 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/05-tools-addict/</guid>
-      
-        <description>&lt;p&gt;怎样给工具下定义？文字、语言算不算工具？知识算不算工具？数学公式算不算工具？科学方法算不算工具？甚至而言，宗教信仰算不算工具？那么工具癖又算什么呢？&lt;/p&gt;
+      <description>&lt;p&gt;怎样给工具下定义？文字、语言算不算工具？知识算不算工具？数学公式算不算工具？科学方法算不算工具？甚至而言，宗教信仰算不算工具？那么工具癖又算什么呢？&lt;/p&gt;
 
 &lt;p&gt;由此可见，从更大的范围来讲，给工具下定义不是件容易的事。我在这篇文章仅谈论计算机相关的工具。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;工具癖患者的表现&#34;&gt;工具癖患者的表现&lt;/h1&gt;
-
-&lt;p&gt;以下表现请勿代号入座。&lt;/p&gt;
-
-&lt;h2 id=&#34;收集成癖&#34;&gt;收集成癖&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;并没有明确的工具使用目的，仅仅是好玩，或觉得也许将来某一天可以用上，结果可能很长一段时间都搁置一旁了。如： 安装各类 app。&lt;/li&gt;
-&lt;li&gt;喜欢关注并阅读工具类文章。如：小众软件、电脑玩物等。&lt;/li&gt;
-&lt;li&gt;寻找工具的时间超过使用工具本身。&lt;/li&gt;
-&lt;li&gt;不满足当下使用的工具，喜好对比，在同类的多种工具中进行对比。如：Emacs/Vim/Sublime/VSCode 等。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;折腾成癖&#34;&gt;折腾成癖&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;探索工具功能的时间超过使用工具本身。&lt;/li&gt;
-&lt;li&gt;喜好体验新鲜事物，没有用过的工具都要尝试一番。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;装逼成癖&#34;&gt;装逼成癖&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;使用的工具一定要与众不同！&lt;/li&gt;
-&lt;li&gt;使用的工具尽可能功能强大非一般人所能操控！&lt;/li&gt;
-&lt;li&gt;工具使用起来要看上去很厉害！&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&#34;工具癖患者的自我修养&#34;&gt;工具癖患者的自我修养&lt;/h1&gt;
-
-&lt;p&gt;首先我必须承认我自己就是一个十足的“工具癖患者”。关于以上内容所述的种种癖好，在我个人身上多有体现。经过时间的洗礼，绕了不少弯路，自认为有所好转。工具癖是病，要治的。我曾在不少工具上浪费了时间和精力，唯一的收获仅仅只是“哦，这个工具是这样的”，并没有用这个工具解决实质性的问题。作为过来人，我想对同我相似的患者多说几句，也请您不吝赐教。&lt;/p&gt;
-
-&lt;h2 id=&#34;你真正的需求是什么&#34;&gt;你真正的需求是什么&lt;/h2&gt;
-
-&lt;p&gt;不可否认的是，此类人是追求上进的，至少在不断的追求更高的效率和易用性。癖好工具，可能是希望发现某样工具正好解决自身的需要，也可能是对当下使用的工具不甚满意，它的出发点是好的。关键是，工具之所以被称作工具，它必然是为 &lt;strong&gt;完成某一件事情&lt;/strong&gt; 而服务的。我先举一个我个人的例子（因为我也不清楚别人怎样）：&lt;/p&gt;
-
-&lt;p&gt;我折腾过三个浏览器，firefox、chrome 和 opera，这三个软件都很优秀。firefox 拥有强大的 vimperator 扩展，chrome 拥有简洁的功能和丰富的应用，opera 拥有完备的可定制性。但我总是时常对它们有所不满，有时觉得 firefox 太复杂了，有时觉得 chrome 太占用内存了，有时觉得 opera 无法兼容某个网站很懊恼。我就在这三个浏览器之间换来换去，折腾来折腾去。&lt;/p&gt;
-
-&lt;p&gt;为什么我会做出这种毫无意义的举动？具体原因我也不甚明了，也许是某种类似于“强迫症”的心理疾病在作祟吧。但是有一点是可以说明的，我忽视了该工具本身的使用目的，没有明确自己真正的需求是什么。而是在它们彼此之间瞎折腾。浏览器是做什么用的？就是浏览网页啊。我 &lt;strong&gt;真正的&lt;/strong&gt; 需求是什么？也就仅是浏览网页而已，其他扩展、脚本之类，说实在的也是可有可无的。那么就明了了，三个浏览器其实都符合我的需求，选择一个顺手的、通用性强的使用就是了。&lt;/p&gt;
-
-&lt;p&gt;再举几个我个人的例子：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;我用过多个笔记软件 evernote，为知笔记和麦库等等。实际上我的需求只是记笔记而已。&lt;/li&gt;
-&lt;li&gt;我试过多个 GTD 类工具 todoist, doit , google tasks , remember the milk。实际上我的需求只是为后面要做的事给自己做个提醒而已。&lt;/li&gt;
-&lt;li&gt;我刻意寻找过并试用过多个写博客的工具，比如 jekyll，pelican, o-blog 等等，大部分只写过零散的几篇就不了了之了。
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;什么是 &lt;strong&gt;真正的&lt;/strong&gt; 需求？这个因人而异了。我个人以为，这个工具能够完成你要做的事情，它就满足了你的需求了。因此，大多数时候，大部分人用的工具都是符合要求的。既然符合要求，那么就把时间用在正事上，而非折腾工具。&lt;/p&gt;
-
-&lt;h2 id=&#34;把时间用在正事上&#34;&gt;把时间用在正事上&lt;/h2&gt;
-
-&lt;p&gt;说实话，这比折腾工具要困难的多，就像看书和写书的差别。上面说了，工具是为“完成某一件事情”而服务的，它的重点是完成事情。至于如何完成，比如如何写作，如何做思维导图，如何自我管理等等，就不在本话题之内了。&lt;/p&gt;
-
-&lt;p&gt;这是我个人的一些反思。如果能给与我类似的工具癖患者带来些许借鉴，那是再好不过了。下面给一些实用的建议。&lt;/p&gt;
-
-&lt;h1 id=&#34;挑选工具的一些建议&#34;&gt;挑选工具的一些建议&lt;/h1&gt;
-
-&lt;p&gt;不同的同类工具之间必然还是有差别的。仅以个人经验，在清楚需求、不折腾的基础上，提以下建议，供读者参考：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;简单的工具。越简单，学习成本就越低，所需要付出的就越少。&lt;/li&gt;
-&lt;li&gt;可移植性。对于创作内容来说，这是很必要的，因为你并不十分肯定你会用这个工具一辈子。如果你重视你的创作，并希望由你随意掌控，请重视这点。&lt;/li&gt;
-&lt;li&gt;多数人使用的。小众的东西再好，当它停止服务那天，也不如多数人使用的继续服务的那个。&lt;/li&gt;
-&lt;li&gt;你所推崇的人（所谓牛人）推荐的。既然你推崇他，他就一定有过人之处，他的推荐一般是不会差的。&lt;/li&gt;
-&lt;li&gt;除了你推崇的人， &lt;strong&gt;谨慎&lt;/strong&gt; 考虑一般人推荐的。&lt;/li&gt;
-&lt;li&gt;最好是跨平台的。这和第 2 点可移植性相类似。&lt;/li&gt;
-&lt;li&gt;注意学习成本与实际效益。这是对第一点的补充。有些复杂的工具，它能带来不错的效益，与之成正比的是它的学习成本。如果未来可预见的数年内，你将一直使用它，那么花费一部分时间甚至一部分金钱，都是值得的。&lt;/li&gt;
-&lt;li&gt;随缘。好的工具，你不必刻意寻找，也会出现在你眼前。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
-
-&lt;p&gt;工具癖也并非多么严重的毛病，我用过折腾过那么多工具，多多少少知道它们之间的优缺点，以及哪个更适合我，但是以此耗费的时间和精力真的不值得。&lt;/p&gt;
-
-&lt;p&gt;用三个字结束吧：少折腾。&lt;/p&gt;</description>
-      
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -429,79 +64,9 @@
       <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/02-manage-dotfiles/</guid>
-      
-        <description>&lt;p&gt;作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code&gt;.&lt;/code&gt; 开头，管它们叫 &lt;code&gt;dotfiles&lt;/code&gt; 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p&gt;
+      <description>&lt;p&gt;作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code&gt;.&lt;/code&gt; 开头，管它们叫 &lt;code&gt;dotfiles&lt;/code&gt; 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;一个简单的方法是：将所有配置文件统一丢进一个文件夹，用 git 进行管理，用 &lt;code&gt;ln -s&lt;/code&gt; 链接到原来的位置（比如家目录下）。&lt;/p&gt;
-
-&lt;p&gt;我在这里推荐一个命令行脚本——&lt;a href=&#34;https://github.com/dotphiles/dotsync&#34;&gt;dotsync&lt;/a&gt; ，它可以将上面的方法更加简化，并且在不同机器上进行同步。&lt;/p&gt;
-
-&lt;h1 id=&#34;dotsync-的使用步骤&#34;&gt;dotsync 的使用步骤&lt;/h1&gt;
-
-&lt;p&gt;第一步，将 dotsync 克隆下来，在家目录下创建一个 &lt;code&gt;Dotfiles&lt;/code&gt; 文件夹（名称任意），把 dotsync 中的配置模板 &lt;code&gt;dotsyncrc&lt;/code&gt; 文件复制进去。&lt;/p&gt;
-
-&lt;p&gt;第二步，把所有需要管理的 dotfiles 复制到 &lt;code&gt;Dotfiles/&lt;/code&gt; 目录中（例如 .vimrc, .zshrc 等等）。&lt;/p&gt;
-
-&lt;p&gt;第三步，修改 &lt;code&gt;dotsyncrc&lt;/code&gt; 这个配置文件。如下：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# Location of your dotfiles in $HOME
-DOTFILES=Dotfiles
-    
-# 添加你需要链接的文件
-[files]
-dotsyncrc                       # 相当于 ln -s dotsyncrc ~/.dotsyncrc
-emacs/xm-spacemacs:.emacs.d     # 相当于 ln -s emacs/xm-spacemacs ~/.emacs.d
-emacs/spacemacs                 # 相当于 ln -s emacs/spacemacs ~/.spacemacs
-# ... 等等
-[endfiles]
-    
-[hosts]
-xm-pc git=ANY                   # 计算机名称
-[endhosts]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;第四步，运行 dotsync 命令。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# 假设你把 dotsync 克隆到了家目录下
-
-~/dotsync/bin/dotsync           # 运行，会提示你选择参数
-~/dotsync/bin/dotsync -l        # 查看将要链接的文件列表
-~/dotsync/bin/dotsync -f ~/Dotfiles/dotsyncrc -L # -f 指定配置文件，-L 生成软链接
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;这个时候，你在 &lt;code&gt;dotsyncrc&lt;/code&gt; 中指定的文件，都在指定位置创建了软链接。如果文件已经存在，它们都将备份到 &lt;code&gt;~/.backup/&lt;/code&gt; 目录。当你编辑软链接文件的时候，实际上编辑的是 Dotfiles 目录中的源文件。&lt;/p&gt;
-
-&lt;p&gt;第五步，可以使用 git 管理备份 Dotfiles 文件夹了。&lt;/p&gt;
-
-&lt;h1 id=&#34;将-dotsync-添加到-shell-的-path-路径&#34;&gt;将 dotsync 添加到 Shell 的 PATH 路径&lt;/h1&gt;
-
-&lt;p&gt;一个问题：怎样在命令行中直接使用 dotsync？&lt;/p&gt;
-
-&lt;p&gt;我在 &lt;code&gt;Dotfiles/&lt;/code&gt; 目录下创建了一个 &lt;code&gt;bin/&lt;/code&gt; 目录，专门用来存放一些用户自己编写的脚本。然后把这个 bin 目录添加到 shell 的 PATH 路径，即在 .zshrc 文件中添加一行：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;export PATH=&amp;quot;$HOME/Dotfiles/bin:$PATH&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;然后，&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;source ~/.zshrc                 # 重载 zshrc 文件
-$PATH                           # 查看 PATH
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;这样，我们就可以直接在命令行中直接使用 dotsync 这个命令了。&lt;/p&gt;
-
-&lt;h1 id=&#34;参考链接&#34;&gt;参考链接&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/dotphiles/dotphiles&#34;&gt;dotphiles/dotphiles: A community driven framework of dotfiles.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://notes.11ten.net/use-dotfiles.html&#34;&gt;Dotfiles 备份与同步配置文件&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.coderzh.com/2016/03/19/dotfiles/&#34;&gt;懒程序员和他的 dotfiles - CoderZh Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jcouyang/dotfiles&#34;&gt;jcouyang/dotfiles: Jichao Ouyang&amp;rsquo;s awesome dotfiles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dotfiles.github.io/&#34;&gt;GitHub does dotfiles - dotfiles.github.io&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

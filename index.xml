@@ -5,7 +5,7 @@
     <link>http://www.xianmin.org/</link>
     <description>Recent content on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <lastBuildDate>Sun, 01 Jan 2017 21:38:52 +0800</lastBuildDate>
     
         <atom:link href="http://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
@@ -30,13 +30,13 @@
       
       <guid>http://www.xianmin.org/post/hugo-theme-jane-publish/</guid>
       
-        <description>&lt;p&gt;本周我发布了一个 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 主题 &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane&lt;/a&gt; ，Jane 克隆自 &lt;a href=&#34;https://github.com/olOwOlo/hugo-theme-even&#34;&gt;hugo-theme-even&lt;/a&gt; ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+        <description>&lt;p&gt;本周我发布了一个 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 主题 &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane&lt;/a&gt; ，Jane 克隆自 &lt;a href=&#34;https://github.com/olOwOlo/hugo-theme-even&#34;&gt;hugo-theme-even&lt;/a&gt; ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;这是我第一次认真去做的开源项目。尽管说，5年多以前我就开始使用 git ，有了 github 账号，但从未提过一个 issue ，也未提交过一次 PR ，就像是一个在论坛长期潜水的人。英文写作能力不行、对迈开第一步有些许畏惧、没找到合适的切入点等等，这些都可以当作理由，而我跨出这一步，居然用了5年的时间。毫无疑问，这得感谢 Even 的作者，感谢开源世界。&lt;/p&gt;
 
-&lt;p&gt;在 Jane 被官方收录到主题仓库的第二天，就得到了几个 Star，并且收到了一位使用者的反馈&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:fn-2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;，对于我这个项目维护者而言，无疑是一种无形的鼓励。如前文所说，Jane 最初只是按我个人的需求进行的改造。所改的内容，主要是增强读者的阅读体验，然后在此基础上，增强其它的一些功能，比如说标签页中的标签云、分类页更好的展示、多国语言支持等。由于我个人水平有限，也非专业的网站设计人员，它依然有很多可以改进的地方。如果看到这篇文章的你正巧也是 Jane 的使用者，欢迎给我提出宝贵的建议，或者像我一样自己动手修改。&lt;/p&gt;
+&lt;p&gt;在 Jane 被官方收录到主题仓库的第二天，就得到了几个 Star，并且收到了一位使用者的反馈&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-2&#34;&gt;&lt;a href=&#34;#fn:fn-2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;，对于我这个项目维护者而言，无疑是一种无形的鼓励。如前文所说，Jane 最初只是按我个人的需求进行的改造。所改的内容，主要是增强读者的阅读体验，然后在此基础上，增强其它的一些功能，比如说标签页中的标签云、分类页更好的展示、多国语言支持等。由于我个人水平有限，也非专业的网站设计人员，它依然有很多可以改进的地方。如果看到这篇文章的你正巧也是 Jane 的使用者，欢迎给我提出宝贵的建议，或者像我一样自己动手修改。&lt;/p&gt;
 
 &lt;p&gt;这次实践对于我个人是一个好的开始。我开始使用 gitflow 来规范开发流程，开始规范自己的 commit 内容，开始认真对待文档，开始认真做一个项目。磨了几年的刀，终于开始砍柴了。&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
@@ -114,7 +114,7 @@
 &lt;h2 id=&#34;界面&#34;&gt;界面&lt;/h2&gt;
 
 
-&lt;figure &gt;
+&lt;figure&gt;
     
         &lt;img src=&#34;http://www.xianmin.org/image/vscode/00.png&#34; /&gt;
     
@@ -127,7 +127,7 @@
 &lt;h3 id=&#34;标签预览模式&#34;&gt;标签预览模式&lt;/h3&gt;
 
 
-&lt;figure &gt;
+&lt;figure&gt;
     
         &lt;img src=&#34;http://www.xianmin.org/image/vscode/01.gif&#34; /&gt;
     
@@ -144,7 +144,7 @@
 &lt;p&gt;快捷键 &lt;code&gt;Ctrl+Shift+P&lt;/code&gt; 呼出命令面板，通过命令面板可以快速使用一些指令。&lt;/p&gt;
 
 
-&lt;figure &gt;
+&lt;figure&gt;
     
         &lt;img src=&#34;http://www.xianmin.org/image/vscode/02.gif&#34; /&gt;
     
@@ -157,7 +157,7 @@
 &lt;p&gt;这个功能，可以快速预览函数（或类）的定义内容，右键菜单中有选项，或者用快捷键 &lt;code&gt;Ctrl+shift+F10&lt;/code&gt; 。&lt;/p&gt;
 
 
-&lt;figure &gt;
+&lt;figure&gt;
     
         &lt;img src=&#34;http://www.xianmin.org/image/vscode/references.png&#34; /&gt;
     
@@ -189,7 +189,7 @@
 &lt;/ul&gt;
 
 
-&lt;figure &gt;
+&lt;figure&gt;
     
         &lt;img src=&#34;http://www.xianmin.org/image/vscode/multicursor.gif&#34; /&gt;
     
@@ -198,7 +198,7 @@
 
 
 
-&lt;figure &gt;
+&lt;figure&gt;
     
         &lt;img src=&#34;http://www.xianmin.org/image/vscode/column-select.gif&#34; /&gt;
     
@@ -218,7 +218,7 @@
 &lt;p&gt;如果你像我一样，有时候需要一边开着浏览器（或者终端等等）一边编辑文件，那么使用 &lt;code&gt;zenmode&lt;/code&gt; 模式，则可以使 VSCode 的界面更加简洁。&lt;/p&gt;
 
 
-&lt;figure &gt;
+&lt;figure&gt;
     
         &lt;img src=&#34;http://www.xianmin.org/image/vscode/03.png&#34; /&gt;
     
@@ -1804,7 +1804,7 @@ func main()
 
 &lt;p&gt;外链 &lt;a href=&#34;http://www.google.com.com&#34;&gt;GOOGLE&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;注脚&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;注脚&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;列表&#34;&gt;列表&lt;/h2&gt;
 

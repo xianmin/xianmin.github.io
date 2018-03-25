@@ -5,10 +5,10 @@
     <link>http://www.xianmin.org/tags/tips/</link>
     <description>Recent content in Tips on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <lastBuildDate>Wed, 10 Jan 2018 00:00:00 +0800</lastBuildDate>
     
-        <atom:link href="http://www.xianmin.org/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.xianmin.org/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,8 +17,7 @@
       <pubDate>Wed, 10 Jan 2018 00:00:00 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/vscode/</guid>
-      
-        <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 
 &lt;p&gt;&lt;code&gt;Visual Studio Code&lt;/code&gt; （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。&lt;/p&gt;
 
@@ -30,183 +29,7 @@
 
 &lt;p&gt;本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
-
-&lt;p&gt;官网下载地址： &lt;a href=&#34;https://code.visualstudio.com/download&#34;&gt;Download Visual Studio Code - Mac, Linux, Windows&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;如果你和我一样使用 Deepin Linux，可以直接从 Deepin Store 进行安装。&lt;/p&gt;
-
-&lt;h2 id=&#34;界面&#34;&gt;界面&lt;/h2&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://www.xianmin.org/image/vscode/00.png&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;h2 id=&#34;特色-与常见编辑器不同的地方&#34;&gt;特色（与常见编辑器不同的地方）&lt;/h2&gt;
-
-&lt;h3 id=&#34;标签预览模式&#34;&gt;标签预览模式&lt;/h3&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://www.xianmin.org/image/vscode/01.gif&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;VSCode 中的标签和我们平常使用的软件中的标签不太一样，我开始的时候很疑惑，为什么 VSCode 打开新文件不是在新标签中打开，后来才知道是因为它默认开启了“预览模式”（Preview mode）。预览模式中的“标签名字体”显示的是 &lt;strong&gt;斜体&lt;/strong&gt; ， &lt;strong&gt;单击文件&lt;/strong&gt; 不会开启新的标签， &lt;strong&gt;双击文件&lt;/strong&gt; 或者 &lt;strong&gt;双击标签&lt;/strong&gt; 就可以将文件固定了。&lt;/p&gt;
-
-&lt;p&gt;在设置中可以取消预览模式： &lt;code&gt;workbench.editor.enablePreview&lt;/code&gt; 。&lt;/p&gt;
-
-&lt;h3 id=&#34;命令面板&#34;&gt;命令面板&lt;/h3&gt;
-
-&lt;p&gt;快捷键 &lt;code&gt;Ctrl+Shift+P&lt;/code&gt; 呼出命令面板，通过命令面板可以快速使用一些指令。&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://www.xianmin.org/image/vscode/02.gif&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;h3 id=&#34;peek-definition&#34;&gt;Peek Definition&lt;/h3&gt;
-
-&lt;p&gt;这个功能，可以快速预览函数（或类）的定义内容，右键菜单中有选项，或者用快捷键 &lt;code&gt;Ctrl+shift+F10&lt;/code&gt; 。&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://www.xianmin.org/image/vscode/references.png&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;h2 id=&#34;编辑相关技巧&#34;&gt;编辑相关技巧&lt;/h2&gt;
-
-&lt;h3 id=&#34;快捷键&#34;&gt;快捷键&lt;/h3&gt;
-
-&lt;p&gt;官方文档： &lt;a href=&#34;https://code.visualstudio.com/docs/getstarted/keybindings&#34;&gt;Visual Studio Code Key Bindings&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;熟练使用快捷键可以极大的提高效率，但是不同编辑器的快捷键一般都不一样，为了减少迁移后改变习惯的代价，可以通过安装扩展解决这个问题。比如我要将 VSCode 的快捷键设定改为 Emacs 的设定，安装下面这个扩展就行了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=lfs.vscode-emacs-friendly&#34;&gt;Emacs Friendly Keymap - Visual Studio Marketplace&lt;/a&gt; （ &lt;strong&gt;官方推荐的那个没有再维护了&lt;/strong&gt; ）&lt;/p&gt;
-
-&lt;p&gt;由于 &lt;code&gt;Ctrl&lt;/code&gt; 是一个经常需要用到的按键，不妨将 &lt;code&gt;Ctrl&lt;/code&gt; 和 &lt;code&gt;CapsLock&lt;/code&gt; 这两个键调换。调换之后再按 &lt;code&gt;Ctrl&lt;/code&gt; 就舒服快捷的多。&lt;/p&gt;
-
-&lt;h3 id=&#34;多光标编辑-multi-cursor-selection&#34;&gt;多光标编辑 Multi cursor selection&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;基本：&lt;/strong&gt; &lt;code&gt;Alt+Click&lt;/code&gt; 即，按住 Alt 键，依次单击（或者选择）需要编辑的位置，可以依次添加光标。 Alt 键可以在设置中更改。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;一列多光标：&lt;/strong&gt; &lt;code&gt;Shift+Alt+Down&lt;/code&gt; 或者 &lt;code&gt;Shift+Alt+Up&lt;/code&gt; 可以在上下位置添加光标。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;依次选中相同单词：&lt;/strong&gt; 选中一个单词，按 &lt;code&gt;Ctrl+D&lt;/code&gt; ，可以依次选中下一个相同单词。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;选中所有相同单词：&lt;/strong&gt; 选中一个单词，按 &lt;code&gt;Ctrl+Shift+L&lt;/code&gt; ，可以一次性选中文本中 &lt;strong&gt;所有相同单词&lt;/strong&gt; 。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;矩形选择：&lt;/strong&gt; 按住 &lt;code&gt;Shift+Alt&lt;/code&gt; ，再进行选择，则选择区域是一个矩形。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;括号选择：&lt;/strong&gt; &lt;code&gt;Shift+Alt+Right&lt;/code&gt; ，会选中匹配括号中的内容，并可以扩大选中区域。&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://www.xianmin.org/image/vscode/multicursor.gif&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://www.xianmin.org/image/vscode/column-select.gif&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;h3 id=&#34;辅助线&#34;&gt;辅助线&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;显示代码缩进的辅助线，设置 &amp;ldquo;editor.renderIndentGuides&amp;rdquo;: true&lt;/li&gt;
-&lt;li&gt;代码长度标尺，比如在第80列的地方显示标尺，设置 &amp;ldquo;editor.rulers&amp;rdquo;: [80]&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;zenmode-让编辑界面更简洁&#34;&gt;zenmode——让编辑界面更简洁&lt;/h2&gt;
-
-&lt;p&gt;如果你像我一样，有时候需要一边开着浏览器（或者终端等等）一边编辑文件，那么使用 &lt;code&gt;zenmode&lt;/code&gt; 模式，则可以使 VSCode 的界面更加简洁。&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://www.xianmin.org/image/vscode/03.png&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;小技巧：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;设置 &amp;ldquo;zenMode.fullScreen&amp;rdquo;: false ，默认为全屏。&lt;/li&gt;
-&lt;li&gt;设置 &amp;ldquo;window.menuBarVisibility&amp;rdquo;: &amp;ldquo;toggle&amp;rdquo; ，这样可以在需要的时候显示目录栏。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;设置的级别&#34;&gt;设置的级别&lt;/h2&gt;
-
-&lt;p&gt;官方文档： &lt;a href=&#34;https://code.visualstudio.com/docs/getstarted/settings&#34;&gt;Visual Studio Code User and Workspace Settings&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;vscode 的设置分三个级别：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;默认设置（安装完成后）&lt;/li&gt;
-&lt;li&gt;用户设置（用户自行修改的设定）&lt;/li&gt;
-&lt;li&gt;工作区设置（团队项目下的统一设定）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;优先级依次递增。即，优先采用工作区的设置，再采用用户的个人设置，最后采用默认设置。&lt;/p&gt;
-
-&lt;p&gt;对于团队项目，一些规范设置可以通过在项目目录下新建一个 &lt;code&gt;.vscode/setting.json&lt;/code&gt; 文件进行配置。&lt;/p&gt;
-
-&lt;h2 id=&#34;一些不错的扩展&#34;&gt;一些不错的扩展&lt;/h2&gt;
-
-&lt;h3 id=&#34;官方推荐&#34;&gt;官方推荐&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome&#34;&gt;Debugger for Chrome&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&#34;&gt;ESLint&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner&#34;&gt;Code Runner&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;等等支持各种程序语言的扩展&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bookmarks&#34;&gt;Bookmarks&lt;/h3&gt;
-
-&lt;p&gt;地址： &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks&#34;&gt;Bookmarks - Visual Studio Marketplace&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;为 VSCode 添加书签功能，方便跳转。&lt;/p&gt;
-
-&lt;h3 id=&#34;git-history&#34;&gt;Git History&lt;/h3&gt;
-
-&lt;p&gt;地址： &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory&#34;&gt;Git History (git log) - Visual Studio Marketplace&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;非常方便的查看 Git Log，也算是必装的一个扩展了。&lt;/p&gt;
-
-&lt;h3 id=&#34;path-intellisense&#34;&gt;Path Intellisense&lt;/h3&gt;
-
-&lt;p&gt;地址： &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense&#34;&gt;Path Intellisense - Visual Studio Marketplace&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;自动补全路径以及文件名。&lt;/p&gt;
-
-&lt;h2 id=&#34;debug&#34;&gt;&lt;span class=&#34;todo TODO_&#34;&gt;TODO &lt;/span&gt; DEBUG&lt;/h2&gt;</description>
-      
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
