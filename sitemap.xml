@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/post/note-opensource-project/</loc>
+    <lastmod>2018-03-27T15:49:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/post/hugo-theme-jane-publish/</loc>
     <lastmod>2018-03-11T21:38:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -185,7 +192,7 @@
   
   <url>
     <loc>http://www.xianmin.org/post/</loc>
-    <lastmod>2018-03-11T21:38:41+08:00</lastmod>
+    <lastmod>2018-03-27T15:49:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -227,7 +234,7 @@
   
   <url>
     <loc>http://www.xianmin.org/tags/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2018-03-11T21:38:41+08:00</lastmod>
+    <lastmod>2018-03-27T15:49:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -261,6 +268,13 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2018-03-27T15:49:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/tags/%E7%BB%83%E4%B9%A0/</loc>
     <lastmod>2018-03-11T21:38:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -276,7 +290,7 @@
   
   <url>
     <loc>http://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
-    <lastmod>2018-01-14T22:13:43+08:00</lastmod>
+    <lastmod>2018-03-27T15:49:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>笔记 on 贤民的比特记忆</title>
+    <link>http://www.xianmin.org/tags/%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 笔记 on 贤民的比特记忆</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 27 Mar 2018 15:47:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://www.xianmin.org/tags/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>笔记：有关开源项目</title>
+      <link>http://www.xianmin.org/post/note-opensource-project/</link>
+      <pubDate>Tue, 27 Mar 2018 15:47:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/note-opensource-project/</guid>
+      <description>&lt;p&gt;以下内容是关于怎样参与到开源项目中的一些笔记，基本上摘自网络。&lt;/p&gt;
+
+&lt;h2 id=&#34;参考链接&#34;&gt;参考链接&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.phodal.com/blog/how-to-build-a-opensource-project/&#34;&gt;开源之美：开源软件开发流程 - Phodal | Phodal - A Growth Engineer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://juejin.im/post/59f98a196fb9a045132a03ed&#34;&gt;零起点的开源社区贡献指南 - 掘金&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html&#34;&gt;Commit message 和 Change log 编写指南 - 阮一峰的网络日志&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow&#34;&gt;git-flow 的工作流程&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

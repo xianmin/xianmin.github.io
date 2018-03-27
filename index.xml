@@ -24,6 +24,121 @@
     </item>
     
     <item>
+      <title>笔记：有关开源项目</title>
+      <link>http://www.xianmin.org/post/note-opensource-project/</link>
+      <pubDate>Tue, 27 Mar 2018 15:47:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/note-opensource-project/</guid>
+      
+        <description>&lt;p&gt;以下内容是关于怎样参与到开源项目中的一些笔记，基本上摘自网络。&lt;/p&gt;
+
+&lt;h2 id=&#34;参考链接&#34;&gt;参考链接&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.phodal.com/blog/how-to-build-a-opensource-project/&#34;&gt;开源之美：开源软件开发流程 - Phodal | Phodal - A Growth Engineer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://juejin.im/post/59f98a196fb9a045132a03ed&#34;&gt;零起点的开源社区贡献指南 - 掘金&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html&#34;&gt;Commit message 和 Change log 编写指南 - 阮一峰的网络日志&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow&#34;&gt;git-flow 的工作流程&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;加入开源项目可以做的事儿&#34;&gt;加入开源项目可以做的事儿&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;入门：翻译文档、报告 BUG&lt;/li&gt;
+&lt;li&gt;提 Issue
+
+&lt;ul&gt;
+&lt;li&gt;报告 Bug 与提问&lt;/li&gt;
+&lt;li&gt;提出并讨论新特性&lt;/li&gt;
+&lt;li&gt;设定 Todo 目标&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;提 Pull Request
+
+&lt;ul&gt;
+&lt;li&gt;修复 bug&lt;/li&gt;
+&lt;li&gt;实现新特性&lt;/li&gt;
+&lt;li&gt;优化性能&lt;/li&gt;
+&lt;li&gt;例行更新（如文档、依赖版本等）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;常用英文表达方式&#34;&gt;常用英文表达方式&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;吐槽代码：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;表达 API 笨重不好用，可以说 &lt;code&gt;heavy to work with&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;表达模块结构不好，可以说 &lt;code&gt;not intuitive&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;表达处理方式太粗暴，可以说 &lt;code&gt;overkill&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;表达逻辑可能有漏洞，可以说 &lt;code&gt;leaky&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;表达要引入的东西太多，可以说 &lt;code&gt;aggressive&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;表达观点：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;I think&lt;/code&gt; 有点儿武断&lt;/li&gt;
+&lt;li&gt;可以用 &lt;code&gt;In my (humble) opinion&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;补充一个 &lt;code&gt;Not sure, maybe missing something&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;用 &lt;code&gt;To my knowledge&lt;/code&gt; 或者 &lt;code&gt;For me&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;commit-格式规范&#34;&gt;commit 格式规范&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-nil&#34;&gt;&amp;lt;type&amp;gt;(&amp;lt;scope&amp;gt;): &amp;lt;subject&amp;gt;
+// 空一行
+&amp;lt;body&amp;gt;
+// 空一行
+&amp;lt;footer&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;第一部分为 HEADER ：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;type&amp;gt;&lt;/code&gt; 说明 commit 的类别：
+
+&lt;ul&gt;
+&lt;li&gt;feat：新功能（feature）&lt;/li&gt;
+&lt;li&gt;fix：修补bug&lt;/li&gt;
+&lt;li&gt;docs：文档（documentation）&lt;/li&gt;
+&lt;li&gt;style： 格式（不影响代码运行的变动）&lt;/li&gt;
+&lt;li&gt;refactor：重构（即不是新增功能，也不是修改bug的代码变动）&lt;/li&gt;
+&lt;li&gt;test：增加测试&lt;/li&gt;
+&lt;li&gt;chore：构建过程或辅助工具的变动&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;scope&amp;gt;&lt;/code&gt; 说明 commit 影响的范围&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;subject&amp;gt;&lt;/code&gt; 是 commit 目的的简短描述，可加入 Issue 的编号如 &lt;code&gt;#11&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;第二部分为 Body ：&lt;/strong&gt;
+Body 部分是对本次 commit 的详细描述，可以分成多行。下面是一个范例。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;最后部分为 Footer：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;不兼容变动。以 &lt;code&gt;BREAKING CHANGE&lt;/code&gt; 开头，后面是对变动的描述、以及变动理由和迁移方法。&lt;/li&gt;
+&lt;li&gt;关闭 Issue。如， &lt;code&gt;Closes #123, #245, #992&lt;/code&gt; ，一次性关闭多个 issue。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;特殊情况 Revert ：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;如果当前 commit 用于撤销以前的 commit，则必须以 &lt;code&gt;revert:&lt;/code&gt; 开头，后面跟着被撤销 Commit 的 Header。&lt;/p&gt;
+
+&lt;h2 id=&#34;生成-change-log&#34;&gt;生成 CHANGE LOG&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/conventional-changelog/conventional-changelog&#34;&gt;conventional-changelog/conventional-changelog: Generate a changelog from git metadata.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;按照规范编写 commit 最大的好处就是自动化生成 Change Log 。&lt;/p&gt;
+
+&lt;h2 id=&#34;git-flow-工作流程&#34;&gt;git-flow 工作流程&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/petervanderdoes/gitflow-avh&#34;&gt;petervanderdoes/gitflow-avh: AVH Edition of the git extensions to provide high-level repository operations for Vincent Driessen&amp;rsquo;s branching model&lt;/a&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>开源实践：写在 Jane 发布之后</title>
       <link>http://www.xianmin.org/post/hugo-theme-jane-publish/</link>
       <pubDate>Sun, 11 Mar 2018 21:30:00 +0800</pubDate>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>开源实践：写在 Jane 发布之后 - 贤民的比特记忆</title>
+  <title>笔记：有关开源项目 - 贤民的比特记忆</title>
   <link rel="alternate" hreflang="zh-cn" href="http://www.xianmin.org" />
 
 <meta name="renderer" content="webkit" />
@@ -19,8 +19,8 @@
 
 
 <meta name="author" content="贤民" />
-  <meta name="description" content="本周我发布了一个 Hugo 主题 Jane ，Jane 克隆自 hugo-theme-even ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐1。
-
+  <meta name="description" content="以下内容是关于怎样参与到开源项目中的一些笔记，基本上摘自网络。
+参考链接  开源之美：开源软件开发流程 - Phodal | Phodal - A Growth Engineer 零起点的开源社区贡献指南 - 掘金 Commit message 和 Change log 编写指南 - 阮一峰的网络日志 git-flow 的工作流程  
 " />
 
   <meta name="keywords" content="linux, emacs, program, journal, 贤民, 博客, 笔记" />
@@ -33,7 +33,7 @@
 <meta name="generator" content="Hugo 0.37.1" />
 
 
-<link rel="canonical" href="http://www.xianmin.org/post/hugo-theme-jane-publish/" />
+<link rel="canonical" href="http://www.xianmin.org/post/note-opensource-project/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -51,22 +51,27 @@
 
 
 
-<meta property="og:title" content="开源实践：写在 Jane 发布之后" />
-<meta property="og:description" content="本周我发布了一个 Hugo 主题 Jane ，Jane 克隆自 hugo-theme-even ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐1。
+<meta property="og:title" content="笔记：有关开源项目" />
+<meta property="og:description" content="以下内容是关于怎样参与到开源项目中的一些笔记，基本上摘自网络。
+
+参考链接
+
+
+开源之美：开源软件开发流程 - Phodal | Phodal - A Growth Engineer
+零起点的开源社区贡献指南 - 掘金
+Commit message 和 Change log 编写指南 - 阮一峰的网络日志
+git-flow 的工作流程
+
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.xianmin.org/post/hugo-theme-jane-publish/" />
+<meta property="og:url" content="http://www.xianmin.org/post/note-opensource-project/" />
 
 
 
-<meta property="article:published_time" content="2018-03-11T21:30:00&#43;08:00"/>
+<meta property="article:published_time" content="2018-03-27T15:47:00&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-03-11T21:38:41&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-03-27T15:49:50&#43;08:00"/>
 
 
 
@@ -74,22 +79,44 @@
 
 
 
-<meta itemprop="name" content="开源实践：写在 Jane 发布之后">
-<meta itemprop="description" content="本周我发布了一个 Hugo 主题 Jane ，Jane 克隆自 hugo-theme-even ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐1。
+
+
+
+
+<meta itemprop="name" content="笔记：有关开源项目">
+<meta itemprop="description" content="以下内容是关于怎样参与到开源项目中的一些笔记，基本上摘自网络。
+
+参考链接
+
+
+开源之美：开源软件开发流程 - Phodal | Phodal - A Growth Engineer
+零起点的开源社区贡献指南 - 掘金
+Commit message 和 Change log 编写指南 - 阮一峰的网络日志
+git-flow 的工作流程
+
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-03-11T21:30:00&#43;08:00" />
-<meta itemprop="dateModified" content="2018-03-11T21:30:00&#43;08:00" />
-<meta itemprop="wordCount" content="676">
+<meta itemprop="datePublished" content="2018-03-27T15:47:00&#43;08:00" />
+<meta itemprop="dateModified" content="2018-03-27T15:47:00&#43;08:00" />
+<meta itemprop="wordCount" content="695">
 
 
 
-<meta itemprop="keywords" content="Jane,Hugo,开源,练习," />
+<meta itemprop="keywords" content="开源,笔记," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="开源实践：写在 Jane 发布之后"/>
-<meta name="twitter:description" content="本周我发布了一个 Hugo 主题 Jane ，Jane 克隆自 hugo-theme-even ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐1。
+<meta name="twitter:title" content="笔记：有关开源项目"/>
+<meta name="twitter:description" content="以下内容是关于怎样参与到开源项目中的一些笔记，基本上摘自网络。
+
+参考链接
+
+
+开源之美：开源软件开发流程 - Phodal | Phodal - A Growth Engineer
+零起点的开源社区贡献指南 - 掘金
+Commit message 和 Change log 编写指南 - 阮一峰的网络日志
+git-flow 的工作流程
+
 
 "/>
 
@@ -173,13 +200,13 @@ ga('send', 'pageview');
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">开源实践：写在 Jane 发布之后</h1>
+      <h1 class="post-title">笔记：有关开源项目</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-03-11 </span>
+        <span class="post-time"> 2018-03-27 </span>
         <div class="post-category">
             
-              <a href="/categories/%E6%9D%82%E6%96%87/"> 杂文 </a>
+              <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"> 计算机 </a>
             
           </div>
         
@@ -192,32 +219,129 @@ ga('send', 'pageview');
   <h2 class="post-toc-title">文章目录</h2>
   
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#参考链接">参考链接</a></li>
+<li><a href="#加入开源项目可以做的事儿">加入开源项目可以做的事儿</a></li>
+<li><a href="#常用英文表达方式">常用英文表达方式</a></li>
+<li><a href="#commit-格式规范">commit 格式规范</a></li>
+<li><a href="#生成-change-log">生成 CHANGE LOG</a></li>
+<li><a href="#git-flow-工作流程">git-flow 工作流程</a></li>
+</ul></li>
+</ul>
+</nav>
   </div>
 </div>
 
     
     <div class="post-content">
-      <p>本周我发布了一个 <a href="https://gohugo.io/">Hugo</a> 主题 <a href="https://github.com/xianmin/hugo-theme-jane">Jane</a> ，Jane 克隆自 <a href="https://github.com/olOwOlo/hugo-theme-even">hugo-theme-even</a> ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐<sup class="footnote-ref" id="fnref:fn-1"><a href="#fn:fn-1">1</a></sup>。</p>
+      <p>以下内容是关于怎样参与到开源项目中的一些笔记，基本上摘自网络。</p>
+
+<h2 id="参考链接">参考链接</h2>
+
+<ul>
+<li><a href="https://www.phodal.com/blog/how-to-build-a-opensource-project/">开源之美：开源软件开发流程 - Phodal | Phodal - A Growth Engineer</a></li>
+<li><a href="https://juejin.im/post/59f98a196fb9a045132a03ed">零起点的开源社区贡献指南 - 掘金</a></li>
+<li><a href="http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html">Commit message 和 Change log 编写指南 - 阮一峰的网络日志</a></li>
+<li><a href="https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow">git-flow 的工作流程</a></li>
+</ul>
 
 <p></p>
 
-<p>这是我第一次认真去做的开源项目。尽管说，5年多以前我就开始使用 git ，有了 github 账号，但从未提过一个 issue ，也未提交过一次 PR ，就像是一个在论坛长期潜水的人。英文写作能力不行、对迈开第一步有些许畏惧、没找到合适的切入点等等，这些都可以当作理由，而我跨出这一步，居然用了5年的时间。毫无疑问，这得感谢 Even 的作者，感谢开源世界。</p>
+<h2 id="加入开源项目可以做的事儿">加入开源项目可以做的事儿</h2>
 
-<p>在 Jane 被官方收录到主题仓库的第二天，就得到了几个 Star，并且收到了一位使用者的反馈<sup class="footnote-ref" id="fnref:fn-2"><a href="#fn:fn-2">2</a></sup>，对于我这个项目维护者而言，无疑是一种无形的鼓励。如前文所说，Jane 最初只是按我个人的需求进行的改造。所改的内容，主要是增强读者的阅读体验，然后在此基础上，增强其它的一些功能，比如说标签页中的标签云、分类页更好的展示、多国语言支持等。由于我个人水平有限，也非专业的网站设计人员，它依然有很多可以改进的地方。如果看到这篇文章的你正巧也是 Jane 的使用者，欢迎给我提出宝贵的建议，或者像我一样自己动手修改。</p>
+<ul>
+<li>入门：翻译文档、报告 BUG</li>
+<li>提 Issue
 
-<p>这次实践对于我个人是一个好的开始。我开始使用 gitflow 来规范开发流程，开始规范自己的 commit 内容，开始认真对待文档，开始认真做一个项目。磨了几年的刀，终于开始砍柴了。</p>
-<div class="footnotes">
+<ul>
+<li>报告 Bug 与提问</li>
+<li>提出并讨论新特性</li>
+<li>设定 Todo 目标</li>
+</ul></li>
+<li>提 Pull Request
 
-<hr />
+<ul>
+<li>修复 bug</li>
+<li>实现新特性</li>
+<li>优化性能</li>
+<li>例行更新（如文档、依赖版本等）</li>
+</ul></li>
+</ul>
+
+<h2 id="常用英文表达方式">常用英文表达方式</h2>
+
+<p><strong>吐槽代码：</strong></p>
+
+<ul>
+<li>表达 API 笨重不好用，可以说 <code>heavy to work with</code></li>
+<li>表达模块结构不好，可以说 <code>not intuitive</code></li>
+<li>表达处理方式太粗暴，可以说 <code>overkill</code></li>
+<li>表达逻辑可能有漏洞，可以说 <code>leaky</code></li>
+<li>表达要引入的东西太多，可以说 <code>aggressive</code></li>
+</ul>
+
+<p><strong>表达观点：</strong></p>
+
+<ul>
+<li><code>I think</code> 有点儿武断</li>
+<li>可以用 <code>In my (humble) opinion</code></li>
+<li>补充一个 <code>Not sure, maybe missing something</code></li>
+<li>用 <code>To my knowledge</code> 或者 <code>For me</code></li>
+</ul>
+
+<h2 id="commit-格式规范">commit 格式规范</h2>
+
+<pre><code class="language-nil">&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;
+// 空一行
+&lt;body&gt;
+// 空一行
+&lt;footer&gt;
+</code></pre>
+
+<p><strong>第一部分为 HEADER ：</strong></p>
+
+<ul>
+<li><code>&lt;type&gt;</code> 说明 commit 的类别：
+
+<ul>
+<li>feat：新功能（feature）</li>
+<li>fix：修补bug</li>
+<li>docs：文档（documentation）</li>
+<li>style： 格式（不影响代码运行的变动）</li>
+<li>refactor：重构（即不是新增功能，也不是修改bug的代码变动）</li>
+<li>test：增加测试</li>
+<li>chore：构建过程或辅助工具的变动</li>
+</ul></li>
+<li><code>&lt;scope&gt;</code> 说明 commit 影响的范围</li>
+<li><code>&lt;subject&gt;</code> 是 commit 目的的简短描述，可加入 Issue 的编号如 <code>#11</code></li>
+</ul>
+
+<p><strong>第二部分为 Body ：</strong>
+Body 部分是对本次 commit 的详细描述，可以分成多行。下面是一个范例。</p>
+
+<p><strong>最后部分为 Footer：</strong></p>
 
 <ol>
-<li id="fn:fn-1"><a href="https://github.com/gohugoio/hugoThemes/issues/340">New Theme: Jane · Issue #340 · gohugoio/hugoThemes</a>
- <a class="footnote-return" href="#fnref:fn-1"><sup>[return]</sup></a></li>
-<li id="fn:fn-2"><a href="https://github.com/xianmin/hugo-theme-jane/issues/1">Issue #1 · xianmin/hugo-theme-jane</a>
- <a class="footnote-return" href="#fnref:fn-2"><sup>[return]</sup></a></li>
+<li>不兼容变动。以 <code>BREAKING CHANGE</code> 开头，后面是对变动的描述、以及变动理由和迁移方法。</li>
+<li>关闭 Issue。如， <code>Closes #123, #245, #992</code> ，一次性关闭多个 issue。</li>
 </ol>
-</div>
+
+<p><strong>特殊情况 Revert ：</strong></p>
+
+<p>如果当前 commit 用于撤销以前的 commit，则必须以 <code>revert:</code> 开头，后面跟着被撤销 Commit 的 Header。</p>
+
+<h2 id="生成-change-log">生成 CHANGE LOG</h2>
+
+<p><a href="https://github.com/conventional-changelog/conventional-changelog">conventional-changelog/conventional-changelog: Generate a changelog from git metadata.</a></p>
+
+<p>按照规范编写 commit 最大的好处就是自动化生成 Change Log 。</p>
+
+<h2 id="git-flow-工作流程">git-flow 工作流程</h2>
+
+<p><a href="https://github.com/petervanderdoes/gitflow-avh">petervanderdoes/gitflow-avh: AVH Edition of the git extensions to provide high-level repository operations for Vincent Driessen&rsquo;s branching model</a></p>
     </div>
 
     
@@ -229,7 +353,7 @@ ga('send', 'pageview');
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
-    <span class="item-content">2018-03-11</span>
+    <span class="item-content">2018-03-27</span>
   </p>
   
   <p class="copyright-item">
@@ -244,27 +368,18 @@ ga('send', 'pageview');
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/tags/jane/">Jane</a>
-          
-          <a href="/tags/hugo/">Hugo</a>
-          
           <a href="/tags/%E5%BC%80%E6%BA%90/">开源</a>
           
-          <a href="/tags/%E7%BB%83%E4%B9%A0/">练习</a>
+          <a href="/tags/%E7%AC%94%E8%AE%B0/">笔记</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/note-opensource-project/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">笔记：有关开源项目</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
         
-          <a class="next" href="/post/wartime-notes/">
-            <span class="next-text nav-default">维特根斯坦的《战时笔记》</span>
+          <a class="next" href="/post/hugo-theme-jane-publish/">
+            <span class="next-text nav-default">开源实践：写在 Jane 发布之后</span>
             <span class="prev-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
