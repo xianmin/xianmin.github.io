@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo - 贤民的比特记忆</title>
+  <link rel="alternate" hreflang="zh-cn" href="http://www.xianmin.org" />
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="贤民" />
+  <meta name="description" content="本文将对我个人的博文写作流程 所用到的工具 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode &amp;amp; hugo ，另外还有两个配合 hugo 的辅助包 easy-hugo （可选） &amp;amp; ox-hugo 。
+ hugo : https://gohugo.io/ orgmode : https://orgmode.org/ ox-hugo : https://ox-hugo.scripter.co/ easy-hygo : https://github.com/masasam/emacs-easy-hugo  
+" />
+
+  <meta name="keywords" content="linux, emacs, program, journal, 贤民, 博客, 笔记" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.37.1" />
+
+
+<link rel="canonical" href="http://www.xianmin.org/post/ox-hugo/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" href="/favicon.ico" />
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo" />
+<meta property="og:description" content="本文将对我个人的博文写作流程 所用到的工具 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode &amp; hugo ，另外还有两个配合 hugo 的辅助包 easy-hugo （可选） &amp; ox-hugo 。
+
+
+hugo : https://gohugo.io/
+orgmode : https://orgmode.org/
+ox-hugo : https://ox-hugo.scripter.co/
+easy-hygo : https://github.com/masasam/emacs-easy-hugo
+
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.xianmin.org/post/ox-hugo/" />
+
+
+
+<meta property="article:published_time" content="2018-03-31T00:00:00&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-03-31T18:19:26&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo">
+<meta itemprop="description" content="本文将对我个人的博文写作流程 所用到的工具 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode &amp; hugo ，另外还有两个配合 hugo 的辅助包 easy-hugo （可选） &amp; ox-hugo 。
+
+
+hugo : https://gohugo.io/
+orgmode : https://orgmode.org/
+ox-hugo : https://ox-hugo.scripter.co/
+easy-hygo : https://github.com/masasam/emacs-easy-hugo
+
+
+">
+
+
+<meta itemprop="datePublished" content="2018-03-31T00:00:00&#43;08:00" />
+<meta itemprop="dateModified" content="2018-03-31T00:00:00&#43;08:00" />
+<meta itemprop="wordCount" content="1892">
+
+
+
+<meta itemprop="keywords" content="emacs,editor,orgmode,hugo,写作,tool,博客," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo"/>
+<meta name="twitter:description" content="本文将对我个人的博文写作流程 所用到的工具 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode &amp; hugo ，另外还有两个配合 hugo 的辅助包 easy-hugo （可选） &amp; ox-hugo 。
+
+
+hugo : https://gohugo.io/
+orgmode : https://orgmode.org/
+ox-hugo : https://ox-hugo.scripter.co/
+easy-hygo : https://github.com/masasam/emacs-easy-hugo
+
+
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-34199129-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">贤民的比特记忆</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">主页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">全部文章</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a><a href="http://en.xianmin.org">
+        <li class="mobile-menu-item">English</li>
+      </a>
+  </ul>
+</nav>
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">贤民的比特记忆</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">主页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">全部文章</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="http://en.xianmin.org">English</a>
+      </li>
+  </ul>
+</nav>
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-03-31 </span>
+        <div class="post-category">
+            
+              <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"> 计算机 </a>
+            
+          </div>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#自问自答">自问自答</a>
+<ul>
+<li><a href="#问-为什么写这篇文章">问： 为什么写这篇文章？</a></li>
+<li><a href="#问-这篇文章主要解决什么问题">问： 这篇文章主要解决什么问题？</a></li>
+<li><a href="#问-为什么用-emacs-和-orgmode">问： 为什么用 emacs 和 orgmode ？</a></li>
+<li><a href="#问-为什么用-hugo">问： 为什么用 hugo ？</a></li>
+</ul></li>
+<li><a href="#发布博文的一般流程">发布博文的一般流程</a></li>
+<li><a href="#创建博文">创建博文</a>
+<ul>
+<li><a href="#使用-org-capture-创建博文">使用 org-capture 创建博文</a></li>
+<li><a href="#使用-yasnippet-创建博文">使用 YASnippet 创建博文</a></li>
+</ul></li>
+<li><a href="#由-ox-hugo-生成-markdown">由 ox-hugo 生成 markdown</a></li>
+<li><a href="#使用-easy-hugo-管理你的博客-可选">使用 easy-hugo 管理你的博客（可选）</a></li>
+<li><a href="#最后的总结">最后的总结</a></li>
+<li><a href="#附录a-几个辅助写作的-emacs-扩展">附录A：几个辅助写作的 emacs 扩展</a></li>
+<li><a href="#附录b-快速获取-orgmode-或-markdown-格式的网页标题和链接">附录B：快速获取 orgmode 或 markdown 格式的网页标题和链接</a></li>
+<li><a href="#附录c-我的-yasnippet-模板">附录C：我的 YASnippet 模板</a>
+<ul>
+<li><a href="#hugo-文章信息模板">hugo 文章信息模板</a></li>
+<li><a href="#more">more</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p>本文将对我个人的博文写作流程 <strong>所用到的工具</strong> 做一个总结与分享。从标题就可以看出来，主要有这几个工具： <code>emacs</code>, <code>orgmode</code> &amp; <code>hugo</code> ，另外还有两个配合 <code>hugo</code> 的辅助包 <code>easy-hugo</code> （可选） &amp; <code>ox-hugo</code> 。</p>
+
+<ul>
+<li><code>hugo</code> : <a href="https://gohugo.io/">https://gohugo.io/</a></li>
+<li><code>orgmode</code> : <a href="https://orgmode.org/">https://orgmode.org/</a></li>
+<li><code>ox-hugo</code> : <a href="https://ox-hugo.scripter.co/">https://ox-hugo.scripter.co/</a></li>
+<li><code>easy-hygo</code> : <a href="https://github.com/masasam/emacs-easy-hugo">https://github.com/masasam/emacs-easy-hugo</a></li>
+</ul>
+
+<p></p>
+
+<h2 id="自问自答">自问自答</h2>
+
+<h3 id="问-为什么写这篇文章">问： 为什么写这篇文章？</h3>
+
+<p>答： 中文搜索居然搜索不到一篇有关 <code>ox-hugo</code> 的内容。</p>
+
+<h3 id="问-这篇文章主要解决什么问题">问： 这篇文章主要解决什么问题？</h3>
+
+<p>答： orgmode 配合 hugo 来写作、发布、管理博文的一种便捷方案。</p>
+
+<h3 id="问-为什么用-emacs-和-orgmode">问： 为什么用 emacs 和 orgmode ？</h3>
+
+<p>答： 谁让我当年入了 emacs 和 orgmode 的“坑” 😂 ，这只是习惯而已。这俩工具还是需要一定的学习成本的，因此，本文对不熟悉 emacs 和 orgmode，或者使用其它编辑器的用户没多大帮助，但多少可以了解一下。</p>
+
+<h3 id="问-为什么用-hugo">问： 为什么用 hugo ？</h3>
+
+<p>答： 最开始只是因为 hugo 原生支持 orgmode ，事后来看，其实支持的不是很好，但是 ox-hugo 解决了用 orgmode 写博文的问题。当然还有一点，在生成静态网站的诸多工具（如 jekyll, hexo 等等）中，我发现 hugo 的安装是最便捷的，只需要下载一个二进制文件直接安装就能用了，而其它工具却总要安装一些别的依赖。网上还有种说法是 hugo 的网站生成速度是最快的，这个我没测试过，也不太确定。</p>
+
+<h2 id="发布博文的一般流程">发布博文的一般流程</h2>
+
+<ol>
+<li>创建一个 orgmode heading 作为博文标题；</li>
+<li>写文章（废话）；</li>
+<li>使用 ox-hugo 生成 markdown 文件；</li>
+<li>使用 easy-hugo 预览；</li>
+<li>发布（废话）。</li>
+</ol>
+
+<p>如前文所说，如果你不熟悉 emacs 和 orgmode ，一定会觉得这个流程好麻烦，何必用这些工具，把写作这回事儿弄得复杂了。我下面会对这个流程进行补充说明，并阐述它们的优点。</p>
+
+<h2 id="创建博文">创建博文</h2>
+
+<p>正常我们使用 hugo 是怎样创建一篇新博文的呢？在命令行下，敲击命令 <code>hugo new posts/my-first-post.md</code> ，然后用自己熟悉的编辑器编辑这个文件。这个文件的头部包含我们这篇文章的一些基本信息，比如像这样：</p>
+
+<pre><code class="language-yaml">---
+title: &quot;An Example Post&quot;  #标题
+date: 2018-01-01T16:01:23+08:00 #发布时间
+lastmod: 2018-01-02T16:01:23+08:00 #修改时间
+draft: false  #是否是草稿？
+tags: [&quot;tag-1&quot;, &quot;tag-2&quot;, &quot;tag-3&quot;]  #标签
+categories: [&quot;index&quot;]  #分类
+---
+</code></pre>
+
+<p>那么，使用 <code>ox-hugo</code> 之后，是怎样表示这些基本信息的呢？</p>
+
+<p>一种是使用 orgmode 的一个标题（heading），这种方式比较适合一些随笔或者简短的文章，像这样：</p>
+
+
+<figure>
+    
+        <img src="/image/other/ox-hugo-01.png" />
+    
+    
+</figure>
+
+
+<p><strong>说明：</strong></p>
+
+<ul>
+<li>1 是 ox-hugo 的单文件配置</li>
+<li>2 是这篇文章的完成情况， <code>DONE</code> 说明已完成</li>
+<li>3 是这篇文章的标题</li>
+<li>4 是这篇文章的 tag ，tag 前带有 <code>@</code> 表示 category</li>
+<li>5 是 <code>DONE</code> 自动生成的时间戳，表示这篇文章的完成时间</li>
+<li>6 是导出为 markdown 文件后的文件名</li>
+</ul>
+
+<p>还有一种是使用单独的文件 <code>example.org</code> ，像这样：</p>
+
+
+<figure>
+    
+        <img src="/image/other/ox-hugo-02.png" />
+    
+    
+</figure>
+
+
+<p>这两种方式都可以配合 emacs 强大的功能来快速生成，而不必每次都手动输入，亦或是复制粘贴。</p>
+
+<h3 id="使用-org-capture-创建博文">使用 org-capture 创建博文</h3>
+
+<p>以下配置摘自 <a href="https://ox-hugo.scripter.co/doc/org-capture-setup/">官方介绍</a> ：</p>
+
+<pre><code class="language-elisp">;; org-hugo capture
+(with-eval-after-load 'org-capture
+  (defun org-hugo-new-subtree-post-capture-template ()
+    &quot;Returns `org-capture' template string for new Hugo post.
+See `org-capture-templates' for more information.&quot;
+    (let* (;; http://www.holgerschurig.de/en/emacs-blog-from-org-to-hugo/
+           (date (format-time-string (org-time-stamp-format :long :inactive) (org-current-time)))
+           (title (read-from-minibuffer &quot;Post Title: &quot;)) ;Prompt to enter the post title
+           (fname (org-hugo-slug title)))
+      (mapconcat #'identity
+                 `(
+                   ,(concat &quot;** TODO &quot; title &quot;     :@随笔:&quot;)
+                   &quot;:PROPERTIES:&quot;
+                   ,(concat &quot;:EXPORT_FILE_NAME: &quot; fname)
+                   ;; ,(concat &quot;:EXPORT_DATE: &quot; date) ;Enter current date and time
+                   &quot;:END:&quot;
+                   &quot;%?\n&quot;)          ;Place the cursor here finally
+                 &quot;\n&quot;)))
+
+  (add-to-list 'org-capture-templates
+               '(&quot;h&quot;                ;`org-capture' binding + h
+                 &quot;Hugo post&quot;
+                 entry
+                 ;; It is assumed that below file is present in `org-directory'
+                 ;; and that it has a &quot;Blog Ideas&quot; heading. It can even be a
+                 ;; symlink pointing to the actual location of all-posts.org!
+                 (file+headline &quot;~/Dropbox/Write/blog/orgpost/0000-posts.org&quot; &quot;INBOX&quot;)
+                 (function org-hugo-new-subtree-post-capture-template))))
+
+(spacemacs/set-leader-keys &quot;av&quot; 'org-capture)
+
+</code></pre>
+
+<h3 id="使用-yasnippet-创建博文">使用 YASnippet 创建博文</h3>
+
+<p>我在文末的附录中，会附上我使用的一些 snippet 模板。</p>
+
+<p>模板的用法：
+输入字母 <code>h</code> ，按下 <code>M-/</code> ，它就会自动帮你生成以下内容：</p>
+
+<pre><code class="language-nil">#+HUGO_BASE_DIR: ../
+#+TITLE:
+#+DATE:
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS:
+#+HUGO_CATEGORIES:
+#+HUGO_DRAFT: false
+</code></pre>
+
+<h2 id="由-ox-hugo-生成-markdown">由 ox-hugo 生成 markdown</h2>
+
+<p>尽管说 <code>hugo</code> 原生支持渲染 orgmode 文件，但它所使用的 markdown 渲染引擎比 orgmode 的渲染引擎要强大的多，谁让 markdown 更流行呢？这是使用 <code>ox-hugo</code> 的原因之一。</p>
+
+<p>使用 <code>ox-hugo</code> 可以将你的 orgmode 博文，生成指定的 markdown 文件，这只需要一条指令就够了（官方默认 <code>C-c C-e H h</code> ），并且，它还会自动更正你的文章 <strong>修改时间</strong> ，markdown 文件中的 <code>lastmod</code> 值。</p>
+
+<p>至此，你就已经可以按照常规的方法来预览、发布你的博文了。不过还有一个扩展没有介绍—— <code>easy-hugo</code> 。</p>
+
+<h2 id="使用-easy-hugo-管理你的博客-可选">使用 easy-hugo 管理你的博客（可选）</h2>
+
+
+<figure class="center">
+    
+        <img src="/image/other/ox-hugo-00.png" />
+    
+    
+    <figcaption>
+        <h4>Easy-Hugo 主界面</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>常规的方法是怎样来预览你的博客呢？先进入你的博客目录，然后键入命令 <code>hugo server</code> 。</p>
+
+<p>使用 <code>easy-hugo</code> 之后，打开它的主界面（我的快捷键 <code>&lt;SPA&gt; a h</code> ），再按 <code>p</code> 键就可以直接预览了。它还有快速打开你的博客配置文件，快速发布到 github，等等功能，可以单独写篇介绍了。不过我只是用它来管理博文而已。</p>
+
+<h2 id="最后的总结">最后的总结</h2>
+
+<p><code>emacs</code> ，想说爱你不容易。😅</p>
+
+<p>用惯了一种编辑器，任何文本编辑相关的工作都想通过它来完成，换用其他的编辑器总觉得缺了些什么。这个写作流程，在我短暂的使用过程中（不到一年），总体上还是挺舒适的。这篇文章算是做一个梳理。</p>
+
+<p>为什么我从头到尾都没提到如何配置 <code>ox-hugo</code> 和 <code>easy-hugo</code> 呢？ emacs 的配置千差万别，怎样配置还是自己去看它们的文档吧。</p>
+
+<h2 id="附录a-几个辅助写作的-emacs-扩展">附录A：几个辅助写作的 emacs 扩展</h2>
+
+<ol>
+<li><a href="https://github.com/joostkremers/writeroom-mode">joostkremers/writeroom-mode: Writeroom-mode: distraction-free writing for Emacs.</a></li>
+<li>spacemacs 的 emoji Layer ，方便插入 emoji 表情</li>
+</ol>
+
+<h2 id="附录b-快速获取-orgmode-或-markdown-格式的网页标题和链接">附录B：快速获取 orgmode 或 markdown 格式的网页标题和链接</h2>
+
+<p>将以下代码存储为浏览器的书签，以后获取网页的标题和链接只需要点击这个书签即可。链接的标题默认是网站的标题，也可以选中一段文字作为标题。</p>
+
+<p>orgmode 的 bookmarklet ：</p>
+
+<pre><code class="language-javascript">javascript:(function () { var selection = window.getSelection().toString(); var anchor = selection ? selection : document.title; void(prompt('', '[[' + location.href + '][' + anchor + ']]')); })();
+</code></pre>
+
+<p>markdown 的 bookmarklet ：</p>
+
+<pre><code class="language-javascript">javascript:(function () { var selection = window.getSelection().toString(); var anchor = selection ? selection : document.title; void(prompt('', '[' + anchor + '](' + location.href + ')')); })();
+</code></pre>
+
+<h2 id="附录c-我的-yasnippet-模板">附录C：我的 YASnippet 模板</h2>
+
+<h3 id="hugo-文章信息模板">hugo 文章信息模板</h3>
+
+<pre><code class="language-nil"># -*- mode: snippet -*-
+# name: hugo
+# key: h
+# --
+#+HUGO_BASE_DIR: ../
+#+TITLE: $1
+#+DATE: `(format-time-string &quot;%Y-%m-%d&quot;)`
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: $2
+#+HUGO_CATEGORIES: $3
+#+HUGO_DRAFT: false
+
+$0
+</code></pre>
+
+<h3 id="more">more</h3>
+
+<p>我也搞不清为什么我总是记不住 <code>&lt;!--more--&gt;</code> 这个标签</p>
+
+<pre><code class="language-nil"># -*- mode: snippet -*-
+# name: more
+# key: m
+# --
+&lt;!--more--&gt;
+
+$0
+</code></pre>
+
+<p>有待补充&hellip;</p>
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">贤民</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">2018-03-31</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/emacs/">emacs</a>
+          
+          <a href="/tags/editor/">editor</a>
+          
+          <a href="/tags/orgmode/">orgmode</a>
+          
+          <a href="/tags/hugo/">hugo</a>
+          
+          <a href="/tags/%E5%86%99%E4%BD%9C/">写作</a>
+          
+          <a href="/tags/tool/">tool</a>
+          
+          <a href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/note-opensource-project/">
+            <span class="next-text nav-default">笔记：有关开源项目</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+    
+
+  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
+      显示 Disqus 评论
+    </div>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    function load_disqus() {
+        
+        
+        if (window.location.hostname === 'localhost') return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'xianmin12';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+        $('#load_disqus').remove();
+    };
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+
+  
+
+  
+  </article>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:xianmin12@qq.com" rel="me" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com/xian_min" rel="me" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/xianmin" rel="me" class="iconfont icon-github" title="github"></a>
+      <a href="https://weibo.com/xianmin12" rel="me" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com/people/xian-min" rel="me" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://www.douban.com/people/xianmin12/" rel="me" class="iconfont icon-douban" title="douban"></a>
+  <a href="http://www.xianmin.org/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2017 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">贤民</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
+
+
+
+
+</body>
+</html>

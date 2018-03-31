@@ -24,6 +24,251 @@
     </item>
     
     <item>
+      <title>博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo</title>
+      <link>http://www.xianmin.org/post/ox-hugo/</link>
+      <pubDate>Sat, 31 Mar 2018 00:00:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/ox-hugo/</guid>
+      
+        <description>&lt;p&gt;本文将对我个人的博文写作流程 &lt;strong&gt;所用到的工具&lt;/strong&gt; 做一个总结与分享。从标题就可以看出来，主要有这几个工具： &lt;code&gt;emacs&lt;/code&gt;, &lt;code&gt;orgmode&lt;/code&gt; &amp;amp; &lt;code&gt;hugo&lt;/code&gt; ，另外还有两个配合 &lt;code&gt;hugo&lt;/code&gt; 的辅助包 &lt;code&gt;easy-hugo&lt;/code&gt; （可选） &amp;amp; &lt;code&gt;ox-hugo&lt;/code&gt; 。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hugo&lt;/code&gt; : &lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;orgmode&lt;/code&gt; : &lt;a href=&#34;https://orgmode.org/&#34;&gt;https://orgmode.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ox-hugo&lt;/code&gt; : &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;https://ox-hugo.scripter.co/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;easy-hygo&lt;/code&gt; : &lt;a href=&#34;https://github.com/masasam/emacs-easy-hugo&#34;&gt;https://github.com/masasam/emacs-easy-hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;自问自答&#34;&gt;自问自答&lt;/h2&gt;
+
+&lt;h3 id=&#34;问-为什么写这篇文章&#34;&gt;问： 为什么写这篇文章？&lt;/h3&gt;
+
+&lt;p&gt;答： 中文搜索居然搜索不到一篇有关 &lt;code&gt;ox-hugo&lt;/code&gt; 的内容。&lt;/p&gt;
+
+&lt;h3 id=&#34;问-这篇文章主要解决什么问题&#34;&gt;问： 这篇文章主要解决什么问题？&lt;/h3&gt;
+
+&lt;p&gt;答： orgmode 配合 hugo 来写作、发布、管理博文的一种便捷方案。&lt;/p&gt;
+
+&lt;h3 id=&#34;问-为什么用-emacs-和-orgmode&#34;&gt;问： 为什么用 emacs 和 orgmode ？&lt;/h3&gt;
+
+&lt;p&gt;答： 谁让我当年入了 emacs 和 orgmode 的“坑” 😂 ，这只是习惯而已。这俩工具还是需要一定的学习成本的，因此，本文对不熟悉 emacs 和 orgmode，或者使用其它编辑器的用户没多大帮助，但多少可以了解一下。&lt;/p&gt;
+
+&lt;h3 id=&#34;问-为什么用-hugo&#34;&gt;问： 为什么用 hugo ？&lt;/h3&gt;
+
+&lt;p&gt;答： 最开始只是因为 hugo 原生支持 orgmode ，事后来看，其实支持的不是很好，但是 ox-hugo 解决了用 orgmode 写博文的问题。当然还有一点，在生成静态网站的诸多工具（如 jekyll, hexo 等等）中，我发现 hugo 的安装是最便捷的，只需要下载一个二进制文件直接安装就能用了，而其它工具却总要安装一些别的依赖。网上还有种说法是 hugo 的网站生成速度是最快的，这个我没测试过，也不太确定。&lt;/p&gt;
+
+&lt;h2 id=&#34;发布博文的一般流程&#34;&gt;发布博文的一般流程&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;创建一个 orgmode heading 作为博文标题；&lt;/li&gt;
+&lt;li&gt;写文章（废话）；&lt;/li&gt;
+&lt;li&gt;使用 ox-hugo 生成 markdown 文件；&lt;/li&gt;
+&lt;li&gt;使用 easy-hugo 预览；&lt;/li&gt;
+&lt;li&gt;发布（废话）。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;如前文所说，如果你不熟悉 emacs 和 orgmode ，一定会觉得这个流程好麻烦，何必用这些工具，把写作这回事儿弄得复杂了。我下面会对这个流程进行补充说明，并阐述它们的优点。&lt;/p&gt;
+
+&lt;h2 id=&#34;创建博文&#34;&gt;创建博文&lt;/h2&gt;
+
+&lt;p&gt;正常我们使用 hugo 是怎样创建一篇新博文的呢？在命令行下，敲击命令 &lt;code&gt;hugo new posts/my-first-post.md&lt;/code&gt; ，然后用自己熟悉的编辑器编辑这个文件。这个文件的头部包含我们这篇文章的一些基本信息，比如像这样：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;---
+title: &amp;quot;An Example Post&amp;quot;  #标题
+date: 2018-01-01T16:01:23+08:00 #发布时间
+lastmod: 2018-01-02T16:01:23+08:00 #修改时间
+draft: false  #是否是草稿？
+tags: [&amp;quot;tag-1&amp;quot;, &amp;quot;tag-2&amp;quot;, &amp;quot;tag-3&amp;quot;]  #标签
+categories: [&amp;quot;index&amp;quot;]  #分类
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;那么，使用 &lt;code&gt;ox-hugo&lt;/code&gt; 之后，是怎样表示这些基本信息的呢？&lt;/p&gt;
+
+&lt;p&gt;一种是使用 orgmode 的一个标题（heading），这种方式比较适合一些随笔或者简短的文章，像这样：&lt;/p&gt;
+
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/other/ox-hugo-01.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;strong&gt;说明：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1 是 ox-hugo 的单文件配置&lt;/li&gt;
+&lt;li&gt;2 是这篇文章的完成情况， &lt;code&gt;DONE&lt;/code&gt; 说明已完成&lt;/li&gt;
+&lt;li&gt;3 是这篇文章的标题&lt;/li&gt;
+&lt;li&gt;4 是这篇文章的 tag ，tag 前带有 &lt;code&gt;@&lt;/code&gt; 表示 category&lt;/li&gt;
+&lt;li&gt;5 是 &lt;code&gt;DONE&lt;/code&gt; 自动生成的时间戳，表示这篇文章的完成时间&lt;/li&gt;
+&lt;li&gt;6 是导出为 markdown 文件后的文件名&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;还有一种是使用单独的文件 &lt;code&gt;example.org&lt;/code&gt; ，像这样：&lt;/p&gt;
+
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/other/ox-hugo-02.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;这两种方式都可以配合 emacs 强大的功能来快速生成，而不必每次都手动输入，亦或是复制粘贴。&lt;/p&gt;
+
+&lt;h3 id=&#34;使用-org-capture-创建博文&#34;&gt;使用 org-capture 创建博文&lt;/h3&gt;
+
+&lt;p&gt;以下配置摘自 &lt;a href=&#34;https://ox-hugo.scripter.co/doc/org-capture-setup/&#34;&gt;官方介绍&lt;/a&gt; ：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-elisp&#34;&gt;;; org-hugo capture
+(with-eval-after-load &#39;org-capture
+  (defun org-hugo-new-subtree-post-capture-template ()
+    &amp;quot;Returns `org-capture&#39; template string for new Hugo post.
+See `org-capture-templates&#39; for more information.&amp;quot;
+    (let* (;; http://www.holgerschurig.de/en/emacs-blog-from-org-to-hugo/
+           (date (format-time-string (org-time-stamp-format :long :inactive) (org-current-time)))
+           (title (read-from-minibuffer &amp;quot;Post Title: &amp;quot;)) ;Prompt to enter the post title
+           (fname (org-hugo-slug title)))
+      (mapconcat #&#39;identity
+                 `(
+                   ,(concat &amp;quot;** TODO &amp;quot; title &amp;quot;     :@随笔:&amp;quot;)
+                   &amp;quot;:PROPERTIES:&amp;quot;
+                   ,(concat &amp;quot;:EXPORT_FILE_NAME: &amp;quot; fname)
+                   ;; ,(concat &amp;quot;:EXPORT_DATE: &amp;quot; date) ;Enter current date and time
+                   &amp;quot;:END:&amp;quot;
+                   &amp;quot;%?\n&amp;quot;)          ;Place the cursor here finally
+                 &amp;quot;\n&amp;quot;)))
+
+  (add-to-list &#39;org-capture-templates
+               &#39;(&amp;quot;h&amp;quot;                ;`org-capture&#39; binding + h
+                 &amp;quot;Hugo post&amp;quot;
+                 entry
+                 ;; It is assumed that below file is present in `org-directory&#39;
+                 ;; and that it has a &amp;quot;Blog Ideas&amp;quot; heading. It can even be a
+                 ;; symlink pointing to the actual location of all-posts.org!
+                 (file+headline &amp;quot;~/Dropbox/Write/blog/orgpost/0000-posts.org&amp;quot; &amp;quot;INBOX&amp;quot;)
+                 (function org-hugo-new-subtree-post-capture-template))))
+
+(spacemacs/set-leader-keys &amp;quot;av&amp;quot; &#39;org-capture)
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;使用-yasnippet-创建博文&#34;&gt;使用 YASnippet 创建博文&lt;/h3&gt;
+
+&lt;p&gt;我在文末的附录中，会附上我使用的一些 snippet 模板。&lt;/p&gt;
+
+&lt;p&gt;模板的用法：
+输入字母 &lt;code&gt;h&lt;/code&gt; ，按下 &lt;code&gt;M-/&lt;/code&gt; ，它就会自动帮你生成以下内容：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-nil&#34;&gt;#+HUGO_BASE_DIR: ../
+#+TITLE:
+#+DATE:
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS:
+#+HUGO_CATEGORIES:
+#+HUGO_DRAFT: false
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;由-ox-hugo-生成-markdown&#34;&gt;由 ox-hugo 生成 markdown&lt;/h2&gt;
+
+&lt;p&gt;尽管说 &lt;code&gt;hugo&lt;/code&gt; 原生支持渲染 orgmode 文件，但它所使用的 markdown 渲染引擎比 orgmode 的渲染引擎要强大的多，谁让 markdown 更流行呢？这是使用 &lt;code&gt;ox-hugo&lt;/code&gt; 的原因之一。&lt;/p&gt;
+
+&lt;p&gt;使用 &lt;code&gt;ox-hugo&lt;/code&gt; 可以将你的 orgmode 博文，生成指定的 markdown 文件，这只需要一条指令就够了（官方默认 &lt;code&gt;C-c C-e H h&lt;/code&gt; ），并且，它还会自动更正你的文章 &lt;strong&gt;修改时间&lt;/strong&gt; ，markdown 文件中的 &lt;code&gt;lastmod&lt;/code&gt; 值。&lt;/p&gt;
+
+&lt;p&gt;至此，你就已经可以按照常规的方法来预览、发布你的博文了。不过还有一个扩展没有介绍—— &lt;code&gt;easy-hugo&lt;/code&gt; 。&lt;/p&gt;
+
+&lt;h2 id=&#34;使用-easy-hugo-管理你的博客-可选&#34;&gt;使用 easy-hugo 管理你的博客（可选）&lt;/h2&gt;
+
+
+&lt;figure class=&#34;center&#34;&gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/other/ox-hugo-00.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Easy-Hugo 主界面&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;常规的方法是怎样来预览你的博客呢？先进入你的博客目录，然后键入命令 &lt;code&gt;hugo server&lt;/code&gt; 。&lt;/p&gt;
+
+&lt;p&gt;使用 &lt;code&gt;easy-hugo&lt;/code&gt; 之后，打开它的主界面（我的快捷键 &lt;code&gt;&amp;lt;SPA&amp;gt; a h&lt;/code&gt; ），再按 &lt;code&gt;p&lt;/code&gt; 键就可以直接预览了。它还有快速打开你的博客配置文件，快速发布到 github，等等功能，可以单独写篇介绍了。不过我只是用它来管理博文而已。&lt;/p&gt;
+
+&lt;h2 id=&#34;最后的总结&#34;&gt;最后的总结&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;emacs&lt;/code&gt; ，想说爱你不容易。😅&lt;/p&gt;
+
+&lt;p&gt;用惯了一种编辑器，任何文本编辑相关的工作都想通过它来完成，换用其他的编辑器总觉得缺了些什么。这个写作流程，在我短暂的使用过程中（不到一年），总体上还是挺舒适的。这篇文章算是做一个梳理。&lt;/p&gt;
+
+&lt;p&gt;为什么我从头到尾都没提到如何配置 &lt;code&gt;ox-hugo&lt;/code&gt; 和 &lt;code&gt;easy-hugo&lt;/code&gt; 呢？ emacs 的配置千差万别，怎样配置还是自己去看它们的文档吧。&lt;/p&gt;
+
+&lt;h2 id=&#34;附录a-几个辅助写作的-emacs-扩展&#34;&gt;附录A：几个辅助写作的 emacs 扩展&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/joostkremers/writeroom-mode&#34;&gt;joostkremers/writeroom-mode: Writeroom-mode: distraction-free writing for Emacs.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;spacemacs 的 emoji Layer ，方便插入 emoji 表情&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;附录b-快速获取-orgmode-或-markdown-格式的网页标题和链接&#34;&gt;附录B：快速获取 orgmode 或 markdown 格式的网页标题和链接&lt;/h2&gt;
+
+&lt;p&gt;将以下代码存储为浏览器的书签，以后获取网页的标题和链接只需要点击这个书签即可。链接的标题默认是网站的标题，也可以选中一段文字作为标题。&lt;/p&gt;
+
+&lt;p&gt;orgmode 的 bookmarklet ：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;javascript:(function () { var selection = window.getSelection().toString(); var anchor = selection ? selection : document.title; void(prompt(&#39;&#39;, &#39;[[&#39; + location.href + &#39;][&#39; + anchor + &#39;]]&#39;)); })();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;markdown 的 bookmarklet ：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;javascript:(function () { var selection = window.getSelection().toString(); var anchor = selection ? selection : document.title; void(prompt(&#39;&#39;, &#39;[&#39; + anchor + &#39;](&#39; + location.href + &#39;)&#39;)); })();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;附录c-我的-yasnippet-模板&#34;&gt;附录C：我的 YASnippet 模板&lt;/h2&gt;
+
+&lt;h3 id=&#34;hugo-文章信息模板&#34;&gt;hugo 文章信息模板&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-nil&#34;&gt;# -*- mode: snippet -*-
+# name: hugo
+# key: h
+# --
+#+HUGO_BASE_DIR: ../
+#+TITLE: $1
+#+DATE: `(format-time-string &amp;quot;%Y-%m-%d&amp;quot;)`
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: $2
+#+HUGO_CATEGORIES: $3
+#+HUGO_DRAFT: false
+
+$0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;more&#34;&gt;more&lt;/h3&gt;
+
+&lt;p&gt;我也搞不清为什么我总是记不住 &lt;code&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt; 这个标签&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-nil&#34;&gt;# -*- mode: snippet -*-
+# name: more
+# key: m
+# --
+&amp;lt;!--more--&amp;gt;
+
+$0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;有待补充&amp;hellip;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>笔记：有关开源项目</title>
       <link>http://www.xianmin.org/post/note-opensource-project/</link>
       <pubDate>Tue, 27 Mar 2018 15:47:00 +0800</pubDate>
