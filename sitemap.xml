@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/post/i-am-a-bad-project-manager/</loc>
+    <lastmod>2018-04-03T15:42:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/post/ox-hugo/</loc>
     <lastmod>2018-03-31T18:19:26+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -157,7 +164,7 @@
   
   <url>
     <loc>http://www.xianmin.org/tags/git/</loc>
-    <lastmod>2017-03-01T18:03:09+08:00</lastmod>
+    <lastmod>2018-04-03T15:42:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -213,7 +220,7 @@
   
   <url>
     <loc>http://www.xianmin.org/post/</loc>
-    <lastmod>2018-03-31T18:19:26+08:00</lastmod>
+    <lastmod>2018-04-03T15:42:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -347,6 +354,13 @@
   <url>
     <loc>http://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/</loc>
     <lastmod>2018-02-09T22:08:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2018-04-03T15:42:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

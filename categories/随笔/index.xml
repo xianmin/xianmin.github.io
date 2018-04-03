@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git on 贤民的比特记忆</title>
-    <link>http://www.xianmin.org/tags/git/</link>
-    <description>Recent content in Git on 贤民的比特记忆</description>
+    <title>随笔 on 贤民的比特记忆</title>
+    <link>http://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/</link>
+    <description>Recent content in 随笔 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 03 Apr 2018 15:40:00 +0800</lastBuildDate>
     
-	<atom:link href="http://www.xianmin.org/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,17 +18,6 @@
       
       <guid>http://www.xianmin.org/post/i-am-a-bad-project-manager/</guid>
       <description>&lt;p&gt;最近， &lt;code&gt;hugo-theme-jane&lt;/code&gt; 收到了几位朋友的 PR ，我作为这个项目的管理者，在处理 PR 上遇到了问题：有个别 PR 比较简单，我就直接在 github 后台操作合并，然后 &lt;code&gt;git pull&lt;/code&gt; 到本地。我想的是本地 master 直接从远程仓库抓取到最新版，但奇怪的是居然有一个合并请求，并且多了一个合并的 commit 。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Linux 下，使用 Git 管理 dotfiles（配置文件）</title>
-      <link>http://www.xianmin.org/post/02-manage-dotfiles/</link>
-      <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
-      
-      <guid>http://www.xianmin.org/post/02-manage-dotfiles/</guid>
-      <description>&lt;p&gt;作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code&gt;.&lt;/code&gt; 开头，管它们叫 &lt;code&gt;dotfiles&lt;/code&gt; 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
