@@ -6,22 +6,10 @@
     <description>Recent content on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 01 Jan 2017 21:38:52 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 03 Apr 2018 15:40:00 +0800</lastBuildDate>
     
         <atom:link href="http://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>关于</title>
-      <link>http://www.xianmin.org/about/</link>
-      <pubDate>Sun, 01 Jan 2017 21:38:52 +0800</pubDate>
-      
-      <guid>http://www.xianmin.org/about/</guid>
-      
-        <description>&lt;p&gt;关于我暂时没有更多可说的。&lt;/p&gt;
-</description>
-      
-    </item>
     
     <item>
       <title>糟糕的项目管理新手</title>
@@ -680,6 +668,49 @@ Body 部分是对本次 commit 的详细描述，可以分成多行。下面是�
     </item>
     
     <item>
+      <title>关于本站</title>
+      <link>http://www.xianmin.org/about/</link>
+      <pubDate>Mon, 01 Jan 2018 21:38:52 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/about/</guid>
+      
+        <description>
+
+&lt;p&gt;&lt;img src=&#34;http://www.xianmin.org/me.jpg&#34; alt=&#34;我&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我叫贤民，好高兴你能找到这儿，这是我的个人站点。这个站点的域名是 xianmin.org ，我名字的拼音 &lt;code&gt;xianmin&lt;/code&gt; ，再加上 &lt;code&gt;.org&lt;/code&gt; 后缀。&lt;/p&gt;
+
+&lt;h2 id=&#34;关于本站的名称&#34;&gt;关于本站的名称&lt;/h2&gt;
+
+&lt;p&gt;“贤民的比特记忆”的灵感，来自“植物的记忆”。埃科&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Eco&#34;&gt;&lt;a href=&#34;#fn:Eco&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 有篇文章谈到“植物的记忆”，是说人们用植物加工成书籍，用书籍来记录记忆。这个站点也是我记录记忆的地方，只不过是用计算机来记录的，我把它称作比特&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Bit&#34;&gt;&lt;a href=&#34;#fn:Bit&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 记忆。所记录的内容，包括但不限于：日常生活、所思所想、随笔杂文、学习笔记、计算机技巧等等。&lt;/p&gt;
+
+&lt;h2 id=&#34;关于本站的建站目的&#34;&gt;关于本站的建站目的&lt;/h2&gt;
+
+&lt;p&gt;一、记录。我记性不太好，一些想法如果不记下来，也许很快就忘了。独立站点相比其他网络服务，自由度更高，不必有太多的忌讳。&lt;/p&gt;
+
+&lt;p&gt;二、分享。我高中就辍学了，在我的学习成长过程中，是互联网让我获得了很多他人无私奉献的知识。作为互联网世界的一员，如果我能够分享些有价值的内容，这不仅是一种回馈，也是我的荣幸。&lt;/p&gt;
+
+&lt;p&gt;三、交友。古有以文会友，这个年代，以博客会友不也是挺好玩的事儿么。&lt;/p&gt;
+
+&lt;h2 id=&#34;关于我&#34;&gt;关于我&lt;/h2&gt;
+
+&lt;p&gt;我目前是丽江白沙那里国际青年旅舍的掌柜，旅舍位于滇西的一个古镇（其实就是普通的乡村而已），接待来自世界各地的游客。如果你有机会到丽江，欢迎下榻我们旅舍。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:Eco&#34;&gt;&lt;a href=&#34;https://zh.wikipedia.org/zh-hans/%E7%BF%81%E8%B4%9D%E6%89%98%C2%B7%E5%9F%83%E5%8F%AF&#34;&gt;翁贝托·艾柯 - 维基百科，自由的百科全书&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Eco&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:Bit&#34;&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E4%BD%8D%E5%85%83&#34;&gt;比特 - 维基百科，自由的百科全书&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Bit&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>别了，2017！</title>
       <link>http://www.xianmin.org/post/2017/</link>
       <pubDate>Sat, 30 Dec 2017 00:00:00 +0800</pubDate>
@@ -1158,14 +1189,12 @@ console.log( bar.a ); // 输出 2
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;
-
-&#34;心理表征是一种与我们大脑正在思考的某个物体、某个观点、某些信息或者其他任何事物相对应的心理结构，或具体或抽象&#34;
-
-&lt;/p&gt;
+  &lt;p&gt;&amp;ldquo;心理表征是一种与我们大脑正在思考的某个物体、某个观点、某些信息或者其他任何事物相对应的心理结构，或具体或抽象&amp;rdquo;&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;&lt;/strong&gt;
     
+      
+        
       
     
   &lt;/footer&gt;
@@ -1193,14 +1222,12 @@ console.log( bar.a ); // 输出 2
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;
-
-&#34;将杰出人物和我们其他人区分开来的主要因素是：他们经过年复一年的练习，已经改变了大脑中的神经回路，以创建高度专业化的心理表征，这些心理表征反过来使得令人难以置信的记忆、规律的识别、问题的解决等成为可能，也使得他们能够培养和发展各种高级的能力，以便在特定的专业领域中表现卓越。&#34;
-
-&lt;/p&gt;
+  &lt;p&gt;&amp;ldquo;将杰出人物和我们其他人区分开来的主要因素是：他们经过年复一年的练习，已经改变了大脑中的神经回路，以创建高度专业化的心理表征，这些心理表征反过来使得令人难以置信的记忆、规律的识别、问题的解决等成为可能，也使得他们能够培养和发展各种高级的能力，以便在特定的专业领域中表现卓越。&amp;rdquo;&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;&lt;/strong&gt;
     
+      
+        
       
     
   &lt;/footer&gt;
@@ -1240,14 +1267,12 @@ console.log( bar.a ); // 输出 2
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;
-
-“有目的的练习是专注的”，“要以专注的方式制订明确的目标”
-
-&lt;/p&gt;
+  &lt;p&gt;“有目的的练习是专注的”，“要以专注的方式制订明确的目标”&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;&lt;/strong&gt;
     
+      
+        
       
     
   &lt;/footer&gt;
@@ -1275,14 +1300,12 @@ console.log( bar.a ); // 输出 2
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;
-
-“为了在没有导师的时候有效地练习某种技能，牢牢记住以下三个F，将是有帮助的。这三个F，其实是以字母F开头三个单词，即：专注（focus）、反馈（feedback）以及纠正（fix it）”。
-
-&lt;/p&gt;
+  &lt;p&gt;“为了在没有导师的时候有效地练习某种技能，牢牢记住以下三个F，将是有帮助的。这三个F，其实是以字母F开头三个单词，即：专注（focus）、反馈（feedback）以及纠正（fix it）”。&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;&lt;/strong&gt;
     
+      
+        
       
     
   &lt;/footer&gt;
@@ -1631,11 +1654,12 @@ console.log( bar.a ); // 输出 2
       <guid>http://www.xianmin.org/post/read-zen-and-the-art-of-motorcycle-maintenance/</guid>
       
         <description>&lt;blockquote&gt;
-  &lt;p&gt;&lt;p&gt;我因为写了一部人们把它和《禅与摩托车维修艺术》相比较的书而感到甚受恭维。我希望拙作（《时间简史》）和本书一样使人们觉得，他们不必自处于伟大的智慧及哲学的问题之外。&lt;/p&gt;
-&lt;/p&gt;
+  &lt;p&gt;我因为写了一部人们把它和《禅与摩托车维修艺术》相比较的书而感到甚受恭维。我希望拙作（《时间简史》）和本书一样使人们觉得，他们不必自处于伟大的智慧及哲学的问题之外。&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;——霍金&lt;/strong&gt;
     
+      
+        
       
     
   &lt;/footer&gt;
@@ -1763,12 +1787,13 @@ console.log( bar.a ); // 输出 2
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ldquo;我们刻意避免按照固定的行程前进，宁可随心所欲地走走停停，因为旅游本身远比赶赴某一个目的地更加惬意。&amp;rdquo;
+  &lt;p&gt;&amp;ldquo;我们刻意避免按照固定的行程前进，宁可随心所欲地走走停停，因为旅游本身远比赶赴某一个目的地更加惬意。&amp;rdquo;
 (章节:1)&lt;/p&gt;
-&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;&lt;/strong&gt;
     
+      
+        
       
     
   &lt;/footer&gt;
@@ -1796,12 +1821,13 @@ console.log( bar.a ); // 输出 2
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ldquo;这些乡间小路和一般的干道迥然不同，就连沿线居住的居民的生活步调和个性也不一样。他们一直都没有离开过本地，所以可以很悠闲地和你寒暄问候、谈天说地，那感觉好极了。反而是那些早就搬到城市里的人和他们的子子孙孙迷失了，忘记了这种情怀。&amp;rdquo;
+  &lt;p&gt;&amp;ldquo;这些乡间小路和一般的干道迥然不同，就连沿线居住的居民的生活步调和个性也不一样。他们一直都没有离开过本地，所以可以很悠闲地和你寒暄问候、谈天说地，那感觉好极了。反而是那些早就搬到城市里的人和他们的子子孙孙迷失了，忘记了这种情怀。&amp;rdquo;
 (章节:1)&lt;/p&gt;
-&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;&lt;/strong&gt;
     
+      
+        
       
     
   &lt;/footer&gt;
@@ -1829,12 +1855,13 @@ console.log( bar.a ); // 输出 2
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ldquo;要把问题正确地写下来，起码要兼顾到六方面： （1）问题是什么。 （2）假设问题的原因。 （3）证实每个问题的假设。 （4）预测实验的结果。 （5）观察实验的结果。 （6）由实验得出结论。&amp;rdquo;
+  &lt;p&gt;&amp;ldquo;要把问题正确地写下来，起码要兼顾到六方面： （1）问题是什么。 （2）假设问题的原因。 （3）证实每个问题的假设。 （4）预测实验的结果。 （5）观察实验的结果。 （6）由实验得出结论。&amp;rdquo;
 (章节:9)&lt;/p&gt;
-&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;&lt;/strong&gt;
     
+      
+        
       
     
   &lt;/footer&gt;
@@ -1862,12 +1889,13 @@ console.log( bar.a ); // 输出 2
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;p&gt;&amp;rdquo; 他是这样回答同事的： “要想从哲学方面解释良质，是一件既对又错的事，因为这是一种哲学的解释。哲学解释的过程就是分析，把一样东西细分成主语、述语。我的意思是（以及每一个人的意思都是如此），良质这字眼不能分解成主语和述语，这不是因为良质是神秘的，而是因为良质是非常简单、迅捷而直接的感应。 “要让我们这种背景的人了解纯粹的良质，用最简洁的语言形容就是，‘良质是有机体对环境的反应（他用这种语言，因为质问他的人习惯用刺激和反应的行为理论衡量事物）’。如果你把一只阿米巴原虫放在一盘水里，然后在附近滴一滴硫酸，我想它会避开它，即使它不知道硫酸是什么。要是它能开口说话，它也会说：‘这个环境很恶劣。’如果它有神经系统，就会用非常复杂的方式去克服恶劣的环境，于是它会从过去的经验当中寻求解释，以认定目前这种环境是不适合它的，因而对环境算是了解了。 “然而在我们高等复杂的生物体对环境的反应上，我们发明了许多事物，包括天、地、树、石头、海洋、神明、音乐、艺术、语言、哲学、工程、文化和科学，我们称这些为模拟实体。而它们的确是真实的，所以我们就说服孩子相信它们是真实的。然后把不接受这套理论的人丢进疯人院里，但是让我们发明模拟实体的是良质。良质就是环境给我们不断的刺激，让我们创造所居住的世界，包括所有的一切，以及其中的一点一滴。 “如果我们想用我们所创造的世界去涵盖、去刺激我们创造的源头，这是不可能的。这就是为什么良质无法被界定，如果我们去界定，我们所界定的就无法涵盖整体的良质。”&amp;rdquo;
+  &lt;p&gt;&amp;rdquo; 他是这样回答同事的： “要想从哲学方面解释良质，是一件既对又错的事，因为这是一种哲学的解释。哲学解释的过程就是分析，把一样东西细分成主语、述语。我的意思是（以及每一个人的意思都是如此），良质这字眼不能分解成主语和述语，这不是因为良质是神秘的，而是因为良质是非常简单、迅捷而直接的感应。 “要让我们这种背景的人了解纯粹的良质，用最简洁的语言形容就是，‘良质是有机体对环境的反应（他用这种语言，因为质问他的人习惯用刺激和反应的行为理论衡量事物）’。如果你把一只阿米巴原虫放在一盘水里，然后在附近滴一滴硫酸，我想它会避开它，即使它不知道硫酸是什么。要是它能开口说话，它也会说：‘这个环境很恶劣。’如果它有神经系统，就会用非常复杂的方式去克服恶劣的环境，于是它会从过去的经验当中寻求解释，以认定目前这种环境是不适合它的，因而对环境算是了解了。 “然而在我们高等复杂的生物体对环境的反应上，我们发明了许多事物，包括天、地、树、石头、海洋、神明、音乐、艺术、语言、哲学、工程、文化和科学，我们称这些为模拟实体。而它们的确是真实的，所以我们就说服孩子相信它们是真实的。然后把不接受这套理论的人丢进疯人院里，但是让我们发明模拟实体的是良质。良质就是环境给我们不断的刺激，让我们创造所居住的世界，包括所有的一切，以及其中的一点一滴。 “如果我们想用我们所创造的世界去涵盖、去刺激我们创造的源头，这是不可能的。这就是为什么良质无法被界定，如果我们去界定，我们所界定的就无法涵盖整体的良质。”&amp;rdquo;
 (章节:20)&lt;/p&gt;
-&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;&lt;/strong&gt;
     
+      
+        
       
     
   &lt;/footer&gt;
@@ -1895,12 +1923,13 @@ console.log( bar.a ); // 输出 2
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ldquo;写不出来是一种最常碰到的情形，如果你想一下子说太多东西，往往就会这样。你要做的就是，不要强迫自己立刻写出来，因为这会使你更写不出东西。你只要先把事情一样一样地区分清楚，然后每次只写一样。如果你一面想要说什么，一面想先说什么，就太复杂了。所以要先把它们区分清楚，列出要说的事，然后再排出先后顺序。&amp;rdquo;
+  &lt;p&gt;&amp;ldquo;写不出来是一种最常碰到的情形，如果你想一下子说太多东西，往往就会这样。你要做的就是，不要强迫自己立刻写出来，因为这会使你更写不出东西。你只要先把事情一样一样地区分清楚，然后每次只写一样。如果你一面想要说什么，一面想先说什么，就太复杂了。所以要先把它们区分清楚，列出要说的事，然后再排出先后顺序。&amp;rdquo;
 (章节:24)&lt;/p&gt;
-&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;&lt;/strong&gt;
     
+      
+        
       
     
   &lt;/footer&gt;
@@ -1928,12 +1957,13 @@ console.log( bar.a ); // 输出 2
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ldquo;宗教不是由人发明的，人是由宗教发明的。而人也创造对良质的反应。由这些反应当中人进一步了解了自己。&amp;rdquo;
+  &lt;p&gt;&amp;ldquo;宗教不是由人发明的，人是由宗教发明的。而人也创造对良质的反应。由这些反应当中人进一步了解了自己。&amp;rdquo;
 (章节:28)&lt;/p&gt;
-&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;&lt;/strong&gt;
     
+      
+        
       
     
   &lt;/footer&gt;
@@ -1961,12 +1991,13 @@ console.log( bar.a ); // 输出 2
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;p&gt;&amp;ldquo;这时他才第一次明白，人们凭借辩证法了解并统治了世界，结果却得到了令人难以置信的损失。他曾经培养了自己在科学方面极高的能力，能够运用自然现象来实现自己力量和财富的梦想——但是同时，他也付出了巨大的代价：他丢掉了一种非常重要的了解，也就是了解自己身为世界的一部分，而非它的敌人。&amp;rdquo;
+  &lt;p&gt;&amp;ldquo;这时他才第一次明白，人们凭借辩证法了解并统治了世界，结果却得到了令人难以置信的损失。他曾经培养了自己在科学方面极高的能力，能够运用自然现象来实现自己力量和财富的梦想——但是同时，他也付出了巨大的代价：他丢掉了一种非常重要的了解，也就是了解自己身为世界的一部分，而非它的敌人。&amp;rdquo;
 (章节:29)&lt;/p&gt;
-&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;&lt;/strong&gt;
     
+      
+        
       
     
   &lt;/footer&gt;
@@ -2388,12 +2419,12 @@ if (document.getElementById(&#39;my-player&#39;) !== null) {
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;
-  This is a simple quote.
-&lt;/p&gt;
+  &lt;p&gt;This is a simple quote.&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;&lt;/strong&gt;
     
+      
+        
       
     
   &lt;/footer&gt;
@@ -2425,12 +2456,12 @@ if (document.getElementById(&#39;my-player&#39;) !== null) {
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;
-  This is a quote with only an Author named Author2.
-&lt;/p&gt;
+  &lt;p&gt;This is a quote with only an Author named Author2.&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;Author2&lt;/strong&gt;
     
+      
+        
       
     
   &lt;/footer&gt;
@@ -2462,9 +2493,7 @@ if (document.getElementById(&#39;my-player&#39;) !== null) {
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;
-  This is a quote from Author3 and source &#34;source.&#34;
-&lt;/p&gt;
+  &lt;p&gt;This is a quote from Author3 and source &amp;ldquo;source.&amp;rdquo;&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;Author3&lt;/strong&gt;
     
@@ -2510,9 +2539,7 @@ if (document.getElementById(&#39;my-player&#39;) !== null) {
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;
-  This is a quote from Author4 and links to https://www.google.com.
-&lt;/p&gt;
+  &lt;p&gt;This is a quote from Author4 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt;.&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;Author4&lt;/strong&gt;
     
@@ -2551,9 +2578,7 @@ if (document.getElementById(&#39;my-player&#39;) !== null) {
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;
-  This is a quote from Author5 and links to https://www.google.com with title &#34;Google.&#34;
-&lt;/p&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt; with title &amp;ldquo;Google.&amp;rdquo;&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;Author5&lt;/strong&gt;
     
@@ -2615,10 +2640,8 @@ if (document.getElementById(&#39;my-player&#39;) !== null) {
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;
-  This is a quote from Author5 and links to https://twitter.com/CryptoGangsta/status/716427930126196737 which is longer than 32 characters.
-  &lt;br&gt;And this is a new line in the quote with the HTML br tag.
-&lt;/p&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;https://twitter.com/CryptoGangsta/status/716427930126196737&lt;/a&gt; which is longer than 32 characters.
+  &lt;br&gt;And this is a new line in the quote with the HTML br tag.&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;Author6&lt;/strong&gt;
     
@@ -2682,9 +2705,7 @@ if (document.getElementById(&#39;my-player&#39;) !== null) {
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;
-  Over the past 24 hours I&#39;ve been reflecting on my life &amp; I&#39;ve realized only one thing. I need a medieval battle axe.
-&lt;/p&gt;
+  &lt;p&gt;Over the past 24 hours I&amp;rsquo;ve been reflecting on my life &amp;amp; I&amp;rsquo;ve realized only one thing. I need a medieval battle axe.&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;@allanbranch&lt;/strong&gt;
     

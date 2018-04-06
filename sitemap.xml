@@ -3,13 +3,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.xianmin.org/about/</loc>
-    <lastmod>2017-10-10T21:41:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://www.xianmin.org/post/i-am-a-bad-project-manager/</loc>
     <lastmod>2018-04-03T15:42:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -47,6 +40,13 @@
   <url>
     <loc>http://www.xianmin.org/post/vscode/</loc>
     <lastmod>2018-01-14T22:13:43+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xianmin.org/about/</loc>
+    <lastmod>2018-04-06T16:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -339,14 +339,7 @@
   
   <url>
     <loc>http://www.xianmin.org/</loc>
-    <lastmod>2017-10-10T21:41:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/</loc>
-    <lastmod>2018-02-09T22:08:10+08:00</lastmod>
+    <lastmod>2018-04-03T15:42:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -354,6 +347,13 @@
   <url>
     <loc>http://www.xianmin.org/tags/%E9%98%85%E8%AF%BB/</loc>
     <lastmod>2018-01-14T22:06:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2018-02-09T22:08:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
