@@ -90,7 +90,7 @@
 
 <meta itemprop="datePublished" content="2017-03-01T18:03:09&#43;08:00" />
 <meta itemprop="dateModified" content="2017-03-01T18:03:09&#43;08:00" />
-<meta itemprop="wordCount" content="724">
+<meta itemprop="wordCount" content="728">
 
 
 
@@ -221,7 +221,7 @@ ga('send', 'pageview');
         
           
           
-            <a class="menu-item-link" href="http://en.xianmin.org" target="_blank">
+            <a class="menu-item-link" href="http://en.xianmin.org" rel="noopener" target="_blank">
               English
             <i class="iconfont icon-new-window"></i>
             </a>
@@ -287,32 +287,38 @@ ga('send', 'pageview');
 <p>第二步，把所有需要管理的 dotfiles 复制到 <code>Dotfiles/</code> 目录中（例如 .vimrc, .zshrc 等等）。</p>
 
 <p>第三步，修改 <code>dotsyncrc</code> 这个配置文件。如下：</p>
-
-<pre><code class="language-bash"># Location of your dotfiles in $HOME
-DOTFILES=Dotfiles
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt"> 1</span><span class="lnt"> 2</span><span class="lnt"> 3</span><span class="lnt"> 4</span><span class="lnt"> 5</span><span class="lnt"> 6</span><span class="lnt"> 7</span><span class="lnt"> 8</span><span class="lnt"> 9</span><span class="lnt">10</span><span class="lnt">11</span><span class="lnt">12</span><span class="lnt">13</span><span class="lnt">14</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Location of your dotfiles in $HOME
+</span><span class="c1"></span><span class="nv">DOTFILES</span><span class="o">=</span>Dotfiles
     
-# 添加你需要链接的文件
-[files]
-dotsyncrc                       # 相当于 ln -s dotsyncrc ~/.dotsyncrc
-emacs/xm-spacemacs:.emacs.d     # 相当于 ln -s emacs/xm-spacemacs ~/.emacs.d
-emacs/spacemacs                 # 相当于 ln -s emacs/spacemacs ~/.spacemacs
-# ... 等等
-[endfiles]
+<span class="c1"># 添加你需要链接的文件
+</span><span class="c1"></span><span class="o">[</span>files<span class="o">]</span>
+dotsyncrc                       <span class="c1"># 相当于 ln -s dotsyncrc ~/.dotsyncrc
+</span><span class="c1"></span>emacs/xm-spacemacs:.emacs.d     <span class="c1"># 相当于 ln -s emacs/xm-spacemacs ~/.emacs.d
+</span><span class="c1"></span>emacs/spacemacs                 <span class="c1"># 相当于 ln -s emacs/spacemacs ~/.spacemacs
+</span><span class="c1"># ... 等等
+</span><span class="c1"></span><span class="o">[</span>endfiles<span class="o">]</span>
     
-[hosts]
-xm-pc git=ANY                   # 计算机名称
-[endhosts]
-</code></pre>
-
+<span class="o">[</span>hosts<span class="o">]</span>
+xm-pc <span class="nv">git</span><span class="o">=</span>ANY                   <span class="c1"># 计算机名称
+</span><span class="c1"></span><span class="o">[</span>endhosts<span class="o">]</span></code></pre></td></tr></table>
+</div>
+</div>
 <p>第四步，运行 dotsync 命令。</p>
-
-<pre><code class="language-bash"># 假设你把 dotsync 克隆到了家目录下
-
-~/dotsync/bin/dotsync           # 运行，会提示你选择参数
-~/dotsync/bin/dotsync -l        # 查看将要链接的文件列表
-~/dotsync/bin/dotsync -f ~/Dotfiles/dotsyncrc -L # -f 指定配置文件，-L 生成软链接
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1</span><span class="lnt">2</span><span class="lnt">3</span><span class="lnt">4</span><span class="lnt">5</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 假设你把 dotsync 克隆到了家目录下
+</span><span class="c1"></span>
+~/dotsync/bin/dotsync           <span class="c1"># 运行，会提示你选择参数
+</span><span class="c1"></span>~/dotsync/bin/dotsync -l        <span class="c1"># 查看将要链接的文件列表
+</span><span class="c1"></span>~/dotsync/bin/dotsync -f ~/Dotfiles/dotsyncrc -L # -f 指定配置文件，-L 生成软链接</code></pre></td></tr></table>
+</div>
+</div>
 <p>这个时候，你在 <code>dotsyncrc</code> 中指定的文件，都在指定位置创建了软链接。如果文件已经存在，它们都将备份到 <code>~/.backup/</code> 目录。当你编辑软链接文件的时候，实际上编辑的是 Dotfiles 目录中的源文件。</p>
 
 <p>第五步，可以使用 git 管理备份 Dotfiles 文件夹了。</p>
@@ -322,16 +328,22 @@ xm-pc git=ANY                   # 计算机名称
 <p>一个问题：怎样在命令行中直接使用 dotsync？</p>
 
 <p>我在 <code>Dotfiles/</code> 目录下创建了一个 <code>bin/</code> 目录，专门用来存放一些用户自己编写的脚本。然后把这个 bin 目录添加到 shell 的 PATH 路径，即在 .zshrc 文件中添加一行：</p>
-
-<pre><code class="language-bash">export PATH=&quot;$HOME/Dotfiles/bin:$PATH&quot;
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">/Dotfiles/bin:</span><span class="nv">$PATH</span><span class="s2">&#34;</span></code></pre></td></tr></table>
+</div>
+</div>
 <p>然后，</p>
-
-<pre><code class="language-bash">source ~/.zshrc                 # 重载 zshrc 文件
-$PATH                           # 查看 PATH
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1</span><span class="lnt">2</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">source</span> ~/.zshrc                 <span class="c1"># 重载 zshrc 文件
+</span><span class="c1"></span><span class="nv">$PATH</span>                           # 查看 PATH</code></pre></td></tr></table>
+</div>
+</div>
 <p>这样，我们就可以直接在命令行中直接使用 dotsync 这个命令了。</p>
 
 <h1 id="参考链接">参考链接</h1>
@@ -428,28 +440,28 @@ $PATH                           # 查看 PATH
 
     <footer id="footer" class="footer">
       <div class="social-links">
-      <a href="mailto:xianmin12@qq.com" rel="me" class="iconfont icon-email"
+      <a href="mailto:xianmin12@qq.com" rel="me noopener" class="iconfont icon-email"
         title="email" target="_blank">
       </a>
-      <a href="https://twitter.com/xian_min" rel="me" class="iconfont icon-twitter"
+      <a href="https://twitter.com/xian_min" rel="me noopener" class="iconfont icon-twitter"
         title="twitter" target="_blank">
       </a>
-      <a href="https://github.com/xianmin" rel="me" class="iconfont icon-github"
+      <a href="https://github.com/xianmin" rel="me noopener" class="iconfont icon-github"
         title="github" target="_blank">
       </a>
-      <a href="https://weibo.com/xianmin12" rel="me" class="iconfont icon-weibo"
+      <a href="https://weibo.com/xianmin12" rel="me noopener" class="iconfont icon-weibo"
         title="weibo" target="_blank">
       </a>
-      <a href="https://www.zhihu.com/people/xian-min" rel="me" class="iconfont icon-zhihu"
+      <a href="https://www.zhihu.com/people/xian-min" rel="me noopener" class="iconfont icon-zhihu"
         title="zhihu" target="_blank">
       </a>
-      <a href="https://www.douban.com/people/xianmin12/" rel="me" class="iconfont icon-douban"
+      <a href="https://www.douban.com/people/xianmin12/" rel="me noopener" class="iconfont icon-douban"
         title="douban" target="_blank">
       </a>
-      <a href="https://coding.net/u/xianmin" rel="me" class="iconfont icon-coding"
+      <a href="https://coding.net/u/xianmin" rel="me noopener" class="iconfont icon-coding"
         title="coding" target="_blank">
       </a>
-  <a href="http://www.xianmin.org/index.xml" type="application/rss+xml" class="iconfont icon-rss"
+  <a href="http://www.xianmin.org/index.xml" rel="noopener" type="application/rss+xml" class="iconfont icon-rss"
     title="rss" target="_blank">
   </a>
 </div>
@@ -479,11 +491,11 @@ $PATH                           # 查看 PATH
     </div>
   </div>
   
-<script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
 <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
 <script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
 
 
 

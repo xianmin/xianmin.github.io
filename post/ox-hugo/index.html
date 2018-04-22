@@ -104,7 +104,7 @@ easy-hygo : https://github.com/masasam/emacs-easy-hugo
 
 <meta itemprop="datePublished" content="2018-03-31T00:00:00&#43;08:00" />
 <meta itemprop="dateModified" content="2018-03-31T00:00:00&#43;08:00" />
-<meta itemprop="wordCount" content="1892">
+<meta itemprop="wordCount" content="2048">
 
 
 
@@ -242,7 +242,7 @@ ga('send', 'pageview');
         
           
           
-            <a class="menu-item-link" href="http://en.xianmin.org" target="_blank">
+            <a class="menu-item-link" href="http://en.xianmin.org" rel="noopener" target="_blank">
               English
             <i class="iconfont icon-new-window"></i>
             </a>
@@ -360,17 +360,20 @@ ga('send', 'pageview');
 <h2 id="创建博文">创建博文</h2>
 
 <p>正常我们使用 hugo 是怎样创建一篇新博文的呢？在命令行下，敲击命令 <code>hugo new posts/my-first-post.md</code> ，然后用自己熟悉的编辑器编辑这个文件。这个文件的头部包含我们这篇文章的一些基本信息，比如像这样：</p>
-
-<pre><code class="language-yaml">---
-title: &quot;An Example Post&quot;  #标题
-date: 2018-01-01T16:01:23+08:00 #发布时间
-lastmod: 2018-01-02T16:01:23+08:00 #修改时间
-draft: false  #是否是草稿？
-tags: [&quot;tag-1&quot;, &quot;tag-2&quot;, &quot;tag-3&quot;]  #标签
-categories: [&quot;index&quot;]  #分类
----
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="lnt">1</span><span class="lnt">2</span><span class="lnt">3</span><span class="lnt">4</span><span class="lnt">5</span><span class="lnt">6</span><span class="lnt">7</span><span class="lnt">8</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-yaml" data-lang="yaml">---<span class="w">
+</span><span class="w"></span>title<span class="p">:</span><span class="w"> </span><span class="s2">&#34;An Example Post&#34;</span><span class="w">  </span><span class="c">#标题</span><span class="w">
+</span><span class="w"></span>date<span class="p">:</span><span class="w"> </span><span class="ld">2018-01-01T16:01:23</span>+<span class="m">08</span><span class="p">:</span><span class="m">00</span><span class="w"> </span><span class="c">#发布时间</span><span class="w">
+</span><span class="w"></span>lastmod<span class="p">:</span><span class="w"> </span><span class="ld">2018-01-02T16:01:23</span>+<span class="m">08</span><span class="p">:</span><span class="m">00</span><span class="w"> </span><span class="c">#修改时间</span><span class="w">
+</span><span class="w"></span>draft<span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">  </span><span class="c">#是否是草稿？</span><span class="w">
+</span><span class="w"></span>tags<span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;tag-1&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;tag-2&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;tag-3&#34;</span><span class="p">]</span><span class="w">  </span><span class="c">#标签</span><span class="w">
+</span><span class="w"></span>categories<span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;index&#34;</span><span class="p">]</span><span class="w">  </span><span class="c">#分类</span><span class="w">
+</span><span class="w"></span>---</code></pre></td></tr></table>
+</div>
+</div>
 <p>那么，使用 <code>ox-hugo</code> 之后，是怎样表示这些基本信息的呢？</p>
 
 <p>一种是使用 orgmode 的一个标题（heading），这种方式比较适合一些随笔或者简短的文章，像这样：</p>
@@ -411,56 +414,61 @@ categories: [&quot;index&quot;]  #分类
 <h3 id="使用-org-capture-创建博文">使用 org-capture 创建博文</h3>
 
 <p>以下配置摘自 <a href="https://ox-hugo.scripter.co/doc/org-capture-setup/">官方介绍</a> ：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-elisp" data-lang="elisp"><span class="lnt"> 1</span><span class="lnt"> 2</span><span class="lnt"> 3</span><span class="lnt"> 4</span><span class="lnt"> 5</span><span class="lnt"> 6</span><span class="lnt"> 7</span><span class="lnt"> 8</span><span class="lnt"> 9</span><span class="lnt">10</span><span class="lnt">11</span><span class="lnt">12</span><span class="lnt">13</span><span class="lnt">14</span><span class="lnt">15</span><span class="lnt">16</span><span class="lnt">17</span><span class="lnt">18</span><span class="lnt">19</span><span class="lnt">20</span><span class="lnt">21</span><span class="lnt">22</span><span class="lnt">23</span><span class="lnt">24</span><span class="lnt">25</span><span class="lnt">26</span><span class="lnt">27</span><span class="lnt">28</span><span class="lnt">29</span><span class="lnt">30</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-elisp" data-lang="elisp"><span class="c1">;; org-hugo capture</span>
+<span class="p">(</span><span class="nb">with-eval-after-load</span> <span class="ss">&#39;org-capture</span>
+  <span class="p">(</span><span class="nb">defun</span> <span class="nv">org-hugo-new-subtree-post-capture-template</span> <span class="p">()</span>
+    <span class="s">&#34;Returns </span><span class="ss">`org-capture&#39;</span><span class="s"> template string for new Hugo post.
+</span><span class="s">See </span><span class="ss">`org-capture-templates&#39;</span><span class="s"> for more information.&#34;</span>
+    <span class="p">(</span><span class="nb">let*</span> <span class="p">(</span><span class="c1">;; http://www.holgerschurig.de/en/emacs-blog-from-org-to-hugo/</span>
+           <span class="p">(</span><span class="nv">date</span> <span class="p">(</span><span class="nf">format-time-string</span> <span class="p">(</span><span class="nv">org-time-stamp-format</span> <span class="nb">:long</span> <span class="nb">:inactive</span><span class="p">)</span> <span class="p">(</span><span class="nv">org-current-time</span><span class="p">)))</span>
+           <span class="p">(</span><span class="nv">title</span> <span class="p">(</span><span class="nf">read-from-minibuffer</span> <span class="s">&#34;Post Title: &#34;</span><span class="p">))</span> <span class="c1">;Prompt to enter the post title</span>
+           <span class="p">(</span><span class="nv">fname</span> <span class="p">(</span><span class="nv">org-hugo-slug</span> <span class="nv">title</span><span class="p">)))</span>
+      <span class="p">(</span><span class="nf">mapconcat</span> <span class="nf">#&#39;identity</span>
+                 <span class="o">`</span><span class="p">(</span>
+                   <span class="o">,</span><span class="p">(</span><span class="nf">concat</span> <span class="s">&#34;** TODO &#34;</span> <span class="nv">title</span> <span class="s">&#34;     :@随笔:&#34;</span><span class="p">)</span>
+                   <span class="s">&#34;:PROPERTIES:&#34;</span>
+                   <span class="o">,</span><span class="p">(</span><span class="nf">concat</span> <span class="s">&#34;:EXPORT_FILE_NAME: &#34;</span> <span class="nv">fname</span><span class="p">)</span>
+                   <span class="c1">;; ,(concat &#34;:EXPORT_DATE: &#34; date) ;Enter current date and time</span>
+                   <span class="s">&#34;:END:&#34;</span>
+                   <span class="s">&#34;%?\n&#34;</span><span class="p">)</span>          <span class="c1">;Place the cursor here finally</span>
+                 <span class="s">&#34;\n&#34;</span><span class="p">)))</span>
 
-<pre><code class="language-elisp">;; org-hugo capture
-(with-eval-after-load 'org-capture
-  (defun org-hugo-new-subtree-post-capture-template ()
-    &quot;Returns `org-capture' template string for new Hugo post.
-See `org-capture-templates' for more information.&quot;
-    (let* (;; http://www.holgerschurig.de/en/emacs-blog-from-org-to-hugo/
-           (date (format-time-string (org-time-stamp-format :long :inactive) (org-current-time)))
-           (title (read-from-minibuffer &quot;Post Title: &quot;)) ;Prompt to enter the post title
-           (fname (org-hugo-slug title)))
-      (mapconcat #'identity
-                 `(
-                   ,(concat &quot;** TODO &quot; title &quot;     :@随笔:&quot;)
-                   &quot;:PROPERTIES:&quot;
-                   ,(concat &quot;:EXPORT_FILE_NAME: &quot; fname)
-                   ;; ,(concat &quot;:EXPORT_DATE: &quot; date) ;Enter current date and time
-                   &quot;:END:&quot;
-                   &quot;%?\n&quot;)          ;Place the cursor here finally
-                 &quot;\n&quot;)))
+  <span class="p">(</span><span class="nv">add-to-list</span> <span class="ss">&#39;org-capture-templates</span>
+               <span class="o">&#39;</span><span class="p">(</span><span class="s">&#34;h&#34;</span>                <span class="c1">;`org-capture&#39; binding + h</span>
+                 <span class="s">&#34;Hugo post&#34;</span>
+                 <span class="nv">entry</span>
+                 <span class="c1">;; It is assumed that below file is present in `org-directory&#39;</span>
+                 <span class="c1">;; and that it has a &#34;Blog Ideas&#34; heading. It can even be a</span>
+                 <span class="c1">;; symlink pointing to the actual location of all-posts.org!</span>
+                 <span class="p">(</span><span class="nv">file+headline</span> <span class="s">&#34;~/Dropbox/Write/blog/orgpost/0000-posts.org&#34;</span> <span class="s">&#34;INBOX&#34;</span><span class="p">)</span>
+                 <span class="p">(</span><span class="nb">function</span> <span class="nv">org-hugo-new-subtree-post-capture-template</span><span class="p">))))</span>
 
-  (add-to-list 'org-capture-templates
-               '(&quot;h&quot;                ;`org-capture' binding + h
-                 &quot;Hugo post&quot;
-                 entry
-                 ;; It is assumed that below file is present in `org-directory'
-                 ;; and that it has a &quot;Blog Ideas&quot; heading. It can even be a
-                 ;; symlink pointing to the actual location of all-posts.org!
-                 (file+headline &quot;~/Dropbox/Write/blog/orgpost/0000-posts.org&quot; &quot;INBOX&quot;)
-                 (function org-hugo-new-subtree-post-capture-template))))
-
-(spacemacs/set-leader-keys &quot;av&quot; 'org-capture)
-
-</code></pre>
-
+<span class="p">(</span><span class="nv">spacemacs/set-leader-keys</span> <span class="s">&#34;av&#34;</span> <span class="ss">&#39;org-capture</span><span class="p">)</span></code></pre></td></tr></table>
+</div>
+</div>
 <h3 id="使用-yasnippet-创建博文">使用 YASnippet 创建博文</h3>
 
 <p>我在文末的附录中，会附上我使用的一些 snippet 模板。</p>
 
 <p>模板的用法：
 输入字母 <code>h</code> ，按下 <code>M-/</code> ，它就会自动帮你生成以下内容：</p>
-
-<pre><code class="language-nil">#+HUGO_BASE_DIR: ../
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-nil" data-lang="nil"><span class="lnt">1</span><span class="lnt">2</span><span class="lnt">3</span><span class="lnt">4</span><span class="lnt">5</span><span class="lnt">6</span><span class="lnt">7</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-nil" data-lang="nil">#+HUGO_BASE_DIR: ../
 #+TITLE:
 #+DATE:
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_TAGS:
 #+HUGO_CATEGORIES:
-#+HUGO_DRAFT: false
-</code></pre>
-
+#+HUGO_DRAFT: false</code></pre></td></tr></table>
+</div>
+</div>
 <h2 id="由-ox-hugo-生成-markdown">由 ox-hugo 生成 markdown</h2>
 
 <p>尽管说 <code>hugo</code> 原生支持渲染 orgmode 文件，但它所使用的 markdown 渲染引擎比 orgmode 的渲染引擎要强大的多，谁让 markdown 更流行呢？这是使用 <code>ox-hugo</code> 的原因之一。</p>
@@ -509,47 +517,61 @@ See `org-capture-templates' for more information.&quot;
 <p>将以下代码存储为浏览器的书签，以后获取网页的标题和链接只需要点击这个书签即可。链接的标题默认是网站的标题，也可以选中一段文字作为标题。</p>
 
 <p>orgmode 的 bookmarklet ：</p>
-
-<pre><code class="language-javascript">javascript:(function () { var selection = window.getSelection().toString(); var anchor = selection ? selection : document.title; void(prompt('', '[[' + location.href + '][' + anchor + ']]')); })();
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="lnt">1</span><span class="lnt">2</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">javascript</span><span class="o">:</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span> <span class="kd">var</span> <span class="nx">selection</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">getSelection</span><span class="p">().</span><span class="nx">toString</span><span class="p">();</span> <span class="kd">var</span> <span class="nx">anchor</span> <span class="o">=</span> <span class="nx">selection</span> <span class="o">?</span> <span class="nx">selection</span> <span class="o">:</span> <span class="nb">document</span><span class="p">.</span><span class="nx">title</span><span class="p">;</span> <span class="k">void</span><span class="p">(</span><span class="nx">prompt</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;[[&#39;</span> <span class="o">+</span> <span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">+</span> <span class="s1">&#39;][&#39;</span> <span class="o">+</span> <span class="nx">anchor</span> <span class="o">+</span> <span class="s1">&#39;]]&#39;</span><span class="p">));</span> <span class="p">})();</span>
+</code></pre></td></tr></table>
+</div>
+</div>
 <p>markdown 的 bookmarklet ：</p>
-
-<pre><code class="language-javascript">javascript:(function () { var selection = window.getSelection().toString(); var anchor = selection ? selection : document.title; void(prompt('', '[' + anchor + '](' + location.href + ')')); })();
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="lnt">1</span><span class="lnt">2</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">javascript</span><span class="o">:</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span> <span class="kd">var</span> <span class="nx">selection</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">getSelection</span><span class="p">().</span><span class="nx">toString</span><span class="p">();</span> <span class="kd">var</span> <span class="nx">anchor</span> <span class="o">=</span> <span class="nx">selection</span> <span class="o">?</span> <span class="nx">selection</span> <span class="o">:</span> <span class="nb">document</span><span class="p">.</span><span class="nx">title</span><span class="p">;</span> <span class="k">void</span><span class="p">(</span><span class="nx">prompt</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;[&#39;</span> <span class="o">+</span> <span class="nx">anchor</span> <span class="o">+</span> <span class="s1">&#39;](&#39;</span> <span class="o">+</span> <span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">+</span> <span class="s1">&#39;)&#39;</span><span class="p">));</span> <span class="p">})();</span>
+</code></pre></td></tr></table>
+</div>
+</div>
 <h2 id="附录c-我的-yasnippet-模板">附录C：我的 YASnippet 模板</h2>
 
 <h3 id="hugo-文章信息模板">hugo 文章信息模板</h3>
-
-<pre><code class="language-nil"># -*- mode: snippet -*-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-nil" data-lang="nil"><span class="lnt"> 1</span><span class="lnt"> 2</span><span class="lnt"> 3</span><span class="lnt"> 4</span><span class="lnt"> 5</span><span class="lnt"> 6</span><span class="lnt"> 7</span><span class="lnt"> 8</span><span class="lnt"> 9</span><span class="lnt">10</span><span class="lnt">11</span><span class="lnt">12</span><span class="lnt">13</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-nil" data-lang="nil"># -*- mode: snippet -*-
 # name: hugo
 # key: h
 # --
 #+HUGO_BASE_DIR: ../
 #+TITLE: $1
-#+DATE: `(format-time-string &quot;%Y-%m-%d&quot;)`
+#+DATE: `(format-time-string &#34;%Y-%m-%d&#34;)`
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_TAGS: $2
 #+HUGO_CATEGORIES: $3
 #+HUGO_DRAFT: false
 
-$0
-</code></pre>
-
+$0</code></pre></td></tr></table>
+</div>
+</div>
 <h3 id="more">more</h3>
 
 <p>我也搞不清为什么我总是记不住 <code>&lt;!--more--&gt;</code> 这个标签</p>
-
-<pre><code class="language-nil"># -*- mode: snippet -*-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-nil" data-lang="nil"><span class="lnt">1</span><span class="lnt">2</span><span class="lnt">3</span><span class="lnt">4</span><span class="lnt">5</span><span class="lnt">6</span><span class="lnt">7</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-nil" data-lang="nil"># -*- mode: snippet -*-
 # name: more
 # key: m
 # --
 &lt;!--more--&gt;
 
-$0
-</code></pre>
-
+$0</code></pre></td></tr></table>
+</div>
+</div>
 <p>有待补充&hellip;</p>
     </div>
 
@@ -642,28 +664,28 @@ $0
 
     <footer id="footer" class="footer">
       <div class="social-links">
-      <a href="mailto:xianmin12@qq.com" rel="me" class="iconfont icon-email"
+      <a href="mailto:xianmin12@qq.com" rel="me noopener" class="iconfont icon-email"
         title="email" target="_blank">
       </a>
-      <a href="https://twitter.com/xian_min" rel="me" class="iconfont icon-twitter"
+      <a href="https://twitter.com/xian_min" rel="me noopener" class="iconfont icon-twitter"
         title="twitter" target="_blank">
       </a>
-      <a href="https://github.com/xianmin" rel="me" class="iconfont icon-github"
+      <a href="https://github.com/xianmin" rel="me noopener" class="iconfont icon-github"
         title="github" target="_blank">
       </a>
-      <a href="https://weibo.com/xianmin12" rel="me" class="iconfont icon-weibo"
+      <a href="https://weibo.com/xianmin12" rel="me noopener" class="iconfont icon-weibo"
         title="weibo" target="_blank">
       </a>
-      <a href="https://www.zhihu.com/people/xian-min" rel="me" class="iconfont icon-zhihu"
+      <a href="https://www.zhihu.com/people/xian-min" rel="me noopener" class="iconfont icon-zhihu"
         title="zhihu" target="_blank">
       </a>
-      <a href="https://www.douban.com/people/xianmin12/" rel="me" class="iconfont icon-douban"
+      <a href="https://www.douban.com/people/xianmin12/" rel="me noopener" class="iconfont icon-douban"
         title="douban" target="_blank">
       </a>
-      <a href="https://coding.net/u/xianmin" rel="me" class="iconfont icon-coding"
+      <a href="https://coding.net/u/xianmin" rel="me noopener" class="iconfont icon-coding"
         title="coding" target="_blank">
       </a>
-  <a href="http://www.xianmin.org/index.xml" type="application/rss+xml" class="iconfont icon-rss"
+  <a href="http://www.xianmin.org/index.xml" rel="noopener" type="application/rss+xml" class="iconfont icon-rss"
     title="rss" target="_blank">
   </a>
 </div>
@@ -693,11 +715,11 @@ $0
     </div>
   </div>
   
-<script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
 <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
 <script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
 
 
 

@@ -108,7 +108,7 @@ git-flow 的工作流程
 
 <meta itemprop="datePublished" content="2018-03-27T15:47:00&#43;08:00" />
 <meta itemprop="dateModified" content="2018-03-27T15:47:00&#43;08:00" />
-<meta itemprop="wordCount" content="695">
+<meta itemprop="wordCount" content="696">
 
 
 
@@ -248,7 +248,7 @@ ga('send', 'pageview');
         
           
           
-            <a class="menu-item-link" href="http://en.xianmin.org" target="_blank">
+            <a class="menu-item-link" href="http://en.xianmin.org" rel="noopener" target="_blank">
               English
             <i class="iconfont icon-new-window"></i>
             </a>
@@ -361,14 +361,17 @@ ga('send', 'pageview');
 </ul>
 
 <h2 id="commit-格式规范">commit 格式规范</h2>
-
-<pre><code class="language-nil">&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-nil" data-lang="nil"><span class="lnt">1</span><span class="lnt">2</span><span class="lnt">3</span><span class="lnt">4</span><span class="lnt">5</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-nil" data-lang="nil">&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;
 // 空一行
 &lt;body&gt;
 // 空一行
-&lt;footer&gt;
-</code></pre>
-
+&lt;footer&gt;</code></pre></td></tr></table>
+</div>
+</div>
 <p><strong>第一部分为 HEADER ：</strong></p>
 
 <ul>
@@ -491,28 +494,28 @@ Body 部分是对本次 commit 的详细描述，可以分成多行。下面是�
 
     <footer id="footer" class="footer">
       <div class="social-links">
-      <a href="mailto:xianmin12@qq.com" rel="me" class="iconfont icon-email"
+      <a href="mailto:xianmin12@qq.com" rel="me noopener" class="iconfont icon-email"
         title="email" target="_blank">
       </a>
-      <a href="https://twitter.com/xian_min" rel="me" class="iconfont icon-twitter"
+      <a href="https://twitter.com/xian_min" rel="me noopener" class="iconfont icon-twitter"
         title="twitter" target="_blank">
       </a>
-      <a href="https://github.com/xianmin" rel="me" class="iconfont icon-github"
+      <a href="https://github.com/xianmin" rel="me noopener" class="iconfont icon-github"
         title="github" target="_blank">
       </a>
-      <a href="https://weibo.com/xianmin12" rel="me" class="iconfont icon-weibo"
+      <a href="https://weibo.com/xianmin12" rel="me noopener" class="iconfont icon-weibo"
         title="weibo" target="_blank">
       </a>
-      <a href="https://www.zhihu.com/people/xian-min" rel="me" class="iconfont icon-zhihu"
+      <a href="https://www.zhihu.com/people/xian-min" rel="me noopener" class="iconfont icon-zhihu"
         title="zhihu" target="_blank">
       </a>
-      <a href="https://www.douban.com/people/xianmin12/" rel="me" class="iconfont icon-douban"
+      <a href="https://www.douban.com/people/xianmin12/" rel="me noopener" class="iconfont icon-douban"
         title="douban" target="_blank">
       </a>
-      <a href="https://coding.net/u/xianmin" rel="me" class="iconfont icon-coding"
+      <a href="https://coding.net/u/xianmin" rel="me noopener" class="iconfont icon-coding"
         title="coding" target="_blank">
       </a>
-  <a href="http://www.xianmin.org/index.xml" type="application/rss+xml" class="iconfont icon-rss"
+  <a href="http://www.xianmin.org/index.xml" rel="noopener" type="application/rss+xml" class="iconfont icon-rss"
     title="rss" target="_blank">
   </a>
 </div>
@@ -542,11 +545,11 @@ Body 部分是对本次 commit 的详细描述，可以分成多行。下面是�
     </div>
   </div>
   
-<script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
 <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
 <script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
 
 
 

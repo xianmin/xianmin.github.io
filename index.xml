@@ -6,10 +6,44 @@
     <description>Recent content on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 16 Apr 2018 23:14:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 22 Apr 2018 21:11:00 +0800</lastBuildDate>
     
         <atom:link href="http://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>从丽江到重庆</title>
+      <link>http://www.xianmin.org/post/from-lijing-to-chongqing/</link>
+      <pubDate>Sun, 22 Apr 2018 21:11:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/from-lijing-to-chongqing/</guid>
+      
+        <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/other/chongqing.jpg&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;这两年最常去的一个城市——重庆，因为她在那儿。上周又去了一趟重庆，她腹痛，在医院检查出畸胎瘤&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ，需要做手术切除，我到医院陪她。我抵达医院是手术完成后的第二天，她在病床上躺着，身上插着监护仪还有导尿管，很虚弱，什么也不能吃。手术完成的很顺利，对卵巢的伤害不是很严重。在手术前，她的父亲和医院签了协议，这个手术如果进展的不顺利，有可能需要切除卵巢，算是比较幸运，这并没有发生。她当天去的医院，当天检查出畸胎瘤，当天就做了手术，一切都发生的太突然。很遗憾，我没能第一时间陪伴在她的身边。两个人身处异地，相隔 1000 公里，距离并不可怕，可怕的是当她需要我的时候，我不能及时的出现。我还记得那晚等待她父亲回复消息——关于她手术完成的情况——那4个小时的煎熬，比预计手术时间晚了2个小时，我只能茫然的盯着手机屏幕。晚上失眠，凌晨三点多醒来，一早前往机场，飞去重庆，这一次是到医院陪她。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;她腹痛的症状去年就发生过一次，那次是在丽江的医院就诊，我们当时以为是阑尾炎，结果医生也误诊成了阑尾炎，也许是因为当时我们挂的是急诊，急诊的病人较多，医生检查的不够仔细；也可能是因为我们跟医生说“她好像得了阑尾炎”误导了医生，那个疼痛的位置太接近阑尾了。不管怎样，就是误诊了。当时她只是挂了吊瓶，也还好只是挂吊瓶，她的阑尾一点问题也没有。这次复发，在重庆的医院就诊，医生让去做彩超，这才发现了问题所在。&lt;/p&gt;
+
+&lt;p&gt;她术后恢复的很好，第三天可以喝点粥，第四天可以吃些鱼汤之类的食物，第六天就出院了。这些天我都陪伴在她的身边，看着她的身体一天天的好转，从需要我搀扶着起身，到自己能够独立下床。她出院后，我继续陪伴了三天，然后返回丽江。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:fn-1&#34;&gt;&lt;a href=&#34;https://zh.wikipedia.org/zh-hans/%E7%95%B8%E8%83%8E%E7%98%A4&#34;&gt;畸胎瘤 - 维基百科，自由的百科全书&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:fn-1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+      
+    </item>
     
     <item>
       <title>浅谈“用 git submodule 还是 git subtree”？</title>
@@ -146,17 +180,20 @@
 &lt;h2 id=&#34;创建博文&#34;&gt;创建博文&lt;/h2&gt;
 
 &lt;p&gt;正常我们使用 hugo 是怎样创建一篇新博文的呢？在命令行下，敲击命令 &lt;code&gt;hugo new posts/my-first-post.md&lt;/code&gt; ，然后用自己熟悉的编辑器编辑这个文件。这个文件的头部包含我们这篇文章的一些基本信息，比如像这样：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;---
-title: &amp;quot;An Example Post&amp;quot;  #标题
-date: 2018-01-01T16:01:23+08:00 #发布时间
-lastmod: 2018-01-02T16:01:23+08:00 #修改时间
-draft: false  #是否是草稿？
-tags: [&amp;quot;tag-1&amp;quot;, &amp;quot;tag-2&amp;quot;, &amp;quot;tag-3&amp;quot;]  #标签
-categories: [&amp;quot;index&amp;quot;]  #分类
----
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;title&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;An Example Post&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#标题&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;date&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;ld&#34;&gt;2018-01-01T16:01:23&lt;/span&gt;+&lt;span class=&#34;m&#34;&gt;08&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;00&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#发布时间&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;lastmod&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;ld&#34;&gt;2018-01-02T16:01:23&lt;/span&gt;+&lt;span class=&#34;m&#34;&gt;08&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;00&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#修改时间&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;draft&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#是否是草稿？&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;tags&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;tag-1&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;tag-2&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;tag-3&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#标签&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;categories&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;index&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#分类&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;---&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;那么，使用 &lt;code&gt;ox-hugo&lt;/code&gt; 之后，是怎样表示这些基本信息的呢？&lt;/p&gt;
 
 &lt;p&gt;一种是使用 orgmode 的一个标题（heading），这种方式比较适合一些随笔或者简短的文章，像这样：&lt;/p&gt;
@@ -197,56 +234,61 @@ categories: [&amp;quot;index&amp;quot;]  #分类
 &lt;h3 id=&#34;使用-org-capture-创建博文&#34;&gt;使用 org-capture 创建博文&lt;/h3&gt;
 
 &lt;p&gt;以下配置摘自 &lt;a href=&#34;https://ox-hugo.scripter.co/doc/org-capture-setup/&#34;&gt;官方介绍&lt;/a&gt; ：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;&lt;span class=&#34;c1&#34;&gt;;; org-hugo capture&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;with-eval-after-load&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;&amp;#39;org-capture&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;org-hugo-new-subtree-post-capture-template&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+    &lt;span class=&#34;s&#34;&gt;&amp;#34;Returns &lt;/span&gt;&lt;span class=&#34;ss&#34;&gt;`org-capture&amp;#39;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt; template string for new Hugo post.
+&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;See &lt;/span&gt;&lt;span class=&#34;ss&#34;&gt;`org-capture-templates&amp;#39;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt; for more information.&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;;; http://www.holgerschurig.de/en/emacs-blog-from-org-to-hugo/&lt;/span&gt;
+           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;date&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;format-time-string&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;org-time-stamp-format&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;:long&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;:inactive&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;org-current-time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
+           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;title&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;read-from-minibuffer&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Post Title: &amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;;Prompt to enter the post title&lt;/span&gt;
+           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;fname&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;org-hugo-slug&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
+      &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;mapconcat&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;#&amp;#39;identity&lt;/span&gt;
+                 &lt;span class=&#34;o&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+                   &lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;concat&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;** TODO &amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;title&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;     :@随笔:&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+                   &lt;span class=&#34;s&#34;&gt;&amp;#34;:PROPERTIES:&amp;#34;&lt;/span&gt;
+                   &lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;concat&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;:EXPORT_FILE_NAME: &amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;fname&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+                   &lt;span class=&#34;c1&#34;&gt;;; ,(concat &amp;#34;:EXPORT_DATE: &amp;#34; date) ;Enter current date and time&lt;/span&gt;
+                   &lt;span class=&#34;s&#34;&gt;&amp;#34;:END:&amp;#34;&lt;/span&gt;
+                   &lt;span class=&#34;s&#34;&gt;&amp;#34;%?\n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;          &lt;span class=&#34;c1&#34;&gt;;Place the cursor here finally&lt;/span&gt;
+                 &lt;span class=&#34;s&#34;&gt;&amp;#34;\n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-elisp&#34;&gt;;; org-hugo capture
-(with-eval-after-load &#39;org-capture
-  (defun org-hugo-new-subtree-post-capture-template ()
-    &amp;quot;Returns `org-capture&#39; template string for new Hugo post.
-See `org-capture-templates&#39; for more information.&amp;quot;
-    (let* (;; http://www.holgerschurig.de/en/emacs-blog-from-org-to-hugo/
-           (date (format-time-string (org-time-stamp-format :long :inactive) (org-current-time)))
-           (title (read-from-minibuffer &amp;quot;Post Title: &amp;quot;)) ;Prompt to enter the post title
-           (fname (org-hugo-slug title)))
-      (mapconcat #&#39;identity
-                 `(
-                   ,(concat &amp;quot;** TODO &amp;quot; title &amp;quot;     :@随笔:&amp;quot;)
-                   &amp;quot;:PROPERTIES:&amp;quot;
-                   ,(concat &amp;quot;:EXPORT_FILE_NAME: &amp;quot; fname)
-                   ;; ,(concat &amp;quot;:EXPORT_DATE: &amp;quot; date) ;Enter current date and time
-                   &amp;quot;:END:&amp;quot;
-                   &amp;quot;%?\n&amp;quot;)          ;Place the cursor here finally
-                 &amp;quot;\n&amp;quot;)))
+  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;add-to-list&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;&amp;#39;org-capture-templates&lt;/span&gt;
+               &lt;span class=&#34;o&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;h&amp;#34;&lt;/span&gt;                &lt;span class=&#34;c1&#34;&gt;;`org-capture&amp;#39; binding + h&lt;/span&gt;
+                 &lt;span class=&#34;s&#34;&gt;&amp;#34;Hugo post&amp;#34;&lt;/span&gt;
+                 &lt;span class=&#34;nv&#34;&gt;entry&lt;/span&gt;
+                 &lt;span class=&#34;c1&#34;&gt;;; It is assumed that below file is present in `org-directory&amp;#39;&lt;/span&gt;
+                 &lt;span class=&#34;c1&#34;&gt;;; and that it has a &amp;#34;Blog Ideas&amp;#34; heading. It can even be a&lt;/span&gt;
+                 &lt;span class=&#34;c1&#34;&gt;;; symlink pointing to the actual location of all-posts.org!&lt;/span&gt;
+                 &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;file+headline&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;~/Dropbox/Write/blog/orgpost/0000-posts.org&amp;#34;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;INBOX&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+                 &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;org-hugo-new-subtree-post-capture-template&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
 
-  (add-to-list &#39;org-capture-templates
-               &#39;(&amp;quot;h&amp;quot;                ;`org-capture&#39; binding + h
-                 &amp;quot;Hugo post&amp;quot;
-                 entry
-                 ;; It is assumed that below file is present in `org-directory&#39;
-                 ;; and that it has a &amp;quot;Blog Ideas&amp;quot; heading. It can even be a
-                 ;; symlink pointing to the actual location of all-posts.org!
-                 (file+headline &amp;quot;~/Dropbox/Write/blog/orgpost/0000-posts.org&amp;quot; &amp;quot;INBOX&amp;quot;)
-                 (function org-hugo-new-subtree-post-capture-template))))
-
-(spacemacs/set-leader-keys &amp;quot;av&amp;quot; &#39;org-capture)
-
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;spacemacs/set-leader-keys&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;av&amp;#34;&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;&amp;#39;org-capture&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;使用-yasnippet-创建博文&#34;&gt;使用 YASnippet 创建博文&lt;/h3&gt;
 
 &lt;p&gt;我在文末的附录中，会附上我使用的一些 snippet 模板。&lt;/p&gt;
 
 &lt;p&gt;模板的用法：
 输入字母 &lt;code&gt;h&lt;/code&gt; ，按下 &lt;code&gt;M-/&lt;/code&gt; ，它就会自动帮你生成以下内容：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-nil&#34;&gt;#+HUGO_BASE_DIR: ../
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;#+HUGO_BASE_DIR: ../
 #+TITLE:
 #+DATE:
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_TAGS:
 #+HUGO_CATEGORIES:
-#+HUGO_DRAFT: false
-&lt;/code&gt;&lt;/pre&gt;
-
+#+HUGO_DRAFT: false&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;由-ox-hugo-生成-markdown&#34;&gt;由 ox-hugo 生成 markdown&lt;/h2&gt;
 
 &lt;p&gt;尽管说 &lt;code&gt;hugo&lt;/code&gt; 原生支持渲染 orgmode 文件，但它所使用的 markdown 渲染引擎比 orgmode 的渲染引擎要强大的多，谁让 markdown 更流行呢？这是使用 &lt;code&gt;ox-hugo&lt;/code&gt; 的原因之一。&lt;/p&gt;
@@ -295,47 +337,61 @@ See `org-capture-templates&#39; for more information.&amp;quot;
 &lt;p&gt;将以下代码存储为浏览器的书签，以后获取网页的标题和链接只需要点击这个书签即可。链接的标题默认是网站的标题，也可以选中一段文字作为标题。&lt;/p&gt;
 
 &lt;p&gt;orgmode 的 bookmarklet ：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;javascript:(function () { var selection = window.getSelection().toString(); var anchor = selection ? selection : document.title; void(prompt(&#39;&#39;, &#39;[[&#39; + location.href + &#39;][&#39; + anchor + &#39;]]&#39;)); })();
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;nx&#34;&gt;javascript&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;selection&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;getSelection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;().&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;toString&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;anchor&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;selection&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;selection&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;prompt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;[[&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;href&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;][&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;anchor&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;]]&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;})();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;markdown 的 bookmarklet ：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;javascript:(function () { var selection = window.getSelection().toString(); var anchor = selection ? selection : document.title; void(prompt(&#39;&#39;, &#39;[&#39; + anchor + &#39;](&#39; + location.href + &#39;)&#39;)); })();
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;nx&#34;&gt;javascript&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;selection&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;getSelection&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;().&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;toString&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;anchor&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;selection&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;selection&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;prompt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;[&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;anchor&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;](&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;href&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;)&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;})();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;附录c-我的-yasnippet-模板&#34;&gt;附录C：我的 YASnippet 模板&lt;/h2&gt;
 
 &lt;h3 id=&#34;hugo-文章信息模板&#34;&gt;hugo 文章信息模板&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-nil&#34;&gt;# -*- mode: snippet -*-
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;# -*- mode: snippet -*-
 # name: hugo
 # key: h
 # --
 #+HUGO_BASE_DIR: ../
 #+TITLE: $1
-#+DATE: `(format-time-string &amp;quot;%Y-%m-%d&amp;quot;)`
+#+DATE: `(format-time-string &amp;#34;%Y-%m-%d&amp;#34;)`
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_TAGS: $2
 #+HUGO_CATEGORIES: $3
 #+HUGO_DRAFT: false
 
-$0
-&lt;/code&gt;&lt;/pre&gt;
-
+$0&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;more&#34;&gt;more&lt;/h3&gt;
 
 &lt;p&gt;我也搞不清为什么我总是记不住 &lt;code&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt; 这个标签&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-nil&#34;&gt;# -*- mode: snippet -*-
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;# -*- mode: snippet -*-
 # name: more
 # key: m
 # --
 &amp;lt;!--more--&amp;gt;
 
-$0
-&lt;/code&gt;&lt;/pre&gt;
-
+$0&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;有待补充&amp;hellip;&lt;/p&gt;</description>
       
     </item>
@@ -403,14 +459,17 @@ $0
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;commit-格式规范&#34;&gt;commit 格式规范&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-nil&#34;&gt;&amp;lt;type&amp;gt;(&amp;lt;scope&amp;gt;): &amp;lt;subject&amp;gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;&amp;lt;type&amp;gt;(&amp;lt;scope&amp;gt;): &amp;lt;subject&amp;gt;
 // 空一行
 &amp;lt;body&amp;gt;
 // 空一行
-&amp;lt;footer&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
+&amp;lt;footer&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;第一部分为 HEADER ：&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -933,82 +992,103 @@ Body 部分是对本次 commit 的详细描述，可以分成多行。下面是�
 &lt;p&gt;例外，ES6 中的箭头函数会继承外层函数调用的 &lt;code&gt;this&lt;/code&gt; 绑定。（和 ES6 之前代码中的 &lt;code&gt;self = this&lt;/code&gt; 机制一样）&lt;/p&gt;
 
 &lt;h2 id=&#34;默认绑定&#34;&gt;默认绑定&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function foo() {
-  console.log( this.a );
-}
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 
-var a = 2;
-
-foo(); // 输出 2
-// 绑定到全局对象 a， 如果是严格模式，绑定到 undefined
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 输出 2
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// 绑定到全局对象 a， 如果是严格模式，绑定到 undefined
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;隐式绑定&#34;&gt;隐式绑定&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function foo() {
-  console.log( this.a );
-}
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;obj&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
 
-var obj = {
-  a: 2,
-  foo: foo
-};
-
-obj.foo(); // 输出 2
-// 由对象 obj 调用，绑定到 obj
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;span class=&#34;nx&#34;&gt;obj&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 输出 2
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// 由对象 obj 调用，绑定到 obj
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;注意-隐式绑定的丢失问题&#34;&gt;注意：隐式绑定的丢失问题&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function foo() {
-  console.log( this.a );
-}
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;obj&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
 
-var obj = {
-  a: 2,
-  foo: foo
-};
-
-var bar = obj.foo; // 注意这个引用！
-
-var a = &amp;quot;oops, global&amp;quot;; // 全局对象 a
-
-bar(); // 输出： &amp;quot;oops, global&amp;quot; 绑定丢失！
-
-setTimeout( obj.foo, 100 ); // 输出： &amp;quot;oops, global&amp;quot; 绑定丢失！
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;bar&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;obj&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 注意这个引用！
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;oops, global&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 全局对象 a
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 输出： &amp;#34;oops, global&amp;#34; 绑定丢失！
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;setTimeout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;obj&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 输出： &amp;#34;oops, global&amp;#34; 绑定丢失！
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;强制绑定-apply-call-bind&#34;&gt;强制绑定： apply, call, bind&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function foo() {
-  console.log( this.a );
-}
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;obj&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
 
-var obj = {
-  a: 2
-};
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;bar&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;call&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;obj&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 将 foo 的 this 强制绑定到对象 obj
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
 
-var bar = function() {
-  foo.call( obj ); // 将 foo 的 this 强制绑定到对象 obj
-};
-
-bar(); // 输出：2
-setTimeout( bar, 100 ); // 输出： 2
-
-// 强制绑定的对象无法被覆盖
-bar.call( window ); // 2
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;span class=&#34;nx&#34;&gt;bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 输出：2
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setTimeout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 输出： 2
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;// 强制绑定的对象无法被覆盖
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;call&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 2
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;new-绑定&#34;&gt;new 绑定&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function foo(a) {
-  this.a = a;
-}
-
-var bar = new foo( 2 ); // 使用 new 绑定到对象 bar
-console.log( bar.a ); // 输出 2
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;bar&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;foo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 使用 new 绑定到对象 bar
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;bar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 输出 2
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
       
     </item>
     
@@ -2091,32 +2171,38 @@ console.log( bar.a ); // 输出 2
 &lt;p&gt;第二步，把所有需要管理的 dotfiles 复制到 &lt;code&gt;Dotfiles/&lt;/code&gt; 目录中（例如 .vimrc, .zshrc 等等）。&lt;/p&gt;
 
 &lt;p&gt;第三步，修改 &lt;code&gt;dotsyncrc&lt;/code&gt; 这个配置文件。如下：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# Location of your dotfiles in $HOME
-DOTFILES=Dotfiles
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Location of your dotfiles in $HOME
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;DOTFILES&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Dotfiles
     
-# 添加你需要链接的文件
-[files]
-dotsyncrc                       # 相当于 ln -s dotsyncrc ~/.dotsyncrc
-emacs/xm-spacemacs:.emacs.d     # 相当于 ln -s emacs/xm-spacemacs ~/.emacs.d
-emacs/spacemacs                 # 相当于 ln -s emacs/spacemacs ~/.spacemacs
-# ... 等等
-[endfiles]
+&lt;span class=&#34;c1&#34;&gt;# 添加你需要链接的文件
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;files&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+dotsyncrc                       &lt;span class=&#34;c1&#34;&gt;# 相当于 ln -s dotsyncrc ~/.dotsyncrc
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;emacs/xm-spacemacs:.emacs.d     &lt;span class=&#34;c1&#34;&gt;# 相当于 ln -s emacs/xm-spacemacs ~/.emacs.d
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;emacs/spacemacs                 &lt;span class=&#34;c1&#34;&gt;# 相当于 ln -s emacs/spacemacs ~/.spacemacs
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# ... 等等
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;endfiles&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
     
-[hosts]
-xm-pc git=ANY                   # 计算机名称
-[endhosts]
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;hosts&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+xm-pc &lt;span class=&#34;nv&#34;&gt;git&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;ANY                   &lt;span class=&#34;c1&#34;&gt;# 计算机名称
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;endhosts&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;第四步，运行 dotsync 命令。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# 假设你把 dotsync 克隆到了家目录下
-
-~/dotsync/bin/dotsync           # 运行，会提示你选择参数
-~/dotsync/bin/dotsync -l        # 查看将要链接的文件列表
-~/dotsync/bin/dotsync -f ~/Dotfiles/dotsyncrc -L # -f 指定配置文件，-L 生成软链接
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 假设你把 dotsync 克隆到了家目录下
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+~/dotsync/bin/dotsync           &lt;span class=&#34;c1&#34;&gt;# 运行，会提示你选择参数
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;~/dotsync/bin/dotsync -l        &lt;span class=&#34;c1&#34;&gt;# 查看将要链接的文件列表
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;~/dotsync/bin/dotsync -f ~/Dotfiles/dotsyncrc -L # -f 指定配置文件，-L 生成软链接&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;这个时候，你在 &lt;code&gt;dotsyncrc&lt;/code&gt; 中指定的文件，都在指定位置创建了软链接。如果文件已经存在，它们都将备份到 &lt;code&gt;~/.backup/&lt;/code&gt; 目录。当你编辑软链接文件的时候，实际上编辑的是 Dotfiles 目录中的源文件。&lt;/p&gt;
 
 &lt;p&gt;第五步，可以使用 git 管理备份 Dotfiles 文件夹了。&lt;/p&gt;
@@ -2126,16 +2212,22 @@ xm-pc git=ANY                   # 计算机名称
 &lt;p&gt;一个问题：怎样在命令行中直接使用 dotsync？&lt;/p&gt;
 
 &lt;p&gt;我在 &lt;code&gt;Dotfiles/&lt;/code&gt; 目录下创建了一个 &lt;code&gt;bin/&lt;/code&gt; 目录，专门用来存放一些用户自己编写的脚本。然后把这个 bin 目录添加到 shell 的 PATH 路径，即在 .zshrc 文件中添加一行：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;export PATH=&amp;quot;$HOME/Dotfiles/bin:$PATH&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$HOME&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/Dotfiles/bin:&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PATH&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;然后，&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;source ~/.zshrc                 # 重载 zshrc 文件
-$PATH                           # 查看 PATH
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; ~/.zshrc                 &lt;span class=&#34;c1&#34;&gt;# 重载 zshrc 文件
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PATH&lt;/span&gt;                           # 查看 PATH&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;这样，我们就可以直接在命令行中直接使用 dotsync 这个命令了。&lt;/p&gt;
 
 &lt;h1 id=&#34;参考链接&#34;&gt;参考链接&lt;/h1&gt;
@@ -2157,773 +2249,112 @@ $PATH                           # 查看 PATH
       
       <guid>http://www.xianmin.org/post/01-syntax-highlighting/</guid>
       
-        <description>&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function helloWorld () {
-  alert(&amp;quot;Hello, World!&amp;quot;)
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class HelloWorld {
-  public static void main(String[] args) {
-    System.out.println(&amp;quot;Hello, World!&amp;quot;);
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;#include &amp;lt;stdio.h&amp;gt;
-
-/* Hello */
-int main(void){
-  printf(&amp;quot;Hello, World!&amp;quot;);
-  return 0;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;// &#39;Hello World!&#39; program 
- 
-#include &amp;lt;iostream&amp;gt;
- 
-int main(){
-  std::cout &amp;lt;&amp;lt; &amp;quot;Hello World!&amp;quot; &amp;lt;&amp;lt; std::endl;
-  return 0;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-cs&#34;&gt;using System;
-class HelloWorld{
-  public static void Main(){ 
-    System.Console.WriteLine(&amp;quot;Hello, World!&amp;quot;);
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;html&amp;gt;
-&amp;lt;body&amp;gt;
-  Hello, World!
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
-import fmt &amp;quot;fmt&amp;quot;
-
-func main() 
-{
-   fmt.Printf(&amp;quot;Hello, World!\n&amp;quot;);
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-scala&#34;&gt;object HelloWorld with Application {
-  Console.println(&amp;quot;Hello, World!&amp;quot;);
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
-  echo &#39;Hello, World!&#39;;
-?&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Hello, World!&amp;quot;) 
-&lt;/code&gt;&lt;/pre&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>主题与markdown语法测试</title>
-      <link>http://www.xianmin.org/post/00-even-theme-preview/</link>
-      <pubDate>Sun, 01 Jan 2017 18:03:09 +0800</pubDate>
-      
-      <guid>http://www.xianmin.org/post/00-even-theme-preview/</guid>
-      
-        <description>&lt;p&gt;主题与markdown语法测试。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;标题&#34;&gt;标题&lt;/h1&gt;
-
-&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
-
-&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;
-
-&lt;h3 id=&#34;h3&#34;&gt;H3&lt;/h3&gt;
-
-&lt;h4 id=&#34;h4&#34;&gt;H4&lt;/h4&gt;
-
-&lt;h5 id=&#34;h5&#34;&gt;H5&lt;/h5&gt;
-
-&lt;h6 id=&#34;h6&#34;&gt;H6&lt;/h6&gt;
-
-&lt;h2 id=&#34;段落&#34;&gt;段落&lt;/h2&gt;
-
-&lt;p&gt;使用单引号 &lt;code&gt;*&lt;/code&gt; 或者单下划线 &lt;code&gt;_&lt;/code&gt; 标记 &lt;em&gt;斜体强调&lt;/em&gt; 或者 &lt;em&gt;斜体强调&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;使用两个引号 &lt;code&gt;**&lt;/code&gt; 或者两个下划线 &lt;code&gt;__&lt;/code&gt; 标记 &lt;strong&gt;加粗强调&lt;/strong&gt; 或者 &lt;strong&gt;加粗强调&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;引号和下划线可叠加使用 → &lt;strong&gt;只是加粗 &lt;em&gt;斜体并加粗&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;使用两个波浪线 &lt;code&gt;~~&lt;/code&gt; 标记 &lt;del&gt;已删除文字&lt;/del&gt;&lt;/p&gt;
-
-&lt;p&gt;插入文字暂无 &lt;code&gt;Markdown&lt;/code&gt; 标记，直接使用 &lt;code&gt;HTML&lt;/code&gt; 标签 &lt;code&gt;&amp;lt;ins&amp;gt;&lt;/code&gt; 标记 &lt;ins&gt;插入文字&lt;/ins&gt;&lt;/p&gt;
-
-&lt;p&gt;行内代码使用反引号标记 → &lt;code&gt;print(&amp;quot;hello world&amp;quot;)&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;上标 X&lt;sup&gt;2&lt;/sup&gt; / 下标 X&lt;sub&gt;2&lt;/sub&gt;&lt;/p&gt;
-
-&lt;p&gt;按键 &lt;kbd&gt;Ctrl&lt;/kbd&gt;&lt;/p&gt;
-
-&lt;p&gt;参考资料 &lt;sup&gt;&lt;a href=&#34;#ref01&#34;&gt;&lt;a href=&#34;1&#34; title=&#34;这是一个注脚
-&#34;&gt;1&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a href=&#34;#ref02&#34;&gt;[2]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;链接&#34;&gt;链接&lt;/h2&gt;
-
-&lt;p&gt;外链 &lt;a href=&#34;http://www.google.com.com&#34;&gt;GOOGLE&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;注脚&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;列表&#34;&gt;列表&lt;/h2&gt;
-
-&lt;p&gt;以下的无序、有序和任务列表均支持二级嵌套，不建议使用二级以上嵌套。&lt;/p&gt;
-
-&lt;h3 id=&#34;无序列表&#34;&gt;无序列表&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;无序列表
-
-&lt;ul&gt;
-&lt;li&gt;嵌套的无序列表&lt;/li&gt;
-&lt;li&gt;嵌套的无序列表&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;无序列表
-
-&lt;ol&gt;
-&lt;li&gt;嵌套的有序列表&lt;/li&gt;
-&lt;li&gt;嵌套的有序列表&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;无序列表&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;有序列表&#34;&gt;有序列表&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;有序列表
-
-&lt;ol&gt;
-&lt;li&gt;嵌套的有序列表&lt;/li&gt;
-&lt;li&gt;嵌套的有序列表&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;有序列表
-
-&lt;ul&gt;
-&lt;li&gt;嵌套的无序列表&lt;/li&gt;
-&lt;li&gt;嵌套的无序列表&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;有序列表&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;任务列表&#34;&gt;任务列表&lt;/h3&gt;
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Cmd Markdown 开发
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 支持以 PDF 格式导出文稿&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 新增Todo列表功能 &lt;a href=&#34;https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments&#34;&gt;语法参考&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 改进 LaTex 功能&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 修复 LaTex 公式渲染问题&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 新增 LaTex 公式编号功能 &lt;a href=&#34;http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers&#34;&gt;语法参考&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 七月旅行准备
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 准备邮轮上需要携带的物品&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; 浏览日本免税店的物品&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; 购买蓝宝石公主号七月一日的船票&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;引用&#34;&gt;引用&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;野火烧不尽，春风吹又生。&lt;/p&gt;
-
-&lt;p&gt;&lt;cite&gt;&amp;ndash; 白居易《赋得古原草送别》&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&#34;代码&#34;&gt;代码&lt;/h2&gt;
-
-&lt;p&gt;以本站的一段 &lt;code&gt;JavaScript&lt;/code&gt; 代码做演示。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;// Initialize video.js player
-if (document.getElementById(&#39;my-player&#39;) !== null) {
-  /* eslint-disable no-undef */
-  videojs(&#39;#my-player&#39;, {
-    aspectRatio: &#39;16:9&#39;,
-    fluid: true,
-  });
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;分割线&#34;&gt;分割线&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;中间能写字的分割线，如果你修改了分割线中字的内容，请配合修改 &lt;code&gt;CSS&lt;/code&gt; 样式。&lt;/p&gt;
-
-&lt;h2 id=&#34;图片&#34;&gt;图片&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/olOwOlo/hugo-theme-even/master/images/showcase.png&#34; alt=&#34;hugo even showcase&#34; title=&#34;showcase.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;表格&#34;&gt;表格&lt;/h2&gt;
-
-&lt;p&gt;使用 &lt;code&gt;Markdown&lt;/code&gt; 画的表格，如下表👇&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Tables&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Are&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Cool&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;col 3 is&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;right-aligned&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;$1600&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;col 2 is&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;centered&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;$12&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;zebra stripes&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;are neat&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;$1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;数学公式&#34;&gt;数学公式&lt;/h2&gt;
-
-&lt;p&gt;主题使用了 &lt;a href=&#34;https://www.mathjax.org/&#34;&gt;MathJax&lt;/a&gt; 开源库来实现对数学公式的支持，使用 &lt;code&gt;$$&lt;/code&gt; 标记。&lt;/p&gt;
-
-&lt;p&gt;$$ evidence_{i}=\sum_{j}W_{ij}x_{j}+b_{i} $$&lt;/p&gt;
-
-&lt;h2 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h2&gt;
-
-&lt;h3 id=&#34;网易云音乐&#34;&gt;网易云音乐&lt;/h3&gt;
-
-&lt;p&gt;主题文章中可以轻松插入 &lt;a href=&#34;https://music.163.com/&#34;&gt;网易云音乐&lt;/a&gt; 的指定音乐，你可以根据需要将音乐设置为自动播放，在主题目录 &lt;code&gt;layouts/shortcodes&lt;/code&gt; 文件夹下的 &lt;code&gt;music.html&lt;/code&gt; 对该标签进行定义。&lt;/p&gt;
-
-  &lt;iframe style=&#34;max-width: 100%&#34;
-      class=&#34;music163&#34;
-      frameborder=&#34;no&#34;
-      border=&#34;0&#34;
-      marginwidth=&#34;0&#34;
-      marginheight=&#34;0&#34;
-      width=&#34;330&#34;
-      height=&#34;86&#34;
-      src=&#34;//music.163.com/outchain/player?type=2&amp;id=28196554&amp;auto=0&amp;height=66&#34;&gt;
-    &lt;/iframe&gt;
-
-&lt;h3 id=&#34;youtube&#34;&gt;YouTube&lt;/h3&gt;
-
-&lt;p&gt;由于不明原因可能无法播放。&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/wC5pJm8RAu4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;h3 id=&#34;blockquote&#34;&gt;blockquote&lt;/h3&gt;
-
-&lt;p&gt;Normal quote:
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is a simple quote.&lt;/p&gt;
-  &lt;footer&gt;
-    &lt;strong&gt;&lt;/strong&gt;
-    
-      
-        
-      
-    
-  &lt;/footer&gt;
-&lt;/blockquote&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Quote with author
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-
-  
-
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is a quote with only an Author named Author2.&lt;/p&gt;
-  &lt;footer&gt;
-    &lt;strong&gt;Author2&lt;/strong&gt;
-    
-      
-        
-      
-    
-  &lt;/footer&gt;
-&lt;/blockquote&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Quote with author and source
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-
-  
-
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is a quote from Author3 and source &amp;ldquo;source.&amp;rdquo;&lt;/p&gt;
-  &lt;footer&gt;
-    &lt;strong&gt;Author3&lt;/strong&gt;
-    
-      &lt;cite&gt;Source&lt;/cite&gt;
-    
-  &lt;/footer&gt;
-&lt;/blockquote&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Quote with author and link
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-
-      
-      
-      
-    
-     
-      
-    
-    
-
-    
-    
-  
-
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is a quote from Author4 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt;.&lt;/p&gt;
-  &lt;footer&gt;
-    &lt;strong&gt;Author4&lt;/strong&gt;
-    
-      
-        &lt;cite&gt;
-          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;google.com&lt;/a&gt; 
-        &lt;/cite&gt;
-      
-    
-  &lt;/footer&gt;
-&lt;/blockquote&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Quote with author, link and title
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-
-  
-
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt; with title &amp;ldquo;Google.&amp;rdquo;&lt;/p&gt;
-  &lt;footer&gt;
-    &lt;strong&gt;Author5&lt;/strong&gt;
-    
-      
-        &lt;cite&gt;
-          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;Google&lt;/a&gt; 
-        &lt;/cite&gt;
-      
-    
-  &lt;/footer&gt;
-&lt;/blockquote&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-
-      
-      
-      
-    
-     
-      
-    
-    
-
-    
-    
-         
-         
-         
-
-         
-        
-        
-        
-        
-      
-      
-    
-  
-
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;https://twitter.com/CryptoGangsta/status/716427930126196737&lt;/a&gt; which is longer than 32 characters.
-  &lt;br&gt;And this is a new line in the quote with the HTML br tag.&lt;/p&gt;
-  &lt;footer&gt;
-    &lt;strong&gt;Author6&lt;/strong&gt;
-    
-      
-        &lt;cite&gt;
-          &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34; title=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;twitter.com/CryptoGangsta/...&lt;/a&gt; 
-        &lt;/cite&gt;
-      
-    
-  &lt;/footer&gt;
-&lt;/blockquote&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Test from the Octopress blockquote page at: &lt;a href=&#34;http://octopress.org/docs/plugins/blockquote/&#34;&gt;http://octopress.org/docs/plugins/blockquote/&lt;/a&gt;
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-
-      
-      
-      
-    
-     
-      
-    
-    
-
-    
-    
-         
-         
-         
-
-         
-        
-        
-        
-        
-        
-        
-      
-      
-    
-  
-
-
-&lt;blockquote&gt;
-  &lt;p&gt;Over the past 24 hours I&amp;rsquo;ve been reflecting on my life &amp;amp; I&amp;rsquo;ve realized only one thing. I need a medieval battle axe.&lt;/p&gt;
-  &lt;footer&gt;
-    &lt;strong&gt;@allanbranch&lt;/strong&gt;
-    
-      
-        &lt;cite&gt;
-          &lt;a href=&#34;https://twitter.com/allanbranch/status/90766146063712256&#34; title=&#34;https://twitter.com/allanbranch/status/90766146063712256&#34;&gt;twitter.com/allanbranch/status/...&lt;/a&gt; 
-        &lt;/cite&gt;
-      
-    
-  &lt;/footer&gt;
-&lt;/blockquote&gt;
-&lt;/p&gt;
-
-&lt;h3 id=&#34;wikipedia-link-generator&#34;&gt;Wikipedia Link Generator&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  
-    
-  
-
-
-
-
-&lt;a href=&#34;https://en.wikipedia.org/wiki/VIC_cipher&#34;&gt;VIC_cipher&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  
-    
-  
-
-
-
-
-&lt;a href=&#34;https://fr.wikipedia.org/wiki/VIC_cipher&#34;&gt;VIC_cipher&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  
-    
-  
-
-
-
-
-&lt;a href=&#34;https://fr.wikipedia.org/wiki/VIC_cipher&#34;&gt;VIC_cipher&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  
-    
-  
-
-
-
-
-&lt;a href=&#34;https://en.wikipedia.org/wiki/VIC_cipher&#34;&gt;VIC Cipher&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  
-    
-  
-
-
-
-
-&lt;a href=&#34;https://en.wikipedia.org/wiki/VIC_cipher&#34;&gt;VIC Cipher&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;image-caption&#34;&gt;Image Caption&lt;/h3&gt;
-
-
-
-
-
-
-
-
-
-
-
-&lt;span class=&#34;caption-wrapper&#34;&gt;
-  &lt;img class=&#34;caption&#34; src=&#34;https://raw.githubusercontent.com/olOwOlo/hugo-theme-even/master/images/showcase.png&#34; title=&#34;Sample caption&#34; alt=&#34;Sample caption&#34;&gt;
-  &lt;span class=&#34;caption-text&#34;&gt;Sample caption&lt;/span&gt;
-&lt;/span&gt;
-
-
-&lt;h3 id=&#34;youku-video&#34;&gt;Youku Video&lt;/h3&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//player.youku.com/embed/XMzQ0MDQwMzM5Mg==?autoplay=0&#34;
-  style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34;
-  allowfullscreen frameborder=&#34;0&#34; title=&#34;YouKu Video&#34;&gt;&lt;/iframe&gt;
+        <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;helloWorld&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;alert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;HelloWorld&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[]&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;args&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;out&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+  &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;/* Hello */&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;printf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// &amp;#39;Hello World!&amp;#39; program 
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt; 
+&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt; 
+&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; 
+&lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 
+&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;sa&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;endl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;HelloWorld&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt; 
+    &lt;span class=&#34;nc&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;Console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;WriteLine&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  Hello, World!
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;main&lt;/span&gt;
+&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;
 
-
-&lt;h2 id=&#34;参考资料&#34;&gt;参考资料&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a id=&#34;ref01&#34;&gt;&lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34;&gt;Markdown Cheatsheet&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a id=&#34;ref02&#34;&gt;&lt;a href=&#34;https://www.zybuluo.com/EncyKe/note/120103&#34;&gt;Markdown 语法手册&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;这是一个注脚
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; 
+&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+   &lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Printf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello, World!\n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-scala&#34; data-lang=&#34;scala&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-scala&#34; data-lang=&#34;scala&#34;&gt;&lt;span class=&#34;k&#34;&gt;object&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;HelloWorld&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;with&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;Application&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nc&#34;&gt;Console&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;?php&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Hello, World!&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;cp&#34;&gt;?&amp;gt;&lt;/span&gt;&lt;span class=&#34;x&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;x&#34;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;k&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
 &lt;/div&gt;</description>
       
     </item>

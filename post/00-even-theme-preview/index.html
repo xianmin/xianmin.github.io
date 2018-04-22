@@ -90,7 +90,7 @@
 
 <meta itemprop="datePublished" content="2017-01-01T18:03:09&#43;08:00" />
 <meta itemprop="dateModified" content="2017-01-01T18:03:09&#43;08:00" />
-<meta itemprop="wordCount" content="872">
+<meta itemprop="wordCount" content="873">
 
 
 
@@ -221,7 +221,7 @@ ga('send', 'pageview');
         
           
           
-            <a class="menu-item-link" href="http://en.xianmin.org" target="_blank">
+            <a class="menu-item-link" href="http://en.xianmin.org" rel="noopener" target="_blank">
               English
             <i class="iconfont icon-new-window"></i>
             </a>
@@ -428,17 +428,21 @@ ga('send', 'pageview');
 <h2 id="代码">代码</h2>
 
 <p>以本站的一段 <code>JavaScript</code> 代码做演示。</p>
-
-<pre><code class="language-javascript">// Initialize video.js player
-if (document.getElementById('my-player') !== null) {
-  /* eslint-disable no-undef */
-  videojs('#my-player', {
-    aspectRatio: '16:9',
-    fluid: true,
-  });
-}
-</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="lnt">1</span><span class="lnt">2</span><span class="lnt">3</span><span class="lnt">4</span><span class="lnt">5</span><span class="lnt">6</span><span class="lnt">7</span><span class="lnt">8</span><span class="lnt">9</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c1">// Initialize video.js player
+</span><span class="c1"></span><span class="k">if</span> <span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;my-player&#39;</span><span class="p">)</span> <span class="o">!==</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+  <span class="cm">/* eslint-disable no-undef */</span>
+  <span class="nx">videojs</span><span class="p">(</span><span class="s1">&#39;#my-player&#39;</span><span class="p">,</span> <span class="p">{</span>
+    <span class="nx">aspectRatio</span><span class="o">:</span> <span class="s1">&#39;16:9&#39;</span><span class="p">,</span>
+    <span class="nx">fluid</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+  <span class="p">});</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
 <h2 id="分割线">分割线</h2>
 
 <hr />
@@ -1073,28 +1077,28 @@ if (document.getElementById('my-player') !== null) {
 
     <footer id="footer" class="footer">
       <div class="social-links">
-      <a href="mailto:xianmin12@qq.com" rel="me" class="iconfont icon-email"
+      <a href="mailto:xianmin12@qq.com" rel="me noopener" class="iconfont icon-email"
         title="email" target="_blank">
       </a>
-      <a href="https://twitter.com/xian_min" rel="me" class="iconfont icon-twitter"
+      <a href="https://twitter.com/xian_min" rel="me noopener" class="iconfont icon-twitter"
         title="twitter" target="_blank">
       </a>
-      <a href="https://github.com/xianmin" rel="me" class="iconfont icon-github"
+      <a href="https://github.com/xianmin" rel="me noopener" class="iconfont icon-github"
         title="github" target="_blank">
       </a>
-      <a href="https://weibo.com/xianmin12" rel="me" class="iconfont icon-weibo"
+      <a href="https://weibo.com/xianmin12" rel="me noopener" class="iconfont icon-weibo"
         title="weibo" target="_blank">
       </a>
-      <a href="https://www.zhihu.com/people/xian-min" rel="me" class="iconfont icon-zhihu"
+      <a href="https://www.zhihu.com/people/xian-min" rel="me noopener" class="iconfont icon-zhihu"
         title="zhihu" target="_blank">
       </a>
-      <a href="https://www.douban.com/people/xianmin12/" rel="me" class="iconfont icon-douban"
+      <a href="https://www.douban.com/people/xianmin12/" rel="me noopener" class="iconfont icon-douban"
         title="douban" target="_blank">
       </a>
-      <a href="https://coding.net/u/xianmin" rel="me" class="iconfont icon-coding"
+      <a href="https://coding.net/u/xianmin" rel="me noopener" class="iconfont icon-coding"
         title="coding" target="_blank">
       </a>
-  <a href="http://www.xianmin.org/index.xml" type="application/rss+xml" class="iconfont icon-rss"
+  <a href="http://www.xianmin.org/index.xml" rel="noopener" type="application/rss+xml" class="iconfont icon-rss"
     title="rss" target="_blank">
   </a>
 </div>
@@ -1124,7 +1128,6 @@ if (document.getElementById('my-player') !== null) {
     </div>
   </div>
   
-<script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
 <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
@@ -1136,6 +1139,7 @@ if (document.getElementById('my-player') !== null) {
     };
   </script>
   <script async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+
 
 
 

@@ -105,7 +105,7 @@ JS 中 this 关键字详解 - JSer - SegmentFault
 
 <meta itemprop="datePublished" content="2017-11-14T14:39:00&#43;08:00" />
 <meta itemprop="dateModified" content="2017-11-14T14:39:00&#43;08:00" />
-<meta itemprop="wordCount" content="604">
+<meta itemprop="wordCount" content="609">
 
 
 
@@ -243,7 +243,7 @@ ga('send', 'pageview');
         
           
           
-            <a class="menu-item-link" href="http://en.xianmin.org" target="_blank">
+            <a class="menu-item-link" href="http://en.xianmin.org" rel="noopener" target="_blank">
               English
             <i class="iconfont icon-new-window"></i>
             </a>
@@ -324,82 +324,103 @@ ga('send', 'pageview');
 <p>例外，ES6 中的箭头函数会继承外层函数调用的 <code>this</code> 绑定。（和 ES6 之前代码中的 <code>self = this</code> 机制一样）</p>
 
 <h2 id="默认绑定">默认绑定</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="lnt">1</span><span class="lnt">2</span><span class="lnt">3</span><span class="lnt">4</span><span class="lnt">5</span><span class="lnt">6</span><span class="lnt">7</span><span class="lnt">8</span><span class="lnt">9</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">foo</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="k">this</span><span class="p">.</span><span class="nx">a</span> <span class="p">);</span>
+<span class="p">}</span>
 
-<pre><code class="language-javascript">function foo() {
-  console.log( this.a );
-}
+<span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
 
-var a = 2;
-
-foo(); // 输出 2
-// 绑定到全局对象 a， 如果是严格模式，绑定到 undefined
-</code></pre>
-
+<span class="nx">foo</span><span class="p">();</span> <span class="c1">// 输出 2
+</span><span class="c1">// 绑定到全局对象 a， 如果是严格模式，绑定到 undefined
+</span><span class="c1"></span></code></pre></td></tr></table>
+</div>
+</div>
 <h2 id="隐式绑定">隐式绑定</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="lnt"> 1</span><span class="lnt"> 2</span><span class="lnt"> 3</span><span class="lnt"> 4</span><span class="lnt"> 5</span><span class="lnt"> 6</span><span class="lnt"> 7</span><span class="lnt"> 8</span><span class="lnt"> 9</span><span class="lnt">10</span><span class="lnt">11</span><span class="lnt">12</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">foo</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="k">this</span><span class="p">.</span><span class="nx">a</span> <span class="p">);</span>
+<span class="p">}</span>
 
-<pre><code class="language-javascript">function foo() {
-  console.log( this.a );
-}
+<span class="kd">var</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="nx">a</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span>
+  <span class="nx">foo</span><span class="o">:</span> <span class="nx">foo</span>
+<span class="p">};</span>
 
-var obj = {
-  a: 2,
-  foo: foo
-};
-
-obj.foo(); // 输出 2
-// 由对象 obj 调用，绑定到 obj
-</code></pre>
-
+<span class="nx">obj</span><span class="p">.</span><span class="nx">foo</span><span class="p">();</span> <span class="c1">// 输出 2
+</span><span class="c1">// 由对象 obj 调用，绑定到 obj
+</span><span class="c1"></span></code></pre></td></tr></table>
+</div>
+</div>
 <h2 id="注意-隐式绑定的丢失问题">注意：隐式绑定的丢失问题</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="lnt"> 1</span><span class="lnt"> 2</span><span class="lnt"> 3</span><span class="lnt"> 4</span><span class="lnt"> 5</span><span class="lnt"> 6</span><span class="lnt"> 7</span><span class="lnt"> 8</span><span class="lnt"> 9</span><span class="lnt">10</span><span class="lnt">11</span><span class="lnt">12</span><span class="lnt">13</span><span class="lnt">14</span><span class="lnt">15</span><span class="lnt">16</span><span class="lnt">17</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">function</span> <span class="nx">foo</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="k">this</span><span class="p">.</span><span class="nx">a</span> <span class="p">);</span>
+<span class="p">}</span>
 
-<pre><code class="language-js">function foo() {
-  console.log( this.a );
-}
+<span class="kd">var</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="nx">a</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span>
+  <span class="nx">foo</span><span class="o">:</span> <span class="nx">foo</span>
+<span class="p">};</span>
 
-var obj = {
-  a: 2,
-  foo: foo
-};
-
-var bar = obj.foo; // 注意这个引用！
-
-var a = &quot;oops, global&quot;; // 全局对象 a
-
-bar(); // 输出： &quot;oops, global&quot; 绑定丢失！
-
-setTimeout( obj.foo, 100 ); // 输出： &quot;oops, global&quot; 绑定丢失！
-</code></pre>
-
+<span class="kd">var</span> <span class="nx">bar</span> <span class="o">=</span> <span class="nx">obj</span><span class="p">.</span><span class="nx">foo</span><span class="p">;</span> <span class="c1">// 注意这个引用！
+</span><span class="c1"></span>
+<span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="s2">&#34;oops, global&#34;</span><span class="p">;</span> <span class="c1">// 全局对象 a
+</span><span class="c1"></span>
+<span class="nx">bar</span><span class="p">();</span> <span class="c1">// 输出： &#34;oops, global&#34; 绑定丢失！
+</span><span class="c1"></span>
+<span class="nx">setTimeout</span><span class="p">(</span> <span class="nx">obj</span><span class="p">.</span><span class="nx">foo</span><span class="p">,</span> <span class="mi">100</span> <span class="p">);</span> <span class="c1">// 输出： &#34;oops, global&#34; 绑定丢失！
+</span><span class="c1"></span></code></pre></td></tr></table>
+</div>
+</div>
 <h2 id="强制绑定-apply-call-bind">强制绑定： apply, call, bind</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="lnt"> 1</span><span class="lnt"> 2</span><span class="lnt"> 3</span><span class="lnt"> 4</span><span class="lnt"> 5</span><span class="lnt"> 6</span><span class="lnt"> 7</span><span class="lnt"> 8</span><span class="lnt"> 9</span><span class="lnt">10</span><span class="lnt">11</span><span class="lnt">12</span><span class="lnt">13</span><span class="lnt">14</span><span class="lnt">15</span><span class="lnt">16</span><span class="lnt">17</span><span class="lnt">18</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">function</span> <span class="nx">foo</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="k">this</span><span class="p">.</span><span class="nx">a</span> <span class="p">);</span>
+<span class="p">}</span>
 
-<pre><code class="language-js">function foo() {
-  console.log( this.a );
-}
+<span class="kd">var</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="nx">a</span><span class="o">:</span> <span class="mi">2</span>
+<span class="p">};</span>
 
-var obj = {
-  a: 2
-};
+<span class="kd">var</span> <span class="nx">bar</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nx">foo</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span> <span class="nx">obj</span> <span class="p">);</span> <span class="c1">// 将 foo 的 this 强制绑定到对象 obj
+</span><span class="c1"></span><span class="p">};</span>
 
-var bar = function() {
-  foo.call( obj ); // 将 foo 的 this 强制绑定到对象 obj
-};
-
-bar(); // 输出：2
-setTimeout( bar, 100 ); // 输出： 2
-
-// 强制绑定的对象无法被覆盖
-bar.call( window ); // 2
-</code></pre>
-
+<span class="nx">bar</span><span class="p">();</span> <span class="c1">// 输出：2
+</span><span class="c1"></span><span class="nx">setTimeout</span><span class="p">(</span> <span class="nx">bar</span><span class="p">,</span> <span class="mi">100</span> <span class="p">);</span> <span class="c1">// 输出： 2
+</span><span class="c1"></span>
+<span class="c1">// 强制绑定的对象无法被覆盖
+</span><span class="c1"></span><span class="nx">bar</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span> <span class="nb">window</span> <span class="p">);</span> <span class="c1">// 2
+</span><span class="c1"></span></code></pre></td></tr></table>
+</div>
+</div>
 <h2 id="new-绑定">new 绑定</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="lnt">1</span><span class="lnt">2</span><span class="lnt">3</span><span class="lnt">4</span><span class="lnt">5</span><span class="lnt">6</span><span class="lnt">7</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">function</span> <span class="nx">foo</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">a</span> <span class="o">=</span> <span class="nx">a</span><span class="p">;</span>
+<span class="p">}</span>
 
-<pre><code class="language-js">function foo(a) {
-  this.a = a;
-}
-
-var bar = new foo( 2 ); // 使用 new 绑定到对象 bar
-console.log( bar.a ); // 输出 2
-</code></pre>
+<span class="kd">var</span> <span class="nx">bar</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">foo</span><span class="p">(</span> <span class="mi">2</span> <span class="p">);</span> <span class="c1">// 使用 new 绑定到对象 bar
+</span><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">bar</span><span class="p">.</span><span class="nx">a</span> <span class="p">);</span> <span class="c1">// 输出 2
+</span><span class="c1"></span></code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
     
@@ -479,28 +500,28 @@ console.log( bar.a ); // 输出 2
 
     <footer id="footer" class="footer">
       <div class="social-links">
-      <a href="mailto:xianmin12@qq.com" rel="me" class="iconfont icon-email"
+      <a href="mailto:xianmin12@qq.com" rel="me noopener" class="iconfont icon-email"
         title="email" target="_blank">
       </a>
-      <a href="https://twitter.com/xian_min" rel="me" class="iconfont icon-twitter"
+      <a href="https://twitter.com/xian_min" rel="me noopener" class="iconfont icon-twitter"
         title="twitter" target="_blank">
       </a>
-      <a href="https://github.com/xianmin" rel="me" class="iconfont icon-github"
+      <a href="https://github.com/xianmin" rel="me noopener" class="iconfont icon-github"
         title="github" target="_blank">
       </a>
-      <a href="https://weibo.com/xianmin12" rel="me" class="iconfont icon-weibo"
+      <a href="https://weibo.com/xianmin12" rel="me noopener" class="iconfont icon-weibo"
         title="weibo" target="_blank">
       </a>
-      <a href="https://www.zhihu.com/people/xian-min" rel="me" class="iconfont icon-zhihu"
+      <a href="https://www.zhihu.com/people/xian-min" rel="me noopener" class="iconfont icon-zhihu"
         title="zhihu" target="_blank">
       </a>
-      <a href="https://www.douban.com/people/xianmin12/" rel="me" class="iconfont icon-douban"
+      <a href="https://www.douban.com/people/xianmin12/" rel="me noopener" class="iconfont icon-douban"
         title="douban" target="_blank">
       </a>
-      <a href="https://coding.net/u/xianmin" rel="me" class="iconfont icon-coding"
+      <a href="https://coding.net/u/xianmin" rel="me noopener" class="iconfont icon-coding"
         title="coding" target="_blank">
       </a>
-  <a href="http://www.xianmin.org/index.xml" type="application/rss+xml" class="iconfont icon-rss"
+  <a href="http://www.xianmin.org/index.xml" rel="noopener" type="application/rss+xml" class="iconfont icon-rss"
     title="rss" target="_blank">
   </a>
 </div>
@@ -530,11 +551,11 @@ console.log( bar.a ); // 输出 2
     </div>
   </div>
   
-<script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
 <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
 <script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
 
 
 
