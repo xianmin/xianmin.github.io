@@ -6,10 +6,67 @@
     <description>Recent content on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 27 Apr 2018 20:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Apr 2018 21:52:00 +0800</lastBuildDate>
     
         <atom:link href="http://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>怒江行记（二）——第一次走出国门</title>
+      <link>http://www.xianmin.org/post/nujiang-01/</link>
+      <pubDate>Fri, 27 Apr 2018 21:52:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/nujiang-01/</guid>
+      
+        <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/nujiang/01/00.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;驶入怒江州&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;没有想到我的第一次出国会以这样的方式。没有护照，没有边境通行证，就这样走出中缅边境的国门散了个步。对面就是缅甸的国门，但是我们无法过去。远处是缅甸的村庄，难免会产生好奇，国门那边的人生活是怎样的呢？他们是否会中文？他们使用的生活用品是 &amp;ldquo;made in china&amp;rdquo; 吗？没机会接触。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;从六库到片马口岸，看似不远，实则都是弯弯曲曲的盘山公路。翻过片马风雪垭口，一路下坡，一天就仿佛经历了四季。沿路都属于高黎贡自然保护区，奇怪的大树，美丽的山谷尽收眼底。鲜少有村庄，片马也就是一个偏远的小镇，有两个纪念馆，一个是驼峰航线纪念馆，还有一个是抗英纪念馆。估计是有一段时间没有上级领导前来参观了，我们参观的时候环境卫生比较一般。片马小镇的主街上有不少宾馆，随便找了一家便宜的住了一宿。&lt;/p&gt;
+
+&lt;p&gt;晚上喝酒，喝多了，躺下就睡着。住的是标间，只有两张床，我主动打地铺睡在地上。我有好一阵子没有出远门了，重新踏上旅途，一切那么的陌生，可那种自由自在的感觉又那么的熟悉。总会有这样的错觉，旅途中所遇到的人啊，这些生活在边境上的人啊，好像是远离了繁华，远离了喧嚣，远离了斗争，生活简单而规律，而我呢，只是一个过客罢了。&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/nujiang/01/02.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;天空开了一道口子&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/nujiang/01/01.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;缅甸国门&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;</description>
+      
+    </item>
     
     <item>
       <title>怒江行记（一）</title>
@@ -2431,121 +2488,6 @@ Body 部分是对本次 commit 的详细描述，可以分成多行。下面是�
 &lt;p&gt;写作的核心，是你所要表达的内容。使用什么工具、发布在哪个平台、用什么样的格式，都是次要的。只要想表达的内容完整了、准确了，读者看的明白，那么就算完成了写作的首要目标：把内容写出来，并给读者看。即便其中有多个方面不够完美，那些也是可以慢慢改良，不必纠结在选择上。&lt;/p&gt;
 
 &lt;p&gt;很多时候可选择的太多，反倒把写作自身的重点给忘了。比如我想要搭建一个个人网站，网站生成是用 hugo 还是 hexo？写作软件是用 emacs 还是 typora？标记语言是用 markdown 还是 orgmode？诸如此类。最后，一篇文章也没有写出来。这完全背离了写作的初衷。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Linux 下，使用 Git 管理 dotfiles（配置文件）</title>
-      <link>http://www.xianmin.org/post/02-manage-dotfiles/</link>
-      <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
-      
-      <guid>http://www.xianmin.org/post/02-manage-dotfiles/</guid>
-      
-        <description>&lt;p&gt;作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code&gt;.&lt;/code&gt; 开头，管它们叫 &lt;code&gt;dotfiles&lt;/code&gt; 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;一个简单的方法是：将所有配置文件统一丢进一个文件夹，用 git 进行管理，用 &lt;code&gt;ln -s&lt;/code&gt; 链接到原来的位置（比如家目录下）。&lt;/p&gt;
-
-&lt;p&gt;我在这里推荐一个命令行脚本——&lt;a href=&#34;https://github.com/dotphiles/dotsync&#34;&gt;dotsync&lt;/a&gt; ，它可以将上面的方法更加简化，并且在不同机器上进行同步。&lt;/p&gt;
-
-&lt;h1 id=&#34;dotsync-的使用步骤&#34;&gt;dotsync 的使用步骤&lt;/h1&gt;
-
-&lt;p&gt;第一步，将 dotsync 克隆下来，在家目录下创建一个 &lt;code&gt;Dotfiles&lt;/code&gt; 文件夹（名称任意），把 dotsync 中的配置模板 &lt;code&gt;dotsyncrc&lt;/code&gt; 文件复制进去。&lt;/p&gt;
-
-&lt;p&gt;第二步，把所有需要管理的 dotfiles 复制到 &lt;code&gt;Dotfiles/&lt;/code&gt; 目录中（例如 .vimrc, .zshrc 等等）。&lt;/p&gt;
-
-&lt;p&gt;第三步，修改 &lt;code&gt;dotsyncrc&lt;/code&gt; 这个配置文件。如下：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Location of your dotfiles in $HOME
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;DOTFILES&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Dotfiles
-    
-&lt;span class=&#34;c1&#34;&gt;# 添加你需要链接的文件
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;files&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
-dotsyncrc                       &lt;span class=&#34;c1&#34;&gt;# 相当于 ln -s dotsyncrc ~/.dotsyncrc
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;emacs/xm-spacemacs:.emacs.d     &lt;span class=&#34;c1&#34;&gt;# 相当于 ln -s emacs/xm-spacemacs ~/.emacs.d
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;emacs/spacemacs                 &lt;span class=&#34;c1&#34;&gt;# 相当于 ln -s emacs/spacemacs ~/.spacemacs
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# ... 等等
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;endfiles&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
-    
-&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;hosts&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
-xm-pc &lt;span class=&#34;nv&#34;&gt;git&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;ANY                   &lt;span class=&#34;c1&#34;&gt;# 计算机名称
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;endhosts&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;第四步，运行 dotsync 命令。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 假设你把 dotsync 克隆到了家目录下
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
-~/dotsync/bin/dotsync           &lt;span class=&#34;c1&#34;&gt;# 运行，会提示你选择参数
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;~/dotsync/bin/dotsync -l        &lt;span class=&#34;c1&#34;&gt;# 查看将要链接的文件列表
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;~/dotsync/bin/dotsync -f ~/Dotfiles/dotsyncrc -L # -f 指定配置文件，-L 生成软链接&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;这个时候，你在 &lt;code&gt;dotsyncrc&lt;/code&gt; 中指定的文件，都在指定位置创建了软链接。如果文件已经存在，它们都将备份到 &lt;code&gt;~/.backup/&lt;/code&gt; 目录。当你编辑软链接文件的时候，实际上编辑的是 Dotfiles 目录中的源文件。&lt;/p&gt;
-
-&lt;p&gt;第五步，可以使用 git 管理备份 Dotfiles 文件夹了。&lt;/p&gt;
-
-&lt;h1 id=&#34;将-dotsync-添加到-shell-的-path-路径&#34;&gt;将 dotsync 添加到 Shell 的 PATH 路径&lt;/h1&gt;
-
-&lt;p&gt;一个问题：怎样在命令行中直接使用 dotsync？&lt;/p&gt;
-
-&lt;p&gt;我在 &lt;code&gt;Dotfiles/&lt;/code&gt; 目录下创建了一个 &lt;code&gt;bin/&lt;/code&gt; 目录，专门用来存放一些用户自己编写的脚本。然后把这个 bin 目录添加到 shell 的 PATH 路径，即在 .zshrc 文件中添加一行：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$HOME&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/Dotfiles/bin:&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PATH&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;然后，&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; ~/.zshrc                 &lt;span class=&#34;c1&#34;&gt;# 重载 zshrc 文件
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PATH&lt;/span&gt;                           # 查看 PATH&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;这样，我们就可以直接在命令行中直接使用 dotsync 这个命令了。&lt;/p&gt;
-
-&lt;h1 id=&#34;参考链接&#34;&gt;参考链接&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/dotphiles/dotphiles&#34;&gt;dotphiles/dotphiles: A community driven framework of dotfiles.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://notes.11ten.net/use-dotfiles.html&#34;&gt;Dotfiles 备份与同步配置文件&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.coderzh.com/2016/03/19/dotfiles/&#34;&gt;懒程序员和他的 dotfiles - CoderZh Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jcouyang/dotfiles&#34;&gt;jcouyang/dotfiles: Jichao Ouyang&amp;rsquo;s awesome dotfiles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dotfiles.github.io/&#34;&gt;GitHub does dotfiles - dotfiles.github.io&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
       
     </item>
     

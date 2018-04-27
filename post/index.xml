@@ -6,10 +6,34 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 27 Apr 2018 20:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Apr 2018 21:52:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>怒江行记（二）——第一次走出国门</title>
+      <link>http://www.xianmin.org/post/nujiang-01/</link>
+      <pubDate>Fri, 27 Apr 2018 21:52:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/nujiang-01/</guid>
+      <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/nujiang/01/00.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;驶入怒江州&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;没有想到我的第一次出国会以这样的方式。没有护照，没有边境通行证，就这样走出中缅边境的国门散了个步。对面就是缅甸的国门，但是我们无法过去。远处是缅甸的村庄，难免会产生好奇，国门那边的人生活是怎样的呢？他们是否会中文？他们使用的生活用品是 &amp;ldquo;made in china&amp;rdquo; 吗？没机会接触。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>怒江行记（一）</title>
@@ -310,29 +334,6 @@
       <guid>http://www.xianmin.org/post/02-manage-dotfiles/</guid>
       <description>&lt;p&gt;作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code&gt;.&lt;/code&gt; 开头，管它们叫 &lt;code&gt;dotfiles&lt;/code&gt; 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>代码高亮测试</title>
-      <link>http://www.xianmin.org/post/01-syntax-highlighting/</link>
-      <pubDate>Wed, 01 Feb 2017 16:01:23 +0800</pubDate>
-      
-      <guid>http://www.xianmin.org/post/01-syntax-highlighting/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;helloWorld&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;alert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
