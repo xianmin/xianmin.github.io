@@ -36,19 +36,20 @@
 
 
 
-<meta name="generator" content="Hugo 0.37.1" />
+<meta name="generator" content="Hugo 0.40.1" />
 
 
 <link rel="canonical" href="http://www.xianmin.org/post/02-manage-dotfiles/" />
 
 
 
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="icon" href="/favicon.ico" />
-<link rel="manifest" href="/manifest.json">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
 
 
 
@@ -90,7 +91,7 @@
 
 <meta itemprop="datePublished" content="2017-03-01T18:03:09&#43;08:00" />
 <meta itemprop="dateModified" content="2017-03-01T18:03:09&#43;08:00" />
-<meta itemprop="wordCount" content="728">
+<meta itemprop="wordCount" content="0">
 
 
 
@@ -289,7 +290,21 @@ ga('send', 'pageview');
 <p>第三步，修改 <code>dotsyncrc</code> 这个配置文件。如下：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt"> 1</span><span class="lnt"> 2</span><span class="lnt"> 3</span><span class="lnt"> 4</span><span class="lnt"> 5</span><span class="lnt"> 6</span><span class="lnt"> 7</span><span class="lnt"> 8</span><span class="lnt"> 9</span><span class="lnt">10</span><span class="lnt">11</span><span class="lnt">12</span><span class="lnt">13</span><span class="lnt">14</span></code></pre></td>
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Location of your dotfiles in $HOME
 </span><span class="c1"></span><span class="nv">DOTFILES</span><span class="o">=</span>Dotfiles
@@ -310,7 +325,12 @@ xm-pc <span class="nv">git</span><span class="o">=</span>ANY                   <
 <p>第四步，运行 dotsync 命令。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1</span><span class="lnt">2</span><span class="lnt">3</span><span class="lnt">4</span><span class="lnt">5</span></code></pre></td>
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 假设你把 dotsync 克隆到了家目录下
 </span><span class="c1"></span>
@@ -330,7 +350,8 @@ xm-pc <span class="nv">git</span><span class="o">=</span>ANY                   <
 <p>我在 <code>Dotfiles/</code> 目录下创建了一个 <code>bin/</code> 目录，专门用来存放一些用户自己编写的脚本。然后把这个 bin 目录添加到 shell 的 PATH 路径，即在 .zshrc 文件中添加一行：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1</span></code></pre></td>
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">/Dotfiles/bin:</span><span class="nv">$PATH</span><span class="s2">&#34;</span></code></pre></td></tr></table>
 </div>
@@ -338,7 +359,9 @@ xm-pc <span class="nv">git</span><span class="o">=</span>ANY                   <
 <p>然后，</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1</span><span class="lnt">2</span></code></pre></td>
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">source</span> ~/.zshrc                 <span class="c1"># 重载 zshrc 文件
 </span><span class="c1"></span><span class="nv">$PATH</span>                           # 查看 PATH</code></pre></td></tr></table>

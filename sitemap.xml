@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.xianmin.org/post/nujiang-00/</loc>
+    <lastmod>2018-04-27T20:56:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/post/from-lijing-to-chongqing/</loc>
     <lastmod>2018-04-22T21:21:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -241,7 +248,7 @@
   
   <url>
     <loc>http://www.xianmin.org/post/</loc>
-    <lastmod>2018-04-22T21:21:54+08:00</lastmod>
+    <lastmod>2018-04-27T20:56:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -303,8 +310,29 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/tags/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</loc>
+    <lastmod>2018-04-27T20:56:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xianmin.org/categories/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</loc>
+    <lastmod>2018-04-27T20:56:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/tags/%E5%BC%80%E6%BA%90/</loc>
     <lastmod>2018-03-27T15:49:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xianmin.org/tags/%E6%80%92%E6%B1%9F/</loc>
+    <lastmod>2018-04-27T20:56:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -319,6 +347,13 @@
   <url>
     <loc>http://www.xianmin.org/tags/%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2018-01-14T22:06:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xianmin.org/tags/%E6%97%85%E8%A1%8C/</loc>
+    <lastmod>2018-04-27T20:56:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -374,7 +409,7 @@
   
   <url>
     <loc>http://www.xianmin.org/</loc>
-    <lastmod>2018-04-22T21:21:54+08:00</lastmod>
+    <lastmod>2018-04-27T20:56:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

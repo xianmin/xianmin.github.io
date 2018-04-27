@@ -6,10 +6,36 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 22 Apr 2018 21:11:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Apr 2018 20:30:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>怒江行记（一）</title>
+      <link>http://www.xianmin.org/post/nujiang-00/</link>
+      <pubDate>Fri, 27 Apr 2018 20:30:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/nujiang-00/</guid>
+      <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;http://www.xianmin.org/image/nujiang/00/00.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;怒江的壮丽山河&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;写在前面：&lt;/strong&gt; 这篇怒江游记是我最近刚从草稿中翻出来的。此次怒江之行是在2017年的9月，而文稿的完成时间是在10月份。当时文稿整理完成后，觉得自己的文字实在对不起这个美丽的地方，再加之一大部分照片的丢失（丢失的原因实在是自己太大意），心情有点儿沮丧，也就没有再发布到网上。幸好我没有把这些文字稿删除，重新翻阅当时的记录，对我个人而言，也算是美好的回忆吧。  ——2018.04&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>从丽江到重庆</title>
@@ -295,7 +321,11 @@
       <guid>http://www.xianmin.org/post/01-syntax-highlighting/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;helloWorld&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
   &lt;span class=&#34;nx&#34;&gt;alert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
@@ -303,17 +333,6 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>主题与markdown语法测试</title>
-      <link>http://www.xianmin.org/post/00-even-theme-preview/</link>
-      <pubDate>Sun, 01 Jan 2017 18:03:09 +0800</pubDate>
-      
-      <guid>http://www.xianmin.org/post/00-even-theme-preview/</guid>
-      <description>&lt;p&gt;主题与markdown语法测试。&lt;/p&gt;
-
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
