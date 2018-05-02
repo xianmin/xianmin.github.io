@@ -54,7 +54,6 @@
 
 
 <link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
-<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
 
 
@@ -132,7 +131,65 @@ ga('send', 'pageview');
       </a>
   </ul>
 </nav>
+  
+    
 
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+  
   <header id="header" class="header container">
     <div class="logo-wrapper">
   <a href="/" class="logo">
@@ -245,17 +302,17 @@ ga('send', 'pageview');
   <div class="post-content">
     
     <div class="post-summary">
-      <figure>
-    
-        <img src="/image/nujiang/01/00.jpg" />
-    
-    
-    <figcaption>
-        <h4>驶入怒江州</h4>
-        
-    </figcaption>
-    
-</figure>
+      <link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/image/nujiang/01/00.jpg" />
+    </div>
+    <a href="/image/nujiang/01/00.jpg" itemprop="contentUrl"></a>
+      <figcaption><h4>驶入怒江州</h4>
+      </figcaption>
+  </figure>
+</div>
 
 
 <p>没有想到我的第一次出国会以这样的方式。没有护照，没有边境通行证，就这样走出中缅边境的国门散了个步。对面就是缅甸的国门，但是我们无法过去。远处是缅甸的村庄，难免会产生好奇，国门那边的人生活是怎样的呢？他们是否会中文？他们使用的生活用品是 &ldquo;made in china&rdquo; 吗？没机会接触。</p>
@@ -288,17 +345,17 @@ ga('send', 'pageview');
   <div class="post-content">
     
     <div class="post-summary">
-      <figure>
-    
-        <img src="/image/nujiang/00/00.jpg" />
-    
-    
-    <figcaption>
-        <h4>怒江的壮丽山河</h4>
-        
-    </figcaption>
-    
-</figure>
+      <link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/image/nujiang/00/00.jpg" />
+    </div>
+    <a href="/image/nujiang/00/00.jpg" itemprop="contentUrl"></a>
+      <figcaption><h4>怒江的壮丽山河</h4>
+      </figcaption>
+  </figure>
+</div>
 
 
 <blockquote>
@@ -333,12 +390,15 @@ ga('send', 'pageview');
   <div class="post-content">
     
     <div class="post-summary">
-      <figure>
-    
-        <img src="/image/other/chongqing.jpg" />
-    
-    
-</figure>
+      <link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/image/other/chongqing.jpg" />
+    </div>
+    <a href="/image/other/chongqing.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
 
 
 <p>这两年最常去的一个城市——重庆，因为她在那儿。上周又去了一趟重庆，她腹痛，在医院检查出畸胎瘤<sup class="footnote-ref" id="fnref:fn-1"><a href="#fn:fn-1">1</a></sup> ，需要做手术切除，我到医院陪她。我抵达医院是手术完成后的第二天，她在病床上躺着，身上插着监护仪还有导尿管，很虚弱，什么也不能吃。手术完成的很顺利，对卵巢的伤害不是很严重。在手术前，她的父亲和医院签了协议，这个手术如果进展的不顺利，有可能需要切除卵巢，算是比较幸运，这并没有发生。她当天去的医院，当天检查出畸胎瘤，当天就做了手术，一切都发生的太突然。很遗憾，我没能第一时间陪伴在她的身边。两个人身处异地，相隔 1000 公里，距离并不可怕，可怕的是当她需要我的时候，我不能及时的出现。我还记得那晚等待她父亲回复消息——关于她手术完成的情况——那4个小时的煎熬，比预计手术时间晚了2个小时，我只能茫然的盯着手机屏幕。晚上失眠，凌晨三点多醒来，一早前往机场，飞去重庆，这一次是到医院陪她。</p>
@@ -691,9 +751,17 @@ ga('send', 'pageview');
   
 <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
-  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
 <script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
 
+
+
+
+
+  
+    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
 
 
 

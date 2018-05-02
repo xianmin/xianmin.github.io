@@ -324,14 +324,14 @@
   </url>
   
   <url>
-    <loc>http://www.xianmin.org/tags/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</loc>
+    <loc>http://www.xianmin.org/categories/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</loc>
     <lastmod>2018-04-27T22:00:26+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.xianmin.org/categories/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</loc>
+    <loc>http://www.xianmin.org/tags/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</loc>
     <lastmod>2018-04-27T22:00:26+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -450,15 +450,15 @@
   </url>
   
   <url>
-    <loc>http://www.xianmin.org/tags/%E9%98%85%E8%AF%BB/</loc>
-    <lastmod>2018-01-14T22:06:10+08:00</lastmod>
+    <loc>http://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2018-02-09T22:08:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/</loc>
-    <lastmod>2018-02-09T22:08:10+08:00</lastmod>
+    <loc>http://www.xianmin.org/tags/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2018-01-14T22:06:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
