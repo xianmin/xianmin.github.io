@@ -6,10 +6,32 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 27 Apr 2018 21:52:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 03 May 2018 11:28:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>怒江行记（三）——废城知子罗</title>
+      <link>http://www.xianmin.org/post/nujiang-02/</link>
+      <pubDate>Thu, 03 May 2018 11:28:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/nujiang-02/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/02/00.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/02/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;第二天到老姆登，这个地方是沿怒江北上的大部分游客都会停留的一个村子。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>怒江行记（二）——第一次走出国门</title>
@@ -325,17 +347,6 @@
       
       <guid>http://www.xianmin.org/post/03-focus-on-content/</guid>
       <description>&lt;p&gt;当我们开始做一件事情，首先想一想这件事的核心是什么？然后再想，完成它有哪些方案？哪个方案即便它不够完美，却是自己目前可行的？哪个方案目前不可行，但是自己能够改进的？对于目前不可行，自己又无法改进的方案，暂时搁置，应当先以完成这件事情为主。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Linux 下，使用 Git 管理 dotfiles（配置文件）</title>
-      <link>http://www.xianmin.org/post/02-manage-dotfiles/</link>
-      <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
-      
-      <guid>http://www.xianmin.org/post/02-manage-dotfiles/</guid>
-      <description>&lt;p&gt;作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code&gt;.&lt;/code&gt; 开头，管它们叫 &lt;code&gt;dotfiles&lt;/code&gt; 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
