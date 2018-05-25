@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>豆瓣 on 贤民的比特记忆</title>
+    <link>http://www.xianmin.org/tags/%E8%B1%86%E7%93%A3/</link>
+    <description>Recent content in 豆瓣 on 贤民的比特记忆</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 25 May 2018 15:20:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://www.xianmin.org/tags/%E8%B1%86%E7%93%A3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>为 hugo 站点插入豆瓣条目的 shortcode</title>
+      <link>http://www.xianmin.org/post/hugo-shortcode-douban-item/</link>
+      <pubDate>Fri, 25 May 2018 15:20:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/hugo-shortcode-douban-item/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;最终效果：&lt;/strong&gt;
+&lt;div class=&#34;douban_show&#34;&gt;
+  &lt;div id=&#34;db9787532132263&#34; date-dbid=&#34;9787532132263&#34; class=&#34;douban_item post-preview&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;div class=&#34;douban_show&#34;&gt;
+  &lt;div id=&#34;db1307690&#34; date-dbid=&#34;1307690&#34; class=&#34;douban_item post-preview&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;代码来源： &lt;a href=&#34;https://immmmm.com/bitcron-show-douban-item&#34;&gt;Bitcron 文章内插入豆瓣条目 - 林小沐&lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

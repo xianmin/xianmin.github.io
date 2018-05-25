@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.xianmin.org/post/hugo-shortcode-douban-item/</loc>
+    <lastmod>2018-05-25T17:20:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/post/linux-emacs-quick-open-file/</loc>
     <lastmod>2018-05-22T21:36:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -248,7 +255,7 @@
   
   <url>
     <loc>http://www.xianmin.org/tags/hugo/</loc>
-    <lastmod>2018-03-31T18:19:26+08:00</lastmod>
+    <lastmod>2018-05-25T17:20:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -297,7 +304,7 @@
   
   <url>
     <loc>http://www.xianmin.org/post/</loc>
-    <lastmod>2018-05-22T21:36:13+08:00</lastmod>
+    <lastmod>2018-05-25T17:20:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -521,14 +528,21 @@
   
   <url>
     <loc>http://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
-    <lastmod>2018-05-22T21:36:13+08:00</lastmod>
+    <lastmod>2018-05-25T17:20:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xianmin.org/tags/%E8%B1%86%E7%93%A3/</loc>
+    <lastmod>2018-05-25T17:20:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.xianmin.org/</loc>
-    <lastmod>2018-05-22T21:36:13+08:00</lastmod>
+    <lastmod>2018-05-25T17:20:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
