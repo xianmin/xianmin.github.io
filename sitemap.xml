@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.xianmin.org/post/because-of-poverty/</loc>
+    <lastmod>2018-07-07T21:39:05+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/post/hugo-shortcode-douban-item/</loc>
     <lastmod>2018-05-25T17:20:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -304,7 +311,7 @@
   
   <url>
     <loc>http://www.xianmin.org/post/</loc>
-    <lastmod>2018-05-25T17:20:54+08:00</lastmod>
+    <lastmod>2018-07-07T21:39:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -396,6 +403,13 @@
   <url>
     <loc>http://www.xianmin.org/tags/%E5%8E%9F%E5%A7%8B%E6%A3%AE%E6%9E%97/</loc>
     <lastmod>2018-05-24T15:36:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xianmin.org/tags/%E5%8F%8D%E7%9C%81/</loc>
+    <lastmod>2018-07-07T21:39:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -542,7 +556,7 @@
   
   <url>
     <loc>http://www.xianmin.org/</loc>
-    <lastmod>2018-05-25T17:20:54+08:00</lastmod>
+    <lastmod>2018-07-07T21:39:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -577,7 +591,7 @@
   
   <url>
     <loc>http://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2018-05-21T15:35:13+08:00</lastmod>
+    <lastmod>2018-07-07T21:39:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

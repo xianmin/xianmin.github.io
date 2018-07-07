@@ -6,10 +6,21 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 25 May 2018 15:20:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Jul 2018 21:36:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>因为贫穷的缘故</title>
+      <link>http://www.xianmin.org/post/because-of-poverty/</link>
+      <pubDate>Fri, 06 Jul 2018 21:36:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/because-of-poverty/</guid>
+      <description>&lt;p&gt;最近一个多月比较忙。店里的事情，接待客人，接待朋友，接待团队，还有办理证件。另外，和一个朋友合作，做几个微信公众号的项目，也算是开了些眼界。这种忙碌，如果换在大城市，估计算不了什么。只是过惯了在乡下自由散漫的日子，还是会觉得，哎呀，有点儿忙啊。因为贫穷的缘故吧，想着多做点事儿，能多挣些钱，钱也没挣多少，反倒更焦虑了。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>为 hugo 站点插入豆瓣条目的 shortcode</title>
@@ -352,24 +363,6 @@
       <description>&lt;p&gt;翻阅你在这一年写的日记，“2017年6月26日：我是一个无知、无明、无趣的年轻人，对烟酒没有控制，自制力差，拖延症严重，喜欢胡思乱想，空想而缺乏行动，空有抱负却一事无成，喜好很多但一无所长。也许再过几年，我就是一个无知、无明、无趣的中年人了。”&lt;/p&gt;
 
 &lt;p&gt;似乎每年总有那么几天，你会感到焦虑，厌恶自己。但不管怎么说，一年又要过去了，我想从以下几个方面对你的2017年做一个总结：工作、锻炼、编程、英语、写作、阅读。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>JavaScript —— this 绑定</title>
-      <link>http://www.xianmin.org/post/javascript-this/</link>
-      <pubDate>Tue, 14 Nov 2017 14:39:00 +0800</pubDate>
-      
-      <guid>http://www.xianmin.org/post/javascript-this/</guid>
-      <description>&lt;p&gt;Google 搜索出来的两个不错的链接：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jeffjade.com/2015/08/03/2015-08-03-javascript-this/&#34;&gt;JavaScript 之 this 详解 | 晚晴幽草轩&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://segmentfault.com/a/1190000003046071&#34;&gt;JS 中 this 关键字详解 - JSer - SegmentFault&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;我是先阅读的 &lt;a href=&#34;https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&amp;amp;%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes&#34;&gt;You-Dont-Know-JS: this &amp;amp; Object Prototypes&lt;/a&gt; 。再回过头看上面的那两篇文章，我觉得他们讲解的太复杂了，而 《You-Dont-Know-JS》 就归纳的非常好。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
