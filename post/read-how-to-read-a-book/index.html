@@ -162,23 +162,23 @@ ga('send', 'pageview');
 <nav id="mobile-menu" class="mobile-menu slideout-menu">
   <ul class="mobile-menu-list">
     <li class="mobile-menu-item">
-        <a href="/">
+        <a href="http://www.xianmin.org/">
           主页
         </a>
       </li><li class="mobile-menu-item">
-        <a href="/post/">
+        <a href="http://www.xianmin.org/post/">
           全部文章
         </a>
       </li><li class="mobile-menu-item">
-        <a href="/tags/">
+        <a href="http://www.xianmin.org/tags/">
           标签
         </a>
       </li><li class="mobile-menu-item">
-        <a href="/categories/">
+        <a href="http://www.xianmin.org/categories/">
           分类
         </a>
       </li><li class="mobile-menu-item">
-        <a href="/about/">
+        <a href="http://www.xianmin.org/about/">
           关于
         </a>
       </li><li class="mobile-menu-item">
@@ -188,6 +188,7 @@ ga('send', 'pageview');
       </li>
   </ul>
 </nav>
+
 
   
     
@@ -248,6 +249,9 @@ ga('send', 'pageview');
 </div>
 
   
+
+  
+
   <header id="header" class="header container">
     <div class="logo-wrapper">
   <a href="/" class="logo">
@@ -646,33 +650,52 @@ ga('send', 'pageview');
           </a>
       </nav>
     </footer>
-    
-
-  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
-      显示 Disqus 评论
-    </div>
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-    function load_disqus() {
-        
-        
-        if (window.location.hostname === 'localhost') return;
-
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        var disqus_shortname = 'xianmin12';
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-
-        $('#load_disqus').remove();
-    };
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    
-
-  
-
-  
   </article>
+
+  
+  
+
+  
+  
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xianmin/comments---xianmin.org"
+            issue-term="pathname"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+  
+
+  
+
+  
+
+  <div class="disqus-comment">
+  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
+    显示 Disqus 评论
+  </div>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    function load_disqus() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'xianmin12';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+      $('#load_disqus').remove();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+  
+  </div>
+
         </div>
       </div>
     </main>
