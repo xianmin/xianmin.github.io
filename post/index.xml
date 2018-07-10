@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 06 Jul 2018 21:36:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jul 2018 14:34:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>更好的基于 github issues 的评论系统——utterances</title>
+      <link>http://www.xianmin.org/post/utterances-comment-system/</link>
+      <pubDate>Tue, 10 Jul 2018 14:34:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/utterances-comment-system/</guid>
+      <description>背景介绍 基于 github issues 的评论系统，比较流行的有 gitment 和 gitalk 。这两个项目我很早就注意到了，它们明显的缺陷是，当用户如果尝试登录评论，所要求的权限是很多的，</description>
+    </item>
     
     <item>
       <title>因为贫穷的缘故</title>
@@ -350,19 +359,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>别了，2017！</title>
-      <link>http://www.xianmin.org/post/2017/</link>
-      <pubDate>Sat, 30 Dec 2017 00:00:00 +0800</pubDate>
-      
-      <guid>http://www.xianmin.org/post/2017/</guid>
-      <description>&lt;p&gt;翻阅你在这一年写的日记，“2017年6月26日：我是一个无知、无明、无趣的年轻人，对烟酒没有控制，自制力差，拖延症严重，喜欢胡思乱想，空想而缺乏行动，空有抱负却一事无成，喜好很多但一无所长。也许再过几年，我就是一个无知、无明、无趣的中年人了。”&lt;/p&gt;
-
-&lt;p&gt;似乎每年总有那么几天，你会感到焦虑，厌恶自己。但不管怎么说，一年又要过去了，我想从以下几个方面对你的2017年做一个总结：工作、锻炼、编程、英语、写作、阅读。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

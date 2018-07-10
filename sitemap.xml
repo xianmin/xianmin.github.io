@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.xianmin.org/post/utterances-comment-system/</loc>
+    <lastmod>2018-07-10T14:43:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/post/because-of-poverty/</loc>
     <lastmod>2018-07-07T21:39:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -220,6 +227,13 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/tags/blog/</loc>
+    <lastmod>2018-07-10T14:43:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -261,8 +275,15 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/tags/github/</loc>
+    <lastmod>2018-07-10T14:43:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/tags/hugo/</loc>
-    <lastmod>2018-05-25T17:20:54+08:00</lastmod>
+    <lastmod>2018-07-10T14:43:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -311,21 +332,21 @@
   
   <url>
     <loc>http://www.xianmin.org/post/</loc>
-    <lastmod>2018-07-07T21:39:05+08:00</lastmod>
+    <lastmod>2018-07-10T14:43:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.xianmin.org/tags/</loc>
-    <lastmod>2017-03-01T18:03:09+08:00</lastmod>
+    <lastmod>2018-07-10T14:43:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.xianmin.org/tags/tip/</loc>
-    <lastmod>2018-05-22T21:36:13+08:00</lastmod>
+    <lastmod>2018-07-10T14:43:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -542,7 +563,7 @@
   
   <url>
     <loc>http://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
-    <lastmod>2018-05-25T17:20:54+08:00</lastmod>
+    <lastmod>2018-07-10T14:43:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -556,7 +577,7 @@
   
   <url>
     <loc>http://www.xianmin.org/</loc>
-    <lastmod>2018-07-07T21:39:05+08:00</lastmod>
+    <lastmod>2018-07-10T14:43:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
