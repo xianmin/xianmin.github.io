@@ -34,19 +34,22 @@
 
 &lt;p&gt;以上简单讲了一下背景，下面介绍本篇文章的主角——&lt;a href=&#34;https://github.com/utterance/utterances&#34;&gt;utterances&lt;/a&gt;。&lt;/p&gt;
 
-&lt;p&gt;它和 &lt;code&gt;gitment&lt;/code&gt; 、 &lt;code&gt;gitalk&lt;/code&gt; 有什么区别呢？最大的区别就是 &lt;code&gt;utterances&lt;/code&gt; 所需要的权限要少得多，仅限于读写特定仓库的 issues 和 comments 。至于原理，我也没有深究，有兴趣的读者可以看一看项目作者写的说明：&lt;a href=&#34;https://github.com/utterance/utterances/pull/25&#34;&gt;utterances 1.0 by jdanyow · Pull Request #25&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;它和 &lt;code&gt;gitment&lt;/code&gt; 、 &lt;code&gt;gitalk&lt;/code&gt; 有什么区别呢？&lt;/p&gt;
+
+&lt;p&gt;最大的区别就是 &lt;code&gt;utterances&lt;/code&gt; 所需要的权限要少得多，仅限于读写特定仓库的 issues 和 comments 。至于原理，我也没有深究，有兴趣的读者可以看一看项目作者写的说明：&lt;a href=&#34;https://github.com/utterance/utterances/pull/25&#34;&gt;utterances 1.0 by jdanyow · Pull Request #25&lt;/a&gt; 。并且，仅需要给 &lt;code&gt;utterances&lt;/code&gt; 授权一次，其他凡是使用 &lt;code&gt;utterances&lt;/code&gt; 的站点都不必再 &lt;strong&gt;额外授权&lt;/strong&gt; ，直接就可以评论。&lt;/p&gt;
 
 &lt;p&gt;第二个区别，部署更简单。按照文档的步骤：&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;新建一个用于存放评论的仓库；&lt;/li&gt;
 &lt;li&gt;给这个仓库部署 &lt;code&gt;utterances&lt;/code&gt; 应用；&lt;/li&gt;
-&lt;li&gt;将一段 &lt;strong&gt;script&lt;/strong&gt; 代码放入你的博客。这样就可以了。&lt;/li&gt;
-&lt;/ol&gt;
+
+&lt;li&gt;&lt;p&gt;将一段 &lt;strong&gt;script&lt;/strong&gt; 代码放入你的博客。这样就可以了。&lt;/p&gt;
 
 &lt;p&gt;第三个区别， &lt;code&gt;utterances&lt;/code&gt; 有一个“机器人”可以自动初始化博文的 issues 评论。而 &lt;code&gt;gitment&lt;/code&gt; 需要使用脚本，或者需要手动点击初始化按钮。（这个问题我是通过他人的文章了解到的，自己并没有测试考证。）&lt;/p&gt;
 
-&lt;p&gt;综上， &lt;code&gt;utterances&lt;/code&gt; 是一个相对而言 &lt;strong&gt;更便捷&lt;/strong&gt; 的基于 &lt;strong&gt;github issues&lt;/strong&gt; 的评论系统。&lt;/p&gt;
+&lt;p&gt;综上， &lt;code&gt;utterances&lt;/code&gt; 是一个相对而言 &lt;strong&gt;更便捷&lt;/strong&gt; 的基于 &lt;strong&gt;github issues&lt;/strong&gt; 的评论系统。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;想试用的朋友不妨在底部评论一下吧！ :-)&lt;/p&gt;
 

@@ -68,7 +68,7 @@
 
 <meta property="article:published_time" content="2018-07-10T14:34:00&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-07-10T14:43:32&#43;08:00"/>
+<meta property="article:modified_time" content="2018-07-13T13:30:34&#43;08:00"/>
 
 
 
@@ -86,7 +86,7 @@
 
 <meta itemprop="datePublished" content="2018-07-10T14:34:00&#43;08:00" />
 <meta itemprop="dateModified" content="2018-07-10T14:34:00&#43;08:00" />
-<meta itemprop="wordCount" content="644">
+<meta itemprop="wordCount" content="684">
 
 
 
@@ -360,19 +360,22 @@ ga('send', 'pageview');
 
 <p>以上简单讲了一下背景，下面介绍本篇文章的主角——<a href="https://github.com/utterance/utterances">utterances</a>。</p>
 
-<p>它和 <code>gitment</code> 、 <code>gitalk</code> 有什么区别呢？最大的区别就是 <code>utterances</code> 所需要的权限要少得多，仅限于读写特定仓库的 issues 和 comments 。至于原理，我也没有深究，有兴趣的读者可以看一看项目作者写的说明：<a href="https://github.com/utterance/utterances/pull/25">utterances 1.0 by jdanyow · Pull Request #25</a> 。</p>
+<p>它和 <code>gitment</code> 、 <code>gitalk</code> 有什么区别呢？</p>
+
+<p>最大的区别就是 <code>utterances</code> 所需要的权限要少得多，仅限于读写特定仓库的 issues 和 comments 。至于原理，我也没有深究，有兴趣的读者可以看一看项目作者写的说明：<a href="https://github.com/utterance/utterances/pull/25">utterances 1.0 by jdanyow · Pull Request #25</a> 。并且，仅需要给 <code>utterances</code> 授权一次，其他凡是使用 <code>utterances</code> 的站点都不必再 <strong>额外授权</strong> ，直接就可以评论。</p>
 
 <p>第二个区别，部署更简单。按照文档的步骤：</p>
 
 <ol>
 <li>新建一个用于存放评论的仓库；</li>
 <li>给这个仓库部署 <code>utterances</code> 应用；</li>
-<li>将一段 <strong>script</strong> 代码放入你的博客。这样就可以了。</li>
-</ol>
+
+<li><p>将一段 <strong>script</strong> 代码放入你的博客。这样就可以了。</p>
 
 <p>第三个区别， <code>utterances</code> 有一个“机器人”可以自动初始化博文的 issues 评论。而 <code>gitment</code> 需要使用脚本，或者需要手动点击初始化按钮。（这个问题我是通过他人的文章了解到的，自己并没有测试考证。）</p>
 
-<p>综上， <code>utterances</code> 是一个相对而言 <strong>更便捷</strong> 的基于 <strong>github issues</strong> 的评论系统。</p>
+<p>综上， <code>utterances</code> 是一个相对而言 <strong>更便捷</strong> 的基于 <strong>github issues</strong> 的评论系统。</p></li>
+</ol>
 
 <p>想试用的朋友不妨在底部评论一下吧！ :-)</p>
 
@@ -389,7 +392,7 @@ ga('send', 'pageview');
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
-    <span class="item-content">2018-07-10</span>
+    <span class="item-content">2018-07-13</span>
   </p>
   
   <p class="copyright-item">
