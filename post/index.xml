@@ -6,10 +6,35 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 10 Jul 2018 14:34:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 30 Jul 2018 19:51:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>《易中天中华史》读后感（一）——身为中国人</title>
+      <link>http://www.xianmin.org/post/yizhongtian-chinese-history-1/</link>
+      <pubDate>Mon, 30 Jul 2018 19:51:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/yizhongtian-chinese-history-1/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;凡读本书请先具下列诸信念：&lt;/p&gt;
+
+&lt;p&gt;一、当信任何一国之国民，尤其是自称知识在水平线以上之国民，对其本国已往历史，应该略有所知。（否则最多只算一有知识的人，不能算一有知识的国民。）&lt;/p&gt;
+
+&lt;p&gt;二、所谓对其本国已往历史略有所知者，尤必附随一种对其本国已往历史之温情与敬意。（否则只算知道了一些外国史，不得云对本国史有知识。）&lt;/p&gt;
+
+&lt;p&gt;三、所谓对其本国已往历史有一种温情与敬意者，至少不会对其本国已往历史抱一种偏激的虚无主义，（即视本国已往历史为无一点有价值，亦无一处足以使彼满意。）亦至少不会感到现在我们是站在已往历史最高之顶点，（此乃一种浅薄狂妄的进化观。）而将我们当身种种罪恶与弱点，一切诿卸于古人。（此乃一种似是而非之文化自谴。）&lt;/p&gt;
+
+&lt;p&gt;四、当信每一国家必待其国民具备上列诸条件者比较渐多，其国家乃再有向前发展之希望。（否则其所改进，等于一个被征服国或次殖民地之改进，对其国家自身不发生关系。换言之，此种改进，无异是一种变相的文化征服，乃其文化自身之萎缩与消灭，并非其文化自身之转变与发皇。）&lt;/p&gt;
+
+&lt;p&gt;——钱穆《国史大纲》序言&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>更好的基于 github issues 的评论系统——utterances</title>
@@ -338,27 +363,6 @@
       
       <guid>http://www.xianmin.org/post/wartime-notes/</guid>
       <description>&lt;p&gt;这本书是维特根斯坦在 1914年 至 1917年 一战期间当兵时所写的笔记。这份笔记包含两部分，一部分是私人日记，一部分是哲学笔记。他出身富贵人家，又有很高的学识，完全可以不去服兵役，但他还是去了，这是为什么？那年他 25 岁，与我的年龄相仿，我很好奇他的所思所想，并且窥探一个“天才”的私人日记会是一件很有趣的事儿。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>一些 Visual Studio Code 的使用技巧</title>
-      <link>http://www.xianmin.org/post/vscode/</link>
-      <pubDate>Wed, 10 Jan 2018 00:00:00 +0800</pubDate>
-      
-      <guid>http://www.xianmin.org/post/vscode/</guid>
-      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
-
-&lt;p&gt;&lt;code&gt;Visual Studio Code&lt;/code&gt; （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;官方文档： &lt;a href=&#34;https://code.visualstudio.com/docs&#34;&gt;https://code.visualstudio.com/docs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;VScode github 地址： &lt;a href=&#34;https://github.com/Microsoft/vscode&#34;&gt;https://github.com/Microsoft/vscode&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_editing-hacks&#34;&gt;Visual Studio Tips and Tricks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
