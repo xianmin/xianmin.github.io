@@ -18,9 +18,7 @@
       
       <guid>http://www.xianmin.org/post/linux-fcitx-punc/</guid>
       
-        <description>
-
-&lt;p&gt;我不确定你有没有遇到过这样的问题，输入一个双引号，它是 &lt;strong&gt;前引号&lt;/strong&gt; 呢，还是 &lt;strong&gt;后引号&lt;/strong&gt; 。也许是字体的缘故，我总得瞪大了眼睛才能分辨的清楚。出于好奇，我上网搜了下，还真有解决办法。最简单的办法就是使用港台的标准，使用直角引号。请看图片：&lt;/p&gt;
+        <description>&lt;p&gt;我不确定你有没有遇到过这样的问题，输入一个双引号，它是 &lt;strong&gt;前引号&lt;/strong&gt; 呢，还是 &lt;strong&gt;后引号&lt;/strong&gt; 。也许是字体的缘故，我总得瞪大了眼睛才能分辨的清楚。出于好奇，我上网搜了下，还真有解决办法。最简单的办法就是使用港台的标准，使用直角引号。请看图片：&lt;/p&gt;
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
@@ -33,6 +31,8 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;为什么使用直角引号&#34;&gt;为什么使用直角引号&lt;/h2&gt;
 
@@ -125,8 +125,7 @@
 &lt;li id=&#34;fn:fn-2&#34;&gt;&lt;a href=&#34;https://fcitx-im.org/wiki/Punctuation&#34;&gt;Punctuation - Fcitx&lt;/a&gt;
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:fn-2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;
-</description>
+&lt;/div&gt;</description>
       
     </item>
     
