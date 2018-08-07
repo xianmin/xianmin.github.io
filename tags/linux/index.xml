@@ -6,10 +6,19 @@
     <description>Recent content in Linux on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 22 May 2018 21:28:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 07 Aug 2018 23:04:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>linux 下，fcitx 输入法的直角引号设置</title>
+      <link>http://www.xianmin.org/post/linux-fcitx-punc/</link>
+      <pubDate>Tue, 07 Aug 2018 23:04:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/linux-fcitx-punc/</guid>
+      <description>我不确定你有没有遇到过这样的问题，输入一个双引号，它是 前引号 呢，还是 后引号 。也许是字体的缘故，我总得瞪大了眼睛才能分辨的清楚。出于好奇，我上</description>
+    </item>
     
     <item>
       <title>linux 的文件管理器、命令行下，用 emacs 快速打开文件的方法</title>

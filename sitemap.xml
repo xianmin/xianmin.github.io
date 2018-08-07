@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.xianmin.org/post/linux-fcitx-punc/</loc>
+    <lastmod>2018-08-07T23:15:04+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/post/yizhongtian-chinese-history-1/</loc>
     <lastmod>2018-08-04T17:51:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -275,6 +282,13 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/tags/fcitx/</loc>
+    <lastmod>2018-08-07T23:15:04+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/tags/git/</loc>
     <lastmod>2018-04-16T23:18:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -311,7 +325,7 @@
   
   <url>
     <loc>http://www.xianmin.org/tags/linux/</loc>
-    <lastmod>2018-07-20T17:28:31+08:00</lastmod>
+    <lastmod>2018-08-07T23:15:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -339,7 +353,7 @@
   
   <url>
     <loc>http://www.xianmin.org/post/</loc>
-    <lastmod>2018-08-04T17:51:35+08:00</lastmod>
+    <lastmod>2018-08-07T23:15:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -591,7 +605,7 @@
   
   <url>
     <loc>http://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
-    <lastmod>2018-07-13T13:32:49+08:00</lastmod>
+    <lastmod>2018-08-07T23:15:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -605,7 +619,14 @@
   
   <url>
     <loc>http://www.xianmin.org/</loc>
-    <lastmod>2018-08-04T17:51:35+08:00</lastmod>
+    <lastmod>2018-08-07T23:15:04+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xianmin.org/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</loc>
+    <lastmod>2018-08-07T23:15:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

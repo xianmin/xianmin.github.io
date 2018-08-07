@@ -6,10 +6,19 @@
     <description>Recent content in 计算机 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 10 Jul 2018 14:34:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 07 Aug 2018 23:04:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>linux 下，fcitx 输入法的直角引号设置</title>
+      <link>http://www.xianmin.org/post/linux-fcitx-punc/</link>
+      <pubDate>Tue, 07 Aug 2018 23:04:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/linux-fcitx-punc/</guid>
+      <description>我不确定你有没有遇到过这样的问题，输入一个双引号，它是 前引号 呢，还是 后引号 。也许是字体的缘故，我总得瞪大了眼睛才能分辨的清楚。出于好奇，我上</description>
+    </item>
     
     <item>
       <title>更好的基于 github issues 的评论系统——utterances</title>
@@ -53,7 +62,7 @@
     </item>
     
     <item>
-      <title>浅谈“用 git submodule 还是 git subtree”？</title>
+      <title>浅谈「用 git submodule 还是 git subtree」？</title>
       <link>http://www.xianmin.org/post/git-submodule/</link>
       <pubDate>Mon, 16 Apr 2018 23:14:00 +0800</pubDate>
       
