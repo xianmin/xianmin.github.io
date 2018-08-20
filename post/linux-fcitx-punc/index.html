@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>linux 下，fcitx 输入法的直角引号设置 - 贤民的比特记忆</title>
-  <link rel="alternate" hreflang="zh-cn" href="http://www.xianmin.org" />
+  
 
 <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -36,7 +36,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.44" />
+<meta name="generator" content="Hugo 0.47" />
 
 
 <link rel="canonical" href="http://www.xianmin.org/post/linux-fcitx-punc/" />
@@ -78,24 +78,8 @@
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.xianmin.org/post/linux-fcitx-punc/" />
-
-
-
-<meta property="article:published_time" content="2018-08-07T23:04:00&#43;08:00"/>
-
+<meta property="og:url" content="http://www.xianmin.org/post/linux-fcitx-punc/" /><meta property="article:published_time" content="2018-08-07T23:04:00&#43;08:00"/>
 <meta property="article:modified_time" content="2018-08-07T23:17:15&#43;08:00"/>
-
-
-
-
-
-
-
-
-
-
-
 <meta itemprop="name" content="linux 下，fcitx 输入法的直角引号设置">
 <meta itemprop="description" content="我不确定你有没有遇到过这样的问题，输入一个双引号，它是 前引号 呢，还是 后引号 。也许是字体的缘故，我总得瞪大了眼睛才能分辨的清楚。出于好奇，我上网搜了下，还真有解决办法。最简单的办法就是使用港台的标准，使用直角引号。请看图片：
 
@@ -149,7 +133,7 @@
 <![endif]-->
 
 
-<script>
+<script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -385,6 +369,17 @@ if (!doNotTrack) {
             <a href="http://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"> 计算机 </a>
             
           </div>
+        
+
+        
+        
+
+        
+        
+          <span id="/post/linux-fcitx-punc/" class="leancloud_visitors" data-flag-title="linux 下，fcitx 输入法的直角引号设置">
+            <span class="post-meta-item-text"> | 阅读 </span>
+            <span class="leancloud-visitors-count"></span>
+          </span>
         
       </div>
     </header>
@@ -675,7 +670,13 @@ if (!doNotTrack) {
     2018
     <span class="heart">
       <i class="iconfont icon-heart"></i>
-    </span><span class="author">贤民</span></span>
+    </span><span class="author">
+        贤民
+        
+      </span></span>
+
+  
+  
 </div>
 
     </footer>
@@ -702,7 +703,122 @@ if (!doNotTrack) {
 
 
 
-<script src="/js/custom.js"></script>
+
+
+
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script type="text/javascript">
+    AV.initialize("CI5I8j1EukaHvGfYTg7Jpl3J-gzGzoHsz", "hsTbeRKvb1d22ppbvmV2zHii");
+  </script>
+
+  <script>
+    function showHitCount(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push($(this).attr("id").trim());
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var hits = item.get('hits');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(hits);
+          }
+          for (var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if (countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function (results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("hits");
+            counter.save(null, {
+              success: function (counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('hits'));
+              },
+              error: function (counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+             
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+             
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("hits", 1);
+            newcounter.save(null, {
+              success: function (newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('hits'));
+              },
+              error: function (newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function (error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function () {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        
+        addCount(Counter);
+      } else if ($('.post-link').length > 1) {
+        
+        showHitCount(Counter);
+      }
+    });
+  </script>
+
+
+
+
+  <script src="/js/custom.js"></script>
 
 
 </body>
