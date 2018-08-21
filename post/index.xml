@@ -6,10 +6,37 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Aug 2018 20:41:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>捍卫开放的互联网</title>
+      <link>http://www.xianmin.org/post/defend-the-open-internet/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/defend-the-open-internet/</guid>
+      <description>&lt;p&gt;直奔主题，我在 github 上发起了一个组织 &lt;strong&gt;「复兴 RSS」&lt;/strong&gt; ——&lt;a href=&#34;https://github.com/RSS-Renaissance&#34;&gt; RSS-Renaissance&lt;/a&gt; ，并创建了一个项目 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; ，这篇文章旨在宣传这个组织和项目，让更多人，尤其是年轻人知道 RSS，知道在互联网上有这么一批 &lt;strong&gt;独立博客&lt;/strong&gt; ，并促进「独立博客」们的互动。此外，本文还将提供一个可操作的方法，让更多的 &lt;strong&gt;独立博客&lt;/strong&gt; 加入到列表当中。&lt;/p&gt;
+
+&lt;p&gt;「捍卫开放的互联网」，这个标题起的有点儿哗众取宠，不过「复兴RSS」的宗旨之一就是促进互联网的开放，而不是少数几个巨头（比如微信、Facebook）掌控着互联网的信息。微信和 Facebook 都是极为封闭的生态圈，打个比方，它们是互联网世界的「大陆」，而独立博客呢？则是互联网世界的一座座「孤岛」。「复兴 RSS」的任务或者说使命，是让这些「孤岛」连起来，成为「群岛」。这个组织，是一个开放的组织，我只是发起人。这个项目 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; 是一个开源项目，任何人都可以参与，并且只是一个开端，我希望未来能有更多的、更细分的、专业性更强的类似项目，例如「旅行相关列表」、「美食相关列表」、「数学相关列表」，诸如此类，并不局限于「独立中文博客」。我还希望，能够有更多的志同道合的朋友加入这个组织，创建更多的项目。让微信做它的江湖老大去吧，我们立我们自己的山头。&lt;/p&gt;
+
+&lt;p&gt;如果看到这篇文章的你，对我发起的组织和项目感兴趣，不妨加我的微信，我想建立一个「独立博客博主」交流群，互相交流意见。加我时麻烦你备注一下，比如「独立博客 + 你的博客网址」。我的微信二维码：&lt;/p&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; style=&#34;max-width:60%&#34;&gt;
+  &lt;figure class=&#34;center&#34; itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/wechat.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://www.xianmin.org/image/wechat.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>一位哥伦比亚作家在中国</title>
@@ -17,7 +44,7 @@
       <pubDate>Sun, 12 Aug 2018 20:41:00 +0800</pubDate>
       
       <guid>http://www.xianmin.org/post/a-colombian-in-china/</guid>
-      <description>&lt;p&gt;John 是哥伦比亚人，上个月住进了我们旅舍，明天他就要搬走了。他长期带着一个宽沿帽子，六十多岁，也许是长期保持健身的缘故，身材很壮实，精神状态很好，在中国生活了二十几年。&lt;/p&gt;
+      <description>&lt;p&gt;John 是哥伦比亚人，上个月住进了我们旅舍，明天他就要搬走了。他长期带着一个宽沿帽子，六十多岁，也许是保持健身的缘故，身材很壮实，精神状态很好，在中国生活了二十几年。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
@@ -348,24 +375,6 @@
       
       <guid>http://www.xianmin.org/post/i-am-a-bad-project-manager/</guid>
       <description>&lt;p&gt;最近， &lt;code&gt;hugo-theme-jane&lt;/code&gt; 收到了几位朋友的 PR ，我作为这个项目的管理者，在处理 PR 上遇到了问题：有个别 PR 比较简单，我就直接在 github 后台操作合并，然后 &lt;code&gt;git pull&lt;/code&gt; 到本地。我想的是本地 master 直接从远程仓库抓取到最新版，但奇怪的是居然有一个合并请求，并且多了一个合并的 commit 。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo</title>
-      <link>http://www.xianmin.org/post/ox-hugo/</link>
-      <pubDate>Sat, 31 Mar 2018 00:00:00 +0800</pubDate>
-      
-      <guid>http://www.xianmin.org/post/ox-hugo/</guid>
-      <description>&lt;p&gt;本文将对我个人的博文写作流程 &lt;strong&gt;所用到的工具&lt;/strong&gt; 做一个总结与分享。从标题就可以看出来，主要有这几个工具： &lt;code&gt;emacs&lt;/code&gt;, &lt;code&gt;orgmode&lt;/code&gt; &amp;amp; &lt;code&gt;hugo&lt;/code&gt; ，另外还有两个配合 &lt;code&gt;hugo&lt;/code&gt; 的辅助包 &lt;code&gt;easy-hugo&lt;/code&gt; （可选） &amp;amp; &lt;code&gt;ox-hugo&lt;/code&gt; 。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;hugo&lt;/code&gt; : &lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;orgmode&lt;/code&gt; : &lt;a href=&#34;https://orgmode.org/&#34;&gt;https://orgmode.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ox-hugo&lt;/code&gt; : &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;https://ox-hugo.scripter.co/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;easy-hygo&lt;/code&gt; : &lt;a href=&#34;https://github.com/masasam/emacs-easy-hugo&#34;&gt;https://github.com/masasam/emacs-easy-hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

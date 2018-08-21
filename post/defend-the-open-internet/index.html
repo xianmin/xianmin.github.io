@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="zh-cn" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>捍卫开放的互联网 - 贤民的比特记忆</title>
+  
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="贤民" />
+  <meta name="description" content="直奔主题，我在 github 上发起了一个组织 「复兴 RSS」 ——RSS-Renaissance ，并创建了一个项目 优质的「独立中文博客」列表 ，这篇文章旨在宣传这个组织和项目，让更多人，尤其是年轻人知道 RSS，知道在互联网上有这么一批 独立博客 ，并促进「独立博客」们的互动。此外，本文还将提供一个可操作的方法，让更多的 独立博客 加入到列表当中。
+「捍卫开放的互联网」，这个标题起的有点儿哗众取宠，不过「复兴RSS」的宗旨之一就是促进互联网的开放，而不是少数几个巨头（比如微信、Facebook）掌控着互联网的信息。微信和 Facebook 都是极为封闭的生态圈，打个比方，它们是互联网世界的「大陆」，而独立博客呢？则是互联网世界的一座座「孤岛」。「复兴 RSS」的任务或者说使命，是让这些「孤岛」连起来，成为「群岛」。这个组织，是一个开放的组织，我只是发起人。这个项目 优质的「独立中文博客」列表 是一个开源项目，任何人都可以参与，并且只是一个开端，我希望未来能有更多的、更细分的、专业性更强的类似项目，例如「旅行相关列表」、「美食相关列表」、「数学相关列表」，诸如此类，并不局限于「独立中文博客」。我还希望，能够有更多的志同道合的朋友加入这个组织，创建更多的项目。让微信做它的江湖老大去吧，我们立我们自己的山头。
+如果看到这篇文章的你，对我发起的组织和项目感兴趣，不妨加我的微信，我想建立一个「独立博客博主」交流群，互相交流意见。加我时麻烦你备注一下，比如「独立博客 &#43; 你的博客网址」。我的微信二维码：
+    
+" />
+
+  <meta name="keywords" content="linux, emacs, program, journal, 贤民, 博客, 笔记" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.47" />
+
+
+<link rel="canonical" href="http://www.xianmin.org/post/defend-the-open-internet/" />
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="/css/custom.css">
+
+
+<meta property="og:title" content="捍卫开放的互联网" />
+<meta property="og:description" content="直奔主题，我在 github 上发起了一个组织 「复兴 RSS」 —— RSS-Renaissance ，并创建了一个项目 优质的「独立中文博客」列表 ，这篇文章旨在宣传这个组织和项目，让更多人，尤其是年轻人知道 RSS，知道在互联网上有这么一批 独立博客 ，并促进「独立博客」们的互动。此外，本文还将提供一个可操作的方法，让更多的 独立博客 加入到列表当中。
+
+「捍卫开放的互联网」，这个标题起的有点儿哗众取宠，不过「复兴RSS」的宗旨之一就是促进互联网的开放，而不是少数几个巨头（比如微信、Facebook）掌控着互联网的信息。微信和 Facebook 都是极为封闭的生态圈，打个比方，它们是互联网世界的「大陆」，而独立博客呢？则是互联网世界的一座座「孤岛」。「复兴 RSS」的任务或者说使命，是让这些「孤岛」连起来，成为「群岛」。这个组织，是一个开放的组织，我只是发起人。这个项目 优质的「独立中文博客」列表 是一个开源项目，任何人都可以参与，并且只是一个开端，我希望未来能有更多的、更细分的、专业性更强的类似项目，例如「旅行相关列表」、「美食相关列表」、「数学相关列表」，诸如此类，并不局限于「独立中文博客」。我还希望，能够有更多的志同道合的朋友加入这个组织，创建更多的项目。让微信做它的江湖老大去吧，我们立我们自己的山头。
+
+如果看到这篇文章的你，对我发起的组织和项目感兴趣，不妨加我的微信，我想建立一个「独立博客博主」交流群，互相交流意见。加我时麻烦你备注一下，比如「独立博客 &#43; 你的博客网址」。我的微信二维码：
+
+
+
+
+  
+    
+      
+    
+    
+  
+
+
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.xianmin.org/post/defend-the-open-internet/" /><meta property="article:published_time" content="2018-08-21T00:00:00&#43;08:00"/>
+<meta property="article:modified_time" content="2018-08-21T23:12:06&#43;08:00"/>
+<meta itemprop="name" content="捍卫开放的互联网">
+<meta itemprop="description" content="直奔主题，我在 github 上发起了一个组织 「复兴 RSS」 —— RSS-Renaissance ，并创建了一个项目 优质的「独立中文博客」列表 ，这篇文章旨在宣传这个组织和项目，让更多人，尤其是年轻人知道 RSS，知道在互联网上有这么一批 独立博客 ，并促进「独立博客」们的互动。此外，本文还将提供一个可操作的方法，让更多的 独立博客 加入到列表当中。
+
+「捍卫开放的互联网」，这个标题起的有点儿哗众取宠，不过「复兴RSS」的宗旨之一就是促进互联网的开放，而不是少数几个巨头（比如微信、Facebook）掌控着互联网的信息。微信和 Facebook 都是极为封闭的生态圈，打个比方，它们是互联网世界的「大陆」，而独立博客呢？则是互联网世界的一座座「孤岛」。「复兴 RSS」的任务或者说使命，是让这些「孤岛」连起来，成为「群岛」。这个组织，是一个开放的组织，我只是发起人。这个项目 优质的「独立中文博客」列表 是一个开源项目，任何人都可以参与，并且只是一个开端，我希望未来能有更多的、更细分的、专业性更强的类似项目，例如「旅行相关列表」、「美食相关列表」、「数学相关列表」，诸如此类，并不局限于「独立中文博客」。我还希望，能够有更多的志同道合的朋友加入这个组织，创建更多的项目。让微信做它的江湖老大去吧，我们立我们自己的山头。
+
+如果看到这篇文章的你，对我发起的组织和项目感兴趣，不妨加我的微信，我想建立一个「独立博客博主」交流群，互相交流意见。加我时麻烦你备注一下，比如「独立博客 &#43; 你的博客网址」。我的微信二维码：
+
+
+
+
+  
+    
+      
+    
+    
+  
+
+
+
+">
+
+
+<meta itemprop="datePublished" content="2018-08-21T00:00:00&#43;08:00" />
+<meta itemprop="dateModified" content="2018-08-21T00:00:00&#43;08:00" />
+<meta itemprop="wordCount" content="2297">
+
+
+
+<meta itemprop="keywords" content="互联网,RSS,开源," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="捍卫开放的互联网"/>
+<meta name="twitter:description" content="直奔主题，我在 github 上发起了一个组织 「复兴 RSS」 —— RSS-Renaissance ，并创建了一个项目 优质的「独立中文博客」列表 ，这篇文章旨在宣传这个组织和项目，让更多人，尤其是年轻人知道 RSS，知道在互联网上有这么一批 独立博客 ，并促进「独立博客」们的互动。此外，本文还将提供一个可操作的方法，让更多的 独立博客 加入到列表当中。
+
+「捍卫开放的互联网」，这个标题起的有点儿哗众取宠，不过「复兴RSS」的宗旨之一就是促进互联网的开放，而不是少数几个巨头（比如微信、Facebook）掌控着互联网的信息。微信和 Facebook 都是极为封闭的生态圈，打个比方，它们是互联网世界的「大陆」，而独立博客呢？则是互联网世界的一座座「孤岛」。「复兴 RSS」的任务或者说使命，是让这些「孤岛」连起来，成为「群岛」。这个组织，是一个开放的组织，我只是发起人。这个项目 优质的「独立中文博客」列表 是一个开源项目，任何人都可以参与，并且只是一个开端，我希望未来能有更多的、更细分的、专业性更强的类似项目，例如「旅行相关列表」、「美食相关列表」、「数学相关列表」，诸如此类，并不局限于「独立中文博客」。我还希望，能够有更多的志同道合的朋友加入这个组织，创建更多的项目。让微信做它的江湖老大去吧，我们立我们自己的山头。
+
+如果看到这篇文章的你，对我发起的组织和项目感兴趣，不妨加我的微信，我想建立一个「独立博客博主」交流群，互相交流意见。加我时麻烦你备注一下，比如「独立博客 &#43; 你的博客网址」。我的微信二维码：
+
+
+
+
+  
+    
+      
+    
+    
+  
+
+
+
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-34199129-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">贤民的比特记忆</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.xianmin.org/">主页</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.xianmin.org/post/">全部文章</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.xianmin.org/tags/">标签</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.xianmin.org/categories/">分类</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.xianmin.org/about/">关于</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.xianmin.org/index.xml">订阅</a>
+          
+        
+      </li>
+    
+  </ul>
+</nav>
+
+
+  
+    
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      贤民的比特记忆
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.xianmin.org/">主页</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.xianmin.org/post/">全部文章</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.xianmin.org/tags/">标签</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.xianmin.org/categories/">分类</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.xianmin.org/about/">关于</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://www.xianmin.org/index.xml">订阅</a>
+          
+
+        
+
+      </li>
+    
+    
+  </ul>
+</nav>
+
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">捍卫开放的互联网</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2018-08-21 </span>
+        <div class="post-category">
+            <a href="http://www.xianmin.org/categories/%E6%9D%82%E6%96%87/"> 杂文 </a>
+            
+          </div>
+        
+
+        
+        
+
+        
+        
+          <span id="/post/defend-the-open-internet/" class="leancloud_visitors" data-flag-title="捍卫开放的互联网">
+            <span class="post-meta-item-text"> | 阅读 </span>
+            <span class="leancloud-visitors-count"></span>
+          </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#rss-是什么">RSS 是什么？</a></li>
+<li><a href="#以-opml-订阅源-的方式让更多优质的独立博客为人所知">以 「opml 订阅源」的方式让更多优质的独立博客为人所知</a></li>
+<li><a href="#独立中文博客-列表的收录标准">「独立中文博客」列表的收录标准</a>
+<ul>
+<li><a href="#收不收录由谁来决定">收不收录由谁来决定？</a></li>
+</ul></li>
+<li><a href="#后记">后记</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p>直奔主题，我在 github 上发起了一个组织 <strong>「复兴 RSS」</strong> ——<a href="https://github.com/RSS-Renaissance"> RSS-Renaissance</a> ，并创建了一个项目 <a href="https://github.com/RSS-Renaissance/awesome-blogCN-feeds">优质的「独立中文博客」列表</a> ，这篇文章旨在宣传这个组织和项目，让更多人，尤其是年轻人知道 RSS，知道在互联网上有这么一批 <strong>独立博客</strong> ，并促进「独立博客」们的互动。此外，本文还将提供一个可操作的方法，让更多的 <strong>独立博客</strong> 加入到列表当中。</p>
+
+<p>「捍卫开放的互联网」，这个标题起的有点儿哗众取宠，不过「复兴RSS」的宗旨之一就是促进互联网的开放，而不是少数几个巨头（比如微信、Facebook）掌控着互联网的信息。微信和 Facebook 都是极为封闭的生态圈，打个比方，它们是互联网世界的「大陆」，而独立博客呢？则是互联网世界的一座座「孤岛」。「复兴 RSS」的任务或者说使命，是让这些「孤岛」连起来，成为「群岛」。这个组织，是一个开放的组织，我只是发起人。这个项目 <a href="https://github.com/RSS-Renaissance/awesome-blogCN-feeds">优质的「独立中文博客」列表</a> 是一个开源项目，任何人都可以参与，并且只是一个开端，我希望未来能有更多的、更细分的、专业性更强的类似项目，例如「旅行相关列表」、「美食相关列表」、「数学相关列表」，诸如此类，并不局限于「独立中文博客」。我还希望，能够有更多的志同道合的朋友加入这个组织，创建更多的项目。让微信做它的江湖老大去吧，我们立我们自己的山头。</p>
+
+<p>如果看到这篇文章的你，对我发起的组织和项目感兴趣，不妨加我的微信，我想建立一个「独立博客博主」交流群，互相交流意见。加我时麻烦你备注一下，比如「独立博客 + 你的博客网址」。我的微信二维码：</p>
+
+
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="box" style="max-width:60%">
+  <figure class="center" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/image/wechat.jpg" />
+    </div>
+    <a href="/image/wechat.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
+
+<p></p>
+
+<h2 id="rss-是什么">RSS 是什么？</h2>
+
+<p>RSS 的全称是「简易内容聚合」（Really Simple Syndication），通过「RSS 阅读器」，你能够订阅各种感兴趣的网站。至于原理，本文就不细说了。更多介绍这篇文章「<a href="https://www.runningcheese.com/rss-feed">当我们谈论 RSS 时，我们在谈论什么？</a>」 也讲得足够详细，我就不多说了。</p>
+
+<p>RSS 曾经有过一段黄金时代，并且我本人也有幸经历过那段黄金时代的最后两年。那么，我是怎么知道 RSS 的呢？</p>
+
+<p>在博客还流行的年代，中文博客圈有过一个平台叫「嫣牛博」，通过「嫣牛博」我知道了「牛博网」<sup class="footnote-ref" id="fnref:fn-1"><a href="#fn:fn-1">1</a></sup>，但是「牛博网」在中国大陆无法访问，我这才知道「防火长城」<sup class="footnote-ref" id="fnref:fn-2"><a href="#fn:fn-2">2</a></sup>的存在。当时，我还不会翻墙，不过幸运的是， Google 还没退出中国， Google Reader 也还没死，Google Reader 就是一个 「RSS 阅读器」，我通过 Google Reader 订阅了牛博网，并且还订阅了许多其他没被审查、无法访问的网站，这让我看见了一个更广阔的互联网世界。</p>
+
+<p>后来 Google Reader 死了，写博客的人越来越少，我订阅过的一些知名博主也不再更新了。那么为什么我现在还要推荐 RSS 呢？因为 <strong>我找到了一种全新的方式订阅 RSS</strong> 。</p>
+
+<h2 id="以-opml-订阅源-的方式让更多优质的独立博客为人所知">以 「opml 订阅源」的方式让更多优质的独立博客为人所知</h2>
+
+<p>传统的 RSS 订阅方式存在以下问题：</p>
+
+<ol>
+<li>有一些订阅源不再更新、或者订阅地址变了，自己整理费时费力。</li>
+<li>有的博主也会推荐一些优质的 RSS 订阅源，但需要一个一个手动去添加。</li>
+</ol>
+
+<p>那么，我所谓的 <strong>一种全新的方式订阅 RSS</strong> 是什么？简单来说，在 <a href="https://github.com/RSS-Renaissance/awesome-blogCN-feeds">优质的「独立中文博客」列表</a> 这个项目中有一个 <code>feedlist.opml</code> 文件，这个文件的地址是 <a href="https://raw.githubusercontent.com/RSS-Renaissance/awesome-blogCN-feeds/master/feedlist.opml">https://raw.githubusercontent.com/RSS-Renaissance/awesome-blogCN-feeds/master/feedlist.opml</a> ，使用 inoreader 阅读器订阅这个 opml 文件，就订阅了所有的「优质的独立中文博客」，方法请看这篇文档——<a href="https://github.com/RSS-Renaissance/RSSR-Docs-CN/blob/master/01-%E4%BD%BF%E7%94%A8-inoreader-%E8%AE%A2%E9%98%85-OPML-%E8%AE%A2%E9%98%85%E6%BA%90.md">使用-inoreader-订阅-OPML-订阅源</a>。如果这个列表更新了，即又添加了一个订阅源，那么 inoreader 则会在后台自动订阅。非常感谢 inoreader 提供了这么一个伟大的功能，使我们的这个项目，即「孤岛」连成「群岛」成为一个可行的方案。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+<blockquote>
+  <p><strong>OPML</strong> 是英语 Outline Processor Markup Language 的首字母缩写，意思是「大纲处理标记语言」，为一种创建在XML上的文件保存格式。目前流行的应用方式为收集博客或播客的RSS来源，整理成单一可交换的OPML格式的订阅列表，让用户便于转移自己的订阅项目。</p>
+  <footer>
+    <strong></strong>
+    
+      
+        <cite>
+          <a href="#ZgotmplZ" title="&lt;https://zh.wikipedia.org/wiki/OPML&gt;">OPML - 维基百科，自由的百科全书</a> 
+        </cite>
+      
+    
+  </footer>
+</blockquote>
+
+
+<p>说白了， <code>opml</code> 是一批 RSS 订阅源的集合，但是，传统的「导入」方式有这么一个问题：一般的 RSS 阅读器都是导入 <code>opml</code> 文件进行订阅，如果这个 opml 添加了新的 RSS 订阅源，也许使用者不会知道，即便使用者知道了，也需要手动重新导入。而 inoreader 的订阅 「opml 订阅源」则解决了这个问题。</p>
+
+<h2 id="独立中文博客-列表的收录标准">「独立中文博客」列表的收录标准</h2>
+
+<p>收录标准还是挺难制订的，限于我个人的知识水平，暂时的标准为：</p>
+
+<ul>
+<li>拥有独立域名的个人博客</li>
+<li>不收录：纯技术、纯网络、转载资源、网赚、主机资讯等类别的博客</li>
+</ul>
+
+<p>非硬性但可参考的一般标准（以下标准是为了避免添加一些只有三分钟热度的博客，如果文章质量足够高，可以破例）：</p>
+
+<ol>
+<li>博客创立时间 2 年以上</li>
+<li>每年发布博文不少于 5 篇</li>
+</ol>
+
+<h3 id="收不收录由谁来决定">收不收录由谁来决定？</h3>
+
+<p>鉴于该项目目前是刚创立的阶段，并且是由本人发起的，在这个阶段「决定是否收录」由我个人独裁。但我不喜欢独裁。如果说这个项目能够得到关注以及肯定，我希望能由 3 个或者 5 个代表进行投票「决定是否收录」。「复兴 RSS」是一个中立的公共组织，它是属于所有人的，任何个人都可以推荐或者自荐优质的博客到列表中。</p>
+
+<h2 id="后记">后记</h2>
+
+<p>据我观察，很多不再更新的独立博客博主，不是不再写作了，而是转移到了微信公众号等大平台。这没什么不好理解的，大平台更方便，方便发布，也更方便得到关注。我们建立博客，将文章发布到网上，就是要给人看的，如果能让更多的人看到，这有什么不好的呢？</p>
+
+<p>「复兴 RSS」多少带点儿理想主义的性质。 RSS 曾经辉煌过吗？RSS 需要复兴吗？开放的互联网需要捍卫吗？此类的问题我没兴趣讨论。如果本文能让更多的人知道 RSS 这种订阅方式，让「独立博客」得到更多的关注，我觉得就足够了。</p>
+
+<p><a href="https://github.com/RSS-Renaissance/awesome-blogCN-feeds">优质的「独立中文博客」列表</a> 这个项目的初始版本克隆自 <a href="https://github.com/tangqiaoboy/iOSBlogCN">中文 iOS/Mac 开发博客列表</a>&nbsp;<sup class="footnote-ref" id="fnref:fn-3"><a href="#fn:fn-3">3</a></sup> ，它的建立离不开前辈们的工作，在此表示感谢。</p>
+
+<p>2018 年 8 月 21 日晚，完成初稿。</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:fn-1"><a href="https://zh.wikipedia.org/zh-hans/%E7%89%9B%E5%8D%9A%E7%BD%91">牛博网 - 维基百科，自由的百科全书</a>
+ <a class="footnote-return" href="#fnref:fn-1"><sup>[return]</sup></a></li>
+<li id="fn:fn-2"><a href="https://zh.wikipedia.org/zh-hans/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E">防火长城 - 维基百科，自由的百科全书</a>
+ <a class="footnote-return" href="#fnref:fn-2"><sup>[return]</sup></a></li>
+<li id="fn:fn-3">这个列表没有再维护了，其中有不少博客链接要么打不开，要么很久都没有更新了，还是有些感慨。
+ <a class="footnote-return" href="#fnref:fn-3"><sup>[return]</sup></a></li>
+</ol>
+</div>
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">贤民</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">2018-08-21</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content">原创文章，如需转载请注明文章作者和出处。谢谢！</span>
+  </p>
+</div>
+
+    
+    
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/reward_wechat.png">
+        <span>微信打赏</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/reward_alipay.jpg">
+        <span>支付宝打赏</span>
+      </label>
+  </div>
+</div>
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="http://www.xianmin.org/tags/%E4%BA%92%E8%81%94%E7%BD%91/">互联网</a>
+          <a href="http://www.xianmin.org/tags/rss/">RSS</a>
+          <a href="http://www.xianmin.org/tags/%E5%BC%80%E6%BA%90/">开源</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/a-colombian-in-china/">
+            <span class="next-text nav-default">一位哥伦比亚作家在中国</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  
+
+  
+  
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xianmin/comments---xianmin.org"
+            issue-term="pathname"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+  
+
+  
+
+  
+
+  <div class="disqus-comment">
+  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
+    显示 Disqus 评论
+  </div>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    function load_disqus() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'xianmin12';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+      $('#load_disqus').remove();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+  
+  </div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:xianmin12@qq.com" rel="me noopener" class="iconfont icon-email"
+        title="email" target="_blank">
+      </a>
+      <a href="https://twitter.com/xian_min" rel="me noopener" class="iconfont icon-twitter"
+        title="twitter" target="_blank">
+      </a>
+      <a href="https://github.com/xianmin" rel="me noopener" class="iconfont icon-github"
+        title="github" target="_blank">
+      </a>
+      <a href="https://weibo.com/xianmin12" rel="me noopener" class="iconfont icon-weibo"
+        title="weibo" target="_blank">
+      </a>
+      <a href="https://www.zhihu.com/people/xian-min" rel="me noopener" class="iconfont icon-zhihu"
+        title="zhihu" target="_blank">
+      </a>
+      <a href="https://www.douban.com/people/xianmin12/" rel="me noopener" class="iconfont icon-douban"
+        title="douban" target="_blank">
+      </a>
+      <a href="https://coding.net/u/xianmin" rel="me noopener" class="iconfont icon-coding"
+        title="coding" target="_blank">
+      </a>
+  <a href="http://www.xianmin.org/index.xml" rel="noopener alternate" type="application/rss&#43;xml" class="iconfont icon-rss"
+    title="rss" target="_blank">
+  </a>
+  </div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    
+      2017 -
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span><span class="author">
+        贤民
+        
+      </span></span>
+
+  
+  
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
+
+
+
+
+  
+    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+
+
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script type="text/javascript">
+    AV.initialize("CI5I8j1EukaHvGfYTg7Jpl3J-gzGzoHsz", "hsTbeRKvb1d22ppbvmV2zHii");
+  </script>
+
+  <script>
+    function showHitCount(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push($(this).attr("id").trim());
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var hits = item.get('hits');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(hits);
+          }
+          for (var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if (countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function (results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("hits");
+            counter.save(null, {
+              success: function (counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('hits'));
+              },
+              error: function (counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+             
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+             
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("hits", 1);
+            newcounter.save(null, {
+              success: function (newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('hits'));
+              },
+              error: function (newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function (error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function () {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        
+        addCount(Counter);
+      } else if ($('.post-link').length > 1) {
+        
+        showHitCount(Counter);
+      }
+    });
+  </script>
+
+
+
+
+  <script src="/js/custom.js"></script>
+
+
+</body>
+</html>
