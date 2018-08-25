@@ -20,7 +20,7 @@
       
         <description>&lt;p&gt;直奔主题，我在 github 上发起了一个组织 &lt;strong&gt;「复兴 RSS」&lt;/strong&gt; ——&lt;a href=&#34;https://github.com/RSS-Renaissance&#34;&gt; RSS-Renaissance&lt;/a&gt; ，并创建了一个项目 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; ，这篇文章旨在宣传这个组织和项目，让更多人，尤其是年轻人知道 RSS，知道在互联网上有这么一批 &lt;strong&gt;独立博客&lt;/strong&gt; ，并促进「独立博客」们的互动。此外，本文还将提供一个可操作的方法，让更多的 &lt;strong&gt;独立博客&lt;/strong&gt; 加入到列表当中。&lt;/p&gt;
 
-&lt;p&gt;「捍卫开放的互联网」，这个标题起的有点儿哗众取宠，不过「复兴RSS」的宗旨之一就是促进互联网的开放，而不是少数几个巨头（比如微信、Facebook）掌控着互联网的信息。微信和 Facebook 都是极为封闭的生态圈，打个比方，它们是互联网世界的「大陆」，而独立博客呢？则是互联网世界的一座座「孤岛」。「复兴 RSS」的任务或者说使命，是让这些「孤岛」连起来，成为「群岛」。这个组织，是一个开放的组织，我只是发起人。这个项目 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; 是一个开源项目，任何人都可以参与，并且只是一个开端，我希望未来能有更多的、更细分的、专业性更强的类似项目，例如「旅行相关列表」、「美食相关列表」、「数学相关列表」，诸如此类，并不局限于「独立中文博客」。我还希望，能够有更多的志同道合的朋友加入这个组织，创建更多的项目。让微信做它的江湖老大去吧，我们立我们自己的山头。&lt;/p&gt;
+&lt;p&gt;「捍卫开放的互联网」，这个标题起的有点儿哗众取宠，不过「复兴RSS」的宗旨之一就是促进互联网的开放，而不是少数几个巨头（比如微信、Facebook）掌控着互联网的信息。微信和 Facebook 都是极为封闭的生态圈，打个比方，它们是互联网世界的「大陆」，而独立博客呢？则是互联网世界的一座座「孤岛」。「复兴 RSS」的任务或者说使命，是让这些「孤岛」连起来，成为「群岛」。这个组织，是一个开放的组织，我只是发起人。这个项目 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; 是一个开源项目，任何人都可以参与，并且只是一个开端，我希望未来能有更多的、更细分的、专业性更强的类似项目，例如「旅行相关列表」、「法律相关列表」、「数学相关列表」，诸如此类，并不局限于「独立中文博客」。我还希望，能够有更多的志同道合的朋友加入这个组织，创建更多的项目。让微信做它的江湖老大去吧，我们立我们自己的山头。&lt;/p&gt;
 
 &lt;p&gt;如果看到这篇文章的你，对我发起的组织和项目感兴趣，不妨加我的微信，我想建立一个「独立博客博主」交流群，互相交流意见。加我时麻烦你备注一下，比如「独立博客 + 你的博客网址」。我的微信二维码：&lt;/p&gt;
 
@@ -48,7 +48,7 @@
 
 &lt;p&gt;后来 Google Reader 死了，写博客的人越来越少，我订阅过的一些知名博主也不再更新了。那么为什么我现在还要推荐 RSS 呢？因为 &lt;strong&gt;我找到了一种全新的方式订阅 RSS&lt;/strong&gt; 。&lt;/p&gt;
 
-&lt;h2 id=&#34;以-opml-订阅源-的方式让更多优质的独立博客为人所知&#34;&gt;以 「opml 订阅源」的方式让更多优质的独立博客为人所知&lt;/h2&gt;
+&lt;h2 id=&#34;以-opml-订阅源-的方式让更多优质的独立博客为人所知&#34;&gt;以 「OPML 订阅源」的方式让更多优质的独立博客为人所知&lt;/h2&gt;
 
 &lt;p&gt;传统的 RSS 订阅方式存在以下问题：&lt;/p&gt;
 
@@ -57,7 +57,7 @@
 &lt;li&gt;有的博主也会推荐一些优质的 RSS 订阅源，但需要一个一个手动去添加。&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;那么，我所谓的 &lt;strong&gt;一种全新的方式订阅 RSS&lt;/strong&gt; 是什么？简单来说，在 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; 这个项目中有一个 &lt;code&gt;feedlist.opml&lt;/code&gt; 文件，这个文件的地址是 &lt;a href=&#34;https://raw.githubusercontent.com/RSS-Renaissance/awesome-blogCN-feeds/master/feedlist.opml&#34;&gt;https://raw.githubusercontent.com/RSS-Renaissance/awesome-blogCN-feeds/master/feedlist.opml&lt;/a&gt; ，使用 inoreader 阅读器订阅这个 opml 文件，就订阅了所有的「优质的独立中文博客」，方法请看这篇文档——&lt;a href=&#34;https://github.com/RSS-Renaissance/RSSR-Docs-CN/blob/master/01-%E4%BD%BF%E7%94%A8-inoreader-%E8%AE%A2%E9%98%85-OPML-%E8%AE%A2%E9%98%85%E6%BA%90.md&#34;&gt;使用-inoreader-订阅-OPML-订阅源&lt;/a&gt;。如果这个列表更新了，即又添加了一个订阅源，那么 inoreader 则会在后台自动订阅。非常感谢 inoreader 提供了这么一个伟大的功能，使我们的这个项目，即「孤岛」连成「群岛」成为一个可行的方案。&lt;/p&gt;
+&lt;p&gt;那么，我所谓的 &lt;strong&gt;一种全新的方式订阅 RSS&lt;/strong&gt; 是什么？简单来说，在 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; 这个项目中有一个 &lt;code&gt;feedlist.opml&lt;/code&gt; 文件，这个文件的地址是 &lt;a href=&#34;https://raw.githubusercontent.com/RSS-Renaissance/awesome-blogCN-feeds/master/feedlist.opml&#34;&gt;https://raw.githubusercontent.com/RSS-Renaissance/awesome-blogCN-feeds/master/feedlist.opml&lt;/a&gt; ，使用 inoreader 阅读器订阅这个 opml 文件，就订阅了所有的「优质的独立中文博客」，方法请看这篇文档——&lt;a href=&#34;https://github.com/RSS-Renaissance/RSSR-Docs-CN/blob/master/01-%E4%BD%BF%E7%94%A8-inoreader-%E8%AE%A2%E9%98%85-OPML-%E8%AE%A2%E9%98%85%E6%BA%90.md&#34;&gt;使用-inoreader-订阅-OPML-订阅源&lt;/a&gt;。如果这个列表更新了，即又添加了一个新的订阅源，那么 inoreader 则会在后台自动订阅。非常感谢 inoreader 提供了这么一个伟大的功能，使我们的这个项目，即「孤岛」连成「群岛」成为一个可行的方案。&lt;/p&gt;
 
 
 
@@ -83,7 +83,7 @@
 
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;OPML&lt;/strong&gt; 是英语 Outline Processor Markup Language 的首字母缩写，意思是「大纲处理标记语言」，为一种创建在XML上的文件保存格式。目前流行的应用方式为收集博客或播客的RSS来源，整理成单一可交换的OPML格式的订阅列表，让用户便于转移自己的订阅项目。&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;OPML&lt;/strong&gt; 是英语 Outline Processor Markup Language 的首字母缩写，意思是「大纲处理标记语言」，为一种创建在 XML 上的文件保存格式。目前流行的应用方式为收集博客或播客的 RSS 来源，整理成单一可交换的 OPML 格式的订阅列表，让用户便于转移自己的订阅项目。&lt;/p&gt;
   &lt;footer&gt;
     &lt;strong&gt;&lt;/strong&gt;
     
@@ -97,11 +97,24 @@
 &lt;/blockquote&gt;
 
 
-&lt;p&gt;说白了， &lt;code&gt;opml&lt;/code&gt; 是一批 RSS 订阅源的集合，但是，传统的「导入」方式有这么一个问题：一般的 RSS 阅读器都是导入 &lt;code&gt;opml&lt;/code&gt; 文件进行订阅，如果这个 opml 添加了新的 RSS 订阅源，也许使用者不会知道，即便使用者知道了，也需要手动重新导入。而 inoreader 的订阅 「opml 订阅源」则解决了这个问题。&lt;/p&gt;
+&lt;p&gt;说白了， &lt;code&gt;OPML&lt;/code&gt; 是一批 RSS 订阅源的集合，但是，传统的「导入」方式有这么一个问题：一般的 RSS 阅读器都是导入 &lt;code&gt;OPML&lt;/code&gt; 文件进行订阅，如果这个 OPML 添加了新的 RSS 订阅源，也许使用者不会知道，即便使用者知道了，也需要手动重新导入。而 inoreader 的订阅 「OPML 订阅源」则解决了这个问题。&lt;/p&gt;
+
+&lt;h2 id=&#34;以-github-开源协作的方式管理-opml-订阅源&#34;&gt;以 github 开源协作的方式管理「OPML 订阅源」&lt;/h2&gt;
+
+&lt;p&gt;如果你使用过「inoreader 阅读器」，也许你会发现它本身就自带了一个功能叫做「组合包」，通过订阅他人创建的「组合包」，你就可以方便的订阅一系列 RSS 订阅源。但这个功能有一个问题，需要有 inoreader 账号，只能由单一的个人对「组合包」中的订阅源进行管理，他人无法参与。而通过 github 开源协作的方式，则解决了这个问题，即通过开源社区共同管理一份「OPML 订阅源」。这有什么好处呢？&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;任何人都可以推荐或者自荐优质的 RSS 订阅源。&lt;/li&gt;
+&lt;li&gt;可以在 github 上发起讨论。比如反应某一个订阅源失效了。&lt;/li&gt;
+&lt;li&gt;可以由几个代表共同决定是否收录。&lt;/li&gt;
+&lt;li&gt;在 github 上，这个项目是公开的，无需任何账号，所有人都可以看到。同时也会被搜索引擎收录。&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h2 id=&#34;独立中文博客-列表的收录标准&#34;&gt;「独立中文博客」列表的收录标准&lt;/h2&gt;
 
-&lt;p&gt;收录标准还是挺难制订的，限于我个人的知识水平，暂时的标准为：&lt;/p&gt;
+&lt;p&gt;在这篇文章，我以 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」订阅列表&lt;/a&gt; 为例，主要是因为大多数「独立博客博主」都是 RSS 的使用者，也许更容易理解本文所讲的内容，并参与到这个项目当中。另外，我在文末的附录中，还会附上其他 「OPML 订阅源」。&lt;/p&gt;
+
+&lt;p&gt;为了保证该项目的质量，需要有一个收录标准。但限于我个人的知识水平，收录标准还是挺难制订的，暂时的标准为：&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;拥有独立域名的个人博客&lt;/li&gt;
@@ -119,15 +132,29 @@
 
 &lt;p&gt;鉴于该项目目前是刚创立的阶段，并且是由本人发起的，在这个阶段「决定是否收录」由我个人独裁。但我不喜欢独裁。如果说这个项目能够得到关注以及肯定，我希望能由 3 个或者 5 个代表进行投票「决定是否收录」。「复兴 RSS」是一个中立的公共组织，它是属于所有人的，任何个人都可以推荐或者自荐优质的博客到列表中。&lt;/p&gt;
 
+&lt;h2 id=&#34;另一个设想-友链-opml-订阅源&#34;&gt;另一个设想：友链「OPML 订阅源」&lt;/h2&gt;
+
+&lt;p&gt;很多博客都有一个称作「友情链接」的板块，即网站互相交换链接，达到互相推广的目的。那么，为什么不能将彼此单独的「RSS 订阅源」聚合为一个「OPML 订阅源」呢？这样，原本是各自有各自的订阅者就成了彼此共有的订阅者。不过，在这个博客和 RSS 订阅日渐式微的年代，这种方式能否有效提升订阅量也已经很难考察了。&lt;/p&gt;
+
 &lt;h2 id=&#34;后记&#34;&gt;后记&lt;/h2&gt;
 
 &lt;p&gt;据我观察，很多不再更新的独立博客博主，不是不再写作了，而是转移到了微信公众号等大平台。这没什么不好理解的，大平台更方便，方便发布，也更方便得到关注。我们建立博客，将文章发布到网上，就是要给人看的，如果能让更多的人看到，这有什么不好的呢？&lt;/p&gt;
 
 &lt;p&gt;「复兴 RSS」多少带点儿理想主义的性质。 RSS 曾经辉煌过吗？RSS 需要复兴吗？开放的互联网需要捍卫吗？此类的问题我没兴趣讨论。如果本文能让更多的人知道 RSS 这种订阅方式，让「独立博客」得到更多的关注，我觉得就足够了。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; 这个项目的初始版本克隆自 &lt;a href=&#34;https://github.com/tangqiaoboy/iOSBlogCN&#34;&gt;中文 iOS/Mac 开发博客列表&lt;/a&gt;&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-3&#34;&gt;&lt;a href=&#34;#fn:fn-3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; ，它的建立离不开前辈们的工作，在此表示感谢。&lt;/p&gt;
+&lt;p&gt;此外，我还创建了一个 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-90-blogger-feeds&#34;&gt;90 后独立博客订阅列表&lt;/a&gt; 的项目，尽管我个人不喜欢类似 「90 后」这样的标签，但在中国，不同年代出生的人也的确有其特殊性。欢迎 90 后的「独立博客博主」向这个项目提交收录，也欢迎对本文持有相似想法的年轻人与我联系，我们共同组成一个属于年轻人的圈子。&lt;/p&gt;
 
-&lt;p&gt;2018 年 8 月 21 日晚，完成初稿。&lt;/p&gt;
+&lt;p&gt;最后，&lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; 这个项目的初始版本克隆自 &lt;a href=&#34;https://github.com/tangqiaoboy/iOSBlogCN&#34;&gt;中文 iOS/Mac 开发博客列表&lt;/a&gt;&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-3&#34;&gt;&lt;a href=&#34;#fn:fn-3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; ，它的建立离不开前辈们的工作，在此表示感谢。&lt;/p&gt;
+
+&lt;p&gt;2018 年 8 月 21 日晚，完成初稿。25 日，增添部分内容。&lt;/p&gt;
+
+&lt;h2 id=&#34;附录-更多-opml-订阅源&#34;&gt;附录：更多「OPML 订阅源」&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-newsCN-feeds&#34;&gt;RSS-Renaissance/awesome-newsCN-feeds: 优质的「中文新闻媒体」订阅列表&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-techCN-feeds&#34;&gt;RSS-Renaissance/awesome-techCN-feeds: 优质的「科技新闻媒体」订阅列表&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-90-blogger-feeds&#34;&gt;RSS-Renaissance/awesome-90-blogger-feeds: 90 后独立博客订阅列表&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 
 &lt;hr /&gt;
