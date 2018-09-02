@@ -6,10 +6,21 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 31 Aug 2018 19:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 02 Sep 2018 20:57:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>记录： 2018 年 8 月</title>
+      <link>http://www.xianmin.org/post/review-2018-08/</link>
+      <pubDate>Sun, 02 Sep 2018 20:57:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/review-2018-08/</guid>
+      <description>&lt;p&gt;上个月发生了太多事情。我想从本月开始，对每个月度做点记录，算是总结与回顾吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>月底去了一趟沙溪古镇</title>
@@ -377,17 +388,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;这两个链接分别都出现在 Google 搜索中文和搜索英文时的首页上。因此，我最开始使用的是 subtree，以为 subtree 就是目前的主流方案，并且是 submodule 的替代方案。直到前些日子我改用了 submodule 才发现，submodule 才是真正我想用的。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>恢复锻炼，站桩日志</title>
-      <link>http://www.xianmin.org/post/exercise01/</link>
-      <pubDate>Sat, 07 Apr 2018 15:35:00 +0800</pubDate>
-      
-      <guid>http://www.xianmin.org/post/exercise01/</guid>
-      <description>&lt;p&gt;每次都是这样，身体觉得不太舒服了，才想到要锻炼。最近一个多月每天差不多有十几个小时坐在电脑前，导致这些天腰部又感到酸痛了。有几个月都没锻炼了吧？上一次站桩还是在 1月22日。从今天开始恢复站桩，制定一个连续 100 天的站桩计划。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
