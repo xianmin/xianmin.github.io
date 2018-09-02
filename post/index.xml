@@ -6,10 +6,34 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 Aug 2018 19:00:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>月底去了一趟沙溪古镇</title>
+      <link>http://www.xianmin.org/post/shaxi-oldtown-5/</link>
+      <pubDate>Fri, 31 Aug 2018 19:00:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/shaxi-oldtown-5/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/00.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://www.xianmin.org/image/shaxi-oldtown/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;沙溪古戏台 2018 年 8 月&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;八月月底，旅客渐少，我搭沙溪刘哥的顺风车去了趟沙溪古镇。没记错的话，这是我第五次去沙溪。曾经有一次我在这个古镇呆了有两个月，它对我来说是个既熟悉又陌生的地方。听说，沙溪现在开了有三百多家客栈，而在我第一次来沙溪的六年前，那时候还只有十几家。现如今，很多曾经在沙溪认识的朋友都已经不在沙溪了。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>捍卫开放的互联网</title>
@@ -364,17 +388,6 @@
       
       <guid>http://www.xianmin.org/post/exercise01/</guid>
       <description>&lt;p&gt;每次都是这样，身体觉得不太舒服了，才想到要锻炼。最近一个多月每天差不多有十几个小时坐在电脑前，导致这些天腰部又感到酸痛了。有几个月都没锻炼了吧？上一次站桩还是在 1月22日。从今天开始恢复站桩，制定一个连续 100 天的站桩计划。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>糟糕的项目管理新手</title>
-      <link>http://www.xianmin.org/post/i-am-a-bad-project-manager/</link>
-      <pubDate>Tue, 03 Apr 2018 15:40:00 +0800</pubDate>
-      
-      <guid>http://www.xianmin.org/post/i-am-a-bad-project-manager/</guid>
-      <description>&lt;p&gt;最近， &lt;code&gt;hugo-theme-jane&lt;/code&gt; 收到了几位朋友的 PR ，我作为这个项目的管理者，在处理 PR 上遇到了问题：有个别 PR 比较简单，我就直接在 github 后台操作合并，然后 &lt;code&gt;git pull&lt;/code&gt; 到本地。我想的是本地 master 直接从远程仓库抓取到最新版，但奇怪的是居然有一个合并请求，并且多了一个合并的 commit 。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

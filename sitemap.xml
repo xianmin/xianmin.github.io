@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.xianmin.org/post/shaxi-oldtown-5/</loc>
+    <lastmod>2018-09-02T19:28:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/post/defend-the-open-internet/</loc>
     <lastmod>2018-08-25T15:09:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -374,7 +381,7 @@
   
   <url>
     <loc>http://www.xianmin.org/post/</loc>
-    <lastmod>2018-08-25T15:09:25+08:00</lastmod>
+    <lastmod>2018-09-02T19:28:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -485,6 +492,13 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/tags/%E5%86%9C%E6%9D%91/</loc>
+    <lastmod>2018-09-02T19:28:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/tags/%E5%87%BA%E5%9B%BD/</loc>
     <lastmod>2018-05-24T15:36:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -535,7 +549,7 @@
   
   <url>
     <loc>http://www.xianmin.org/categories/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</loc>
-    <lastmod>2018-05-24T15:36:38+08:00</lastmod>
+    <lastmod>2018-09-02T19:28:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -590,8 +604,15 @@
   </url>
   
   <url>
+    <loc>http://www.xianmin.org/tags/%E6%95%99%E8%82%B2/</loc>
+    <lastmod>2018-09-02T19:28:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/tags/%E6%97%85%E8%A1%8C/</loc>
-    <lastmod>2018-05-24T15:36:38+08:00</lastmod>
+    <lastmod>2018-09-02T19:28:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -613,6 +634,13 @@
   <url>
     <loc>http://www.xianmin.org/tags/%E6%AD%A3%E5%BF%B5/</loc>
     <lastmod>2018-05-21T15:35:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xianmin.org/tags/%E6%B2%99%E6%BA%AA%E5%8F%A4%E9%95%87/</loc>
+    <lastmod>2018-09-02T19:28:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -682,7 +710,7 @@
   
   <url>
     <loc>http://www.xianmin.org/</loc>
-    <lastmod>2018-08-25T15:09:25+08:00</lastmod>
+    <lastmod>2018-09-02T19:28:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
