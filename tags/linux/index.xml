@@ -6,10 +6,23 @@
     <description>Recent content in Linux on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 07 Aug 2018 23:04:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 20 Sep 2018 14:45:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我所使用的计算机软件</title>
+      <link>http://www.xianmin.org/post/my-linux-app-list/</link>
+      <pubDate>Thu, 20 Sep 2018 14:45:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/my-linux-app-list/</guid>
+      <description>&lt;p&gt;本篇文章将对 &lt;strong&gt;我平时所使用的计算机软件做一个归纳整理&lt;/strong&gt; 。&lt;/p&gt;
+
+&lt;p&gt;我大部分时候使用的操作系统是 &lt;strong&gt;Deepin Linux&lt;/strong&gt; ，因此以下所列出的软件 &lt;strong&gt;也许在 Windows 和 Mac 下并不适用&lt;/strong&gt; 。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>linux 下，fcitx 输入法的直角引号设置</title>

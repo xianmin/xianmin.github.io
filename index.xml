@@ -6,10 +6,57 @@
     <description>Recent content on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 02 Sep 2018 20:57:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 20 Sep 2018 14:45:00 +0800</lastBuildDate>
     
         <atom:link href="http://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我所使用的计算机软件</title>
+      <link>http://www.xianmin.org/post/my-linux-app-list/</link>
+      <pubDate>Thu, 20 Sep 2018 14:45:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/my-linux-app-list/</guid>
+      
+        <description>&lt;p&gt;本篇文章将对 &lt;strong&gt;我平时所使用的计算机软件做一个归纳整理&lt;/strong&gt; 。&lt;/p&gt;
+
+&lt;p&gt;我大部分时候使用的操作系统是 &lt;strong&gt;Deepin Linux&lt;/strong&gt; ，因此以下所列出的软件 &lt;strong&gt;也许在 Windows 和 Mac 下并不适用&lt;/strong&gt; 。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;主要使用的软件&#34;&gt;主要使用的软件&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.deepin.org/original/deepin-boot-maker/&#34;&gt;深度全家桶&lt;/a&gt; - 比如深度终端、深度截图、深度录屏、深度文件管理器等等，这些都是深度系统自带的，不必多说了。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;GNU Emacs&lt;/a&gt; / &lt;a href=&#34;http://spacemacs.org/&#34;&gt;Spacemacs&lt;/a&gt; - 是我日常用的最多的 &lt;strong&gt;文本编辑器&lt;/strong&gt; 。 &lt;strong&gt;配合 orgmode ，主要用来写日记、记笔记、发表博文等一系列文本操作。&lt;/strong&gt; 我尝试过用 Emacs 来写代码，但是代码补全、调试、阅读源码等等始终不如其他专门的 IDE 好用，配置也比较麻烦，就懒得折腾了。一直处于 &lt;strong&gt;只是会用&lt;/strong&gt; 的阶段。最早使用 Emacs 应该是 2013 年，从各个地方抄配置，后来发现 Spacemacs 的配置比自己组合的要好太多，就使用 Spacemacs 了。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://orgmode.org/&#34;&gt;Org mode&lt;/a&gt; - Org mode 是 Emacs 的一部分，这也是我离不开 Emacs 的一个很大原因。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chrome 浏览器&lt;/strong&gt; - 深度自带。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;搜狗输入法&lt;/strong&gt; - 深度自带。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt; - 代码编辑器。主要用来写代码、阅读代码。我写过一篇 &lt;a href=&#34;http://www.xianmin.org/post/vscode/&#34;&gt;一些 Visual Studio Code 的使用技巧&lt;/a&gt; 。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://calibre-ebook.com/&#34;&gt;calibre&lt;/a&gt; - 电子书管理工具。我写过一篇 &lt;a href=&#34;http://www.xianmin.org/post/06-ebook/&#34;&gt;构建你的移动书库——电子书阅读经验分享&lt;/a&gt; 。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wiz.cn/&#34;&gt;为知笔记&lt;/a&gt; - 大部分时候是用来 &lt;strong&gt;摘录网页内容&lt;/strong&gt; 。偶尔用手机记事。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/h&#34;&gt;Dropbox&lt;/a&gt; - 文件同步备份。在 Linux 下支持的最好。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://albertlauncher.github.io/&#34;&gt;Albert&lt;/a&gt; - Linux 下的快捷启动工具。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hluk.github.io/CopyQ/&#34;&gt;CopyQ&lt;/a&gt; - 剪切板管理工具。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.smplayer.info/&#34;&gt;SMPlayer&lt;/a&gt; - 多媒体播放器。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.xnview.com/en/xnviewmp/&#34;&gt;XnViewMP&lt;/a&gt; - 图片浏览器。速度快，并且可以进行一些简单的图片操作，比如图片压缩、图片格式转换、图片剪裁等等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Foxit Reader&lt;/strong&gt; - PDF 阅读器。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/goldendict/goldendict&#34;&gt;goldendict&lt;/a&gt; - 词典，翻译软件。功能强大，支持很多种格式的词典。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zealdocs.org/&#34;&gt;Zeal&lt;/a&gt; - 离线 API 文档查找阅读工具。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;偶尔使用的软件&#34;&gt;偶尔使用的软件&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Typora - markdown 编辑器。&lt;/li&gt;
+&lt;li&gt;WPS - 办公软件。&lt;/li&gt;
+&lt;li&gt;Sigil - ebook 制作工具。&lt;/li&gt;
+&lt;li&gt;Meld - 文件夹比对工具。&lt;/li&gt;
+&lt;li&gt;zotero - 文献管理工具。&lt;/li&gt;
+&lt;li&gt;Gparted - 分区工具。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
     
     <item>
       <title>记录： 2018 年 8 月</title>
@@ -78,6 +125,19 @@
     
   
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0800.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0800.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0800.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;与喜咪一家合影&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0801.jpg&#39;);&#34;&gt;
@@ -2512,34 +2572,6 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:fn-1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>浅谈「用 git submodule 还是 git subtree」？</title>
-      <link>http://www.xianmin.org/post/git-submodule/</link>
-      <pubDate>Mon, 16 Apr 2018 23:14:00 +0800</pubDate>
-      
-      <guid>http://www.xianmin.org/post/git-submodule/</guid>
-      
-        <description>&lt;p&gt;因为有用 &lt;code&gt;git&lt;/code&gt; 管理 &lt;strong&gt;子项目&lt;/strong&gt; 的需要，我在网上找到了 &lt;code&gt;submodule&lt;/code&gt; 和 &lt;code&gt;subtree&lt;/code&gt; 这两种方法。奇怪的是，有好几篇文章提到用 &lt;code&gt;subtree&lt;/code&gt; 替代 &lt;code&gt;submodule&lt;/code&gt; 。&lt;/p&gt;
-
-&lt;p&gt;比如这两篇：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://tech.youzan.com/git-subtree/&#34;&gt;用 Git Subtree 在多个 Git 项目间双向同步子项目，附简明使用手册 - Delai - 有赞技术团队&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/blog/git/alternatives-to-git-submodule-git-subtree&#34;&gt;Git subtree: the alternative to Git submodule&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这两个链接分别都出现在 Google 搜索中文和搜索英文时的首页上。因此，我最开始使用的是 subtree，以为 subtree 就是目前的主流方案，并且是 submodule 的替代方案。直到前些日子我改用了 submodule 才发现，submodule 才是真正我想用的。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;这两者都可以解决类似的管理子项目的问题，但两者的管理方式有比较大的区别，并且两者都各自有各自的优缺点。比如说，这篇文章 &lt;a href=&#34;https://blog.devtang.com/2013/05/08/git-submodule-issues/&#34;&gt;Git submodule的坑 | 唐巧的博客&lt;/a&gt; 谈到了 submodule 遇到的坑，而这篇文章 &lt;a href=&#34;http://efe.baidu.com/blog/git-submodule-vs-git-subtree/&#34;&gt;git submoudle vs git subtree | EFE Tech&lt;/a&gt; 则谈到了使用 subtree 的过程中遇到的坑。因此个人觉得很难讲谁替代谁、谁比谁更好。&lt;/p&gt;
-
-&lt;p&gt;有人对 submodule 和 subtree 的区别做的一个总结还是挺形象的： &lt;strong&gt;submodule is link; subtree is copy&lt;/strong&gt; 。&lt;/p&gt;
-
-&lt;p&gt;当然了，由于我个人的经验有限，我说的也许都是错的，但是别人说的也不一定都是对的啊。工具嘛，适合自己，又能方便的解决问题，就可以了。&lt;/p&gt;</description>
       
     </item>
     

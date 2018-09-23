@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>List on 贤民的比特记忆</title>
+    <link>http://www.xianmin.org/tags/list/</link>
+    <description>Recent content in List on 贤民的比特记忆</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 20 Sep 2018 14:45:00 +0800</lastBuildDate>
+    
+	<atom:link href="http://www.xianmin.org/tags/list/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>我所使用的计算机软件</title>
+      <link>http://www.xianmin.org/post/my-linux-app-list/</link>
+      <pubDate>Thu, 20 Sep 2018 14:45:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/my-linux-app-list/</guid>
+      <description>&lt;p&gt;本篇文章将对 &lt;strong&gt;我平时所使用的计算机软件做一个归纳整理&lt;/strong&gt; 。&lt;/p&gt;
+
+&lt;p&gt;我大部分时候使用的操作系统是 &lt;strong&gt;Deepin Linux&lt;/strong&gt; ，因此以下所列出的软件 &lt;strong&gt;也许在 Windows 和 Mac 下并不适用&lt;/strong&gt; 。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
