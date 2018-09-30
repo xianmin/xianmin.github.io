@@ -6,10 +6,35 @@
     <description>Recent content in 总结 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 28 Sep 2018 22:38:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 30 Sep 2018 14:40:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.xianmin.org/tags/%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>记录： 2018 年 9 月 - 专注两个身份</title>
+      <link>http://www.xianmin.org/post/review-2018-09/</link>
+      <pubDate>Sun, 30 Sep 2018 14:40:00 +0800</pubDate>
+      
+      <guid>http://www.xianmin.org/post/review-2018-09/</guid>
+      <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0908.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0908.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;那里中秋的月亮&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>英语学习方法总结 —— 2018 年 9 月</title>
@@ -21,7 +46,7 @@
     </item>
     
     <item>
-      <title>记录： 2018 年 8 月</title>
+      <title>记录： 2018 年 8 月 - 开始</title>
       <link>http://www.xianmin.org/post/review-2018-08/</link>
       <pubDate>Sun, 02 Sep 2018 20:57:00 +0800</pubDate>
       
