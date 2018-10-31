@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.xianmin.org/post/review-2018-10/</loc>
+    <lastmod>2018-10-31T17:35:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xianmin.org/post/talk-about-mindfulness/</loc>
     <lastmod>2018-10-12T08:12:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -423,7 +430,7 @@
   
   <url>
     <loc>http://www.xianmin.org/post/</loc>
-    <lastmod>2018-10-12T08:12:56+08:00</lastmod>
+    <lastmod>2018-10-31T17:35:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -584,7 +591,7 @@
   
   <url>
     <loc>http://www.xianmin.org/tags/%E5%8F%8D%E7%9C%81/</loc>
-    <lastmod>2018-09-30T14:50:36+08:00</lastmod>
+    <lastmod>2018-10-31T17:35:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -654,7 +661,7 @@
   
   <url>
     <loc>http://www.xianmin.org/tags/%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2018-09-30T14:50:36+08:00</lastmod>
+    <lastmod>2018-10-31T17:35:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -787,7 +794,7 @@
   
   <url>
     <loc>http://www.xianmin.org/categories/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2018-09-30T14:50:36+08:00</lastmod>
+    <lastmod>2018-10-31T17:35:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -801,7 +808,7 @@
   
   <url>
     <loc>http://www.xianmin.org/</loc>
-    <lastmod>2018-10-12T08:12:56+08:00</lastmod>
+    <lastmod>2018-10-31T17:35:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
