@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>反省 on 贤民的比特记忆</title>
-    <link>http://www.xianmin.org/tags/%E5%8F%8D%E7%9C%81/</link>
+    <link>https://www.xianmin.org/tags/%E5%8F%8D%E7%9C%81/</link>
     <description>Recent content in 反省 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 31 Oct 2018 15:15:00 +0800</lastBuildDate>
     
-	<atom:link href="http://www.xianmin.org/tags/%E5%8F%8D%E7%9C%81/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.xianmin.org/tags/%E5%8F%8D%E7%9C%81/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>记录： 2018 年 10 月 - 音乐会</title>
-      <link>http://www.xianmin.org/post/review-2018-10/</link>
+      <link>https://www.xianmin.org/post/review-2018-10/</link>
       <pubDate>Wed, 31 Oct 2018 15:15:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/review-2018-10/</guid>
+      <guid>https://www.xianmin.org/post/review-2018-10/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1000.jpg&#34; alt=&#34;我们旅舍二楼的风景&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/1000.jpg&#34; alt=&#34;我们旅舍二楼的风景&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/1000.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/1000.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;玉龙雪山&lt;/h4&gt;
           &lt;p&gt;我们旅舍二楼的风景&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -40,21 +40,21 @@
     
     <item>
       <title>记录： 2018 年 9 月 - 专注两个身份</title>
-      <link>http://www.xianmin.org/post/review-2018-09/</link>
+      <link>https://www.xianmin.org/post/review-2018-09/</link>
       <pubDate>Sun, 30 Sep 2018 14:40:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/review-2018-09/</guid>
+      <guid>https://www.xianmin.org/post/review-2018-09/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0908.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0908.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0908.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0908.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;那里中秋的月亮&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -66,10 +66,10 @@
     
     <item>
       <title>记录： 2018 年 8 月 - 开始</title>
-      <link>http://www.xianmin.org/post/review-2018-08/</link>
+      <link>https://www.xianmin.org/post/review-2018-08/</link>
       <pubDate>Sun, 02 Sep 2018 20:57:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/review-2018-08/</guid>
+      <guid>https://www.xianmin.org/post/review-2018-08/</guid>
       <description>&lt;p&gt;上个月发生了太多事情。我想从本月开始，对每个月度做点记录，算是总结与回顾吧。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -77,10 +77,10 @@
     
     <item>
       <title>因为贫穷的缘故</title>
-      <link>http://www.xianmin.org/post/because-of-poverty/</link>
+      <link>https://www.xianmin.org/post/because-of-poverty/</link>
       <pubDate>Fri, 06 Jul 2018 21:36:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/because-of-poverty/</guid>
+      <guid>https://www.xianmin.org/post/because-of-poverty/</guid>
       <description>&lt;p&gt;最近一个多月比较忙。店里的事情，接待客人，接待朋友，接待团队，还有办理证件。另外，和一个朋友合作，做几个微信公众号的项目，也算是开了些眼界。这种忙碌，如果换在大城市，估计算不了什么。只是过惯了在乡下自由散漫的日子，还是会觉得，哎呀，有点儿忙啊。因为贫穷的缘故吧，想着多做点事儿，能多挣些钱，钱也没挣多少，反倒更焦虑了。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

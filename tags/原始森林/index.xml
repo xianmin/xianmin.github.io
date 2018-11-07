@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>原始森林 on 贤民的比特记忆</title>
-    <link>http://www.xianmin.org/tags/%E5%8E%9F%E5%A7%8B%E6%A3%AE%E6%9E%97/</link>
+    <link>https://www.xianmin.org/tags/%E5%8E%9F%E5%A7%8B%E6%A3%AE%E6%9E%97/</link>
     <description>Recent content in 原始森林 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 06 May 2018 11:11:00 +0800</lastBuildDate>
     
-	<atom:link href="http://www.xianmin.org/tags/%E5%8E%9F%E5%A7%8B%E6%A3%AE%E6%9E%97/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.xianmin.org/tags/%E5%8E%9F%E5%A7%8B%E6%A3%AE%E6%9E%97/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>怒江行记（四）——原始森林亚坪</title>
-      <link>http://www.xianmin.org/post/nujiang-03/</link>
+      <link>https://www.xianmin.org/post/nujiang-03/</link>
       <pubDate>Sun, 06 May 2018 11:11:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/nujiang-03/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+      <guid>https://www.xianmin.org/post/nujiang-03/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/03/00.jpg&#34; alt=&#34;走进原始森林&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/03/00.jpg&#34; alt=&#34;走进原始森林&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/03/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/03/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
           &lt;p&gt;走进原始森林&lt;/p&gt;
       &lt;/figcaption&gt;

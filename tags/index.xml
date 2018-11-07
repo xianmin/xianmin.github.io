@@ -2,192 +2,192 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 贤民的比特记忆</title>
-    <link>http://www.xianmin.org/tags/</link>
+    <link>https://www.xianmin.org/tags/</link>
     <description>Recent content in Tags on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 10 Jul 2018 14:34:00 +0800</lastBuildDate>
     
-	<atom:link href="http://www.xianmin.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.xianmin.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>http://www.xianmin.org/tags/blog/</link>
+      <link>https://www.xianmin.org/tags/blog/</link>
       <pubDate>Tue, 10 Jul 2018 14:34:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/blog/</guid>
+      <guid>https://www.xianmin.org/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dotfile</title>
-      <link>http://www.xianmin.org/tags/dotfile/</link>
+      <link>https://www.xianmin.org/tags/dotfile/</link>
       <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/dotfile/</guid>
+      <guid>https://www.xianmin.org/tags/dotfile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ebook</title>
-      <link>http://www.xianmin.org/tags/ebook/</link>
+      <link>https://www.xianmin.org/tags/ebook/</link>
       <pubDate>Mon, 06 Nov 2017 13:13:15 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/ebook/</guid>
+      <guid>https://www.xianmin.org/tags/ebook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Editor</title>
-      <link>http://www.xianmin.org/tags/editor/</link>
+      <link>https://www.xianmin.org/tags/editor/</link>
       <pubDate>Sat, 31 Mar 2018 00:00:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/editor/</guid>
+      <guid>https://www.xianmin.org/tags/editor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Emacs</title>
-      <link>http://www.xianmin.org/tags/emacs/</link>
+      <link>https://www.xianmin.org/tags/emacs/</link>
       <pubDate>Tue, 22 May 2018 21:28:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/emacs/</guid>
+      <guid>https://www.xianmin.org/tags/emacs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fcitx</title>
-      <link>http://www.xianmin.org/tags/fcitx/</link>
+      <link>https://www.xianmin.org/tags/fcitx/</link>
       <pubDate>Tue, 07 Aug 2018 23:04:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/fcitx/</guid>
+      <guid>https://www.xianmin.org/tags/fcitx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>http://www.xianmin.org/tags/git/</link>
+      <link>https://www.xianmin.org/tags/git/</link>
       <pubDate>Mon, 16 Apr 2018 23:14:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/git/</guid>
+      <guid>https://www.xianmin.org/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Github</title>
-      <link>http://www.xianmin.org/tags/github/</link>
+      <link>https://www.xianmin.org/tags/github/</link>
       <pubDate>Tue, 10 Jul 2018 14:34:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/github/</guid>
+      <guid>https://www.xianmin.org/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://www.xianmin.org/tags/hugo/</link>
+      <link>https://www.xianmin.org/tags/hugo/</link>
       <pubDate>Tue, 10 Jul 2018 14:34:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/hugo/</guid>
+      <guid>https://www.xianmin.org/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jane</title>
-      <link>http://www.xianmin.org/tags/jane/</link>
+      <link>https://www.xianmin.org/tags/jane/</link>
       <pubDate>Sun, 11 Mar 2018 21:30:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/jane/</guid>
+      <guid>https://www.xianmin.org/tags/jane/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>http://www.xianmin.org/tags/javascript/</link>
+      <link>https://www.xianmin.org/tags/javascript/</link>
       <pubDate>Tue, 14 Nov 2017 14:39:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/javascript/</guid>
+      <guid>https://www.xianmin.org/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>http://www.xianmin.org/tags/linux/</link>
+      <link>https://www.xianmin.org/tags/linux/</link>
       <pubDate>Thu, 20 Sep 2018 14:45:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/linux/</guid>
+      <guid>https://www.xianmin.org/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>List</title>
-      <link>http://www.xianmin.org/tags/list/</link>
+      <link>https://www.xianmin.org/tags/list/</link>
       <pubDate>Thu, 20 Sep 2018 14:45:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/list/</guid>
+      <guid>https://www.xianmin.org/tags/list/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>http://www.xianmin.org/tags/markdown/</link>
+      <link>https://www.xianmin.org/tags/markdown/</link>
       <pubDate>Sun, 01 Jan 2017 18:03:09 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/markdown/</guid>
+      <guid>https://www.xianmin.org/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Note</title>
-      <link>http://www.xianmin.org/tags/note/</link>
+      <link>https://www.xianmin.org/tags/note/</link>
       <pubDate>Fri, 09 Feb 2018 21:53:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/note/</guid>
+      <guid>https://www.xianmin.org/tags/note/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Orgmode</title>
-      <link>http://www.xianmin.org/tags/orgmode/</link>
+      <link>https://www.xianmin.org/tags/orgmode/</link>
       <pubDate>Sat, 31 Mar 2018 00:00:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/orgmode/</guid>
+      <guid>https://www.xianmin.org/tags/orgmode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rss</title>
-      <link>http://www.xianmin.org/tags/rss/</link>
+      <link>https://www.xianmin.org/tags/rss/</link>
       <pubDate>Tue, 21 Aug 2018 00:00:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/rss/</guid>
+      <guid>https://www.xianmin.org/tags/rss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thinkpad</title>
-      <link>http://www.xianmin.org/tags/thinkpad/</link>
+      <link>https://www.xianmin.org/tags/thinkpad/</link>
       <pubDate>Sat, 11 Aug 2018 12:14:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/thinkpad/</guid>
+      <guid>https://www.xianmin.org/tags/thinkpad/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tip</title>
-      <link>http://www.xianmin.org/tags/tip/</link>
+      <link>https://www.xianmin.org/tags/tip/</link>
       <pubDate>Tue, 10 Jul 2018 14:34:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/tip/</guid>
+      <guid>https://www.xianmin.org/tags/tip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tips</title>
-      <link>http://www.xianmin.org/tags/tips/</link>
+      <link>https://www.xianmin.org/tags/tips/</link>
       <pubDate>Wed, 10 Jan 2018 00:00:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/tags/tips/</guid>
+      <guid>https://www.xianmin.org/tags/tips/</guid>
       <description></description>
     </item>
     

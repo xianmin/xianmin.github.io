@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>杂文 on 贤民的比特记忆</title>
-    <link>http://www.xianmin.org/categories/%E6%9D%82%E6%96%87/</link>
+    <link>https://www.xianmin.org/categories/%E6%9D%82%E6%96%87/</link>
     <description>Recent content in 杂文 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 12 Oct 2018 08:06:00 +0800</lastBuildDate>
     
-	<atom:link href="http://www.xianmin.org/categories/%E6%9D%82%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.xianmin.org/categories/%E6%9D%82%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>浅谈冥想（或者说正念）——反抗痛苦的方法</title>
-      <link>http://www.xianmin.org/post/talk-about-mindfulness/</link>
+      <link>https://www.xianmin.org/post/talk-about-mindfulness/</link>
       <pubDate>Fri, 12 Oct 2018 08:06:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/talk-about-mindfulness/</guid>
+      <guid>https://www.xianmin.org/post/talk-about-mindfulness/</guid>
       <description>&lt;p&gt;这一年多，「冥想」对我的帮助非常大。主要体现在：&lt;/p&gt;
 
 &lt;ol&gt;
@@ -49,10 +49,10 @@
     
     <item>
       <title>捍卫开放的互联网</title>
-      <link>http://www.xianmin.org/post/defend-the-open-internet/</link>
+      <link>https://www.xianmin.org/post/defend-the-open-internet/</link>
       <pubDate>Tue, 21 Aug 2018 00:00:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/defend-the-open-internet/</guid>
+      <guid>https://www.xianmin.org/post/defend-the-open-internet/</guid>
       <description>&lt;p&gt;直奔主题，我在 github 上发起了一个组织 &lt;strong&gt;「复兴 RSS」&lt;/strong&gt; ——&lt;a href=&#34;https://github.com/RSS-Renaissance&#34;&gt; RSS-Renaissance&lt;/a&gt; ，并创建了一个项目 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; ，这篇文章旨在宣传这个组织和项目，让更多人，尤其是年轻人知道 RSS，知道在互联网上有这么一批 &lt;strong&gt;独立博客&lt;/strong&gt; ，并促进「独立博客」们的互动。此外，本文还将提供一个可操作的方法，让更多的 &lt;strong&gt;独立博客&lt;/strong&gt; 加入到列表当中。&lt;/p&gt;
 
 &lt;p&gt;「捍卫开放的互联网」，这个标题起的有点儿哗众取宠，不过「复兴RSS」的宗旨之一就是促进互联网的开放，而不是少数几个巨头（比如微信、Facebook）掌控着互联网的信息。微信和 Facebook 都是极为 &lt;strong&gt;封闭的生态圈&lt;/strong&gt; ，打个比方，它们是互联网世界的「大陆」，而独立博客呢？则是互联网世界的一座座「孤岛」。「复兴 RSS」的任务或者说使命，是让这些「孤岛」连起来，成为「群岛」。这个组织，是一个开放的组织，我只是发起人。这个项目 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; 是一个开源项目，任何人都可以参与，并且只是一个开端，我希望未来能有更多的、更细分的、专业性更强的类似项目，例如「旅行相关列表」、「法律相关列表」、「数学相关列表」，诸如此类，并不局限于「独立中文博客」。我还希望，能够有更多的志同道合的朋友加入这个组织，创建更多的项目。让微信做它的江湖老大去吧，我们立我们自己的山头。&lt;/p&gt;
@@ -60,15 +60,15 @@
 &lt;p&gt;如果看到这篇文章的你，对我发起的组织和项目感兴趣，不妨加我的微信，我想建立一个「独立博客博主」交流群，互相交流意见。加我时麻烦你备注一下，比如「独立博客 + 你的博客网址」。我的微信二维码：&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:60%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/wechat.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/wechat.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/wechat.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/wechat.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -78,10 +78,10 @@
     
     <item>
       <title>开源实践：写在 Jane 发布之后</title>
-      <link>http://www.xianmin.org/post/hugo-theme-jane-publish/</link>
+      <link>https://www.xianmin.org/post/hugo-theme-jane-publish/</link>
       <pubDate>Sun, 11 Mar 2018 21:30:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/hugo-theme-jane-publish/</guid>
+      <guid>https://www.xianmin.org/post/hugo-theme-jane-publish/</guid>
       <description>&lt;p&gt;本周我发布了一个 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 主题 &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane&lt;/a&gt; ，Jane 克隆自 &lt;a href=&#34;https://github.com/olOwOlo/hugo-theme-even&#34;&gt;hugo-theme-even&lt;/a&gt; ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -89,10 +89,10 @@
     
     <item>
       <title>别了，2017！</title>
-      <link>http://www.xianmin.org/post/2017/</link>
+      <link>https://www.xianmin.org/post/2017/</link>
       <pubDate>Sat, 30 Dec 2017 00:00:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/2017/</guid>
+      <guid>https://www.xianmin.org/post/2017/</guid>
       <description>&lt;p&gt;翻阅你在这一年写的日记，「2017年6月26日：我是一个无知、无明、无趣的年轻人，对烟酒没有控制，自制力差，拖延症严重，喜欢胡思乱想，空想而缺乏行动，空有抱负却一事无成，喜好很多但一无所长。也许再过几年，我就是一个无知、无明、无趣的中年人了。」&lt;/p&gt;
 
 &lt;p&gt;似乎每年总有那么几天，你会感到焦虑，厌恶自己。但不管怎么说，一年又要过去了，我想从以下几个方面对你的2017年做一个总结：工作、锻炼、编程、英语、写作、阅读。&lt;/p&gt;
@@ -102,10 +102,10 @@
     
     <item>
       <title>构建你的移动书库——电子书阅读经验分享</title>
-      <link>http://www.xianmin.org/post/06-ebook/</link>
+      <link>https://www.xianmin.org/post/06-ebook/</link>
       <pubDate>Mon, 06 Nov 2017 13:13:15 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/06-ebook/</guid>
+      <guid>https://www.xianmin.org/post/06-ebook/</guid>
       <description>&lt;h1 id=&#34;写在前面&#34;&gt;写在前面&lt;/h1&gt;
 
 &lt;p&gt;作为一个农民的儿子，我从小跟随父母在外漂泊，长年都是租的房子，家里地方不大，除了教科书、习题册，基本没有任何藏书。那时候，没两年就会搬一次家，光是搬教科书都觉得挺累赘的。即便在成年后，自己依然一直在外漂泊，没有固定的居所，还是不敢买太多书，没地方安置。当然，还有一个很实际的问题，买书花钱，自己没多少钱。很多书像消费品，看完就丢一边了，它摆在那儿更多的像是一种象征性的装饰。&lt;/p&gt;
@@ -115,10 +115,10 @@
     
     <item>
       <title>工具癖患者的表现及自我修养</title>
-      <link>http://www.xianmin.org/post/05-tools-addict/</link>
+      <link>https://www.xianmin.org/post/05-tools-addict/</link>
       <pubDate>Thu, 01 Jun 2017 09:32:56 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/05-tools-addict/</guid>
+      <guid>https://www.xianmin.org/post/05-tools-addict/</guid>
       <description>&lt;p&gt;怎样给工具下定义？文字、语言算不算工具？知识算不算工具？数学公式算不算工具？科学方法算不算工具？甚至而言，宗教信仰算不算工具？那么工具癖又算什么呢？&lt;/p&gt;
 
 &lt;p&gt;由此可见，从更大的范围来讲，给工具下定义不是件容易的事。我在这篇文章仅谈论计算机相关的工具。&lt;/p&gt;
@@ -128,10 +128,10 @@
     
     <item>
       <title>专注于内容</title>
-      <link>http://www.xianmin.org/post/03-focus-on-content/</link>
+      <link>https://www.xianmin.org/post/03-focus-on-content/</link>
       <pubDate>Sat, 01 Apr 2017 09:13:20 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/03-focus-on-content/</guid>
+      <guid>https://www.xianmin.org/post/03-focus-on-content/</guid>
       <description>&lt;p&gt;当我们开始做一件事情，首先想一想这件事的核心是什么？然后再想，完成它有哪些方案？哪个方案即便它不够完美，却是自己目前可行的？哪个方案目前不可行，但是自己能够改进的？对于目前不可行，自己又无法改进的方案，暂时搁置，应当先以完成这件事情为主。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -139,10 +139,10 @@
     
     <item>
       <title>主题与markdown语法测试</title>
-      <link>http://www.xianmin.org/post/00-even-theme-preview/</link>
+      <link>https://www.xianmin.org/post/00-even-theme-preview/</link>
       <pubDate>Sun, 01 Jan 2017 18:03:09 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/00-even-theme-preview/</guid>
+      <guid>https://www.xianmin.org/post/00-even-theme-preview/</guid>
       <description>&lt;p&gt;主题与markdown语法测试。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://www.xianmin.org/sitemap.xml
+Sitemap: https://www.xianmin.org/sitemap.xml

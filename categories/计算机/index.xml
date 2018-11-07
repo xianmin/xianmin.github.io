@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>计算机 on 贤民的比特记忆</title>
-    <link>http://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
+    <link>https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
     <description>Recent content in 计算机 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 20 Sep 2018 14:45:00 +0800</lastBuildDate>
     
-	<atom:link href="http://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>我所使用的计算机软件</title>
-      <link>http://www.xianmin.org/post/my-linux-app-list/</link>
+      <link>https://www.xianmin.org/post/my-linux-app-list/</link>
       <pubDate>Thu, 20 Sep 2018 14:45:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/my-linux-app-list/</guid>
+      <guid>https://www.xianmin.org/post/my-linux-app-list/</guid>
       <description>&lt;p&gt;本篇文章将对 &lt;strong&gt;我平时所使用的计算机软件做一个归纳整理&lt;/strong&gt; 。&lt;/p&gt;
 
 &lt;p&gt;我大部分时候使用的操作系统是 &lt;strong&gt;Deepin Linux&lt;/strong&gt; ，因此以下所列出的软件 &lt;strong&gt;也许在 Windows 和 Mac 下并不适用&lt;/strong&gt; 。&lt;/p&gt;
@@ -26,19 +26,19 @@
     
     <item>
       <title>我的搭档 「ThinkPad X230」</title>
-      <link>http://www.xianmin.org/post/thinkpad-x230/</link>
+      <link>https://www.xianmin.org/post/thinkpad-x230/</link>
       <pubDate>Sat, 11 Aug 2018 12:14:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/thinkpad-x230/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+      <guid>https://www.xianmin.org/post/thinkpad-x230/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:60%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/thinkpad-x230.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/thinkpad-x230.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/other/thinkpad-x230.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/other/thinkpad-x230.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -50,21 +50,21 @@
     
     <item>
       <title>linux 下，fcitx 输入法的直角引号设置</title>
-      <link>http://www.xianmin.org/post/linux-fcitx-punc/</link>
+      <link>https://www.xianmin.org/post/linux-fcitx-punc/</link>
       <pubDate>Tue, 07 Aug 2018 23:04:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/linux-fcitx-punc/</guid>
+      <guid>https://www.xianmin.org/post/linux-fcitx-punc/</guid>
       <description>&lt;p&gt;我不确定你有没有遇到过这样的问题，输入一个双引号，它是 &lt;strong&gt;前引号&lt;/strong&gt; 呢，还是 &lt;strong&gt;后引号&lt;/strong&gt; 。也许是字体的缘故，我总得瞪大了眼睛才能分辨的清楚。出于好奇，我上网搜了下，还真有解决办法。最简单的办法就是使用港台的标准，使用直角引号。请看图片：&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/fcitx-punc-01.png&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/fcitx-punc-01.png&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/other/fcitx-punc-01.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/other/fcitx-punc-01.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -74,19 +74,19 @@
     
     <item>
       <title>更好的基于 github issues 的评论系统——utterances</title>
-      <link>http://www.xianmin.org/post/utterances-comment-system/</link>
+      <link>https://www.xianmin.org/post/utterances-comment-system/</link>
       <pubDate>Tue, 10 Jul 2018 14:34:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/utterances-comment-system/</guid>
+      <guid>https://www.xianmin.org/post/utterances-comment-system/</guid>
       <description>背景介绍 基于 github issues 的评论系统，比较流行的有 gitment 和 gitalk 。这两个项目我很早就注意到了，它们明显的缺陷是，当用户如果尝试登录评论，所要求的权限是很多的，</description>
     </item>
     
     <item>
       <title>为 hugo 站点插入豆瓣条目的 shortcode</title>
-      <link>http://www.xianmin.org/post/hugo-shortcode-douban-item/</link>
+      <link>https://www.xianmin.org/post/hugo-shortcode-douban-item/</link>
       <pubDate>Fri, 25 May 2018 15:20:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/hugo-shortcode-douban-item/</guid>
+      <guid>https://www.xianmin.org/post/hugo-shortcode-douban-item/</guid>
       <description>&lt;p&gt;&lt;strong&gt;最终效果：&lt;/strong&gt;
 &lt;div class=&#34;douban_show&#34;&gt;
   &lt;div id=&#34;db9787532132263&#34; date-dbid=&#34;9787532132263&#34; class=&#34;douban_item post-preview&#34;&gt;&lt;/div&gt;
@@ -104,10 +104,10 @@
     
     <item>
       <title>linux 的文件管理器、命令行下，用 emacs 快速打开文件的方法</title>
-      <link>http://www.xianmin.org/post/linux-emacs-quick-open-file/</link>
+      <link>https://www.xianmin.org/post/linux-emacs-quick-open-file/</link>
       <pubDate>Tue, 22 May 2018 21:28:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/linux-emacs-quick-open-file/</guid>
+      <guid>https://www.xianmin.org/post/linux-emacs-quick-open-file/</guid>
       <description>&lt;p&gt;首先要确认 emacs 已经启动，并且开启了 server&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 。如果使用 spacemacs ，server 默认是开启的。这样就可以使用 &lt;code&gt;emacsclient&lt;/code&gt; 命令快速打开文件了。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -115,10 +115,10 @@
     
     <item>
       <title>浅谈「用 git submodule 还是 git subtree」？</title>
-      <link>http://www.xianmin.org/post/git-submodule/</link>
+      <link>https://www.xianmin.org/post/git-submodule/</link>
       <pubDate>Mon, 16 Apr 2018 23:14:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/git-submodule/</guid>
+      <guid>https://www.xianmin.org/post/git-submodule/</guid>
       <description>&lt;p&gt;因为有用 &lt;code&gt;git&lt;/code&gt; 管理 &lt;strong&gt;子项目&lt;/strong&gt; 的需要，我在网上找到了 &lt;code&gt;submodule&lt;/code&gt; 和 &lt;code&gt;subtree&lt;/code&gt; 这两种方法。奇怪的是，有好几篇文章提到用 &lt;code&gt;subtree&lt;/code&gt; 替代 &lt;code&gt;submodule&lt;/code&gt; 。&lt;/p&gt;
 
 &lt;p&gt;比如这两篇：&lt;/p&gt;
@@ -135,10 +135,10 @@
     
     <item>
       <title>博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo</title>
-      <link>http://www.xianmin.org/post/ox-hugo/</link>
+      <link>https://www.xianmin.org/post/ox-hugo/</link>
       <pubDate>Sat, 31 Mar 2018 00:00:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/ox-hugo/</guid>
+      <guid>https://www.xianmin.org/post/ox-hugo/</guid>
       <description>&lt;p&gt;本文将对我个人的博文写作流程 &lt;strong&gt;所用到的工具&lt;/strong&gt; 做一个总结与分享。从标题就可以看出来，主要有这几个工具： &lt;code&gt;emacs&lt;/code&gt;, &lt;code&gt;orgmode&lt;/code&gt; &amp;amp; &lt;code&gt;hugo&lt;/code&gt; ，另外还有两个配合 &lt;code&gt;hugo&lt;/code&gt; 的辅助包 &lt;code&gt;easy-hugo&lt;/code&gt; （可选） &amp;amp; &lt;code&gt;ox-hugo&lt;/code&gt; 。&lt;/p&gt;
 
 &lt;ul&gt;
@@ -153,10 +153,10 @@
     
     <item>
       <title>笔记：有关开源项目</title>
-      <link>http://www.xianmin.org/post/note-opensource-project/</link>
+      <link>https://www.xianmin.org/post/note-opensource-project/</link>
       <pubDate>Tue, 27 Mar 2018 15:47:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/note-opensource-project/</guid>
+      <guid>https://www.xianmin.org/post/note-opensource-project/</guid>
       <description>&lt;p&gt;以下内容是关于怎样参与到开源项目中的一些笔记，基本上摘自网络。&lt;/p&gt;
 
 &lt;h2 id=&#34;参考链接&#34;&gt;参考链接&lt;/h2&gt;
@@ -173,10 +173,10 @@
     
     <item>
       <title>一些 Visual Studio Code 的使用技巧</title>
-      <link>http://www.xianmin.org/post/vscode/</link>
+      <link>https://www.xianmin.org/post/vscode/</link>
       <pubDate>Wed, 10 Jan 2018 00:00:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/vscode/</guid>
+      <guid>https://www.xianmin.org/post/vscode/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 
 &lt;p&gt;&lt;code&gt;Visual Studio Code&lt;/code&gt; （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。&lt;/p&gt;
@@ -194,10 +194,10 @@
     
     <item>
       <title>JavaScript —— this 绑定</title>
-      <link>http://www.xianmin.org/post/javascript-this/</link>
+      <link>https://www.xianmin.org/post/javascript-this/</link>
       <pubDate>Tue, 14 Nov 2017 14:39:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/javascript-this/</guid>
+      <guid>https://www.xianmin.org/post/javascript-this/</guid>
       <description>&lt;p&gt;Google 搜索出来的两个不错的链接：&lt;/p&gt;
 
 &lt;ul&gt;
@@ -212,10 +212,10 @@
     
     <item>
       <title>Linux 下，使用 Git 管理 dotfiles（配置文件）</title>
-      <link>http://www.xianmin.org/post/02-manage-dotfiles/</link>
+      <link>https://www.xianmin.org/post/02-manage-dotfiles/</link>
       <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/02-manage-dotfiles/</guid>
+      <guid>https://www.xianmin.org/post/02-manage-dotfiles/</guid>
       <description>&lt;p&gt;作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code&gt;.&lt;/code&gt; 开头，管它们叫 &lt;code&gt;dotfiles&lt;/code&gt; 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

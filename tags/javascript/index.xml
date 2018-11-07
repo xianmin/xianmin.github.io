@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on 贤民的比特记忆</title>
-    <link>http://www.xianmin.org/tags/javascript/</link>
+    <link>https://www.xianmin.org/tags/javascript/</link>
     <description>Recent content in Javascript on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 14 Nov 2017 14:39:00 +0800</lastBuildDate>
     
-	<atom:link href="http://www.xianmin.org/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.xianmin.org/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>JavaScript —— this 绑定</title>
-      <link>http://www.xianmin.org/post/javascript-this/</link>
+      <link>https://www.xianmin.org/post/javascript-this/</link>
       <pubDate>Tue, 14 Nov 2017 14:39:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/javascript-this/</guid>
+      <guid>https://www.xianmin.org/post/javascript-this/</guid>
       <description>&lt;p&gt;Google 搜索出来的两个不错的链接：&lt;/p&gt;
 
 &lt;ul&gt;

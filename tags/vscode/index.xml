@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vscode on 贤民的比特记忆</title>
-    <link>http://www.xianmin.org/tags/vscode/</link>
+    <link>https://www.xianmin.org/tags/vscode/</link>
     <description>Recent content in Vscode on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 10 Jan 2018 00:00:00 +0800</lastBuildDate>
     
-	<atom:link href="http://www.xianmin.org/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.xianmin.org/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>一些 Visual Studio Code 的使用技巧</title>
-      <link>http://www.xianmin.org/post/vscode/</link>
+      <link>https://www.xianmin.org/post/vscode/</link>
       <pubDate>Wed, 10 Jan 2018 00:00:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/vscode/</guid>
+      <guid>https://www.xianmin.org/post/vscode/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 
 &lt;p&gt;&lt;code&gt;Visual Studio Code&lt;/code&gt; （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。&lt;/p&gt;

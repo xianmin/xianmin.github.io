@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on 贤民的比特记忆</title>
-    <link>http://www.xianmin.org/tags/git/</link>
+    <link>https://www.xianmin.org/tags/git/</link>
     <description>Recent content in Git on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 16 Apr 2018 23:14:00 +0800</lastBuildDate>
     
-	<atom:link href="http://www.xianmin.org/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.xianmin.org/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>浅谈「用 git submodule 还是 git subtree」？</title>
-      <link>http://www.xianmin.org/post/git-submodule/</link>
+      <link>https://www.xianmin.org/post/git-submodule/</link>
       <pubDate>Mon, 16 Apr 2018 23:14:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/git-submodule/</guid>
+      <guid>https://www.xianmin.org/post/git-submodule/</guid>
       <description>&lt;p&gt;因为有用 &lt;code&gt;git&lt;/code&gt; 管理 &lt;strong&gt;子项目&lt;/strong&gt; 的需要，我在网上找到了 &lt;code&gt;submodule&lt;/code&gt; 和 &lt;code&gt;subtree&lt;/code&gt; 这两种方法。奇怪的是，有好几篇文章提到用 &lt;code&gt;subtree&lt;/code&gt; 替代 &lt;code&gt;submodule&lt;/code&gt; 。&lt;/p&gt;
 
 &lt;p&gt;比如这两篇：&lt;/p&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>糟糕的项目管理新手</title>
-      <link>http://www.xianmin.org/post/i-am-a-bad-project-manager/</link>
+      <link>https://www.xianmin.org/post/i-am-a-bad-project-manager/</link>
       <pubDate>Tue, 03 Apr 2018 15:40:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/i-am-a-bad-project-manager/</guid>
+      <guid>https://www.xianmin.org/post/i-am-a-bad-project-manager/</guid>
       <description>&lt;p&gt;最近， &lt;code&gt;hugo-theme-jane&lt;/code&gt; 收到了几位朋友的 PR ，我作为这个项目的管理者，在处理 PR 上遇到了问题：有个别 PR 比较简单，我就直接在 github 后台操作合并，然后 &lt;code&gt;git pull&lt;/code&gt; 到本地。我想的是本地 master 直接从远程仓库抓取到最新版，但奇怪的是居然有一个合并请求，并且多了一个合并的 commit 。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -44,10 +44,10 @@
     
     <item>
       <title>Linux 下，使用 Git 管理 dotfiles（配置文件）</title>
-      <link>http://www.xianmin.org/post/02-manage-dotfiles/</link>
+      <link>https://www.xianmin.org/post/02-manage-dotfiles/</link>
       <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/02-manage-dotfiles/</guid>
+      <guid>https://www.xianmin.org/post/02-manage-dotfiles/</guid>
       <description>&lt;p&gt;作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code&gt;.&lt;/code&gt; 开头，管它们叫 &lt;code&gt;dotfiles&lt;/code&gt; 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

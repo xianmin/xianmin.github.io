@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>贤民的比特记忆</title>
-    <link>http://www.xianmin.org/</link>
+    <link>https://www.xianmin.org/</link>
     <description>Recent content on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 31 Oct 2018 15:15:00 +0800</lastBuildDate>
     
-        <atom:link href="http://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>记录： 2018 年 10 月 - 音乐会</title>
-      <link>http://www.xianmin.org/post/review-2018-10/</link>
+      <link>https://www.xianmin.org/post/review-2018-10/</link>
       <pubDate>Wed, 31 Oct 2018 15:15:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/review-2018-10/</guid>
+      <guid>https://www.xianmin.org/post/review-2018-10/</guid>
       
         <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1000.jpg&#34; alt=&#34;我们旅舍二楼的风景&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/1000.jpg&#34; alt=&#34;我们旅舍二楼的风景&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/1000.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/1000.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;玉龙雪山&lt;/h4&gt;
           &lt;p&gt;我们旅舍二楼的风景&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -175,10 +175,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1001.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1001.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/1001.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/1001.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/1001.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/1001.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;带队徒步去文海&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -189,10 +189,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1002.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1002.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/1002.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/1002.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/1002.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/1002.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;和忠哥在山顶合影&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -203,10 +203,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1003.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1003.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/1003.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/1003.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/1003.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/1003.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;山顶的风光&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -217,10 +217,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1004.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1004.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/1004.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/1004.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/1004.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/1004.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;翟嘉铭演出&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -231,10 +231,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1005.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1005.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/1005.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/1005.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/1005.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/1005.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;嘉宾小姐姐&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -245,10 +245,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1006.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1006.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/1006.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/1006.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/1006.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/1006.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;嘉宾小鱼&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -259,10 +259,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1007.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1007.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/1007.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/1007.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/1007.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/1007.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;一群人围着篝火&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -273,10 +273,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1008.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1008.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/1008.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/1008.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/1008.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/1008.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;东边日出，西边月落&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -289,10 +289,10 @@
     
     <item>
       <title>浅谈冥想（或者说正念）——反抗痛苦的方法</title>
-      <link>http://www.xianmin.org/post/talk-about-mindfulness/</link>
+      <link>https://www.xianmin.org/post/talk-about-mindfulness/</link>
       <pubDate>Fri, 12 Oct 2018 08:06:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/talk-about-mindfulness/</guid>
+      <guid>https://www.xianmin.org/post/talk-about-mindfulness/</guid>
       
         <description>&lt;p&gt;这一年多，「冥想」对我的帮助非常大。主要体现在：&lt;/p&gt;
 
@@ -482,22 +482,22 @@
     
     <item>
       <title>记录： 2018 年 9 月 - 专注两个身份</title>
-      <link>http://www.xianmin.org/post/review-2018-09/</link>
+      <link>https://www.xianmin.org/post/review-2018-09/</link>
       <pubDate>Sun, 30 Sep 2018 14:40:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/review-2018-09/</guid>
+      <guid>https://www.xianmin.org/post/review-2018-09/</guid>
       
         <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0908.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0908.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0908.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0908.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;那里中秋的月亮&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -605,10 +605,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0900.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0900.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/0900.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0900.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0900.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0900.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;钟老师和彪哥在聊天&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -619,10 +619,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0901.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0901.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/0901.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0901.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0901.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0901.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;我躲在管道里避雨&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -633,10 +633,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0902.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0902.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/0902.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0902.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0902.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0902.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;中秋的月亮&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -647,10 +647,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0903.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0903.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/0903.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0903.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0903.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0903.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;和阿伟去看车&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -661,10 +661,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0904.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0904.jpg&#34; alt=&#34;那天和李想骑车经过&#34;/&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/0904.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0904.jpg&#34; alt=&#34;那天和李想骑车经过&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0904.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0904.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;湖边&lt;/h4&gt;
           &lt;p&gt;那天和李想骑车经过&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -676,10 +676,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0905.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0905.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/0905.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0905.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0905.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0905.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;下半年第一次生火&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -690,10 +690,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0906.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0906.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/0906.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0906.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0906.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0906.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;中秋活动包饺子&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -704,10 +704,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0907.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0907.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/0907.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0907.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0907.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0907.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;汪阿姨擀皮&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -718,10 +718,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0909.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0909.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/0909.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0909.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0909.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0909.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;针灸，一整根针穿过手臂&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -734,10 +734,10 @@
     
     <item>
       <title>英语学习方法总结 —— 2018 年 9 月</title>
-      <link>http://www.xianmin.org/post/plan-english-2018/</link>
+      <link>https://www.xianmin.org/post/plan-english-2018/</link>
       <pubDate>Fri, 28 Sep 2018 22:38:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/plan-english-2018/</guid>
+      <guid>https://www.xianmin.org/post/plan-english-2018/</guid>
       
         <description>
 
@@ -839,14 +839,14 @@
 &lt;p&gt;值得一提的是，用 git 来管理写作内容有很大的好处。比如在 Github 上可以直观的显示修改前后的对比：&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/plan-english-2018.png&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/plan-english-2018.png&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/other/plan-english-2018.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/other/plan-english-2018.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -886,10 +886,10 @@
     
     <item>
       <title>我所使用的计算机软件</title>
-      <link>http://www.xianmin.org/post/my-linux-app-list/</link>
+      <link>https://www.xianmin.org/post/my-linux-app-list/</link>
       <pubDate>Thu, 20 Sep 2018 14:45:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/my-linux-app-list/</guid>
+      <guid>https://www.xianmin.org/post/my-linux-app-list/</guid>
       
         <description>&lt;p&gt;本篇文章将对 &lt;strong&gt;我平时所使用的计算机软件做一个归纳整理&lt;/strong&gt; 。&lt;/p&gt;
 
@@ -933,10 +933,10 @@
     
     <item>
       <title>记录： 2018 年 8 月 - 开始</title>
-      <link>http://www.xianmin.org/post/review-2018-08/</link>
+      <link>https://www.xianmin.org/post/review-2018-08/</link>
       <pubDate>Sun, 02 Sep 2018 20:57:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/review-2018-08/</guid>
+      <guid>https://www.xianmin.org/post/review-2018-08/</guid>
       
         <description>&lt;p&gt;上个月发生了太多事情。我想从本月开始，对每个月度做点记录，算是总结与回顾吧。&lt;/p&gt;
 
@@ -997,14 +997,14 @@
 &lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
     
   
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0800.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0800.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/0800.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0800.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0800.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0800.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;与喜咪一家合影&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1015,10 +1015,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0801.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0801.jpg&#34; alt=&#34;掉毛掉的厉害，干脆全剃了。咱乡下人都是自己动手，还弄了个简单的造型。&#34;/&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/0801.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0801.jpg&#34; alt=&#34;掉毛掉的厉害，干脆全剃了。咱乡下人都是自己动手，还弄了个简单的造型。&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0801.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0801.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;剃毛后的卡卡&lt;/h4&gt;
           &lt;p&gt;掉毛掉的厉害，干脆全剃了。咱乡下人都是自己动手，还弄了个简单的造型。&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -1030,10 +1030,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0803.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0803.jpg&#34; alt=&#34;H 把小光头带走了&#34;/&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/0803.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0803.jpg&#34; alt=&#34;H 把小光头带走了&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0803.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0803.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;小光头&lt;/h4&gt;
           &lt;p&gt;H 把小光头带走了&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -1045,10 +1045,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0804.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0804.jpg&#34; alt=&#34;大家一起干活儿&#34;/&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/0804.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0804.jpg&#34; alt=&#34;大家一起干活儿&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0804.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0804.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;修剪爬藤&lt;/h4&gt;
           &lt;p&gt;大家一起干活儿&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -1060,10 +1060,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0805.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0805.jpg&#34; alt=&#34;到野外采了一大袋地木耳，凉拌很好吃。&#34;/&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/0805.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0805.jpg&#34; alt=&#34;到野外采了一大袋地木耳，凉拌很好吃。&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0805.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0805.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;地木耳&lt;/h4&gt;
           &lt;p&gt;到野外采了一大袋地木耳，凉拌很好吃。&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -1075,10 +1075,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0806.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0806.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/memory/2018/0806.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0806.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/memory/2018/0806.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0806.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;海哥杀鱼&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1089,10 +1089,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/00.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/00.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/shaxi-oldtown/00.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/shaxi-oldtown/00.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/shaxi-oldtown/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/shaxi-oldtown/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;沙溪古戏台 2018 年 8 月&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1103,10 +1103,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/01.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/01.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/shaxi-oldtown/01.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/shaxi-oldtown/01.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/shaxi-oldtown/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/shaxi-oldtown/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;我在白龙潭边&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1129,19 +1129,19 @@
     
     <item>
       <title>月底去了一趟沙溪古镇</title>
-      <link>http://www.xianmin.org/post/shaxi-oldtown-5/</link>
+      <link>https://www.xianmin.org/post/shaxi-oldtown-5/</link>
       <pubDate>Fri, 31 Aug 2018 19:00:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/shaxi-oldtown-5/</guid>
+      <guid>https://www.xianmin.org/post/shaxi-oldtown-5/</guid>
       
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/00.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/shaxi-oldtown/00.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/shaxi-oldtown/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/shaxi-oldtown/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;沙溪古戏台 2018 年 8 月&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1160,9 +1160,9 @@
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/06.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/shaxi-oldtown/06.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/shaxi-oldtown/06.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/shaxi-oldtown/06.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;与喜咪合影&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1187,10 +1187,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/01.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/01.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/shaxi-oldtown/01.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/shaxi-oldtown/01.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/shaxi-oldtown/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/shaxi-oldtown/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;我在白龙潭边&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1201,10 +1201,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/02.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/02.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/shaxi-oldtown/02.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/shaxi-oldtown/02.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/shaxi-oldtown/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/shaxi-oldtown/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;戏台前的大树&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1215,10 +1215,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/03.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/03.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/shaxi-oldtown/03.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/shaxi-oldtown/03.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/shaxi-oldtown/03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/shaxi-oldtown/03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;玉津桥 2018 年 8 月&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1229,10 +1229,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/04.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/04.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/shaxi-oldtown/04.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/shaxi-oldtown/04.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/shaxi-oldtown/04.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/shaxi-oldtown/04.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;东寨门&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1243,10 +1243,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/05.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/05.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/shaxi-oldtown/05.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/shaxi-oldtown/05.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/shaxi-oldtown/05.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/shaxi-oldtown/05.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;古镇的石板路&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1257,10 +1257,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/07.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/07.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/shaxi-oldtown/07.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/shaxi-oldtown/07.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/shaxi-oldtown/07.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/shaxi-oldtown/07.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;宝相寺的国旗&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1271,10 +1271,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/08.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/08.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/shaxi-oldtown/08.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/shaxi-oldtown/08.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/shaxi-oldtown/08.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/shaxi-oldtown/08.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;张哥家地里的土豆&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1285,10 +1285,10 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/09.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/09.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/shaxi-oldtown/09.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/shaxi-oldtown/09.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/shaxi-oldtown/09.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/shaxi-oldtown/09.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;在张哥家吃饭&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1301,10 +1301,10 @@
     
     <item>
       <title>捍卫开放的互联网</title>
-      <link>http://www.xianmin.org/post/defend-the-open-internet/</link>
+      <link>https://www.xianmin.org/post/defend-the-open-internet/</link>
       <pubDate>Tue, 21 Aug 2018 00:00:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/defend-the-open-internet/</guid>
+      <guid>https://www.xianmin.org/post/defend-the-open-internet/</guid>
       
         <description>&lt;p&gt;直奔主题，我在 github 上发起了一个组织 &lt;strong&gt;「复兴 RSS」&lt;/strong&gt; ——&lt;a href=&#34;https://github.com/RSS-Renaissance&#34;&gt; RSS-Renaissance&lt;/a&gt; ，并创建了一个项目 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; ，这篇文章旨在宣传这个组织和项目，让更多人，尤其是年轻人知道 RSS，知道在互联网上有这么一批 &lt;strong&gt;独立博客&lt;/strong&gt; ，并促进「独立博客」们的互动。此外，本文还将提供一个可操作的方法，让更多的 &lt;strong&gt;独立博客&lt;/strong&gt; 加入到列表当中。&lt;/p&gt;
 
@@ -1313,15 +1313,15 @@
 &lt;p&gt;如果看到这篇文章的你，对我发起的组织和项目感兴趣，不妨加我的微信，我想建立一个「独立博客博主」交流群，互相交流意见。加我时麻烦你备注一下，比如「独立博客 + 你的博客网址」。我的微信二维码：&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:60%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/wechat.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/wechat.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/wechat.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/wechat.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -1463,10 +1463,10 @@
     
     <item>
       <title>一位哥伦比亚作家在中国</title>
-      <link>http://www.xianmin.org/post/a-colombian-in-china/</link>
+      <link>https://www.xianmin.org/post/a-colombian-in-china/</link>
       <pubDate>Sun, 12 Aug 2018 20:41:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/a-colombian-in-china/</guid>
+      <guid>https://www.xianmin.org/post/a-colombian-in-china/</guid>
       
         <description>&lt;p&gt;John 是哥伦比亚人，上个月住进了我们旅舍，明天他就要搬走了。他长期带着一个宽沿帽子，六十多岁，也许是保持健身的缘故，身材很壮实，精神状态很好，在中国生活了二十几年。&lt;/p&gt;
 
@@ -1549,20 +1549,20 @@
     
     <item>
       <title>我的搭档 「ThinkPad X230」</title>
-      <link>http://www.xianmin.org/post/thinkpad-x230/</link>
+      <link>https://www.xianmin.org/post/thinkpad-x230/</link>
       <pubDate>Sat, 11 Aug 2018 12:14:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/thinkpad-x230/</guid>
+      <guid>https://www.xianmin.org/post/thinkpad-x230/</guid>
       
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:60%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/thinkpad-x230.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/thinkpad-x230.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/other/thinkpad-x230.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/other/thinkpad-x230.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -1579,22 +1579,22 @@
     
     <item>
       <title>linux 下，fcitx 输入法的直角引号设置</title>
-      <link>http://www.xianmin.org/post/linux-fcitx-punc/</link>
+      <link>https://www.xianmin.org/post/linux-fcitx-punc/</link>
       <pubDate>Tue, 07 Aug 2018 23:04:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/linux-fcitx-punc/</guid>
+      <guid>https://www.xianmin.org/post/linux-fcitx-punc/</guid>
       
         <description>&lt;p&gt;我不确定你有没有遇到过这样的问题，输入一个双引号，它是 &lt;strong&gt;前引号&lt;/strong&gt; 呢，还是 &lt;strong&gt;后引号&lt;/strong&gt; 。也许是字体的缘故，我总得瞪大了眼睛才能分辨的清楚。出于好奇，我上网搜了下，还真有解决办法。最简单的办法就是使用港台的标准，使用直角引号。请看图片：&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/fcitx-punc-01.png&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/fcitx-punc-01.png&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/other/fcitx-punc-01.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/other/fcitx-punc-01.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -1623,9 +1623,9 @@
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/fcitx-punc-02.png&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/fcitx-punc-02.png&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/other/fcitx-punc-02.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/other/fcitx-punc-02.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;以上是双引号&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1638,9 +1638,9 @@
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/fcitx-punc-03.png&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/fcitx-punc-03.png&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/other/fcitx-punc-03.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/other/fcitx-punc-03.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;以上是直角引号&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1700,10 +1700,10 @@
     
     <item>
       <title>《易中天中华史》读后感（一）——身为中国人</title>
-      <link>http://www.xianmin.org/post/yizhongtian-chinese-history-1/</link>
+      <link>https://www.xianmin.org/post/yizhongtian-chinese-history-1/</link>
       <pubDate>Mon, 30 Jul 2018 19:51:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/yizhongtian-chinese-history-1/</guid>
+      <guid>https://www.xianmin.org/post/yizhongtian-chinese-history-1/</guid>
       
         <description>&lt;div class=&#34;douban_show&#34;&gt;
   &lt;div id=&#34;db9787533938420&#34; date-dbid=&#34;9787533938420&#34; class=&#34;douban_item post-preview&#34;&gt;&lt;/div&gt;
@@ -1806,10 +1806,10 @@
     
     <item>
       <title>更好的基于 github issues 的评论系统——utterances</title>
-      <link>http://www.xianmin.org/post/utterances-comment-system/</link>
+      <link>https://www.xianmin.org/post/utterances-comment-system/</link>
       <pubDate>Tue, 10 Jul 2018 14:34:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/utterances-comment-system/</guid>
+      <guid>https://www.xianmin.org/post/utterances-comment-system/</guid>
       
         <description>
 
@@ -1852,10 +1852,10 @@
     
     <item>
       <title>因为贫穷的缘故</title>
-      <link>http://www.xianmin.org/post/because-of-poverty/</link>
+      <link>https://www.xianmin.org/post/because-of-poverty/</link>
       <pubDate>Fri, 06 Jul 2018 21:36:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/because-of-poverty/</guid>
+      <guid>https://www.xianmin.org/post/because-of-poverty/</guid>
       
         <description>&lt;p&gt;最近一个多月比较忙。店里的事情，接待客人，接待朋友，接待团队，还有办理证件。另外，和一个朋友合作，做几个微信公众号的项目，也算是开了些眼界。这种忙碌，如果换在大城市，估计算不了什么。只是过惯了在乡下自由散漫的日子，还是会觉得，哎呀，有点儿忙啊。因为贫穷的缘故吧，想着多做点事儿，能多挣些钱，钱也没挣多少，反倒更焦虑了。&lt;/p&gt;
 
@@ -1869,10 +1869,10 @@
     
     <item>
       <title>为 hugo 站点插入豆瓣条目的 shortcode</title>
-      <link>http://www.xianmin.org/post/hugo-shortcode-douban-item/</link>
+      <link>https://www.xianmin.org/post/hugo-shortcode-douban-item/</link>
       <pubDate>Fri, 25 May 2018 15:20:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/hugo-shortcode-douban-item/</guid>
+      <guid>https://www.xianmin.org/post/hugo-shortcode-douban-item/</guid>
       
         <description>&lt;p&gt;&lt;strong&gt;最终效果：&lt;/strong&gt;
 &lt;div class=&#34;douban_show&#34;&gt;
@@ -2304,14 +2304,14 @@
 &lt;p&gt;保存图片为 &lt;code&gt;/static/image/douban_star.png&lt;/code&gt;&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/douban_star.png&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/douban_star.png&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/douban_star.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/douban_star.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -2342,10 +2342,10 @@
     
     <item>
       <title>linux 的文件管理器、命令行下，用 emacs 快速打开文件的方法</title>
-      <link>http://www.xianmin.org/post/linux-emacs-quick-open-file/</link>
+      <link>https://www.xianmin.org/post/linux-emacs-quick-open-file/</link>
       <pubDate>Tue, 22 May 2018 21:28:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/linux-emacs-quick-open-file/</guid>
+      <guid>https://www.xianmin.org/post/linux-emacs-quick-open-file/</guid>
       
         <description>&lt;p&gt;首先要确认 emacs 已经启动，并且开启了 server&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 。如果使用 spacemacs ，server 默认是开启的。这样就可以使用 &lt;code&gt;emacsclient&lt;/code&gt; 命令快速打开文件了。&lt;/p&gt;
 
@@ -2411,14 +2411,14 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;p&gt;这样我们就添加了一个名为 &lt;code&gt;Edit with Emacs&lt;/code&gt; 的程序，同时在文件管理器中，就可以用这个程序打开文件了。并且可以为特定的后缀，比如 &lt;code&gt;.org&lt;/code&gt; 文件，设置 &lt;strong&gt;默认打开程序&lt;/strong&gt; 为 &lt;code&gt;Edit with Emacs&lt;/code&gt; 。&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/gif/linux-emacsclient-quick-open-file.gif&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/gif/linux-emacsclient-quick-open-file.gif&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/other/gif/linux-emacsclient-quick-open-file.gif&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/other/gif/linux-emacsclient-quick-open-file.gif&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -2436,10 +2436,10 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
     
     <item>
       <title>正念日</title>
-      <link>http://www.xianmin.org/post/days-of-mindfulness/</link>
+      <link>https://www.xianmin.org/post/days-of-mindfulness/</link>
       <pubDate>Sun, 20 May 2018 20:31:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/days-of-mindfulness/</guid>
+      <guid>https://www.xianmin.org/post/days-of-mindfulness/</guid>
       
         <description>&lt;p&gt;今天是正念日。早上7点的闹钟响起，起床，洗漱，煮上一锅粥，站桩半个小时，吃早饭。吃完早饭，开始收拾房间。随意乱放的衣物整理到衣柜，把脏了的衣物洗净晾晒。没用的纸盒垃圾一并丢弃。最后，用抹布把整个房间擦一遍。有的时候状态不佳、杂念丛生，打扫的过程中会感有些许烦躁，但完成整个过程，看到自己收拾整齐的房间，至少会有小小的成就感。这是我个人的修行。&lt;/p&gt;
 
@@ -2466,19 +2466,19 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
     
     <item>
       <title>怒江行记（六）——终点丙中洛</title>
-      <link>http://www.xianmin.org/post/nujiang-05/</link>
+      <link>https://www.xianmin.org/post/nujiang-05/</link>
       <pubDate>Sat, 12 May 2018 09:58:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/nujiang-05/</guid>
+      <guid>https://www.xianmin.org/post/nujiang-05/</guid>
       
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/05/02.jpg&#34; alt=&#34;这是从丙中洛进藏必经的桥，一座废弃的，一座在用的，一座新修的。&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/05/02.jpg&#34; alt=&#34;这是从丙中洛进藏必经的桥，一座废弃的，一座在用的，一座新修的。&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/05/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/05/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;三座桥&lt;/h4&gt;
           &lt;p&gt;这是从丙中洛进藏必经的桥，一座废弃的，一座在用的，一座新修的。&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -2502,9 +2502,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/05/00.png&#34; alt=&#34;大流沙&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/05/00.png&#34; alt=&#34;大流沙&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/05/00.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/05/00.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
           &lt;p&gt;大流沙&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -2522,10 +2522,10 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/05/01.png&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/05/01.png&#34; alt=&#34;卫星地图上的大流沙&#34;/&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/nujiang/05/01.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/05/01.png&#34; alt=&#34;卫星地图上的大流沙&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/05/01.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/05/01.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
           &lt;p&gt;卫星地图上的大流沙&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -2537,10 +2537,10 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/05/03.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/05/03.jpg&#34; alt=&#34;露营&#34;/&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/nujiang/05/03.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/05/03.jpg&#34; alt=&#34;露营&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/05/03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/05/03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
           &lt;p&gt;露营&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -2552,10 +2552,10 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/05/04.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/05/04.jpg&#34; alt=&#34;经过的桥&#34;/&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/nujiang/05/04.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/05/04.jpg&#34; alt=&#34;经过的桥&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/05/04.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/05/04.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
           &lt;p&gt;经过的桥&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -2592,17 +2592,17 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
       
         
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-00/&#34;&gt;怒江行记（一）——写在前面&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-00/&#34;&gt;怒江行记（一）——写在前面&lt;/a&gt;&lt;/li&gt;
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-01/&#34;&gt;怒江行记（二）——第一次走出国门&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-01/&#34;&gt;怒江行记（二）——第一次走出国门&lt;/a&gt;&lt;/li&gt;
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-02/&#34;&gt;怒江行记（三）——废城知子罗&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-02/&#34;&gt;怒江行记（三）——废城知子罗&lt;/a&gt;&lt;/li&gt;
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-03/&#34;&gt;怒江行记（四）——原始森林亚坪&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-03/&#34;&gt;怒江行记（四）——原始森林亚坪&lt;/a&gt;&lt;/li&gt;
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-04/&#34;&gt;怒江行记（五）——探秘独龙江&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-04/&#34;&gt;怒江行记（五）——探秘独龙江&lt;/a&gt;&lt;/li&gt;
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-05/&#34;&gt;怒江行记（六）——终点丙中洛&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-05/&#34;&gt;怒江行记（六）——终点丙中洛&lt;/a&gt;&lt;/li&gt;
           
         
       
@@ -2626,19 +2626,19 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
     
     <item>
       <title>怒江行记（五）——探秘独龙江</title>
-      <link>http://www.xianmin.org/post/nujiang-04/</link>
+      <link>https://www.xianmin.org/post/nujiang-04/</link>
       <pubDate>Wed, 09 May 2018 15:25:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/nujiang-04/</guid>
+      <guid>https://www.xianmin.org/post/nujiang-04/</guid>
       
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/04/00.jpeg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/04/00.jpeg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/04/00.jpeg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/04/00.jpeg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -2653,9 +2653,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/04/02.jpg&#34; alt=&#34;教师节活动&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/04/02.jpg&#34; alt=&#34;教师节活动&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/04/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/04/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
           &lt;p&gt;教师节活动&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -2669,9 +2669,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/04/04.jpg&#34; alt=&#34;独龙牛&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/04/04.jpg&#34; alt=&#34;独龙牛&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/04/04.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/04/04.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
           &lt;p&gt;独龙牛&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -2699,10 +2699,10 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/04/01.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/04/01.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/nujiang/04/01.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/04/01.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/04/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/04/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -2711,10 +2711,10 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/04/03.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/04/03.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/nujiang/04/03.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/04/03.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/04/03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/04/03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -2723,10 +2723,10 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/04/06.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/04/06.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/nujiang/04/06.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/04/06.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/04/06.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/04/06.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -2760,17 +2760,17 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
       
         
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-00/&#34;&gt;怒江行记（一）——写在前面&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-00/&#34;&gt;怒江行记（一）——写在前面&lt;/a&gt;&lt;/li&gt;
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-01/&#34;&gt;怒江行记（二）——第一次走出国门&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-01/&#34;&gt;怒江行记（二）——第一次走出国门&lt;/a&gt;&lt;/li&gt;
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-02/&#34;&gt;怒江行记（三）——废城知子罗&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-02/&#34;&gt;怒江行记（三）——废城知子罗&lt;/a&gt;&lt;/li&gt;
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-03/&#34;&gt;怒江行记（四）——原始森林亚坪&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-03/&#34;&gt;怒江行记（四）——原始森林亚坪&lt;/a&gt;&lt;/li&gt;
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-04/&#34;&gt;怒江行记（五）——探秘独龙江&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-04/&#34;&gt;怒江行记（五）——探秘独龙江&lt;/a&gt;&lt;/li&gt;
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-05/&#34;&gt;怒江行记（六）——终点丙中洛&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-05/&#34;&gt;怒江行记（六）——终点丙中洛&lt;/a&gt;&lt;/li&gt;
           
         
       
@@ -2806,19 +2806,19 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
     
     <item>
       <title>怒江行记（四）——原始森林亚坪</title>
-      <link>http://www.xianmin.org/post/nujiang-03/</link>
+      <link>https://www.xianmin.org/post/nujiang-03/</link>
       <pubDate>Sun, 06 May 2018 11:11:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/nujiang-03/</guid>
+      <guid>https://www.xianmin.org/post/nujiang-03/</guid>
       
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/03/00.jpg&#34; alt=&#34;走进原始森林&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/03/00.jpg&#34; alt=&#34;走进原始森林&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/03/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/03/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
           &lt;p&gt;走进原始森林&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -2840,9 +2840,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/03/02.jpg&#34; alt=&#34;运不出去的粗壮木头&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/03/02.jpg&#34; alt=&#34;运不出去的粗壮木头&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/03/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/03/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
           &lt;p&gt;运不出去的粗壮木头&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -2856,9 +2856,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/03/01.jpg&#34; alt=&#34;神根，网络上找的&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/03/01.jpg&#34; alt=&#34;神根，网络上找的&#34;/&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/03/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/03/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
           &lt;p&gt;神根，网络上找的&lt;/p&gt;
       &lt;/figcaption&gt;
@@ -2880,10 +2880,10 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/03/03.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/03/03.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/nujiang/03/03.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/03/03.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/03/03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/03/03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -2892,10 +2892,10 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/03/04.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/03/04.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/nujiang/03/04.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/03/04.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/03/04.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/03/04.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -2904,10 +2904,10 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/03/05.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/03/05.jpg&#34; /&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.xianmin.org/image/nujiang/03/05.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/03/05.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.xianmin.org/image/nujiang/03/05.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/03/05.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -2941,17 +2941,17 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
       
         
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-00/&#34;&gt;怒江行记（一）——写在前面&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-00/&#34;&gt;怒江行记（一）——写在前面&lt;/a&gt;&lt;/li&gt;
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-01/&#34;&gt;怒江行记（二）——第一次走出国门&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-01/&#34;&gt;怒江行记（二）——第一次走出国门&lt;/a&gt;&lt;/li&gt;
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-02/&#34;&gt;怒江行记（三）——废城知子罗&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-02/&#34;&gt;怒江行记（三）——废城知子罗&lt;/a&gt;&lt;/li&gt;
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-03/&#34;&gt;怒江行记（四）——原始森林亚坪&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-03/&#34;&gt;怒江行记（四）——原始森林亚坪&lt;/a&gt;&lt;/li&gt;
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-04/&#34;&gt;怒江行记（五）——探秘独龙江&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-04/&#34;&gt;怒江行记（五）——探秘独龙江&lt;/a&gt;&lt;/li&gt;
           
-            &lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/nujiang-05/&#34;&gt;怒江行记（六）——终点丙中洛&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/nujiang-05/&#34;&gt;怒江行记（六）——终点丙中洛&lt;/a&gt;&lt;/li&gt;
           
         
       

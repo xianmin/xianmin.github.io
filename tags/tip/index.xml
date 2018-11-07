@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tip on 贤民的比特记忆</title>
-    <link>http://www.xianmin.org/tags/tip/</link>
+    <link>https://www.xianmin.org/tags/tip/</link>
     <description>Recent content in Tip on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 10 Jul 2018 14:34:00 +0800</lastBuildDate>
     
-	<atom:link href="http://www.xianmin.org/tags/tip/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.xianmin.org/tags/tip/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>更好的基于 github issues 的评论系统——utterances</title>
-      <link>http://www.xianmin.org/post/utterances-comment-system/</link>
+      <link>https://www.xianmin.org/post/utterances-comment-system/</link>
       <pubDate>Tue, 10 Jul 2018 14:34:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/utterances-comment-system/</guid>
+      <guid>https://www.xianmin.org/post/utterances-comment-system/</guid>
       <description>背景介绍 基于 github issues 的评论系统，比较流行的有 gitment 和 gitalk 。这两个项目我很早就注意到了，它们明显的缺陷是，当用户如果尝试登录评论，所要求的权限是很多的，</description>
     </item>
     
     <item>
       <title>linux 的文件管理器、命令行下，用 emacs 快速打开文件的方法</title>
-      <link>http://www.xianmin.org/post/linux-emacs-quick-open-file/</link>
+      <link>https://www.xianmin.org/post/linux-emacs-quick-open-file/</link>
       <pubDate>Tue, 22 May 2018 21:28:00 +0800</pubDate>
       
-      <guid>http://www.xianmin.org/post/linux-emacs-quick-open-file/</guid>
+      <guid>https://www.xianmin.org/post/linux-emacs-quick-open-file/</guid>
       <description>&lt;p&gt;首先要确认 emacs 已经启动，并且开启了 server&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 。如果使用 spacemacs ，server 默认是开启的。这样就可以使用 &lt;code&gt;emacsclient&lt;/code&gt; 命令快速打开文件了。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
