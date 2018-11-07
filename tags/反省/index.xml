@@ -21,8 +21,9 @@
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1000.jpg&#34; alt=&#34;我们旅舍二楼的风景&#34;/&gt;
     &lt;/div&gt;
@@ -47,8 +48,9 @@
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0908.jpg&#34; /&gt;
     &lt;/div&gt;

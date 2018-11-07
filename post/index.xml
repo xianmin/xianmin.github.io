@@ -21,8 +21,9 @@
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1000.jpg&#34; alt=&#34;我们旅舍二楼的风景&#34;/&gt;
     &lt;/div&gt;
@@ -83,8 +84,9 @@
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0908.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -138,8 +140,9 @@
       
       <guid>http://www.xianmin.org/post/shaxi-oldtown-5/</guid>
       <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/00.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -169,8 +172,10 @@
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; style=&#34;max-width:60%&#34;&gt;
-  &lt;figure class=&#34;center&#34; itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/wechat.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -200,8 +205,10 @@
       
       <guid>http://www.xianmin.org/post/thinkpad-x230/</guid>
       <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; style=&#34;max-width:60%&#34;&gt;
-  &lt;figure class=&#34;center&#34; itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/thinkpad-x230.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -225,8 +232,9 @@
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/fcitx-punc-01.png&#34; /&gt;
     &lt;/div&gt;
@@ -322,8 +330,9 @@
       
       <guid>http://www.xianmin.org/post/nujiang-05/</guid>
       <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/05/02.jpg&#34; alt=&#34;这是从丙中洛进藏必经的桥，一座废弃的，一座在用的，一座新修的。&#34;/&gt;
     &lt;/div&gt;
@@ -347,8 +356,9 @@
       
       <guid>http://www.xianmin.org/post/nujiang-04/</guid>
       <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/04/00.jpeg&#34; /&gt;
     &lt;/div&gt;
@@ -369,8 +379,9 @@
       
       <guid>http://www.xianmin.org/post/nujiang-03/</guid>
       <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/03/00.jpg&#34; alt=&#34;走进原始森林&#34;/&gt;
     &lt;/div&gt;

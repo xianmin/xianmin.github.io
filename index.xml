@@ -22,8 +22,9 @@
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1000.jpg&#34; alt=&#34;我们旅舍二楼的风景&#34;/&gt;
     &lt;/div&gt;
@@ -171,8 +172,9 @@
     
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1001.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1001.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -184,8 +186,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1002.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1002.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -197,8 +200,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1003.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1003.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -210,8 +214,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1004.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1004.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -223,8 +228,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1005.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1005.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -236,8 +242,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1006.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1006.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -249,8 +256,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1007.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1007.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -262,8 +270,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/1008.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/1008.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -482,8 +491,9 @@
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0908.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -592,8 +602,9 @@
     
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0900.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0900.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -605,8 +616,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0901.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0901.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -618,8 +630,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0902.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0902.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -631,8 +644,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0903.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0903.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -644,8 +658,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0904.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0904.jpg&#34; alt=&#34;那天和李想骑车经过&#34;/&gt;
     &lt;/div&gt;
@@ -658,8 +673,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0905.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0905.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -671,8 +687,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0906.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0906.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -684,8 +701,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0907.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0907.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -697,8 +715,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0909.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0909.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -821,8 +840,9 @@
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/plan-english-2018.png&#34; /&gt;
     &lt;/div&gt;
@@ -978,8 +998,9 @@
     
   
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0800.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0800.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -991,8 +1012,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0801.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0801.jpg&#34; alt=&#34;掉毛掉的厉害，干脆全剃了。咱乡下人都是自己动手，还弄了个简单的造型。&#34;/&gt;
     &lt;/div&gt;
@@ -1005,8 +1027,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0803.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0803.jpg&#34; alt=&#34;H 把小光头带走了&#34;/&gt;
     &lt;/div&gt;
@@ -1019,8 +1042,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0804.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0804.jpg&#34; alt=&#34;大家一起干活儿&#34;/&gt;
     &lt;/div&gt;
@@ -1033,8 +1057,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0805.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0805.jpg&#34; alt=&#34;到野外采了一大袋地木耳，凉拌很好吃。&#34;/&gt;
     &lt;/div&gt;
@@ -1047,8 +1072,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/memory/2018/0806.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/memory/2018/0806.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1060,8 +1086,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/00.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/00.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1073,8 +1100,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/01.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/01.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1107,8 +1135,9 @@
       <guid>http://www.xianmin.org/post/shaxi-oldtown-5/</guid>
       
         <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/00.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1127,8 +1156,9 @@
 
 
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/06.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1154,8 +1184,9 @@
     
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/01.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/01.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1167,8 +1198,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/02.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/02.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1180,8 +1212,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/03.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/03.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1193,8 +1226,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/04.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/04.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1206,8 +1240,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/05.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/05.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1219,8 +1254,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/07.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/07.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1232,8 +1268,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/08.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/08.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1245,8 +1282,9 @@
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/shaxi-oldtown/09.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/shaxi-oldtown/09.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1276,8 +1314,10 @@
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; style=&#34;max-width:60%&#34;&gt;
-  &lt;figure class=&#34;center&#34; itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/wechat.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1515,8 +1555,10 @@
       <guid>http://www.xianmin.org/post/thinkpad-x230/</guid>
       
         <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; style=&#34;max-width:60%&#34;&gt;
-  &lt;figure class=&#34;center&#34; itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/thinkpad-x230.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1546,8 +1588,9 @@
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/fcitx-punc-01.png&#34; /&gt;
     &lt;/div&gt;
@@ -1576,8 +1619,9 @@
 
 
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/fcitx-punc-02.png&#34; /&gt;
     &lt;/div&gt;
@@ -1590,8 +1634,9 @@
 
 
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/fcitx-punc-03.png&#34; /&gt;
     &lt;/div&gt;
@@ -2260,8 +2305,9 @@
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/douban_star.png&#34; /&gt;
     &lt;/div&gt;
@@ -2366,8 +2412,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/other/gif/linux-emacsclient-quick-open-file.gif&#34; /&gt;
     &lt;/div&gt;
@@ -2425,8 +2472,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
       <guid>http://www.xianmin.org/post/nujiang-05/</guid>
       
         <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/05/02.jpg&#34; alt=&#34;这是从丙中洛进藏必经的桥，一座废弃的，一座在用的，一座新修的。&#34;/&gt;
     &lt;/div&gt;
@@ -2450,8 +2498,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 
 
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/05/00.png&#34; alt=&#34;大流沙&#34;/&gt;
     &lt;/div&gt;
@@ -2470,8 +2519,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
     
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/05/01.png&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/05/01.png&#34; alt=&#34;卫星地图上的大流沙&#34;/&gt;
     &lt;/div&gt;
@@ -2484,8 +2534,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/05/03.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/05/03.jpg&#34; alt=&#34;露营&#34;/&gt;
     &lt;/div&gt;
@@ -2498,8 +2549,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/05/04.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/05/04.jpg&#34; alt=&#34;经过的桥&#34;/&gt;
     &lt;/div&gt;
@@ -2580,8 +2632,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
       <guid>http://www.xianmin.org/post/nujiang-04/</guid>
       
         <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/04/00.jpeg&#34; /&gt;
     &lt;/div&gt;
@@ -2596,8 +2649,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 
 
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/04/02.jpg&#34; alt=&#34;教师节活动&#34;/&gt;
     &lt;/div&gt;
@@ -2611,8 +2665,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 
 
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/04/04.jpg&#34; alt=&#34;独龙牛&#34;/&gt;
     &lt;/div&gt;
@@ -2641,8 +2696,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
     
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/04/01.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/04/01.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -2652,8 +2708,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/04/03.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/04/03.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -2663,8 +2720,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/04/06.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/04/06.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -2754,8 +2812,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
       <guid>http://www.xianmin.org/post/nujiang-03/</guid>
       
         <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/03/00.jpg&#34; alt=&#34;走进原始森林&#34;/&gt;
     &lt;/div&gt;
@@ -2777,8 +2836,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 
 
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/03/02.jpg&#34; alt=&#34;运不出去的粗壮木头&#34;/&gt;
     &lt;/div&gt;
@@ -2792,8 +2852,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 
 
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/03/01.jpg&#34; alt=&#34;神根，网络上找的&#34;/&gt;
     &lt;/div&gt;
@@ -2816,8 +2877,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
     
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/03/03.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/03/03.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -2827,8 +2889,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/03/04.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/03/04.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -2838,8 +2901,9 @@ Keywords=Text;Editor;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&g
 
   
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://www.xianmin.org/image/nujiang/03/05.jpg&#39;);&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.xianmin.org/image/nujiang/03/05.jpg&#34; /&gt;
     &lt;/div&gt;
