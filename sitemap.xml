@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.xianmin.org/post/review-2018-11/</loc>
+    <lastmod>2018-11-30T22:30:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://www.xianmin.org/post/2018-lugu-lake/</loc>
     <lastmod>2018-11-30T15:45:43+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -437,7 +444,7 @@
   
   <url>
     <loc>https://www.xianmin.org/post/</loc>
-    <lastmod>2018-11-30T15:45:43+08:00</lastmod>
+    <lastmod>2018-11-30T22:30:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -598,7 +605,7 @@
   
   <url>
     <loc>https://www.xianmin.org/tags/%E5%8F%8D%E7%9C%81/</loc>
-    <lastmod>2018-10-31T17:35:59+08:00</lastmod>
+    <lastmod>2018-11-30T22:30:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -611,15 +618,15 @@
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/tags/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</loc>
-    <lastmod>2018-05-24T15:36:38+08:00</lastmod>
+    <loc>https://www.xianmin.org/categories/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</loc>
+    <lastmod>2018-11-30T15:45:43+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/categories/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</loc>
-    <lastmod>2018-11-30T15:45:43+08:00</lastmod>
+    <loc>https://www.xianmin.org/tags/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</loc>
+    <lastmod>2018-05-24T15:36:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -668,7 +675,7 @@
   
   <url>
     <loc>https://www.xianmin.org/tags/%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2018-10-31T17:35:59+08:00</lastmod>
+    <lastmod>2018-11-30T22:30:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -808,7 +815,7 @@
   
   <url>
     <loc>https://www.xianmin.org/categories/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2018-10-31T17:35:59+08:00</lastmod>
+    <lastmod>2018-11-30T22:30:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -829,7 +836,7 @@
   
   <url>
     <loc>https://www.xianmin.org/</loc>
-    <lastmod>2018-11-30T15:45:43+08:00</lastmod>
+    <lastmod>2018-11-30T22:30:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -856,15 +863,15 @@
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/tags/%E9%98%85%E8%AF%BB/</loc>
-    <lastmod>2018-01-14T22:06:10+08:00</lastmod>
+    <loc>https://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2018-08-04T17:51:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/</loc>
-    <lastmod>2018-08-04T17:51:35+08:00</lastmod>
+    <loc>https://www.xianmin.org/tags/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2018-01-14T22:06:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
