@@ -6,10 +6,38 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 11 Dec 2018 02:48:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Dec 2018 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我的 2018 年阅读总结</title>
+      <link>https://www.xianmin.org/post/2018-read/</link>
+      <pubDate>Fri, 28 Dec 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2018-read/</guid>
+      <description>&lt;p&gt;本文分两部分，前半部分是反思，后半部分是值得推荐的书。&lt;/p&gt;
+
+&lt;p&gt;回顾这一年读的书，依旧不多。老问题依旧存在：记录不够，输出太少。&lt;/p&gt;
+
+&lt;p&gt;有一些翻看过的书，由于没有记录，没有什么印象了。&lt;/p&gt;
+
+&lt;p&gt;英文书只读了两本，同样是老问题：太简单的书觉得没什么意思，有趣的书读起来又太费劲。提升英语能力是关键。&lt;/p&gt;
+
+&lt;p&gt;有些奇怪，今年都没怎么看计算机相关的书，回想起来，应该只是翻文档去了。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>《七堂思维成长课》大纲笔记</title>
+      <link>https://www.xianmin.org/post/note-how-to-have-a-good-day/</link>
+      <pubDate>Tue, 25 Dec 2018 04:56:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/note-how-to-have-a-good-day/</guid>
+      <description>框架 1. 学科基础： 心理学、行为经济学、神经科学 2. 三个基础知识点 2.1 双系统大脑 深思熟虑系统：前额皮层 推理、自我控制、前瞻思维 容量小、运转速度慢 无意</description>
+    </item>
     
     <item>
       <title>我的阅读经历——从「网络文学」开始</title>
@@ -366,28 +394,6 @@
 
 &lt;p&gt;代码来源： &lt;a href=&#34;https://immmmm.com/bitcron-show-douban-item&#34;&gt;Bitcron 文章内插入豆瓣条目 - 林小沐&lt;/a&gt;
 &lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>linux 的文件管理器、命令行下，用 emacs 快速打开文件的方法</title>
-      <link>https://www.xianmin.org/post/linux-emacs-quick-open-file/</link>
-      <pubDate>Tue, 22 May 2018 21:28:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/linux-emacs-quick-open-file/</guid>
-      <description>&lt;p&gt;首先要确认 emacs 已经启动，并且开启了 server&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 。如果使用 spacemacs ，server 默认是开启的。这样就可以使用 &lt;code&gt;emacsclient&lt;/code&gt; 命令快速打开文件了。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>正念日</title>
-      <link>https://www.xianmin.org/post/days-of-mindfulness/</link>
-      <pubDate>Sun, 20 May 2018 20:31:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/days-of-mindfulness/</guid>
-      <description>&lt;p&gt;今天是正念日。早上7点的闹钟响起，起床，洗漱，煮上一锅粥，站桩半个小时，吃早饭。吃完早饭，开始收拾房间。随意乱放的衣物整理到衣柜，把脏了的衣物洗净晾晒。没用的纸盒垃圾一并丢弃。最后，用抹布把整个房间擦一遍。有的时候状态不佳、杂念丛生，打扫的过程中会感有些许烦躁，但完成整个过程，看到自己收拾整齐的房间，至少会有小小的成就感。这是我个人的修行。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
