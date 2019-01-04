@@ -6,10 +6,23 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 31 Dec 2018 05:50:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jan 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>别了， 2018 ！</title>
+      <link>https://www.xianmin.org/post/goodbye-2018/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/goodbye-2018/</guid>
+      <description>&lt;p&gt;一年又过去了，我重新看了下与你在 2017 年末（&lt;a href=&#34;https://www.xianmin.org/post/2017/&#34;&gt;别了，2017！&lt;/a&gt;）的交流，再回顾这刚过去的 2018 年，我应该对你说些什么呢？&lt;/p&gt;
+
+&lt;p&gt;现在，我将对你的 2018 年终总结分为四大类：修行、工作、锻炼、学习。「学习」下面分为四小类：编程、英语、写作、阅读。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>记录： 2018 年 12 月 - 意外</title>
@@ -389,17 +402,6 @@
       
       <guid>https://www.xianmin.org/post/utterances-comment-system/</guid>
       <description>背景介绍 基于 github issues 的评论系统，比较流行的有 gitment 和 gitalk 。这两个项目我很早就注意到了，它们明显的缺陷是，当用户如果尝试登录评论，所要求的权限是很多的，</description>
-    </item>
-    
-    <item>
-      <title>因为贫穷的缘故</title>
-      <link>https://www.xianmin.org/post/because-of-poverty/</link>
-      <pubDate>Fri, 06 Jul 2018 21:36:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/because-of-poverty/</guid>
-      <description>&lt;p&gt;最近一个多月比较忙。店里的事情，接待客人，接待朋友，接待团队，还有办理证件。另外，和一个朋友合作，做几个微信公众号的项目，也算是开了些眼界。这种忙碌，如果换在大城市，估计算不了什么。只是过惯了在乡下自由散漫的日子，还是会觉得，哎呀，有点儿忙啊。因为贫穷的缘故吧，想着多做点事儿，能多挣些钱，钱也没挣多少，反倒更焦虑了。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
