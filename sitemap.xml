@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.xianmin.org/post/unforgettable-find-dog/</loc>
+    <lastmod>2019-01-21T08:05:53+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://www.xianmin.org/post/goodbye-2018/</loc>
     <lastmod>2019-01-05T07:57:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -479,7 +486,7 @@
   
   <url>
     <loc>https://www.xianmin.org/post/</loc>
-    <lastmod>2019-01-05T07:57:09+08:00</lastmod>
+    <lastmod>2019-01-21T08:05:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -633,7 +640,7 @@
   
   <url>
     <loc>https://www.xianmin.org/tags/%E5%8F%8D%E6%80%9D/</loc>
-    <lastmod>2019-01-05T07:57:09+08:00</lastmod>
+    <lastmod>2019-01-21T08:05:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -772,6 +779,13 @@
   </url>
   
   <url>
+    <loc>https://www.xianmin.org/tags/%E7%8B%97/</loc>
+    <lastmod>2019-01-21T08:05:53+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.xianmin.org/tags/%E7%8B%AC%E9%BE%99%E6%B1%9F/</loc>
     <lastmod>2018-05-24T15:36:35+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -878,7 +892,7 @@
   
   <url>
     <loc>https://www.xianmin.org/</loc>
-    <lastmod>2019-01-05T07:57:09+08:00</lastmod>
+    <lastmod>2019-01-21T08:05:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -920,7 +934,7 @@
   
   <url>
     <loc>https://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2018-08-21T20:57:35+08:00</lastmod>
+    <lastmod>2019-01-21T08:05:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
