@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.xianmin.org/post/homemade-lurou/</loc>
+    <lastmod>2019-02-27T07:37:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://www.xianmin.org/post/review-2019-01/</loc>
     <lastmod>2019-02-03T07:56:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -493,7 +500,7 @@
   
   <url>
     <loc>https://www.xianmin.org/post/</loc>
-    <lastmod>2019-02-03T07:56:49+08:00</lastmod>
+    <lastmod>2019-02-27T07:37:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -543,6 +550,13 @@
   <url>
     <loc>https://www.xianmin.org/tags/vscode/</loc>
     <lastmod>2018-01-14T22:13:43+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/tags/%E4%B8%8B%E5%8E%A8%E6%88%BF/</loc>
+    <lastmod>2019-02-27T07:37:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -627,6 +641,13 @@
   <url>
     <loc>https://www.xianmin.org/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2018-03-31T18:19:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/tags/%E5%8D%A4%E8%82%89/</loc>
+    <lastmod>2019-02-27T07:37:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -899,7 +920,7 @@
   
   <url>
     <loc>https://www.xianmin.org/</loc>
-    <lastmod>2019-02-03T07:56:49+08:00</lastmod>
+    <lastmod>2019-02-27T07:37:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -941,7 +962,7 @@
   
   <url>
     <loc>https://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2019-01-21T08:05:53+08:00</lastmod>
+    <lastmod>2019-02-27T07:37:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

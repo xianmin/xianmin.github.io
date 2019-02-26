@@ -6,10 +6,64 @@
     <description>Recent content on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 03 Feb 2019 07:36:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 Feb 2019 07:35:00 +0800</lastBuildDate>
     
         <atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>自制卤肉</title>
+      <link>https://www.xianmin.org/post/homemade-lurou/</link>
+      <pubDate>Wed, 27 Feb 2019 07:35:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/homemade-lurou/</guid>
+      
+        <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.xiachufang.com/recipe/100410171/&#34;&gt;【靠谱的自制卤水的做法视频_做法步骤】_下厨房&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;去年 12 月，听了曲哥的建议，烧了一锅卤水。我的第一锅卤水，是用几块牛筒骨炖出来的，卤料直接用的是「李锦记」的。此后，每隔几日便卤点东西，卤五花肉，卤排骨，卤牛肉，卤鸡翅，卤鸡腿，卤鸡爪，还有卤鸡蛋。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;有了卤水之后呢，做法也很简单：如果是肉，先焯一道水，捞出洗干净，再丢进卤锅里小火煮上 30 分钟，就可以了。不过，此时最好不要捞出，再放在卤水中浸泡，浸泡时间越久越入味，想吃的时候，将卤水烧开就能吃了。&lt;/p&gt;
+
+&lt;p&gt;如果是鸡蛋的话，前一天晚上将鸡蛋煮熟，蛋壳剥净，丢进卤水中，第二天一早就可以吃到美味的卤蛋了。&lt;/p&gt;
+
+&lt;p&gt;每一次卤好一道菜，这个卤水可要存放好，不用了最好是放在冰箱里， &lt;strong&gt;时不时拿出来烧一烧，这样就不会变质了&lt;/strong&gt; 。&lt;/p&gt;
+
+&lt;p&gt;最后放两张图吧 😃 ：&lt;/p&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/cook/lurou-00.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/cook/lurou-00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;卤水&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/cook/lurou-01.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/cook/lurou-01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;卤好的鸡爪&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;</description>
+      
+    </item>
     
     <item>
       <title>记录： 2019 年 1 月 - 关于「每月记录」的思考</title>
@@ -3255,127 +3309,6 @@ OP:
 &lt;p&gt;它是一台二手的笔记本电脑，是我在两年多前在淘宝上买的，因为便宜，我没记错的话，只要 1700 多。至于它的前主人是谁，不得而知。到了我这儿，我把旧电脑的硬盘给它装上，再装上两条新的 8G 内存条，就开始替我工作了。只需要重装一下驱动，都不必折腾系统。之后慢慢熟悉了使用小红点，确实比触摸板好用太多。&lt;/p&gt;
 
 &lt;p&gt;如果有人问我笔记本电脑有没有推荐的？我会首先推荐 ThinkPad 。要是预算有限呢，那就买台二手的吧，反正都是会用旧的。 :-)&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>linux 下，fcitx 输入法的直角引号设置</title>
-      <link>https://www.xianmin.org/post/linux-fcitx-punc/</link>
-      <pubDate>Tue, 07 Aug 2018 23:04:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/linux-fcitx-punc/</guid>
-      
-        <description>&lt;p&gt;我不确定你有没有遇到过这样的问题，输入一个双引号，它是 &lt;strong&gt;前引号&lt;/strong&gt; 呢，还是 &lt;strong&gt;后引号&lt;/strong&gt; 。也许是字体的缘故，我总得瞪大了眼睛才能分辨的清楚。出于好奇，我上网搜了下，还真有解决办法。最简单的办法就是使用港台的标准，使用直角引号。请看图片：&lt;/p&gt;
-
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/fcitx-punc-01.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/fcitx-punc-01.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;为什么使用直角引号&#34;&gt;为什么使用直角引号&lt;/h2&gt;
-
-&lt;p&gt;关于这个问题，知乎上有讨论，&lt;a href=&#34;https://sspai.com/post/45516&#34;&gt;这篇文章&lt;/a&gt;&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 做了总结：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;直角引号的提倡者主要有如下理由：&lt;/p&gt;
-
-&lt;p&gt;其一，与冒号、分号等标点都有用于东亚文字的全角版本不同，弯引号缺少一个中文专用的版本。无论中文西文，弯引号都是同样码位上的同一对字符，其外形完全取决于字体。在中西文混排的场合，弯引号常常因为套用西文字体而显示为半角宽度，与汉字和其他中文标点差异很大，从而对排版效果产生不利影响。&lt;/p&gt;
-
-&lt;p&gt;其二，提倡者认为直角引号的形态与方块字更加契合。&lt;/p&gt;
-
-&lt;p&gt;其三，直角引号在香港、台湾和日本都是官方规范，这也为将其「进口」到简体中文世界提供了依据。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我个人也觉得，直角引号更容易分辨，也更美观。比如在我的浏览器下的显示如图：&lt;/p&gt;
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/fcitx-punc-02.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/fcitx-punc-02.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;以上是双引号&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/fcitx-punc-03.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/fcitx-punc-03.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;以上是直角引号&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;h2 id=&#34;linux-下怎样输入直角引号&#34;&gt;linux 下怎样输入直角引号？&lt;/h2&gt;
-
-&lt;p&gt;如果你用的是 fcitx 输入法框架，输入直角引号的问题很容易就能解决。&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-2&#34;&gt;&lt;a href=&#34;#fn:fn-2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;查看 &lt;code&gt;/usr/share/fcitx/data/&lt;/code&gt; 文件夹下， &lt;code&gt;punc-ng.mb-zh_CN&lt;/code&gt; 这个文件的内容。这是一个全局配置文件。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;将这个「配置文件」复制到用户目录，即 &lt;code&gt;~/.config/fcitx/data/&lt;/code&gt; 目录下，进行修改：&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-code&#34; data-lang=&#34;code&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-code&#34; data-lang=&#34;code&#34;&gt;&amp;#34; 「 」
-&amp;#39; 『 』&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;这样，当我们使用中文输入法时，输出的引号就是直角引号了。&lt;/p&gt;
-
-&lt;p&gt;由此得到的启发，我们同时还能将任意字符进行修改，比如说：中文输入法下，输入 &lt;code&gt;*&lt;/code&gt; 时，得到的是 &lt;code&gt;×&lt;/code&gt; 这个字符。对我个人而言， &lt;code&gt;×&lt;/code&gt; 这个符号我基本上很少使用，而在使用 「markdonw」 或者 「orgmode」 标记语言时， &lt;code&gt;*&lt;/code&gt; 号却是经常使用的。那么，直接在「配置文件」中，将 &lt;code&gt;* ×&lt;/code&gt; 这一行删除就可以了。&lt;/p&gt;
-
-&lt;p&gt;题外话，为什么不直接修改 &lt;code&gt;/usr/share/fcitx/data/&lt;/code&gt; 目录下的全局文件，而要放到用户目录下？这是为了更好的管理个人的 &lt;strong&gt;dotfiles&lt;/strong&gt; ，不妨参考我的另一篇文章：&lt;a href=&#34;http://www.xianmin.org/post/02-manage-dotfiles/&#34;&gt;Linux 下，使用 Git 管理 dotfiles（配置文件）&lt;/a&gt; 。&lt;/p&gt;
-
-&lt;h2 id=&#34;替换所有旧文章中的引号&#34;&gt;替换所有旧文章中的引号&lt;/h2&gt;
-
-&lt;p&gt;使用 sed 命令：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sed -i s/“/「/g &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;grep -rl “ *&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;    &lt;span class=&#34;c1&#34;&gt;# 替换前引号
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;sed -i s/”/」/g &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;grep -rl ” *&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;    # 替换后引号&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:fn-1&#34;&gt;这是一篇不错的中文标点符号的知识普及。
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:fn-1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:fn-2&#34;&gt;&lt;a href=&#34;https://fcitx-im.org/wiki/Punctuation&#34;&gt;Punctuation - Fcitx&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:fn-2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description>
       
     </item>
     
