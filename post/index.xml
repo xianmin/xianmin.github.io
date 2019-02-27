@@ -6,10 +6,23 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 27 Feb 2019 07:35:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 Feb 2019 08:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux 下，使用 Linuxbrew 安装更多的软件</title>
+      <link>https://www.xianmin.org/post/use-linuxbrew/</link>
+      <pubDate>Wed, 27 Feb 2019 08:00:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/use-linuxbrew/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://brew.sh/&#34;&gt;Homebrew&lt;/a&gt; 是 MacOS 下的一个包管理工具，可以用它安装各种软件，相当于 Linux 下的 &lt;code&gt;apt-get&lt;/code&gt; ，大部分使用 Mac 的开发者对它应该很熟悉了。 &lt;a href=&#34;http://linuxbrew.sh&#34;&gt;Linuxbrew&lt;/a&gt; 是 Linux 下的 Homebrew ，使用它，就可以用 &lt;code&gt;brew install&lt;/code&gt; 安装更多的软件。&lt;/p&gt;
+
+&lt;p&gt;也许有人要问，各个 Linux 发行版都已经 &lt;strong&gt;自带了「包管理工具」&lt;/strong&gt; ，为什么还要多此一举，用 Linuxbrew 呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>自制卤肉</title>
@@ -399,30 +412,6 @@
       
       <guid>https://www.xianmin.org/post/a-colombian-in-china/</guid>
       <description>&lt;p&gt;John 是哥伦比亚人，上个月住进了我们旅舍，明天他就要搬走了。他长期带着一个宽沿帽子，六十多岁，也许是保持健身的缘故，身材很壮实，精神状态很好，在中国生活了二十几年。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>我的搭档 「ThinkPad X230」</title>
-      <link>https://www.xianmin.org/post/thinkpad-x230/</link>
-      <pubDate>Sat, 11 Aug 2018 12:14:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/thinkpad-x230/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:60%&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/thinkpad-x230.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/thinkpad-x230.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;最近，我的搭档 「ThinkPad X230」 的键盘出了点问题，按键偶尔会完全失灵，小红点经常失控。当机立断，我直接在淘宝买了个新的键盘换上，感觉它又重获了新生。这是我喜欢 ThinkPad 的主要原因，它太好拆了，换个键盘只要下俩螺丝，几分钟就搞定。但凡哪个部件有任何问题，我都能轻松的更换，这让我觉得它是真正属于我的，能跟随我很久。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

@@ -113,9 +113,18 @@
     <item>
       <title>Linux</title>
       <link>https://www.xianmin.org/tags/linux/</link>
-      <pubDate>Thu, 20 Sep 2018 14:45:00 +0800</pubDate>
+      <pubDate>Wed, 27 Feb 2019 08:00:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linuxbrew</title>
+      <link>https://www.xianmin.org/tags/linuxbrew/</link>
+      <pubDate>Wed, 27 Feb 2019 08:00:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/tags/linuxbrew/</guid>
       <description></description>
     </item>
     
@@ -179,15 +188,6 @@
       <pubDate>Tue, 10 Jul 2018 14:34:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/tags/tip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tips</title>
-      <link>https://www.xianmin.org/tags/tips/</link>
-      <pubDate>Wed, 10 Jan 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/tags/tips/</guid>
       <description></description>
     </item>
     
