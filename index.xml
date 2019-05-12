@@ -6,10 +6,33 @@
     <description>Recent content on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 May 2019 21:11:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 May 2019 13:59:00 +0800</lastBuildDate>
     
         <atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>敬告自己</title>
+      <link>https://www.xianmin.org/post/remind-myself/</link>
+      <pubDate>Sun, 12 May 2019 13:59:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/remind-myself/</guid>
+      
+        <description>&lt;p&gt;今天听了一期《看理想》的节目——《梁文道×许子东：五四青年比当代青年更优秀吗？》。节目中，他俩聊到陈独秀的《敬告青年》，聊到「自主的而非奴隶的」。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;我的脑海里突然冒出一点回忆，自己似乎写过一段关于「奴隶」的文字，但是具体写了什么记不清了。在电脑上搜索了一下文档，还真有。那是在 2015 年年初《写给自己的一封信》。我在信中对自己说道：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;不要成为物质的奴隶；不要成为琐碎生活的奴隶；不要成为情感的奴隶；不要成为权威的奴隶；不要成为任何人、任何组织的奴隶；不要成为任何体系、任何思想、任何主义、任何信仰的奴隶……&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我的确已经忘了自己曾经写过这封信。看着当初写下的文字，四年过去了，我依然还在寻找着某种不知名的东西，依然充满着矛盾，依然对这个世界有各种疑惑，依然对自我产生怀疑。这个时候，这封信突然冒出来，似乎是冥冥之中要警醒我点什么。&lt;/p&gt;
+
+&lt;p&gt;是啊，不要成为奴隶，不要成为奴隶！&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>记录： 2019 年 4 月 - 新成就与新项目</title>
@@ -3270,202 +3293,6 @@ OP:
 &lt;li&gt;zotero - 文献管理工具。&lt;/li&gt;
 &lt;li&gt;Gparted - 分区工具。&lt;/li&gt;
 &lt;/ul&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>记录： 2018 年 8 月 - 开始</title>
-      <link>https://www.xianmin.org/post/review-2018-08/</link>
-      <pubDate>Sun, 02 Sep 2018 20:57:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/review-2018-08/</guid>
-      
-        <description>&lt;p&gt;上个月发生了太多事情。我想从本月开始，对每个月度做点记录，算是总结与回顾吧。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;博文&#34;&gt;博文&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/linux-fcitx-punc/&#34;&gt;linux 下，fcitx 输入法的直角引号设置&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/thinkpad-x230/&#34;&gt;我的搭档 「ThinkPad X230」&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/a-colombian-in-china/&#34;&gt;一位哥伦比亚作家在中国&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/defend-the-open-internet/&#34;&gt;捍卫开放的互联网&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.xianmin.org/post/shaxi-oldtown-5/&#34;&gt;月底去了一趟沙溪古镇&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;rss-renaissance&#34;&gt;RSS-Renaissance&lt;/h2&gt;
-
-&lt;p&gt;我在 github 上发起了一个组织 &lt;strong&gt;「复兴 RSS」&lt;/strong&gt; ——&lt;a href=&#34;https://github.com/RSS-Renaissance&#34;&gt; RSS-Renaissance&lt;/a&gt; ，在上篇文章 &lt;a href=&#34;http://www.xianmin.org/post/defend-the-open-internet/&#34;&gt;捍卫开放的互联网&lt;/a&gt; 中，已经说了很多了。这个组织下的项目需要 &lt;strong&gt;长期维护&lt;/strong&gt; ，目前参与者只有我自己，能否有更多共同兴趣的朋友参与进来，只能看缘分了。后面计划优先要做的事儿：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;完善文档；&lt;/li&gt;
-&lt;li&gt;添加英文项目。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;把这个组织里的项目一点点完善，一步步「摸着石头过河」吧。&lt;/p&gt;
-
-&lt;h2 id=&#34;忙碌的八月&#34;&gt;忙碌的八月&lt;/h2&gt;
-
-&lt;p&gt;这个月是旅舍的旺季，从 1 号开始，突然有一大批人一窝蜂的来丽江。发生了两次小争执，客人网上预订了，由于我个人的疏忽&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ，到店后没有房间。这种事儿是双方都不愿遇到的，帮他们在别家找了住处，实在很愧疚。由此得到的教训是：自己要预留两间房，不能全部都放到网上卖了，并且网络上也要谨慎开房。&lt;/p&gt;
-
-&lt;p&gt;还有一件事儿是，锋哥突然离职。他走之后多亏还有俩义工，否则真的忙不过来了。&lt;/p&gt;
-
-&lt;p&gt;此外，找了俩师傅给店里安装了一个后门。请人帮忙清理了旅舍的化粪池并疏通了管道。自己给后门装了个「安全出口」标志，不小心还被电了一下。&lt;/p&gt;
-
-&lt;p&gt;最后简单说说海哥。跟海哥两年未见，他又回来了。本想让他做店里的大厨，好好做事情，结果他在的一周时间里就给店里添了数次麻烦，并影响了我个人的心态，我只好铁了心请他到别处去了。&lt;/p&gt;
-
-&lt;h2 id=&#34;痛苦的八月&#34;&gt;痛苦的八月&lt;/h2&gt;
-
-&lt;p&gt;和 H 分手了。唉，我跟她经历了那么多，最终还是走到了这一步。我不想在博客中过多谈论此事，只是在此记录一下。&lt;/p&gt;
-
-&lt;h2 id=&#34;重新开始&#34;&gt;重新开始&lt;/h2&gt;
-
-&lt;p&gt;与 H 分手，锋哥离职，海哥来了又被我请走，这几件事都在八月份接连发生。还碰到两位奇葩客人，不多说了。世界一直都在变化，顺其自然吧，大不了重新开始。&lt;/p&gt;
-
-&lt;h2 id=&#34;关于英语&#34;&gt;关于英语&lt;/h2&gt;
-
-&lt;p&gt;是的，大不了重新开始。后面几个月我想把重心放在英语学习上。回顾从年初到现在，我的英语能力并没有明显的提升。如果继续这样，毫无疑问，也许今年过了依然是老样子。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;「业精于勤，荒于嬉；行成于思，毁于随。」&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;从 9 月开始，我要强化英语的学习，至于学习计划，需要好好想想。 9 月份再做记录的时候，至少说，英语学习该起步了。&lt;/p&gt;
-
-&lt;h2 id=&#34;一些照片&#34;&gt;一些照片&lt;/h2&gt;
-
-
-
-
-&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
-    
-  
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/memory/2018/0800.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0800.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0800.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;与喜咪一家合影&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/memory/2018/0801.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0801.jpg&#34; alt=&#34;掉毛掉的厉害，干脆全剃了。咱乡下人都是自己动手，还弄了个简单的造型。&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0801.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;剃毛后的卡卡&lt;/h4&gt;
-          &lt;p&gt;掉毛掉的厉害，干脆全剃了。咱乡下人都是自己动手，还弄了个简单的造型。&lt;/p&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/memory/2018/0803.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0803.jpg&#34; alt=&#34;H 把小光头带走了&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0803.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;小光头&lt;/h4&gt;
-          &lt;p&gt;H 把小光头带走了&lt;/p&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/memory/2018/0804.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0804.jpg&#34; alt=&#34;大家一起干活儿&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0804.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;修剪爬藤&lt;/h4&gt;
-          &lt;p&gt;大家一起干活儿&lt;/p&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/memory/2018/0805.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0805.jpg&#34; alt=&#34;到野外采了一大袋地木耳，凉拌很好吃。&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0805.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;地木耳&lt;/h4&gt;
-          &lt;p&gt;到野外采了一大袋地木耳，凉拌很好吃。&lt;/p&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/memory/2018/0806.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/0806.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/0806.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;海哥杀鱼&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/shaxi-oldtown/00.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/shaxi-oldtown/00.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/shaxi-oldtown/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;沙溪古戏台 2018 年 8 月&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/shaxi-oldtown/01.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/shaxi-oldtown/01.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/shaxi-oldtown/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;我在白龙潭边&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;/div&gt;
-
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:fn-1&#34;&gt;合作的订房网站有好几家，偶尔订单会发生冲突，大部分时候「关房」就能避免了，只是个别时候可能会由于疏忽而没有「关房」。
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:fn-1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description>
       
     </item>
     

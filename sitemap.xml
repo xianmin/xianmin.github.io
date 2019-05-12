@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.xianmin.org/post/remind-myself/</loc>
+    <lastmod>2019-05-12T13:59:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://www.xianmin.org/post/review-2019-04/</loc>
     <lastmod>2019-05-01T21:17:37+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -535,7 +542,7 @@
   
   <url>
     <loc>https://www.xianmin.org/post/</loc>
-    <lastmod>2019-05-01T21:17:37+08:00</lastmod>
+    <lastmod>2019-05-12T13:59:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -703,7 +710,7 @@
   
   <url>
     <loc>https://www.xianmin.org/tags/%E5%8F%8D%E6%80%9D/</loc>
-    <lastmod>2019-05-01T21:17:37+08:00</lastmod>
+    <lastmod>2019-05-12T13:59:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -955,7 +962,7 @@
   
   <url>
     <loc>https://www.xianmin.org/</loc>
-    <lastmod>2019-05-01T21:17:37+08:00</lastmod>
+    <lastmod>2019-05-12T13:59:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -997,7 +1004,7 @@
   
   <url>
     <loc>https://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2019-02-27T07:37:18+08:00</lastmod>
+    <lastmod>2019-05-12T13:59:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

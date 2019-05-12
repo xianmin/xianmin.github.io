@@ -6,10 +6,21 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 May 2019 21:11:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 May 2019 13:59:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>敬告自己</title>
+      <link>https://www.xianmin.org/post/remind-myself/</link>
+      <pubDate>Sun, 12 May 2019 13:59:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/remind-myself/</guid>
+      <description>&lt;p&gt;今天听了一期《看理想》的节目——《梁文道×许子东：五四青年比当代青年更优秀吗？》。节目中，他俩聊到陈独秀的《敬告青年》，聊到「自主的而非奴隶的」。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>记录： 2019 年 4 月 - 新成就与新项目</title>
@@ -398,17 +409,6 @@
       <description>&lt;p&gt;本篇文章将对 &lt;strong&gt;我平时所使用的计算机软件做一个归纳整理&lt;/strong&gt; 。&lt;/p&gt;
 
 &lt;p&gt;我大部分时候使用的操作系统是 &lt;strong&gt;Deepin Linux&lt;/strong&gt; ，因此以下所列出的软件 &lt;strong&gt;也许在 Windows 和 Mac 下并不适用&lt;/strong&gt; 。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>记录： 2018 年 8 月 - 开始</title>
-      <link>https://www.xianmin.org/post/review-2018-08/</link>
-      <pubDate>Sun, 02 Sep 2018 20:57:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/review-2018-08/</guid>
-      <description>&lt;p&gt;上个月发生了太多事情。我想从本月开始，对每个月度做点记录，算是总结与回顾吧。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
