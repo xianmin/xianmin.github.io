@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tip on 贤民的比特记忆</title>
+    <title>tip on 贤民的比特记忆</title>
     <link>https://www.xianmin.org/tags/tip/</link>
-    <description>Recent content in Tip on 贤民的比特记忆</description>
+    <description>Recent content in tip on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 10 Jul 2018 14:34:00 +0800</lastBuildDate>
@@ -26,9 +26,7 @@
       <pubDate>Tue, 22 May 2018 21:28:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/linux-emacs-quick-open-file/</guid>
-      <description>&lt;p&gt;首先要确认 emacs 已经启动，并且开启了 server&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 。如果使用 spacemacs ，server 默认是开启的。这样就可以使用 &lt;code&gt;emacsclient&lt;/code&gt; 命令快速打开文件了。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;首先要确认 emacs 已经启动，并且开启了 server&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 。如果使用 spacemacs ，server 默认是开启的。这样就可以使用 &lt;code&gt;emacsclient&lt;/code&gt; 命令快速打开文件了。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -20,7 +20,7 @@
       <description>&lt;p&gt;我不确定你有没有遇到过这样的问题，输入一个双引号，它是 &lt;strong&gt;前引号&lt;/strong&gt; 呢，还是 &lt;strong&gt;后引号&lt;/strong&gt; 。也许是字体的缘故，我总得瞪大了眼睛才能分辨的清楚。出于好奇，我上网搜了下，还真有解决办法。最简单的办法就是使用港台的标准，使用直角引号。请看图片：&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -29,10 +29,7 @@
     &lt;/div&gt;
     &lt;a href=&#34;https://www.xianmin.org/image/other/fcitx-punc-01.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/div&gt;</description>
     </item>
     
   </channel>

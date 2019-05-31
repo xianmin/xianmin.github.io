@@ -19,9 +19,7 @@
       <guid>https://www.xianmin.org/post/goodbye-2018/</guid>
       <description>&lt;p&gt;一年又过去了，我重新看了下与你在 2017 年末（&lt;a href=&#34;https://www.xianmin.org/post/2017/&#34;&gt;别了，2017！&lt;/a&gt;）的交流，再回顾这刚过去的 2018 年，我应该对你说些什么呢？&lt;/p&gt;
 
-&lt;p&gt;现在，我将对你的 2018 年终总结分为四大类：修行、工作、锻炼、学习。「学习」下面分为四小类：编程、英语、写作、阅读。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;现在，我将对你的 2018 年终总结分为四大类：修行、工作、锻炼、学习。「学习」下面分为四小类：编程、英语、写作、阅读。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -55,9 +53,7 @@
 &lt;li&gt;我不是「利益相关者」，我的分享只是因为 &lt;strong&gt;它对我有帮助&lt;/strong&gt; ，也希望对你有帮助。&lt;/li&gt;
 &lt;li&gt;有关冥想、以及其疗效的严谨学术研究并不多。&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;li&gt;不过呢，关于人体的奥秘，目前还有非常多科学无法解释的东西。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
@@ -73,7 +69,7 @@
 &lt;p&gt;如果看到这篇文章的你，对我发起的组织和项目感兴趣，不妨加我的微信，我想建立一个「独立博客博主」交流群，互相交流意见。加我时麻烦你备注一下，比如「独立博客 + 你的博客网址」。我的微信二维码：&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
@@ -83,10 +79,7 @@
     &lt;/div&gt;
     &lt;a href=&#34;https://www.xianmin.org/image/wechat.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -95,9 +88,7 @@
       <pubDate>Sun, 11 Mar 2018 21:30:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/hugo-theme-jane-publish/</guid>
-      <description>&lt;p&gt;本周我发布了一个 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 主题 &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane&lt;/a&gt; ，Jane 克隆自 &lt;a href=&#34;https://github.com/olOwOlo/hugo-theme-even&#34;&gt;hugo-theme-even&lt;/a&gt; ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;本周我发布了一个 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 主题 &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane&lt;/a&gt; ，Jane 克隆自 &lt;a href=&#34;https://github.com/olOwOlo/hugo-theme-even&#34;&gt;hugo-theme-even&lt;/a&gt; ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -108,9 +99,7 @@
       <guid>https://www.xianmin.org/post/2017/</guid>
       <description>&lt;p&gt;翻阅你在这一年写的日记，「2017年6月26日：我是一个无知、无明、无趣的年轻人，对烟酒没有控制，自制力差，拖延症严重，喜欢胡思乱想，空想而缺乏行动，空有抱负却一事无成，喜好很多但一无所长。也许再过几年，我就是一个无知、无明、无趣的中年人了。」&lt;/p&gt;
 
-&lt;p&gt;似乎每年总有那么几天，你会感到焦虑，厌恶自己。但不管怎么说，一年又要过去了，我想从以下几个方面对你的2017年做一个总结：工作、锻炼、编程、英语、写作、阅读。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;似乎每年总有那么几天，你会感到焦虑，厌恶自己。但不管怎么说，一年又要过去了，我想从以下几个方面对你的2017年做一个总结：工作、锻炼、编程、英语、写作、阅读。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -121,9 +110,7 @@
       <guid>https://www.xianmin.org/post/06-ebook/</guid>
       <description>&lt;h1 id=&#34;写在前面&#34;&gt;写在前面&lt;/h1&gt;
 
-&lt;p&gt;作为一个农民的儿子，我从小跟随父母在外漂泊，长年都是租的房子，家里地方不大，除了教科书、习题册，基本没有任何藏书。那时候，没两年就会搬一次家，光是搬教科书都觉得挺累赘的。即便在成年后，自己依然一直在外漂泊，没有固定的居所，还是不敢买太多书，没地方安置。当然，还有一个很实际的问题，买书花钱，自己没多少钱。很多书像消费品，看完就丢一边了，它摆在那儿更多的像是一种象征性的装饰。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;作为一个农民的儿子，我从小跟随父母在外漂泊，长年都是租的房子，家里地方不大，除了教科书、习题册，基本没有任何藏书。那时候，没两年就会搬一次家，光是搬教科书都觉得挺累赘的。即便在成年后，自己依然一直在外漂泊，没有固定的居所，还是不敢买太多书，没地方安置。当然，还有一个很实际的问题，买书花钱，自己没多少钱。很多书像消费品，看完就丢一边了，它摆在那儿更多的像是一种象征性的装饰。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -134,9 +121,7 @@
       <guid>https://www.xianmin.org/post/05-tools-addict/</guid>
       <description>&lt;p&gt;怎样给工具下定义？文字、语言算不算工具？知识算不算工具？数学公式算不算工具？科学方法算不算工具？甚至而言，宗教信仰算不算工具？那么工具癖又算什么呢？&lt;/p&gt;
 
-&lt;p&gt;由此可见，从更大的范围来讲，给工具下定义不是件容易的事。我在这篇文章仅谈论计算机相关的工具。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;由此可见，从更大的范围来讲，给工具下定义不是件容易的事。我在这篇文章仅谈论计算机相关的工具。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -145,9 +130,7 @@
       <pubDate>Sat, 01 Apr 2017 09:13:20 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/03-focus-on-content/</guid>
-      <description>&lt;p&gt;当我们开始做一件事情，首先想一想这件事的核心是什么？然后再想，完成它有哪些方案？哪个方案即便它不够完美，却是自己目前可行的？哪个方案目前不可行，但是自己能够改进的？对于目前不可行，自己又无法改进的方案，暂时搁置，应当先以完成这件事情为主。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;当我们开始做一件事情，首先想一想这件事的核心是什么？然后再想，完成它有哪些方案？哪个方案即便它不够完美，却是自己目前可行的？哪个方案目前不可行，但是自己能够改进的？对于目前不可行，自己又无法改进的方案，暂时搁置，应当先以完成这件事情为主。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -156,9 +139,7 @@
       <pubDate>Sun, 01 Jan 2017 18:03:09 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/00-even-theme-preview/</guid>
-      <description>&lt;p&gt;主题与markdown语法测试。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;主题与markdown语法测试。&lt;/p&gt;</description>
     </item>
     
   </channel>

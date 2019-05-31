@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on 贤民的比特记忆</title>
+    <title>hugo on 贤民的比特记忆</title>
     <link>https://www.xianmin.org/tags/hugo/</link>
-    <description>Recent content in Hugo on 贤民的比特记忆</description>
+    <description>Recent content in hugo on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 10 Jul 2018 14:34:00 +0800</lastBuildDate>
@@ -37,8 +37,7 @@
 &lt;/div&gt;
 
 
-&lt;p&gt;代码来源： &lt;a href=&#34;https://immmmm.com/bitcron-show-douban-item&#34;&gt;Bitcron 文章内插入豆瓣条目 - 林小沐&lt;/a&gt;
-&lt;/p&gt;</description>
+&lt;p&gt;代码来源： &lt;a href=&#34;https://immmmm.com/bitcron-show-douban-item&#34;&gt;Bitcron 文章内插入豆瓣条目 - 林小沐&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -54,9 +53,7 @@
 &lt;li&gt;&lt;code&gt;orgmode&lt;/code&gt; : &lt;a href=&#34;https://orgmode.org/&#34;&gt;https://orgmode.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ox-hugo&lt;/code&gt; : &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;https://ox-hugo.scripter.co/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;easy-hygo&lt;/code&gt; : &lt;a href=&#34;https://github.com/masasam/emacs-easy-hugo&#34;&gt;https://github.com/masasam/emacs-easy-hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -65,9 +62,7 @@
       <pubDate>Sun, 11 Mar 2018 21:30:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/hugo-theme-jane-publish/</guid>
-      <description>&lt;p&gt;本周我发布了一个 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 主题 &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane&lt;/a&gt; ，Jane 克隆自 &lt;a href=&#34;https://github.com/olOwOlo/hugo-theme-even&#34;&gt;hugo-theme-even&lt;/a&gt; ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;本周我发布了一个 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 主题 &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane&lt;/a&gt; ，Jane 克隆自 &lt;a href=&#34;https://github.com/olOwOlo/hugo-theme-even&#34;&gt;hugo-theme-even&lt;/a&gt; ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -24,8 +24,7 @@
 
 <meta name="author" content="贤民" />
   <meta name="description" content="本文将对我个人的博文写作流程 所用到的工具 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode &amp;amp; hugo ，另外还有两个配合 hugo 的辅助包 easy-hugo （可选） &amp;amp; ox-hugo 。
- hugo : https://gohugo.io/ orgmode : https://orgmode.org/ ox-hugo : https://ox-hugo.scripter.co/ easy-hygo : https://github.com/masasam/emacs-easy-hugo  
-" />
+ hugo : https://gohugo.io/ orgmode : https://orgmode.org/ ox-hugo : https://ox-hugo.scripter.co/ easy-hygo : https://github.com/masasam/emacs-easy-hugo " />
 
   <meta name="keywords" content="linux, emacs, program, journal, 贤民, 博客, 笔记" />
 
@@ -34,7 +33,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.50" />
+<meta name="generator" content="Hugo 0.55.5" />
 
 
 <link rel="canonical" href="https://www.xianmin.org/post/ox-hugo/" />
@@ -53,7 +52,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.19ae5a432863a072ec64433bb1020bd6d3401129f87d6f2ad5af3bcfd84168a1.css" integrity="sha256-Ga5aQyhjoHLsZEM7sQIL1tNAESn4fW8q1a87z9hBaKE=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.ec807d8b802a40889537c26e014f733206312ea440d42e1f0dabed80918de1ac.css" integrity="sha256-7IB9i4AqQIiVN8JuAU9zMgYxLqRA1C4fDavtgJGN4aw=" media="screen" crossorigin="anonymous">
 
 
 
@@ -69,11 +68,10 @@ hugo : https://gohugo.io/
 orgmode : https://orgmode.org/
 ox-hugo : https://ox-hugo.scripter.co/
 easy-hygo : https://github.com/masasam/emacs-easy-hugo
-
-
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.xianmin.org/post/ox-hugo/" /><meta property="article:published_time" content="2018-03-31T00:00:00&#43;08:00"/>
+<meta property="og:url" content="https://www.xianmin.org/post/ox-hugo/" />
+<meta property="article:published_time" content="2018-03-31T00:00:00&#43;08:00"/>
 <meta property="article:modified_time" content="2018-03-31T18:19:26&#43;08:00"/>
 
 <meta itemprop="name" content="博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo">
@@ -84,14 +82,12 @@ hugo : https://gohugo.io/
 orgmode : https://orgmode.org/
 ox-hugo : https://ox-hugo.scripter.co/
 easy-hygo : https://github.com/masasam/emacs-easy-hugo
-
-
 ">
 
 
 <meta itemprop="datePublished" content="2018-03-31T00:00:00&#43;08:00" />
 <meta itemprop="dateModified" content="2018-03-31T18:19:26&#43;08:00" />
-<meta itemprop="wordCount" content="2110">
+<meta itemprop="wordCount" content="2108">
 
 
 
@@ -105,8 +101,6 @@ hugo : https://gohugo.io/
 orgmode : https://orgmode.org/
 ox-hugo : https://ox-hugo.scripter.co/
 easy-hygo : https://github.com/masasam/emacs-easy-hugo
-
-
 "/>
 
 <!--[if lte IE 9]>
@@ -422,8 +416,6 @@ if (!doNotTrack) {
 <li><code>easy-hygo</code> : <a href="https://github.com/masasam/emacs-easy-hugo">https://github.com/masasam/emacs-easy-hugo</a></li>
 </ul>
 
-<p></p>
-
 <h2 id="自问自答">自问自答</h2>
 
 <h3 id="问-为什么写这篇文章">问： 为什么写这篇文章？</h3>
@@ -671,7 +663,6 @@ if (!doNotTrack) {
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="lnt">1
-</span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">javascript</span><span class="o">:</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span> <span class="kd">var</span> <span class="nx">selection</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">getSelection</span><span class="p">().</span><span class="nx">toString</span><span class="p">();</span> <span class="kd">var</span> <span class="nx">anchor</span> <span class="o">=</span> <span class="nx">selection</span> <span class="o">?</span> <span class="nx">selection</span> <span class="o">:</span> <span class="nb">document</span><span class="p">.</span><span class="nx">title</span><span class="p">;</span> <span class="k">void</span><span class="p">(</span><span class="nx">prompt</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;[[&#39;</span> <span class="o">+</span> <span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">+</span> <span class="s1">&#39;][&#39;</span> <span class="o">+</span> <span class="nx">anchor</span> <span class="o">+</span> <span class="s1">&#39;]]&#39;</span><span class="p">));</span> <span class="p">})();</span>
@@ -682,7 +673,6 @@ if (!doNotTrack) {
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="lnt">1
-</span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">javascript</span><span class="o">:</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span> <span class="kd">var</span> <span class="nx">selection</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">getSelection</span><span class="p">().</span><span class="nx">toString</span><span class="p">();</span> <span class="kd">var</span> <span class="nx">anchor</span> <span class="o">=</span> <span class="nx">selection</span> <span class="o">?</span> <span class="nx">selection</span> <span class="o">:</span> <span class="nb">document</span><span class="p">.</span><span class="nx">title</span><span class="p">;</span> <span class="k">void</span><span class="p">(</span><span class="nx">prompt</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;[&#39;</span> <span class="o">+</span> <span class="nx">anchor</span> <span class="o">+</span> <span class="s1">&#39;](&#39;</span> <span class="o">+</span> <span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">+</span> <span class="s1">&#39;)&#39;</span><span class="p">));</span> <span class="p">})();</span>

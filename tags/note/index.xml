@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Note on 贤民的比特记忆</title>
+    <title>note on 贤民的比特记忆</title>
     <link>https://www.xianmin.org/tags/note/</link>
-    <description>Recent content in Note on 贤民的比特记忆</description>
+    <description>Recent content in note on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 09 Feb 2018 21:53:00 +0800</lastBuildDate>
@@ -17,9 +17,7 @@
       <pubDate>Fri, 09 Feb 2018 21:53:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/wartime-notes/</guid>
-      <description>&lt;p&gt;这本书是维特根斯坦在 1914年 至 1917年 一战期间当兵时所写的笔记。这份笔记包含两部分，一部分是私人日记，一部分是哲学笔记。他出身富贵人家，又有很高的学识，完全可以不去服兵役，但他还是去了，这是为什么？那年他 25 岁，与我的年龄相仿，我很好奇他的所思所想，并且窥探一个「天才」的私人日记会是一件很有趣的事儿。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;这本书是维特根斯坦在 1914年 至 1917年 一战期间当兵时所写的笔记。这份笔记包含两部分，一部分是私人日记，一部分是哲学笔记。他出身富贵人家，又有很高的学识，完全可以不去服兵役，但他还是去了，这是为什么？那年他 25 岁，与我的年龄相仿，我很好奇他的所思所想，并且窥探一个「天才」的私人日记会是一件很有趣的事儿。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -35,9 +33,7 @@
 出版社: 商务印书馆\&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;这是一本谈论读书方法的书。目的在于提升个人的阅读技巧，包括阅读应有的步骤，阅读效率的提高，阅读的目的，以此来获得个人的成长。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;这是一本谈论读书方法的书。目的在于提升个人的阅读技巧，包括阅读应有的步骤，阅读效率的提高，阅读的目的，以此来获得个人的成长。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -46,11 +42,17 @@
       <pubDate>Mon, 01 May 2017 15:31:38 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/read-zen-and-the-art-of-motorcycle-maintenance/</guid>
-      <description>&lt;p&gt;{{% blockquote author=&amp;ldquo;——霍金&amp;rdquo; %}}
-我因为写了一部人们把它和《禅与摩托车维修艺术》相比较的书而感到甚受恭维。我希望拙作（《时间简史》）和本书一样使人们觉得，他们不必自处于伟大的智慧及哲学的问题之外。
-{{% /blockquote %}}&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;
+  &lt;p&gt;我因为写了一部人们把它和《禅与摩托车维修艺术》相比较的书而感到甚受恭维。我希望拙作（《时间简史》）和本书一样使人们觉得，他们不必自处于伟大的智慧及哲学的问题之外。&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;——霍金&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
   </channel>

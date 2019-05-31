@@ -24,7 +24,6 @@
 
 <meta name="author" content="贤民" />
   <meta name="description" content="作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 . 开头，管它们叫 dotfiles 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。
-
 " />
 
   <meta name="keywords" content="linux, emacs, program, journal, 贤民, 博客, 笔记" />
@@ -34,7 +33,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.50" />
+<meta name="generator" content="Hugo 0.55.5" />
 
 
 <link rel="canonical" href="https://www.xianmin.org/post/02-manage-dotfiles/" />
@@ -53,7 +52,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.19ae5a432863a072ec64433bb1020bd6d3401129f87d6f2ad5af3bcfd84168a1.css" integrity="sha256-Ga5aQyhjoHLsZEM7sQIL1tNAESn4fW8q1a87z9hBaKE=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.ec807d8b802a40889537c26e014f733206312ea440d42e1f0dabed80918de1ac.css" integrity="sha256-7IB9i4AqQIiVN8JuAU9zMgYxLqRA1C4fDavtgJGN4aw=" media="screen" crossorigin="anonymous">
 
 
 
@@ -62,17 +61,14 @@
 
 
 <meta property="og:title" content="Linux 下，使用 Git 管理 dotfiles（配置文件）" />
-<meta property="og:description" content="作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 . 开头，管它们叫 dotfiles 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。
-
-" />
+<meta property="og:description" content="作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 . 开头，管它们叫 dotfiles 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.xianmin.org/post/02-manage-dotfiles/" /><meta property="article:published_time" content="2017-03-01T18:03:09&#43;08:00"/>
+<meta property="og:url" content="https://www.xianmin.org/post/02-manage-dotfiles/" />
+<meta property="article:published_time" content="2017-03-01T18:03:09&#43;08:00"/>
 <meta property="article:modified_time" content="2017-03-01T18:03:09&#43;08:00"/>
 
 <meta itemprop="name" content="Linux 下，使用 Git 管理 dotfiles（配置文件）">
-<meta itemprop="description" content="作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 . 开头，管它们叫 dotfiles 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。
-
-">
+<meta itemprop="description" content="作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 . 开头，管它们叫 dotfiles 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。">
 
 
 <meta itemprop="datePublished" content="2017-03-01T18:03:09&#43;08:00" />
@@ -84,9 +80,7 @@
 <meta itemprop="keywords" content="linux,git,dotfile,tool," />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Linux 下，使用 Git 管理 dotfiles（配置文件）"/>
-<meta name="twitter:description" content="作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 . 开头，管它们叫 dotfiles 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。
-
-"/>
+<meta name="twitter:description" content="作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 . 开头，管它们叫 dotfiles 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -371,8 +365,6 @@ if (!doNotTrack) {
     <div class="post-content">
       <p>作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 <code>.</code> 开头，管它们叫 <code>dotfiles</code> 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。</p>
 
-<p></p>
-
 <p>一个简单的方法是：将所有配置文件统一丢进一个文件夹，用 git 进行管理，用 <code>ln -s</code> 链接到原来的位置（比如家目录下）。</p>
 
 <p>我在这里推荐一个命令行脚本——<a href="https://github.com/dotphiles/dotsync">dotsync</a> ，它可以将上面的方法更加简化，并且在不同机器上进行同步。</p>
@@ -402,20 +394,20 @@ if (!doNotTrack) {
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Location of your dotfiles in $HOME
-</span><span class="c1"></span><span class="nv">DOTFILES</span><span class="o">=</span>Dotfiles
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Location of your dotfiles in $HOME</span>
+<span class="nv">DOTFILES</span><span class="o">=</span>Dotfiles
     
-<span class="c1"># 添加你需要链接的文件
-</span><span class="c1"></span><span class="o">[</span>files<span class="o">]</span>
-dotsyncrc                       <span class="c1"># 相当于 ln -s dotsyncrc ~/.dotsyncrc
-</span><span class="c1"></span>emacs/xm-spacemacs:.emacs.d     <span class="c1"># 相当于 ln -s emacs/xm-spacemacs ~/.emacs.d
-</span><span class="c1"></span>emacs/spacemacs                 <span class="c1"># 相当于 ln -s emacs/spacemacs ~/.spacemacs
-</span><span class="c1"># ... 等等
-</span><span class="c1"></span><span class="o">[</span>endfiles<span class="o">]</span>
+<span class="c1"># 添加你需要链接的文件</span>
+<span class="o">[</span>files<span class="o">]</span>
+dotsyncrc                       <span class="c1"># 相当于 ln -s dotsyncrc ~/.dotsyncrc</span>
+emacs/xm-spacemacs:.emacs.d     <span class="c1"># 相当于 ln -s emacs/xm-spacemacs ~/.emacs.d</span>
+emacs/spacemacs                 <span class="c1"># 相当于 ln -s emacs/spacemacs ~/.spacemacs</span>
+<span class="c1"># ... 等等</span>
+<span class="o">[</span>endfiles<span class="o">]</span>
     
 <span class="o">[</span>hosts<span class="o">]</span>
-xm-pc <span class="nv">git</span><span class="o">=</span>ANY                   <span class="c1"># 计算机名称
-</span><span class="c1"></span><span class="o">[</span>endhosts<span class="o">]</span></code></pre></td></tr></table>
+xm-pc <span class="nv">git</span><span class="o">=</span>ANY                   <span class="c1"># 计算机名称</span>
+<span class="o">[</span>endhosts<span class="o">]</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>第四步，运行 dotsync 命令。</p>
@@ -428,11 +420,11 @@ xm-pc <span class="nv">git</span><span class="o">=</span>ANY                   <
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 假设你把 dotsync 克隆到了家目录下
-</span><span class="c1"></span>
-~/dotsync/bin/dotsync           <span class="c1"># 运行，会提示你选择参数
-</span><span class="c1"></span>~/dotsync/bin/dotsync -l        <span class="c1"># 查看将要链接的文件列表
-</span><span class="c1"></span>~/dotsync/bin/dotsync -f ~/Dotfiles/dotsyncrc -L # -f 指定配置文件，-L 生成软链接</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 假设你把 dotsync 克隆到了家目录下</span>
+
+~/dotsync/bin/dotsync           <span class="c1"># 运行，会提示你选择参数</span>
+~/dotsync/bin/dotsync -l        <span class="c1"># 查看将要链接的文件列表</span>
+~/dotsync/bin/dotsync -f ~/Dotfiles/dotsyncrc -L <span class="c1"># -f 指定配置文件，-L 生成软链接</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>这个时候，你在 <code>dotsyncrc</code> 中指定的文件，都在指定位置创建了软链接。如果文件已经存在，它们都将备份到 <code>~/.backup/</code> 目录。当你编辑软链接文件的时候，实际上编辑的是 Dotfiles 目录中的源文件。</p>
@@ -459,8 +451,8 @@ xm-pc <span class="nv">git</span><span class="o">=</span>ANY                   <
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">source</span> ~/.zshrc                 <span class="c1"># 重载 zshrc 文件
-</span><span class="c1"></span><span class="nv">$PATH</span>                           # 查看 PATH</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">source</span> ~/.zshrc                 <span class="c1"># 重载 zshrc 文件</span>
+<span class="nv">$PATH</span>                           <span class="c1"># 查看 PATH</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>这样，我们就可以直接在命令行中直接使用 dotsync 这个命令了。</p>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Markdown on 贤民的比特记忆</title>
+    <title>markdown on 贤民的比特记忆</title>
     <link>https://www.xianmin.org/tags/markdown/</link>
-    <description>Recent content in Markdown on 贤民的比特记忆</description>
+    <description>Recent content in markdown on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 01 Jan 2017 18:03:09 +0800</lastBuildDate>
@@ -17,9 +17,7 @@
       <pubDate>Sun, 01 Jan 2017 18:03:09 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/00-even-theme-preview/</guid>
-      <description>&lt;p&gt;主题与markdown语法测试。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;主题与markdown语法测试。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rss on 贤民的比特记忆</title>
+    <title>RSS on 贤民的比特记忆</title>
     <link>https://www.xianmin.org/tags/rss/</link>
-    <description>Recent content in Rss on 贤民的比特记忆</description>
+    <description>Recent content in RSS on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0800</lastBuildDate>
@@ -24,7 +24,7 @@
 &lt;p&gt;如果看到这篇文章的你，对我发起的组织和项目感兴趣，不妨加我的微信，我想建立一个「独立博客博主」交流群，互相交流意见。加我时麻烦你备注一下，比如「独立博客 + 你的博客网址」。我的微信二维码：&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
@@ -34,10 +34,7 @@
     &lt;/div&gt;
     &lt;a href=&#34;https://www.xianmin.org/image/wechat.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/div&gt;</description>
     </item>
     
   </channel>

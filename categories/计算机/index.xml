@@ -19,9 +19,7 @@
       <guid>https://www.xianmin.org/post/use-linuxbrew/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://brew.sh/&#34;&gt;Homebrew&lt;/a&gt; 是 MacOS 下的一个包管理工具，可以用它安装各种软件，相当于 Linux 下的 &lt;code&gt;apt-get&lt;/code&gt; ，大部分使用 Mac 的开发者对它应该很熟悉了。 &lt;a href=&#34;http://linuxbrew.sh&#34;&gt;Linuxbrew&lt;/a&gt; 是 Linux 下的 Homebrew ，使用它，就可以用 &lt;code&gt;brew install&lt;/code&gt; 安装更多的软件。&lt;/p&gt;
 
-&lt;p&gt;也许有人要问，各个 Linux 发行版都已经 &lt;strong&gt;自带了「包管理工具」&lt;/strong&gt; ，为什么还要多此一举，用 Linuxbrew 呢？&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;也许有人要问，各个 Linux 发行版都已经 &lt;strong&gt;自带了「包管理工具」&lt;/strong&gt; ，为什么还要多此一举，用 Linuxbrew 呢？&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,9 +30,7 @@
       <guid>https://www.xianmin.org/post/my-linux-app-list/</guid>
       <description>&lt;p&gt;本篇文章将对 &lt;strong&gt;我平时所使用的计算机软件做一个归纳整理&lt;/strong&gt; 。&lt;/p&gt;
 
-&lt;p&gt;我大部分时候使用的操作系统是 &lt;strong&gt;Deepin Linux&lt;/strong&gt; ，因此以下所列出的软件 &lt;strong&gt;也许在 Windows 和 Mac 下并不适用&lt;/strong&gt; 。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;我大部分时候使用的操作系统是 &lt;strong&gt;Deepin Linux&lt;/strong&gt; ，因此以下所列出的软件 &lt;strong&gt;也许在 Windows 和 Mac 下并不适用&lt;/strong&gt; 。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -43,8 +39,7 @@
       <pubDate>Sat, 11 Aug 2018 12:14:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/thinkpad-x230/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
+      <description>&lt;div class=&#34;box&#34;&gt;
 &lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:60%&#34; &gt;
@@ -56,9 +51,7 @@
 &lt;/div&gt;
 
 
-&lt;p&gt;最近，我的搭档 「ThinkPad X230」 的键盘出了点问题，按键偶尔会完全失灵，小红点经常失控。当机立断，我直接在淘宝买了个新的键盘换上，感觉它又重获了新生。这是我喜欢 ThinkPad 的主要原因，它太好拆了，换个键盘只要下俩螺丝，几分钟就搞定。但凡哪个部件有任何问题，我都能轻松的更换，这让我觉得它是真正属于我的，能跟随我很久。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;最近，我的搭档 「ThinkPad X230」 的键盘出了点问题，按键偶尔会完全失灵，小红点经常失控。当机立断，我直接在淘宝买了个新的键盘换上，感觉它又重获了新生。这是我喜欢 ThinkPad 的主要原因，它太好拆了，换个键盘只要下俩螺丝，几分钟就搞定。但凡哪个部件有任何问题，我都能轻松的更换，这让我觉得它是真正属于我的，能跟随我很久。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -70,7 +63,7 @@
       <description>&lt;p&gt;我不确定你有没有遇到过这样的问题，输入一个双引号，它是 &lt;strong&gt;前引号&lt;/strong&gt; 呢，还是 &lt;strong&gt;后引号&lt;/strong&gt; 。也许是字体的缘故，我总得瞪大了眼睛才能分辨的清楚。出于好奇，我上网搜了下，还真有解决办法。最简单的办法就是使用港台的标准，使用直角引号。请看图片：&lt;/p&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -79,10 +72,7 @@
     &lt;/div&gt;
     &lt;a href=&#34;https://www.xianmin.org/image/other/fcitx-punc-01.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -111,8 +101,7 @@
 &lt;/div&gt;
 
 
-&lt;p&gt;代码来源： &lt;a href=&#34;https://immmmm.com/bitcron-show-douban-item&#34;&gt;Bitcron 文章内插入豆瓣条目 - 林小沐&lt;/a&gt;
-&lt;/p&gt;</description>
+&lt;p&gt;代码来源： &lt;a href=&#34;https://immmmm.com/bitcron-show-douban-item&#34;&gt;Bitcron 文章内插入豆瓣条目 - 林小沐&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -121,9 +110,7 @@
       <pubDate>Tue, 22 May 2018 21:28:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/linux-emacs-quick-open-file/</guid>
-      <description>&lt;p&gt;首先要确认 emacs 已经启动，并且开启了 server&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 。如果使用 spacemacs ，server 默认是开启的。这样就可以使用 &lt;code&gt;emacsclient&lt;/code&gt; 命令快速打开文件了。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;首先要确认 emacs 已经启动，并且开启了 server&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 。如果使用 spacemacs ，server 默认是开启的。这样就可以使用 &lt;code&gt;emacsclient&lt;/code&gt; 命令快速打开文件了。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -141,9 +128,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/blog/git/alternatives-to-git-submodule-git-subtree&#34;&gt;Git subtree: the alternative to Git submodule&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;这两个链接分别都出现在 Google 搜索中文和搜索英文时的首页上。因此，我最开始使用的是 subtree，以为 subtree 就是目前的主流方案，并且是 submodule 的替代方案。直到前些日子我改用了 submodule 才发现，submodule 才是真正我想用的。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;这两个链接分别都出现在 Google 搜索中文和搜索英文时的首页上。因此，我最开始使用的是 subtree，以为 subtree 就是目前的主流方案，并且是 submodule 的替代方案。直到前些日子我改用了 submodule 才发现，submodule 才是真正我想用的。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -159,9 +144,7 @@
 &lt;li&gt;&lt;code&gt;orgmode&lt;/code&gt; : &lt;a href=&#34;https://orgmode.org/&#34;&gt;https://orgmode.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ox-hugo&lt;/code&gt; : &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;https://ox-hugo.scripter.co/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;easy-hygo&lt;/code&gt; : &lt;a href=&#34;https://github.com/masasam/emacs-easy-hugo&#34;&gt;https://github.com/masasam/emacs-easy-hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -179,9 +162,7 @@
 &lt;li&gt;&lt;a href=&#34;https://juejin.im/post/59f98a196fb9a045132a03ed&#34;&gt;零起点的开源社区贡献指南 - 掘金&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html&#34;&gt;Commit message 和 Change log 编写指南 - 阮一峰的网络日志&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow&#34;&gt;git-flow 的工作流程&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -200,9 +181,7 @@
 &lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_editing-hacks&#34;&gt;Visual Studio Tips and Tricks&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -218,9 +197,7 @@
 &lt;li&gt;&lt;a href=&#34;https://segmentfault.com/a/1190000003046071&#34;&gt;JS 中 this 关键字详解 - JSer - SegmentFault&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;我是先阅读的 &lt;a href=&#34;https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&amp;amp;%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes&#34;&gt;You-Dont-Know-JS: this &amp;amp; Object Prototypes&lt;/a&gt; 。再回过头看上面的那两篇文章，我觉得他们讲解的太复杂了，而 《You-Dont-Know-JS》 就归纳的非常好。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;我是先阅读的 &lt;a href=&#34;https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&amp;amp;%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes&#34;&gt;You-Dont-Know-JS: this &amp;amp; Object Prototypes&lt;/a&gt; 。再回过头看上面的那两篇文章，我觉得他们讲解的太复杂了，而 《You-Dont-Know-JS》 就归纳的非常好。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -229,9 +206,7 @@
       <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/02-manage-dotfiles/</guid>
-      <description>&lt;p&gt;作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code&gt;.&lt;/code&gt; 开头，管它们叫 &lt;code&gt;dotfiles&lt;/code&gt; 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code&gt;.&lt;/code&gt; 开头，管它们叫 &lt;code&gt;dotfiles&lt;/code&gt; 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p&gt;</description>
     </item>
     
   </channel>
