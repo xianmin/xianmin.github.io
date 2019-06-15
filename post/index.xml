@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 31 May 2019 23:45:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2019 07:34:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>思维工具箱</title>
+      <link>https://www.xianmin.org/post/mindtools/</link>
+      <pubDate>Sun, 16 Jun 2019 07:34:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/mindtools/</guid>
+      <description>&lt;p&gt;最近看了一本书——《直觉泵和其他思考工具》&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ， 丹尼特在这本书中提及了 77 个思考工具。先撇开书中的具体内容，我发现了聪明人都有一个共同点，就是他们有一套 &lt;strong&gt;「可复用的思考问题的方法」&lt;/strong&gt; 。丹尼特称它们为「直觉泵」，与之相类似的，如芒格的「高阶思维模型」。还有阳志平老师，他也有一套方法论&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-2&#34;&gt;&lt;a href=&#34;#fn:fn-2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 。人与人之间的差异，很多时候就体现在思考问题的方法上，不同的思考方式，就会有不一样的解决问题的思路。一个问题之所以困难，不是因为问题难，而是用错了思考问题的方法。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>记录： 2019 年 5 月 - 尝试</title>
@@ -286,31 +295,6 @@
     &lt;/div&gt;
     &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/1100.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;卡卡一家&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>从泸沽湖到宝山石头城</title>
-      <link>https://www.xianmin.org/post/2018-lugu-lake/</link>
-      <pubDate>Fri, 30 Nov 2018 15:20:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2018-lugu-lake/</guid>
-      <description>&lt;p&gt;在丽江待了这么多年，却一直没有去过泸沽湖。原因嘛，无非是我不喜欢去景点，尤其是大家都去的景点。我的偏好是，要么在路上，要么就在一个地方待着，逛景点也就是看看风景，有时候路上的风景或许比景点更美呢。&lt;/p&gt;
-
-&lt;p&gt;不过这个月月底，终于还是去了一趟泸沽湖，顺带还去了宝山石头城。这次比较特殊的是和几个熟悉的朋友一同出行，实在难得，一块儿吃喝玩乐，聊聊生活，增进一下友谊。&lt;/p&gt;
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/lugu-lake/00.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/lugu-lake/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;泸沽湖边飞翔的鸟儿&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;</description>

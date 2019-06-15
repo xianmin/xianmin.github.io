@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>思考 on 贤民的比特记忆</title>
-    <link>https://www.xianmin.org/tags/%E6%80%9D%E8%80%83/</link>
-    <description>Recent content in 思考 on 贤民的比特记忆</description>
+    <title>思维工具箱 on 贤民的比特记忆</title>
+    <link>https://www.xianmin.org/categories/%E6%80%9D%E7%BB%B4%E5%B7%A5%E5%85%B7%E7%AE%B1/</link>
+    <description>Recent content in 思维工具箱 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 16 Jun 2019 07:34:00 +0800</lastBuildDate>
     
-	<atom:link href="https://www.xianmin.org/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.xianmin.org/categories/%E6%80%9D%E7%BB%B4%E5%B7%A5%E5%85%B7%E7%AE%B1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://www.xianmin.org/post/mindtools/</guid>
       <description>&lt;p&gt;最近看了一本书——《直觉泵和其他思考工具》&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ， 丹尼特在这本书中提及了 77 个思考工具。先撇开书中的具体内容，我发现了聪明人都有一个共同点，就是他们有一套 &lt;strong&gt;「可复用的思考问题的方法」&lt;/strong&gt; 。丹尼特称它们为「直觉泵」，与之相类似的，如芒格的「高阶思维模型」。还有阳志平老师，他也有一套方法论&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-2&#34;&gt;&lt;a href=&#34;#fn:fn-2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 。人与人之间的差异，很多时候就体现在思考问题的方法上，不同的思考方式，就会有不一样的解决问题的思路。一个问题之所以困难，不是因为问题难，而是用错了思考问题的方法。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>维特根斯坦的《战时笔记》</title>
-      <link>https://www.xianmin.org/post/wartime-notes/</link>
-      <pubDate>Fri, 09 Feb 2018 21:53:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/wartime-notes/</guid>
-      <description>&lt;p&gt;这本书是维特根斯坦在 1914年 至 1917年 一战期间当兵时所写的笔记。这份笔记包含两部分，一部分是私人日记，一部分是哲学笔记。他出身富贵人家，又有很高的学识，完全可以不去服兵役，但他还是去了，这是为什么？那年他 25 岁，与我的年龄相仿，我很好奇他的所思所想，并且窥探一个「天才」的私人日记会是一件很有趣的事儿。&lt;/p&gt;</description>
     </item>
     
   </channel>
