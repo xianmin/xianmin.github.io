@@ -6,10 +6,34 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 16 Jun 2019 07:34:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jun 2019 08:18:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>英文电子词典的选用建议</title>
+      <link>https://www.xianmin.org/post/english-dictionary-recommend/</link>
+      <pubDate>Sun, 23 Jun 2019 08:18:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/english-dictionary-recommend/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;去年 9 月，我写了篇 &lt;a href=&#34;https://www.xianmin.org/post/plan-english-2018/&#34;&gt;英语学习方法总结&lt;/a&gt; ，经过半年多的实践，期间查询了大量的英文单词，对不同词典的优缺点有了更直观的感触。 &lt;strong&gt;在本篇文章中，我将对英文词典的选用，分享一点自己的心得。&lt;/strong&gt; 鉴于我个人的英文水平依旧一般，选用建议仅供参考。&lt;/p&gt;
+
+&lt;p&gt;注：本文所提到的词典皆为 &lt;strong&gt;电子词典&lt;/strong&gt; 。手机端使用的 APP 为欧路词典，电脑端使用 GoldenDict 。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;以下两部词典解决 99% 的查词需求：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;《柯林斯（ Collins ）双解词典》；&lt;/li&gt;
+&lt;li&gt;《朗文当代英语词典》 第六版 （ Longman Dictionary of Contemporary English 6th - 简称：LDOCE6 ）。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;再加上一部《麦克米伦（ Macmillan ）高阶学习词典》，基本就解决了 99.9% 的查词需求。&lt;/p&gt;
+
+&lt;p&gt;词典的数量在精不在多， &lt;strong&gt;我拥有的二十几部英文词典，绝大多数完全没有用过，释义基本大同小异。&lt;/strong&gt; 而我选用的这三部词典，各有各的特色，满足了我在不同场景下的使用需求。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>思维工具箱</title>
@@ -275,29 +299,6 @@
       <description>&lt;h2 id=&#34;1-dot-网瘾少年&#34;&gt;1. 网瘾少年&lt;/h2&gt;
 
 &lt;p&gt;在我 10 至 13 岁这几年，因为沉迷网络游戏，偷家里的钱去泡网吧，经常被母亲教训，并多次被赶出家门。直至有一次我铁了心不再回家，身无分文离家两个月，此间辛酸不必多言。家人用尽各种办法，登电视，登报纸，贴寻人启事，最终将我找到。回去后，我痛定思痛，答应父母答应老师，一定改过自新，再也不玩网游。谁知才过一个多月，网瘾又犯。我无法控制自己，并深知对不起父母和老师，又一次离家出走。母亲已经对我彻底绝望，父亲坚持要把我找回来。我在外面处处碰壁，半个月后，父亲带着我回了家。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>记录： 2018 年 11 月 - 执行意图</title>
-      <link>https://www.xianmin.org/post/review-2018-11/</link>
-      <pubDate>Fri, 30 Nov 2018 16:12:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/review-2018-11/</guid>
-      <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/1100.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/1100.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;卡卡一家&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;</description>
     </item>
     
   </channel>
