@@ -6,10 +6,26 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 01 Sep 2019 10:30:52 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2019 10:50:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>笔记：公开课 Learning How to Learn</title>
+      <link>https://www.xianmin.org/post/note-learning-how-to-learn/</link>
+      <pubDate>Sun, 01 Sep 2019 10:50:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/note-learning-how-to-learn/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;在线播放地址： &lt;a href=&#34;https://www.bilibili.com/video/av31961814/&#34;&gt;【coursera公开课】学会如何学习 Learning How to Learn（中文字幕）- bilibili&lt;/a&gt; 。&lt;/li&gt;
+&lt;li&gt;配套的书： &lt;a href=&#34;https://www.goodreads.com/book/show/36647421-learning-how-to-learn&#34;&gt;Learning How to Learn - by Barbara Oakley | Goodreads&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;如果早个 10 年上这门课，那收获肯定是非常大的。课程中提到的大部分内容，在这些年的阅读中都有接触到。&lt;/p&gt;
+
+&lt;p&gt;课程的一大特点是运用了大量的图片隐喻，便于理解和加深印象。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>记录： 2019 年 8 月 - Listen To This</title>
@@ -281,30 +297,6 @@
       <description>&lt;p&gt;一年又过去了，我重新看了下与你在 2017 年末（&lt;a href=&#34;https://www.xianmin.org/post/2017/&#34;&gt;别了，2017！&lt;/a&gt;）的交流，再回顾这刚过去的 2018 年，我应该对你说些什么呢？&lt;/p&gt;
 
 &lt;p&gt;现在，我将对你的 2018 年终总结分为四大类：修行、工作、锻炼、学习。「学习」下面分为四小类：编程、英语、写作、阅读。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>记录： 2018 年 12 月 - 意外</title>
-      <link>https://www.xianmin.org/post/review-2018-12/</link>
-      <pubDate>Mon, 31 Dec 2018 05:50:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/review-2018-12/</guid>
-      <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2018/1200.jpg&#34; alt=&#34;曲哥为我们带来了 2018 年最后的温暖&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2018/1200.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;
-          &lt;p&gt;曲哥为我们带来了 2018 年最后的温暖&lt;/p&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;</description>
     </item>
     
   </channel>

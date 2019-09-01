@@ -3,51 +3,82 @@
   
   <url>
     <loc>https://www.xianmin.org/categories/</loc>
-    <lastmod>2019-09-01T10:30:52+08:00</lastmod>
+    <lastmod>2019-09-01T11:20:23+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/post/</loc>
-    <lastmod>2019-09-01T10:30:52+08:00</lastmod>
+    <lastmod>2019-09-01T11:20:23+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/tags/</loc>
-    <lastmod>2019-09-01T10:30:52+08:00</lastmod>
+    <lastmod>2019-09-01T11:20:23+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/tags/%E5%8F%8D%E6%80%9D/</loc>
-    <lastmod>2019-09-01T10:30:52+08:00</lastmod>
+    <loc>https://www.xianmin.org/tags/%E5%85%AC%E5%BC%80%E8%AF%BE/</loc>
+    <lastmod>2019-09-01T11:20:23+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/tags/%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2019-09-01T10:30:52+08:00</lastmod>
+    <loc>https://www.xianmin.org/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2019-09-01T11:20:23+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/categories/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2019-09-01T10:30:52+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xianmin.org/post/review-2019-07/</loc>
-    <lastmod>2019-09-01T10:30:52+08:00</lastmod>
+    <loc>https://www.xianmin.org/post/note-learning-how-to-learn/</loc>
+    <lastmod>2019-09-01T11:20:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/</loc>
-    <lastmod>2019-09-01T10:30:52+08:00</lastmod>
+    <lastmod>2019-09-01T11:20:23+08:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2019-09-01T11:20:23+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/tags/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2019-09-01T11:20:23+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/tags/%E5%8F%8D%E6%80%9D/</loc>
+    <lastmod>2019-09-01T10:37:46+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/tags/%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2019-09-01T10:37:46+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/categories/%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2019-09-01T10:37:46+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/post/review-2019-07/</loc>
+    <lastmod>2019-09-01T10:37:46+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -66,12 +97,6 @@
   <url>
     <loc>https://www.xianmin.org/tags/%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2019-07-04T09:16:38+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xianmin.org/tags/%E5%85%AC%E5%BC%80%E8%AF%BE/</loc>
-    <lastmod>2019-07-03T09:18:08+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -353,28 +378,10 @@
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/</loc>
-    <lastmod>2018-12-29T05:03:22+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xianmin.org/tags/%E9%98%85%E8%AF%BB/</loc>
-    <lastmod>2018-12-29T05:03:22+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xianmin.org/post/note-how-to-have-a-good-day/</loc>
     <lastmod>2018-12-29T05:03:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xianmin.org/tags/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2018-12-29T05:03:12+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
