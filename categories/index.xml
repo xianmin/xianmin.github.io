@@ -6,10 +6,19 @@
     <description>Recent content in Categories on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 29 Nov 2019 06:55:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jan 2020 14:57:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.xianmin.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>杂文</title>
+      <link>https://www.xianmin.org/categories/%E6%9D%82%E6%96%87/</link>
+      <pubDate>Tue, 21 Jan 2020 14:57:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/categories/%E6%9D%82%E6%96%87/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>记录</title>
@@ -26,15 +35,6 @@
       <pubDate>Sun, 01 Sep 2019 10:50:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>杂文</title>
-      <link>https://www.xianmin.org/categories/%E6%9D%82%E6%96%87/</link>
-      <pubDate>Sun, 23 Jun 2019 08:18:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/categories/%E6%9D%82%E6%96%87/</guid>
       <description></description>
     </item>
     
