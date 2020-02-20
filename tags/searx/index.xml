@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>searx on 贤民的比特记忆</title>
+    <link>https://www.xianmin.org/tags/searx/</link>
+    <description>Recent content in searx on 贤民的比特记忆</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 20 Feb 2020 14:48:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.xianmin.org/tags/searx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google 的替代 —— Searx</title>
+      <link>https://www.xianmin.org/post/replace-google/</link>
+      <pubDate>Thu, 20 Feb 2020 14:48:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/replace-google/</guid>
+      <description>&lt;p&gt;最近的网络很不好用，一到特殊时期就这个样子。&lt;/p&gt;
+
+&lt;p&gt;由于我是搜索引擎的重度使用者，当 Google 用不了的时候，有什么替代方案吗？&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

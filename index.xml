@@ -6,10 +6,39 @@
     <description>Recent content on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 21 Jan 2020 14:57:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 20 Feb 2020 14:48:00 +0800</lastBuildDate>
     
         <atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google 的替代 —— Searx</title>
+      <link>https://www.xianmin.org/post/replace-google/</link>
+      <pubDate>Thu, 20 Feb 2020 14:48:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/replace-google/</guid>
+      
+        <description>&lt;p&gt;最近的网络很不好用，一到特殊时期就这个样子。&lt;/p&gt;
+
+&lt;p&gt;由于我是搜索引擎的重度使用者，当 Google 用不了的时候，有什么替代方案吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cn.bing.com/&#34;&gt;微软 Bing 搜索&lt;/a&gt; 就不必介绍了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;这里给大家推荐一个元搜索引擎 &lt;a href=&#34;https://github.com/asciimoo/searx&#34;&gt;searx&lt;/a&gt; ——一个开源的聚合搜索引擎工具&lt;/strong&gt; ，任何人都可以通过它搭建自己的搜索引擎。作为一个普通使用者，我们直接使用其他人已经搭建好的实例就可以了： &lt;a href=&#34;https://searx.space/&#34;&gt;Searx instances&lt;/a&gt; ，里面列出了一些公开的 Searx 实例。&lt;/p&gt;
+
+&lt;p&gt;每个 Searx 实例由于搭建者个人的喜好，后台配置并不一定相同。并且，地区不同，访问速度也不一样。以下我推荐几个经我个人测试后，体验还算不错的站点：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nibblehole.com/&#34;&gt;https://nibblehole.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://searx.be/&#34;&gt;https://searx.be/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://searx.org/&#34;&gt;https://searx.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Searx 的功能十分丰富，关于它更多的玩法，各位自行去挖掘吧。&lt;/p&gt;
+
+&lt;p&gt;最后，再补充一个国内版本： &lt;a href=&#34;https://mijisou.com/&#34;&gt;秘迹搜索&lt;/a&gt; ，这个站点在国内是有备案的。&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>别了，2019！</title>
@@ -1988,58 +2017,6 @@ bzip2  fd  fzf	hub  icu4c  ncurses  node  patchelf  pcre2  ripgrep  yarn  zlib&l
 &lt;p&gt;&lt;strong&gt;Linuxbrew has been merged into Homebrew!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;有关最新的更新请查看 &lt;a href=&#34;https://github.com/Linuxbrew/brew&#34;&gt;Github 项目地址&lt;/a&gt; 。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>自制卤肉</title>
-      <link>https://www.xianmin.org/post/homemade-lurou/</link>
-      <pubDate>Wed, 27 Feb 2019 07:35:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/homemade-lurou/</guid>
-      
-        <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.xiachufang.com/recipe/100410171/&#34;&gt;【靠谱的自制卤水的做法视频_做法步骤】_下厨房&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;去年 12 月，听了曲哥的建议，烧了一锅卤水。我的第一锅卤水，是用几块牛筒骨炖出来的，卤料直接用的是「李锦记」的。此后，每隔几日便卤点东西，卤五花肉，卤排骨，卤牛肉，卤鸡翅，卤鸡腿，卤鸡爪，还有卤鸡蛋。&lt;/p&gt;
-
-&lt;p&gt;有了卤水之后呢，做法也很简单：如果是肉，先焯一道水，捞出洗干净，再丢进卤锅里小火煮上 30 分钟，就可以了。不过，此时最好不要捞出，再放在卤水中浸泡，浸泡时间越久越入味，想吃的时候，将卤水烧开就能吃了。&lt;/p&gt;
-
-&lt;p&gt;如果是鸡蛋的话，前一天晚上将鸡蛋煮熟，蛋壳剥净，丢进卤水中，第二天一早就可以吃到美味的卤蛋了。&lt;/p&gt;
-
-&lt;p&gt;每一次卤好一道菜，这个卤水可要存放好，不用了最好是放在冰箱里， &lt;strong&gt;时不时拿出来烧一烧，这样就不会变质了&lt;/strong&gt; 。&lt;/p&gt;
-
-&lt;p&gt;最后放两张图吧 😃 ：&lt;/p&gt;
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/cook/lurou-00.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/cook/lurou-00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;卤水&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/cook/lurou-01.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/cook/lurou-01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;卤好的鸡爪&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;</description>
       
     </item>
     
