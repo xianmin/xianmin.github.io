@@ -6,10 +6,96 @@
     <description>Recent content on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 20 Feb 2020 14:48:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2020 16:06:00 +0800</lastBuildDate>
     
         <atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux 下，用命令行给 PDF 添加书签</title>
+      <link>https://www.xianmin.org/post/linux-pdftk/</link>
+      <pubDate>Tue, 25 Feb 2020 16:06:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/linux-pdftk/</guid>
+      
+        <description>&lt;p&gt;最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下：&lt;/p&gt;
+
+&lt;p&gt;一、安装 pdftk ：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;apt install pdftk&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;二、导出 PDF 文件数据：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pdftk my.pdf dump_data output data.txt&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;三、编辑数据文件 &lt;code&gt;data.txt&lt;/code&gt; ，与书签有关的内容为：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;BookmarkBegin
+BookmarkTitle: -- Your Title 1 --
+BookmarkLevel: 1 #一级目录
+BookmarkPageNumber: 10 #页码
+BookmarkBegin
+BookmarkTitle: -- Your Title 2 --
+BookmarkLevel: 2 #二级目录
+BookmarkPageNumber: 20
+BookmarkBegin
+BookmarkTitle: -- Your Title 3 --
+BookmarkLevel: 1
+BookmarkPageNumber: 30
+...
+...
+and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;这个步骤比较关键。如果能够复制一份固定格式的目录内容，那么就很好处理了。&lt;/p&gt;
+
+&lt;p&gt;四、将编辑好的数据文件导入并输出：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pdftk my.pdf update_info data.txt output bookmarked.pdf&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;参考：&lt;a href=&#34;https://stackoverflow.com/questions/30304718/create-bookmarks-into-a-pdf-file-via-command-line&#34;&gt;Create bookmarks into a PDF file via command line - Stack Overflow&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;补充&#34;&gt;补充&lt;/h2&gt;
+
+&lt;p&gt;以上记录完成之后，发现一个用 python 的处理办法：
+&lt;a href=&#34;https://github.com/dnxbjyj/py-project/tree/master/AddPDFBookmarks&#34;&gt;py-project/AddPDFBookmarks at master · dnxbjyj/py-project&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;下次可以考虑用 python 试一试。对于文件的批量处理，以及字符的操作，用 python 会更高效一些。&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>Google 的替代 —— Searx</title>
@@ -1949,74 +2035,6 @@
 
 
 &lt;/div&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Linux 下，使用 Linuxbrew 安装更多的软件</title>
-      <link>https://www.xianmin.org/post/use-linuxbrew/</link>
-      <pubDate>Wed, 27 Feb 2019 08:00:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/use-linuxbrew/</guid>
-      
-        <description>&lt;p&gt;&lt;a href=&#34;https://brew.sh/&#34;&gt;Homebrew&lt;/a&gt; 是 MacOS 下的一个包管理工具，可以用它安装各种软件，相当于 Linux 下的 &lt;code&gt;apt-get&lt;/code&gt; ，大部分使用 Mac 的开发者对它应该很熟悉了。 &lt;a href=&#34;http://linuxbrew.sh&#34;&gt;Linuxbrew&lt;/a&gt; 是 Linux 下的 Homebrew ，使用它，就可以用 &lt;code&gt;brew install&lt;/code&gt; 安装更多的软件。&lt;/p&gt;
-
-&lt;p&gt;也许有人要问，各个 Linux 发行版都已经 &lt;strong&gt;自带了「包管理工具」&lt;/strong&gt; ，为什么还要多此一举，用 Linuxbrew 呢？&lt;/p&gt;
-
-&lt;h2 id=&#34;为什么用-linuxbrew&#34;&gt;为什么用 Linuxbrew ？&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;将软件安装在用户目录下，无需使用 sudo 。&lt;/li&gt;
-&lt;li&gt;获取更多软件资源，安装最新版本的软件。&lt;/li&gt;
-&lt;li&gt;保持 linux 系统环境的整洁。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;我举一个我最近使用的一个例子：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我要安装 &lt;a href=&#34;https://yarnpkg.com/zh-Hans/&#34;&gt;Yarn&lt;/a&gt; ，系统仓库的版本太低，如果 &lt;a href=&#34;https://yarnpkg.com/zh-Hans/docs/install#debian-stable&#34;&gt;按照官网的步骤安装&lt;/a&gt; ，则太过繁琐。而使用了 Linuxbrew ，只需要一条命令 &lt;code&gt;brew install yarn&lt;/code&gt; ，就安装好了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;看一下我安装的其他工具：&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;% brew list
-bzip2  fd  fzf	hub  icu4c  ncurses  node  patchelf  pcre2  ripgrep  yarn  zlib&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;linuxbrew-的安装&#34;&gt;Linuxbrew 的安装&lt;/h2&gt;
-
-&lt;p&gt;参见 &lt;a href=&#34;http://linuxbrew.sh/&#34;&gt;Linuxbrew官网&lt;/a&gt; 或 &lt;a href=&#34;https://github.com/Linuxbrew/brew&#34;&gt;Github 项目地址&lt;/a&gt; ：&lt;/p&gt;
-
-&lt;p&gt;1、 执行命令：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sh -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;2、 添加 PATH 路径（比如我的，添加到 &lt;code&gt;.zprofile&lt;/code&gt; 文件）：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;PATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/home/linuxbrew/.linuxbrew/bin:&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PATH&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
-&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;MANPATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/home/linuxbrew/.linuxbrew/share/man:&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$MANPATH&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
-&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;INFOPATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/home/linuxbrew/.linuxbrew/share/info:&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$INFOPATH&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;最新更新&#34;&gt;最新更新！&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Linuxbrew has been merged into Homebrew!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;有关最新的更新请查看 &lt;a href=&#34;https://github.com/Linuxbrew/brew&#34;&gt;Github 项目地址&lt;/a&gt; 。&lt;/p&gt;</description>
       
     </item>
     

@@ -6,10 +6,19 @@
     <description>Recent content in 计算机 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 20 Feb 2020 14:48:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2020 16:06:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux 下，用命令行给 PDF 添加书签</title>
+      <link>https://www.xianmin.org/post/linux-pdftk/</link>
+      <pubDate>Tue, 25 Feb 2020 16:06:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/linux-pdftk/</guid>
+      <description>&lt;p&gt;最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下：&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Google 的替代 —— Searx</title>

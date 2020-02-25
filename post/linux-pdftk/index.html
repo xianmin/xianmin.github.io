@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>分类 - 贤民的比特记忆</title>
+  <title>Linux 下，用命令行给 PDF 添加书签 - 贤民的比特记忆</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,9 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="贤民" />
-  <meta name="description" content="这里是我写字的地方" />
+  <meta name="description" content="最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下：
+" />
+
   <meta name="keywords" content="linux, emacs, program, journal, 贤民, 博客, 笔记" />
 
 
@@ -34,8 +36,7 @@
 <meta name="generator" content="Hugo 0.55.5" />
 
 
-<link rel="canonical" href="https://www.xianmin.org/categories/" />
-<link href="%7balternate%20%7bRSS%20application/rss&#43;xml%20%20index%20alternate%20%20false%20false%20true%20false%20false%200%7d%20/categories/index.xml%20https://www.xianmin.org/categories/index.xml%7d" rel="alternate" type="application/rss+xml" title="贤民的比特记忆" />
+<link rel="canonical" href="https://www.xianmin.org/post/linux-pdftk/" />
 
 
 
@@ -59,19 +60,27 @@
 <link rel="stylesheet" href="/css/custom.css">
 
 
-<meta property="og:title" content="Categories" />
-<meta property="og:description" content="这里是我写字的地方" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.xianmin.org/categories/" />
+<meta property="og:title" content="Linux 下，用命令行给 PDF 添加书签" />
+<meta property="og:description" content="最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下：" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.xianmin.org/post/linux-pdftk/" />
+<meta property="article:published_time" content="2020-02-25T16:06:00&#43;08:00"/>
+<meta property="article:modified_time" content="2020-02-25T16:14:37&#43;08:00"/>
 
-<meta property="og:updated_time" content="2020-02-25T16:06:00&#43;08:00"/>
+<meta itemprop="name" content="Linux 下，用命令行给 PDF 添加书签">
+<meta itemprop="description" content="最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下：">
 
-<meta itemprop="name" content="Categories">
-<meta itemprop="description" content="这里是我写字的地方">
 
+<meta itemprop="datePublished" content="2020-02-25T16:06:00&#43;08:00" />
+<meta itemprop="dateModified" content="2020-02-25T16:14:37&#43;08:00" />
+<meta itemprop="wordCount" content="332">
+
+
+
+<meta itemprop="keywords" content="Linux,PDF,工具,命令行," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="这里是我写字的地方"/>
+<meta name="twitter:title" content="Linux 下，用命令行给 PDF 添加书签"/>
+<meta name="twitter:description" content="最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下："/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -312,7 +321,7 @@ if (!doNotTrack) {
 
       </li>
     
-        <li class="menu-item active">
+        <li class="menu-item">
         
           
           
@@ -373,655 +382,263 @@ if (!doNotTrack) {
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">Linux 下，用命令行给 PDF 添加书签</h1>
+      
+      <div class="post-meta">
+        <time datetime="2020-02-25" class="post-time">
+          2020-02-25
+        </time>
+        <div class="post-category">
+            <a href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"> 计算机 </a>
+            
+          </div>
+        
+
+        
+        
+
+        
+        
+          <span id="/post/linux-pdftk/" class="leancloud_visitors" data-flag-title="Linux 下，用命令行给 PDF 添加书签">
+            <span class="post-meta-item-text"> | 阅读 </span>
+            <span class="leancloud-visitors-count"></span>
+          </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#补充">补充</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p>最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下：</p>
+
+<p>一、安装 pdftk ：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">apt install pdftk</code></pre></td></tr></table>
+</div>
+</div>
+<p>二、导出 PDF 文件数据：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">pdftk my.pdf dump_data output data.txt</code></pre></td></tr></table>
+</div>
+</div>
+<p>三、编辑数据文件 <code>data.txt</code> ，与书签有关的内容为：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-text" data-lang="text"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-text" data-lang="text">BookmarkBegin
+BookmarkTitle: -- Your Title 1 --
+BookmarkLevel: 1 #一级目录
+BookmarkPageNumber: 10 #页码
+BookmarkBegin
+BookmarkTitle: -- Your Title 2 --
+BookmarkLevel: 2 #二级目录
+BookmarkPageNumber: 20
+BookmarkBegin
+BookmarkTitle: -- Your Title 3 --
+BookmarkLevel: 1
+BookmarkPageNumber: 30
+...
+...
+and so on...</code></pre></td></tr></table>
+</div>
+</div>
+<p>这个步骤比较关键。如果能够复制一份固定格式的目录内容，那么就很好处理了。</p>
+
+<p>四、将编辑好的数据文件导入并输出：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">pdftk my.pdf update_info data.txt output bookmarked.pdf</code></pre></td></tr></table>
+</div>
+</div>
+<p>参考：<a href="https://stackoverflow.com/questions/30304718/create-bookmarks-into-a-pdf-file-via-command-line">Create bookmarks into a PDF file via command line - Stack Overflow</a></p>
+
+<h2 id="补充">补充</h2>
+
+<p>以上记录完成之后，发现一个用 python 的处理办法：
+<a href="https://github.com/dnxbjyj/py-project/tree/master/AddPDFBookmarks">py-project/AddPDFBookmarks at master · dnxbjyj/py-project</a></p>
+
+<p>下次可以考虑用 python 试一试。对于文件的批量处理，以及字符的操作，用 python 会更高效一些。</p>
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">贤民</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+      2020-02-25
+      
+        <a href="https://github.com/xianmin/xianmin.org/commit/98bf49aac8f5768629eaf0587bc3c61f008a996b" title="new: linux-pdftk">
+          (98bf49a)
+        </a>
+        
+          <br>new: linux-pdftk
+        
+      
+    </span>
+  </p>
   
-  
-  
-  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content">原创文章，如需转载请注明文章作者和出处。谢谢！</span>
+  </p>
+</div>
 
-  
-  
+
     
     
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
     
     
-      <section id="archive" class="archive">
-        <div class="archive-title">
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/reward_wechat.png">
+        <span>微信打赏</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/reward_alipay.jpg">
+        <span>支付宝打赏</span>
+      </label>
+  </div>
+</div>
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="https://www.xianmin.org/tags/linux/">Linux</a>
+          <a href="https://www.xianmin.org/tags/pdf/">PDF</a>
+          <a href="https://www.xianmin.org/tags/%E5%B7%A5%E5%85%B7/">工具</a>
+          <a href="https://www.xianmin.org/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/">命令行</a>
+          
         </div>
-          <div class="collection-title">
-            <h2 class="archive-year">
-              <a href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/">
-                分类： 计算机
-              </a>
-            </h2>
-          </div>
 
-          
-            <div class="archive-post">
-              <time datetime="2020-02-25" class="archive-post-time">
-                2020-02-25
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/linux-pdftk/" class="archive-post-link">
-                  Linux 下，用命令行给 PDF 添加书签
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2020-02-20" class="archive-post-time">
-                2020-02-20
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/replace-google/" class="archive-post-link">
-                  Google 的替代 —— Searx
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2019-02-27" class="archive-post-time">
-                2019-02-27
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/use-linuxbrew/" class="archive-post-link">
-                  Linux 下，使用 Linuxbrew 安装更多的软件
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-09-20" class="archive-post-time">
-                2018-09-20
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/my-linux-app-list/" class="archive-post-link">
-                  我所使用的计算机软件
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-08-11" class="archive-post-time">
-                2018-08-11
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/thinkpad-x230/" class="archive-post-link">
-                  我的搭档 「ThinkPad X230」
-                </a>
-              </span>
-            </div>
-          
-          
-            <div class="more-post">
-              <a href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/" class="more-post-link">查看更多 &gt;&gt;&gt;</a>
-            </div>
-          
-      </section>
-    
-    
-    
-    
-    
-      <section id="archive" class="archive">
-        <div class="archive-title">
-        </div>
-          <div class="collection-title">
-            <h2 class="archive-year">
-              <a href="https://www.xianmin.org/categories/%E8%AE%B0%E5%BD%95/">
-                分类： 记录
-              </a>
-            </h2>
-          </div>
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/replace-google/">
+            <span class="next-text nav-default">Google 的替代 —— Searx</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
 
-          
-            <div class="archive-post">
-              <time datetime="2019-11-29" class="archive-post-time">
-                2019-11-29
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/review-2019-10/" class="archive-post-link">
-                  十月是登山的季节
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2019-09-01" class="archive-post-time">
-                2019-09-01
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/review-2019-07/" class="archive-post-link">
-                  记录： 2019 年 8 月 - Listen To This
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2019-07-03" class="archive-post-time">
-                2019-07-03
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/review-2019-06/" class="archive-post-link">
-                  记录： 2019 年 6 月 - 上公开课
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2019-05-31" class="archive-post-time">
-                2019-05-31
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/review-2019-05/" class="archive-post-link">
-                  记录： 2019 年 5 月 - 尝试
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2019-05-01" class="archive-post-time">
-                2019-05-01
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/review-2019-04/" class="archive-post-link">
-                  记录： 2019 年 4 月 - 新成就与新项目
-                </a>
-              </span>
-            </div>
-          
-          
-            <div class="more-post">
-              <a href="https://www.xianmin.org/categories/%E8%AE%B0%E5%BD%95/" class="more-post-link">查看更多 &gt;&gt;&gt;</a>
-            </div>
-          
-      </section>
-    
-    
-    
-    
-    
-      <section id="archive" class="archive">
-        <div class="archive-title">
-        </div>
-          <div class="collection-title">
-            <h2 class="archive-year">
-              <a href="https://www.xianmin.org/categories/%E6%9D%82%E6%96%87/">
-                分类： 杂文
-              </a>
-            </h2>
-          </div>
-
-          
-            <div class="archive-post">
-              <time datetime="2020-01-21" class="archive-post-time">
-                2020-01-21
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/goodbye-2019/" class="archive-post-link">
-                  别了，2019！
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2019-06-23" class="archive-post-time">
-                2019-06-23
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/english-dictionary-recommend/" class="archive-post-link">
-                  英文电子词典的选用建议
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2019-01-04" class="archive-post-time">
-                2019-01-04
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/goodbye-2018/" class="archive-post-link">
-                  别了， 2018 ！
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-10-12" class="archive-post-time">
-                2018-10-12
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/talk-about-mindfulness/" class="archive-post-link">
-                  浅谈冥想（或者说正念）——反抗痛苦的方法
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-08-21" class="archive-post-time">
-                2018-08-21
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/defend-the-open-internet/" class="archive-post-link">
-                  捍卫开放的互联网
-                </a>
-              </span>
-            </div>
-          
-          
-            <div class="more-post">
-              <a href="https://www.xianmin.org/categories/%E6%9D%82%E6%96%87/" class="more-post-link">查看更多 &gt;&gt;&gt;</a>
-            </div>
-          
-      </section>
-    
-    
-    
-    
-    
-      <section id="archive" class="archive">
-        <div class="archive-title">
-        </div>
-          <div class="collection-title">
-            <h2 class="archive-year">
-              <a href="https://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/">
-                分类： 随笔
-              </a>
-            </h2>
-          </div>
-
-          
-            <div class="archive-post">
-              <time datetime="2019-05-31" class="archive-post-time">
-                2019-05-31
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/201905-organize-infomation/" class="archive-post-link">
-                  正念日与整理信息
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2019-05-31" class="archive-post-time">
-                2019-05-31
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/201905-busy-what/" class="archive-post-link">
-                  瞎忙
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2019-05-12" class="archive-post-time">
-                2019-05-12
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/remind-myself/" class="archive-post-link">
-                  敬告自己
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2019-02-27" class="archive-post-time">
-                2019-02-27
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/homemade-lurou/" class="archive-post-link">
-                  自制卤肉
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2019-01-21" class="archive-post-time">
-                2019-01-21
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/unforgettable-find-dog/" class="archive-post-link">
-                  一次难忘的寻狗
-                </a>
-              </span>
-            </div>
-          
-          
-            <div class="more-post">
-              <a href="https://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/" class="more-post-link">查看更多 &gt;&gt;&gt;</a>
-            </div>
-          
-      </section>
-    
-    
-    
-    
-    
-      <section id="archive" class="archive">
-        <div class="archive-title">
-        </div>
-          <div class="collection-title">
-            <h2 class="archive-year">
-              <a href="https://www.xianmin.org/categories/%E5%9C%A8%E8%B7%AF%E4%B8%8A/">
-                分类： 在路上
-              </a>
-            </h2>
-          </div>
-
-          
-            <div class="archive-post">
-              <time datetime="2019-05-31" class="archive-post-time">
-                2019-05-31
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/201905-hiking/" class="archive-post-link">
-                  登顶文笔峰
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-11-30" class="archive-post-time">
-                2018-11-30
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/2018-lugu-lake/" class="archive-post-link">
-                  从泸沽湖到宝山石头城
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-08-31" class="archive-post-time">
-                2018-08-31
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/shaxi-oldtown-5/" class="archive-post-link">
-                  月底去了一趟沙溪古镇
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-05-12" class="archive-post-time">
-                2018-05-12
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/nujiang-05/" class="archive-post-link">
-                  怒江行记（六）——终点丙中洛
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-05-09" class="archive-post-time">
-                2018-05-09
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/nujiang-04/" class="archive-post-link">
-                  怒江行记（五）——探秘独龙江
-                </a>
-              </span>
-            </div>
-          
-          
-            <div class="more-post">
-              <a href="https://www.xianmin.org/categories/%E5%9C%A8%E8%B7%AF%E4%B8%8A/" class="more-post-link">查看更多 &gt;&gt;&gt;</a>
-            </div>
-          
-      </section>
-    
-    
-    
-    
-    
-      <section id="archive" class="archive">
-        <div class="archive-title">
-        </div>
-          <div class="collection-title">
-            <h2 class="archive-year">
-              <a href="https://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/">
-                分类： 阅读
-              </a>
-            </h2>
-          </div>
-
-          
-            <div class="archive-post">
-              <time datetime="2019-09-01" class="archive-post-time">
-                2019-09-01
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/note-learning-how-to-learn/" class="archive-post-link">
-                  笔记：公开课 Learning How to Learn
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-12-28" class="archive-post-time">
-                2018-12-28
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/2018-read/" class="archive-post-link">
-                  我的 2018 年阅读总结
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-12-25" class="archive-post-time">
-                2018-12-25
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/note-how-to-have-a-good-day/" class="archive-post-link">
-                  《七堂思维成长课》大纲笔记
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-12-11" class="archive-post-time">
-                2018-12-11
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/my-read-experience-beginning/" class="archive-post-link">
-                  我的阅读经历——从「网络文学」开始
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-07-30" class="archive-post-time">
-                2018-07-30
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/yizhongtian-chinese-history-1/" class="archive-post-link">
-                  《易中天中华史》读后感（一）——身为中国人
-                </a>
-              </span>
-            </div>
-          
-          
-            <div class="more-post">
-              <a href="https://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/" class="more-post-link">查看更多 &gt;&gt;&gt;</a>
-            </div>
-          
-      </section>
-    
-    
-    
-    
-    
-      <section id="archive" class="archive">
-        <div class="archive-title">
-        </div>
-          <div class="collection-title">
-            <h2 class="archive-year">
-              <a href="https://www.xianmin.org/categories/%E6%80%92%E6%B1%9F%E8%A1%8C%E8%AE%B0/">
-                分类： 怒江行记
-              </a>
-            </h2>
-          </div>
-
-          
-            <div class="archive-post">
-              <time datetime="2018-05-12" class="archive-post-time">
-                2018-05-12
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/nujiang-05/" class="archive-post-link">
-                  怒江行记（六）——终点丙中洛
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-05-09" class="archive-post-time">
-                2018-05-09
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/nujiang-04/" class="archive-post-link">
-                  怒江行记（五）——探秘独龙江
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-05-06" class="archive-post-time">
-                2018-05-06
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/nujiang-03/" class="archive-post-link">
-                  怒江行记（四）——原始森林亚坪
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-05-03" class="archive-post-time">
-                2018-05-03
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/nujiang-02/" class="archive-post-link">
-                  怒江行记（三）——废城知子罗
-                </a>
-              </span>
-            </div>
-          
-            <div class="archive-post">
-              <time datetime="2018-04-27" class="archive-post-time">
-                2018-04-27
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/nujiang-01/" class="archive-post-link">
-                  怒江行记（二）——第一次走出国门
-                </a>
-              </span>
-            </div>
-          
-          
-            <div class="more-post">
-              <a href="https://www.xianmin.org/categories/%E6%80%92%E6%B1%9F%E8%A1%8C%E8%AE%B0/" class="more-post-link">查看更多 &gt;&gt;&gt;</a>
-            </div>
-          
-      </section>
-    
-    
-    
-    
-    
-      <section id="archive" class="archive">
-        <div class="archive-title">
-        </div>
-          <div class="collection-title">
-            <h2 class="archive-year">
-              <a href="https://www.xianmin.org/categories/%E6%80%9D%E7%BB%B4%E5%B7%A5%E5%85%B7%E7%AE%B1/">
-                分类： 思维工具箱
-              </a>
-            </h2>
-          </div>
-
-          
-            <div class="archive-post">
-              <time datetime="2019-06-16" class="archive-post-time">
-                2019-06-16
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/mindtools/" class="archive-post-link">
-                  思维工具箱
-                </a>
-              </span>
-            </div>
-          
-          
-      </section>
-    
-    
-    
-    
-    
-      <section id="archive" class="archive">
-        <div class="archive-title">
-        </div>
-          <div class="collection-title">
-            <h2 class="archive-year">
-              <a href="https://www.xianmin.org/categories/%E8%A7%86%E9%A2%91/">
-                分类： 视频
-              </a>
-            </h2>
-          </div>
-
-          
-            <div class="archive-post">
-              <time datetime="2019-05-31" class="archive-post-time">
-                2019-05-31
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/201905-there-people/" class="archive-post-link">
-                  那里的人们和狗们
-                </a>
-              </span>
-            </div>
-          
-          
-      </section>
-    
-    
-    
-    
-    
-      <section id="archive" class="archive">
-        <div class="archive-title">
-        </div>
-          <div class="collection-title">
-            <h2 class="archive-year">
-              <a href="https://www.xianmin.org/categories/%E8%AE%A1%E5%88%92/">
-                分类： 计划
-              </a>
-            </h2>
-          </div>
-
-          
-            <div class="archive-post">
-              <time datetime="2018-09-28" class="archive-post-time">
-                2018-09-28
-              </time>
-              <span class="archive-post-title">
-                <a href="/post/plan-english-2018/" class="archive-post-link">
-                  英语学习方法总结 —— 2018 年 9 月
-                </a>
-              </span>
-            </div>
-          
-          
-      </section>
-    
-    
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
 
   
   
 
+  
+  
+
+  
+
+  
+  
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xianmin/comments---xianmin.org"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+  
+
+  
+
+  
+
+  <div class="disqus-comment">
+  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
+    显示 Disqus 评论
+  </div>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_config = function () {
+      this.page.url = "https://www.xianmin.org/post/linux-pdftk/";
+    };
+    function load_disqus() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'xianmin12';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+      $('#load_disqus').remove();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+  
+  </div>
+
+    
 
         </div>
       </div>
