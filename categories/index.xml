@@ -6,10 +6,19 @@
     <description>Recent content in Categories on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 25 Feb 2020 16:06:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2020 23:42:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.xianmin.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>视频</title>
+      <link>https://www.xianmin.org/categories/%E8%A7%86%E9%A2%91/</link>
+      <pubDate>Wed, 14 Oct 2020 23:42:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/categories/%E8%A7%86%E9%A2%91/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>计算机</title>
@@ -71,15 +80,6 @@
       <pubDate>Fri, 31 May 2019 23:18:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/categories/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>视频</title>
-      <link>https://www.xianmin.org/categories/%E8%A7%86%E9%A2%91/</link>
-      <pubDate>Fri, 31 May 2019 23:13:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/categories/%E8%A7%86%E9%A2%91/</guid>
       <description></description>
     </item>
     
