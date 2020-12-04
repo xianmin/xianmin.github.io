@@ -3,61 +3,74 @@
   
   <url>
     <loc>https://www.xianmin.org/categories/</loc>
-    <lastmod>2020-10-15T11:27:39+08:00</lastmod>
+    <lastmod>2020-12-04T21:41:44+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/post/</loc>
-    <lastmod>2020-10-15T11:27:39+08:00</lastmod>
+    <lastmod>2020-12-04T21:41:44+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/post/202012-attention-teeth/</loc>
+    <lastmod>2020-12-04T21:41:44+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/</loc>
+    <lastmod>2020-12-04T21:41:44+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2020-12-04T21:41:44+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/tags/</loc>
-    <lastmod>2020-10-15T11:27:39+08:00</lastmod>
+    <lastmod>2020-10-15T11:32:12+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/tags/%E5%8F%8D%E6%80%9D/</loc>
-    <lastmod>2020-10-15T11:27:39+08:00</lastmod>
+    <lastmod>2020-10-15T11:32:12+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/tags/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</loc>
-    <lastmod>2020-10-15T11:27:39+08:00</lastmod>
+    <lastmod>2020-10-15T11:32:12+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/categories/%E6%9D%82%E6%96%87/</loc>
-    <lastmod>2020-10-15T11:27:39+08:00</lastmod>
+    <lastmod>2020-10-15T11:32:12+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/tags/%E6%B1%9F%E5%8D%97/</loc>
-    <lastmod>2020-10-15T11:27:39+08:00</lastmod>
+    <lastmod>2020-10-15T11:32:12+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/categories/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2020-10-15T11:27:39+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xianmin.org/</loc>
-    <lastmod>2020-10-15T11:27:39+08:00</lastmod>
+    <lastmod>2020-10-15T11:32:12+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/post/review-2020-return-jiangnan/</loc>
-    <lastmod>2020-10-15T11:27:39+08:00</lastmod>
+    <lastmod>2020-10-15T11:32:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -351,12 +364,6 @@
     <lastmod>2019-06-15T21:06:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2019-06-15T21:06:40+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
