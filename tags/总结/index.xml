@@ -6,10 +6,43 @@
     <description>Recent content in 总结 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 09 May 2020 22:49:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 01 Feb 2021 16:01:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.xianmin.org/tags/%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>别了， 2020！</title>
+      <link>https://www.xianmin.org/post/goodbye-2020/</link>
+      <pubDate>Mon, 01 Feb 2021 16:01:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/goodbye-2020/</guid>
+      <description>&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/me.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/other/me.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;（又是迟到的总结，大体内容在 1 月初就写好了。只是拖延症太严重，一直拖到今天才发到博客上……）&lt;/p&gt;
+
+&lt;p&gt;2020 年，相信对这个星球上的每一个人都是非同寻常的一年。我个人其实经历的要少的多，也许是在小地方的缘故，既不在前线，地方上的疫情也不严重。除了 1 月底开始封锁的那一个月，我呆在院子里哪儿都没去，此后的生活并没有太多的影响。可以说是非常幸运了。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>我的 2020 年阅读总结</title>
+      <link>https://www.xianmin.org/post/review-read-2020/</link>
+      <pubDate>Mon, 01 Feb 2021 15:54:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/review-read-2020/</guid>
+      <description>&lt;p&gt;回顾 2020 年的阅读，并没有做很好的梳理。因为琐事繁多，没能有计划的进行主题阅读。算是 2020 年的一大缺憾。&lt;/p&gt;
+
+&lt;p&gt;以下列出我在 2020  年读过的好书。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>英语学习总结（ 2020 年 5 月 ）</title>
@@ -331,26 +364,6 @@
       
       <guid>https://www.xianmin.org/post/plan-english-2018/</guid>
       <description>本篇文章旨在对自己的英语学习方法做一个总结。 我的目标 所以对于所有想提高英语的同学，我给大家的建议是，在人云亦云的决定提高英语之前问自己这样几</description>
-    </item>
-    
-    <item>
-      <title>记录： 2018 年 8 月 - 开始</title>
-      <link>https://www.xianmin.org/post/review-2018-08/</link>
-      <pubDate>Sun, 02 Sep 2018 20:57:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/review-2018-08/</guid>
-      <description>&lt;p&gt;上个月发生了太多事情。我想从本月开始，对每个月度做点记录，算是总结与回顾吧。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>别了，2017！</title>
-      <link>https://www.xianmin.org/post/2017/</link>
-      <pubDate>Sat, 30 Dec 2017 00:00:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2017/</guid>
-      <description>&lt;p&gt;翻阅你在这一年写的日记，「2017年6月26日：我是一个无知、无明、无趣的年轻人，对烟酒没有控制，自制力差，拖延症严重，喜欢胡思乱想，空想而缺乏行动，空有抱负却一事无成，喜好很多但一无所长。也许再过几年，我就是一个无知、无明、无趣的中年人了。」&lt;/p&gt;
-
-&lt;p&gt;似乎每年总有那么几天，你会感到焦虑，厌恶自己。但不管怎么说，一年又要过去了，我想从以下几个方面对你的2017年做一个总结：工作、锻炼、编程、英语、写作、阅读。&lt;/p&gt;</description>
     </item>
     
   </channel>
