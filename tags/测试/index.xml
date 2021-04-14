@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>测试 on 贤民的比特记忆</title>
+    <link>https://www.xianmin.org/tags/%E6%B5%8B%E8%AF%95/</link>
+    <description>Recent content in 测试 on 贤民的比特记忆</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github action 自动部署博客测试</title>
+      <link>https://www.xianmin.org/post/2021/00-github-action-test/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2021/00-github-action-test/</guid>
+      <description>本篇博文用于测试 GitHub action 。 使用 https://github.com/peaceiris/actions-hugo 。 当源文件项目有更新时，将自动生成网页。 那么，这样就可以方便的通过手机更新博客了。</description>
+    </item>
+    
+  </channel>
+</rss>

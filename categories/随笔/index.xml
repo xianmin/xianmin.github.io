@@ -6,7 +6,16 @@
     <description>Recent content in 随笔 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 04 Dec 2020 21:37:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github action 自动部署博客测试</title>
+      <link>https://www.xianmin.org/post/2021/00-github-action-test/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2021/00-github-action-test/</guid>
+      <description>本篇博文用于测试 GitHub action 。 使用 https://github.com/peaceiris/actions-hugo 。 当源文件项目有更新时，将自动生成网页。 那么，这样就可以方便的通过手机更新博客了。</description>
+    </item>
+    
     <item>
       <title>请重视你的牙！！！</title>
       <link>https://www.xianmin.org/post/202012-attention-teeth/</link>

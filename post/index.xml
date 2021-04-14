@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 01 Feb 2021 16:01:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github action 自动部署博客测试</title>
+      <link>https://www.xianmin.org/post/2021/00-github-action-test/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2021/00-github-action-test/</guid>
+      <description>本篇博文用于测试 GitHub action 。 使用 https://github.com/peaceiris/actions-hugo 。 当源文件项目有更新时，将自动生成网页。 那么，这样就可以方便的通过手机更新博客了。</description>
+    </item>
+    
     <item>
       <title>别了， 2020！</title>
       <link>https://www.xianmin.org/post/goodbye-2020/</link>
@@ -273,15 +282,6 @@
       
       <guid>https://www.xianmin.org/post/201905-organize-infomation/</guid>
       <description>&lt;p&gt;曾经写过，我有一个正念日，是用来提醒自己少去胡思乱想，顺便做些平时不大乐意做的事情，诸如洗衣服、打扫房间等等。现在，我给这一天又增添了一项任务——「整理信息」。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>登顶文笔峰</title>
-      <link>https://www.xianmin.org/post/201905-hiking/</link>
-      <pubDate>Fri, 31 May 2019 23:18:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/201905-hiking/</guid>
-      <description>&lt;p&gt;25 日，天气正好，不算热，也没那么阴沉。这天，约了俩好友一起去徒步。从文峰寺开始，登顶文笔峰。这条线路很早就有想法了，但一直没有行动，没行动无非就是懒……而促成行动最好的方式就是，约上好友一起。&lt;/p&gt;</description>
     </item>
     
   </channel>
