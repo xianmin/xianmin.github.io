@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>反思 on 贤民的比特记忆</title>
@@ -6,18 +6,15 @@
     <description>Recent content in 反思 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 01 Feb 2021 16:01:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.xianmin.org/tags/%E5%8F%8D%E6%80%9D/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 01 Feb 2021 16:01:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E5%8F%8D%E6%80%9D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>别了， 2020！</title>
       <link>https://www.xianmin.org/post/goodbye-2020/</link>
       <pubDate>Mon, 01 Feb 2021 16:01:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/goodbye-2020/</guid>
-      <description>&lt;div class=&#34;box&#34;&gt;
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
@@ -27,9 +24,7 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;（又是迟到的总结，大体内容在 1 月初就写好了。只是拖延症太严重，一直拖到今天才发到博客上……）&lt;/p&gt;
-
 &lt;p&gt;2020 年，相信对这个星球上的每一个人都是非同寻常的一年。我个人其实经历的要少的多，也许是在小地方的缘故，既不在前线，地方上的疫情也不严重。除了 1 月底开始封锁的那一个月，我呆在院子里哪儿都没去，此后的生活并没有太多的影响。可以说是非常幸运了。&lt;/p&gt;</description>
     </item>
     
@@ -40,7 +35,6 @@
       
       <guid>https://www.xianmin.org/post/review-read-2020/</guid>
       <description>&lt;p&gt;回顾 2020 年的阅读，并没有做很好的梳理。因为琐事繁多，没能有计划的进行主题阅读。算是 2020 年的一大缺憾。&lt;/p&gt;
-
 &lt;p&gt;以下列出我在 2020  年读过的好书。&lt;/p&gt;</description>
     </item>
     
@@ -52,8 +46,7 @@
       <guid>https://www.xianmin.org/post/review-2020-return-jiangnan/</guid>
       <description>&lt;h2 id=&#34;1&#34;&gt;1&lt;/h2&gt;
 
-
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -67,7 +60,6 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;有两年多没去大城市，也有好些年没见过弟弟了，他还是那么瘦，脸上洋溢着充满阳光的笑容。是啊！想想我俩所走的不同的道路，尽管出生在不那么幸福的家庭，他所经历的比我可要顺利的多。即便只相差两岁，我俩的个性却截然不同。他比我专注，学业稳定，考入名牌大学，毕业后找一份好工作也就顺理成章。多年未见，他还是老样子，也许我也还是老样子，相见无需多言，还是那个熟悉的兄弟，七分相像，三分的不同，却引向各自迥异的命运。&lt;/p&gt;</description>
     </item>
     
@@ -78,9 +70,7 @@
       
       <guid>https://www.xianmin.org/post/review-english-202005/</guid>
       <description>&lt;p&gt;又是一篇迟到的总结。上一次总结是在： &lt;a href=&#34;https://www.xianmin.org/post/review-english-201906/&#34;&gt;英语学习总结（2019年上半年）&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;回顾了一下上一次的总结。怎么说呢，目前最大的问题依然还是：缺少输出。尽管自己偶尔会去记点笔记，也偶尔会去把日志翻译成英文，但是做的太少了，收效甚微。做的少的理由，无非就是不太舒服。&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;就好似登山：不经常登山的人，登一小段路就累了，累了就想休息。走的越快，累的也越快，休息的越久就越不想继续前行。擅于登山的人，一般都有自己的节奏，既不快也不慢，以一种平稳的姿态前行。如果能够享受过程，也就无关意志力什么事儿了。&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
@@ -90,7 +80,8 @@
       <pubDate>Tue, 21 Jan 2020 14:57:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/goodbye-2019/</guid>
-      <description>&lt;div class=&#34;box&#34;&gt;
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
@@ -102,11 +93,8 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;2019 年的年终总结来的比往年晚了一些，最近完全没有想做总结的冲动。如果写这篇总结的过程让自己不愉快，那还不如不写，对吧。可不做总结吧，反而内心有点儿愧疚，还是写下来吧。生命只有一次， 19 年也只有一次，还是要活得有意思吧，别人看着有意思，那是别人的事，关键得自己觉得有意思。很多事情，错过了也就错过了。&lt;/p&gt;
-
 &lt;p&gt;回顾起来，相比 18 年， 19 年就平淡了许多。&lt;/p&gt;
-
 &lt;p&gt;按照惯例，总结依然分为四大类：修行、工作、锻炼、学习。&lt;/p&gt;</description>
     </item>
     
@@ -117,15 +105,12 @@
       
       <guid>https://www.xianmin.org/post/review-read-2019/</guid>
       <description>&lt;p&gt;回顾 2019 年的阅读，数量上不算少，只是用在「经典」上的时间太少了。很多闲书、杂书翻翻即可。希望在新的一年：&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;只关注那 10% 的精品。&lt;/li&gt;
 &lt;li&gt;预留更多的时间思考，做笔记。&lt;/li&gt;
 &lt;li&gt;不重要的书，写下简短的摘要即可。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;往年回顾：&lt;a href=&#34;https://www.xianmin.org/post/2018-read/&#34;&gt;我的 2018 年阅读总结&lt;/a&gt;　。&lt;/p&gt;
-
 &lt;p&gt;以下是我在 2019 年读过的好书。&lt;/p&gt;</description>
     </item>
     
@@ -145,11 +130,9 @@
       
       <guid>https://www.xianmin.org/post/review-english-201906/</guid>
       <description>&lt;p&gt;自去年 9 月，重启英语学习，下定决心这一次好好将英语提升一个台阶，至今已经过去 9 个月了。现在回顾，和 9 个月前相比，我的英语水平有所进步吗？说实话，进步不明显（即没有进步）。至少从词汇量而言，我记得当时测试是接近 6000 的词汇量，而这次测试和那次差不多，基本没多大变化。而我这 9 个月，可是花费了不少时间背单词的，至今背了有近 4000 个。词汇量没有变化，也许是大部分背过的都忘记了。我开始怀疑自己所付出的时间和精力是否值得。&lt;/p&gt;
-
 &lt;p&gt;这次总结回顾是有必要的，否则我可能一直在做无用功，并且满足于自己所付出的那一丁点儿看似的努力。&lt;/p&gt;
 
-
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -197,13 +180,9 @@
       
       <guid>https://www.xianmin.org/post/review-2019-04/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
-
 &lt;h2 id=&#34;英语学习&#34;&gt;英语学习&lt;/h2&gt;
-
 &lt;p&gt;很遗憾，这个月基本没怎么背单词，5 月份需要重新调整。&lt;/p&gt;
-
 &lt;p&gt;尝试开始阅读《经济学人》，精读了两篇文章。&lt;/p&gt;
-
 &lt;p&gt;尝试遮挡住字幕观看《南方公园》，看了两集。&lt;/p&gt;</description>
     </item>
     
@@ -214,11 +193,8 @@
       
       <guid>https://www.xianmin.org/post/review-2019-03/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
-
 &lt;h2 id=&#34;英语学习&#34;&gt;英语学习&lt;/h2&gt;
-
 &lt;p&gt;背单词进度： 100% 。&lt;/p&gt;
-
 &lt;p&gt;这个月将奶爸整理的「经济学人-词频 500 次以上」的单词背完了，共计 3000 个，耗时半年。&lt;/p&gt;</description>
     </item>
     
@@ -230,8 +206,7 @@
       <guid>https://www.xianmin.org/post/review-2019-02/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
 
-
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -252,22 +227,16 @@
       
       <guid>https://www.xianmin.org/post/review-2019-01/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
-
 &lt;h2 id=&#34;博文&#34;&gt;博文&lt;/h2&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/goodbye-2018/&#34;&gt;别了， 2018 ！&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/unforgettable-find-dog/&#34;&gt;一次难忘的寻狗&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h2 id=&#34;关于-每月记录-的一点思考&#34;&gt;关于「每月记录」的一点思考&lt;/h2&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://ferrucc.io/posts/starting-a-blog/&#34;&gt;ferrucc.io | Everything I&amp;rsquo;ve learned in 10 years of Blogging&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;这个链接，是一位 21 岁的博主的分享，他已经写了 10 年的博客了。&lt;/p&gt;
-
 &lt;p&gt;有两天，我在思考自己目前这个博客的「核心内容」的问题。即，我应该专注于哪方面的内容输出？我的文字要面向的读者是谁？目前博客的内容是不是有些太随性了？比如这个「每月记录」的意义在哪儿？这些问题，我还在思考。毫无疑问，一个博客是需要有读者的，否则，我又何必放到网上呢？&lt;/p&gt;</description>
     </item>
     
@@ -277,7 +246,8 @@
       <pubDate>Mon, 21 Jan 2019 07:55:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/unforgettable-find-dog/</guid>
-      <description>&lt;div class=&#34;box&#34;&gt;
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
@@ -289,20 +259,17 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;百合，金毛，母狗，8岁。卡卡，边牧和二哈的串儿，公狗，3岁。这两条狗在我们旅舍非常受欢迎。&lt;/p&gt;
-
 &lt;p&gt;13 日，腊八节，晚上 12 点，送走最后一位聚餐的朋友，我才发现两条狗不见了，而前一个小时还是在的。我当时感到有些愤怒，这俩小家伙这么晚了还跑出去，估计又是跑去后面的田地里了。我去寻找，外面漆黑一片，拿着手电找了一圈，没有找到。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>别了， 2018 ！</title>
       <link>https://www.xianmin.org/post/goodbye-2018/</link>
-      <pubDate>Fri, 04 Jan 2019 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.xianmin.org/post/goodbye-2018/</guid>
       <description>&lt;p&gt;一年又过去了，我重新看了下与你在 2017 年末（&lt;a href=&#34;https://www.xianmin.org/post/2017/&#34;&gt;别了，2017！&lt;/a&gt;）的交流，再回顾这刚过去的 2018 年，我应该对你说些什么呢？&lt;/p&gt;
-
 &lt;p&gt;现在，我将对你的 2018 年终总结分为四大类：修行、工作、锻炼、学习。「学习」下面分为四小类：编程、英语、写作、阅读。&lt;/p&gt;</description>
     </item>
     
@@ -314,8 +281,7 @@
       <guid>https://www.xianmin.org/post/review-2018-12/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
 
-
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -333,17 +299,13 @@
     <item>
       <title>我的 2018 年阅读总结</title>
       <link>https://www.xianmin.org/post/2018-read/</link>
-      <pubDate>Fri, 28 Dec 2018 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.xianmin.org/post/2018-read/</guid>
       <description>&lt;p&gt;本文分两部分，前半部分是反思，后半部分是值得推荐的书。&lt;/p&gt;
-
 &lt;p&gt;回顾这一年读的书，依旧不多。老问题依旧存在：记录不够，输出太少。&lt;/p&gt;
-
 &lt;p&gt;有一些翻看过的书，由于没有记录，没有什么印象了。&lt;/p&gt;
-
 &lt;p&gt;英文书只读了两本，同样是老问题：太简单的书觉得没什么意思，有趣的书读起来又太费劲。提升英语能力是关键。&lt;/p&gt;
-
 &lt;p&gt;有些奇怪，今年都没怎么看计算机相关的书，回想起来，应该只是翻文档去了。&lt;/p&gt;</description>
     </item>
     
@@ -355,8 +317,7 @@
       <guid>https://www.xianmin.org/post/review-2018-11/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
 
-
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;

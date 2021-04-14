@@ -7,7 +7,7 @@
   
 
 <meta name="renderer" content="webkit" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
 
 <meta name="MobileOptimized" content="width"/>
 <meta name="HandheldFriendly" content="true"/>
@@ -33,10 +33,12 @@
 
 
 
-<meta name="generator" content="Hugo 0.55.5" />
+<meta name="generator" content="Hugo 0.81.0" />
 
 
 <link rel="canonical" href="https://www.xianmin.org/post/linux-pdftk/" />
+
+
 
 
 
@@ -52,7 +54,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.31c4b7729c8d71cc152f8de4203d90bfd8a04f7eab69372de7234ebf55b7701b.css" integrity="sha256-McS3cpyNccwVL43kID2Qv9igT36raTct5yNOv1W3cBs=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.9c3f74785689e1d6a69411345ec9043a190655c87d7a44093b74089785613cae.css" integrity="sha256-nD90eFaJ4damlBE0XskEOhkGVch9ekQJO3QIl4VhPK4=" media="screen" crossorigin="anonymous">
 
 
 
@@ -63,22 +65,15 @@
 <meta property="og:title" content="Linux 下，用命令行给 PDF 添加书签" />
 <meta property="og:description" content="最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下：" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.xianmin.org/post/linux-pdftk/" />
-<meta property="article:published_time" content="2020-02-25T16:06:00&#43;08:00"/>
-<meta property="article:modified_time" content="2020-02-25T16:14:37&#43;08:00"/>
+<meta property="og:url" content="https://www.xianmin.org/post/linux-pdftk/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2020-02-25T16:06:00&#43;08:00" />
+<meta property="article:modified_time" content="2020-02-25T16:14:37&#43;08:00" />
 
 <meta itemprop="name" content="Linux 下，用命令行给 PDF 添加书签">
-<meta itemprop="description" content="最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下：">
-
-
-<meta itemprop="datePublished" content="2020-02-25T16:06:00&#43;08:00" />
+<meta itemprop="description" content="最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下："><meta itemprop="datePublished" content="2020-02-25T16:06:00&#43;08:00" />
 <meta itemprop="dateModified" content="2020-02-25T16:14:37&#43;08:00" />
 <meta itemprop="wordCount" content="332">
-
-
-
-<meta itemprop="keywords" content="Linux,PDF,工具,命令行," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="Linux,PDF,工具,命令行," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Linux 下，用命令行给 PDF 添加书签"/>
 <meta name="twitter:description" content="最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下："/>
 
@@ -416,12 +411,9 @@ if (!doNotTrack) {
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#补充">补充</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#补充">补充</a></li>
+  </ul>
 </nav>
   </div>
 </div>
@@ -429,29 +421,28 @@ if (!doNotTrack) {
     
     <div class="post-content">
       <p>最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下：</p>
-
 <p>一、安装 pdftk ：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">apt install pdftk</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash">apt install pdftk
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>二、导出 PDF 文件数据：</p>
+</div><p>二、导出 PDF 文件数据：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">pdftk my.pdf dump_data output data.txt</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash">pdftk my.pdf dump_data output data.txt
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>三、编辑数据文件 <code>data.txt</code> ，与书签有关的内容为：</p>
+</div><p>三、编辑数据文件 <code>data.txt</code> ，与书签有关的内容为：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"><span class="lnt"> 1
+<pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -482,27 +473,23 @@ BookmarkLevel: 1
 BookmarkPageNumber: 30
 ...
 ...
-and so on...</code></pre></td></tr></table>
+and so on...
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>这个步骤比较关键。如果能够复制一份固定格式的目录内容，那么就很好处理了。</p>
-
+</div><p>这个步骤比较关键。如果能够复制一份固定格式的目录内容，那么就很好处理了。</p>
 <p>四、将编辑好的数据文件导入并输出：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">pdftk my.pdf update_info data.txt output bookmarked.pdf</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash">pdftk my.pdf update_info data.txt output bookmarked.pdf
+</code></pre></td></tr></table>
 </div>
-</div>
-<p>参考：<a href="https://stackoverflow.com/questions/30304718/create-bookmarks-into-a-pdf-file-via-command-line">Create bookmarks into a PDF file via command line - Stack Overflow</a></p>
-
+</div><p>参考：<a href="https://stackoverflow.com/questions/30304718/create-bookmarks-into-a-pdf-file-via-command-line">Create bookmarks into a PDF file via command line - Stack Overflow</a></p>
 <h2 id="补充">补充</h2>
-
 <p>以上记录完成之后，发现一个用 python 的处理办法：
 <a href="https://github.com/dnxbjyj/py-project/tree/master/AddPDFBookmarks">py-project/AddPDFBookmarks at master · dnxbjyj/py-project</a></p>
-
 <p>下次可以考虑用 python 试一试。对于文件的批量处理，以及字符的操作，用 python 会更高效一些。</p>
     </div>
 
@@ -652,6 +639,8 @@ and so on...</code></pre></td></tr></table>
   </div>
 
     
+
+  
 
         </div>
       </div>
@@ -813,6 +802,12 @@ and so on...</code></pre></td></tr></table>
 
 
 <script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ=" crossorigin="anonymous"></script>
+
+
+
+
+
+
 
 
 

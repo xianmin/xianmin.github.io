@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>丙中洛 on 贤民的比特记忆</title>
@@ -6,18 +6,15 @@
     <description>Recent content in 丙中洛 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 12 May 2018 09:58:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.xianmin.org/tags/%E4%B8%99%E4%B8%AD%E6%B4%9B/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 12 May 2018 09:58:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E4%B8%99%E4%B8%AD%E6%B4%9B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>怒江行记（六）——终点丙中洛</title>
       <link>https://www.xianmin.org/post/nujiang-05/</link>
       <pubDate>Sat, 12 May 2018 09:58:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/nujiang-05/</guid>
-      <description>&lt;div class=&#34;box&#34;&gt;
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
@@ -29,7 +26,6 @@
       &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
-
 
 &lt;p&gt;丙中洛，原计划是我们进藏的起点站，由于前方流沙堵住了去路，却成了我们此次怒江之行的终点站。&lt;/p&gt;</description>
     </item>

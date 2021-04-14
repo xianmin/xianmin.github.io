@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>贤民的比特记忆</title>
@@ -18,7 +18,8 @@
       
       <guid>https://www.xianmin.org/post/goodbye-2020/</guid>
       
-        <description>&lt;div class=&#34;box&#34;&gt;
+        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
@@ -28,49 +29,29 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;（又是迟到的总结，大体内容在 1 月初就写好了。只是拖延症太严重，一直拖到今天才发到博客上……）&lt;/p&gt;
-
 &lt;p&gt;2020 年，相信对这个星球上的每一个人都是非同寻常的一年。我个人其实经历的要少的多，也许是在小地方的缘故，既不在前线，地方上的疫情也不严重。除了 1 月底开始封锁的那一个月，我呆在院子里哪儿都没去，此后的生活并没有太多的影响。可以说是非常幸运了。&lt;/p&gt;
-
 &lt;p&gt;按照惯例，总结依然分为四大类：修行、工作、锻炼、学习。&lt;/p&gt;
-
 &lt;h2 id=&#34;修行&#34;&gt;修行&lt;/h2&gt;
-
 &lt;p&gt;总结了一个小公式：&lt;/p&gt;
-
 &lt;p&gt;「想 &amp;lt; 看 &amp;lt; 读 &amp;lt; 说 &amp;lt; 思 &amp;lt; 写 &amp;lt; 行」&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;子曰：“始吾于人也，听其言而信其行；今吾于人也，听其言而观其行。于予与改是。”&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;陈嘉映先生在《十三邀》中的一段话：&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;我有一个想法，叫反思与过度反思。一方面哲学是一种反思，在那个意义上无不可追问无不可反思；另一方面，你事事反思，就会变成过度反思。我们现代人的精神说理追求是一个过度反思的时代。所以我经常跟我学生说，反思要跟天性的力量相配合，你有多少天性力量，你做多少反思。你要在你一生中逐渐明白你的天性有多强，你一开始可能看不清楚，但是别忘了，如果你的天性很孱弱，然后你拼命去反思，带来的结果，从个人来说，经常是毁灭性的。一个人爱反思，但没力量抗住反思，反思就把他压垮了。希腊人的幸运是，他们的天性太健全了，他们生活在一个对思想特别有利的环境和历史机遇之中。&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;我是个时常自省的人。不过最近一年，我给自己提了要求，避免 &lt;strong&gt;过度自省&lt;/strong&gt; 。什么是过度自省？就是自省之后，没能纠正，继续自省，如此反复。自省当然是好事，但过度自省，却容易适得其反。&lt;/p&gt;
-
 &lt;p&gt;人要改变，的确是非常困难的。尤其是成人，各种思维习惯、行为习惯，基本上已经定型。但是我们也可以通过「理性」去培养新的习惯，去遏制固有的行为模式，与旧的不良习惯抗衡。而要迈出这一步，「想明白」当然是前提，但是光「想明白」是远远不够的，必须行动起来。先从最小的行动开始，然后不断「迭代」。迭代是计算机科学中非常重要的思维模式，通过设定一个边界，不断重复反馈，接近并达到目标。边界很重要，避免陷入死循环。过度自省，实际就是一种死循环。&lt;/p&gt;
-
 &lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
-
 &lt;p&gt;2020 年，旅舍损失了 2 个月的营业额，尤其是春节，原本都预订满的房间，后面全部都退了。不过到了 4 月份之后，基本也就恢复了正常。因此，相对全年而言，影响并不是特别的大，在可承受范围内。&lt;/p&gt;
-
 &lt;h2 id=&#34;锻炼&#34;&gt;锻炼&lt;/h2&gt;
-
 &lt;p&gt;这一年最大的收获是，锻炼已经成为常态，是再普通不过的一项活动了。当每天都有运动的时候，其实没去记录也不会觉得有什么问题。&lt;/p&gt;
-
 &lt;h2 id=&#34;学习&#34;&gt;学习&lt;/h2&gt;
-
 &lt;p&gt;&lt;strong&gt;「在做事中学习」&lt;/strong&gt; ，我在今年不断提醒自己。重写了自己的一个项目： &lt;a href=&#34;https://github.com/xianmin/EveReader&#34;&gt;xianmin/EveReader: Epub Reader, focused on annotation.&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;值得一提的是，掌握了一项新技能——吹口琴。口琴最大的好处是便于携带。我练的是半音阶口琴，音域广，可以演奏许多曲子。目前只能算是刚入门吧，视奏大部分流行曲没问题，演奏一些古典曲就有难度了。有这么一个小乐器傍身，到户外休闲的时候，拿出来把玩一番也是挺有意思的。&lt;/p&gt;
-
 &lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
-
 &lt;p&gt;其实也没更多可说的。这一年整体状态一般，博客更新频率降低，总感觉自己缺乏做事儿的干劲和热情。目前有了一个重要的决定和计划，期望新的一年能有更多的精彩吧！&lt;/p&gt;</description>
       
     </item>
@@ -83,17 +64,11 @@
       <guid>https://www.xianmin.org/post/review-read-2020/</guid>
       
         <description>&lt;p&gt;回顾 2020 年的阅读，并没有做很好的梳理。因为琐事繁多，没能有计划的进行主题阅读。算是 2020 年的一大缺憾。&lt;/p&gt;
-
 &lt;p&gt;以下列出我在 2020  年读过的好书。&lt;/p&gt;
-
 &lt;h2 id=&#34;霍乱时期的爱情-杰作&#34;&gt;《霍乱时期的爱情》 - 杰作&lt;/h2&gt;
-
 &lt;p&gt;马尔克斯的名作，疫情封锁期间看的。永恒的忠诚和不渝的爱情，似乎很令人向往吧？可通篇读来，却满是孤独。&lt;/p&gt;
-
 &lt;h2 id=&#34;走出唯一真理观-杰作&#34;&gt;《走出唯一真理观》 - 杰作&lt;/h2&gt;
-
 &lt;p&gt;这本书是我在本年度读过的最好的一本书。感触较深的几章：&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;读懂一两个大哲学家&lt;/li&gt;
 &lt;li&gt;思想增益元气&lt;/li&gt;
@@ -102,27 +77,16 @@
 &lt;li&gt;“说理”四人谈&lt;/li&gt;
 &lt;li&gt;反思与过度反思&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;陈嘉映老师是我的楷模。我读书读的很杂，什么都想了解一点，什么都想学习一点，却经常有一个问题困扰自己，这些书本上的知识究竟对我的现实生活有什么用？找不到答案。为什么找不到？因为事儿做的太少，人生经验太少，专业知识又不足，反思这个、反思那个，反思的结果除了徒增痛苦，没任何意义。最终还是要落实到实际行动上去啊！&lt;/p&gt;
-
 &lt;p&gt;「要靠比较厚重一点的生活把反思托起来，否则，反思会飘起来，我们会飘在反思里。」&lt;/p&gt;
-
 &lt;p&gt;陈嘉映老师的著作，确实给了我非常大的警醒：多做事、多行动，少反思、少乱想。&lt;/p&gt;
-
 &lt;p&gt;还有关于学习方面的启发：比如想学习哲学，先读懂一两个大哲学家，翻译是很好的训练。&lt;/p&gt;
-
 &lt;h2 id=&#34;沈从文的前半生-沈从文的后半生-杰作&#34;&gt;《沈从文的前半生》，《沈从文的后半生》 - 杰作&lt;/h2&gt;
-
 &lt;p&gt;沈从文的传记。他的一生，见证了 20 世纪中国的时局动荡，而这些动荡，又是如何一次又一次的影响了他个人的命运变迁。很遗憾，沈老在建国之后就基本没怎么写作了。但是看到后面，经历了种种磨难，年近80的沈老前往美国，与阔别了几十年的老友会面，在美国巡回演讲，真是深受感动。&lt;/p&gt;
-
 &lt;h2 id=&#34;黑客与画家-杰作&#34;&gt;《黑客与画家》 - 杰作&lt;/h2&gt;
-
 &lt;p&gt;主要是重读了「设计」相关的内容。任何一项工作，如果只是把它当作枯燥乏味的一套流程，那么就丧失了提升「品味」的可能性。&lt;/p&gt;
-
 &lt;p&gt;怎么样提升品味呢？前提是把自己当作设计者，然后不断从事设计工作，模仿他人好的设计。要勤于思考为什么这样设计更好，而不是那样。向大众、同行展示，从外界获取反馈。一个好的设计，必然是要有人认可的。&lt;/p&gt;
-
 &lt;p&gt;为什么会存在比其他设计更好的杰出设计？这是一个好问题，作者在《设计者的品味》这一章节中也列出了「好设计」的共同原则。这一章节适合经常拿出来重读，反思自己的设计。&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;好设计是简单的设计
 好设计是永远不过时的设计
@@ -138,84 +102,50 @@
 好设计常常是奇特的设计
 好设计是成批出现的
 好设计常常是大胆的设计&lt;/p&gt;
-
 &lt;p&gt;——《设计者的品味》&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;关于好设计，我自己的补充：有序好过无序；和谐好过混乱；理性好过大众直觉。&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;先做出原型，再逐步加工做出成品，这种方式有利于鼓舞士气，因为它使得你随时都可以看到工作的成效。开发软件的时候，我有一条规则：任何时候，代码都必须能够运行。如果你正在写的代码一个小时之后就可以看到运行结果，这好比让你看到不远处就是唾手可得的奖励，你因此会受到激励和鼓舞。&lt;/p&gt;
-
 &lt;p&gt;“用户需要的设计”，而不是“用户要求的设计”，
 除非设定目标用户，否则一种设计的好坏根本无从谈起。&lt;/p&gt;
-
 &lt;p&gt;——《设计与研究》&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;h2 id=&#34;逍遥游-当-庄子-遭遇现实-力作&#34;&gt;逍遥游:当《庄子》遭遇现实 - 力作&lt;/h2&gt;
-
 &lt;p&gt;在《后记》中，熊逸先生谈了他的研究方法：&lt;/p&gt;
-
 &lt;p&gt;一、走进去：&lt;/p&gt;
-
 &lt;p&gt;「借鉴人类学家在土著部落搞田野调查的态度，即深入到土著人的生活里，讲他们的语言，参加他们的礼拜和狂欢，先让自己成为他们的一员，在他们的内部理解他们」。&lt;/p&gt;
-
 &lt;p&gt;二、走出来：&lt;/p&gt;
-
 &lt;p&gt;「所谓走出来，就是用现代知识来思考古代社会。毕竟文明发展了，知识进步了，今天种种社会科学的研究已经大大超越于古人之上，让我们可以站在无数巨人的肩膀上，享受一下比古人耳聪目明的乐趣。」&lt;/p&gt;
-
 &lt;h2 id=&#34;构建之法-现代软件工程-力作&#34;&gt;《构建之法：现代软件工程》 - 力作&lt;/h2&gt;
-
 &lt;p&gt;由于我没受过系统的计算机教育，实际的开发经验也并不多，对于「软件工程」始终只有一个模糊的概念。我在此前也接触过其他的「软件工程」的教材，印象中过于偏重理论了，读者根本不知从哪里开始实践（很可能教材的著作者本身就缺乏实践）。邹欣老师的这本书就很不一样，有趣、且实际的多，这可能是因为邹老师有大量的一线软件开发的经验，他能够把理论与实践很好的结合起来。这本书可以作为一本「软件开发」的长期参考书。&lt;/p&gt;
-
 &lt;h2 id=&#34;探索智慧-从达尔文到芒格-可用的书&#34;&gt;《探索智慧：从达尔文到芒格》 - 可用的书&lt;/h2&gt;
-
 &lt;p&gt;又是一本参考书。不知如何评价。算是对芒格的所有公开出版物的笔记汇总。&lt;/p&gt;
-
 &lt;h2 id=&#34;net-bible&#34;&gt;NET Bible&lt;/h2&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/New%5FEnglish%5FTranslation&#34;&gt;New English Translation - Wikipedia&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://netbible.org/bible/&#34;&gt;NET Bible&lt;/a&gt; - 免费在线阅读&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;NET 是 New English Translation 的简称，新翻译的语言更贴近当代读者的日常使用习惯。我纯粹是好奇《圣经》说了什么，顺便学习英语。读了几个篇章。&lt;/p&gt;
-
 &lt;h2 id=&#34;the-alchemist-力作&#34;&gt;The Alchemist - 力作&lt;/h2&gt;
-
 &lt;p&gt;中文译名是《牧羊少年奇幻之旅》。一本非常轻松好读的小书。很多有意思的金句，部分摘录：&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;It’s what you have always wanted to accomplish. Everyone, when they are young, knows what their Personal Legend is.&lt;/p&gt;
-
 &lt;p&gt;It prepares your spirit and your will, because there is one great truth on this planet: whoever you are, or whatever it is that you do, when you really want something, it’s because that desire originated in the soul of the universe. It’s your mission on earth.&lt;/p&gt;
-
 &lt;p&gt;The secret of happiness is to see all the marvels of the world, and never to forget the drops of oil on the spoon.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;!--quoteend--&gt;
-
+&lt;!-- raw HTML omitted --&gt;
 &lt;blockquote&gt;
 &lt;p&gt;To do that successfully, I must have no fear of failure. It was my fear of failure that first kept me from attempting the Master Work.&lt;/p&gt;
-
 &lt;p&gt;Courage is the quality most essential to understanding the Language of the World.&lt;/p&gt;
-
 &lt;p&gt;When a person really desires something, all the universe conspires to help that person to realize his dream.&lt;/p&gt;
-
 &lt;p&gt;What you still need to know is this: before a dream is realized, the Soul of the World tests everything that was learned along the way. It does this not because it is evil, but so that we can, in addition to realizing our dreams, master the lessons we’ve learned as we’ve moved toward that dream. That’s the point at which most people give up. It’s the point at which, as we say in the language of the desert, one ‘dies of thirst just when the palm trees have appeared on the horizon.&lt;/p&gt;
-
 &lt;p&gt;It said that the darkest hour of the night came just before the dawn.&lt;/p&gt;
-
 &lt;p&gt;Everything that happens once can never happen again. But everything that happens twice will surely happen a third time.&lt;/p&gt;
-
 &lt;p&gt;No matter what he does, every person on earth plays a central role in the history of the world. And normally he doesn’t know it.&lt;/p&gt;
-
 &lt;p&gt;And above all for his having met a woman of the desert who had told him that love would never keep a man from his Personal Legend.&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;h2 id=&#34;往年回顾&#34;&gt;往年回顾&lt;/h2&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/2018-read/&#34;&gt;我的 2018 年阅读总结 - 贤民的比特记忆&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/review-read-2019/&#34;&gt;我的 2019 年阅读总结 - 贤民的比特记忆&lt;/a&gt;&lt;/li&gt;
@@ -233,15 +163,10 @@
         <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34817533&#34;&gt;牙周炎还是牙龈炎？傻傻分不清楚！ - 知乎&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;前些日子终于去把牙洗了，洗过之后才感到庆幸，还好去的不是太晚，否则将来导致更严重的问题，就不是现在洗洗牙这么简单了。&lt;/p&gt;
-
 &lt;p&gt;这得感谢去年一位朋友的劝告，他患了牙周炎，花费了不少钱，治疗过程也少不了煎熬，从此就对牙齿特别重视了。他看到我的牙齿牙缝比较大，就好心的提醒我，牙齿可能有问题，建议到医院检查一下。我的牙齿的确有点儿问题，比如牙龈出血；因为长期抽烟的原因，还堆积了不少牙结石。可是呢，又自我感觉不是太大的问题，牙齿从来不疼，啃骨头什么的也没困难，又缺乏口腔护理的知识，当时还没有特别重视。直到今年回家的时候，弟媳建议我要去洗牙，她在口腔医院工作，我才认识到，应该得抽个时间去医院看一看了。&lt;/p&gt;
-
 &lt;p&gt;到了医院，医生看了我的牙，担心把我的牙洗掉，让我去拍牙片。我当时还是有点儿紧张的，要是洗个牙都能把牙洗掉，我的牙得有多脆弱，而我却从来没意识到。拍了牙片，到另一位级别更高的医生那儿诊断，说我的前面八颗门牙被牙结石腐蚀的比较严重了，建议我配合药物治疗。考虑了一下，还是先把牙洗了之后，视情况再做决定。洗牙的过程并没有太波折，是出了点血，牙石也挺多的，可我的门牙还是很坚强的，没有想的那么脆弱。&lt;/p&gt;
-
 &lt;p&gt;洗过牙之后，口腔干净多了。多亏了朋友善意的提醒，让我重新审视自己的牙齿。&lt;/p&gt;
-
 &lt;p&gt;很多时候，就是因为忽视了小问题的存在，最终引发大问题。尤其是人的身体，要是哪儿有一点儿不舒服，实际上就已经是某个病症初期的警告了！&lt;/p&gt;</description>
       
     </item>
@@ -255,8 +180,7 @@
       
         <description>&lt;h2 id=&#34;1&#34;&gt;1&lt;/h2&gt;
 
-
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -270,23 +194,14 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;有两年多没去大城市，也有好些年没见过弟弟了，他还是那么瘦，脸上洋溢着充满阳光的笑容。是啊！想想我俩所走的不同的道路，尽管出生在不那么幸福的家庭，他所经历的比我可要顺利的多。即便只相差两岁，我俩的个性却截然不同。他比我专注，学业稳定，考入名牌大学，毕业后找一份好工作也就顺理成章。多年未见，他还是老样子，也许我也还是老样子，相见无需多言，还是那个熟悉的兄弟，七分相像，三分的不同，却引向各自迥异的命运。&lt;/p&gt;
-
 &lt;p&gt;他在地铁口接了我，找了家餐馆吃了一顿晚餐，闲聊起日常的生活。我问他，有考虑过在杭州定居吗？他也不知道。我们也许都只是大城市的过客吧。看着窗外繁华的街景，街上人来人往，车辆川流不息，那是城市喧嚣的声音。多少人苟且的活着，多少人为了在这个城市立足而努力工作，又有多少人为了那模糊的理想踌躇着前行，去往那看不见的未来。我又何曾离开过呢？我不过是又回来了。无奈的是，作为兄长，我从来都没有树立过好的榜样。&lt;/p&gt;
-
 &lt;p&gt;用餐结束，去往他的住处，一个单人宿舍，面积不大，该有的硬件一应俱全。这点我俩很像，对生活所需，没有过多的欲望。&lt;/p&gt;
-
 &lt;h2 id=&#34;2&#34;&gt;2&lt;/h2&gt;
-
 &lt;p&gt;第二天，他去上班，我到外面走走。天阴蒙蒙的，下着小雨，刚到这座城市，我还是有点儿小小的兴奋。街上的行人，谈着项目，谈着工作，比我可要认真务实的多。想想自己，躲在云南的大山里，像是一个享受社会发展红利的寄生虫。&lt;/p&gt;
-
 &lt;p&gt;从弟弟的住处往南走，是西溪公园。人还是要多出门走走的，走没走过的路，看没看过的景，见没见过的人。就算没什么启发吧，也不至于局限了自己的思维。走到一处屋檐下避雨，抽烟、喝酒、写字。想到大城市的喧闹，不过是千万人的日常，我也不过是芸芸众生中渺小的一员。在国家这部巨大的机器中，一个平凡的个体如何能找寻到自身存在的价值呢？不可思议的重复与雷同。我该往何处去？&lt;/p&gt;
-
 &lt;p&gt;继续走吧！向更多人的地方去，向更少人的地方去，向繁华的地方去，向贫穷的地方去，向美的地方去，也向丑的地方去，向近的地方去，也向更远的地方去。&lt;/p&gt;
-
 &lt;p&gt;穿过西溪公园，走过隧道，经过灵隐景区，再到西湖。也许受疫情影响，一路都没有多少人。当天走了有二十多公里，我喜欢走路。&lt;/p&gt;
-
 
 
 &lt;div class=&#34;box&#34;&gt;
@@ -301,19 +216,12 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;h2 id=&#34;3&#34;&gt;3&lt;/h2&gt;
-
 &lt;p&gt;是时候去办正事儿了。此行的目的，是去参加表哥的婚礼。原计划在春节举办的婚礼，因为疫情的原因，推迟到了 6 月。作为从小一起长大的表弟，我必然是要出席的。离开杭州，前往常州——我的第二故乡。&lt;/p&gt;
-
 &lt;p&gt;我的父辈们，在 30 年前迎着改革开放的春风，从福建的深山中出来，到这片富饶的平原上闯荡。他们团结互助，吃苦耐劳，在异乡打出了一片自己的天地。我，还有我的同辈兄弟们，在这里出生，在这里成长，可以说是新常州人了。而常州对我而言，却是一座满是忧伤回忆的城市。&lt;/p&gt;
-
 &lt;p&gt;我原计划想先到母亲的新家安顿，她那儿离火车站近，可以睡在弟弟的房间。我跟父亲说了这个计划之后，电话那头是他带点儿哽咽的回复，可以不去她那儿吗，姑姑安排好了酒店。我明白父亲的感受，不知为何，悲从心生。姑姑和姑父到火车站接了我，带我去了酒店。同住酒店的，还有不少从老家、从其他城市赶来的亲属。&lt;/p&gt;
-
 &lt;p&gt;之后的几天，参加婚礼，探望父亲还有爷爷奶奶，探望母亲，与多年未见的兄弟们、叔伯们都见了面。我自己的时间其实挺充裕的，难得回家一趟，原本想再多玩几天，看看这座城市的变化，奈何家人过于关心，我也就没有了自由活动的机会，还是早点儿离开吧。&lt;/p&gt;
-
 &lt;h2 id=&#34;4&#34;&gt;4&lt;/h2&gt;
-
 
 
 &lt;div class=&#34;box&#34;&gt;
@@ -328,12 +236,9 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;从常州回到杭州，在弟弟那儿又住了三晚。&lt;/p&gt;
-
 &lt;p&gt;在钱塘江边漫步，看江、看船、看日落。火红的太阳释放它最后的余晖，天边光芒万丈，
 江畔的高楼笼罩在金光之下，倒映在江面的光束随着水波荡漾，越拉越长，好一幅壮观的景象！大江东去，我隐隐地感到缺了点什么。我还有曾经的豪情壮志吗？家庭琐事、文化传统又怎能阻碍我前进的步伐呢？我走在一条旁人无法理解的道路上，也无需他人理解，我自己乐在其中，这不就挺好吗？生活，不过是一场生活，那就让生活多姿多彩吧！&lt;/p&gt;
-
 &lt;p&gt;江南，多么甜蜜的名字，古往今来多少诗词都颂不尽你的温柔。四海为家的浪子不必挽留，愿我像痴人一样肆意行走。别了，江南！&lt;/p&gt;</description>
       
     </item>
@@ -346,9 +251,7 @@
       <guid>https://www.xianmin.org/post/202010-boyan-video-luola/</guid>
       
         <description>&lt;p&gt;薄言独立制作的一部科幻动画作品，我参与了其中的配音。&lt;/p&gt;
-
 &lt;p&gt;B 站地址： &lt;a href=&#34;https://www.bilibili.com/video/BV12T4y1c72D&#34;&gt;【2020小宇宙新星计划】萝拉_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;div  style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;
   &gt;
 &lt;iframe src=&#34;//player.bilibili.com/player.html?aid=BV12T4y1c72D&#34;  style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34;
@@ -365,40 +268,25 @@
       <guid>https://www.xianmin.org/post/review-english-202005/</guid>
       
         <description>&lt;p&gt;又是一篇迟到的总结。上一次总结是在： &lt;a href=&#34;https://www.xianmin.org/post/review-english-201906/&#34;&gt;英语学习总结（2019年上半年）&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;回顾了一下上一次的总结。怎么说呢，目前最大的问题依然还是：缺少输出。尽管自己偶尔会去记点笔记，也偶尔会去把日志翻译成英文，但是做的太少了，收效甚微。做的少的理由，无非就是不太舒服。&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;就好似登山：不经常登山的人，登一小段路就累了，累了就想休息。走的越快，累的也越快，休息的越久就越不想继续前行。擅于登山的人，一般都有自己的节奏，既不快也不慢，以一种平稳的姿态前行。如果能够享受过程，也就无关意志力什么事儿了。&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;或许学英语，甚至是任何学习，都可类比于登山，如果学习的过程太消耗意志力，那么就要反思一下，是不是自己的方法错了，有没有更适合自己的学习方法呢？&lt;/p&gt;
-
 &lt;p&gt;相比于我的其他爱好，我对英语这门语言并没有特别的热衷，我无法从枯燥的死记硬背中找到乐趣，无法从刷题或者考试上获得成就感。真正令我兴奋的，是这门语言所承载的信息——中文世界无法获取到的信息。这也是我一直以来学习英语的动力。&lt;/p&gt;
-
 &lt;p&gt;从当前的成效来看，尽管还是差强人意，但我已经开始享受英语学习的过程了。&lt;/p&gt;
-
 &lt;h2 id=&#34;听力&#34;&gt;听力&lt;/h2&gt;
-
 &lt;p&gt;从上一次总结至今，我完成了两本听力教材：&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/1034552/&#34;&gt;英语初级听力(学生用书) (豆瓣)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/1052768/&#34;&gt;英语中级听力 (豆瓣)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;这套教材在此前的博文中推荐过，就不多做介绍了。在学习的过程中，我有多次感到难度太大，而想过放弃，并且也确实中断了几次，但最终还是将这两本教材完整的过了一遍（完成了习题）。我下一步的计划，是将这两套教材再完整复习一遍。&lt;/p&gt;
-
 &lt;p&gt;在此期间，我也尝试过收听英文播客节目，在不想阅读的时候，听音频也是不错的获取信息的方式。遗憾的是，自己感兴趣的节目依然只能听懂很少的内容。尝试失败后，意识到自己的水平依旧不足，不能操之过急，还是得按照原有的节奏，慢慢前行。&lt;/p&gt;
-
 &lt;h2 id=&#34;阅读&#34;&gt;阅读&lt;/h2&gt;
-
 &lt;p&gt;失败的尝试同样也发生在阅读上。为了尽快掌握英语，我太想只看英文原著了，而忽略了自身的能力还尚不足以驾驭稍有难度的专业书籍，并且阅读英文的速度远慢于阅读中文的速度，挫败感是不可避免的。不过事情的发展也有好的一面，我成功并且完整的阅读了几本适合自己当前英语水平的原著，在这个过程中，我也发现，阅读水平同样是需要不断的训练才会提升的。我明显的感觉到自己的阅读速度在慢慢提高。比如我最近在看的一本书， Leo Tolstoy 的 《Resurrection》（托尔斯泰的《复活》），蓝思值是 1180L ，我能够理解大意、沉浸在阅读的趣味中了。&lt;/p&gt;
-
 &lt;p&gt;在阅读方法上，我做了些许改变。 &lt;strong&gt;简单归纳就是，在不同的任务间进行切换，如果状态不佳，那就不要硬撑了，换个轻松点的任务。&lt;/strong&gt; 比如，难读的书和易读的书交替阅读，英文书和中文书交替阅读。交替阅读的好处是，比如说，在我阅读英文感到吃力的时候，换一本不太需要消耗脑力的中文书，这样更容易享受阅读的乐趣。类似的道理，我一般也会在电子书和纸质书之间交替阅读。&lt;/p&gt;
-
 &lt;h2 id=&#34;词汇&#34;&gt;词汇&lt;/h2&gt;
 
-
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -409,23 +297,16 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;在词汇量方面，经过测试，7500 左右，比去年的测试稍有长进。在单词积累方面，目前的方法主要是通过欧路词典查词，然后每天复习。我在纯粹的单词记忆上并不擅长，已经不再死记硬背了，反倒是通过阅读，自己查词，印象更深，但关键还是要时常复习。&lt;/p&gt;
-
 &lt;h2 id=&#34;学习材料&#34;&gt;学习材料&lt;/h2&gt;
-
 &lt;p&gt;在学习材料上，分为文字、音频、视频，这三种不同的媒介，三种媒介各有各自的优势。我不再局限于单纯的文字阅读，因为看英文书偶尔会感到枯燥乏味。当不想阅读的时候，我会选择看视频。比如我最近在看的一个节目《空中英语课堂》，通过这个节目不仅可以训练听力，同时还能学习一些英语知识，而且还相当有趣味，持续观看一个小时都不觉疲劳。&lt;/p&gt;
-
 &lt;h2 id=&#34;目前使用的工具&#34;&gt;目前使用的工具&lt;/h2&gt;
-
 &lt;ul&gt;
 &lt;li&gt;欧路词典，以前推荐过了。&lt;/li&gt;
 &lt;li&gt;彩云小译，翻译长句、中译英、拍照翻译、语音翻译，都很好用。&lt;/li&gt;
 &lt;li&gt;DeepL 翻译器，近期刚发现的，试用后感觉准确率挺高，值得推荐。&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h2 id=&#34;小结&#34;&gt;小结&lt;/h2&gt;
-
 &lt;p&gt;我喜欢登山这个比喻。前人开辟好的的路，后人走会很轻松。而越想走捷径，也就会遇上更多的荆棘，甚至不得不掉头。速度慢不要紧，重要的是找到自己的节奏，享受过程。废话不多说了，愿继续努力。&lt;/p&gt;</description>
       
     </item>
@@ -438,29 +319,28 @@
       <guid>https://www.xianmin.org/post/linux-pdftk/</guid>
       
         <description>&lt;p&gt;最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下：&lt;/p&gt;
-
 &lt;p&gt;一、安装 pdftk ：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;apt install pdftk&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;apt install pdftk
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;二、导出 PDF 文件数据：&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;二、导出 PDF 文件数据：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pdftk my.pdf dump_data output data.txt&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pdftk my.pdf dump_data output data.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;三、编辑数据文件 &lt;code&gt;data.txt&lt;/code&gt; ，与书签有关的内容为：&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;三、编辑数据文件 &lt;code&gt;data.txt&lt;/code&gt; ，与书签有关的内容为：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
@@ -491,27 +371,23 @@ BookmarkLevel: 1
 BookmarkPageNumber: 30
 ...
 ...
-and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+and so on...
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;这个步骤比较关键。如果能够复制一份固定格式的目录内容，那么就很好处理了。&lt;/p&gt;
-
+&lt;/div&gt;&lt;p&gt;这个步骤比较关键。如果能够复制一份固定格式的目录内容，那么就很好处理了。&lt;/p&gt;
 &lt;p&gt;四、将编辑好的数据文件导入并输出：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pdftk my.pdf update_info data.txt output bookmarked.pdf&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pdftk my.pdf update_info data.txt output bookmarked.pdf
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;参考：&lt;a href=&#34;https://stackoverflow.com/questions/30304718/create-bookmarks-into-a-pdf-file-via-command-line&#34;&gt;Create bookmarks into a PDF file via command line - Stack Overflow&lt;/a&gt;&lt;/p&gt;
-
+&lt;/div&gt;&lt;p&gt;参考：&lt;a href=&#34;https://stackoverflow.com/questions/30304718/create-bookmarks-into-a-pdf-file-via-command-line&#34;&gt;Create bookmarks into a PDF file via command line - Stack Overflow&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;补充&#34;&gt;补充&lt;/h2&gt;
-
 &lt;p&gt;以上记录完成之后，发现一个用 python 的处理办法：
 &lt;a href=&#34;https://github.com/dnxbjyj/py-project/tree/master/AddPDFBookmarks&#34;&gt;py-project/AddPDFBookmarks at master · dnxbjyj/py-project&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;下次可以考虑用 python 试一试。对于文件的批量处理，以及字符的操作，用 python 会更高效一些。&lt;/p&gt;</description>
       
     </item>
@@ -524,23 +400,16 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
       <guid>https://www.xianmin.org/post/replace-google/</guid>
       
         <description>&lt;p&gt;最近的网络很不好用，一到特殊时期就这个样子。&lt;/p&gt;
-
 &lt;p&gt;由于我是搜索引擎的重度使用者，当 Google 用不了的时候，有什么替代方案吗？&lt;/p&gt;
-
 &lt;p&gt;&lt;a href=&#34;https://cn.bing.com/&#34;&gt;微软 Bing 搜索&lt;/a&gt; 就不必介绍了。&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;这里给大家推荐一个元搜索引擎 &lt;a href=&#34;https://github.com/asciimoo/searx&#34;&gt;searx&lt;/a&gt; ——一个开源的聚合搜索引擎工具&lt;/strong&gt; ，任何人都可以通过它搭建自己的搜索引擎。作为一个普通使用者，我们直接使用其他人已经搭建好的实例就可以了： &lt;a href=&#34;https://searx.space/&#34;&gt;Searx instances&lt;/a&gt; ，里面列出了一些公开的 Searx 实例。&lt;/p&gt;
-
 &lt;p&gt;每个 Searx 实例由于搭建者个人的喜好，后台配置并不一定相同。并且，地区不同，访问速度也不一样。以下我推荐几个经我个人测试后，体验还算不错的站点：&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://nibblehole.com/&#34;&gt;https://nibblehole.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://searx.be/&#34;&gt;https://searx.be/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://searx.org/&#34;&gt;https://searx.org/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Searx 的功能十分丰富，关于它更多的玩法，各位自行去挖掘吧。&lt;/p&gt;
-
 &lt;p&gt;最后，再补充一个国内版本： &lt;a href=&#34;https://mijisou.com/&#34;&gt;秘迹搜索&lt;/a&gt; ，这个站点在国内是有备案的。&lt;/p&gt;</description>
       
     </item>
@@ -552,7 +421,8 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
       
       <guid>https://www.xianmin.org/post/goodbye-2019/</guid>
       
-        <description>&lt;div class=&#34;box&#34;&gt;
+        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
@@ -564,51 +434,30 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;2019 年的年终总结来的比往年晚了一些，最近完全没有想做总结的冲动。如果写这篇总结的过程让自己不愉快，那还不如不写，对吧。可不做总结吧，反而内心有点儿愧疚，还是写下来吧。生命只有一次， 19 年也只有一次，还是要活得有意思吧，别人看着有意思，那是别人的事，关键得自己觉得有意思。很多事情，错过了也就错过了。&lt;/p&gt;
-
 &lt;p&gt;回顾起来，相比 18 年， 19 年就平淡了许多。&lt;/p&gt;
-
 &lt;p&gt;按照惯例，总结依然分为四大类：修行、工作、锻炼、学习。&lt;/p&gt;
-
 &lt;h2 id=&#34;关于修行&#34;&gt;关于修行&lt;/h2&gt;
-
 &lt;p&gt;今年比较特殊的是个人的情感经历，这方面的内容不适合公开，就不放在博客上了。这或许也是为什么发布在博客上的「每月记录」中断了的原因吧，太私人的文字公开了，总觉得不舒服。&lt;/p&gt;
-
 &lt;p&gt;今年最大的变化，是酒喝的少了。实践证明，我对酒精并没有很严重的依赖，只是一种习惯而已。过去习惯开怀畅饮、不醉不休，现在换成习惯小酌两杯、点到为止。至少对个人的身体而言，这是好的变化。难免有点儿唏嘘的是，似乎也因此少了些激情。我还拥有激情吗？难道我的激情必须通过酒精来激发吗？我是因为激情而饮酒呢？还是因为饮酒而激情呢？&lt;/p&gt;
-
 &lt;p&gt;最近的一个启发： &lt;strong&gt;按「可能的自己」去做事。&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;什么是「可能的自己」呢？比如，想象一下，我所敬佩的人是怎样生活的。按时睡觉，按时起床。每天都有规划，每天都有记录，每天都保持积极的心态。不被动的去看手机推送的信息。对人和善并保持微笑。&lt;/p&gt;
-
 &lt;p&gt;那个「可能的自己」，实际上就是自己，不必多想，直接去做吧。&lt;/p&gt;
-
 &lt;h2 id=&#34;关于工作&#34;&gt;关于工作&lt;/h2&gt;
-
 &lt;p&gt;旅舍的工作还是比较稳定，至少在营业额的数字上，比 18 年要高一些。&lt;/p&gt;
-
 &lt;p&gt;依然要时常反省。&lt;/p&gt;
-
 &lt;h2 id=&#34;关于锻炼&#34;&gt;关于锻炼&lt;/h2&gt;
-
 &lt;p&gt;19 年锻炼的比较频繁，越来越能体会到锻炼给身体带来的益处。这一年连感冒都没有，颈部、腰部也都没有任何问题。回想起来，颈部、腰部出现问题，都是长期的不良习惯积累造成的，身体的病症不是一天形成的。&lt;/p&gt;
-
 &lt;p&gt;我还想到了 80 岁继续登山呢，到了 80 依然工作、为身边人服务，甚至到了 80 岁还照样把酒言欢呢。要坚持锻炼，形成习惯，锻炼这件事就跟睡觉、吃饭一样，不必刻意去做。健康的生命就应该多运动。&lt;/p&gt;
-
 &lt;p&gt;目前的转变是：慢跑、站桩、登山，交替进行。偶尔骑行。&lt;/p&gt;
-
 &lt;h2 id=&#34;关于学习&#34;&gt;关于学习&lt;/h2&gt;
-
 &lt;p&gt;&lt;strong&gt;还是要增强自己的核心技能。&lt;/strong&gt; 不要有杂念，稳稳的向前。多向他人学习。&lt;/p&gt;
-
 &lt;p&gt;今年的输出不能让人满意，感谢至今还有关注这个博客的朋友。我还得继续努力啊！&lt;/p&gt;
-
 &lt;h2 id=&#34;不畏风雨&#34;&gt;不畏风雨&lt;/h2&gt;
-
 &lt;p&gt;以一首诗结束吧。祝福我的朋友，还有看到这儿的你，新的一年依然不畏风雨！新年快乐！&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
@@ -636,6 +485,7 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;《不畏风雨》
@@ -665,7 +515,9 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 寒暑交替何所去
 人常道我无情
 没有掌声不识艰辛
-如此这般我之所愿&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+如此这般我之所愿
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
       
@@ -679,96 +531,60 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
       <guid>https://www.xianmin.org/post/review-read-2019/</guid>
       
         <description>&lt;p&gt;回顾 2019 年的阅读，数量上不算少，只是用在「经典」上的时间太少了。很多闲书、杂书翻翻即可。希望在新的一年：&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;只关注那 10% 的精品。&lt;/li&gt;
 &lt;li&gt;预留更多的时间思考，做笔记。&lt;/li&gt;
 &lt;li&gt;不重要的书，写下简短的摘要即可。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;往年回顾：&lt;a href=&#34;https://www.xianmin.org/post/2018-read/&#34;&gt;我的 2018 年阅读总结&lt;/a&gt;　。&lt;/p&gt;
-
 &lt;p&gt;以下是我在 2019 年读过的好书。&lt;/p&gt;
-
 &lt;h2 id=&#34;人生模式-杰作&#34;&gt;《人生模式》 - 杰作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/34803015/&#34;&gt;人生模式 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;今年，终于等到了阳老师出的第一本书——《人生模式》，这是他过去几年的文章合集，我基本都在网上看过了，此次拿到新书重读，却依然有所收获。&lt;/p&gt;
-
 &lt;p&gt;从阳老师的文章中，我学到了什么呢？我想了想，最重要的一点，是科学理性的态度吧。上网这些年，也知道了不少知识网红，却很少见像阳老师这样，不厌其烦的向年轻人劝告：要理性啊！要理性啊！（好好读读斯坦诺维奇的著作！）为什么？在网络上哗众取宠、收智商税的「网红骗子」太多了。&lt;/p&gt;
-
 &lt;p&gt;除此之外，阳老师告诫我们，要以历史长河中的智者为榜样，要对这个世界保持好奇心。他宣传认知科学的最新进展，从国外引进一本又一本杰作，列书单。推荐牛人，包括（斯坦诺维奇、芒格、西蒙、马奇等等），而这些名字，我在过去却从未听说。&lt;/p&gt;
-
 &lt;p&gt;阳老师在这本书中所提到的种种模式，是他在漫长的时间中思考的产物，参阅了大量的中外经典书籍，显然是很难用三言两语就能概括的，更难的是在短时间内内化为自己的认知系统，并加以运用。&lt;/p&gt;
-
 &lt;p&gt;由衷的感谢阳老师为教育事业所做的努力，启迪了一个又一个像我一样蒙昧无知的年轻人，毫不夸张的说，他是中国当代科学启蒙第一人。期待他再创佳作。&lt;/p&gt;
-
 &lt;h2 id=&#34;创新算法-杰作&#34;&gt;《创新算法》 - 杰作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/3354596/&#34;&gt;创新算法 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;创新也有规律吗？前苏联科学家、发明家阿奇舒勒，通过研究了 20 万项专利后，总结出了这套创新算法。书中的实例基本都是机械领域，读起来会有些吃力，但书中所提炼出的高阶思维模型，却是可以复用的。比如阳老师曾经提到的「人生的 STC 算子」这个概念，就来自《创新算法》，从空间、时间、成本的角度，论说了独特人生的可能性。&lt;/p&gt;
-
 &lt;p&gt;今年读的比较草率，需要再次重读。俄罗斯真是一个神奇的国家。&lt;/p&gt;
-
 &lt;h2 id=&#34;直觉泵和其他思考工具-杰作&#34;&gt;《直觉泵和其他思考工具》 - 杰作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/30340107/&#34;&gt;直觉泵和其他思考工具 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;我发现了聪明人都有一个共同点，就是他们有一套 「可复用的思考问题的方法」 。丹尼特称它们为「直觉泵」，与之相类似的，如芒格的「高阶思维模型」。 ——  &lt;a href=&#34;https://www.xianmin.org/post/mindtools/&#34;&gt;思维工具箱&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;h2 id=&#34;自私的基因-杰作&#34;&gt;《自私的基因》 - 杰作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/30309613/&#34;&gt;自私的基因 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;经典。每十年都有增订。&lt;/p&gt;
-
 &lt;p&gt;道金斯（Richard Dawkins）把建立于自然选择基础上的社会学说的这一重要部分，第一次用简明通俗的形式介绍给大家。&lt;/p&gt;
-
 &lt;p&gt;我们都是生存机器——作为运载工具的机器人，其程序是盲目编制的，为的是永久保存所谓基因这种禀性自私的因子。&lt;/p&gt;
-
 &lt;h2 id=&#34;人类的演化-力作&#34;&gt;《人类的演化》 - 力作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/26834220/&#34;&gt;人类的演化 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;邓巴，「邓巴数字」提出者。在本书中，他主要以社会大脑假说和时间分配模型为工具，一步一步拼接出人类演化的完整图像。&lt;/p&gt;
-
 &lt;h2 id=&#34;情绪-杰作&#34;&gt;《情绪》 - 杰作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/30443490/&#34;&gt;情绪 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;巴瑞特教授在本书中介绍了「情绪」的方方面面，尤其是纠正了我们对「情绪」的传统认知。我真正感兴趣的是，怎样能够控制自己的情绪？&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;首先身体一定要健康，再次强调锻炼的重要性。&lt;/li&gt;
 &lt;li&gt;改变「内感受网络」。
-
 &lt;ol&gt;
 &lt;li&gt;自己要有信念去构建积极的情绪；&lt;/li&gt;
 &lt;li&gt;多经历、多体验新鲜事物，进而改变旧有的观念；&lt;/li&gt;
 &lt;li&gt;用类似冥想等方式，增强对某一种情绪的感知。&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;li&gt;提高情绪颗粒度。
-
 &lt;ol&gt;
 &lt;li&gt;学习更多的情绪词汇，并能准确运用。&lt;/li&gt;
 &lt;li&gt;模仿他人的情绪表现。这点书中没有提到，是我自己想到的。比如，《教父》里有一个情节一直让我印象深刻：迈克在医院门口守护他的父亲，在危难关头，他完美的诠释了什么是镇定自若。&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;亲密关系-杰作&#34;&gt;《亲密关系》 - 杰作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/26585065/&#34;&gt;亲密关系（第6版） (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;一本很好的分析亲密关系的书，大量的统计数据，科学论据充分，给的建议也很好。只是，对应到现实中真正的情感问题上，想要在本书中得到应对措施，估计是很难的。社会、爱情、人性都太复杂了。&lt;/p&gt;
-
 &lt;h2 id=&#34;心流-最优体验心理学-力作&#34;&gt;《心流：最优体验心理学》 - 力作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/27186106/&#34;&gt;心流 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;阅读过程中发现「心流」和「正念」有共通的地方，比如书中提到的「心流的构成要素」：&lt;/p&gt;
-
 &lt;p&gt;首先，这种体验出现在我们面临一份可完成的工作时。
 其次，我们必须能够全神贯注于这件事情。
 第三和第四，这项任务有明确的目标和即时的反馈。
@@ -776,110 +592,68 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 第六，充满乐趣的体验使人觉得能自由控制自己的行动。
 第七，进入“忘我”状态，但心流体验告一段落后，自我感觉又会变得强烈。
 第八，时间感会改变——几小时犹如几分钟，几分钟也可能变得像几小时那么漫长。&lt;/p&gt;
-
 &lt;h2 id=&#34;奇特的一生-力作&#34;&gt;《奇特的一生》 - 力作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/1115353/&#34;&gt;奇特的一生 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;除了时间统计法之外，他还有几条守则：&lt;/p&gt;
-
 &lt;p&gt;1.我不承担必须完成的任务；
 2.我不接受紧急的任务；
 3.一累马上停止工作去休息；
 4.睡得很多，10小时左右；
 5.把累人的工作同愉快的工作结合在一起。&lt;/p&gt;
-
 &lt;h2 id=&#34;怎样解题-力作&#34;&gt;《怎样解题》 - 力作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/6983584/&#34;&gt;怎样解题 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;我们解题时必须做的第一件事是理解题意：知己知彼，百战不殆。&lt;/li&gt;
 &lt;li&gt;制定一个计划，想出一个适合行动的思路，这是求解中的主要成就。&lt;/li&gt;
 &lt;li&gt;我们应当在正确的时候开始实现计划，即在方案成熟的时候，才开始执行，而不要提前。&lt;/li&gt;
 &lt;li&gt;回顾所完成的解是工作中一个重要而有启发性的阶段：温故而知新。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;简而言之：理解题目 - 找到思路 - 执行方案 - 回顾反思。&lt;/p&gt;
-
 &lt;h2 id=&#34;当下的启蒙-力作&#34;&gt;《当下的启蒙》 - 力作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/30376593/&#34;&gt;当下的启蒙 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;本书的副标题为：「为理性、科学、人文主义和进步辩护」。&lt;/p&gt;
-
 &lt;p&gt;信息量非常大（有相当丰富的注释和参考资料），涉及了当今世界方方面面的议题。用大量的图表和数据告诉我们：世界在变好。并且再次宣扬了启蒙运动的四大理念（理性、科学、人文主义和进步），它们会让世界变得更好。&lt;/p&gt;
-
 &lt;p&gt;在我看来，本书最有价值的地方在于：弘扬理性的精神和科学的态度，承认自己的无知，凡事不要妄下判断。一个很简单的例子：我们绝大多数人并不知道「拉链的原理是什么」，尽管我们每天都在使用它。&lt;/p&gt;
-
 &lt;h2 id=&#34;西方正典-力作&#34;&gt;《西方正典》 - 力作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/1331454/&#34;&gt;西方正典 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;这本书给我最大的收获是作者在结尾附上的书单，极大的开阔了我的眼界，原来还有那么多的好书没听说过。&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;英文列表： &lt;a href=&#34;http://www.interleaves.org/~rteeter/grtbloom.html&#34;&gt;Bloom. Western Canon&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;中文列表： &lt;a href=&#34;https://www.douban.com/group/topic/119992648/&#34;&gt;&amp;lt;书&amp;gt;《西方正典》附录书单&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;豆瓣豆列：
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.douban.com/doulist/24588/&#34;&gt;哈罗德.布鲁姆：《西方正典》附录——经典书目 （神权时代）&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.douban.com/doulist/24602/&#34;&gt;哈罗德.布鲁姆：《西方正典》附录——经典书目 （贵族时代）&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.douban.com/doulist/24629/&#34;&gt;哈罗德.布鲁姆：《西方正典》附录——经典书目 （民主时代）&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.douban.com/doulist/24769/&#34;&gt;哈罗德.布鲁姆：《西方正典》附录——经典书目 （混乱时代：预言经典）【上】&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;八戒说禅-力作&#34;&gt;《八戒说禅》 - 力作&lt;/h2&gt;
-
 &lt;p&gt;链接：  &lt;a href=&#34;https://book.douban.com/subject/3191679/&#34;&gt;八戒说禅 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;在豆瓣动态里意外发现的一本书，意外发现了「熊逸」这位作者。关于熊逸此人，网络上能找到的资料极其有限。《八戒说禅》是用科学方法研读佛教经典《六祖坛经》的一本普及读物。作者学贯中西，知识面广，擅于描述、梳理和分析，他这种解读传统文化经典的方式，在国内的出版物中极为少见。&lt;/p&gt;
-
 &lt;h2 id=&#34;阿桑奇自传-力作&#34;&gt;《阿桑奇自传》 - 力作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/24845545/&#34;&gt;阿桑奇自传 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;就在今年， 2019 年 4 月 11 日，阿桑奇被捕，一位终生为了自由而斗争的战士，失去了他最后的自由。关于政治，我不知道该说什么。但他作为一个坚守信念、不畏强权的个体，令我由衷敬佩。愿他一切安好。&lt;/p&gt;
-
 &lt;h2 id=&#34;不安之书-力作&#34;&gt;《不安之书》 - 力作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/25847717/&#34;&gt;不安之书 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;一个普通人，在一个房间里，沉浸在文字中，思考着整个世界。物质也许会限制肉体的行动，却无法限制想象力，以及思考的能力。&lt;/p&gt;
-
 &lt;h2 id=&#34;陀思妥耶夫斯基-书信选-力作&#34;&gt;《陀思妥耶夫斯基 - 书信选》 - 力作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/2350899/&#34;&gt;陀思妥耶夫斯基 - 书信选 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;人不单靠面包活着。人生啊，就是充斥着各种各样的痛苦。&lt;/p&gt;
-
 &lt;p&gt;写作，要常常修改，不断地修改。&lt;/p&gt;
-
 &lt;p&gt;疾病、贫穷，不断困扰着他。&lt;/p&gt;
-
 &lt;p&gt;赌博，人性的弱点。他既没钱，又去赌博，可不管怎么说，还算是一个体面的人。从他有资本可以去各个国家旅游，那至少也算是社会中的中上层人士了。他有杰出的写作才能。&lt;/p&gt;
-
 &lt;h2 id=&#34;白痴-力作&#34;&gt;《白痴》 - 力作&lt;/h2&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/3274502/&#34;&gt;白痴 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;今年读的为数不多的一本文学著作。很是喜欢，爱不释手。好久没看文学著作了，也好久没有进入如此痴迷的阅读状态了。我发现一点，一本书如果看不下去，那就没必要强求。没必要定死板的目标，一天看多少页，读多长时间，这样完全享受不到阅读的乐趣。喜欢的书，自然而然会吸引你，催促着你读完它。&lt;/p&gt;
-
 &lt;h2 id=&#34;英文原著&#34;&gt;英文原著&lt;/h2&gt;
-
 &lt;h3 id=&#34;what-do-you-care-what-other-people-think-力作&#34;&gt;What Do You Care What Other People Think? - 力作&lt;/h3&gt;
-
 &lt;p&gt;链接：  &lt;a href=&#34;https://www.goodreads.com/book/show/35167718-what-do-you-care-what-other-people-think&#34;&gt;&amp;ldquo;What Do You Care What Other People Think?&amp;rdquo; by Richard P. Feynman | Goodreads&lt;/a&gt; 。
 中文译本： &lt;a href=&#34;https://book.douban.com/subject/1053174/&#34;&gt;你干吗在乎别人怎么想？ (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;2015 年（豆瓣标记的时间）就读过费曼的这两本自传的中文译本，《你干吗在乎别人怎么想？》，和下一本《别逗了，费曼先生》。今年重读，看的是英文原著，似乎是在意料之中，英文很好读，非常符合费曼的风格：用简单易懂的语言把道理讲清楚，同时又不失趣味。&lt;/p&gt;
-
 &lt;p&gt;费曼给我的激励是：我们所生活的世界充满了各种各样探索的乐趣。&lt;/p&gt;
-
 &lt;p&gt;以下是部分摘录：&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Everything he read to me he would translate as best he could into some reality.&lt;/li&gt;
 &lt;li&gt;Everything I read I try to figure out what it really means, what it’s really saying.&lt;/li&gt;
@@ -889,101 +663,56 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;li&gt;The only way to have real success in science, the field I’m familiar with, is to describe the evidence very carefully without regard to the way you feel it should be. If you have a theory, you must try to explain what’s good and what’s bad about it equally. In science, you learn a kind of standard integrity and honesty.&lt;/li&gt;
 &lt;li&gt;To every man is given the key to the gates of heaven; the same key opens the gates of hell.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h3 id=&#34;surely-you-re-joking-mr-dot-feynman-力作&#34;&gt;Surely You’re Joking, Mr. Feynman - 力作&lt;/h3&gt;
-
 &lt;p&gt;中文译本： &lt;a href=&#34;https://book.douban.com/subject/1391772//&#34;&gt;别逗了，费曼先生 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;h3 id=&#34;and-then-there-were-none&#34;&gt;And Then There Were None&lt;/h3&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://www.goodreads.com/book/show/16299.And%5FThen%5FThere%5FWere%5FNone&#34;&gt;And Then There Were None by Agatha Christie | Goodreads&lt;/a&gt; 。
 中文译本： &lt;a href=&#34;https://book.douban.com/subject/3006581/&#34;&gt;无人生还 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;很早就听说过阿加莎，这一部似乎是她比较知名的著作，但是自己对此类题材并没有多少感觉。&lt;/p&gt;
-
 &lt;h3 id=&#34;learning-how-to-learn-力作&#34;&gt;Learning How to Learn - 力作&lt;/h3&gt;
-
 &lt;p&gt;链接：  &lt;a href=&#34;https://www.goodreads.com/book/show/36647421-learning-how-to-learn&#34;&gt;Learning How to Learn - by Barbara Oakley | Goodreads&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;一点笔记： &lt;a href=&#34;https://www.xianmin.org/post/note-learning-how-to-learn/&#34;&gt;笔记：公开课 Learning How to Learn&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;h2 id=&#34;上瘾&#34;&gt;上瘾&lt;/h2&gt;
-
 &lt;p&gt;我在 3 月份的总结中提到自己状态不佳，是因为那个月有差不多 10 天左右，再次沉迷于玩游戏。对于多次戒除网瘾的我而言，既感到懊恼又有些诧异。为什么我总是能够一次又一次的沉迷于游戏中无法自拔？网瘾，它就像一个精神鸦片，我完全无法自主的对它控制。戒除网瘾几年，我以为我已经没有网瘾了，想玩游戏的时候玩一玩，不想玩的时候随时都可以不玩。然而事实却并非如此，我居然又一头栽了进去，稍有空闲时间，就拿出手机玩游戏，从早玩到晚。并且，当我感到悔恨，在早上把游戏卸载之后，晚上又重新装上了。这么多年了，为什么还是如此？&lt;/p&gt;
-
 &lt;p&gt;当然，我又像从前那样，直到有一天实在无法忍受自己，痛下决心将游戏卸载，强迫自己转移注意力到其他方面。开始的几天会有些煎熬，过去差不多半个月，我才敢说，这游戏我再也不玩了。但是，残留的问题依然纠缠着我：&lt;/p&gt;
-
 &lt;p&gt;为什么我这么容易就会游戏上瘾？而似乎有的人不会？&lt;/p&gt;
-
 &lt;p&gt;为什么我戒除网瘾这么多次之后，依然容易上瘾？&lt;/p&gt;
-
 &lt;p&gt;怎样才能真正戒除网瘾？&lt;/p&gt;
-
 &lt;p&gt;也许只有知己知彼，才可能战胜敌人。带着问题，我查阅了几本书，尽管没有完全解决我心中的疑问，却也给了我额外的收获。&lt;/p&gt;
-
 &lt;h3 id=&#34;上瘾-可用的书&#34;&gt;《上瘾》 - 可用的书&lt;/h3&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/27030507/&#34;&gt;上瘾 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;那些好的产品是怎样一步一步让用户上瘾的？&lt;/p&gt;
-
 &lt;h3 id=&#34;游戏改变世界-力作&#34;&gt;《游戏改变世界》 - 力作&lt;/h3&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/10828002/&#34;&gt;游戏改变世界 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;结合了「心流」的概念。&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;内在奖励的 4 大类型：&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;我们每一天都在渴望满意的工作。&lt;/li&gt;
 &lt;li&gt;我们渴望体验成功，至少也是希望成功。&lt;/li&gt;
 &lt;li&gt;我们渴望与社会建立联系。&lt;/li&gt;
 &lt;li&gt;我们渴望过得有意义，渴望成为超越自身的宏伟事业的一部分。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h3 id=&#34;为什么我们会上瘾-可用的书&#34;&gt;《为什么我们会上瘾》- 可用的书&lt;/h3&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/27080613/&#34;&gt;为什么我们会上瘾 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;h2 id=&#34;研究相关&#34;&gt;研究相关&lt;/h2&gt;
-
 &lt;p&gt;作为一个没受过高等教育以及学术训练的青年，却又对知识有着由衷的热爱，我很好奇真正的研究学者是怎样做研究的。&lt;/p&gt;
-
 &lt;h3 id=&#34;研究是一门艺术-杰作&#34;&gt;《研究是一门艺术》 - 杰作&lt;/h3&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/4035330/&#34;&gt;研究是一门艺术 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;「研究」并非只是学者专属。 &lt;strong&gt;「广义来说，其实每个人都在做研究：我们都在搜集资料，回答问题以解决难题。」&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;本书是美国芝加哥大学的三位老教授的合著，不仅仅只讲研究，还对写作做了详细的指导。&lt;/p&gt;
-
 &lt;h3 id=&#34;研究生完全求生手冊-力作&#34;&gt;《研究生完全求生手冊》 - 力作&lt;/h3&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/27108502/&#34;&gt;研究生完全求生手冊 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;讲了研究人员具体的研究方法与策略。&lt;/p&gt;
-
 &lt;h3 id=&#34;致青年学者-力作&#34;&gt;《致青年学者》 - 力作&lt;/h3&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/4247329/&#34;&gt;致青年学者 (豆瓣)&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;一位前辈的忠告与鼓励。&lt;/p&gt;
-
 &lt;h2 id=&#34;两本教材&#34;&gt;两本教材&lt;/h2&gt;
-
 &lt;h3 id=&#34;listen-to-this-力作&#34;&gt;《Listen To This》 - 力作&lt;/h3&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/1067818/&#34;&gt;英语初级听力 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;一位朋友推荐的英语教材，的确很不错，体现了名校、名出版社在资源整合上具有的优势。除了部分选题稍显勉强，配音、选材无可挑剔。&lt;/p&gt;
-
 &lt;p&gt;值得一提的是，这套教材在孔夫子上购买只需几元钱。一点记录： &lt;a href=&#34;https://www.xianmin.org/post/review-2019-07/&#34;&gt;记录： 2019 年 8 月 - Listen To This&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;h3 id=&#34;线性代数及其应用-力作&#34;&gt;《线性代数及其应用》 - 力作&lt;/h3&gt;
-
 &lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/1425950/&#34;&gt;线性代数及其应用 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;没看过国内的线代教材，直接看的这本。一开始看的是英文，有点儿吃力，之后买了中文译本对照着看。题目丰富，并附有参考答案。&lt;/p&gt;</description>
       
     </item>
@@ -995,7 +724,8 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
       
       <guid>https://www.xianmin.org/post/review-2019-10/</guid>
       
-        <description>&lt;div class=&#34;box&#34;&gt;
+        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
@@ -1005,17 +735,11 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;有一段时间没在博客上发表内容了，每每想动笔写点什么的时候，琐事便纷至沓来，即便真的有点儿空闲了，又不知从何说起。 &lt;strong&gt;近期最大的变化是，锻炼频繁了。&lt;/strong&gt; 爬了很多次山，也许比过去两年爬山的总次数还多。还有就是 &lt;strong&gt;重新开始跑步&lt;/strong&gt; 。说起这个变化，就不得不提 Judith 了。&lt;/p&gt;
-
 &lt;p&gt;Judith 是一位来自德国的科学家，名字的英文念作「朱蒂斯」，但是她更喜欢德文的念法——「尤蒂特」，这是我后来才知道的。她在玉龙雪山上研究植物，这几个月她多次下榻我们旅舍，我也得以与她相识。她不喜社交，热衷于工作，早出晚归，最初的俩月我们并没有多少交流。直至中秋，她的团队放假，她与我们共进晚餐，我们才有了更多的了解，算是老朋友了。她孤身一人来到中国，是她第一次到一个陌生的东方国度。&lt;/p&gt;
-
 &lt;p&gt;相熟之后，她邀请我一起登山。我最初只是想熟悉一下登山线路，却也因此激发了我压抑许久的徒步热情。啊，似乎有一阵子没有爬山了。与她一起爬山，完全是另外一种体验，因为我只能勉强跟上她的步伐，要知道，我可是已经在云南生活好几年了。我问她，是如何拥有这么出色的体能？她说，长期坚持锻炼，她已经坚持了十多年，这是她生活的一部分。她同时还是一位越野跑爱好者，最长跑过 114 公里。不得不说我是无比讶异的，一位科研工作者，同时还是一位运动健将。联想到平日我对自己的懈怠，突然感到惭愧。同她一起上了几次雪山，从 2700 的海拔爬升至 4000 左右。顺便给她帮点小忙，荣幸的充当了几回「植物研究助理」，这对我而言，也是难得的体验。&lt;/p&gt;
-
 &lt;p&gt;在这之后，受其影响，我重新找回了对户外运动的热情，在旅舍发起活动，每周六徒步登山，带了几次小团队，相当愉快。并且，我重新开始跑步，一股莫名的力量油然而生。这或许就是「目标感染力」的作用吧，当一个人在追逐一个目标的时候，它同时也会影响到旁人。&lt;/p&gt;
-
 &lt;p&gt;（初稿完成于 2019 年 11 月 5 日凌晨 4 点。 11 月 29 日又是凌晨 4 点醒来，稍作修改，发至博客。一篇迟到的博文。）&lt;/p&gt;
-
 
 
 
@@ -1163,29 +887,17 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;li&gt;在线播放地址： &lt;a href=&#34;https://www.bilibili.com/video/av31961814/&#34;&gt;【coursera公开课】学会如何学习 Learning How to Learn（中文字幕）- bilibili&lt;/a&gt; 。&lt;/li&gt;
 &lt;li&gt;配套的书： &lt;a href=&#34;https://www.goodreads.com/book/show/36647421-learning-how-to-learn&#34;&gt;Learning How to Learn - by Barbara Oakley | Goodreads&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;如果早个 10 年上这门课，那收获肯定是非常大的。课程中提到的大部分内容，在这些年的阅读中都有接触到。&lt;/p&gt;
-
 &lt;p&gt;课程的一大特点是运用了大量的图片隐喻，便于理解和加深印象。&lt;/p&gt;
-
 &lt;h2 id=&#34;focused-mode-和-diffuse-mode&#34;&gt;Focused Mode 和 Diffuse Mode&lt;/h2&gt;
-
 &lt;p&gt;大脑有两种运作模式：专注模式（Focused Mode）和发散模式（Diffuse Mode）。&lt;/p&gt;
-
 &lt;p&gt;当我们专注的时候，只有特定的大脑区域在工作，使得我们能够一步一步的解决问题。但如果遇到的问题在某一步卡住了，这个时候发散模式就发挥作用了。&lt;/p&gt;
-
 &lt;p&gt;有的时候，我们并没有特意的在思考，但是大脑依然在运作，此时的大脑处于发散模式。在发散模式下，会有一些意想不到的想法从脑海中冒出来。&lt;/p&gt;
-
 &lt;p&gt;一个高效的学习方式是，在专注模式与发散模式之间自如地切换。不过问题来了，这是理想情况。我们真的能够想专注就可以专注吗？很多时候，我感觉专注并不是一件容易的事。&lt;/p&gt;
-
 &lt;h2 id=&#34;番茄工作法&#34;&gt;番茄工作法&lt;/h2&gt;
-
 &lt;p&gt;番茄工作法在许多书中都有提到。我在几年前知道这个方法之后，试过几次，没什么效果就放弃了。我这人有个问题，经常无法专注。即便定了番茄钟，也无法专注。&lt;/p&gt;
-
 &lt;p&gt;现在想想，用对地方还是挺关键的。 &lt;strong&gt;它有四个作用：一、任务启动的仪式感；二、将需要大块时间的任务分割成多个小块时间，减少对大任务的恐惧；三、明确告诉自己这段时间只做这件事情，不被其他事物干扰；四、提醒自己劳逸结合。&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;步骤：&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;找一个安静的环境，移除所有干扰物。比如手机等。&lt;/li&gt;
 &lt;li&gt;设定一个 25 分钟的倒计时。&lt;/li&gt;
@@ -1193,27 +905,16 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;li&gt;25 分钟结束后，给自己一点奖励，比如 5 分钟的休息。&lt;/li&gt;
 &lt;li&gt;设定下一个 25 分钟的倒计时，继续工作。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;番茄工作法适用于难度大、创造性强的工作，以及大部分脑力工作者。对于一些简单的任务，以及重复性体力劳动，就没必要用什么番茄工作法了。&lt;/p&gt;
-
 &lt;h2 id=&#34;神经可塑性和费曼学习法&#34;&gt;神经可塑性和费曼学习法&lt;/h2&gt;
-
 &lt;p&gt;渐进式学习、刻意练习、充足的睡眠，强化神经的重新连接。关于「神经可塑性」在 &lt;a href=&#34;https://book.douban.com/subject/26296233/&#34;&gt;《重塑大脑，重塑人生》&lt;/a&gt; 一书中有更详细的介绍。&lt;/p&gt;
-
 &lt;p&gt;通过回忆可以强化记忆。回忆所学的知识，而非简单的看答案。&lt;/p&gt;
-
 &lt;p&gt;每个人所擅长的是不同的，相比其他人，有一些人需要不断的练习、练习、再练习，才能完全掌握。&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;费曼学习法&lt;/strong&gt; ，将所学的教给别人。比如我的这篇笔记，就是费曼学习法的一次实践。&lt;/p&gt;
-
 &lt;h2 id=&#34;工作记忆与长时记忆&#34;&gt;工作记忆与长时记忆&lt;/h2&gt;
-
 &lt;p&gt;人的工作记忆容量是有限的，这就是为什么无法一心二用，也是为什么工作时要排除额外的干扰。长时记忆可以存储非常多的内容，但有的时候记忆藏得太深我们可能很难找到。&lt;/p&gt;
-
 &lt;p&gt;暂时还没有增强工作记忆的方法。&lt;/p&gt;
-
 &lt;p&gt;增强长时记忆的方法：&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;专注；&lt;/li&gt;
 &lt;li&gt;练习；&lt;/li&gt;
@@ -1221,21 +922,13 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;li&gt;存储，与原有记忆产生联系；&lt;/li&gt;
 &lt;li&gt;回忆。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;事实（如日期、名字等等）更难记忆，而图片更容易记忆。&lt;/p&gt;
-
 &lt;p&gt;通过比喻和类比的方法，将新事物与旧有的神经回路联系起来。芭芭拉老师在这门课程中，以及同名的书中，就使用了大量的比喻、类比和图片，很明显能够让人记忆深刻。&lt;/p&gt;
-
 &lt;h2 id=&#34;更好的睡眠&#34;&gt;更好的睡眠&lt;/h2&gt;
-
 &lt;p&gt;在这门课中，芭芭拉老师一再强调了睡眠的重要性。在睡眠中，神经元的连接会进行重新「演练」，新学习的连接将会得到增强，而不重要的连接则会弱化。不仅如此，好的睡眠质量，能够保证学习效率。&lt;/p&gt;
-
 &lt;h2 id=&#34;其他资源&#34;&gt;其他资源&lt;/h2&gt;
-
 &lt;p&gt;另一位网友的 &lt;a href=&#34;https://linghao.io/posts/notes-learning-how-to-learn/&#34;&gt;《Learning How to Learn》课程笔记&lt;/a&gt; 。比我的笔记强很多……&lt;/p&gt;
-
 &lt;p&gt;书末有意思的资源：&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=bEx60e%5F45-Q&#34;&gt;5 MEMORY TIPS TO GET YOU STARTED // RANDOM MEMORY TIPS #011 - YouTube&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=qPix%5FX-9t7E&#34;&gt;The Nervous System, Part 1: Crash Course A&amp;amp;P #8 - YouTube&lt;/a&gt;&lt;/li&gt;
@@ -1252,45 +945,26 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
       <guid>https://www.xianmin.org/post/review-2019-07/</guid>
       
         <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
-
 &lt;h2 id=&#34;英语学习&#34;&gt;英语学习&lt;/h2&gt;
-
 &lt;p&gt;听完 ESLPOD 的课程 《Introduction to the United States》。&lt;/p&gt;
-
 &lt;p&gt;8 月开始学习 &lt;a href=&#34;https://book.douban.com/subject/1034552/&#34;&gt;《英语初级听力》(学生用书) (豆瓣)&lt;/a&gt; ，学习至 15 课。这套教材是薄言 &lt;strong&gt;强烈推荐&lt;/strong&gt; 的，外研社出版，也叫 《Listen To This》，可能是大学教材，我不是很清楚。薄言曾在国外工作过多年，也曾学习过《新概念英语》，据他说，《新概念英语》浪费了他太多的时间，他后来用一年时间学习《Listen To This》，在英语听说方面才有了质的飞跃。&lt;/p&gt;
-
 &lt;p&gt;薄言早在几个月前就向我推荐了《Listen To This》，只是我自己一直有别的计划，没有当回事儿。他一再推荐，我也想看看这套教材究竟有多好，于是终于在这个月买了一套，在网上下载了音频文件。然后，他陪我共同学习（他这人实在太好了……），一般是在晚饭后，学习 30 至 60 分钟。后来旅舍的另一位朋友也加入进来，我们的英语学习小组就有三个人了。这里不如多说几句， &lt;strong&gt;我发现三人共同学习，要比我自学的效率要高出很多&lt;/strong&gt; 。比如，听不懂的地方，我们可以互相交流，交流之后映象更深刻。此外，其中一人水平高的，也会给我们分享他的学习心得。不仅如此，共同学习的同时，还能够共同激励。深感自己多么荣幸，能够遇到这么好的朋友。&lt;/p&gt;
-
 &lt;p&gt;目前学习了半个月，如果要我评价《Listen To This》的话，的确是一部相当出色的教材。听力材料丰富有趣，口音纯正（初级主要是英音），课程难度循序渐进。尽管书名带有「初级」字样，但是难度并不初级。比较遗憾没有早几个月采纳薄言的建议，好在现在开始也不算太晚。&lt;/p&gt;
-
 &lt;p&gt;最后再推荐一个安卓 APP —— &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.mojas.player&amp;amp;hl=en&#34;&gt;EarFlip(AB Repeat,Audio Speed) - Apps on Google Play&lt;/a&gt; 。这个 APP 是个播放器，主要是用来播放听力音频的。它有两个主要优点：一、固定时间（比如 10 秒）快进或倒退。很多播放器只能手动划动进度条进退，很难找到指定位置。二、 AB 重复，就是指定一段内容重复播放。此外该播放器还支持不同的倍速播放等功能，可以说是训练听力的好帮手！&lt;/p&gt;
-
 &lt;h2 id=&#34;公开课&#34;&gt;公开课&lt;/h2&gt;
-
 &lt;p&gt;7月份，上《MIT 线性代数》的课程至 15 课。花在作业上的时间太少，渐渐感觉理解上有些吃力。8月，做练习，看练习讲解。学习进度缓慢。可能是多年以来，一直热衷于学习那些实用的知识（或者说，学了立马就能用上的），学习的心态有些浮躁。对此除了硬着头皮学下去，也许没有更好的办法。&lt;/p&gt;
-
 &lt;p&gt;上了另外一门英文课，但是没有安排好时间，只上了两节课。&lt;/p&gt;
-
 &lt;h2 id=&#34;旺季&#34;&gt;旺季&lt;/h2&gt;
-
 &lt;p&gt;又到了一年的旺季，其实也没什么特别忙的，就是相比平时少了些自由掌控的时间。有时间看书、学习真的挺奢侈的事儿。&lt;/p&gt;
-
 &lt;h3 id=&#34;有朋自远方来&#34;&gt;有朋自远方来&lt;/h3&gt;
-
 &lt;p&gt;这家青旅目前存在的一个重要意义是：它是很多人在丽江的一个根据地。这两个月，接待了一个又一个的老朋友。尽管平时生活中没有太多交流，工作上也没有任何交集，但他们记得「那里」（我们的旅舍就叫「那里」）。他们到丽江来，主要是因为我们在「那里」。我想，这就足够令人欣慰了吧。&lt;/p&gt;
-
 &lt;p&gt;值得一提的是，7月第一次与一位网友见面。他通过这个博客认识我，住进了我们旅舍，一起吃了几顿饭，聊了聊计算机相关的技术。通过博客交朋友，这是多么有趣的事情啊。&lt;/p&gt;
-
 &lt;h2 id=&#34;好书不必刻意读&#34;&gt;好书不必刻意读&lt;/h2&gt;
-
 &lt;p&gt;最近看了一本书，《白痴》，很是喜欢，爱不释手。好久没看文学著作了，也好久没有进入如此痴迷的阅读状态了。我发现一点，一本书如果看不下去，那就没必要强求。没必要定死板的目标，一天看多少页，读多长时间，这样完全享受不到阅读的乐趣。喜欢的书，自然而然会吸引你，催促着你读完它。&lt;/p&gt;
-
 &lt;h2 id=&#34;买旧书&#34;&gt;买旧书&lt;/h2&gt;
-
 &lt;p&gt;在孔夫子上买了一批旧书，15 本 65 元（含运费），真的是太便宜了。&lt;/p&gt;
 
-
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -1303,9 +977,7 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;h2 id=&#34;一些照片&#34;&gt;一些照片&lt;/h2&gt;
-
 
 
 
@@ -1380,11 +1052,9 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
       <guid>https://www.xianmin.org/post/review-english-201906/</guid>
       
         <description>&lt;p&gt;自去年 9 月，重启英语学习，下定决心这一次好好将英语提升一个台阶，至今已经过去 9 个月了。现在回顾，和 9 个月前相比，我的英语水平有所进步吗？说实话，进步不明显（即没有进步）。至少从词汇量而言，我记得当时测试是接近 6000 的词汇量，而这次测试和那次差不多，基本没多大变化。而我这 9 个月，可是花费了不少时间背单词的，至今背了有近 4000 个。词汇量没有变化，也许是大部分背过的都忘记了。我开始怀疑自己所付出的时间和精力是否值得。&lt;/p&gt;
-
 &lt;p&gt;这次总结回顾是有必要的，否则我可能一直在做无用功，并且满足于自己所付出的那一丁点儿看似的努力。&lt;/p&gt;
 
-
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -1397,37 +1067,23 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;h2 id=&#34;先说说我做了什么&#34;&gt;先说说我做了什么&lt;/h2&gt;
-
 &lt;ul&gt;
 &lt;li&gt;背单词，正常是每天背 30 个新词，复习 70 个旧词。这里存在的问题是，不少词汇是书面词汇，如果我没有在接下来的阅读中「再次遇见」的话，过一段时间就忘了。&lt;/li&gt;
 &lt;li&gt;背新概念第二册，至 63 课，放弃了。主要问题是太耗费时间。&lt;/li&gt;
 &lt;li&gt;听 ESLPOD 至 58 课，还在继续。&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;我现在十分怀疑死记硬背这个方法对我而言是否真的有效，因为我从小就不擅于背诵，背课文向来记不住。不过这和记忆能力是否相关，我不太清楚，有很大的可能是我记忆的方法有问题。背单词成了每天被动的输入方式，我大脑本身是排斥的，因为大部分单词用不上，过些日子，估计本能的就将它从记忆中抹去了。&lt;/p&gt;
-
 &lt;h2 id=&#34;一些改变&#34;&gt;一些改变&lt;/h2&gt;
-
 &lt;p&gt;中间有几天尝试遮挡字幕看视频，比如《南方公园》。不过现在改成了看名校公开课。&lt;/p&gt;
-
 &lt;p&gt;尝试每天精读一篇经济学人，每天阅读英文著作，将查询的单词整理复习。&lt;/p&gt;
-
 &lt;p&gt;目前唯一的进步是，我养成了每天都有学习英语的习惯，如果有哪一天没有接触到英语，就会觉得哪里不太对劲。而这在过去，可能坚持了两个月，停歇了一阵子，就没有继续接触英语了。&lt;/p&gt;
-
 &lt;h2 id=&#34;最大的问题-缺少输出&#34;&gt;最大的问题：缺少输出&lt;/h2&gt;
-
 &lt;p&gt;这么长时间以来，没有任何关于英语的输出。&lt;/p&gt;
-
 &lt;p&gt;我应该如何迈出这一步呢？&lt;/p&gt;
-
 &lt;p&gt;其实可以输出的方式有很多，比如整理笔记、改写、翻译、读后感、小短文等等之类的。但是我什么都没有做。我应该把更多的精力用在输出上面。&lt;/p&gt;
-
 &lt;h2 id=&#34;保持斗志&#34;&gt;保持斗志&lt;/h2&gt;
-
 &lt;p&gt;不管结果如何，希望你保持斗志。语言学习可以是终身的事情。提升阅读水平，英文是世界上最大的信息来源。&lt;/p&gt;
-
 &lt;p&gt;希望在下半年作总结的时候，你能有所进步。&lt;/p&gt;</description>
       
     </item>
@@ -1440,69 +1096,45 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
       <guid>https://www.xianmin.org/post/review-2019-06/</guid>
       
         <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;
-
 &lt;h2 id=&#34;英语学习&#34;&gt;英语学习&lt;/h2&gt;
-
 &lt;p&gt;背单词，《经济学人 词频 200 次以上》，进度 20% 。打算中止，换一种方式背单词。主要原因是月底测了一下词汇量，发现和去年没有多大变化。这只能说明我目前背单词的效率太低了，背了也没记住。目前的改变方案：将每天阅读中查询的单词导入生词本，背这些查过的单词。&lt;/p&gt;
-
 &lt;p&gt;在 &lt;a href=&#34;https://book.douban.com/subject/1014914/&#34;&gt;《英语魔法师之语法俱乐部》&lt;/a&gt; 一书中，旋元佑老师在序言里提及了他自己学习英语的经验，其中最重要的一条是，大量的阅读。我想这是很有道理的。由于在日常生活中，我真正能够用到英语的频率非常低，阅读就成了我和英语接触的最佳途径。自 15 日以来，基本每天都有阅读英文著作，尽管阅读速度比较慢，不过我想这是有必要的，必须经历这一过程。&lt;/p&gt;
-
 &lt;p&gt;收听 ESLPOD 的课程 《Introduction to the United States》 至 60 课，主要是训练听力，同时还能了解一点美国的政治、文化、历史。&lt;/p&gt;
-
 &lt;h2 id=&#34;公开课&#34;&gt;公开课&lt;/h2&gt;
-
 &lt;p&gt;本月再一次开始上公开课。&lt;/p&gt;
-
 &lt;p&gt;我不知道有多少人像我一样，报过公开课，上了开头的两周，然后就不了了之了。这次上公开课的主要目的是学习「线性代数」。单纯的看书太枯燥了，有些部分也很难弄明白，而通过老师的讲解，就容易理解了许多。&lt;/p&gt;
-
 &lt;h3 id=&#34;线性代数&#34;&gt;线性代数&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;视频地址：&lt;a href=&#34;https://www.bilibili.com/video/av36568126/&#34;&gt;MIT线性代数【全】_哔哩哔哩&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;讲义、作业等资源： &lt;a href=&#34;https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/resource-index/&#34;&gt;Resource Index | Linear Algebra | Mathematics | MIT OpenCourseWare&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;回想起曾经上学的时候，数学是我唯一的强项，可如今，被我荒废了这么多年，抽象思维能力也弱化了，实在是惭愧。这些年看了很多杂书，学了不少乱七八糟的技能，也听了各种各样的道理，弯弯绕绕还是得回头学一些基础的东西，这些就是所谓的「硬知识」吧（或者说是元知识？）。现在想来，我花在真正值得学习的知识上的时间太少了。&lt;/p&gt;
-
 &lt;p&gt;&lt;a href=&#34;https://ocw.mit.edu/courses/mathematics/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/&#34;&gt;Matrix Methods in Data Analysis, Signal Processing, and Machine Learning&lt;/a&gt;  （数据分析、信号处理和机器学习中的矩阵方法），我最开始是想上这门课，上了三节，发现听不懂，只好回头上基础课。&lt;/p&gt;
-
 &lt;h3 id=&#34;learning-how-to-learn&#34;&gt;Learning How to Learn&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;视频地址： &lt;a href=&#34;https://www.bilibili.com/video/av31961814&#34;&gt;【coursera公开课】学会如何学习 Learning How to Learn（中文字幕）_哔哩哔哩&lt;/a&gt; 。&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;上这门课纯粹是为了换换脑子，还是比较轻松的，两周内就看完了。课程中的不少观点，我在以前看过的书中就已经接触过了。有一点疑惑的是，该课程中没有提及「习惯」，在我想来，「学习习惯」比各种「学习方法」重要的多。还有一点疑惑是，对「番茄工作法」是否过誉了？我曾经尝试过「番茄工作法」，它既没有提升我的效率，反而增加了我的心理负担。反正我是不用「番茄工作法」的。&lt;/p&gt;
-
 &lt;p&gt;值得一提的是，在这门课中， Barbara Oakley 采访了几位不同领域的学习达人，都挺不错的。印象较深的几个：&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;4.16 对话 William Craig Rice ，关于人文学科的学习。模糊性、阅读方法（写摘要）等等。&lt;/li&gt;
 &lt;li&gt;3.13 采访 Dr. Keith Devlin ，关于数学的学习。&lt;/li&gt;
 &lt;li&gt;3.12 采访记忆冠军，记忆方法。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h2 id=&#34;梯子断了&#34;&gt;梯子断了&lt;/h2&gt;
-
 &lt;p&gt;月初，用了 5 年的梯子断了。有点儿失落，这个梯子一直只有我自己在用，没想到还是被无差别的拆了。据了解，有相似特征的梯子大面积被拆，太无耻了。&lt;/p&gt;
-
 &lt;h2 id=&#34;巍山之行&#34;&gt;巍山之行&lt;/h2&gt;
-
 &lt;p&gt;去了一趟大理巍山。在一个地方待久了，有时候难免会感到些许腻烦。坐在大巴上，看着窗外的风景，塞上耳机，听着许巍的歌，突然有种自由的幻觉。这么多年了，没什么变化，还是喜欢许巍，还是喜欢在路上，还是喜欢一个人旅行。&lt;/p&gt;
-
 &lt;p&gt;巍山，一个没多大的古城，充满了生活气息，物价低的令人惊讶，要是时间充裕，我还是很乐意在这儿住上一段时间的。经常会觉得，在云南这个地方生活，真是奢侈啊。&lt;/p&gt;
-
 &lt;p&gt;每一次出行都会有些许收获，比如这次，在巍山的旅舍翻看了一本有意思的书——《直觉泵》。&lt;/p&gt;
-
 &lt;h2 id=&#34;一些照片&#34;&gt;一些照片&lt;/h2&gt;
-
 
 
 
 &lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
     
   
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -1584,26 +1216,18 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
       <guid>https://www.xianmin.org/post/english-dictionary-recommend/</guid>
       
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-
 &lt;p&gt;去年 9 月，我写了篇 &lt;a href=&#34;https://www.xianmin.org/post/plan-english-2018/&#34;&gt;英语学习方法总结&lt;/a&gt; ，经过半年多的实践，期间查询了大量的英文单词，对不同词典的优缺点有了更直观的感触。 &lt;strong&gt;在本篇文章中，我将对英文词典的选用，分享一点自己的心得。&lt;/strong&gt; 鉴于我个人的英文水平依旧一般，选用建议仅供参考。&lt;/p&gt;
-
 &lt;p&gt;注：本文所提到的词典皆为 &lt;strong&gt;电子词典&lt;/strong&gt; 。手机端使用的 APP 为欧路词典，电脑端使用 GoldenDict 。&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;以下两部词典解决 99% 的查词需求：&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;《柯林斯（ Collins ）双解词典》；&lt;/li&gt;
 &lt;li&gt;《朗文当代英语词典》 第六版 （ Longman Dictionary of Contemporary English 6th - 简称：LDOCE6 ）。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;再加上一部《麦克米伦（ Macmillan ）高阶学习词典》，基本就解决了 99.9% 的查词需求。&lt;/p&gt;
-
 &lt;p&gt;词典的数量在精不在多， &lt;strong&gt;我拥有的二十几部英文词典，绝大多数完全没有用过，释义基本大同小异。&lt;/strong&gt; 而我选用的这三部词典，各有各的特色，满足了我在不同场景下的使用需求。&lt;/p&gt;
-
 &lt;h2 id=&#34;一-collins-双解词典&#34;&gt;一、 Collins 双解词典&lt;/h2&gt;
 
-
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -1616,20 +1240,14 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;很多英文专业人士会推荐英文学习者使用英英词典，但我在单纯使用英英词典的实践中发现有两个问题：&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;一个单词，我知道了它的英文释义，有了个模糊的概念，却无法肯定它的准确意思。&lt;/li&gt;
 &lt;li&gt;我理解了它的准确意思，但想象不出它究竟是什么。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;举个例子， cicada ，释义是： an insect that lives in hot countries, has large transparent wings, and makes a high singing noise 。英文释义我看明白了，是一种昆虫，可它究竟是什么呢？不知道。而如果有中文释义（cicada ，蝉、知了），一下子就明白了。有的词典比较贴心，会有图片，但如果是动词、形容词，用图片可就不好表示了。类似的例子我在查词过程中经常会发生。因此，一部英汉词典还是有必要的。&lt;/p&gt;
-
 &lt;p&gt;这部 《Collins 双解词典》，既有中文释义，又有英文释义，并且释义全面。每一条释义会告诉你它的词性，会给出例句，排版极佳。除此之外，有的词目还会有温馨提示。比如 economic ，它会提醒你：「注意不要混淆 economic, economical, economics 和 economy」。实在是既实用又贴心。&lt;/p&gt;
-
 &lt;h2 id=&#34;二-朗文-6-以下简称-ldoce6&#34;&gt;二、 朗文 6 （以下简称 LDOCE6 ）&lt;/h2&gt;
-
 
 
 &lt;div class=&#34;box&#34;&gt;
@@ -1644,11 +1262,8 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;&lt;strong&gt;LDOCE6 是我使用过的最好的英文词典。&lt;/strong&gt; 在线版： &lt;a href=&#34;https://www.ldoceonline.com/&#34;&gt;https://www.ldoceonline.com/&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;释义简单明了，这就不多说了。一些特色：&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;例句，发音。发音倒是可有可无。&lt;/li&gt;
 &lt;li&gt;WORD ORIGIN （词源）。这个暂时用不上。&lt;/li&gt;
@@ -1658,41 +1273,29 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;li&gt;WORD FAMILY （比如，economics, economist, economy, economic, economical 这样的词汇家族）。&lt;/li&gt;
 &lt;li&gt;WORD SETS （词汇集合，比如计算机相关词汇、昆虫相关词汇、蔬菜相关词汇等等）。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;截图说明：&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;红点：三个红点，常用范围 0 - 3000 的单词；两个红点，常用范围 3000 - 6000 的单词；一个红点，常用范围 6000 - 9000 的单词；没有红点，9000 范围之外的的单词。&lt;/li&gt;
 &lt;li&gt;S1, (Spoken) ，口语最常用的 1000 个单词。&lt;/li&gt;
-&lt;li&gt;W1, (Written)，书写最常用的 1000 个单词。&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;W1, (Written)，书写最常用的 1000 个单词。 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h3 id=&#34;ldoce5-的缺陷&#34;&gt;LDOCE5 的缺陷&lt;/h3&gt;
-
 &lt;p&gt;我在之前的总结中贴了一个链接： &lt;a href=&#34;https://www.douban.com/note/278501822/&#34;&gt;奶爸1.6G Mdict词库的补充及在Bluedict中使用的心得&lt;/a&gt; 。这个链接里提供了「奶爸 1.6G」的词库资源。 &lt;strong&gt;其中的《朗文当代英语词典》是第五版（即 LDOCE5 ），这个版本有一个非常大的缺陷&lt;/strong&gt; ：「词库中有大量的词条比如 “give” ，其索引不是 “give” ，而是 “give + (空格,) + noun” 和 “give + (空格,) + verb” ，这样当多词典联合搜索时，输入 “give” ，LDOCE5 的相应词条就不会显示出来」。&lt;/p&gt;
-
 &lt;p&gt;发现这个问题后，我在网上搜索到了第六版，完美解决了 LDOCE5 的缺陷。读者朋友不妨考察一下自己的资源搜索能力，看看能否找到 LDOCE6 呢？&lt;/p&gt;
-
 &lt;h2 id=&#34;三-麦克米伦高阶学习词典&#34;&gt;三、 麦克米伦高阶学习词典&lt;/h2&gt;
-
 &lt;p&gt;在线版： &lt;a href=&#34;https://www.macmillandictionary.com/&#34;&gt;https://www.macmillandictionary.com/&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;在实际查词过程中，前两部词典基本就已经足够了。这部词典主要作为补充（比如有些短语，可能前两个词典查不到）。并且，释义也具有多重的参考价值。&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;p&gt;以上，是我个人选用词典的一点心得。 &lt;strong&gt;词典只是辅助学习英语的工具，我们不是词典专家，没必要在对比词典、挑选词典上花费过多的时间。多阅读原始英文材料、多查单词，比一部再好的词典更重要。&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;最后，感谢互联网世界那些无私奉献的朋友们。&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:fn-1&#34;&gt;&lt;a href=&#34;http://georgechen.idv.tw/wordpress/?p=1875&#34;&gt;LDOCE6 使用心得 | George Chen on Blog 1.0&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:fn-1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://georgechen.idv.tw/wordpress/?p=1875&#34;&gt;LDOCE6 使用心得 | George Chen on Blog 1.0&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description>
+&lt;/section&gt;</description>
       
     </item>
     
@@ -1703,22 +1306,20 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
       
       <guid>https://www.xianmin.org/post/mindtools/</guid>
       
-        <description>&lt;p&gt;最近看了一本书——《直觉泵和其他思考工具》&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ， 丹尼特在这本书中提及了 77 个思考工具。先撇开书中的具体内容，我发现了聪明人都有一个共同点，就是他们有一套 &lt;strong&gt;「可复用的思考问题的方法」&lt;/strong&gt; 。丹尼特称它们为「直觉泵」，与之相类似的，如芒格的「高阶思维模型」。还有阳志平老师，他也有一套方法论&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-2&#34;&gt;&lt;a href=&#34;#fn:fn-2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 。人与人之间的差异，很多时候就体现在思考问题的方法上，不同的思考方式，就会有不一样的解决问题的思路。一个问题之所以困难，不是因为问题难，而是用错了思考问题的方法。&lt;/p&gt;
-
+        <description>&lt;p&gt;最近看了一本书——《直觉泵和其他思考工具》 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ， 丹尼特在这本书中提及了 77 个思考工具。先撇开书中的具体内容，我发现了聪明人都有一个共同点，就是他们有一套 &lt;strong&gt;「可复用的思考问题的方法」&lt;/strong&gt; 。丹尼特称它们为「直觉泵」，与之相类似的，如芒格的「高阶思维模型」。还有阳志平老师，他也有一套方法论 &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 。人与人之间的差异，很多时候就体现在思考问题的方法上，不同的思考方式，就会有不一样的解决问题的思路。一个问题之所以困难，不是因为问题难，而是用错了思考问题的方法。&lt;/p&gt;
 &lt;p&gt;「直觉泵」、「高阶思维模型」，我个人不太喜欢这两个词，「思维工具箱」倒是更合我意，更简洁明了。什么是思维工具？可复用的思考问题的方法。那么，思维工具箱，就是这些方法的集合。&lt;/p&gt;
-
 &lt;p&gt;我们每个人都有一套自己的思维工具，有的好用，有的糟糕透顶。 &lt;strong&gt;对自己使用的思维工具进行归纳，并且将生活、阅读、经历中，发现的好用的思维工具做一番总结，将它们整理成一个思维工具箱，这或许是个不错的提升思考能力的方法。&lt;/strong&gt; 这样说来，「思维工具箱」本身其实也就是一个思维工具。&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:fn-1&#34;&gt;关于这本书，豆瓣上有一篇极好的笔记： &lt;a href=&#34;https://book.douban.com/review/9834017/&#34;&gt;丹尼特《直觉泵》精读笔记&lt;/a&gt; 。
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:fn-1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:fn-2&#34;&gt;准备发布到博客上的时候，突然想起来阳老师好像用过一个词叫「心智工具箱」，搜了一下还真的是。哈哈，我这记性真的不行……他还写了好几篇相关文章： &lt;a href=&#34;https://www.yangzhiping.com/psy/mindtools&#34;&gt;https://www.yangzhiping.com/psy/mindtools&lt;/a&gt; 。
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:fn-2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;关于这本书，豆瓣上有一篇极好的笔记： &lt;a href=&#34;https://book.douban.com/review/9834017/&#34;&gt;丹尼特《直觉泵》精读笔记&lt;/a&gt; 。 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;准备发布到博客上的时候，突然想起来阳老师好像用过一个词叫「心智工具箱」，搜了一下还真的是。哈哈，我这记性真的不行……他还写了好几篇相关文章： &lt;a href=&#34;https://www.yangzhiping.com/psy/mindtools&#34;&gt;https://www.yangzhiping.com/psy/mindtools&lt;/a&gt; 。 &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description>
+&lt;/section&gt;</description>
       
     </item>
     
@@ -1730,11 +1331,8 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
       <guid>https://www.xianmin.org/post/review-2019-05/</guid>
       
         <description>&lt;p&gt;这个月想要记录的内容，分解在前几篇的博文中了。为什么这么做呢？只是尝试换一种形式而已。&lt;/p&gt;
-
 &lt;p&gt;继续背单词。背单词进度： 8% 。&lt;/p&gt;
-
 &lt;p&gt;我依然还在艰苦地学习英语……放弃背诵《新概念》了，太耗费时间和精力，改为收听 ESLPOD 。这也算是新的尝试吧。&lt;/p&gt;
-
 &lt;p&gt;本月没有更多可说的了。&lt;/p&gt;</description>
       
     </item>
@@ -1747,11 +1345,8 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
       <guid>https://www.xianmin.org/post/201905-organize-infomation/</guid>
       
         <description>&lt;p&gt;曾经写过，我有一个正念日，是用来提醒自己少去胡思乱想，顺便做些平时不大乐意做的事情，诸如洗衣服、打扫房间等等。现在，我给这一天又增添了一项任务——「整理信息」。&lt;/p&gt;
-
 &lt;p&gt;起因是，这个月我想要稍后阅读的链接超过了 300 条，而最久的一条是三年前存的！一般我在网络上看到有价值的内容，一时半刻无法消化，就保存到 &lt;a href=&#34;https://getpocket.com/&#34;&gt;Pocket&lt;/a&gt; ——这个稍后阅读的服务中。但是保存之后，也没有计划什么时候再打开，久而久之，这个稍后阅读的列表就越来越长，条目越来越多，稍后也不知道往后到什么时候才读呢。这无疑是一个非常不好的习惯。我想我有必要定期对它们进行清理或者归档。&lt;/p&gt;
-
 &lt;p&gt;其他相类似的还有以下几个地方：&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;~/Desktop/&lt;/code&gt; ，桌面随便放置的文件。&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;~/Downloads/&lt;/code&gt; ，从网上下载的文件。&lt;/li&gt;
@@ -1760,7 +1355,6 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;li&gt;Github star&lt;/li&gt;
 &lt;li&gt;欧陆词典（查找的单词）&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;信息时代，怎样查找信息，是一个关键技能；而学会整理信息（或者说，有一个整理信息的好习惯），在我看来，也同样重要啊。&lt;/p&gt;</description>
       
     </item>
@@ -1773,11 +1367,10 @@ and so on...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
       <guid>https://www.xianmin.org/post/201905-hiking/</guid>
       
         <description>&lt;p&gt;25 日，天气正好，不算热，也没那么阴沉。这天，约了俩好友一起去徒步。从文峰寺开始，登顶文笔峰。这条线路很早就有想法了，但一直没有行动，没行动无非就是懒……而促成行动最好的方式就是，约上好友一起。&lt;/p&gt;
-
 &lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
     
   
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;

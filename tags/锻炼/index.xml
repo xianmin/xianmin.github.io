@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>锻炼 on 贤民的比特记忆</title>
@@ -6,18 +6,15 @@
     <description>Recent content in 锻炼 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 29 Nov 2019 06:55:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.xianmin.org/tags/%E9%94%BB%E7%82%BC/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 29 Nov 2019 06:55:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E9%94%BB%E7%82%BC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>十月是登山的季节</title>
       <link>https://www.xianmin.org/post/review-2019-10/</link>
       <pubDate>Fri, 29 Nov 2019 06:55:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/review-2019-10/</guid>
-      <description>&lt;div class=&#34;box&#34;&gt;
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
@@ -26,7 +23,6 @@
     &lt;a href=&#34;https://www.xianmin.org/image/memory/2019/10/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
-
 
 &lt;p&gt;有一段时间没在博客上发表内容了，每每想动笔写点什么的时候，琐事便纷至沓来，即便真的有点儿空闲了，又不知从何说起。 &lt;strong&gt;近期最大的变化是，锻炼频繁了。&lt;/strong&gt; 爬了很多次山，也许比过去两年爬山的总次数还多。还有就是 &lt;strong&gt;重新开始跑步&lt;/strong&gt; 。说起这个变化，就不得不提 Judith 了。&lt;/p&gt;</description>
     </item>

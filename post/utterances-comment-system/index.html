@@ -7,7 +7,7 @@
   
 
 <meta name="renderer" content="webkit" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
 
 <meta name="MobileOptimized" content="width"/>
 <meta name="HandheldFriendly" content="true"/>
@@ -32,10 +32,12 @@
 
 
 
-<meta name="generator" content="Hugo 0.55.5" />
+<meta name="generator" content="Hugo 0.81.0" />
 
 
 <link rel="canonical" href="https://www.xianmin.org/post/utterances-comment-system/" />
+
+
 
 
 
@@ -51,7 +53,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.31c4b7729c8d71cc152f8de4203d90bfd8a04f7eab69372de7234ebf55b7701b.css" integrity="sha256-McS3cpyNccwVL43kID2Qv9igT36raTct5yNOv1W3cBs=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.9c3f74785689e1d6a69411345ec9043a190655c87d7a44093b74089785613cae.css" integrity="sha256-nD90eFaJ4damlBE0XskEOhkGVch9ekQJO3QIl4VhPK4=" media="screen" crossorigin="anonymous">
 
 
 
@@ -62,22 +64,15 @@
 <meta property="og:title" content="更好的基于 github issues 的评论系统——utterances" />
 <meta property="og:description" content="背景介绍 基于 github issues 的评论系统，比较流行的有 gitment 和 gitalk 。这两个项目我很早就注意到了，它们明显的缺陷是，当用户如果尝试登录评论，所要求的权限是很多的，" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.xianmin.org/post/utterances-comment-system/" />
-<meta property="article:published_time" content="2018-07-10T14:34:00&#43;08:00"/>
-<meta property="article:modified_time" content="2018-08-07T16:41:05&#43;08:00"/>
+<meta property="og:url" content="https://www.xianmin.org/post/utterances-comment-system/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2018-07-10T14:34:00&#43;08:00" />
+<meta property="article:modified_time" content="2018-08-07T16:41:05&#43;08:00" />
 
 <meta itemprop="name" content="更好的基于 github issues 的评论系统——utterances">
-<meta itemprop="description" content="背景介绍 基于 github issues 的评论系统，比较流行的有 gitment 和 gitalk 。这两个项目我很早就注意到了，它们明显的缺陷是，当用户如果尝试登录评论，所要求的权限是很多的，">
-
-
-<meta itemprop="datePublished" content="2018-07-10T14:34:00&#43;08:00" />
+<meta itemprop="description" content="背景介绍 基于 github issues 的评论系统，比较流行的有 gitment 和 gitalk 。这两个项目我很早就注意到了，它们明显的缺陷是，当用户如果尝试登录评论，所要求的权限是很多的，"><meta itemprop="datePublished" content="2018-07-10T14:34:00&#43;08:00" />
 <meta itemprop="dateModified" content="2018-08-07T16:41:05&#43;08:00" />
 <meta itemprop="wordCount" content="736">
-
-
-
-<meta itemprop="keywords" content="github,tip,blog,Hugo," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="github,tip,blog,Hugo," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="更好的基于 github issues 的评论系统——utterances"/>
 <meta name="twitter:description" content="背景介绍 基于 github issues 的评论系统，比较流行的有 gitment 和 gitalk 。这两个项目我很早就注意到了，它们明显的缺陷是，当用户如果尝试登录评论，所要求的权限是很多的，"/>
 
@@ -415,53 +410,35 @@ if (!doNotTrack) {
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#背景介绍">背景介绍</a></li>
-<li><a href="#为什么使用-utterances">为什么使用 utterances ？</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#背景介绍">背景介绍</a></li>
+    <li><a href="#为什么使用-utterances">为什么使用 utterances ？</a></li>
+  </ul>
 </nav>
   </div>
 </div>
 
     
     <div class="post-content">
-      
-
-<h2 id="背景介绍">背景介绍</h2>
-
+      <h2 id="背景介绍">背景介绍</h2>
 <p>基于 <strong>github issues</strong> 的评论系统，比较流行的有 <a href="https://github.com/imsun/gitment">gitment</a> 和 <a href="https://github.com/gitalk/gitalk">gitalk</a> 。这两个项目我很早就注意到了，它们明显的缺陷是，当用户如果尝试登录评论，所要求的权限是很多的，因此我也一直有所顾忌，不愿授权。不授权就无法评论了吗？还真不是。我在网上搜到了这篇文章——<a href="https://blog.wolfogre.com/posts/security-problem-of-gitment/">Gitment 的安全性争议 | 狼煞博客</a>，文中提到：</p>
-
 <blockquote>
 <p>无论是在本博客还是在别的网站，如果评论系统用的是 Gitment，只要你不是百分百信任网站所有者，就尽量不要登录再留言。</p>
 </blockquote>
-
 <p>这个建议很好理解，稍微有点网络安全知识的人，通常都不会轻易把自己账户的各种操作权限交给一个素不相识的人。不过，此文作者还给出了一个「不登录直接留言」的操作方法，就是直接打开 issues 页面来评论。我这么讲，对于没用过基于 <strong>github issues</strong> 评论系统的读者而言，估计是一头雾水，这个按上面文章的方法操作一次，你就知道是怎么一回事儿了。</p>
-
 <h2 id="为什么使用-utterances">为什么使用 utterances ？</h2>
-
 <p>以上简单讲了一下背景，下面介绍本篇文章的主角——<a href="https://github.com/utterance/utterances">utterances</a>。</p>
-
 <p>它和 <code>gitment</code> 、 <code>gitalk</code> 有什么区别呢？</p>
-
 <p>最大的区别就是 <code>utterances</code> 所需要的权限要少得多，仅限于读写特定仓库的 issues 和 comments 。至于原理，我也没有深究，有兴趣的读者可以看一看项目作者写的说明：<a href="https://github.com/utterance/utterances/pull/25">utterances 1.0 by jdanyow · Pull Request #25</a> 。并且，仅需要给 <code>utterances</code> 授权一次，其他凡是使用 <code>utterances</code> 的站点都不必再 <strong>额外授权</strong> ，直接就可以评论。</p>
-
 <p>第二个区别，部署更简单。按照文档的步骤：</p>
-
 <ol>
 <li>新建一个用于存放评论的仓库；</li>
 <li>给这个仓库部署 <code>utterances</code> 应用；</li>
 <li>将一段 <strong>script</strong> 代码放入你的博客。这样就可以了。</li>
 </ol>
-
 <p>第三个区别， <code>utterances</code> 有一个「机器人」可以自动初始化博文的 issues 评论。而 <code>gitment</code> 需要使用脚本，或者需要手动点击初始化按钮。（这个问题我是通过他人的文章了解到的，自己并没有测试考证。）</p>
-
 <p>综上， <code>utterances</code> 是一个相对而言 <strong>更便捷</strong> 的基于 <strong>github issues</strong> 的评论系统。</p>
-
 <p>想试用的朋友不妨在底部评论一下吧！ :-)</p>
-
 <p>另外，我已将 <code>utterances</code> 并入到博客主题 <a href="https://github.com/xianmin/hugo-theme-jane">hugo-theme-jane</a> 中了。</p>
 
     </div>
@@ -612,6 +589,8 @@ if (!doNotTrack) {
   </div>
 
     
+
+  
 
         </div>
       </div>
@@ -773,6 +752,12 @@ if (!doNotTrack) {
 
 
 <script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ=" crossorigin="anonymous"></script>
+
+
+
+
+
+
 
 
 

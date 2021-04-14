@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>笔记 on 贤民的比特记忆</title>
@@ -6,11 +6,7 @@
     <description>Recent content in 笔记 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 01 Sep 2019 10:50:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.xianmin.org/tags/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 01 Sep 2019 10:50:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>笔记：公开课 Learning How to Learn</title>
       <link>https://www.xianmin.org/post/note-learning-how-to-learn/</link>
@@ -21,9 +17,7 @@
 &lt;li&gt;在线播放地址： &lt;a href=&#34;https://www.bilibili.com/video/av31961814/&#34;&gt;【coursera公开课】学会如何学习 Learning How to Learn（中文字幕）- bilibili&lt;/a&gt; 。&lt;/li&gt;
 &lt;li&gt;配套的书： &lt;a href=&#34;https://www.goodreads.com/book/show/36647421-learning-how-to-learn&#34;&gt;Learning How to Learn - by Barbara Oakley | Goodreads&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;如果早个 10 年上这门课，那收获肯定是非常大的。课程中提到的大部分内容，在这些年的阅读中都有接触到。&lt;/p&gt;
-
 &lt;p&gt;课程的一大特点是运用了大量的图片隐喻，便于理解和加深印象。&lt;/p&gt;</description>
     </item>
     
@@ -43,9 +37,7 @@
       
       <guid>https://www.xianmin.org/post/note-opensource-project/</guid>
       <description>&lt;p&gt;以下内容是关于怎样参与到开源项目中的一些笔记，基本上摘自网络。&lt;/p&gt;
-
 &lt;h2 id=&#34;参考链接&#34;&gt;参考链接&lt;/h2&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.phodal.com/blog/how-to-build-a-opensource-project/&#34;&gt;开源之美：开源软件开发流程 - Phodal | Phodal - A Growth Engineer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://juejin.im/post/59f98a196fb9a045132a03ed&#34;&gt;零起点的开源社区贡献指南 - 掘金&lt;/a&gt;&lt;/li&gt;

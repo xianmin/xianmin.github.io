@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>视频 on 贤民的比特记忆</title>
@@ -6,11 +6,7 @@
     <description>Recent content in 视频 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 14 Oct 2020 23:42:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.xianmin.org/categories/%E8%A7%86%E9%A2%91/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 14 Oct 2020 23:42:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E8%A7%86%E9%A2%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我参与配音的动画</title>
       <link>https://www.xianmin.org/post/202010-boyan-video-luola/</link>
@@ -18,7 +14,6 @@
       
       <guid>https://www.xianmin.org/post/202010-boyan-video-luola/</guid>
       <description>&lt;p&gt;薄言独立制作的一部科幻动画作品，我参与了其中的配音。&lt;/p&gt;
-
 &lt;p&gt;B 站地址： &lt;a href=&#34;https://www.bilibili.com/video/BV12T4y1c72D&#34;&gt;【2020小宇宙新星计划】萝拉_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili&lt;/a&gt; 。&lt;/p&gt;</description>
     </item>
     

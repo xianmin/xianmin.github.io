@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>出国 on 贤民的比特记忆</title>
@@ -6,18 +6,15 @@
     <description>Recent content in 出国 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 27 Apr 2018 21:52:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.xianmin.org/tags/%E5%87%BA%E5%9B%BD/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 27 Apr 2018 21:52:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E5%87%BA%E5%9B%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>怒江行记（二）——第一次走出国门</title>
       <link>https://www.xianmin.org/post/nujiang-01/</link>
       <pubDate>Fri, 27 Apr 2018 21:52:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/nujiang-01/</guid>
-      <description>&lt;div class=&#34;box&#34;&gt;
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
@@ -28,7 +25,6 @@
       &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
-
 
 &lt;p&gt;没有想到我的第一次出国会以这样的方式。没有护照，没有边境通行证，就这样走出中缅边境的国门散了个步。对面就是缅甸的国门，但是我们无法过去。远处是缅甸的村庄，难免会产生好奇，国门那边的人生活是怎样的呢？他们是否会中文？他们使用的生活用品是 &amp;ldquo;made in china&amp;rdquo; 吗？没机会接触。&lt;/p&gt;</description>
     </item>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>阅读 on 贤民的比特记忆</title>
@@ -6,11 +6,7 @@
     <description>Recent content in 阅读 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 01 Feb 2021 15:54:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.xianmin.org/tags/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 01 Feb 2021 15:54:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的 2020 年阅读总结</title>
       <link>https://www.xianmin.org/post/review-read-2020/</link>
@@ -18,7 +14,6 @@
       
       <guid>https://www.xianmin.org/post/review-read-2020/</guid>
       <description>&lt;p&gt;回顾 2020 年的阅读，并没有做很好的梳理。因为琐事繁多，没能有计划的进行主题阅读。算是 2020 年的一大缺憾。&lt;/p&gt;
-
 &lt;p&gt;以下列出我在 2020  年读过的好书。&lt;/p&gt;</description>
     </item>
     
@@ -29,15 +24,12 @@
       
       <guid>https://www.xianmin.org/post/review-read-2019/</guid>
       <description>&lt;p&gt;回顾 2019 年的阅读，数量上不算少，只是用在「经典」上的时间太少了。很多闲书、杂书翻翻即可。希望在新的一年：&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;只关注那 10% 的精品。&lt;/li&gt;
 &lt;li&gt;预留更多的时间思考，做笔记。&lt;/li&gt;
 &lt;li&gt;不重要的书，写下简短的摘要即可。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;往年回顾：&lt;a href=&#34;https://www.xianmin.org/post/2018-read/&#34;&gt;我的 2018 年阅读总结&lt;/a&gt;　。&lt;/p&gt;
-
 &lt;p&gt;以下是我在 2019 年读过的好书。&lt;/p&gt;</description>
     </item>
     
@@ -51,26 +43,20 @@
 &lt;li&gt;在线播放地址： &lt;a href=&#34;https://www.bilibili.com/video/av31961814/&#34;&gt;【coursera公开课】学会如何学习 Learning How to Learn（中文字幕）- bilibili&lt;/a&gt; 。&lt;/li&gt;
 &lt;li&gt;配套的书： &lt;a href=&#34;https://www.goodreads.com/book/show/36647421-learning-how-to-learn&#34;&gt;Learning How to Learn - by Barbara Oakley | Goodreads&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;如果早个 10 年上这门课，那收获肯定是非常大的。课程中提到的大部分内容，在这些年的阅读中都有接触到。&lt;/p&gt;
-
 &lt;p&gt;课程的一大特点是运用了大量的图片隐喻，便于理解和加深印象。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>我的 2018 年阅读总结</title>
       <link>https://www.xianmin.org/post/2018-read/</link>
-      <pubDate>Fri, 28 Dec 2018 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.xianmin.org/post/2018-read/</guid>
       <description>&lt;p&gt;本文分两部分，前半部分是反思，后半部分是值得推荐的书。&lt;/p&gt;
-
 &lt;p&gt;回顾这一年读的书，依旧不多。老问题依旧存在：记录不够，输出太少。&lt;/p&gt;
-
 &lt;p&gt;有一些翻看过的书，由于没有记录，没有什么印象了。&lt;/p&gt;
-
 &lt;p&gt;英文书只读了两本，同样是老问题：太简单的书觉得没什么意思，有趣的书读起来又太费劲。提升英语能力是关键。&lt;/p&gt;
-
 &lt;p&gt;有些奇怪，今年都没怎么看计算机相关的书，回想起来，应该只是翻文档去了。&lt;/p&gt;</description>
     </item>
     
@@ -90,18 +76,16 @@
       
       <guid>https://www.xianmin.org/post/my-read-experience-beginning/</guid>
       <description>&lt;h2 id=&#34;1-dot-网瘾少年&#34;&gt;1. 网瘾少年&lt;/h2&gt;
-
 &lt;p&gt;在我 10 至 13 岁这几年，因为沉迷网络游戏，偷家里的钱去泡网吧，经常被母亲教训，并多次被赶出家门。直至有一次我铁了心不再回家，身无分文离家两个月，此间辛酸不必多言。家人用尽各种办法，登电视，登报纸，贴寻人启事，最终将我找到。回去后，我痛定思痛，答应父母答应老师，一定改过自新，再也不玩网游。谁知才过一个多月，网瘾又犯。我无法控制自己，并深知对不起父母和老师，又一次离家出走。母亲已经对我彻底绝望，父亲坚持要把我找回来。我在外面处处碰壁，半个月后，父亲带着我回了家。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>别了，2017！</title>
       <link>https://www.xianmin.org/post/2017/</link>
-      <pubDate>Sat, 30 Dec 2017 00:00:00 +0800</pubDate>
+      <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.xianmin.org/post/2017/</guid>
       <description>&lt;p&gt;翻阅你在这一年写的日记，「2017年6月26日：我是一个无知、无明、无趣的年轻人，对烟酒没有控制，自制力差，拖延症严重，喜欢胡思乱想，空想而缺乏行动，空有抱负却一事无成，喜好很多但一无所长。也许再过几年，我就是一个无知、无明、无趣的中年人了。」&lt;/p&gt;
-
 &lt;p&gt;似乎每年总有那么几天，你会感到焦虑，厌恶自己。但不管怎么说，一年又要过去了，我想从以下几个方面对你的2017年做一个总结：工作、锻炼、编程、英语、写作、阅读。&lt;/p&gt;</description>
     </item>
     

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>editor on 贤民的比特记忆</title>
@@ -6,19 +6,14 @@
     <description>Recent content in editor on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 31 Mar 2018 00:00:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.xianmin.org/tags/editor/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 31 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/tags/editor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo</title>
       <link>https://www.xianmin.org/post/ox-hugo/</link>
-      <pubDate>Sat, 31 Mar 2018 00:00:00 +0800</pubDate>
+      <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.xianmin.org/post/ox-hugo/</guid>
       <description>&lt;p&gt;本文将对我个人的博文写作流程 &lt;strong&gt;所用到的工具&lt;/strong&gt; 做一个总结与分享。从标题就可以看出来，主要有这几个工具： &lt;code&gt;emacs&lt;/code&gt;, &lt;code&gt;orgmode&lt;/code&gt; &amp;amp; &lt;code&gt;hugo&lt;/code&gt; ，另外还有两个配合 &lt;code&gt;hugo&lt;/code&gt; 的辅助包 &lt;code&gt;easy-hugo&lt;/code&gt; （可选） &amp;amp; &lt;code&gt;ox-hugo&lt;/code&gt; 。&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;hugo&lt;/code&gt; : &lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;orgmode&lt;/code&gt; : &lt;a href=&#34;https://orgmode.org/&#34;&gt;https://orgmode.org/&lt;/a&gt;&lt;/li&gt;
@@ -30,19 +25,16 @@
     <item>
       <title>一些 Visual Studio Code 的使用技巧</title>
       <link>https://www.xianmin.org/post/vscode/</link>
-      <pubDate>Wed, 10 Jan 2018 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.xianmin.org/post/vscode/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
-
 &lt;p&gt;&lt;code&gt;Visual Studio Code&lt;/code&gt; （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;官方文档： &lt;a href=&#34;https://code.visualstudio.com/docs&#34;&gt;https://code.visualstudio.com/docs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;VScode github 地址： &lt;a href=&#34;https://github.com/Microsoft/vscode&#34;&gt;https://github.com/Microsoft/vscode&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_editing-hacks&#34;&gt;Visual Studio Tips and Tricks&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。&lt;/p&gt;</description>
     </item>
     

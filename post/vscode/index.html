@@ -7,7 +7,7 @@
   
 
 <meta name="renderer" content="webkit" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
 
 <meta name="MobileOptimized" content="width"/>
 <meta name="HandheldFriendly" content="true"/>
@@ -34,10 +34,12 @@
 
 
 
-<meta name="generator" content="Hugo 0.55.5" />
+<meta name="generator" content="Hugo 0.81.0" />
 
 
 <link rel="canonical" href="https://www.xianmin.org/post/vscode/" />
+
+
 
 
 
@@ -53,7 +55,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.31c4b7729c8d71cc152f8de4203d90bfd8a04f7eab69372de7234ebf55b7701b.css" integrity="sha256-McS3cpyNccwVL43kID2Qv9igT36raTct5yNOv1W3cBs=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.9c3f74785689e1d6a69411345ec9043a190655c87d7a44093b74089785613cae.css" integrity="sha256-nD90eFaJ4damlBE0XskEOhkGVch9ekQJO3QIl4VhPK4=" media="screen" crossorigin="anonymous">
 
 
 
@@ -63,53 +65,37 @@
 
 <meta property="og:title" content="一些 Visual Studio Code 的使用技巧" />
 <meta property="og:description" content="简介
-
 Visual Studio Code （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。
-
 
 官方文档： https://code.visualstudio.com/docs
 VScode github 地址： https://github.com/Microsoft/vscode
 Visual Studio Tips and Tricks
-
 
 本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.xianmin.org/post/vscode/" />
-<meta property="article:published_time" content="2018-01-10T00:00:00&#43;08:00"/>
-<meta property="article:modified_time" content="2018-08-07T16:41:05&#43;08:00"/>
+<meta property="og:url" content="https://www.xianmin.org/post/vscode/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2018-01-10T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2018-08-07T16:41:05&#43;08:00" />
 
 <meta itemprop="name" content="一些 Visual Studio Code 的使用技巧">
 <meta itemprop="description" content="简介
-
 Visual Studio Code （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。
-
 
 官方文档： https://code.visualstudio.com/docs
 VScode github 地址： https://github.com/Microsoft/vscode
 Visual Studio Tips and Tricks
 
-
-本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。">
-
-
-<meta itemprop="datePublished" content="2018-01-10T00:00:00&#43;08:00" />
+本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。"><meta itemprop="datePublished" content="2018-01-10T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-08-07T16:41:05&#43;08:00" />
 <meta itemprop="wordCount" content="1216">
-
-
-
-<meta itemprop="keywords" content="vscode,tips,editor,tool," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="vscode,tips,editor,tool," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="一些 Visual Studio Code 的使用技巧"/>
 <meta name="twitter:description" content="简介
-
 Visual Studio Code （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。
-
 
 官方文档： https://code.visualstudio.com/docs
 VScode github 地址： https://github.com/Microsoft/vscode
 Visual Studio Tips and Tricks
-
 
 本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。"/>
 
@@ -447,36 +433,36 @@ if (!doNotTrack) {
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#简介">简介</a></li>
-<li><a href="#安装">安装</a></li>
-<li><a href="#界面">界面</a></li>
-<li><a href="#特色-与常见编辑器不同的地方">特色（与常见编辑器不同的地方）</a>
-<ul>
-<li><a href="#标签预览模式">标签预览模式</a></li>
-<li><a href="#命令面板">命令面板</a></li>
-<li><a href="#peek-definition">Peek Definition</a></li>
-</ul></li>
-<li><a href="#编辑相关技巧">编辑相关技巧</a>
-<ul>
-<li><a href="#快捷键">快捷键</a></li>
-<li><a href="#多光标编辑-multi-cursor-selection">多光标编辑 Multi cursor selection</a></li>
-<li><a href="#辅助线">辅助线</a></li>
-</ul></li>
-<li><a href="#zenmode-让编辑界面更简洁">zenmode——让编辑界面更简洁</a></li>
-<li><a href="#设置的级别">设置的级别</a></li>
-<li><a href="#一些不错的扩展">一些不错的扩展</a>
-<ul>
-<li><a href="#官方推荐">官方推荐</a></li>
-<li><a href="#bookmarks">Bookmarks</a></li>
-<li><a href="#git-history">Git History</a></li>
-<li><a href="#path-intellisense">Path Intellisense</a></li>
-</ul></li>
-<li><a href="#debug"><span class="todo TODO_">TODO </span> DEBUG</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#简介">简介</a></li>
+    <li><a href="#安装">安装</a></li>
+    <li><a href="#界面">界面</a></li>
+    <li><a href="#特色-与常见编辑器不同的地方">特色（与常见编辑器不同的地方）</a>
+      <ul>
+        <li><a href="#标签预览模式">标签预览模式</a></li>
+        <li><a href="#命令面板">命令面板</a></li>
+        <li><a href="#peek-definition">Peek Definition</a></li>
+      </ul>
+    </li>
+    <li><a href="#编辑相关技巧">编辑相关技巧</a>
+      <ul>
+        <li><a href="#快捷键">快捷键</a></li>
+        <li><a href="#多光标编辑-multi-cursor-selection">多光标编辑 Multi cursor selection</a></li>
+        <li><a href="#辅助线">辅助线</a></li>
+      </ul>
+    </li>
+    <li><a href="#zenmode-让编辑界面更简洁">zenmode——让编辑界面更简洁</a></li>
+    <li><a href="#设置的级别">设置的级别</a></li>
+    <li><a href="#一些不错的扩展">一些不错的扩展</a>
+      <ul>
+        <li><a href="#官方推荐">官方推荐</a></li>
+        <li><a href="#bookmarks">Bookmarks</a></li>
+        <li><a href="#git-history">Git History</a></li>
+        <li><a href="#path-intellisense">Path Intellisense</a></li>
+      </ul>
+    </li>
+    <li><a href="#debug"><!-- raw HTML omitted -->TODO <!-- raw HTML omitted --> DEBUG</a></li>
+  </ul>
 </nav>
   </div>
 </div>
@@ -484,25 +470,17 @@ if (!doNotTrack) {
     
     <div class="post-content">
       <h2 id="简介">简介</h2>
-
 <p><code>Visual Studio Code</code> （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。</p>
-
 <ul>
 <li>官方文档： <a href="https://code.visualstudio.com/docs">https://code.visualstudio.com/docs</a></li>
 <li>VScode github 地址： <a href="https://github.com/Microsoft/vscode">https://github.com/Microsoft/vscode</a></li>
 <li><a href="https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_editing-hacks">Visual Studio Tips and Tricks</a></li>
 </ul>
-
 <p>本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。</p>
-
 <h2 id="安装">安装</h2>
-
 <p>官网下载地址： <a href="https://code.visualstudio.com/download">Download Visual Studio Code - Mac, Linux, Windows</a></p>
-
 <p>如果你和我一样使用 Deepin Linux，可以直接从 Deepin Store 进行安装。</p>
-
 <h2 id="界面">界面</h2>
-
 
 <link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
 <div class="box">
@@ -515,11 +493,8 @@ if (!doNotTrack) {
   </figure>
 </div>
 
-
 <h2 id="特色-与常见编辑器不同的地方">特色（与常见编辑器不同的地方）</h2>
-
 <h3 id="标签预览模式">标签预览模式</h3>
-
 
 
 <div class="box">
@@ -532,15 +507,10 @@ if (!doNotTrack) {
   </figure>
 </div>
 
-
 <p>VSCode 中的标签和我们平常使用的软件中的标签不太一样，我开始的时候很疑惑，为什么 VSCode 打开新文件不是在新标签中打开，后来才知道是因为它默认开启了「预览模式」（Preview mode）。预览模式中的「标签名字体」显示的是 <strong>斜体</strong> ， <strong>单击文件</strong> 不会开启新的标签， <strong>双击文件</strong> 或者 <strong>双击标签</strong> 就可以将文件固定了。</p>
-
 <p>在设置中可以取消预览模式： <code>workbench.editor.enablePreview</code> 。</p>
-
 <h3 id="命令面板">命令面板</h3>
-
 <p>快捷键 <code>Ctrl+Shift+P</code> 呼出命令面板，通过命令面板可以快速使用一些指令。</p>
-
 
 
 <div class="box">
@@ -553,11 +523,8 @@ if (!doNotTrack) {
   </figure>
 </div>
 
-
 <h3 id="peek-definition">Peek Definition</h3>
-
 <p>这个功能，可以快速预览函数（或类）的定义内容，右键菜单中有选项，或者用快捷键 <code>Ctrl+shift+F10</code> 。</p>
-
 
 
 <div class="box">
@@ -570,21 +537,13 @@ if (!doNotTrack) {
   </figure>
 </div>
 
-
 <h2 id="编辑相关技巧">编辑相关技巧</h2>
-
 <h3 id="快捷键">快捷键</h3>
-
 <p>官方文档： <a href="https://code.visualstudio.com/docs/getstarted/keybindings">Visual Studio Code Key Bindings</a></p>
-
 <p>熟练使用快捷键可以极大的提高效率，但是不同编辑器的快捷键一般都不一样，为了减少迁移后改变习惯的代价，可以通过安装扩展解决这个问题。比如我要将 VSCode 的快捷键设定改为 Emacs 的设定，安装下面这个扩展就行了。</p>
-
 <p><a href="https://marketplace.visualstudio.com/items?itemName=lfs.vscode-emacs-friendly">Emacs Friendly Keymap - Visual Studio Marketplace</a> （ <strong>官方推荐的那个没有再维护了</strong> ）</p>
-
 <p>由于 <code>Ctrl</code> 是一个经常需要用到的按键，不妨将 <code>Ctrl</code> 和 <code>CapsLock</code> 这两个键调换。调换之后再按 <code>Ctrl</code> 就舒服快捷的多。</p>
-
 <h3 id="多光标编辑-multi-cursor-selection">多光标编辑 Multi cursor selection</h3>
-
 <ul>
 <li><strong>基本：</strong> <code>Alt+Click</code> 即，按住 Alt 键，依次单击（或者选择）需要编辑的位置，可以依次添加光标。 Alt 键可以在设置中更改。</li>
 <li><strong>一列多光标：</strong> <code>Shift+Alt+Down</code> 或者 <code>Shift+Alt+Up</code> 可以在上下位置添加光标。</li>
@@ -593,7 +552,6 @@ if (!doNotTrack) {
 <li><strong>矩形选择：</strong> 按住 <code>Shift+Alt</code> ，再进行选择，则选择区域是一个矩形。</li>
 <li><strong>括号选择：</strong> <code>Shift+Alt+Right</code> ，会选中匹配括号中的内容，并可以扩大选中区域。</li>
 </ul>
-
 
 
 <div class="box">
@@ -608,7 +566,6 @@ if (!doNotTrack) {
 
 
 
-
 <div class="box">
 <figure  itemprop="associatedMedia"
   itemscope itemtype="http://schema.org/ImageObject" >
@@ -619,18 +576,13 @@ if (!doNotTrack) {
   </figure>
 </div>
 
-
 <h3 id="辅助线">辅助线</h3>
-
 <ol>
 <li>显示代码缩进的辅助线，设置 &ldquo;editor.renderIndentGuides&rdquo;: true</li>
 <li>代码长度标尺，比如在第80列的地方显示标尺，设置 &ldquo;editor.rulers&rdquo;: [80]</li>
 </ol>
-
 <h2 id="zenmode-让编辑界面更简洁">zenmode——让编辑界面更简洁</h2>
-
 <p>如果你像我一样，有时候需要一边开着浏览器（或者终端等等）一边编辑文件，那么使用 <code>zenmode</code> 模式，则可以使 VSCode 的界面更加简洁。</p>
-
 
 
 <div class="box">
@@ -643,60 +595,39 @@ if (!doNotTrack) {
   </figure>
 </div>
 
-
 <p>小技巧：</p>
-
 <ol>
 <li>设置 &ldquo;zenMode.fullScreen&rdquo;: false ，默认为全屏。</li>
 <li>设置 &ldquo;window.menuBarVisibility&rdquo;: &ldquo;toggle&rdquo; ，这样可以在需要的时候显示目录栏。</li>
 </ol>
-
 <h2 id="设置的级别">设置的级别</h2>
-
 <p>官方文档： <a href="https://code.visualstudio.com/docs/getstarted/settings">Visual Studio Code User and Workspace Settings</a></p>
-
 <p>vscode 的设置分三个级别：</p>
-
 <ul>
 <li>默认设置（安装完成后）</li>
 <li>用户设置（用户自行修改的设定）</li>
 <li>工作区设置（团队项目下的统一设定）</li>
 </ul>
-
 <p>优先级依次递增。即，优先采用工作区的设置，再采用用户的个人设置，最后采用默认设置。</p>
-
 <p>对于团队项目，一些规范设置可以通过在项目目录下新建一个 <code>.vscode/setting.json</code> 文件进行配置。</p>
-
 <h2 id="一些不错的扩展">一些不错的扩展</h2>
-
 <h3 id="官方推荐">官方推荐</h3>
-
 <ul>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome">Debugger for Chrome</a></li>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">ESLint</a></li>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner">Code Runner</a></li>
 <li>等等支持各种程序语言的扩展</li>
 </ul>
-
 <h3 id="bookmarks">Bookmarks</h3>
-
 <p>地址： <a href="https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks">Bookmarks - Visual Studio Marketplace</a></p>
-
 <p>为 VSCode 添加书签功能，方便跳转。</p>
-
 <h3 id="git-history">Git History</h3>
-
 <p>地址： <a href="https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory">Git History (git log) - Visual Studio Marketplace</a></p>
-
 <p>非常方便的查看 Git Log，也算是必装的一个扩展了。</p>
-
 <h3 id="path-intellisense">Path Intellisense</h3>
-
 <p>地址： <a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense">Path Intellisense - Visual Studio Marketplace</a></p>
-
 <p>自动补全路径以及文件名。</p>
-
-<h2 id="debug"><span class="todo TODO_">TODO </span> DEBUG</h2>
+<h2 id="debug"><!-- raw HTML omitted -->TODO <!-- raw HTML omitted --> DEBUG</h2>
     </div>
 
     
@@ -845,6 +776,8 @@ if (!doNotTrack) {
   </div>
 
     
+
+  
 
         </div>
       </div>
@@ -1006,6 +939,12 @@ if (!doNotTrack) {
 
 
 <script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ=" crossorigin="anonymous"></script>
+
+
+
+
+
+
 
 
 

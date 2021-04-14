@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>江南 on 贤民的比特记忆</title>
@@ -6,11 +6,7 @@
     <description>Recent content in 江南 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 15 Oct 2020 11:11:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.xianmin.org/tags/%E6%B1%9F%E5%8D%97/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 15 Oct 2020 11:11:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E6%B1%9F%E5%8D%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重返江南</title>
       <link>https://www.xianmin.org/post/review-2020-return-jiangnan/</link>
@@ -19,8 +15,7 @@
       <guid>https://www.xianmin.org/post/review-2020-return-jiangnan/</guid>
       <description>&lt;h2 id=&#34;1&#34;&gt;1&lt;/h2&gt;
 
-
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -33,7 +28,6 @@
       &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
-
 
 &lt;p&gt;有两年多没去大城市，也有好些年没见过弟弟了，他还是那么瘦，脸上洋溢着充满阳光的笑容。是啊！想想我俩所走的不同的道路，尽管出生在不那么幸福的家庭，他所经历的比我可要顺利的多。即便只相差两岁，我俩的个性却截然不同。他比我专注，学业稳定，考入名牌大学，毕业后找一份好工作也就顺理成章。多年未见，他还是老样子，也许我也还是老样子，相见无需多言，还是那个熟悉的兄弟，七分相像，三分的不同，却引向各自迥异的命运。&lt;/p&gt;</description>
     </item>

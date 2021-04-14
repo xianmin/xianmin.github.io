@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>阅读 on 贤民的比特记忆</title>
@@ -6,11 +6,7 @@
     <description>Recent content in 阅读 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 01 Sep 2019 10:50:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 01 Sep 2019 10:50:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>笔记：公开课 Learning How to Learn</title>
       <link>https://www.xianmin.org/post/note-learning-how-to-learn/</link>
@@ -21,26 +17,20 @@
 &lt;li&gt;在线播放地址： &lt;a href=&#34;https://www.bilibili.com/video/av31961814/&#34;&gt;【coursera公开课】学会如何学习 Learning How to Learn（中文字幕）- bilibili&lt;/a&gt; 。&lt;/li&gt;
 &lt;li&gt;配套的书： &lt;a href=&#34;https://www.goodreads.com/book/show/36647421-learning-how-to-learn&#34;&gt;Learning How to Learn - by Barbara Oakley | Goodreads&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;如果早个 10 年上这门课，那收获肯定是非常大的。课程中提到的大部分内容，在这些年的阅读中都有接触到。&lt;/p&gt;
-
 &lt;p&gt;课程的一大特点是运用了大量的图片隐喻，便于理解和加深印象。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>我的 2018 年阅读总结</title>
       <link>https://www.xianmin.org/post/2018-read/</link>
-      <pubDate>Fri, 28 Dec 2018 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.xianmin.org/post/2018-read/</guid>
       <description>&lt;p&gt;本文分两部分，前半部分是反思，后半部分是值得推荐的书。&lt;/p&gt;
-
 &lt;p&gt;回顾这一年读的书，依旧不多。老问题依旧存在：记录不够，输出太少。&lt;/p&gt;
-
 &lt;p&gt;有一些翻看过的书，由于没有记录，没有什么印象了。&lt;/p&gt;
-
 &lt;p&gt;英文书只读了两本，同样是老问题：太简单的书觉得没什么意思，有趣的书读起来又太费劲。提升英语能力是关键。&lt;/p&gt;
-
 &lt;p&gt;有些奇怪，今年都没怎么看计算机相关的书，回想起来，应该只是翻文档去了。&lt;/p&gt;</description>
     </item>
     
@@ -60,7 +50,6 @@
       
       <guid>https://www.xianmin.org/post/my-read-experience-beginning/</guid>
       <description>&lt;h2 id=&#34;1-dot-网瘾少年&#34;&gt;1. 网瘾少年&lt;/h2&gt;
-
 &lt;p&gt;在我 10 至 13 岁这几年，因为沉迷网络游戏，偷家里的钱去泡网吧，经常被母亲教训，并多次被赶出家门。直至有一次我铁了心不再回家，身无分文离家两个月，此间辛酸不必多言。家人用尽各种办法，登电视，登报纸，贴寻人启事，最终将我找到。回去后，我痛定思痛，答应父母答应老师，一定改过自新，再也不玩网游。谁知才过一个多月，网瘾又犯。我无法控制自己，并深知对不起父母和老师，又一次离家出走。母亲已经对我彻底绝望，父亲坚持要把我找回来。我在外面处处碰壁，半个月后，父亲带着我回了家。&lt;/p&gt;</description>
     </item>
     
@@ -90,10 +79,8 @@
       <pubDate>Sat, 21 Oct 2017 14:03:06 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/read-peak/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://img3.doubanio.com/lpic/s29105145.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;https://img3.doubanio.com/lpic/s29105145.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;豆瓣链接：&lt;a href=&#34;https://book.douban.com/subject/26895993/&#34;&gt;刻意练习 (豆瓣)&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;这是这样的一本书：知道如何练习的人觉得此书在说一些废话，而遇到瓶颈停滞不前的人会觉得好像突然开了窍。我就是后者，这本书对我个人而言在练习方法上的启发是巨大的。两个多月前，我读完了这本书，这两个多月，我运用此书中得到的启发练习编程，感受到了明显的进步。这篇读后感，算是对写作的练习，也算是对自己的启发做个总结。&lt;/p&gt;</description>
     </item>
     
@@ -104,12 +91,11 @@
       
       <guid>https://www.xianmin.org/post/read-how-to-read-a-book/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;原作名: How to Read a Book&lt;br /&gt;
-作者: [美] 莫提默·J. 艾德勒 / 查尔斯·范多伦&lt;br /&gt;
-译者: 郝明义 / 朱衣&lt;br /&gt;
+&lt;p&gt;原作名: How to Read a Book\&lt;br&gt;
+作者: [美] 莫提默·J. 艾德勒 / 查尔斯·范多伦\&lt;br&gt;
+译者: 郝明义 / 朱衣\&lt;br&gt;
 出版社: 商务印书馆\&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;这是一本谈论读书方法的书。目的在于提升个人的阅读技巧，包括阅读应有的步骤，阅读效率的提高，阅读的目的，以此来获得个人的成长。&lt;/p&gt;</description>
     </item>
     
@@ -119,17 +105,8 @@
       <pubDate>Mon, 01 May 2017 15:31:38 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/read-zen-and-the-art-of-motorcycle-maintenance/</guid>
-      <description>&lt;blockquote&gt;
-  &lt;p&gt;我因为写了一部人们把它和《禅与摩托车维修艺术》相比较的书而感到甚受恭维。我希望拙作（《时间简史》）和本书一样使人们觉得，他们不必自处于伟大的智慧及哲学的问题之外。&lt;/p&gt;
-  &lt;footer&gt;
-    &lt;strong&gt;——霍金&lt;/strong&gt;
-    
-      
-        
-      
-    
-  &lt;/footer&gt;
-&lt;/blockquote&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
   </channel>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 贤民的比特记忆</title>
@@ -6,18 +6,15 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 01 Feb 2021 16:01:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 01 Feb 2021 16:01:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>别了， 2020！</title>
       <link>https://www.xianmin.org/post/goodbye-2020/</link>
       <pubDate>Mon, 01 Feb 2021 16:01:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/goodbye-2020/</guid>
-      <description>&lt;div class=&#34;box&#34;&gt;
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
@@ -27,9 +24,7 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;（又是迟到的总结，大体内容在 1 月初就写好了。只是拖延症太严重，一直拖到今天才发到博客上……）&lt;/p&gt;
-
 &lt;p&gt;2020 年，相信对这个星球上的每一个人都是非同寻常的一年。我个人其实经历的要少的多，也许是在小地方的缘故，既不在前线，地方上的疫情也不严重。除了 1 月底开始封锁的那一个月，我呆在院子里哪儿都没去，此后的生活并没有太多的影响。可以说是非常幸运了。&lt;/p&gt;</description>
     </item>
     
@@ -40,7 +35,6 @@
       
       <guid>https://www.xianmin.org/post/review-read-2020/</guid>
       <description>&lt;p&gt;回顾 2020 年的阅读，并没有做很好的梳理。因为琐事繁多，没能有计划的进行主题阅读。算是 2020 年的一大缺憾。&lt;/p&gt;
-
 &lt;p&gt;以下列出我在 2020  年读过的好书。&lt;/p&gt;</description>
     </item>
     
@@ -53,7 +47,6 @@
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34817533&#34;&gt;牙周炎还是牙龈炎？傻傻分不清楚！ - 知乎&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;前些日子终于去把牙洗了，洗过之后才感到庆幸，还好去的不是太晚，否则将来导致更严重的问题，就不是现在洗洗牙这么简单了。&lt;/p&gt;</description>
     </item>
     
@@ -65,8 +58,7 @@
       <guid>https://www.xianmin.org/post/review-2020-return-jiangnan/</guid>
       <description>&lt;h2 id=&#34;1&#34;&gt;1&lt;/h2&gt;
 
-
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -80,7 +72,6 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;有两年多没去大城市，也有好些年没见过弟弟了，他还是那么瘦，脸上洋溢着充满阳光的笑容。是啊！想想我俩所走的不同的道路，尽管出生在不那么幸福的家庭，他所经历的比我可要顺利的多。即便只相差两岁，我俩的个性却截然不同。他比我专注，学业稳定，考入名牌大学，毕业后找一份好工作也就顺理成章。多年未见，他还是老样子，也许我也还是老样子，相见无需多言，还是那个熟悉的兄弟，七分相像，三分的不同，却引向各自迥异的命运。&lt;/p&gt;</description>
     </item>
     
@@ -91,7 +82,6 @@
       
       <guid>https://www.xianmin.org/post/202010-boyan-video-luola/</guid>
       <description>&lt;p&gt;薄言独立制作的一部科幻动画作品，我参与了其中的配音。&lt;/p&gt;
-
 &lt;p&gt;B 站地址： &lt;a href=&#34;https://www.bilibili.com/video/BV12T4y1c72D&#34;&gt;【2020小宇宙新星计划】萝拉_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili&lt;/a&gt; 。&lt;/p&gt;</description>
     </item>
     
@@ -102,9 +92,7 @@
       
       <guid>https://www.xianmin.org/post/review-english-202005/</guid>
       <description>&lt;p&gt;又是一篇迟到的总结。上一次总结是在： &lt;a href=&#34;https://www.xianmin.org/post/review-english-201906/&#34;&gt;英语学习总结（2019年上半年）&lt;/a&gt; 。&lt;/p&gt;
-
 &lt;p&gt;回顾了一下上一次的总结。怎么说呢，目前最大的问题依然还是：缺少输出。尽管自己偶尔会去记点笔记，也偶尔会去把日志翻译成英文，但是做的太少了，收效甚微。做的少的理由，无非就是不太舒服。&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;就好似登山：不经常登山的人，登一小段路就累了，累了就想休息。走的越快，累的也越快，休息的越久就越不想继续前行。擅于登山的人，一般都有自己的节奏，既不快也不慢，以一种平稳的姿态前行。如果能够享受过程，也就无关意志力什么事儿了。&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
@@ -124,7 +112,6 @@
       
       <guid>https://www.xianmin.org/post/replace-google/</guid>
       <description>&lt;p&gt;最近的网络很不好用，一到特殊时期就这个样子。&lt;/p&gt;
-
 &lt;p&gt;由于我是搜索引擎的重度使用者，当 Google 用不了的时候，有什么替代方案吗？&lt;/p&gt;</description>
     </item>
     
@@ -134,7 +121,8 @@
       <pubDate>Tue, 21 Jan 2020 14:57:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/goodbye-2019/</guid>
-      <description>&lt;div class=&#34;box&#34;&gt;
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
@@ -146,11 +134,8 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;2019 年的年终总结来的比往年晚了一些，最近完全没有想做总结的冲动。如果写这篇总结的过程让自己不愉快，那还不如不写，对吧。可不做总结吧，反而内心有点儿愧疚，还是写下来吧。生命只有一次， 19 年也只有一次，还是要活得有意思吧，别人看着有意思，那是别人的事，关键得自己觉得有意思。很多事情，错过了也就错过了。&lt;/p&gt;
-
 &lt;p&gt;回顾起来，相比 18 年， 19 年就平淡了许多。&lt;/p&gt;
-
 &lt;p&gt;按照惯例，总结依然分为四大类：修行、工作、锻炼、学习。&lt;/p&gt;</description>
     </item>
     
@@ -161,15 +146,12 @@
       
       <guid>https://www.xianmin.org/post/review-read-2019/</guid>
       <description>&lt;p&gt;回顾 2019 年的阅读，数量上不算少，只是用在「经典」上的时间太少了。很多闲书、杂书翻翻即可。希望在新的一年：&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;只关注那 10% 的精品。&lt;/li&gt;
 &lt;li&gt;预留更多的时间思考，做笔记。&lt;/li&gt;
 &lt;li&gt;不重要的书，写下简短的摘要即可。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;往年回顾：&lt;a href=&#34;https://www.xianmin.org/post/2018-read/&#34;&gt;我的 2018 年阅读总结&lt;/a&gt;　。&lt;/p&gt;
-
 &lt;p&gt;以下是我在 2019 年读过的好书。&lt;/p&gt;</description>
     </item>
     
@@ -179,7 +161,8 @@
       <pubDate>Fri, 29 Nov 2019 06:55:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/review-2019-10/</guid>
-      <description>&lt;div class=&#34;box&#34;&gt;
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
@@ -188,7 +171,6 @@
     &lt;a href=&#34;https://www.xianmin.org/image/memory/2019/10/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
-
 
 &lt;p&gt;有一段时间没在博客上发表内容了，每每想动笔写点什么的时候，琐事便纷至沓来，即便真的有点儿空闲了，又不知从何说起。 &lt;strong&gt;近期最大的变化是，锻炼频繁了。&lt;/strong&gt; 爬了很多次山，也许比过去两年爬山的总次数还多。还有就是 &lt;strong&gt;重新开始跑步&lt;/strong&gt; 。说起这个变化，就不得不提 Judith 了。&lt;/p&gt;</description>
     </item>
@@ -203,9 +185,7 @@
 &lt;li&gt;在线播放地址： &lt;a href=&#34;https://www.bilibili.com/video/av31961814/&#34;&gt;【coursera公开课】学会如何学习 Learning How to Learn（中文字幕）- bilibili&lt;/a&gt; 。&lt;/li&gt;
 &lt;li&gt;配套的书： &lt;a href=&#34;https://www.goodreads.com/book/show/36647421-learning-how-to-learn&#34;&gt;Learning How to Learn - by Barbara Oakley | Goodreads&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;如果早个 10 年上这门课，那收获肯定是非常大的。课程中提到的大部分内容，在这些年的阅读中都有接触到。&lt;/p&gt;
-
 &lt;p&gt;课程的一大特点是运用了大量的图片隐喻，便于理解和加深印象。&lt;/p&gt;</description>
     </item>
     
@@ -225,11 +205,9 @@
       
       <guid>https://www.xianmin.org/post/review-english-201906/</guid>
       <description>&lt;p&gt;自去年 9 月，重启英语学习，下定决心这一次好好将英语提升一个台阶，至今已经过去 9 个月了。现在回顾，和 9 个月前相比，我的英语水平有所进步吗？说实话，进步不明显（即没有进步）。至少从词汇量而言，我记得当时测试是接近 6000 的词汇量，而这次测试和那次差不多，基本没多大变化。而我这 9 个月，可是花费了不少时间背单词的，至今背了有近 4000 个。词汇量没有变化，也许是大部分背过的都忘记了。我开始怀疑自己所付出的时间和精力是否值得。&lt;/p&gt;
-
 &lt;p&gt;这次总结回顾是有必要的，否则我可能一直在做无用功，并且满足于自己所付出的那一丁点儿看似的努力。&lt;/p&gt;
 
-
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -259,20 +237,14 @@
       
       <guid>https://www.xianmin.org/post/english-dictionary-recommend/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-
 &lt;p&gt;去年 9 月，我写了篇 &lt;a href=&#34;https://www.xianmin.org/post/plan-english-2018/&#34;&gt;英语学习方法总结&lt;/a&gt; ，经过半年多的实践，期间查询了大量的英文单词，对不同词典的优缺点有了更直观的感触。 &lt;strong&gt;在本篇文章中，我将对英文词典的选用，分享一点自己的心得。&lt;/strong&gt; 鉴于我个人的英文水平依旧一般，选用建议仅供参考。&lt;/p&gt;
-
 &lt;p&gt;注：本文所提到的词典皆为 &lt;strong&gt;电子词典&lt;/strong&gt; 。手机端使用的 APP 为欧路词典，电脑端使用 GoldenDict 。&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;以下两部词典解决 99% 的查词需求：&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;《柯林斯（ Collins ）双解词典》；&lt;/li&gt;
 &lt;li&gt;《朗文当代英语词典》 第六版 （ Longman Dictionary of Contemporary English 6th - 简称：LDOCE6 ）。&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;再加上一部《麦克米伦（ Macmillan ）高阶学习词典》，基本就解决了 99.9% 的查词需求。&lt;/p&gt;
-
 &lt;p&gt;词典的数量在精不在多， &lt;strong&gt;我拥有的二十几部英文词典，绝大多数完全没有用过，释义基本大同小异。&lt;/strong&gt; 而我选用的这三部词典，各有各的特色，满足了我在不同场景下的使用需求。&lt;/p&gt;</description>
     </item>
     
@@ -282,7 +254,7 @@
       <pubDate>Sun, 16 Jun 2019 07:34:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/mindtools/</guid>
-      <description>&lt;p&gt;最近看了一本书——《直觉泵和其他思考工具》&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-1&#34;&gt;&lt;a href=&#34;#fn:fn-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ， 丹尼特在这本书中提及了 77 个思考工具。先撇开书中的具体内容，我发现了聪明人都有一个共同点，就是他们有一套 &lt;strong&gt;「可复用的思考问题的方法」&lt;/strong&gt; 。丹尼特称它们为「直觉泵」，与之相类似的，如芒格的「高阶思维模型」。还有阳志平老师，他也有一套方法论&amp;nbsp;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fn-2&#34;&gt;&lt;a href=&#34;#fn:fn-2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 。人与人之间的差异，很多时候就体现在思考问题的方法上，不同的思考方式，就会有不一样的解决问题的思路。一个问题之所以困难，不是因为问题难，而是用错了思考问题的方法。&lt;/p&gt;</description>
+      <description>&lt;p&gt;最近看了一本书——《直觉泵和其他思考工具》 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ， 丹尼特在这本书中提及了 77 个思考工具。先撇开书中的具体内容，我发现了聪明人都有一个共同点，就是他们有一套 &lt;strong&gt;「可复用的思考问题的方法」&lt;/strong&gt; 。丹尼特称它们为「直觉泵」，与之相类似的，如芒格的「高阶思维模型」。还有阳志平老师，他也有一套方法论 &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 。人与人之间的差异，很多时候就体现在思考问题的方法上，不同的思考方式，就会有不一样的解决问题的思路。一个问题之所以困难，不是因为问题难，而是用错了思考问题的方法。&lt;/p&gt;</description>
     </item>
     
     <item>

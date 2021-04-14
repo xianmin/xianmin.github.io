@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>教育 on 贤民的比特记忆</title>
@@ -6,18 +6,15 @@
     <description>Recent content in 教育 on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 31 Aug 2018 19:00:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.xianmin.org/tags/%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 31 Aug 2018 19:00:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>月底去了一趟沙溪古镇</title>
       <link>https://www.xianmin.org/post/shaxi-oldtown-5/</link>
       <pubDate>Fri, 31 Aug 2018 19:00:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/shaxi-oldtown-5/</guid>
-      <description>&lt;div class=&#34;box&#34;&gt;
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
@@ -28,7 +25,6 @@
       &lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
-
 
 &lt;p&gt;八月月底，旅客渐少，我搭沙溪刘哥的顺风车去了趟沙溪古镇。没记错的话，这是我第五次去沙溪。曾经有一次我在这个古镇呆了有两个月，它对我来说是个既熟悉又陌生的地方。听说，沙溪现在开了有三百多家客栈，而在我第一次来沙溪的六年前，那时候还只有十几家。现如今，很多曾经在沙溪认识的朋友都已经不在沙溪了。&lt;/p&gt;</description>
     </item>

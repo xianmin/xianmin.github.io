@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linuxbrew on 贤民的比特记忆</title>
@@ -6,11 +6,7 @@
     <description>Recent content in linuxbrew on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 27 Feb 2019 08:00:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://www.xianmin.org/tags/linuxbrew/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 27 Feb 2019 08:00:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/linuxbrew/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux 下，使用 Linuxbrew 安装更多的软件</title>
       <link>https://www.xianmin.org/post/use-linuxbrew/</link>
@@ -18,7 +14,6 @@
       
       <guid>https://www.xianmin.org/post/use-linuxbrew/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://brew.sh/&#34;&gt;Homebrew&lt;/a&gt; 是 MacOS 下的一个包管理工具，可以用它安装各种软件，相当于 Linux 下的 &lt;code&gt;apt-get&lt;/code&gt; ，大部分使用 Mac 的开发者对它应该很熟悉了。 &lt;a href=&#34;http://linuxbrew.sh&#34;&gt;Linuxbrew&lt;/a&gt; 是 Linux 下的 Homebrew ，使用它，就可以用 &lt;code&gt;brew install&lt;/code&gt; 安装更多的软件。&lt;/p&gt;
-
 &lt;p&gt;也许有人要问，各个 Linux 发行版都已经 &lt;strong&gt;自带了「包管理工具」&lt;/strong&gt; ，为什么还要多此一举，用 Linuxbrew 呢？&lt;/p&gt;</description>
     </item>
     
