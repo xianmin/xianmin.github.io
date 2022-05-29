@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows on 贤民的比特记忆</title>
+    <link>https://www.xianmin.org/tags/windows/</link>
+    <description>Recent content in windows on 贤民的比特记忆</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 29 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows 下，交换 Ctrl 键和 CpasLock 键</title>
+      <link>https://www.xianmin.org/post/2022/00-windows-swap-ctrl-and-capslock/</link>
+      <pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2022/00-windows-swap-ctrl-and-capslock/</guid>
+      <description>&lt;p&gt;好久没更新博客了，水一篇，找点状态。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Ctrl&lt;/code&gt; 键作为大部分软件的常用快捷按键，它在键盘上的位置是非常不合理的。而 &lt;code&gt;CapsLock&lt;/code&gt; 这个大写锁定键，不经常使用，却在键盘上占据了一个极佳的位置。在过去几年使用计算机的过程中，把 &lt;code&gt;Ctrl&lt;/code&gt; 和 &lt;code&gt;CapsLock&lt;/code&gt; 这两个按键的位置交换，极大的提升了我使用快捷键的舒适度和效率。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,17 @@
     <description>Recent content in Posts on 贤民的比特记忆</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 24 Jan 2022 06:21:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows 下，交换 Ctrl 键和 CpasLock 键</title>
+      <link>https://www.xianmin.org/post/2022/00-windows-swap-ctrl-and-capslock/</link>
+      <pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2022/00-windows-swap-ctrl-and-capslock/</guid>
+      <description>&lt;p&gt;好久没更新博客了，水一篇，找点状态。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Ctrl&lt;/code&gt; 键作为大部分软件的常用快捷按键，它在键盘上的位置是非常不合理的。而 &lt;code&gt;CapsLock&lt;/code&gt; 这个大写锁定键，不经常使用，却在键盘上占据了一个极佳的位置。在过去几年使用计算机的过程中，把 &lt;code&gt;Ctrl&lt;/code&gt; 和 &lt;code&gt;CapsLock&lt;/code&gt; 这两个按键的位置交换，极大的提升了我使用快捷键的舒适度和效率。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>别了，2021</title>
       <link>https://www.xianmin.org/post/goodbye-2021/</link>
@@ -308,15 +318,6 @@
       
       <guid>https://www.xianmin.org/post/mindtools/</guid>
       <description>&lt;p&gt;最近看了一本书——《直觉泵和其他思考工具》 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ， 丹尼特在这本书中提及了 77 个思考工具。先撇开书中的具体内容，我发现了聪明人都有一个共同点，就是他们有一套 &lt;strong&gt;「可复用的思考问题的方法」&lt;/strong&gt; 。丹尼特称它们为「直觉泵」，与之相类似的，如芒格的「高阶思维模型」。还有阳志平老师，他也有一套方法论 &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 。人与人之间的差异，很多时候就体现在思考问题的方法上，不同的思考方式，就会有不一样的解决问题的思路。一个问题之所以困难，不是因为问题难，而是用错了思考问题的方法。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>记录： 2019 年 5 月 - 尝试</title>
-      <link>https://www.xianmin.org/post/review-2019-05/</link>
-      <pubDate>Fri, 31 May 2019 23:45:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/review-2019-05/</guid>
-      <description>&lt;p&gt;这个月想要记录的内容，分解在前几篇的博文中了。为什么这么做呢？只是尝试换一种形式而已。&lt;/p&gt;</description>
     </item>
     
   </channel>
