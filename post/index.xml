@@ -6,7 +6,20 @@
     <description>Recent content in Posts on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 29 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客重启 2.0</title>
+      <link>https://www.xianmin.org/post/2022/01-blog-restart/</link>
+      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2022/01-blog-restart/</guid>
+      <description>&lt;h2 id=&#34;为什么博客改名了&#34;&gt;为什么博客改名了？&lt;/h2&gt;
+&lt;p&gt;「贤民的博客」，简单明了。之前叫「贤民的比特记忆」，「比特记忆」这个名称，读者朋友不一定理解它的含义，增加额外的认知负担，感觉没这必要。&lt;/p&gt;
+&lt;h2 id=&#34;还做了哪些改动&#34;&gt;还做了哪些改动？&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.xianmin.org/about/&#34;&gt;「关于」&lt;/a&gt; 页面是新的来访者了解我和这个博客的一个重要链接，其中的内容是 2018 年写的，距今有四年多了，很多信息都已过时，而我在这几年也有些许变化，是应该更新一下了。&lt;/p&gt;
+&lt;p&gt;另外，我给博客专门添加了 &lt;a href=&#34;https://www.xianmin.org/acknowledgments/&#34;&gt;「致谢」&lt;/a&gt; 页面。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Windows 下，交换 Ctrl 键和 CapsLock 键</title>
       <link>https://www.xianmin.org/post/2022/00-windows-swap-ctrl-and-capslock/</link>
@@ -309,15 +322,6 @@
 &lt;/ol&gt;
 &lt;p&gt;再加上一部《麦克米伦（ Macmillan ）高阶学习词典》，基本就解决了 99.9% 的查词需求。&lt;/p&gt;
 &lt;p&gt;词典的数量在精不在多， &lt;strong&gt;我拥有的二十几部英文词典，绝大多数完全没有用过，释义基本大同小异。&lt;/strong&gt; 而我选用的这三部词典，各有各的特色，满足了我在不同场景下的使用需求。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>思维工具箱</title>
-      <link>https://www.xianmin.org/post/mindtools/</link>
-      <pubDate>Sun, 16 Jun 2019 07:34:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/mindtools/</guid>
-      <description>&lt;p&gt;最近看了一本书——《直觉泵和其他思考工具》 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ， 丹尼特在这本书中提及了 77 个思考工具。先撇开书中的具体内容，我发现了聪明人都有一个共同点，就是他们有一套 &lt;strong&gt;「可复用的思考问题的方法」&lt;/strong&gt; 。丹尼特称它们为「直觉泵」，与之相类似的，如芒格的「高阶思维模型」。还有阳志平老师，他也有一套方法论 &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 。人与人之间的差异，很多时候就体现在思考问题的方法上，不同的思考方式，就会有不一样的解决问题的思路。一个问题之所以困难，不是因为问题难，而是用错了思考问题的方法。&lt;/p&gt;</description>
     </item>
     
   </channel>

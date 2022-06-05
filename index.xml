@@ -6,10 +6,35 @@
     <description>Recent content on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 29 May 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jun 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>博客重启 2.0</title>
+      <link>https://www.xianmin.org/post/2022/01-blog-restart/</link>
+      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2022/01-blog-restart/</guid>
+      
+        <description>&lt;h2 id=&#34;为什么博客改名了&#34;&gt;为什么博客改名了？&lt;/h2&gt;
+&lt;p&gt;「贤民的博客」，简单明了。之前叫「贤民的比特记忆」，「比特记忆」这个名称，读者朋友不一定理解它的含义，增加额外的认知负担，感觉没这必要。&lt;/p&gt;
+&lt;h2 id=&#34;还做了哪些改动&#34;&gt;还做了哪些改动？&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.xianmin.org/about/&#34;&gt;「关于」&lt;/a&gt; 页面是新的来访者了解我和这个博客的一个重要链接，其中的内容是 2018 年写的，距今有四年多了，很多信息都已过时，而我在这几年也有些许变化，是应该更新一下了。&lt;/p&gt;
+&lt;p&gt;另外，我给博客专门添加了 &lt;a href=&#34;https://www.xianmin.org/acknowledgments/&#34;&gt;「致谢」&lt;/a&gt; 页面。&lt;/p&gt;
+&lt;p&gt;这个博客在每篇博文下面，都有一个「打赏」按钮，这几年来断断续续收到了一些朋友的打赏鼓励。我自知才疏学浅，有朋友愿意打赏，我感到很惭愧。可是这个「打赏」之后呢，又没有任何的反馈，让我更加不好意思了。估计打赏的朋友并不在乎这些，但我还是想做点什么。思来想去，决定单独设立这个「致谢」页面，放在网站的右上角，算是作为小小的互动，它将鞭策我继续创作。&lt;/p&gt;
+&lt;h2 id=&#34;为什么还要写博客&#34;&gt;为什么还要写博客？&lt;/h2&gt;
+&lt;p&gt;最简单的理由，就是依然还有表达欲。我喜欢独来独往，可有时候又太孤独了，把自己想说却不知道跟谁说的话，写下来，发布到网上，这个过程让我心情愉悦，有助于释放孤独感。另外，我更愿意把写博客当作练习作文，记录某个时刻的所思所想，算是一件稍有难度的「娱乐活动」。&lt;/p&gt;
+&lt;p&gt;还有一个重要的理由，这个博客是我个人数字资产的一部分。通俗点说，就是我对这个博客有增删改查的自由，所有内容都是免费公开分享的，用浏览器就可以打开阅读。我把它们发布到互联网，网络爬虫想怎么爬就怎么爬，说不定还可以用作机器学习中文的分析数据。&lt;/p&gt;
+&lt;p&gt;另外，只要这个博客的链接还在，没准五年后，还会有人读到这些文字呢。如果 2027 年的你恰巧经过这里，我亲爱的陌生朋友，欢迎给我留言，我会告诉你一个我在 2022 年的秘密（这个秘密记在我 5 月 10 日的日记里）。&lt;/p&gt;
+&lt;h2 id=&#34;为什么这篇文章的标题叫博客重启&#34;&gt;为什么这篇文章的标题叫「博客重启」？&lt;/h2&gt;
+&lt;p&gt;惭愧。去年因为生活变动，基本没更新博客。现在生活慢慢稳定，我想这个博客还是得好好打理打理，毕竟这是我在互联网上唯一愿意活动的场所。一个院子如果不打理，一年也就荒废了，我想一个博客也是类似的。&lt;/p&gt;
+&lt;p&gt;至于重启，我并没有什么特别的计划。只是脑子里有一些想写的东西，我觉得应该把它们写下来，而不是停留在脑海中然后就忘了。希望今年可以多写一些内容。&lt;/p&gt;
+&lt;h2 id=&#34;还有什么想说的&#34;&gt;还有什么想说的？&lt;/h2&gt;
+&lt;p&gt;在这个博客上的所有留言我都有看到，我想对那些我没有回复留言的朋友们道个歉。你跟我打招呼，我没有回应，我感觉挺不礼貌的。哎，有些时候我确实不知道该回复什么，希望你能理解。祝好！&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>致谢</title>
@@ -1503,97 +1528,6 @@ and so on...
 
 
 &lt;/div&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>英文电子词典的选用建议</title>
-      <link>https://www.xianmin.org/post/english-dictionary-recommend/</link>
-      <pubDate>Sun, 23 Jun 2019 08:18:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/english-dictionary-recommend/</guid>
-      
-        <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;去年 9 月，我写了篇 &lt;a href=&#34;https://www.xianmin.org/post/plan-english-2018/&#34;&gt;英语学习方法总结&lt;/a&gt; ，经过半年多的实践，期间查询了大量的英文单词，对不同词典的优缺点有了更直观的感触。 &lt;strong&gt;在本篇文章中，我将对英文词典的选用，分享一点自己的心得。&lt;/strong&gt; 鉴于我个人的英文水平依旧一般，选用建议仅供参考。&lt;/p&gt;
-&lt;p&gt;注：本文所提到的词典皆为 &lt;strong&gt;电子词典&lt;/strong&gt; 。手机端使用的 APP 为欧路词典，电脑端使用 GoldenDict 。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;以下两部词典解决 99% 的查词需求：&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;《柯林斯（ Collins ）双解词典》；&lt;/li&gt;
-&lt;li&gt;《朗文当代英语词典》 第六版 （ Longman Dictionary of Contemporary English 6th - 简称：LDOCE6 ）。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;再加上一部《麦克米伦（ Macmillan ）高阶学习词典》，基本就解决了 99.9% 的查词需求。&lt;/p&gt;
-&lt;p&gt;词典的数量在精不在多， &lt;strong&gt;我拥有的二十几部英文词典，绝大多数完全没有用过，释义基本大同小异。&lt;/strong&gt; 而我选用的这三部词典，各有各的特色，满足了我在不同场景下的使用需求。&lt;/p&gt;
-&lt;h2 id=&#34;一-collins-双解词典&#34;&gt;一、 Collins 双解词典&lt;/h2&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/Screenshot-collins.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/Screenshot-collins.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;Collins 双解词典截图&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;很多英文专业人士会推荐英文学习者使用英英词典，但我在单纯使用英英词典的实践中发现有两个问题：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;一个单词，我知道了它的英文释义，有了个模糊的概念，却无法肯定它的准确意思。&lt;/li&gt;
-&lt;li&gt;我理解了它的准确意思，但想象不出它究竟是什么。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;举个例子， cicada ，释义是： an insect that lives in hot countries, has large transparent wings, and makes a high singing noise 。英文释义我看明白了，是一种昆虫，可它究竟是什么呢？不知道。而如果有中文释义（cicada ，蝉、知了），一下子就明白了。有的词典比较贴心，会有图片，但如果是动词、形容词，用图片可就不好表示了。类似的例子我在查词过程中经常会发生。因此，一部英汉词典还是有必要的。&lt;/p&gt;
-&lt;p&gt;这部 《Collins 双解词典》，既有中文释义，又有英文释义，并且释义全面。每一条释义会告诉你它的词性，会给出例句，排版极佳。除此之外，有的词目还会有温馨提示。比如 economic ，它会提醒你：「注意不要混淆 economic, economical, economics 和 economy」。实在是既实用又贴心。&lt;/p&gt;
-&lt;h2 id=&#34;二-朗文-6-以下简称-ldoce6&#34;&gt;二、 朗文 6 （以下简称 LDOCE6 ）&lt;/h2&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/Screenshot-ldoce6.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/Screenshot-ldoce6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;LDOCE6 截图&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;LDOCE6 是我使用过的最好的英文词典。&lt;/strong&gt; 在线版： &lt;a href=&#34;https://www.ldoceonline.com/&#34;&gt;https://www.ldoceonline.com/&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;释义简单明了，这就不多说了。一些特色：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;例句，发音。发音倒是可有可无。&lt;/li&gt;
-&lt;li&gt;WORD ORIGIN （词源）。这个暂时用不上。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;THESAURUS （近义词、同类词）。这个特色好极了！&lt;/strong&gt; 举个例子： flair ，天资、天赋的意思。那么它和 talent, genius, gift 等词汇有什么区别呢？ LDOCE6 中会用简单的释义和例句，帮助你加以区分。&lt;/li&gt;
-&lt;li&gt;COLLOCATIONS （常用搭配） 。&lt;/li&gt;
-&lt;li&gt;PHRASES （词组、习语）。&lt;/li&gt;
-&lt;li&gt;WORD FAMILY （比如，economics, economist, economy, economic, economical 这样的词汇家族）。&lt;/li&gt;
-&lt;li&gt;WORD SETS （词汇集合，比如计算机相关词汇、昆虫相关词汇、蔬菜相关词汇等等）。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;截图说明：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;红点：三个红点，常用范围 0 - 3000 的单词；两个红点，常用范围 3000 - 6000 的单词；一个红点，常用范围 6000 - 9000 的单词；没有红点，9000 范围之外的的单词。&lt;/li&gt;
-&lt;li&gt;S1, (Spoken) ，口语最常用的 1000 个单词。&lt;/li&gt;
-&lt;li&gt;W1, (Written)，书写最常用的 1000 个单词。 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;ldoce5-的缺陷&#34;&gt;LDOCE5 的缺陷&lt;/h3&gt;
-&lt;p&gt;我在之前的总结中贴了一个链接： &lt;a href=&#34;https://www.douban.com/note/278501822/&#34;&gt;奶爸1.6G Mdict词库的补充及在Bluedict中使用的心得&lt;/a&gt; 。这个链接里提供了「奶爸 1.6G」的词库资源。 &lt;strong&gt;其中的《朗文当代英语词典》是第五版（即 LDOCE5 ），这个版本有一个非常大的缺陷&lt;/strong&gt; ：「词库中有大量的词条比如 “give” ，其索引不是 “give” ，而是 “give + (空格,) + noun” 和 “give + (空格,) + verb” ，这样当多词典联合搜索时，输入 “give” ，LDOCE5 的相应词条就不会显示出来」。&lt;/p&gt;
-&lt;p&gt;发现这个问题后，我在网上搜索到了第六版，完美解决了 LDOCE5 的缺陷。读者朋友不妨考察一下自己的资源搜索能力，看看能否找到 LDOCE6 呢？&lt;/p&gt;
-&lt;h2 id=&#34;三-麦克米伦高阶学习词典&#34;&gt;三、 麦克米伦高阶学习词典&lt;/h2&gt;
-&lt;p&gt;在线版： &lt;a href=&#34;https://www.macmillandictionary.com/&#34;&gt;https://www.macmillandictionary.com/&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;在实际查词过程中，前两部词典基本就已经足够了。这部词典主要作为补充（比如有些短语，可能前两个词典查不到）。并且，释义也具有多重的参考价值。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;以上，是我个人选用词典的一点心得。 &lt;strong&gt;词典只是辅助学习英语的工具，我们不是词典专家，没必要在对比词典、挑选词典上花费过多的时间。多阅读原始英文材料、多查单词，比一部再好的词典更重要。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;最后，感谢互联网世界那些无私奉献的朋友们。&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://georgechen.idv.tw/wordpress/?p=1875&#34;&gt;LDOCE6 使用心得 | George Chen on Blog 1.0&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;</description>
       
     </item>
     
