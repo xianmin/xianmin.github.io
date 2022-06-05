@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.xianmin.org/acknowledgments/</loc>
+    <lastmod>2022-06-05T20:01:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://www.xianmin.org/categories/</loc>
     <lastmod>2022-05-29T21:07:37+08:00</lastmod>
     <changefreq>weekly</changefreq>

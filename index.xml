@@ -1,15 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>贤民的比特记忆</title>
+    <title>贤民的博客</title>
     <link>https://www.xianmin.org/</link>
-    <description>Recent content on 贤民的比特记忆</description>
+    <description>Recent content on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 29 May 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>致谢</title>
+      <link>https://www.xianmin.org/acknowledgments/</link>
+      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/acknowledgments/</guid>
+      
+        <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;打赏人&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;金额&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;留言&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;日期&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Xu*容&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;100 元&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;是结束，也是开始，那里是永远的白月光，你也是，谢谢你&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2022-01-24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;w**t&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;50 元&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;小兄弟，路还长，当下和未来还需把握。&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2022-01-24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;老*&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;20 元&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2022-01-24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;John**&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;10 元&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2022-01-24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;（注： 该页面于 2022 年才添加到这个博客，在这之前的打赏记录，我查询不到了，非常抱歉！）&lt;/p&gt;
+&lt;p&gt;这个博客在每篇博文下面，都有一个「打赏」按钮，这几年来断断续续收到了一些朋友的打赏鼓励。我自知才疏学浅，有朋友愿意打赏，我感到很惭愧。可是这个「打赏」之后呢，又没有任何的反馈，让我更加不好意思了。估计打赏的朋友并不在乎这些，但我还是想做点什么。思来想去，决定单独设立这个「致谢」页面，放在网站的右上角，算是作为小小的互动，它将鞭策我继续创作。&lt;/p&gt;
+&lt;p&gt;因为这个页面需要我手动输入和编辑，所以我暂定几条规则：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;打赏 30 元及以上，我会在一周内主动把你的留言加入到列表中；&lt;/li&gt;
+&lt;li&gt;打赏 10 ~ 30 元，你可以在 &lt;a href=&#34;https://github.com/xianmin/xianmin.org/blob/master/content/acknowledgments.md&#34;&gt;Github&lt;/a&gt; 上自行添加；&lt;/li&gt;
+&lt;li&gt;列表按金额大小排序；&lt;/li&gt;
+&lt;li&gt;打赏者可以在留言中加入广告和链接；&lt;/li&gt;
+&lt;li&gt;留言限 50 字以内，对于我不喜欢的留言，我有权删除；&lt;/li&gt;
+&lt;li&gt;以上几条规则未来可能会有变动，一切解释权归本人所有。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>Windows 下，交换 Ctrl 键和 CapsLock 键</title>
@@ -1533,30 +1591,6 @@ and so on...
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;http://georgechen.idv.tw/wordpress/?p=1875&#34;&gt;LDOCE6 使用心得 | George Chen on Blog 1.0&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>思维工具箱</title>
-      <link>https://www.xianmin.org/post/mindtools/</link>
-      <pubDate>Sun, 16 Jun 2019 07:34:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/mindtools/</guid>
-      
-        <description>&lt;p&gt;最近看了一本书——《直觉泵和其他思考工具》 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ， 丹尼特在这本书中提及了 77 个思考工具。先撇开书中的具体内容，我发现了聪明人都有一个共同点，就是他们有一套 &lt;strong&gt;「可复用的思考问题的方法」&lt;/strong&gt; 。丹尼特称它们为「直觉泵」，与之相类似的，如芒格的「高阶思维模型」。还有阳志平老师，他也有一套方法论 &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 。人与人之间的差异，很多时候就体现在思考问题的方法上，不同的思考方式，就会有不一样的解决问题的思路。一个问题之所以困难，不是因为问题难，而是用错了思考问题的方法。&lt;/p&gt;
-&lt;p&gt;「直觉泵」、「高阶思维模型」，我个人不太喜欢这两个词，「思维工具箱」倒是更合我意，更简洁明了。什么是思维工具？可复用的思考问题的方法。那么，思维工具箱，就是这些方法的集合。&lt;/p&gt;
-&lt;p&gt;我们每个人都有一套自己的思维工具，有的好用，有的糟糕透顶。 &lt;strong&gt;对自己使用的思维工具进行归纳，并且将生活、阅读、经历中，发现的好用的思维工具做一番总结，将它们整理成一个思维工具箱，这或许是个不错的提升思考能力的方法。&lt;/strong&gt; 这样说来，「思维工具箱」本身其实也就是一个思维工具。&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;关于这本书，豆瓣上有一篇极好的笔记： &lt;a href=&#34;https://book.douban.com/review/9834017/&#34;&gt;丹尼特《直觉泵》精读笔记&lt;/a&gt; 。 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;准备发布到博客上的时候，突然想起来阳老师好像用过一个词叫「心智工具箱」，搜了一下还真的是。哈哈，我这记性真的不行……他还写了好几篇相关文章： &lt;a href=&#34;https://www.yangzhiping.com/psy/mindtools&#34;&gt;https://www.yangzhiping.com/psy/mindtools&lt;/a&gt; 。 &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;</description>
