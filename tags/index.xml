@@ -6,7 +6,25 @@
     <description>Recent content in Tags on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 05 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>下厨房</title>
+      <link>https://www.xianmin.org/tags/%E4%B8%8B%E5%8E%A8%E6%88%BF/</link>
+      <pubDate>Sun, 12 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/tags/%E4%B8%8B%E5%8E%A8%E6%88%BF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>凉拌</title>
+      <link>https://www.xianmin.org/tags/%E5%87%89%E6%8B%8C/</link>
+      <pubDate>Sun, 12 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/tags/%E5%87%89%E6%8B%8C/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>blog</title>
       <link>https://www.xianmin.org/tags/blog/</link>
@@ -166,24 +184,6 @@
       <pubDate>Tue, 25 Feb 2020 16:06:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PDF</title>
-      <link>https://www.xianmin.org/tags/pdf/</link>
-      <pubDate>Tue, 25 Feb 2020 16:06:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/tags/pdf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>命令行</title>
-      <link>https://www.xianmin.org/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/</link>
-      <pubDate>Tue, 25 Feb 2020 16:06:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/</guid>
       <description></description>
     </item>
     
