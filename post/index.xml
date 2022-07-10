@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 03 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>重学系鞋带</title>
+      <link>https://www.xianmin.org/post/2022/04-relearn-to-tie-your-laces/</link>
+      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2022/04-relearn-to-tie-your-laces/</guid>
+      <description>有段时间我上山徒步比较频繁，当时有一件小事让我印象深刻： 似乎每一次上山的途中，我的鞋带都会至少散开一次。鞋带散了，重新系上就是了，无非弯下腰</description>
+    </item>
+    
     <item>
       <title>2022 年中小记：远程工作四个月</title>
       <link>https://www.xianmin.org/post/2022/03-join-mathcrowd/</link>
@@ -302,29 +311,6 @@
       
       <guid>https://www.xianmin.org/post/review-2019-07/</guid>
       <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>英语学习总结（2019年上半年）</title>
-      <link>https://www.xianmin.org/post/review-english-201906/</link>
-      <pubDate>Thu, 04 Jul 2019 09:12:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/review-english-201906/</guid>
-      <description>&lt;p&gt;自去年 9 月，重启英语学习，下定决心这一次好好将英语提升一个台阶，至今已经过去 9 个月了。现在回顾，和 9 个月前相比，我的英语水平有所进步吗？说实话，进步不明显（即没有进步）。至少从词汇量而言，我记得当时测试是接近 6000 的词汇量，而这次测试和那次差不多，基本没多大变化。而我这 9 个月，可是花费了不少时间背单词的，至今背了有近 4000 个。词汇量没有变化，也许是大部分背过的都忘记了。我开始怀疑自己所付出的时间和精力是否值得。&lt;/p&gt;
-&lt;p&gt;这次总结回顾是有必要的，否则我可能一直在做无用功，并且满足于自己所付出的那一丁点儿看似的努力。&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/review-english-201906.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/review-english-201906.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;2019 年 6 月，词汇量测试&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;</description>
     </item>
     
   </channel>
