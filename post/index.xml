@@ -6,7 +6,17 @@
     <description>Recent content in Posts on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 10 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小技巧 debug 网页 css overflow ，避免出现底部滚动条</title>
+      <link>https://www.xianmin.org/post/2022/05-debug-css-x-overflow/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2022/05-debug-css-x-overflow/</guid>
+      <description>&lt;p&gt;一般而言，绝大多数网页都是纵向滚动的，很少有横向滚动的网页。如果一个正常纵向滚动的网页，在浏览器的底部出现了滚动条，是因为这个网页的宽度超出了屏幕宽度。这种情况很多时候并非网站设计者的初衷，而是由于写错了 css 样式。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://qa.mathcrowd.cn/challenges&#34;&gt;趣味数学题 - 橘子数学社区 - 趣题挑战&lt;/a&gt; 原本有这个问题，之后被我解决了。一开始的解决方法比较笨，就是用 Chrome 的开发者工具，一个一个检查元素，看看是哪个元素溢出了。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>重学系鞋带</title>
       <link>https://www.xianmin.org/post/2022/04-relearn-to-tie-your-laces/</link>
@@ -303,15 +313,6 @@
 &lt;/ul&gt;
 &lt;p&gt;如果早个 10 年上这门课，那收获肯定是非常大的。课程中提到的大部分内容，在这些年的阅读中都有接触到。&lt;/p&gt;
 &lt;p&gt;课程的一大特点是运用了大量的图片隐喻，便于理解和加深印象。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>记录： 2019 年 8 月 - Listen To This</title>
-      <link>https://www.xianmin.org/post/review-2019-07/</link>
-      <pubDate>Sun, 01 Sep 2019 10:30:52 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/review-2019-07/</guid>
-      <description>&lt;p&gt;这里记录过去一个月，我个人的总结与回顾。&lt;/p&gt;</description>
     </item>
     
   </channel>

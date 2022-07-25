@@ -6,7 +6,17 @@
     <description>Recent content in 计算机 on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 03 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小技巧 debug 网页 css overflow ，避免出现底部滚动条</title>
+      <link>https://www.xianmin.org/post/2022/05-debug-css-x-overflow/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2022/05-debug-css-x-overflow/</guid>
+      <description>&lt;p&gt;一般而言，绝大多数网页都是纵向滚动的，很少有横向滚动的网页。如果一个正常纵向滚动的网页，在浏览器的底部出现了滚动条，是因为这个网页的宽度超出了屏幕宽度。这种情况很多时候并非网站设计者的初衷，而是由于写错了 css 样式。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://qa.mathcrowd.cn/challenges&#34;&gt;趣味数学题 - 橘子数学社区 - 趣题挑战&lt;/a&gt; 原本有这个问题，之后被我解决了。一开始的解决方法比较笨，就是用 Chrome 的开发者工具，一个一个检查元素，看看是哪个元素溢出了。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>2022 年中小记：远程工作四个月</title>
       <link>https://www.xianmin.org/post/2022/03-join-mathcrowd/</link>
