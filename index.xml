@@ -6,10 +6,444 @@
     <description>Recent content on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 25 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Aug 2022 22:15:10 +0800</lastBuildDate>
     
         <atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我的英语词汇量（ 2022 年 8 月 ）</title>
+      <link>https://www.xianmin.org/post/2022/08-review-english-2022-08/</link>
+      <pubDate>Mon, 29 Aug 2022 22:15:10 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2022/08-review-english-2022-08/</guid>
+      
+        <description>&lt;p&gt;上一次测试词汇量是在 &lt;a href=&#34;https://www.xianmin.org/post/review-english-202005/&#34;&gt;2020 年 5 月&lt;/a&gt; ，当时的词汇量大约是 7420 。今天突然想起来好久没测了，随手测了一下，这次测出的词汇量大约是 7810 ，跟两年前相比基本没有太大的变化。这是符合预期的，这两年我就没有在英语上下过工夫，没有退步就不错了。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/review-english-2022-08-28.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/other/review-english-2022-08-28.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;2022 年 8 月，词汇量测试&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;打开 &lt;a href=&#34;https://testyourvocab.com&#34;&gt;https://testyourvocab.com&lt;/a&gt; 网站，自动跳转到了 &lt;a href=&#34;https://preply.com/en/learn/english/test-your-vocab&#34;&gt;https://preply.com/en/learn/english/test-your-vocab&lt;/a&gt; ，估计是被收购了，不过测试内容应该没有变化。&lt;/p&gt;
+&lt;p&gt;测试的好处是可以提醒自己依然有很大的提升空间，这两年在英语学习上真的是有些懈怠了。我的英语学习目标：能够无障碍阅读英文书。这个目标都说了好几年了，唉，实在是羞愧啊。学习方法目前无需调整， &lt;strong&gt;关键是每天都要抽出一个小时阅读英文，并且用半个小时复习前一天查过的生词短语。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;多说无益，到今年年底还有 4 个月，年底的时候再做总结。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>熟悉一套快捷键，提升文本编辑效率</title>
+      <link>https://www.xianmin.org/post/2022/07-familiar-one-keybinding-style/</link>
+      <pubDate>Mon, 29 Aug 2022 22:10:10 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2022/07-familiar-one-keybinding-style/</guid>
+      
+        <description>&lt;p&gt;今年由于工作需要，我将自己的常用操作系统从 Linux 换成了 Win10 。切换到 Win10 后，原本的 Emacs 配置无法正常工作了，我也懒的继续折腾配置，本来用 Emacs 也就是记笔记、写日记之类的文本编辑工作，写代码基本都是用 VScode 。现在 VScode 已经非常好用了，干脆把所有编辑文本的工作都交给 VScode 吧。&lt;/p&gt;
+&lt;p&gt;使用 Emacs 让我受益最大的，就是它的快捷键操作方式。比如 &lt;code&gt;Ctrl-a&lt;/code&gt; 将光标移到行首， &lt;code&gt;Ctrl-e&lt;/code&gt; 移到行尾等等，就不一一列举了。我也曾用过 Vim ，但是它的操作方式我怎么都不适应（用 Vimium 浏览网页还是挺舒服的），因为它编辑的时候要进入「Insert-mode」，然后还要解决切换输入法的问题，在中文输入的情况下无法进入「Insert-mode」。而使用 Emacs 大部分时候没有切换输入法的烦恼，它的快捷键都需要加上 &lt;code&gt;Ctrl&lt;/code&gt; 或 &lt;code&gt;Alt&lt;/code&gt; 前缀。&lt;/p&gt;
+&lt;p&gt;在 VSCode 上，安装这个扩展： &lt;a href=&#34;https://github.com/whitphx/vscode-emacs-mcx&#34;&gt;whitphx/vscode-emacs-mcx: Awesome Emacs Keymap - VSCode emacs keybinding with multi cursor support&lt;/a&gt; ，就能用上 Emacs 的按键操作方式了。&lt;/p&gt;
+&lt;p&gt;由于历史原因，部分 Emacs 快捷键与我们的日常使用习惯不一致，比如复制粘贴，大部分软件都是 &lt;code&gt;C-c&lt;/code&gt;、 &lt;code&gt;C-v&lt;/code&gt; ，而 Emacs 默认是 &lt;code&gt;M-w&lt;/code&gt; 、 &lt;code&gt;C-y&lt;/code&gt; 。对于这部分快捷键，我倾向于改为一致的操作，即都用 &lt;code&gt;C-c&lt;/code&gt;、 &lt;code&gt;C-v&lt;/code&gt; ，不要特殊化，省的弄混了。还有一些常用却不太好按、不太好记的快捷键，我都重新绑定了按键。&lt;/p&gt;
+&lt;p&gt;快捷键，应该既要好按，又要好记，这样才快捷。我整理了一下自己的常用快捷键，就当作是复习巩固吧。&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>我的 VSCode 快捷键</title>
+      <link>https://www.xianmin.org/post/2022/06-my-vscode-keybinding/</link>
+      <pubDate>Mon, 29 Aug 2022 22:06:10 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2022/06-my-vscode-keybinding/</guid>
+      
+        <description>&lt;h2 id=&#34;移动相关&#34;&gt;移动相关&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th&gt;补充&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-f&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;下一个字符&lt;/td&gt;
+&lt;td&gt;记忆： f - forward&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-b&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;上一个字符&lt;/td&gt;
+&lt;td&gt;记忆： b - backward&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-n&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;下一行&lt;/td&gt;
+&lt;td&gt;记忆： n - next&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-p&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;上一行&lt;/td&gt;
+&lt;td&gt;记忆： p - previous&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-a&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;行首&lt;/td&gt;
+&lt;td&gt;记忆： a - 第一个字母&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-e&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;行尾&lt;/td&gt;
+&lt;td&gt;记忆: e - end&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-f&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;下一个词&lt;/td&gt;
+&lt;td&gt;VSCode 中文断词设置，见附录A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-b&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;上一个词&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-M-f&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;上一段&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-M-b&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;下一段&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-M-a&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;页首&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-M-e&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;页尾&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th&gt;补充&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-l&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;将当前光标位置居于屏幕中间&lt;/td&gt;
+&lt;td&gt;常用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-1&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;上一个标签&lt;/td&gt;
+&lt;td&gt;使用 &lt;code&gt;Alt Tab&lt;/code&gt; 临近的几个键操作标签&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-2&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;下一个标签&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-3&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;后退&lt;/td&gt;
+&lt;td&gt;光标跳转到别处后，回退到之前的位置&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-4&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;前进&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-w&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;关闭标签&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-u&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;撤销关闭的标签&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-x C-b&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;快速跳转至已经打开的标签&lt;/td&gt;
+&lt;td&gt;记忆： b - buffer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-x C-f&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;快速打开文件&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-g&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;任何时候取消&lt;/td&gt;
+&lt;td&gt;emacs 默认&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;编辑相关&#34;&gt;编辑相关&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th&gt;补充&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-c&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;复制&lt;/td&gt;
+&lt;td&gt;与操作系统统一&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-v&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;粘贴&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-m&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;mark&lt;/td&gt;
+&lt;td&gt;默认是 &lt;code&gt;C-SPACE&lt;/code&gt; ，与切换输入法冲突&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-w&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;剪切&lt;/td&gt;
+&lt;td&gt;emacs 默认&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-k&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;删除当前行&lt;/td&gt;
+&lt;td&gt;记忆： k - kill&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-u&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;undo 撤销&lt;/td&gt;
+&lt;td&gt;记忆： u - undo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-M-u&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;redo&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;注释行&lt;/td&gt;
+&lt;td&gt;常用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;注释块&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-↑&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;将当前行上移&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-↓&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;将当前行下移&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-S-↑&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;将当前行向上复制&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-S-↓&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;将当前行向下复制&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-h&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;删除&lt;/td&gt;
+&lt;td&gt;同 &lt;code&gt;Backspace&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;F2&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;重命名&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-s&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;插入 snippets&lt;/td&gt;
+&lt;td&gt;记忆： s - snippet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-q&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;quick fix&lt;/td&gt;
+&lt;td&gt;常用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-q&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;折叠&lt;/td&gt;
+&lt;td&gt;常用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-M-↑&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;操作多光标，上移&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-M-↓&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;操作多光标，下移&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;按住鼠标中间选择&lt;/td&gt;
+&lt;td&gt;操作多光标&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Alt Click&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;增添多个光标&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;命令相关&#34;&gt;命令相关&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th&gt;补充&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-x&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;输入 Command&lt;/td&gt;
+&lt;td&gt;常用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-p&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;peek&lt;/td&gt;
+&lt;td&gt;默认 &lt;code&gt;S-F12&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-o&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;go to defienition&lt;/td&gt;
+&lt;td&gt;默认 &lt;code&gt;F12&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-t&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;go to Symbol （当前文件）&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-M-t&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;go to Symbol （全局）&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;窗口相关&#34;&gt;窗口相关&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th&gt;补充&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;`C-``&lt;/td&gt;
+&lt;td&gt;终端&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-S-f&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;搜索&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-S-e&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;文件列表&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;F11&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Zen Mode&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;S-F11&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;全屏&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-x C-n&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;新的窗口&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;附录a-word-seperator-for-chiense-中文标点断句&#34;&gt;附录A： Word seperator for Chiense (中文标点断句)&lt;/h2&gt;
+&lt;p&gt;在 VSCode 中修改如下 setting ：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&amp;#34;editor.wordSeparators&amp;#34;: &amp;#34;`~!@#$%^&amp;amp;*()-=+[{]}\\|;:&amp;#39;\&amp;#34;,.&amp;lt;&amp;gt;/?、，。？！“”‘’；：（）「」【】〔〕『』〖〗&amp;#34;,
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;附录b-我的全局快捷键&#34;&gt;附录B： 我的全局快捷键&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th&gt;补充&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;M-a&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;微信截图&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-M-c&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;CopyQ 剪切板&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;PrtSc&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;ShareX 截图&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-PrtSc&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;选择矩形区域截图&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;C-M-q&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;ShareX 取色&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+      
+    </item>
     
     <item>
       <title>小技巧 debug 网页 css overflow ，避免出现底部滚动条</title>
@@ -919,468 +1353,6 @@ and so on...
 &lt;/ul&gt;
 &lt;p&gt;Searx 的功能十分丰富，关于它更多的玩法，各位自行去挖掘吧。&lt;/p&gt;
 &lt;p&gt;最后，再补充一个国内版本： &lt;a href=&#34;https://mijisou.com/&#34;&gt;秘迹搜索&lt;/a&gt; ，这个站点在国内是有备案的。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>别了，2019！</title>
-      <link>https://www.xianmin.org/post/goodbye-2019/</link>
-      <pubDate>Tue, 21 Jan 2020 14:57:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/goodbye-2019/</guid>
-      
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/goodbye-2019.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/goodbye-2019.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;11 月的梅里&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;2019 年的年终总结来的比往年晚了一些，最近完全没有想做总结的冲动。如果写这篇总结的过程让自己不愉快，那还不如不写，对吧。可不做总结吧，反而内心有点儿愧疚，还是写下来吧。生命只有一次， 19 年也只有一次，还是要活得有意思吧，别人看着有意思，那是别人的事，关键得自己觉得有意思。很多事情，错过了也就错过了。&lt;/p&gt;
-&lt;p&gt;回顾起来，相比 18 年， 19 年就平淡了许多。&lt;/p&gt;
-&lt;p&gt;按照惯例，总结依然分为四大类：修行、工作、锻炼、学习。&lt;/p&gt;
-&lt;h2 id=&#34;关于修行&#34;&gt;关于修行&lt;/h2&gt;
-&lt;p&gt;今年比较特殊的是个人的情感经历，这方面的内容不适合公开，就不放在博客上了。这或许也是为什么发布在博客上的「每月记录」中断了的原因吧，太私人的文字公开了，总觉得不舒服。&lt;/p&gt;
-&lt;p&gt;今年最大的变化，是酒喝的少了。实践证明，我对酒精并没有很严重的依赖，只是一种习惯而已。过去习惯开怀畅饮、不醉不休，现在换成习惯小酌两杯、点到为止。至少对个人的身体而言，这是好的变化。难免有点儿唏嘘的是，似乎也因此少了些激情。我还拥有激情吗？难道我的激情必须通过酒精来激发吗？我是因为激情而饮酒呢？还是因为饮酒而激情呢？&lt;/p&gt;
-&lt;p&gt;最近的一个启发： &lt;strong&gt;按「可能的自己」去做事。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;什么是「可能的自己」呢？比如，想象一下，我所敬佩的人是怎样生活的。按时睡觉，按时起床。每天都有规划，每天都有记录，每天都保持积极的心态。不被动的去看手机推送的信息。对人和善并保持微笑。&lt;/p&gt;
-&lt;p&gt;那个「可能的自己」，实际上就是自己，不必多想，直接去做吧。&lt;/p&gt;
-&lt;h2 id=&#34;关于工作&#34;&gt;关于工作&lt;/h2&gt;
-&lt;p&gt;旅舍的工作还是比较稳定，至少在营业额的数字上，比 18 年要高一些。&lt;/p&gt;
-&lt;p&gt;依然要时常反省。&lt;/p&gt;
-&lt;h2 id=&#34;关于锻炼&#34;&gt;关于锻炼&lt;/h2&gt;
-&lt;p&gt;19 年锻炼的比较频繁，越来越能体会到锻炼给身体带来的益处。这一年连感冒都没有，颈部、腰部也都没有任何问题。回想起来，颈部、腰部出现问题，都是长期的不良习惯积累造成的，身体的病症不是一天形成的。&lt;/p&gt;
-&lt;p&gt;我还想到了 80 岁继续登山呢，到了 80 依然工作、为身边人服务，甚至到了 80 岁还照样把酒言欢呢。要坚持锻炼，形成习惯，锻炼这件事就跟睡觉、吃饭一样，不必刻意去做。健康的生命就应该多运动。&lt;/p&gt;
-&lt;p&gt;目前的转变是：慢跑、站桩、登山，交替进行。偶尔骑行。&lt;/p&gt;
-&lt;h2 id=&#34;关于学习&#34;&gt;关于学习&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;还是要增强自己的核心技能。&lt;/strong&gt; 不要有杂念，稳稳的向前。多向他人学习。&lt;/p&gt;
-&lt;p&gt;今年的输出不能让人满意，感谢至今还有关注这个博客的朋友。我还得继续努力啊！&lt;/p&gt;
-&lt;h2 id=&#34;不畏风雨&#34;&gt;不畏风雨&lt;/h2&gt;
-&lt;p&gt;以一首诗结束吧。祝福我的朋友，还有看到这儿的你，新的一年依然不畏风雨！新年快乐！&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;《不畏风雨》
-作者： [日]宫泽贤治
-
-不畏大雨，不畏狂风
-不畏冬雪与酷暑
-我身强健，我心无欲，不惧不怒
-无论何时，静静微笑
-日食四合粳米
-味噌与蔬菜少许
-所有一切，不以物喜，不以己悲
-洞悉世事，铭记于心
-
-原野松林庇荫处
-寄居赋闲茅草屋
-东方孩童病痛
-我自前去诊治
-西方老妪艰辛
-我便帮其劳作
-南方有人将死
-我去劝慰安抚
-北方兵戈四起
-我来化解干戈
-
-孤独时拭干眼泪
-寒暑交替何所去
-人常道我无情
-没有掌声不识艰辛
-如此这般我之所愿
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>我的 2019 年阅读总结</title>
-      <link>https://www.xianmin.org/post/review-read-2019/</link>
-      <pubDate>Wed, 08 Jan 2020 08:32:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/review-read-2019/</guid>
-      
-        <description>&lt;p&gt;回顾 2019 年的阅读，数量上不算少，只是用在「经典」上的时间太少了。很多闲书、杂书翻翻即可。希望在新的一年：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;只关注那 10% 的精品。&lt;/li&gt;
-&lt;li&gt;预留更多的时间思考，做笔记。&lt;/li&gt;
-&lt;li&gt;不重要的书，写下简短的摘要即可。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;往年回顾：&lt;a href=&#34;https://www.xianmin.org/post/2018-read/&#34;&gt;我的 2018 年阅读总结&lt;/a&gt;　。&lt;/p&gt;
-&lt;p&gt;以下是我在 2019 年读过的好书。&lt;/p&gt;
-&lt;h2 id=&#34;人生模式-杰作&#34;&gt;《人生模式》 - 杰作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/34803015/&#34;&gt;人生模式 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;今年，终于等到了阳老师出的第一本书——《人生模式》，这是他过去几年的文章合集，我基本都在网上看过了，此次拿到新书重读，却依然有所收获。&lt;/p&gt;
-&lt;p&gt;从阳老师的文章中，我学到了什么呢？我想了想，最重要的一点，是科学理性的态度吧。上网这些年，也知道了不少知识网红，却很少见像阳老师这样，不厌其烦的向年轻人劝告：要理性啊！要理性啊！（好好读读斯坦诺维奇的著作！）为什么？在网络上哗众取宠、收智商税的「网红骗子」太多了。&lt;/p&gt;
-&lt;p&gt;除此之外，阳老师告诫我们，要以历史长河中的智者为榜样，要对这个世界保持好奇心。他宣传认知科学的最新进展，从国外引进一本又一本杰作，列书单。推荐牛人，包括（斯坦诺维奇、芒格、西蒙、马奇等等），而这些名字，我在过去却从未听说。&lt;/p&gt;
-&lt;p&gt;阳老师在这本书中所提到的种种模式，是他在漫长的时间中思考的产物，参阅了大量的中外经典书籍，显然是很难用三言两语就能概括的，更难的是在短时间内内化为自己的认知系统，并加以运用。&lt;/p&gt;
-&lt;p&gt;由衷的感谢阳老师为教育事业所做的努力，启迪了一个又一个像我一样蒙昧无知的年轻人，毫不夸张的说，他是中国当代科学启蒙第一人。期待他再创佳作。&lt;/p&gt;
-&lt;h2 id=&#34;创新算法-杰作&#34;&gt;《创新算法》 - 杰作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/3354596/&#34;&gt;创新算法 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;创新也有规律吗？前苏联科学家、发明家阿奇舒勒，通过研究了 20 万项专利后，总结出了这套创新算法。书中的实例基本都是机械领域，读起来会有些吃力，但书中所提炼出的高阶思维模型，却是可以复用的。比如阳老师曾经提到的「人生的 STC 算子」这个概念，就来自《创新算法》，从空间、时间、成本的角度，论说了独特人生的可能性。&lt;/p&gt;
-&lt;p&gt;今年读的比较草率，需要再次重读。俄罗斯真是一个神奇的国家。&lt;/p&gt;
-&lt;h2 id=&#34;直觉泵和其他思考工具-杰作&#34;&gt;《直觉泵和其他思考工具》 - 杰作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/30340107/&#34;&gt;直觉泵和其他思考工具 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;我发现了聪明人都有一个共同点，就是他们有一套 「可复用的思考问题的方法」 。丹尼特称它们为「直觉泵」，与之相类似的，如芒格的「高阶思维模型」。 ——  &lt;a href=&#34;https://www.xianmin.org/post/mindtools/&#34;&gt;思维工具箱&lt;/a&gt; 。&lt;/p&gt;
-&lt;h2 id=&#34;自私的基因-杰作&#34;&gt;《自私的基因》 - 杰作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/30309613/&#34;&gt;自私的基因 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;经典。每十年都有增订。&lt;/p&gt;
-&lt;p&gt;道金斯（Richard Dawkins）把建立于自然选择基础上的社会学说的这一重要部分，第一次用简明通俗的形式介绍给大家。&lt;/p&gt;
-&lt;p&gt;我们都是生存机器——作为运载工具的机器人，其程序是盲目编制的，为的是永久保存所谓基因这种禀性自私的因子。&lt;/p&gt;
-&lt;h2 id=&#34;人类的演化-力作&#34;&gt;《人类的演化》 - 力作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/26834220/&#34;&gt;人类的演化 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;邓巴，「邓巴数字」提出者。在本书中，他主要以社会大脑假说和时间分配模型为工具，一步一步拼接出人类演化的完整图像。&lt;/p&gt;
-&lt;h2 id=&#34;情绪-杰作&#34;&gt;《情绪》 - 杰作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/30443490/&#34;&gt;情绪 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;巴瑞特教授在本书中介绍了「情绪」的方方面面，尤其是纠正了我们对「情绪」的传统认知。我真正感兴趣的是，怎样能够控制自己的情绪？&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;首先身体一定要健康，再次强调锻炼的重要性。&lt;/li&gt;
-&lt;li&gt;改变「内感受网络」。
-&lt;ol&gt;
-&lt;li&gt;自己要有信念去构建积极的情绪；&lt;/li&gt;
-&lt;li&gt;多经历、多体验新鲜事物，进而改变旧有的观念；&lt;/li&gt;
-&lt;li&gt;用类似冥想等方式，增强对某一种情绪的感知。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;提高情绪颗粒度。
-&lt;ol&gt;
-&lt;li&gt;学习更多的情绪词汇，并能准确运用。&lt;/li&gt;
-&lt;li&gt;模仿他人的情绪表现。这点书中没有提到，是我自己想到的。比如，《教父》里有一个情节一直让我印象深刻：迈克在医院门口守护他的父亲，在危难关头，他完美的诠释了什么是镇定自若。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;亲密关系-杰作&#34;&gt;《亲密关系》 - 杰作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/26585065/&#34;&gt;亲密关系（第6版） (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;一本很好的分析亲密关系的书，大量的统计数据，科学论据充分，给的建议也很好。只是，对应到现实中真正的情感问题上，想要在本书中得到应对措施，估计是很难的。社会、爱情、人性都太复杂了。&lt;/p&gt;
-&lt;h2 id=&#34;心流-最优体验心理学-力作&#34;&gt;《心流：最优体验心理学》 - 力作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/27186106/&#34;&gt;心流 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;阅读过程中发现「心流」和「正念」有共通的地方，比如书中提到的「心流的构成要素」：&lt;/p&gt;
-&lt;p&gt;首先，这种体验出现在我们面临一份可完成的工作时。
-其次，我们必须能够全神贯注于这件事情。
-第三和第四，这项任务有明确的目标和即时的反馈。
-第五，我们能深入而毫不牵强地投入到行动之中，日常生活的忧虑和沮丧都因此一扫而空。
-第六，充满乐趣的体验使人觉得能自由控制自己的行动。
-第七，进入“忘我”状态，但心流体验告一段落后，自我感觉又会变得强烈。
-第八，时间感会改变——几小时犹如几分钟，几分钟也可能变得像几小时那么漫长。&lt;/p&gt;
-&lt;h2 id=&#34;奇特的一生-力作&#34;&gt;《奇特的一生》 - 力作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/1115353/&#34;&gt;奇特的一生 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;除了时间统计法之外，他还有几条守则：&lt;/p&gt;
-&lt;p&gt;1.我不承担必须完成的任务；
-2.我不接受紧急的任务；
-3.一累马上停止工作去休息；
-4.睡得很多，10小时左右；
-5.把累人的工作同愉快的工作结合在一起。&lt;/p&gt;
-&lt;h2 id=&#34;怎样解题-力作&#34;&gt;《怎样解题》 - 力作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/6983584/&#34;&gt;怎样解题 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;我们解题时必须做的第一件事是理解题意：知己知彼，百战不殆。&lt;/li&gt;
-&lt;li&gt;制定一个计划，想出一个适合行动的思路，这是求解中的主要成就。&lt;/li&gt;
-&lt;li&gt;我们应当在正确的时候开始实现计划，即在方案成熟的时候，才开始执行，而不要提前。&lt;/li&gt;
-&lt;li&gt;回顾所完成的解是工作中一个重要而有启发性的阶段：温故而知新。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;简而言之：理解题目 - 找到思路 - 执行方案 - 回顾反思。&lt;/p&gt;
-&lt;h2 id=&#34;当下的启蒙-力作&#34;&gt;《当下的启蒙》 - 力作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/30376593/&#34;&gt;当下的启蒙 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;本书的副标题为：「为理性、科学、人文主义和进步辩护」。&lt;/p&gt;
-&lt;p&gt;信息量非常大（有相当丰富的注释和参考资料），涉及了当今世界方方面面的议题。用大量的图表和数据告诉我们：世界在变好。并且再次宣扬了启蒙运动的四大理念（理性、科学、人文主义和进步），它们会让世界变得更好。&lt;/p&gt;
-&lt;p&gt;在我看来，本书最有价值的地方在于：弘扬理性的精神和科学的态度，承认自己的无知，凡事不要妄下判断。一个很简单的例子：我们绝大多数人并不知道「拉链的原理是什么」，尽管我们每天都在使用它。&lt;/p&gt;
-&lt;h2 id=&#34;西方正典-力作&#34;&gt;《西方正典》 - 力作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/1331454/&#34;&gt;西方正典 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;这本书给我最大的收获是作者在结尾附上的书单，极大的开阔了我的眼界，原来还有那么多的好书没听说过。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;英文列表： &lt;a href=&#34;http://www.interleaves.org/~rteeter/grtbloom.html&#34;&gt;Bloom. Western Canon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;中文列表： &lt;a href=&#34;https://www.douban.com/group/topic/119992648/&#34;&gt;&amp;lt;书&amp;gt;《西方正典》附录书单&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;豆瓣豆列：
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.douban.com/doulist/24588/&#34;&gt;哈罗德.布鲁姆：《西方正典》附录——经典书目 （神权时代）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.douban.com/doulist/24602/&#34;&gt;哈罗德.布鲁姆：《西方正典》附录——经典书目 （贵族时代）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.douban.com/doulist/24629/&#34;&gt;哈罗德.布鲁姆：《西方正典》附录——经典书目 （民主时代）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.douban.com/doulist/24769/&#34;&gt;哈罗德.布鲁姆：《西方正典》附录——经典书目 （混乱时代：预言经典）【上】&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;八戒说禅-力作&#34;&gt;《八戒说禅》 - 力作&lt;/h2&gt;
-&lt;p&gt;链接：  &lt;a href=&#34;https://book.douban.com/subject/3191679/&#34;&gt;八戒说禅 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;在豆瓣动态里意外发现的一本书，意外发现了「熊逸」这位作者。关于熊逸此人，网络上能找到的资料极其有限。《八戒说禅》是用科学方法研读佛教经典《六祖坛经》的一本普及读物。作者学贯中西，知识面广，擅于描述、梳理和分析，他这种解读传统文化经典的方式，在国内的出版物中极为少见。&lt;/p&gt;
-&lt;h2 id=&#34;阿桑奇自传-力作&#34;&gt;《阿桑奇自传》 - 力作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/24845545/&#34;&gt;阿桑奇自传 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;就在今年， 2019 年 4 月 11 日，阿桑奇被捕，一位终生为了自由而斗争的战士，失去了他最后的自由。关于政治，我不知道该说什么。但他作为一个坚守信念、不畏强权的个体，令我由衷敬佩。愿他一切安好。&lt;/p&gt;
-&lt;h2 id=&#34;不安之书-力作&#34;&gt;《不安之书》 - 力作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/25847717/&#34;&gt;不安之书 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;一个普通人，在一个房间里，沉浸在文字中，思考着整个世界。物质也许会限制肉体的行动，却无法限制想象力，以及思考的能力。&lt;/p&gt;
-&lt;h2 id=&#34;陀思妥耶夫斯基-书信选-力作&#34;&gt;《陀思妥耶夫斯基 - 书信选》 - 力作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/2350899/&#34;&gt;陀思妥耶夫斯基 - 书信选 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;人不单靠面包活着。人生啊，就是充斥着各种各样的痛苦。&lt;/p&gt;
-&lt;p&gt;写作，要常常修改，不断地修改。&lt;/p&gt;
-&lt;p&gt;疾病、贫穷，不断困扰着他。&lt;/p&gt;
-&lt;p&gt;赌博，人性的弱点。他既没钱，又去赌博，可不管怎么说，还算是一个体面的人。从他有资本可以去各个国家旅游，那至少也算是社会中的中上层人士了。他有杰出的写作才能。&lt;/p&gt;
-&lt;h2 id=&#34;白痴-力作&#34;&gt;《白痴》 - 力作&lt;/h2&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/3274502/&#34;&gt;白痴 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;今年读的为数不多的一本文学著作。很是喜欢，爱不释手。好久没看文学著作了，也好久没有进入如此痴迷的阅读状态了。我发现一点，一本书如果看不下去，那就没必要强求。没必要定死板的目标，一天看多少页，读多长时间，这样完全享受不到阅读的乐趣。喜欢的书，自然而然会吸引你，催促着你读完它。&lt;/p&gt;
-&lt;h2 id=&#34;英文原著&#34;&gt;英文原著&lt;/h2&gt;
-&lt;h3 id=&#34;what-do-you-care-what-other-people-think-力作&#34;&gt;What Do You Care What Other People Think? - 力作&lt;/h3&gt;
-&lt;p&gt;链接：  &lt;a href=&#34;https://www.goodreads.com/book/show/35167718-what-do-you-care-what-other-people-think&#34;&gt;&amp;ldquo;What Do You Care What Other People Think?&amp;rdquo; by Richard P. Feynman | Goodreads&lt;/a&gt; 。
-中文译本： &lt;a href=&#34;https://book.douban.com/subject/1053174/&#34;&gt;你干吗在乎别人怎么想？ (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;2015 年（豆瓣标记的时间）就读过费曼的这两本自传的中文译本，《你干吗在乎别人怎么想？》，和下一本《别逗了，费曼先生》。今年重读，看的是英文原著，似乎是在意料之中，英文很好读，非常符合费曼的风格：用简单易懂的语言把道理讲清楚，同时又不失趣味。&lt;/p&gt;
-&lt;p&gt;费曼给我的激励是：我们所生活的世界充满了各种各样探索的乐趣。&lt;/p&gt;
-&lt;p&gt;以下是部分摘录：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Everything he read to me he would translate as best he could into some reality.&lt;/li&gt;
-&lt;li&gt;Everything I read I try to figure out what it really means, what it’s really saying.&lt;/li&gt;
-&lt;li&gt;the difference between knowing the name of something and knowing something.&lt;/li&gt;
-&lt;li&gt;have no respect whatsoever for authority; forget who said it and instead look at what he starts with, where he ends up, and ask yourself, “Is it reasonable?”&lt;/li&gt;
-&lt;li&gt;It’s the only way I know to get technical information quickly: you don’t just sit there while they go through what they think would be interesting; instead, you ask a lot of questions, you get quick answers, and soon you begin to understand the circumstances and learn just what to ask to get the next piece of information you need.&lt;/li&gt;
-&lt;li&gt;The only way to have real success in science, the field I’m familiar with, is to describe the evidence very carefully without regard to the way you feel it should be. If you have a theory, you must try to explain what’s good and what’s bad about it equally. In science, you learn a kind of standard integrity and honesty.&lt;/li&gt;
-&lt;li&gt;To every man is given the key to the gates of heaven; the same key opens the gates of hell.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;surely-you-re-joking-mr-dot-feynman-力作&#34;&gt;Surely You’re Joking, Mr. Feynman - 力作&lt;/h3&gt;
-&lt;p&gt;中文译本： &lt;a href=&#34;https://book.douban.com/subject/1391772//&#34;&gt;别逗了，费曼先生 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;h3 id=&#34;and-then-there-were-none&#34;&gt;And Then There Were None&lt;/h3&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://www.goodreads.com/book/show/16299.And%5FThen%5FThere%5FWere%5FNone&#34;&gt;And Then There Were None by Agatha Christie | Goodreads&lt;/a&gt; 。
-中文译本： &lt;a href=&#34;https://book.douban.com/subject/3006581/&#34;&gt;无人生还 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;很早就听说过阿加莎，这一部似乎是她比较知名的著作，但是自己对此类题材并没有多少感觉。&lt;/p&gt;
-&lt;h3 id=&#34;learning-how-to-learn-力作&#34;&gt;Learning How to Learn - 力作&lt;/h3&gt;
-&lt;p&gt;链接：  &lt;a href=&#34;https://www.goodreads.com/book/show/36647421-learning-how-to-learn&#34;&gt;Learning How to Learn - by Barbara Oakley | Goodreads&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;一点笔记： &lt;a href=&#34;https://www.xianmin.org/post/note-learning-how-to-learn/&#34;&gt;笔记：公开课 Learning How to Learn&lt;/a&gt; 。&lt;/p&gt;
-&lt;h2 id=&#34;上瘾&#34;&gt;上瘾&lt;/h2&gt;
-&lt;p&gt;我在 3 月份的总结中提到自己状态不佳，是因为那个月有差不多 10 天左右，再次沉迷于玩游戏。对于多次戒除网瘾的我而言，既感到懊恼又有些诧异。为什么我总是能够一次又一次的沉迷于游戏中无法自拔？网瘾，它就像一个精神鸦片，我完全无法自主的对它控制。戒除网瘾几年，我以为我已经没有网瘾了，想玩游戏的时候玩一玩，不想玩的时候随时都可以不玩。然而事实却并非如此，我居然又一头栽了进去，稍有空闲时间，就拿出手机玩游戏，从早玩到晚。并且，当我感到悔恨，在早上把游戏卸载之后，晚上又重新装上了。这么多年了，为什么还是如此？&lt;/p&gt;
-&lt;p&gt;当然，我又像从前那样，直到有一天实在无法忍受自己，痛下决心将游戏卸载，强迫自己转移注意力到其他方面。开始的几天会有些煎熬，过去差不多半个月，我才敢说，这游戏我再也不玩了。但是，残留的问题依然纠缠着我：&lt;/p&gt;
-&lt;p&gt;为什么我这么容易就会游戏上瘾？而似乎有的人不会？&lt;/p&gt;
-&lt;p&gt;为什么我戒除网瘾这么多次之后，依然容易上瘾？&lt;/p&gt;
-&lt;p&gt;怎样才能真正戒除网瘾？&lt;/p&gt;
-&lt;p&gt;也许只有知己知彼，才可能战胜敌人。带着问题，我查阅了几本书，尽管没有完全解决我心中的疑问，却也给了我额外的收获。&lt;/p&gt;
-&lt;h3 id=&#34;上瘾-可用的书&#34;&gt;《上瘾》 - 可用的书&lt;/h3&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/27030507/&#34;&gt;上瘾 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;那些好的产品是怎样一步一步让用户上瘾的？&lt;/p&gt;
-&lt;h3 id=&#34;游戏改变世界-力作&#34;&gt;《游戏改变世界》 - 力作&lt;/h3&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/10828002/&#34;&gt;游戏改变世界 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;结合了「心流」的概念。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;内在奖励的 4 大类型：&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;我们每一天都在渴望满意的工作。&lt;/li&gt;
-&lt;li&gt;我们渴望体验成功，至少也是希望成功。&lt;/li&gt;
-&lt;li&gt;我们渴望与社会建立联系。&lt;/li&gt;
-&lt;li&gt;我们渴望过得有意义，渴望成为超越自身的宏伟事业的一部分。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;为什么我们会上瘾-可用的书&#34;&gt;《为什么我们会上瘾》- 可用的书&lt;/h3&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/27080613/&#34;&gt;为什么我们会上瘾 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;h2 id=&#34;研究相关&#34;&gt;研究相关&lt;/h2&gt;
-&lt;p&gt;作为一个没受过高等教育以及学术训练的青年，却又对知识有着由衷的热爱，我很好奇真正的研究学者是怎样做研究的。&lt;/p&gt;
-&lt;h3 id=&#34;研究是一门艺术-杰作&#34;&gt;《研究是一门艺术》 - 杰作&lt;/h3&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/4035330/&#34;&gt;研究是一门艺术 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;「研究」并非只是学者专属。 &lt;strong&gt;「广义来说，其实每个人都在做研究：我们都在搜集资料，回答问题以解决难题。」&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;本书是美国芝加哥大学的三位老教授的合著，不仅仅只讲研究，还对写作做了详细的指导。&lt;/p&gt;
-&lt;h3 id=&#34;研究生完全求生手冊-力作&#34;&gt;《研究生完全求生手冊》 - 力作&lt;/h3&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/27108502/&#34;&gt;研究生完全求生手冊 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;讲了研究人员具体的研究方法与策略。&lt;/p&gt;
-&lt;h3 id=&#34;致青年学者-力作&#34;&gt;《致青年学者》 - 力作&lt;/h3&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/4247329/&#34;&gt;致青年学者 (豆瓣)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;一位前辈的忠告与鼓励。&lt;/p&gt;
-&lt;h2 id=&#34;两本教材&#34;&gt;两本教材&lt;/h2&gt;
-&lt;h3 id=&#34;listen-to-this-力作&#34;&gt;《Listen To This》 - 力作&lt;/h3&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/1067818/&#34;&gt;英语初级听力 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;一位朋友推荐的英语教材，的确很不错，体现了名校、名出版社在资源整合上具有的优势。除了部分选题稍显勉强，配音、选材无可挑剔。&lt;/p&gt;
-&lt;p&gt;值得一提的是，这套教材在孔夫子上购买只需几元钱。一点记录： &lt;a href=&#34;https://www.xianmin.org/post/review-2019-07/&#34;&gt;记录： 2019 年 8 月 - Listen To This&lt;/a&gt; 。&lt;/p&gt;
-&lt;h3 id=&#34;线性代数及其应用-力作&#34;&gt;《线性代数及其应用》 - 力作&lt;/h3&gt;
-&lt;p&gt;链接： &lt;a href=&#34;https://book.douban.com/subject/1425950/&#34;&gt;线性代数及其应用 (豆瓣)&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;没看过国内的线代教材，直接看的这本。一开始看的是英文，有点儿吃力，之后买了中文译本对照着看。题目丰富，并附有参考答案。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>十月是登山的季节</title>
-      <link>https://www.xianmin.org/post/review-2019-10/</link>
-      <pubDate>Fri, 29 Nov 2019 06:55:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/review-2019-10/</guid>
-      
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2019/10/00.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2019/10/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;有一段时间没在博客上发表内容了，每每想动笔写点什么的时候，琐事便纷至沓来，即便真的有点儿空闲了，又不知从何说起。 &lt;strong&gt;近期最大的变化是，锻炼频繁了。&lt;/strong&gt; 爬了很多次山，也许比过去两年爬山的总次数还多。还有就是 &lt;strong&gt;重新开始跑步&lt;/strong&gt; 。说起这个变化，就不得不提 Judith 了。&lt;/p&gt;
-&lt;p&gt;Judith 是一位来自德国的科学家，名字的英文念作「朱蒂斯」，但是她更喜欢德文的念法——「尤蒂特」，这是我后来才知道的。她在玉龙雪山上研究植物，这几个月她多次下榻我们旅舍，我也得以与她相识。她不喜社交，热衷于工作，早出晚归，最初的俩月我们并没有多少交流。直至中秋，她的团队放假，她与我们共进晚餐，我们才有了更多的了解，算是老朋友了。她孤身一人来到中国，是她第一次到一个陌生的东方国度。&lt;/p&gt;
-&lt;p&gt;相熟之后，她邀请我一起登山。我最初只是想熟悉一下登山线路，却也因此激发了我压抑许久的徒步热情。啊，似乎有一阵子没有爬山了。与她一起爬山，完全是另外一种体验，因为我只能勉强跟上她的步伐，要知道，我可是已经在云南生活好几年了。我问她，是如何拥有这么出色的体能？她说，长期坚持锻炼，她已经坚持了十多年，这是她生活的一部分。她同时还是一位越野跑爱好者，最长跑过 114 公里。不得不说我是无比讶异的，一位科研工作者，同时还是一位运动健将。联想到平日我对自己的懈怠，突然感到惭愧。同她一起上了几次雪山，从 2700 的海拔爬升至 4000 左右。顺便给她帮点小忙，荣幸的充当了几回「植物研究助理」，这对我而言，也是难得的体验。&lt;/p&gt;
-&lt;p&gt;在这之后，受其影响，我重新找回了对户外运动的热情，在旅舍发起活动，每周六徒步登山，带了几次小团队，相当愉快。并且，我重新开始跑步，一股莫名的力量油然而生。这或许就是「目标感染力」的作用吧，当一个人在追逐一个目标的时候，它同时也会影响到旁人。&lt;/p&gt;
-&lt;p&gt;（初稿完成于 2019 年 11 月 5 日凌晨 4 点。 11 月 29 日又是凌晨 4 点醒来，稍作修改，发至博客。一篇迟到的博文。）&lt;/p&gt;
-
-
-
-&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
-    
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/memory/2019/10/01.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2019/10/01.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2019/10/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;高山之巅&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/memory/2019/10/02.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2019/10/02.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2019/10/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;风雨欲来&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/memory/2019/10/03.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2019/10/03.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2019/10/03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;高山上的牦牛&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/memory/2019/10/04.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2019/10/04.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2019/10/04.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;湖光山色&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/memory/2019/10/05.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2019/10/05.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2019/10/05.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;迎着朝阳奔跑&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/memory/2019/10/06.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2019/10/06.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2019/10/06.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;朝阳&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/memory/2019/10/07.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2019/10/07.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2019/10/07.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;上山捡松果&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/memory/2019/10/08.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2019/10/08.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2019/10/08.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;炫目的阳光&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/image/memory/2019/10/09.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2019/10/09.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2019/10/09.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;一次跑步记录&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-&lt;/div&gt;</description>
       
     </item>
     
