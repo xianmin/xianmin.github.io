@@ -33,7 +33,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.81.0" />
+<meta name="generator" content="Hugo 0.99.1" />
 
 
 <link rel="canonical" href="https://www.xianmin.org/post/hugo-shortcode-douban-item/" />
@@ -54,7 +54,9 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.9c3f74785689e1d6a69411345ec9043a190655c87d7a44093b74089785613cae.css" integrity="sha256-nD90eFaJ4damlBE0XskEOhkGVch9ekQJO3QIl4VhPK4=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.6aa088348d86326ca4be4205ae9973752a42b2e758c2f5f879a69172441859c9.css" integrity="sha256-aqCINI2GMmykvkIFrplzdSpCsudYwvX4eaaRckQYWck=" media="screen" crossorigin="anonymous">
+
+
 
 
 
@@ -75,8 +77,8 @@
 代码来源： Bitcron 文章内插入豆瓣条目 - 林小沐" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.xianmin.org/post/hugo-shortcode-douban-item/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2018-05-25T15:20:00&#43;08:00" />
-<meta property="article:modified_time" content="2018-07-30T20:27:46&#43;08:00" />
+<meta property="article:published_time" content="2018-05-25T15:20:00+08:00" />
+<meta property="article:modified_time" content="2018-07-30T20:27:46+08:00" />
 
 <meta itemprop="name" content="为 hugo 站点插入豆瓣条目的 shortcode">
 <meta itemprop="description" content="最终效果：
@@ -88,9 +90,9 @@
   
 
 
-代码来源： Bitcron 文章内插入豆瓣条目 - 林小沐"><meta itemprop="datePublished" content="2018-05-25T15:20:00&#43;08:00" />
-<meta itemprop="dateModified" content="2018-07-30T20:27:46&#43;08:00" />
-<meta itemprop="wordCount" content="1040">
+代码来源： Bitcron 文章内插入豆瓣条目 - 林小沐"><meta itemprop="datePublished" content="2018-05-25T15:20:00+08:00" />
+<meta itemprop="dateModified" content="2018-07-30T20:27:46+08:00" />
+<meta itemprop="wordCount" content="1039">
 <meta itemprop="keywords" content="hugo,豆瓣," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="为 hugo 站点插入豆瓣条目的 shortcode"/>
 <meta name="twitter:description" content="最终效果：
@@ -419,7 +421,7 @@ if (!doNotTrack) {
   </header>
 
   <div id="mobile-panel">
-    <main id="main" class="main bg-llight">
+    <main id="main" class="main bg-llight wallpaper">
       <div class="content-wrapper">
         <div id="content" class="content container">
           <article class="post bg-white">
@@ -476,411 +478,411 @@ if (!doNotTrack) {
 <p>代码来源： <a href="https://immmmm.com/bitcron-show-douban-item">Bitcron 文章内插入豆瓣条目 - 林小沐</a></p>
 <h2 id="添加-douban-shortcode">添加 douban shortcode</h2>
 <p>创建文件 <code>/layouts/shortcodes/douban.html</code> ，代码如下：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-3">3</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;douban_show&#34;</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;db{{ .Get 0 }}&#34;</span> <span class="na">date-dbid</span><span class="o">=</span><span class="s">&#34;{{ .Get 0 }}&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;douban_item post-preview&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</code></pre></td></tr></table>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#062873;font-weight:bold">div</span> <span style="color:#4070a0">class</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;douban_show&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#062873;font-weight:bold">div</span> <span style="color:#4070a0">id</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;db{{ .Get 0 }}&#34;</span> <span style="color:#4070a0">date-dbid</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;{{ .Get 0 }}&#34;</span> <span style="color:#4070a0">class</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;douban_item post-preview&#34;</span>&gt;&lt;/<span style="color:#062873;font-weight:bold">div</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#062873;font-weight:bold">div</span>&gt;
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="添加-js">添加 js</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span><span class="lnt">42
-</span><span class="lnt">43
-</span><span class="lnt">44
-</span><span class="lnt">45
-</span><span class="lnt">46
-</span><span class="lnt">47
-</span><span class="lnt">48
-</span><span class="lnt">49
-</span><span class="lnt">50
-</span><span class="lnt">51
-</span><span class="lnt">52
-</span><span class="lnt">53
-</span><span class="lnt">54
-</span><span class="lnt">55
-</span><span class="lnt">56
-</span><span class="lnt">57
-</span><span class="lnt">58
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-2"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-3"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-4"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-5"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-6"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-7"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-8"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-9"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-10"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-11"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-11">11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-12"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-12">12</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-13"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-13">13</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-14"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-14">14</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-15"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-15">15</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-16"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-16">16</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-17"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-17">17</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-18"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-18">18</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-19"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-19">19</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-20"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-20">20</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-21"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-21">21</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-22"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-22">22</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-23"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-23">23</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-24"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-24">24</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-25"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-25">25</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-26"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-26">26</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-27"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-27">27</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-28"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-28">28</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-29"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-29">29</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-30"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-30">30</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-31"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-31">31</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-32"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-32">32</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-33"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-33">33</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-34"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-34">34</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-35"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-35">35</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-36"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-36">36</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-37"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-37">37</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-38"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-38">38</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-39"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-39">39</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-40"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-40">40</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-41"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-41">41</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-42"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-42">42</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-43"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-43">43</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-44"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-44">44</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-45"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-45">45</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-46"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-46">46</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-47"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-47">47</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-48"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-48">48</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-49"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-49">49</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-50"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-50">50</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-51"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-51">51</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-52"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-52">52</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-53"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-53">53</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-54"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-54">54</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-55"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-55">55</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-56"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-56">56</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-57"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-57">57</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-58"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-58">58</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.douban_item&#39;</span><span class="p">).</span><span class="nx">each</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">id</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;date-dbid&#39;</span><span class="p">).</span><span class="nx">toString</span><span class="p">();</span>
-        <span class="k">if</span> <span class="p">(</span><span class="nx">id</span><span class="p">.</span><span class="nx">length</span> <span class="o">&lt;</span> <span class="mi">9</span><span class="p">)</span> <span class="p">{</span>
-            <span class="kd">var</span> <span class="nx">url</span> <span class="o">=</span> <span class="s2">&#34;https://api.douban.com/v2/movie/subject/&#34;</span> <span class="o">+</span> <span class="nx">id</span> <span class="o">+</span> <span class="s2">&#34;?apikey=0dad551ec0f84ed02907ff5c42e8ec70&#34;</span><span class="p">;</span>
-            <span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
-                <span class="nx">url</span><span class="o">:</span> <span class="nx">url</span><span class="p">,</span>
-                <span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;GET&#39;</span><span class="p">,</span>
-                <span class="nx">dataType</span><span class="o">:</span> <span class="s2">&#34;jsonp&#34;</span><span class="p">,</span>
-                <span class="nx">success</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
-                    <span class="kd">var</span> <span class="nx">db_casts</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
-                        <span class="nx">db_genres</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
-                    <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="k">in</span> <span class="nx">data</span><span class="p">.</span><span class="nx">casts</span><span class="p">)</span> <span class="p">{</span>
-                        <span class="nx">db_casts</span> <span class="o">+=</span> <span class="nx">data</span><span class="p">.</span><span class="nx">casts</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">name</span> <span class="o">+</span> <span class="s2">&#34; &#34;</span><span class="p">;</span>
-                    <span class="p">}</span>
-                    <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="k">in</span> <span class="nx">data</span><span class="p">.</span><span class="nx">genres</span><span class="p">)</span> <span class="p">{</span>
-                        <span class="nx">db_genres</span> <span class="o">+=</span> <span class="nx">data</span><span class="p">.</span><span class="nx">genres</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&#34; &#34;</span><span class="p">;</span>
-                    <span class="p">}</span>
-                    <span class="kd">var</span> <span class="nx">db_star</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">ceil</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">rating</span><span class="p">.</span><span class="nx">average</span><span class="p">)</span>
-                    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#db&#39;</span> <span class="o">+</span> <span class="nx">id</span><span class="p">).</span><span class="nx">html</span><span class="p">(</span>
-                        <span class="s2">&#34;&lt;div class=&#39;post-preview--meta&#39;&gt;&lt;div class=&#39;post-preview--middle&#39;&gt;&lt;h4 class=&#39;post-preview--title&#39;&gt;&lt;a target=&#39;_blank&#39; href=&#39;&#34;</span> <span class="o">+</span>
-                        <span class="nx">data</span><span class="p">.</span><span class="nx">alt</span> <span class="o">+</span> <span class="s2">&#34;&#39;&gt;《&#34;</span> <span class="o">+</span> <span class="nx">data</span><span class="p">.</span><span class="nx">title</span> <span class="o">+</span> <span class="s2">&#34;》&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#39;rating&#39;&gt;&lt;div class=&#39;rating-star allstar&#34;</span> <span class="o">+</span>
-                        <span class="nx">db_star</span> <span class="o">+</span> <span class="s2">&#34;&#39;&gt;&lt;/div&gt;&lt;div class=&#39;rating-average&#39;&gt;&#34;</span> <span class="o">+</span> <span class="nx">data</span><span class="p">.</span><span class="nx">rating</span><span class="p">.</span><span class="nx">average</span> <span class="o">+</span>
-                        <span class="s2">&#34;&lt;/div&gt;&lt;/div&gt;&lt;time class=&#39;post-preview--date&#39;&gt;导演：&#34;</span> <span class="o">+</span> <span class="nx">data</span><span class="p">.</span><span class="nx">directors</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">name</span> <span class="o">+</span> <span class="s2">&#34; / 主演：&#34;</span> <span class="o">+</span>
-                        <span class="nx">db_casts</span> <span class="o">+</span> <span class="s2">&#34; / 类型：&#34;</span> <span class="o">+</span> <span class="nx">db_genres</span> <span class="o">+</span> <span class="s2">&#34; / &#34;</span> <span class="o">+</span> <span class="nx">data</span><span class="p">.</span><span class="nx">year</span> <span class="o">+</span>
-                        <span class="s2">&#34;&lt;/time&gt;&lt;section style=&#39;max-height:75px;overflow:hidden;&#39; class=&#39;post-preview--excerpt&#39;&gt;&#34;</span> <span class="o">+</span>
-                        <span class="nx">data</span><span class="p">.</span><span class="nx">summary</span> <span class="o">+</span>
-                        <span class="s2">&#34;&lt;/section&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;post-preview--image&#39; style=&#39;background-image:url(&#34;</span> <span class="o">+</span> <span class="nx">data</span><span class="p">.</span><span class="nx">images</span>
-                        <span class="p">.</span><span class="nx">large</span> <span class="o">+</span> <span class="s2">&#34;);&#39;&gt;&lt;/div&gt;&#34;</span><span class="p">);</span>
-                <span class="p">}</span>
-            <span class="p">});</span>
-        <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">id</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="p">)</span> <span class="p">{</span>
-            <span class="kd">var</span> <span class="nx">url</span> <span class="o">=</span> <span class="s2">&#34;https://api.douban.com/v2/book/isbn/&#34;</span> <span class="o">+</span> <span class="nx">id</span> <span class="o">+</span>
-                <span class="s2">&#34;?fields=alt,title,subtitle,rating,author,publisher,pubdate,summary,images&amp;apikey=0dad551ec0f84ed02907ff5c42e8ec70&#34;</span><span class="p">;</span>
-            <span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
-                <span class="nx">url</span><span class="o">:</span> <span class="nx">url</span><span class="p">,</span>
-                <span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;GET&#39;</span><span class="p">,</span>
-                <span class="nx">dataType</span><span class="o">:</span> <span class="s1">&#39;JSONP&#39;</span><span class="p">,</span>
-                <span class="nx">success</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
-                    <span class="kd">var</span> <span class="nx">db_star</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">ceil</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">rating</span><span class="p">.</span><span class="nx">average</span><span class="p">)</span>
-                    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#db&#39;</span> <span class="o">+</span> <span class="nx">id</span><span class="p">).</span><span class="nx">html</span><span class="p">(</span>
-                        <span class="s2">&#34;&lt;div class=&#39;post-preview--meta&#39;&gt;&lt;div class=&#39;post-preview--middle&#39;&gt;&lt;h4 class=&#39;post-preview--title&#39;&gt;&lt;a target=&#39;_blank&#39; href=&#39;&#34;</span> <span class="o">+</span>
-                        <span class="nx">data</span><span class="p">.</span><span class="nx">alt</span> <span class="o">+</span> <span class="s2">&#34;&#39;&gt;《&#34;</span> <span class="o">+</span> <span class="nx">data</span><span class="p">.</span><span class="nx">title</span> <span class="o">+</span> <span class="s2">&#34;》&#34;</span> <span class="o">+</span> <span class="nx">data</span><span class="p">.</span><span class="nx">subtitle</span> <span class="o">+</span>
-                        <span class="s2">&#34;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#39;rating&#39;&gt;&lt;div class=&#39;rating-star allstar&#34;</span> <span class="o">+</span> <span class="nx">db_star</span> <span class="o">+</span>
-                        <span class="s2">&#34;&#39;&gt;&lt;/div&gt;&lt;div class=&#39;rating-average&#39;&gt;&#34;</span> <span class="o">+</span> <span class="nx">data</span><span class="p">.</span><span class="nx">rating</span><span class="p">.</span><span class="nx">average</span> <span class="o">+</span>
-                        <span class="s2">&#34;&lt;/div&gt;&lt;/div&gt;&lt;time class=&#39;post-preview--date&#39;&gt;&#34;</span> <span class="o">+</span> <span class="nx">data</span><span class="p">.</span><span class="nx">author</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&#34; / &#34;</span> <span class="o">+</span> <span class="nx">data</span><span class="p">.</span><span class="nx">publisher</span> <span class="o">+</span>
-                        <span class="s2">&#34; / &#34;</span> <span class="o">+</span> <span class="nx">data</span><span class="p">.</span><span class="nx">pubdate</span> <span class="o">+</span>
-                        <span class="s2">&#34;&lt;/time&gt;&lt;section style=&#39;max-height:75px;overflow:hidden;&#39; class=&#39;post-preview--excerpt&#39;&gt;&#34;</span> <span class="o">+</span>
-                        <span class="nx">data</span><span class="p">.</span><span class="nx">summary</span> <span class="o">+</span>
-                        <span class="s2">&#34;&lt;/section&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;post-preview--image&#39; style=&#39;background-image:url(&#34;</span> <span class="o">+</span> <span class="nx">data</span><span class="p">.</span><span class="nx">images</span>
-                        <span class="p">.</span><span class="nx">large</span> <span class="o">+</span> <span class="s2">&#34;);&#39;&gt;&lt;/div&gt;&#34;</span><span class="p">);</span>
-                <span class="p">}</span>
-            <span class="p">});</span>
-        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;出错&#34;</span> <span class="o">+</span> <span class="nx">id</span><span class="p">)</span>
-        <span class="p">}</span>
-    <span class="p">});</span>
-<span class="p">});</span>
-</code></pre></td></tr></table>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>$(<span style="color:#007020">document</span>).ready(<span style="color:#007020;font-weight:bold">function</span> () {
+</span></span><span style="display:flex;"><span>    $(<span style="color:#4070a0">&#39;.douban_item&#39;</span>).each(<span style="color:#007020;font-weight:bold">function</span> () {
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">var</span> id <span style="color:#666">=</span> $(<span style="color:#007020;font-weight:bold">this</span>).attr(<span style="color:#4070a0">&#39;date-dbid&#39;</span>).toString();
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">if</span> (id.length <span style="color:#666">&lt;</span> <span style="color:#40a070">9</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#007020;font-weight:bold">var</span> url <span style="color:#666">=</span> <span style="color:#4070a0">&#34;https://api.douban.com/v2/movie/subject/&#34;</span> <span style="color:#666">+</span> id <span style="color:#666">+</span> <span style="color:#4070a0">&#34;?apikey=0dad551ec0f84ed02907ff5c42e8ec70&#34;</span>;
+</span></span><span style="display:flex;"><span>            $.ajax({
+</span></span><span style="display:flex;"><span>                url<span style="color:#666">:</span> url,
+</span></span><span style="display:flex;"><span>                type<span style="color:#666">:</span> <span style="color:#4070a0">&#39;GET&#39;</span>,
+</span></span><span style="display:flex;"><span>                dataType<span style="color:#666">:</span> <span style="color:#4070a0">&#34;jsonp&#34;</span>,
+</span></span><span style="display:flex;"><span>                success<span style="color:#666">:</span> <span style="color:#007020;font-weight:bold">function</span> (data) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#007020;font-weight:bold">var</span> db_casts <span style="color:#666">=</span> <span style="color:#4070a0">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>                        db_genres <span style="color:#666">=</span> <span style="color:#4070a0">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>                    <span style="color:#007020;font-weight:bold">for</span> (<span style="color:#007020;font-weight:bold">var</span> i <span style="color:#007020;font-weight:bold">in</span> data.casts) {
+</span></span><span style="display:flex;"><span>                        db_casts <span style="color:#666">+=</span> data.casts[i].name <span style="color:#666">+</span> <span style="color:#4070a0">&#34; &#34;</span>;
+</span></span><span style="display:flex;"><span>                    }
+</span></span><span style="display:flex;"><span>                    <span style="color:#007020;font-weight:bold">for</span> (<span style="color:#007020;font-weight:bold">var</span> i <span style="color:#007020;font-weight:bold">in</span> data.genres) {
+</span></span><span style="display:flex;"><span>                        db_genres <span style="color:#666">+=</span> data.genres[i] <span style="color:#666">+</span> <span style="color:#4070a0">&#34; &#34;</span>;
+</span></span><span style="display:flex;"><span>                    }
+</span></span><span style="display:flex;"><span>                    <span style="color:#007020;font-weight:bold">var</span> db_star <span style="color:#666">=</span> <span style="color:#007020">Math</span>.ceil(data.rating.average)
+</span></span><span style="display:flex;"><span>                    $(<span style="color:#4070a0">&#39;#db&#39;</span> <span style="color:#666">+</span> id).html(
+</span></span><span style="display:flex;"><span>                        <span style="color:#4070a0">&#34;&lt;div class=&#39;post-preview--meta&#39;&gt;&lt;div class=&#39;post-preview--middle&#39;&gt;&lt;h4 class=&#39;post-preview--title&#39;&gt;&lt;a target=&#39;_blank&#39; href=&#39;&#34;</span> <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                        data.alt <span style="color:#666">+</span> <span style="color:#4070a0">&#34;&#39;&gt;《&#34;</span> <span style="color:#666">+</span> data.title <span style="color:#666">+</span> <span style="color:#4070a0">&#34;》&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#39;rating&#39;&gt;&lt;div class=&#39;rating-star allstar&#34;</span> <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                        db_star <span style="color:#666">+</span> <span style="color:#4070a0">&#34;&#39;&gt;&lt;/div&gt;&lt;div class=&#39;rating-average&#39;&gt;&#34;</span> <span style="color:#666">+</span> data.rating.average <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#4070a0">&#34;&lt;/div&gt;&lt;/div&gt;&lt;time class=&#39;post-preview--date&#39;&gt;导演：&#34;</span> <span style="color:#666">+</span> data.directors[<span style="color:#40a070">0</span>].name <span style="color:#666">+</span> <span style="color:#4070a0">&#34; / 主演：&#34;</span> <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                        db_casts <span style="color:#666">+</span> <span style="color:#4070a0">&#34; / 类型：&#34;</span> <span style="color:#666">+</span> db_genres <span style="color:#666">+</span> <span style="color:#4070a0">&#34; / &#34;</span> <span style="color:#666">+</span> data.year <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#4070a0">&#34;&lt;/time&gt;&lt;section style=&#39;max-height:75px;overflow:hidden;&#39; class=&#39;post-preview--excerpt&#39;&gt;&#34;</span> <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                        data.summary <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#4070a0">&#34;&lt;/section&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;post-preview--image&#39; style=&#39;background-image:url(&#34;</span> <span style="color:#666">+</span> data.images
+</span></span><span style="display:flex;"><span>                        .large <span style="color:#666">+</span> <span style="color:#4070a0">&#34;);&#39;&gt;&lt;/div&gt;&#34;</span>);
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            });
+</span></span><span style="display:flex;"><span>        } <span style="color:#007020;font-weight:bold">else</span> <span style="color:#007020;font-weight:bold">if</span> (id.length <span style="color:#666">&gt;</span> <span style="color:#40a070">9</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#007020;font-weight:bold">var</span> url <span style="color:#666">=</span> <span style="color:#4070a0">&#34;https://api.douban.com/v2/book/isbn/&#34;</span> <span style="color:#666">+</span> id <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#4070a0">&#34;?fields=alt,title,subtitle,rating,author,publisher,pubdate,summary,images&amp;apikey=0dad551ec0f84ed02907ff5c42e8ec70&#34;</span>;
+</span></span><span style="display:flex;"><span>            $.ajax({
+</span></span><span style="display:flex;"><span>                url<span style="color:#666">:</span> url,
+</span></span><span style="display:flex;"><span>                type<span style="color:#666">:</span> <span style="color:#4070a0">&#39;GET&#39;</span>,
+</span></span><span style="display:flex;"><span>                dataType<span style="color:#666">:</span> <span style="color:#4070a0">&#39;JSONP&#39;</span>,
+</span></span><span style="display:flex;"><span>                success<span style="color:#666">:</span> <span style="color:#007020;font-weight:bold">function</span> (data) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#007020;font-weight:bold">var</span> db_star <span style="color:#666">=</span> <span style="color:#007020">Math</span>.ceil(data.rating.average)
+</span></span><span style="display:flex;"><span>                    $(<span style="color:#4070a0">&#39;#db&#39;</span> <span style="color:#666">+</span> id).html(
+</span></span><span style="display:flex;"><span>                        <span style="color:#4070a0">&#34;&lt;div class=&#39;post-preview--meta&#39;&gt;&lt;div class=&#39;post-preview--middle&#39;&gt;&lt;h4 class=&#39;post-preview--title&#39;&gt;&lt;a target=&#39;_blank&#39; href=&#39;&#34;</span> <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                        data.alt <span style="color:#666">+</span> <span style="color:#4070a0">&#34;&#39;&gt;《&#34;</span> <span style="color:#666">+</span> data.title <span style="color:#666">+</span> <span style="color:#4070a0">&#34;》&#34;</span> <span style="color:#666">+</span> data.subtitle <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#4070a0">&#34;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#39;rating&#39;&gt;&lt;div class=&#39;rating-star allstar&#34;</span> <span style="color:#666">+</span> db_star <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#4070a0">&#34;&#39;&gt;&lt;/div&gt;&lt;div class=&#39;rating-average&#39;&gt;&#34;</span> <span style="color:#666">+</span> data.rating.average <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#4070a0">&#34;&lt;/div&gt;&lt;/div&gt;&lt;time class=&#39;post-preview--date&#39;&gt;&#34;</span> <span style="color:#666">+</span> data.author[<span style="color:#40a070">0</span>] <span style="color:#666">+</span> <span style="color:#4070a0">&#34; / &#34;</span> <span style="color:#666">+</span> data.publisher <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#4070a0">&#34; / &#34;</span> <span style="color:#666">+</span> data.pubdate <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#4070a0">&#34;&lt;/time&gt;&lt;section style=&#39;max-height:75px;overflow:hidden;&#39; class=&#39;post-preview--excerpt&#39;&gt;&#34;</span> <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                        data.summary <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#4070a0">&#34;&lt;/section&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;post-preview--image&#39; style=&#39;background-image:url(&#34;</span> <span style="color:#666">+</span> data.images
+</span></span><span style="display:flex;"><span>                        .large <span style="color:#666">+</span> <span style="color:#4070a0">&#34;);&#39;&gt;&lt;/div&gt;&#34;</span>);
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            });
+</span></span><span style="display:flex;"><span>        } <span style="color:#007020;font-weight:bold">else</span> {
+</span></span><span style="display:flex;"><span>            console.log(<span style="color:#4070a0">&#34;出错&#34;</span> <span style="color:#666">+</span> id)
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="添加-css">添加 css</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">  1
-</span><span class="lnt">  2
-</span><span class="lnt">  3
-</span><span class="lnt">  4
-</span><span class="lnt">  5
-</span><span class="lnt">  6
-</span><span class="lnt">  7
-</span><span class="lnt">  8
-</span><span class="lnt">  9
-</span><span class="lnt"> 10
-</span><span class="lnt"> 11
-</span><span class="lnt"> 12
-</span><span class="lnt"> 13
-</span><span class="lnt"> 14
-</span><span class="lnt"> 15
-</span><span class="lnt"> 16
-</span><span class="lnt"> 17
-</span><span class="lnt"> 18
-</span><span class="lnt"> 19
-</span><span class="lnt"> 20
-</span><span class="lnt"> 21
-</span><span class="lnt"> 22
-</span><span class="lnt"> 23
-</span><span class="lnt"> 24
-</span><span class="lnt"> 25
-</span><span class="lnt"> 26
-</span><span class="lnt"> 27
-</span><span class="lnt"> 28
-</span><span class="lnt"> 29
-</span><span class="lnt"> 30
-</span><span class="lnt"> 31
-</span><span class="lnt"> 32
-</span><span class="lnt"> 33
-</span><span class="lnt"> 34
-</span><span class="lnt"> 35
-</span><span class="lnt"> 36
-</span><span class="lnt"> 37
-</span><span class="lnt"> 38
-</span><span class="lnt"> 39
-</span><span class="lnt"> 40
-</span><span class="lnt"> 41
-</span><span class="lnt"> 42
-</span><span class="lnt"> 43
-</span><span class="lnt"> 44
-</span><span class="lnt"> 45
-</span><span class="lnt"> 46
-</span><span class="lnt"> 47
-</span><span class="lnt"> 48
-</span><span class="lnt"> 49
-</span><span class="lnt"> 50
-</span><span class="lnt"> 51
-</span><span class="lnt"> 52
-</span><span class="lnt"> 53
-</span><span class="lnt"> 54
-</span><span class="lnt"> 55
-</span><span class="lnt"> 56
-</span><span class="lnt"> 57
-</span><span class="lnt"> 58
-</span><span class="lnt"> 59
-</span><span class="lnt"> 60
-</span><span class="lnt"> 61
-</span><span class="lnt"> 62
-</span><span class="lnt"> 63
-</span><span class="lnt"> 64
-</span><span class="lnt"> 65
-</span><span class="lnt"> 66
-</span><span class="lnt"> 67
-</span><span class="lnt"> 68
-</span><span class="lnt"> 69
-</span><span class="lnt"> 70
-</span><span class="lnt"> 71
-</span><span class="lnt"> 72
-</span><span class="lnt"> 73
-</span><span class="lnt"> 74
-</span><span class="lnt"> 75
-</span><span class="lnt"> 76
-</span><span class="lnt"> 77
-</span><span class="lnt"> 78
-</span><span class="lnt"> 79
-</span><span class="lnt"> 80
-</span><span class="lnt"> 81
-</span><span class="lnt"> 82
-</span><span class="lnt"> 83
-</span><span class="lnt"> 84
-</span><span class="lnt"> 85
-</span><span class="lnt"> 86
-</span><span class="lnt"> 87
-</span><span class="lnt"> 88
-</span><span class="lnt"> 89
-</span><span class="lnt"> 90
-</span><span class="lnt"> 91
-</span><span class="lnt"> 92
-</span><span class="lnt"> 93
-</span><span class="lnt"> 94
-</span><span class="lnt"> 95
-</span><span class="lnt"> 96
-</span><span class="lnt"> 97
-</span><span class="lnt"> 98
-</span><span class="lnt"> 99
-</span><span class="lnt">100
-</span><span class="lnt">101
-</span><span class="lnt">102
-</span><span class="lnt">103
-</span><span class="lnt">104
-</span><span class="lnt">105
-</span><span class="lnt">106
-</span><span class="lnt">107
-</span><span class="lnt">108
-</span><span class="lnt">109
-</span><span class="lnt">110
-</span><span class="lnt">111
-</span><span class="lnt">112
-</span><span class="lnt">113
-</span><span class="lnt">114
-</span><span class="lnt">115
-</span><span class="lnt">116
-</span><span class="lnt">117
-</span><span class="lnt">118
-</span><span class="lnt">119
-</span><span class="lnt">120
-</span><span class="lnt">121
-</span><span class="lnt">122
-</span><span class="lnt">123
-</span><span class="lnt">124
-</span><span class="lnt">125
-</span><span class="lnt">126
-</span><span class="lnt">127
-</span><span class="lnt">128
-</span><span class="lnt">129
-</span><span class="lnt">130
-</span><span class="lnt">131
-</span><span class="lnt">132
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-1">  1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-2"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-2">  2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-3"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-3">  3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-4"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-4">  4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-5"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-5">  5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-6"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-6">  6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-7"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-7">  7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-8"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-8">  8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-9"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-9">  9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-10"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-10"> 10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-11"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-11"> 11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-12"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-12"> 12</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-13"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-13"> 13</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-14"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-14"> 14</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-15"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-15"> 15</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-16"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-16"> 16</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-17"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-17"> 17</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-18"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-18"> 18</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-19"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-19"> 19</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-20"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-20"> 20</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-21"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-21"> 21</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-22"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-22"> 22</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-23"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-23"> 23</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-24"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-24"> 24</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-25"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-25"> 25</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-26"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-26"> 26</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-27"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-27"> 27</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-28"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-28"> 28</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-29"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-29"> 29</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-30"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-30"> 30</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-31"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-31"> 31</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-32"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-32"> 32</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-33"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-33"> 33</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-34"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-34"> 34</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-35"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-35"> 35</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-36"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-36"> 36</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-37"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-37"> 37</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-38"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-38"> 38</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-39"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-39"> 39</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-40"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-40"> 40</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-41"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-41"> 41</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-42"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-42"> 42</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-43"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-43"> 43</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-44"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-44"> 44</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-45"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-45"> 45</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-46"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-46"> 46</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-47"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-47"> 47</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-48"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-48"> 48</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-49"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-49"> 49</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-50"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-50"> 50</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-51"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-51"> 51</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-52"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-52"> 52</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-53"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-53"> 53</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-54"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-54"> 54</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-55"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-55"> 55</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-56"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-56"> 56</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-57"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-57"> 57</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-58"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-58"> 58</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-59"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-59"> 59</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-60"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-60"> 60</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-61"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-61"> 61</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-62"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-62"> 62</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-63"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-63"> 63</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-64"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-64"> 64</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-65"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-65"> 65</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-66"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-66"> 66</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-67"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-67"> 67</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-68"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-68"> 68</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-69"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-69"> 69</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-70"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-70"> 70</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-71"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-71"> 71</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-72"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-72"> 72</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-73"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-73"> 73</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-74"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-74"> 74</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-75"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-75"> 75</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-76"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-76"> 76</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-77"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-77"> 77</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-78"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-78"> 78</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-79"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-79"> 79</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-80"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-80"> 80</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-81"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-81"> 81</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-82"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-82"> 82</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-83"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-83"> 83</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-84"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-84"> 84</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-85"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-85"> 85</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-86"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-86"> 86</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-87"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-87"> 87</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-88"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-88"> 88</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-89"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-89"> 89</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-90"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-90"> 90</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-91"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-91"> 91</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-92"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-92"> 92</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-93"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-93"> 93</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-94"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-94"> 94</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-95"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-95"> 95</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-96"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-96"> 96</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-97"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-97"> 97</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-98"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-98"> 98</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-99"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-99"> 99</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-100"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-100">100</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-101"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-101">101</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-102"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-102">102</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-103"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-103">103</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-104"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-104">104</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-105"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-105">105</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-106"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-106">106</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-107"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-107">107</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-108"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-108">108</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-109"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-109">109</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-110"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-110">110</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-111"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-111">111</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-112"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-112">112</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-113"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-113">113</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-114"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-114">114</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-115"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-115">115</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-116"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-116">116</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-117"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-117">117</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-118"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-118">118</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-119"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-119">119</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-120"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-120">120</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-121"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-121">121</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-122"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-122">122</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-123"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-123">123</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-124"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-124">124</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-125"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-125">125</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-126"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-126">126</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-127"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-127">127</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-128"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-128">128</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-129"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-129">129</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-130"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-130">130</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-131"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-131">131</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-132"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-132">132</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-css" data-lang="css"><span class="c">/* douban item post-preview --------*/</span>
-
-<span class="p">.</span><span class="nc">post-preview</span> <span class="p">{</span>
-  <span class="k">max-width</span><span class="p">:</span> <span class="mi">780</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">margin</span><span class="p">:</span> <span class="mi">1</span><span class="kt">em</span> <span class="kc">auto</span><span class="p">;</span>
-  <span class="k">position</span><span class="p">:</span> <span class="kc">relative</span><span class="p">;</span>
-  <span class="k">display</span><span class="p">:</span> <span class="kc">flex</span><span class="p">;</span>
-  <span class="k">background</span><span class="p">:</span> <span class="mh">#fff</span><span class="p">;</span>
-  <span class="k">border-radius</span><span class="p">:</span> <span class="mi">4</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">box-shadow</span><span class="p">:</span> <span class="mi">0</span> <span class="mi">1</span><span class="kt">px</span> <span class="mi">2</span><span class="kt">px</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">.25</span><span class="p">),</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">1</span><span class="kt">px</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">.25</span><span class="p">);</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">post-preview--meta</span> <span class="p">{</span>
-  <span class="k">width</span><span class="p">:</span> <span class="mi">75</span><span class="kt">%</span><span class="p">;</span>
-  <span class="k">padding</span><span class="p">:</span> <span class="mi">25</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">post-preview--middle</span> <span class="p">{</span>
-  <span class="k">line-height</span><span class="p">:</span> <span class="mi">28</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">post-preview--title</span> <span class="p">{</span>
-  <span class="k">font-size</span><span class="p">:</span> <span class="mi">18</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">margin</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">post-preview--title</span> <span class="nt">a</span> <span class="p">{</span>
-  <span class="k">text-decoration</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">post-preview--date</span> <span class="p">{</span>
-  <span class="k">font-size</span><span class="p">:</span> <span class="mi">14</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">color</span><span class="p">:</span> <span class="mh">#999</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">post-preview--excerpt</span> <span class="p">{</span>
-  <span class="k">font-size</span><span class="p">:</span> <span class="mi">14</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">line-height</span><span class="p">:</span> <span class="mf">1.825</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">post-preview--excerpt</span> <span class="nt">p</span> <span class="p">{</span>
-  <span class="k">margin-bottom</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">post-preview--image</span> <span class="p">{</span>
-  <span class="k">width</span><span class="p">:</span> <span class="mi">25</span><span class="kt">%</span><span class="p">;</span>
-  <span class="k">float</span><span class="p">:</span> <span class="kc">right</span><span class="p">;</span>
-  <span class="k">background-size</span><span class="p">:</span> <span class="kc">cover</span><span class="p">;</span>
-  <span class="k">background-position</span><span class="p">:</span> <span class="kc">center</span> <span class="kc">center</span><span class="p">;</span>
-  <span class="k">border-top-right-radius</span><span class="p">:</span> <span class="mi">2</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">border-bottom-right-radius</span><span class="p">:</span> <span class="mi">2</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">@</span><span class="k">media</span> <span class="o">(</span><span class="nt">max-width</span><span class="p">:</span><span class="nd">550px</span><span class="o">)</span> <span class="p">{</span>
-  <span class="p">.</span><span class="nc">post-preview</span> <span class="p">{</span>
-    <span class="k">width</span><span class="p">:</span> <span class="mi">95</span><span class="kt">%</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="p">.</span><span class="nc">post-preview--image</span> <span class="p">{</span>
-    <span class="k">width</span><span class="p">:</span> <span class="mi">40</span><span class="kt">%</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="p">.</span><span class="nc">post-preview--meta</span> <span class="p">{</span>
-    <span class="k">width</span><span class="p">:</span> <span class="mi">60</span><span class="kt">%</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="p">.</span><span class="nc">post-preview--excerpt</span> <span class="p">{</span>
-    <span class="k">display</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">rating</span> <span class="p">{</span>
-  <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span>
-  <span class="k">line-height</span><span class="p">:</span> <span class="mi">15</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">rating-star</span> <span class="p">{</span>
-  <span class="k">display</span><span class="p">:</span> <span class="kc">inline</span><span class="o">-</span><span class="kc">block</span><span class="p">;</span>
-  <span class="k">width</span><span class="p">:</span> <span class="mi">75</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">height</span><span class="p">:</span> <span class="mi">15</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">background-repeat</span><span class="p">:</span> <span class="kc">no-repeat</span><span class="p">;</span>
-  <span class="k">background-image</span><span class="p">:</span> <span class="nb">url</span><span class="p">(</span><span class="sx">/image/douban_star.png</span><span class="p">);</span>
-  <span class="k">overflow</span><span class="p">:</span> <span class="kc">hidden</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">allstar10</span> <span class="p">{</span>
-  <span class="k">background-position</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">0</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">allstar9</span> <span class="p">{</span>
-  <span class="k">background-position</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">-15</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">allstar8</span> <span class="p">{</span>
-  <span class="k">background-position</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">-30</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">allstar7</span> <span class="p">{</span>
-  <span class="k">background-position</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">-45</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">allstar6</span> <span class="p">{</span>
-  <span class="k">background-position</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">-60</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">allstar5</span> <span class="p">{</span>
-  <span class="k">background-position</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">-75</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">allstar4</span> <span class="p">{</span>
-  <span class="k">background-position</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">-90</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">allstar3</span> <span class="p">{</span>
-  <span class="k">background-position</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">-105</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">allstar2</span> <span class="p">{</span>
-  <span class="k">background-position</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">-120</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">allstar1</span> <span class="p">{</span>
-  <span class="k">background-position</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">-135</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">allstar0</span> <span class="p">{</span>
-  <span class="k">background-position</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">-150</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">rating-average</span> <span class="p">{</span>
-  <span class="k">color</span><span class="p">:</span> <span class="mh">#777</span><span class="p">;</span>
-  <span class="k">display</span><span class="p">:</span> <span class="kc">inline</span><span class="o">-</span><span class="kc">block</span><span class="p">;</span>
-  <span class="k">font-size</span><span class="p">:</span> <span class="mi">13</span><span class="kt">px</span><span class="p">;</span>
-  <span class="k">margin-left</span><span class="p">:</span> <span class="mi">10</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">/* douban item post-preview --------*/</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">post-preview</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">max-width</span>: <span style="color:#40a070">780</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">margin</span>: <span style="color:#40a070">1</span><span style="color:#902000">em</span> <span style="color:#007020;font-weight:bold">auto</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">position</span>: <span style="color:#007020;font-weight:bold">relative</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">display</span>: <span style="color:#007020;font-weight:bold">flex</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background</span>: <span style="color:#40a070">#fff</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">border-radius</span>: <span style="color:#40a070">4</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">box-shadow</span>: <span style="color:#40a070">0</span> <span style="color:#40a070">1</span><span style="color:#902000">px</span> <span style="color:#40a070">2</span><span style="color:#902000">px</span> <span style="color:#007020">rgba</span>(<span style="color:#40a070">0</span>, <span style="color:#40a070">0</span>, <span style="color:#40a070">0</span>, <span style="color:#40a070">.25</span>), <span style="color:#40a070">0</span> <span style="color:#40a070">0</span> <span style="color:#40a070">1</span><span style="color:#902000">px</span> <span style="color:#007020">rgba</span>(<span style="color:#40a070">0</span>, <span style="color:#40a070">0</span>, <span style="color:#40a070">0</span>, <span style="color:#40a070">.25</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">post-preview--meta</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">width</span>: <span style="color:#40a070">75</span><span style="color:#902000">%</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">padding</span>: <span style="color:#40a070">25</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">post-preview--middle</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">line-height</span>: <span style="color:#40a070">28</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">post-preview--title</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">font-size</span>: <span style="color:#40a070">18</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">margin</span>: <span style="color:#40a070">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">post-preview--title</span> <span style="color:#062873;font-weight:bold">a</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">text-decoration</span>: <span style="color:#007020;font-weight:bold">none</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">post-preview--date</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">font-size</span>: <span style="color:#40a070">14</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">color</span>: <span style="color:#40a070">#999</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">post-preview--excerpt</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">font-size</span>: <span style="color:#40a070">14</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">line-height</span>: <span style="color:#40a070">1.825</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">post-preview--excerpt</span> <span style="color:#062873;font-weight:bold">p</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">margin-bottom</span>: <span style="color:#40a070">0</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">post-preview--image</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">width</span>: <span style="color:#40a070">25</span><span style="color:#902000">%</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">float</span>: <span style="color:#007020;font-weight:bold">right</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background-size</span>: <span style="color:#007020;font-weight:bold">cover</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background-position</span>: <span style="color:#007020;font-weight:bold">center</span> <span style="color:#007020;font-weight:bold">center</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">border-top-right-radius</span>: <span style="color:#40a070">2</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">border-bottom-right-radius</span>: <span style="color:#40a070">2</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>@<span style="color:#007020;font-weight:bold">media</span> <span style="color:#666">(</span><span style="color:#062873;font-weight:bold">max-width</span>:<span style="color:#555;font-weight:bold">550px</span><span style="color:#666">)</span> {
+</span></span><span style="display:flex;"><span>  .<span style="color:#0e84b5;font-weight:bold">post-preview</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">width</span>: <span style="color:#40a070">95</span><span style="color:#902000">%</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  .<span style="color:#0e84b5;font-weight:bold">post-preview--image</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">width</span>: <span style="color:#40a070">40</span><span style="color:#902000">%</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  .<span style="color:#0e84b5;font-weight:bold">post-preview--meta</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">width</span>: <span style="color:#40a070">60</span><span style="color:#902000">%</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  .<span style="color:#0e84b5;font-weight:bold">post-preview--excerpt</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">display</span>: <span style="color:#007020;font-weight:bold">none</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">rating</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">display</span>: <span style="color:#007020;font-weight:bold">block</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">line-height</span>: <span style="color:#40a070">15</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">rating-star</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">display</span>: <span style="color:#007020;font-weight:bold">inline-block</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">width</span>: <span style="color:#40a070">75</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">height</span>: <span style="color:#40a070">15</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background-repeat</span>: <span style="color:#007020;font-weight:bold">no-repeat</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background-image</span>: <span style="color:#007020">url</span>(<span style="color:#c65d09">/image/douban_star.png</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">overflow</span>: <span style="color:#007020;font-weight:bold">hidden</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">allstar10</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background-position</span>: <span style="color:#40a070">0</span><span style="color:#902000">px</span> <span style="color:#40a070">0</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">allstar9</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background-position</span>: <span style="color:#40a070">0</span><span style="color:#902000">px</span> <span style="color:#40a070">-15</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">allstar8</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background-position</span>: <span style="color:#40a070">0</span><span style="color:#902000">px</span> <span style="color:#40a070">-30</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">allstar7</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background-position</span>: <span style="color:#40a070">0</span><span style="color:#902000">px</span> <span style="color:#40a070">-45</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">allstar6</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background-position</span>: <span style="color:#40a070">0</span><span style="color:#902000">px</span> <span style="color:#40a070">-60</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">allstar5</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background-position</span>: <span style="color:#40a070">0</span><span style="color:#902000">px</span> <span style="color:#40a070">-75</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">allstar4</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background-position</span>: <span style="color:#40a070">0</span><span style="color:#902000">px</span> <span style="color:#40a070">-90</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">allstar3</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background-position</span>: <span style="color:#40a070">0</span><span style="color:#902000">px</span> <span style="color:#40a070">-105</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">allstar2</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background-position</span>: <span style="color:#40a070">0</span><span style="color:#902000">px</span> <span style="color:#40a070">-120</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">allstar1</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background-position</span>: <span style="color:#40a070">0</span><span style="color:#902000">px</span> <span style="color:#40a070">-135</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">allstar0</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">background-position</span>: <span style="color:#40a070">0</span><span style="color:#902000">px</span> <span style="color:#40a070">-150</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#0e84b5;font-weight:bold">rating-average</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">color</span>: <span style="color:#40a070">#777</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">display</span>: <span style="color:#007020;font-weight:bold">inline-block</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">font-size</span>: <span style="color:#40a070">13</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">margin-left</span>: <span style="color:#40a070">10</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><strong>注意：</strong>  豆瓣评分五角星图片需要另外载入。</p>
 <p>保存图片为 <code>/static/image/douban_star.png</code></p>
@@ -897,15 +899,8 @@ if (!doNotTrack) {
 </div>
 
 <h2 id="使用方法">使用方法</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{&lt; douban id &gt;}}
-</code></pre></td></tr></table>
-</div>
-</div><ul>
+<pre tabindex="0"><code class="language-code" data-lang="code">{{&lt; douban id &gt;}}
+</code></pre><ul>
 <li>电影条目如 <a href="https://movie.douban.com/subject/26862829/">https://movie.douban.com/subject/26862829/</a> 取后面 26862829 为 id。</li>
 <li>图书条目，取它的 ISBN 为 id。</li>
 </ul>
@@ -1012,16 +1007,28 @@ if (!doNotTrack) {
   
   
     <div class="post bg-white">
-      <script src="https://utteranc.es/client.js"
-            repo= "xianmin/comments---xianmin.org"
-            issue-term="pathname"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-      </script>
-    </div>
+  <script
+    src="https://giscus.app/client.js"
+    data-repo="xianmin/comments---xianmin.org"
+    data-repo-id="MDEwOlJlcG9zaXRvcnkxNDAyNTY2MDI="
+    data-category="Announcements"
+    data-category-id="DIC_kwDOCFwlWs4CRRxW"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="zh-CN"
+    
+    crossorigin="anonymous"
+    async
+  ></script>
+</div>
+
   
 
+  
   
 
   
@@ -1048,13 +1055,17 @@ if (!doNotTrack) {
       $('#load_disqus').remove();
     };
   </script>
-  <noscript>Please enable JavaScript to view the
+  <noscript
+    >Please enable JavaScript to view the
     <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
   </noscript>
   
-  </div>
+</div>
+
 
     
+
+  
 
   
 
@@ -1097,7 +1108,7 @@ if (!doNotTrack) {
 </svg>
 
   </a>
-   
+  
 </div>
 
 <div class="copyright">
@@ -1157,7 +1168,7 @@ if (!doNotTrack) {
 
 
 
-<script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/js/main.fe83e11b4fbc9193d67e2c9db78bad21f8dc59fca0cacd8c1c3bb071bb16a852.js" integrity="sha256-/oPhG0&#43;8kZPWfiydt4utIfjcWfygys2MHDuwcbsWqFI=" crossorigin="anonymous"></script>
 
 
 
@@ -1175,6 +1186,8 @@ if (!doNotTrack) {
     <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
     <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
   
+
+
 
 
 

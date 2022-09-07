@@ -33,7 +33,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.81.0" />
+<meta name="generator" content="Hugo 0.99.1" />
 
 
 <link rel="canonical" href="https://www.xianmin.org/post/02-manage-dotfiles/" />
@@ -54,7 +54,9 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.9c3f74785689e1d6a69411345ec9043a190655c87d7a44093b74089785613cae.css" integrity="sha256-nD90eFaJ4damlBE0XskEOhkGVch9ekQJO3QIl4VhPK4=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.6aa088348d86326ca4be4205ae9973752a42b2e758c2f5f879a69172441859c9.css" integrity="sha256-aqCINI2GMmykvkIFrplzdSpCsudYwvX4eaaRckQYWck=" media="screen" crossorigin="anonymous">
+
+
 
 
 
@@ -66,12 +68,12 @@
 <meta property="og:description" content="作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 . 开头，管它们叫 dotfiles 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.xianmin.org/post/02-manage-dotfiles/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2017-03-01T18:03:09&#43;08:00" />
-<meta property="article:modified_time" content="2018-01-23T14:11:39&#43;08:00" />
+<meta property="article:published_time" content="2017-03-01T18:03:09+08:00" />
+<meta property="article:modified_time" content="2018-01-23T14:11:39+08:00" />
 
 <meta itemprop="name" content="Linux 下，使用 Git 管理 dotfiles（配置文件）">
-<meta itemprop="description" content="作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 . 开头，管它们叫 dotfiles 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。"><meta itemprop="datePublished" content="2017-03-01T18:03:09&#43;08:00" />
-<meta itemprop="dateModified" content="2018-01-23T14:11:39&#43;08:00" />
+<meta itemprop="description" content="作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 . 开头，管它们叫 dotfiles 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。"><meta itemprop="datePublished" content="2017-03-01T18:03:09+08:00" />
+<meta itemprop="dateModified" content="2018-01-23T14:11:39+08:00" />
 <meta itemprop="wordCount" content="746">
 <meta itemprop="keywords" content="linux,git,dotfile,tool," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Linux 下，使用 Git 管理 dotfiles（配置文件）"/>
@@ -392,7 +394,7 @@ if (!doNotTrack) {
   </header>
 
   <div id="mobile-panel">
-    <main id="main" class="main bg-llight">
+    <main id="main" class="main bg-llight wallpaper">
       <div class="content-wrapper">
         <div id="content" class="content container">
           <article class="post bg-white">
@@ -436,80 +438,80 @@ if (!doNotTrack) {
 <p>第一步，将 dotsync 克隆下来，在家目录下创建一个 <code>Dotfiles</code> 文件夹（名称任意），把 dotsync 中的配置模板 <code>dotsyncrc</code> 文件复制进去。</p>
 <p>第二步，把所有需要管理的 dotfiles 复制到 <code>Dotfiles/</code> 目录中（例如 .vimrc, .zshrc 等等）。</p>
 <p>第三步，修改 <code>dotsyncrc</code> 这个配置文件。如下：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-5"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-6"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-7"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-8"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-9"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-10"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-11"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-11">11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-12"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-12">12</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-13"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-13">13</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-14"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-14">14</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># Location of your dotfiles in $HOME</span>
-<span class="nv">DOTFILES</span><span class="o">=</span>Dotfiles
-    
-<span class="c1"># 添加你需要链接的文件</span>
-<span class="o">[</span>files<span class="o">]</span>
-dotsyncrc                       <span class="c1"># 相当于 ln -s dotsyncrc ~/.dotsyncrc</span>
-emacs/xm-spacemacs:.emacs.d     <span class="c1"># 相当于 ln -s emacs/xm-spacemacs ~/.emacs.d</span>
-emacs/spacemacs                 <span class="c1"># 相当于 ln -s emacs/spacemacs ~/.spacemacs</span>
-<span class="c1"># ... 等等</span>
-<span class="o">[</span>endfiles<span class="o">]</span>
-    
-<span class="o">[</span>hosts<span class="o">]</span>
-xm-pc <span class="nv">git</span><span class="o">=</span>ANY                   <span class="c1"># 计算机名称</span>
-<span class="o">[</span>endhosts<span class="o">]</span>
-</code></pre></td></tr></table>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># Location of your dotfiles in $HOME</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">DOTFILES</span><span style="color:#666">=</span>Dotfiles
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># 添加你需要链接的文件</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">[</span>files<span style="color:#666">]</span>
+</span></span><span style="display:flex;"><span>dotsyncrc                       <span style="color:#60a0b0;font-style:italic"># 相当于 ln -s dotsyncrc ~/.dotsyncrc</span>
+</span></span><span style="display:flex;"><span>emacs/xm-spacemacs:.emacs.d     <span style="color:#60a0b0;font-style:italic"># 相当于 ln -s emacs/xm-spacemacs ~/.emacs.d</span>
+</span></span><span style="display:flex;"><span>emacs/spacemacs                 <span style="color:#60a0b0;font-style:italic"># 相当于 ln -s emacs/spacemacs ~/.spacemacs</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># ... 等等</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">[</span>endfiles<span style="color:#666">]</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span><span style="color:#666">[</span>hosts<span style="color:#666">]</span>
+</span></span><span style="display:flex;"><span>xm-pc <span style="color:#bb60d5">git</span><span style="color:#666">=</span>ANY                   <span style="color:#60a0b0;font-style:italic"># 计算机名称</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">[</span>endhosts<span style="color:#666">]</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>第四步，运行 dotsync 命令。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-2"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-3"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-3">3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-4"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-4">4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-5"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-5">5</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 假设你把 dotsync 克隆到了家目录下</span>
-
-~/dotsync/bin/dotsync           <span class="c1"># 运行，会提示你选择参数</span>
-~/dotsync/bin/dotsync -l        <span class="c1"># 查看将要链接的文件列表</span>
-~/dotsync/bin/dotsync -f ~/Dotfiles/dotsyncrc -L <span class="c1"># -f 指定配置文件，-L 生成软链接</span>
-</code></pre></td></tr></table>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># 假设你把 dotsync 克隆到了家目录下</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>~/dotsync/bin/dotsync           <span style="color:#60a0b0;font-style:italic"># 运行，会提示你选择参数</span>
+</span></span><span style="display:flex;"><span>~/dotsync/bin/dotsync -l        <span style="color:#60a0b0;font-style:italic"># 查看将要链接的文件列表</span>
+</span></span><span style="display:flex;"><span>~/dotsync/bin/dotsync -f ~/Dotfiles/dotsyncrc -L <span style="color:#60a0b0;font-style:italic"># -f 指定配置文件，-L 生成软链接</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>这个时候，你在 <code>dotsyncrc</code> 中指定的文件，都在指定位置创建了软链接。如果文件已经存在，它们都将备份到 <code>~/.backup/</code> 目录。当你编辑软链接文件的时候，实际上编辑的是 Dotfiles 目录中的源文件。</p>
 <p>第五步，可以使用 git 管理备份 Dotfiles 文件夹了。</p>
 <h1 id="将-dotsync-添加到-shell-的-path-路径">将 dotsync 添加到 Shell 的 PATH 路径</h1>
 <p>一个问题：怎样在命令行中直接使用 dotsync？</p>
 <p>我在 <code>Dotfiles/</code> 目录下创建了一个 <code>bin/</code> 目录，专门用来存放一些用户自己编写的脚本。然后把这个 bin 目录添加到 shell 的 PATH 路径，即在 .zshrc 文件中添加一行：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-2-1">1</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">/Dotfiles/bin:</span><span class="nv">$PATH</span><span class="s2">&#34;</span>
-</code></pre></td></tr></table>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#007020">export</span> <span style="color:#bb60d5">PATH</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;</span><span style="color:#bb60d5">$HOME</span><span style="color:#4070a0">/Dotfiles/bin:</span><span style="color:#bb60d5">$PATH</span><span style="color:#4070a0">&#34;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>然后，</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-3-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-2"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-3-2">2</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">source</span> ~/.zshrc                 <span class="c1"># 重载 zshrc 文件</span>
-<span class="nv">$PATH</span>                           <span class="c1"># 查看 PATH</span>
-</code></pre></td></tr></table>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#007020">source</span> ~/.zshrc                 <span style="color:#60a0b0;font-style:italic"># 重载 zshrc 文件</span>
+</span></span><span style="display:flex;"><span><span style="color:#bb60d5">$PATH</span>                           <span style="color:#60a0b0;font-style:italic"># 查看 PATH</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>这样，我们就可以直接在命令行中直接使用 dotsync 这个命令了。</p>
 <h1 id="参考链接">参考链接</h1>
@@ -621,16 +623,28 @@ xm-pc <span class="nv">git</span><span class="o">=</span>ANY                   <
   
   
     <div class="post bg-white">
-      <script src="https://utteranc.es/client.js"
-            repo= "xianmin/comments---xianmin.org"
-            issue-term="pathname"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-      </script>
-    </div>
+  <script
+    src="https://giscus.app/client.js"
+    data-repo="xianmin/comments---xianmin.org"
+    data-repo-id="MDEwOlJlcG9zaXRvcnkxNDAyNTY2MDI="
+    data-category="Announcements"
+    data-category-id="DIC_kwDOCFwlWs4CRRxW"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="zh-CN"
+    
+    crossorigin="anonymous"
+    async
+  ></script>
+</div>
+
   
 
+  
   
 
   
@@ -657,13 +671,17 @@ xm-pc <span class="nv">git</span><span class="o">=</span>ANY                   <
       $('#load_disqus').remove();
     };
   </script>
-  <noscript>Please enable JavaScript to view the
+  <noscript
+    >Please enable JavaScript to view the
     <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
   </noscript>
   
-  </div>
+</div>
+
 
     
+
+  
 
   
 
@@ -706,7 +724,7 @@ xm-pc <span class="nv">git</span><span class="o">=</span>ANY                   <
 </svg>
 
   </a>
-   
+  
 </div>
 
 <div class="copyright">
@@ -766,7 +784,7 @@ xm-pc <span class="nv">git</span><span class="o">=</span>ANY                   <
 
 
 
-<script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/js/main.fe83e11b4fbc9193d67e2c9db78bad21f8dc59fca0cacd8c1c3bb071bb16a852.js" integrity="sha256-/oPhG0&#43;8kZPWfiydt4utIfjcWfygys2MHDuwcbsWqFI=" crossorigin="anonymous"></script>
 
 
 
@@ -784,6 +802,8 @@ xm-pc <span class="nv">git</span><span class="o">=</span>ANY                   <
     <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
     <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
   
+
+
 
 
 

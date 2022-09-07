@@ -34,7 +34,7 @@ Ctrl 键作为大部分软件的常用快捷按键，它在键盘上的位置是
 
 
 
-<meta name="generator" content="Hugo 0.81.0" />
+<meta name="generator" content="Hugo 0.99.1" />
 
 
 <link rel="canonical" href="https://www.xianmin.org/post/2022/00-windows-swap-ctrl-and-capslock/" />
@@ -55,7 +55,9 @@ Ctrl 键作为大部分软件的常用快捷按键，它在键盘上的位置是
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.9c3f74785689e1d6a69411345ec9043a190655c87d7a44093b74089785613cae.css" integrity="sha256-nD90eFaJ4damlBE0XskEOhkGVch9ekQJO3QIl4VhPK4=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.6aa088348d86326ca4be4205ae9973752a42b2e758c2f5f879a69172441859c9.css" integrity="sha256-aqCINI2GMmykvkIFrplzdSpCsudYwvX4eaaRckQYWck=" media="screen" crossorigin="anonymous">
+
+
 
 
 
@@ -68,14 +70,14 @@ Ctrl 键作为大部分软件的常用快捷按键，它在键盘上的位置是
 Ctrl 键作为大部分软件的常用快捷按键，它在键盘上的位置是非常不合理的。而 CapsLock 这个大写锁定键，不经常使用，却在键盘上占据了一个极佳的位置。在过去几年使用计算机的过程中，把 Ctrl 和 CapsLock 这两个按键的位置交换，极大的提升了我使用快捷键的舒适度和效率。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.xianmin.org/post/2022/00-windows-swap-ctrl-and-capslock/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2022-05-29T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2022-05-29T21:07:37&#43;08:00" />
+<meta property="article:published_time" content="2022-05-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-05-29T21:07:37+08:00" />
 
 <meta itemprop="name" content="Windows 下，交换 Ctrl 键和 CapsLock 键">
 <meta itemprop="description" content="好久没更新博客了，水一篇，找点状态。
-Ctrl 键作为大部分软件的常用快捷按键，它在键盘上的位置是非常不合理的。而 CapsLock 这个大写锁定键，不经常使用，却在键盘上占据了一个极佳的位置。在过去几年使用计算机的过程中，把 Ctrl 和 CapsLock 这两个按键的位置交换，极大的提升了我使用快捷键的舒适度和效率。"><meta itemprop="datePublished" content="2022-05-29T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2022-05-29T21:07:37&#43;08:00" />
-<meta itemprop="wordCount" content="270">
+Ctrl 键作为大部分软件的常用快捷按键，它在键盘上的位置是非常不合理的。而 CapsLock 这个大写锁定键，不经常使用，却在键盘上占据了一个极佳的位置。在过去几年使用计算机的过程中，把 Ctrl 和 CapsLock 这两个按键的位置交换，极大的提升了我使用快捷键的舒适度和效率。"><meta itemprop="datePublished" content="2022-05-29T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-05-29T21:07:37+08:00" />
+<meta itemprop="wordCount" content="265">
 <meta itemprop="keywords" content="windows,快捷键," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Windows 下，交换 Ctrl 键和 CapsLock 键"/>
 <meta name="twitter:description" content="好久没更新博客了，水一篇，找点状态。
@@ -396,7 +398,7 @@ if (!doNotTrack) {
   </header>
 
   <div id="mobile-panel">
-    <main id="main" class="main bg-llight">
+    <main id="main" class="main bg-llight wallpaper">
       <div class="content-wrapper">
         <div id="content" class="content container">
           <article class="post bg-white">
@@ -440,23 +442,12 @@ if (!doNotTrack) {
       <p>好久没更新博客了，水一篇，找点状态。</p>
 <p><code>Ctrl</code> 键作为大部分软件的常用快捷按键，它在键盘上的位置是非常不合理的。而 <code>CapsLock</code> 这个大写锁定键，不经常使用，却在键盘上占据了一个极佳的位置。在过去几年使用计算机的过程中，把 <code>Ctrl</code> 和 <code>CapsLock</code> 这两个按键的位置交换，极大的提升了我使用快捷键的舒适度和效率。</p>
 <p>以下为使用 PowerShell 命令（需要以管理员身份运行）来交换这两个键的方式：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">$hexified = &#34;00,00,00,00,00,00,00,00,03,00,00,00,1d,00,3a,00,3a,00,1d,00,00,00,00,00&#34;.Split(&#39;,&#39;) | % { &#34;0x$_&#34;};
+<pre tabindex="0"><code>$hexified = &#34;00,00,00,00,00,00,00,00,03,00,00,00,1d,00,3a,00,3a,00,1d,00,00,00,00,00&#34;.Split(&#39;,&#39;) | % { &#34;0x$_&#34;};
 
 $kbLayout = &#39;HKLM:\System\CurrentControlSet\Control\Keyboard Layout&#39;;
 
 New-ItemProperty -Path $kbLayout -Name &#34;Scancode Map&#34; -PropertyType Binary -Value ([byte[]]$hexified);
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="参考链接">参考链接</h2>
+</code></pre><h2 id="参考链接">参考链接</h2>
 <ul>
 <li><a href="https://gist.github.com/joshschmelzle/5e88dabc71014d7427ff01bca3fed33d">Remap Caps Lock to Control on Windows 10</a> - 这个链接提供的信息是把 CapsLock 映射为 Ctrl ，而非交换。</li>
 <li><a href="https://www.jianshu.com/p/d14dd07c025c">windows下交换ctrl和capslock - 简书</a> - 这个链接是手动修改注册表，不太方便。</li>
@@ -560,16 +551,28 @@ New-ItemProperty -Path $kbLayout -Name &#34;Scancode Map&#34; -PropertyType Bina
   
   
     <div class="post bg-white">
-      <script src="https://utteranc.es/client.js"
-            repo= "xianmin/comments---xianmin.org"
-            issue-term="pathname"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-      </script>
-    </div>
+  <script
+    src="https://giscus.app/client.js"
+    data-repo="xianmin/comments---xianmin.org"
+    data-repo-id="MDEwOlJlcG9zaXRvcnkxNDAyNTY2MDI="
+    data-category="Announcements"
+    data-category-id="DIC_kwDOCFwlWs4CRRxW"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="zh-CN"
+    
+    crossorigin="anonymous"
+    async
+  ></script>
+</div>
+
   
 
+  
   
 
   
@@ -596,13 +599,17 @@ New-ItemProperty -Path $kbLayout -Name &#34;Scancode Map&#34; -PropertyType Bina
       $('#load_disqus').remove();
     };
   </script>
-  <noscript>Please enable JavaScript to view the
+  <noscript
+    >Please enable JavaScript to view the
     <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
   </noscript>
   
-  </div>
+</div>
+
 
     
+
+  
 
   
 
@@ -645,7 +652,7 @@ New-ItemProperty -Path $kbLayout -Name &#34;Scancode Map&#34; -PropertyType Bina
 </svg>
 
   </a>
-   
+  
 </div>
 
 <div class="copyright">
@@ -705,7 +712,7 @@ New-ItemProperty -Path $kbLayout -Name &#34;Scancode Map&#34; -PropertyType Bina
 
 
 
-<script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/js/main.fe83e11b4fbc9193d67e2c9db78bad21f8dc59fca0cacd8c1c3bb071bb16a852.js" integrity="sha256-/oPhG0&#43;8kZPWfiydt4utIfjcWfygys2MHDuwcbsWqFI=" crossorigin="anonymous"></script>
 
 
 
@@ -723,6 +730,8 @@ New-ItemProperty -Path $kbLayout -Name &#34;Scancode Map&#34; -PropertyType Bina
     <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
     <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
   
+
+
 
 
 

@@ -33,7 +33,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.81.0" />
+<meta name="generator" content="Hugo 0.99.1" />
 
 
 <link rel="canonical" href="https://www.xianmin.org/post/ox-hugo/" />
@@ -54,7 +54,9 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.9c3f74785689e1d6a69411345ec9043a190655c87d7a44093b74089785613cae.css" integrity="sha256-nD90eFaJ4damlBE0XskEOhkGVch9ekQJO3QIl4VhPK4=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.6aa088348d86326ca4be4205ae9973752a42b2e758c2f5f879a69172441859c9.css" integrity="sha256-aqCINI2GMmykvkIFrplzdSpCsudYwvX4eaaRckQYWck=" media="screen" crossorigin="anonymous">
+
+
 
 
 
@@ -72,8 +74,8 @@ easy-hygo : https://github.com/masasam/emacs-easy-hugo
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.xianmin.org/post/ox-hugo/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2018-03-31T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2018-08-07T16:41:05&#43;08:00" />
+<meta property="article:published_time" content="2018-03-31T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-08-07T16:41:05+08:00" />
 
 <meta itemprop="name" content="博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo">
 <meta itemprop="description" content="本文将对我个人的博文写作流程 所用到的工具 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode &amp; hugo ，另外还有两个配合 hugo 的辅助包 easy-hugo （可选） &amp; ox-hugo 。
@@ -82,9 +84,9 @@ hugo : https://gohugo.io/
 orgmode : https://orgmode.org/
 ox-hugo : https://ox-hugo.scripter.co/
 easy-hygo : https://github.com/masasam/emacs-easy-hugo
-"><meta itemprop="datePublished" content="2018-03-31T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2018-08-07T16:41:05&#43;08:00" />
-<meta itemprop="wordCount" content="2109">
+"><meta itemprop="datePublished" content="2018-03-31T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2018-08-07T16:41:05+08:00" />
+<meta itemprop="wordCount" content="2081">
 <meta itemprop="keywords" content="emacs,editor,orgmode,hugo,写作,tool,博客," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo"/>
 <meta name="twitter:description" content="本文将对我个人的博文写作流程 所用到的工具 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode &amp; hugo ，另外还有两个配合 hugo 的辅助包 easy-hugo （可选） &amp; ox-hugo 。
@@ -410,7 +412,7 @@ if (!doNotTrack) {
   </header>
 
   <div id="mobile-panel">
-    <main id="main" class="main bg-llight">
+    <main id="main" class="main bg-llight wallpaper">
       <div class="content-wrapper">
         <div id="content" class="content container">
           <article class="post bg-white">
@@ -503,27 +505,27 @@ if (!doNotTrack) {
 <p>如前文所说，如果你不熟悉 emacs 和 orgmode ，一定会觉得这个流程好麻烦，何必用这些工具，把写作这回事儿弄得复杂了。我下面会对这个流程进行补充说明，并阐述它们的优点。</p>
 <h2 id="创建博文">创建博文</h2>
 <p>正常我们使用 hugo 是怎样创建一篇新博文的呢？在命令行下，敲击命令 <code>hugo new posts/my-first-post.md</code> ，然后用自己熟悉的编辑器编辑这个文件。这个文件的头部包含我们这篇文章的一些基本信息，比如像这样：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-3">3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-4">4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-5"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-5">5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-6"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-6">6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-7"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-7">7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-8"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-8">8</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nn">---</span><span class="w">
-</span><span class="w"></span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;An Example Post&#34;</span><span class="w">  </span><span class="c">#标题</span><span class="w">
-</span><span class="w"></span><span class="nt">date</span><span class="p">:</span><span class="w"> </span><span class="ld">2018-01-01T16:01:23</span><span class="m">+08</span><span class="p">:</span><span class="m">00</span><span class="w"> </span><span class="c">#发布时间</span><span class="w">
-</span><span class="w"></span><span class="nt">lastmod</span><span class="p">:</span><span class="w"> </span><span class="ld">2018-01-02T16:01:23</span><span class="m">+08</span><span class="p">:</span><span class="m">00</span><span class="w"> </span><span class="c">#修改时间</span><span class="w">
-</span><span class="w"></span><span class="nt">draft</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">  </span><span class="c">#是否是草稿？</span><span class="w">
-</span><span class="w"></span><span class="nt">tags</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;tag-1&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;tag-2&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;tag-3&#34;</span><span class="p">]</span><span class="w">  </span><span class="c">#标签</span><span class="w">
-</span><span class="w"></span><span class="nt">categories</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;index&#34;</span><span class="p">]</span><span class="w">  </span><span class="c">#分类</span><span class="w">
-</span><span class="w"></span><span class="nn">---</span><span class="w">
-</span></code></pre></td></tr></table>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#0e84b5;font-weight:bold">---</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#062873;font-weight:bold">title</span>:<span style="color:#bbb"> </span><span style="color:#4070a0">&#34;An Example Post&#34;</span><span style="color:#bbb">  </span><span style="color:#60a0b0;font-style:italic">#标题</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#062873;font-weight:bold">date</span>:<span style="color:#bbb"> </span>2018-01-01T16:01:23<span style="color:#40a070">+08</span>:<span style="color:#40a070">00</span><span style="color:#bbb"> </span><span style="color:#60a0b0;font-style:italic">#发布时间</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#062873;font-weight:bold">lastmod</span>:<span style="color:#bbb"> </span>2018-01-02T16:01:23<span style="color:#40a070">+08</span>:<span style="color:#40a070">00</span><span style="color:#bbb"> </span><span style="color:#60a0b0;font-style:italic">#修改时间</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#062873;font-weight:bold">draft</span>:<span style="color:#bbb"> </span><span style="color:#007020;font-weight:bold">false</span><span style="color:#bbb">  </span><span style="color:#60a0b0;font-style:italic">#是否是草稿？</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#062873;font-weight:bold">tags</span>:<span style="color:#bbb"> </span>[<span style="color:#4070a0">&#34;tag-1&#34;</span>,<span style="color:#bbb"> </span><span style="color:#4070a0">&#34;tag-2&#34;</span>,<span style="color:#bbb"> </span><span style="color:#4070a0">&#34;tag-3&#34;</span>]<span style="color:#bbb">  </span><span style="color:#60a0b0;font-style:italic">#标签</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#062873;font-weight:bold">categories</span>:<span style="color:#bbb"> </span>[<span style="color:#4070a0">&#34;index&#34;</span>]<span style="color:#bbb">  </span><span style="color:#60a0b0;font-style:italic">#分类</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#0e84b5;font-weight:bold">---</span><span style="color:#bbb">
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>那么，使用 <code>ox-hugo</code> 之后，是怎样表示这些基本信息的呢？</p>
 <p>一种是使用 orgmode 的一个标题（heading），这种方式比较适合一些随笔或者简短的文章，像这样：</p>
@@ -564,99 +566,84 @@ if (!doNotTrack) {
 <p>这两种方式都可以配合 emacs 强大的功能来快速生成，而不必每次都手动输入，亦或是复制粘贴。</p>
 <h3 id="使用-org-capture-创建博文">使用 org-capture 创建博文</h3>
 <p>以下配置摘自 <a href="https://ox-hugo.scripter.co/doc/org-capture-setup/">官方介绍</a> ：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-2"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-3"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-4"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-5"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-6"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-7"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-8"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-9"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-10"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-11"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-11">11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-12"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-12">12</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-13"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-13">13</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-14"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-14">14</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-15"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-15">15</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-16"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-16">16</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-17"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-17">17</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-18"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-18">18</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-19"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-19">19</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-20"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-20">20</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-21"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-21">21</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-22"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-22">22</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-23"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-23">23</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-24"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-24">24</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-25"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-25">25</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-26"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-26">26</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-27"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-27">27</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-28"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-28">28</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-29"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-29">29</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-30"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-30">30</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-elisp" data-lang="elisp"><span class="c1">;; org-hugo capture</span>
-<span class="p">(</span><span class="nb">with-eval-after-load</span> <span class="ss">&#39;org-capture</span>
-  <span class="p">(</span><span class="nb">defun</span> <span class="nv">org-hugo-new-subtree-post-capture-template</span> <span class="p">()</span>
-    <span class="s">&#34;Returns </span><span class="ss">`org-capture&#39;</span><span class="s"> template string for new Hugo post.
-</span><span class="s">See </span><span class="ss">`org-capture-templates&#39;</span><span class="s"> for more information.&#34;</span>
-    <span class="p">(</span><span class="nb">let*</span> <span class="p">(</span><span class="c1">;; http://www.holgerschurig.de/en/emacs-blog-from-org-to-hugo/</span>
-           <span class="p">(</span><span class="nv">date</span> <span class="p">(</span><span class="nf">format-time-string</span> <span class="p">(</span><span class="nv">org-time-stamp-format</span> <span class="nb">:long</span> <span class="nb">:inactive</span><span class="p">)</span> <span class="p">(</span><span class="nv">org-current-time</span><span class="p">)))</span>
-           <span class="p">(</span><span class="nv">title</span> <span class="p">(</span><span class="nf">read-from-minibuffer</span> <span class="s">&#34;Post Title: &#34;</span><span class="p">))</span> <span class="c1">;Prompt to enter the post title</span>
-           <span class="p">(</span><span class="nv">fname</span> <span class="p">(</span><span class="nv">org-hugo-slug</span> <span class="nv">title</span><span class="p">)))</span>
-      <span class="p">(</span><span class="nf">mapconcat</span> <span class="nf">#&#39;identity</span>
-                 <span class="o">`</span><span class="p">(</span>
-                   <span class="o">,</span><span class="p">(</span><span class="nf">concat</span> <span class="s">&#34;** TODO &#34;</span> <span class="nv">title</span> <span class="s">&#34;     :@随笔:&#34;</span><span class="p">)</span>
-                   <span class="s">&#34;:PROPERTIES:&#34;</span>
-                   <span class="o">,</span><span class="p">(</span><span class="nf">concat</span> <span class="s">&#34;:EXPORT_FILE_NAME: &#34;</span> <span class="nv">fname</span><span class="p">)</span>
-                   <span class="c1">;; ,(concat &#34;:EXPORT_DATE: &#34; date) ;Enter current date and time</span>
-                   <span class="s">&#34;:END:&#34;</span>
-                   <span class="s">&#34;%?\n&#34;</span><span class="p">)</span>          <span class="c1">;Place the cursor here finally</span>
-                 <span class="s">&#34;\n&#34;</span><span class="p">)))</span>
-
-  <span class="p">(</span><span class="nv">add-to-list</span> <span class="ss">&#39;org-capture-templates</span>
-               <span class="o">&#39;</span><span class="p">(</span><span class="s">&#34;h&#34;</span>                <span class="c1">;`org-capture&#39; binding + h</span>
-                 <span class="s">&#34;Hugo post&#34;</span>
-                 <span class="nv">entry</span>
-                 <span class="c1">;; It is assumed that below file is present in `org-directory&#39;</span>
-                 <span class="c1">;; and that it has a &#34;Blog Ideas&#34; heading. It can even be a</span>
-                 <span class="c1">;; symlink pointing to the actual location of all-posts.org!</span>
-                 <span class="p">(</span><span class="nv">file+headline</span> <span class="s">&#34;~/Dropbox/Write/blog/orgpost/0000-posts.org&#34;</span> <span class="s">&#34;INBOX&#34;</span><span class="p">)</span>
-                 <span class="p">(</span><span class="nb">function</span> <span class="nv">org-hugo-new-subtree-post-capture-template</span><span class="p">))))</span>
-
-<span class="p">(</span><span class="nv">spacemacs/set-leader-keys</span> <span class="s">&#34;av&#34;</span> <span class="ss">&#39;org-capture</span><span class="p">)</span>
-
-</code></pre></td></tr></table>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">;; org-hugo capture</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#007020">with-eval-after-load</span> <span style="color:#517918">&#39;org-capture</span>
+</span></span><span style="display:flex;"><span>  (<span style="color:#007020">defun</span> <span style="color:#bb60d5">org-hugo-new-subtree-post-capture-template</span> ()
+</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">&#34;Returns </span><span style="color:#517918">`org-capture&#39;</span><span style="color:#4070a0"> template string for new Hugo post.
+</span></span></span><span style="display:flex;"><span><span style="color:#4070a0">See </span><span style="color:#517918">`org-capture-templates&#39;</span><span style="color:#4070a0"> for more information.&#34;</span>
+</span></span><span style="display:flex;"><span>    (<span style="color:#007020">let*</span> (<span style="color:#60a0b0;font-style:italic">;; http://www.holgerschurig.de/en/emacs-blog-from-org-to-hugo/</span>
+</span></span><span style="display:flex;"><span>           (<span style="color:#bb60d5">date</span> (<span style="color:#06287e">format-time-string</span> (<span style="color:#bb60d5">org-time-stamp-format</span> <span style="color:#007020">:long</span> <span style="color:#007020">:inactive</span>) (<span style="color:#bb60d5">org-current-time</span>)))
+</span></span><span style="display:flex;"><span>           (<span style="color:#bb60d5">title</span> (<span style="color:#06287e">read-from-minibuffer</span> <span style="color:#4070a0">&#34;Post Title: &#34;</span>)) <span style="color:#60a0b0;font-style:italic">;Prompt to enter the post title</span>
+</span></span><span style="display:flex;"><span>           (<span style="color:#bb60d5">fname</span> (<span style="color:#bb60d5">org-hugo-slug</span> <span style="color:#bb60d5">title</span>)))
+</span></span><span style="display:flex;"><span>      (<span style="color:#06287e">mapconcat</span> <span style="color:#06287e">#&#39;identity</span>
+</span></span><span style="display:flex;"><span>                 <span style="color:#666">`</span>(
+</span></span><span style="display:flex;"><span>                   <span style="color:#666">,</span>(<span style="color:#06287e">concat</span> <span style="color:#4070a0">&#34;** TODO &#34;</span> <span style="color:#bb60d5">title</span> <span style="color:#4070a0">&#34;     :@随笔:&#34;</span>)
+</span></span><span style="display:flex;"><span>                   <span style="color:#4070a0">&#34;:PROPERTIES:&#34;</span>
+</span></span><span style="display:flex;"><span>                   <span style="color:#666">,</span>(<span style="color:#06287e">concat</span> <span style="color:#4070a0">&#34;:EXPORT_FILE_NAME: &#34;</span> <span style="color:#bb60d5">fname</span>)
+</span></span><span style="display:flex;"><span>                   <span style="color:#60a0b0;font-style:italic">;; ,(concat &#34;:EXPORT_DATE: &#34; date) ;Enter current date and time</span>
+</span></span><span style="display:flex;"><span>                   <span style="color:#4070a0">&#34;:END:&#34;</span>
+</span></span><span style="display:flex;"><span>                   <span style="color:#4070a0">&#34;%?\n&#34;</span>)          <span style="color:#60a0b0;font-style:italic">;Place the cursor here finally</span>
+</span></span><span style="display:flex;"><span>                 <span style="color:#4070a0">&#34;\n&#34;</span>)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  (<span style="color:#bb60d5">add-to-list</span> <span style="color:#517918">&#39;org-capture-templates</span>
+</span></span><span style="display:flex;"><span>               <span style="color:#666">&#39;</span>(<span style="color:#4070a0">&#34;h&#34;</span>                <span style="color:#60a0b0;font-style:italic">;`org-capture&#39; binding + h</span>
+</span></span><span style="display:flex;"><span>                 <span style="color:#4070a0">&#34;Hugo post&#34;</span>
+</span></span><span style="display:flex;"><span>                 <span style="color:#bb60d5">entry</span>
+</span></span><span style="display:flex;"><span>                 <span style="color:#60a0b0;font-style:italic">;; It is assumed that below file is present in `org-directory&#39;</span>
+</span></span><span style="display:flex;"><span>                 <span style="color:#60a0b0;font-style:italic">;; and that it has a &#34;Blog Ideas&#34; heading. It can even be a</span>
+</span></span><span style="display:flex;"><span>                 <span style="color:#60a0b0;font-style:italic">;; symlink pointing to the actual location of all-posts.org!</span>
+</span></span><span style="display:flex;"><span>                 (<span style="color:#bb60d5">file+headline</span> <span style="color:#4070a0">&#34;~/Dropbox/Write/blog/orgpost/0000-posts.org&#34;</span> <span style="color:#4070a0">&#34;INBOX&#34;</span>)
+</span></span><span style="display:flex;"><span>                 (<span style="color:#007020">function</span> <span style="color:#bb60d5">org-hugo-new-subtree-post-capture-template</span>))))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(<span style="color:#bb60d5">spacemacs/set-leader-keys</span> <span style="color:#4070a0">&#34;av&#34;</span> <span style="color:#517918">&#39;org-capture</span>)
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="使用-yasnippet-创建博文">使用 YASnippet 创建博文</h3>
 <p>我在文末的附录中，会附上我使用的一些 snippet 模板。</p>
 <p>模板的用法：
 输入字母 <code>h</code> ，按下 <code>M-/</code> ，它就会自动帮你生成以下内容：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">#+HUGO_BASE_DIR: ../
+<pre tabindex="0"><code class="language-nil" data-lang="nil">#+HUGO_BASE_DIR: ../
 #+TITLE:
 #+DATE:
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_TAGS:
 #+HUGO_CATEGORIES:
 #+HUGO_DRAFT: false
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="由-ox-hugo-生成-markdown">由 ox-hugo 生成 markdown</h2>
+</code></pre><h2 id="由-ox-hugo-生成-markdown">由 ox-hugo 生成 markdown</h2>
 <p>尽管说 <code>hugo</code> 原生支持渲染 orgmode 文件，但它所使用的 markdown 渲染引擎比 orgmode 的渲染引擎要强大的多，谁让 markdown 更流行呢？这是使用 <code>ox-hugo</code> 的原因之一。</p>
 <p>使用 <code>ox-hugo</code> 可以将你的 orgmode 博文，生成指定的 markdown 文件，这只需要一条指令就够了（官方默认 <code>C-c C-e H h</code> ），并且，它还会自动更正你的文章 <strong>修改时间</strong> ，markdown 文件中的 <code>lastmod</code> 值。</p>
 <p>至此，你就已经可以按照常规的方法来预览、发布你的博文了。不过还有一个扩展没有介绍—— <code>easy-hugo</code> 。</p>
@@ -689,43 +676,26 @@ if (!doNotTrack) {
 <h2 id="附录b-快速获取-orgmode-或-markdown-格式的网页标题和链接">附录B：快速获取 orgmode 或 markdown 格式的网页标题和链接</h2>
 <p>将以下代码存储为浏览器的书签，以后获取网页的标题和链接只需要点击这个书签即可。链接的标题默认是网站的标题，也可以选中一段文字作为标题。</p>
 <p>orgmode 的 bookmarklet ：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-3-1">1</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">javascript</span><span class="o">:</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span> <span class="kd">var</span> <span class="nx">selection</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">getSelection</span><span class="p">().</span><span class="nx">toString</span><span class="p">();</span> <span class="kd">var</span> <span class="nx">anchor</span> <span class="o">=</span> <span class="nx">selection</span> <span class="o">?</span> <span class="nx">selection</span> <span class="o">:</span> <span class="nb">document</span><span class="p">.</span><span class="nx">title</span><span class="p">;</span> <span class="k">void</span><span class="p">(</span><span class="nx">prompt</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;[[&#39;</span> <span class="o">+</span> <span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">+</span> <span class="s1">&#39;][&#39;</span> <span class="o">+</span> <span class="nx">anchor</span> <span class="o">+</span> <span class="s1">&#39;]]&#39;</span><span class="p">));</span> <span class="p">})();</span>
-</code></pre></td></tr></table>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>javascript<span style="color:#666">:</span>(<span style="color:#007020;font-weight:bold">function</span> () { <span style="color:#007020;font-weight:bold">var</span> selection <span style="color:#666">=</span> <span style="color:#007020">window</span>.getSelection().toString(); <span style="color:#007020;font-weight:bold">var</span> anchor <span style="color:#666">=</span> selection <span style="color:#666">?</span> selection <span style="color:#666">:</span> <span style="color:#007020">document</span>.title; <span style="color:#007020;font-weight:bold">void</span>(prompt(<span style="color:#4070a0">&#39;&#39;</span>, <span style="color:#4070a0">&#39;[[&#39;</span> <span style="color:#666">+</span> location.href <span style="color:#666">+</span> <span style="color:#4070a0">&#39;][&#39;</span> <span style="color:#666">+</span> anchor <span style="color:#666">+</span> <span style="color:#4070a0">&#39;]]&#39;</span>)); })();
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>markdown 的 bookmarklet ：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-4-1">1</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">javascript</span><span class="o">:</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span> <span class="kd">var</span> <span class="nx">selection</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">getSelection</span><span class="p">().</span><span class="nx">toString</span><span class="p">();</span> <span class="kd">var</span> <span class="nx">anchor</span> <span class="o">=</span> <span class="nx">selection</span> <span class="o">?</span> <span class="nx">selection</span> <span class="o">:</span> <span class="nb">document</span><span class="p">.</span><span class="nx">title</span><span class="p">;</span> <span class="k">void</span><span class="p">(</span><span class="nx">prompt</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;[&#39;</span> <span class="o">+</span> <span class="nx">anchor</span> <span class="o">+</span> <span class="s1">&#39;](&#39;</span> <span class="o">+</span> <span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">+</span> <span class="s1">&#39;)&#39;</span><span class="p">));</span> <span class="p">})();</span>
-</code></pre></td></tr></table>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>javascript<span style="color:#666">:</span>(<span style="color:#007020;font-weight:bold">function</span> () { <span style="color:#007020;font-weight:bold">var</span> selection <span style="color:#666">=</span> <span style="color:#007020">window</span>.getSelection().toString(); <span style="color:#007020;font-weight:bold">var</span> anchor <span style="color:#666">=</span> selection <span style="color:#666">?</span> selection <span style="color:#666">:</span> <span style="color:#007020">document</span>.title; <span style="color:#007020;font-weight:bold">void</span>(prompt(<span style="color:#4070a0">&#39;&#39;</span>, <span style="color:#4070a0">&#39;[&#39;</span> <span style="color:#666">+</span> anchor <span style="color:#666">+</span> <span style="color:#4070a0">&#39;](&#39;</span> <span style="color:#666">+</span> location.href <span style="color:#666">+</span> <span style="color:#4070a0">&#39;)&#39;</span>)); })();
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="附录c-我的-yasnippet-模板">附录C：我的 YASnippet 模板</h2>
 <h3 id="hugo-文章信息模板">hugo 文章信息模板</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback"># -*- mode: snippet -*-
+<pre tabindex="0"><code class="language-nil" data-lang="nil"># -*- mode: snippet -*-
 # name: hugo
 # key: h
 # --
@@ -738,31 +708,16 @@ if (!doNotTrack) {
 #+HUGO_DRAFT: false
 
 $0
-</code></pre></td></tr></table>
-</div>
-</div><h3 id="more">more</h3>
+</code></pre><h3 id="more">more</h3>
 <p>我也搞不清为什么我总是记不住 <code>&lt;!--more--&gt;</code> 这个标签</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback"># -*- mode: snippet -*-
+<pre tabindex="0"><code class="language-nil" data-lang="nil"># -*- mode: snippet -*-
 # name: more
 # key: m
 # --
 &lt;!--more--&gt;
 
 $0
-</code></pre></td></tr></table>
-</div>
-</div><p>有待补充&hellip;</p>
+</code></pre><p>有待补充&hellip;</p>
     </div>
 
     
@@ -867,16 +822,28 @@ $0
   
   
     <div class="post bg-white">
-      <script src="https://utteranc.es/client.js"
-            repo= "xianmin/comments---xianmin.org"
-            issue-term="pathname"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-      </script>
-    </div>
+  <script
+    src="https://giscus.app/client.js"
+    data-repo="xianmin/comments---xianmin.org"
+    data-repo-id="MDEwOlJlcG9zaXRvcnkxNDAyNTY2MDI="
+    data-category="Announcements"
+    data-category-id="DIC_kwDOCFwlWs4CRRxW"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="zh-CN"
+    
+    crossorigin="anonymous"
+    async
+  ></script>
+</div>
+
   
 
+  
   
 
   
@@ -903,13 +870,17 @@ $0
       $('#load_disqus').remove();
     };
   </script>
-  <noscript>Please enable JavaScript to view the
+  <noscript
+    >Please enable JavaScript to view the
     <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
   </noscript>
   
-  </div>
+</div>
+
 
     
+
+  
 
   
 
@@ -952,7 +923,7 @@ $0
 </svg>
 
   </a>
-   
+  
 </div>
 
 <div class="copyright">
@@ -1012,7 +983,7 @@ $0
 
 
 
-<script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/js/main.fe83e11b4fbc9193d67e2c9db78bad21f8dc59fca0cacd8c1c3bb071bb16a852.js" integrity="sha256-/oPhG0&#43;8kZPWfiydt4utIfjcWfygys2MHDuwcbsWqFI=" crossorigin="anonymous"></script>
 
 
 
@@ -1030,6 +1001,8 @@ $0
     <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
     <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
   
+
+
 
 
 
