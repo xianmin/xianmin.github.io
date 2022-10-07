@@ -6,10 +6,37 @@
     <description>Recent content on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 29 Aug 2022 22:15:10 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 07 Oct 2022 22:15:10 +0800</lastBuildDate>
     
         <atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>兼职领队 - 香格里拉无底湖露营徒步</title>
+      <link>https://www.xianmin.org/post/2022/09-part-time-outdoor-tour-leader/</link>
+      <pubDate>Fri, 07 Oct 2022 22:15:10 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2022/09-part-time-outdoor-tour-leader/</guid>
+      
+        <description>&lt;p&gt;十一休假，经朋友推荐，我到某某户外俱乐部做了回兼职领队。以前在青旅，我也经常带队组织户外活动，但规模小、也并非自己的主业，有些业余。这次做兼职领队的主要目的， &lt;strong&gt;是想了解专业的户外俱乐部是怎样组织活动的、整个活动的流程、以及专业领队在活动中具体的工作内容&lt;/strong&gt; 。&lt;/p&gt;
+&lt;p&gt;尽管全国各地的疫情此起彼伏，好在丽江及丽江周边没受太大影响，无非是出行要提供 24 小时核酸，因此国庆长假还是有不少游客前来的。该户外俱乐部营销做的不错，报名参团的人数不少，比如我这次兼职的路线，团员就有 29 人（原本是 36 人，因为疫情原因有 7 人退团）。因为参团人数多，也就有了像我这样的兼职领队，辅佐主领队的工作，最主要的职责就是保障队员安全、避免走散。&lt;/p&gt;
+&lt;p&gt;此次活动，我们是前往 &lt;strong&gt;香格里拉无底湖露营徒步&lt;/strong&gt; 。无底湖是个小众景点，不经常在云南旅行的朋友估计都没听说过这个地方。无底湖营地海拔 3800 ，徒步路线是前往周边的另外两个高山湖泊——措姆湖和仙女湖。路途中的最高海拔大约在 4220 左右，路线不长，去相对较远的措姆湖往返也就 8km ，对于经常徒步的朋友而言应该说是挺轻松的。可即便是如此轻松的路线，还是有队员掉队、走不动，我也理解这种活动的意义了， &lt;strong&gt;让不懂户外的城市居民有机会参与到户外活动中，亲近自然，享受徒步登山的乐趣，同时保障他们的人身安全&lt;/strong&gt; 。通过与他们闲聊，我了解到，许多参加活动的队员，这是他们这几年中第一次露营徒步，还有队员是第一次走海拔超过 4000 的山路，他们平时在大城市生活工作，很少有类似的机会。&lt;/p&gt;
+&lt;p&gt;在没参加这次活动以前，我以为大部分队员是户外爱好者，有一些基本的户外经验，但实际情况并非如此，比如有人可能登山杖都没摸过。 &lt;strong&gt;我眼中稀松平常的小事，对于有些人却是第一次接触。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;要说这次活动有什么遗憾，就是参团的人数有点儿多了（不过要不是这么多人，也不会请到我）。人多了以后，就没办法每个人都照顾到，大家很难有近距离的沟通，很难交朋友，活动结束就散伙。这与我过去的经验相比，还是有明显的区别。过去我带队都是 8 人以下的小团队，一次户外活动下来，从陌生到相识，是结交朋友很好的方式。人多的话，就成了纯粹的工作了，要把服务做好。&lt;/p&gt;
+&lt;p&gt;活动结束后，顺利返回丽江，结束了这次短期兼职。我感觉 &lt;strong&gt;偶尔做一做兼职领队还是挺不错的&lt;/strong&gt; ，可以向专业人员学习，自己也能走一走路线，同时还能挣点小钱。让我想想下一次兼职做点什么，也许可以去做厨子吧，哈哈！&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2022/10-07.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/memory/2022/10-07.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;</description>
+      
+    </item>
     
     <item>
       <title>我的英语词汇量（ 2022 年 8 月 ）</title>
@@ -1313,28 +1340,6 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;p&gt;以上记录完成之后，发现一个用 python 的处理办法：
 &lt;a href=&#34;https://github.com/dnxbjyj/py-project/tree/master/AddPDFBookmarks&#34;&gt;py-project/AddPDFBookmarks at master · dnxbjyj/py-project&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下次可以考虑用 python 试一试。对于文件的批量处理，以及字符的操作，用 python 会更高效一些。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Google 的替代 —— Searx</title>
-      <link>https://www.xianmin.org/post/replace-google/</link>
-      <pubDate>Thu, 20 Feb 2020 14:48:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/replace-google/</guid>
-      
-        <description>&lt;p&gt;最近的网络很不好用，一到特殊时期就这个样子。&lt;/p&gt;
-&lt;p&gt;由于我是搜索引擎的重度使用者，当 Google 用不了的时候，有什么替代方案吗？&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://cn.bing.com/&#34;&gt;微软 Bing 搜索&lt;/a&gt; 就不必介绍了。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;这里给大家推荐一个元搜索引擎 &lt;a href=&#34;https://github.com/asciimoo/searx&#34;&gt;searx&lt;/a&gt; ——一个开源的聚合搜索引擎工具&lt;/strong&gt; ，任何人都可以通过它搭建自己的搜索引擎。作为一个普通使用者，我们直接使用其他人已经搭建好的实例就可以了： &lt;a href=&#34;https://searx.space/&#34;&gt;Searx instances&lt;/a&gt; ，里面列出了一些公开的 Searx 实例。&lt;/p&gt;
-&lt;p&gt;每个 Searx 实例由于搭建者个人的喜好，后台配置并不一定相同。并且，地区不同，访问速度也不一样。以下我推荐几个经我个人测试后，体验还算不错的站点：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nibblehole.com/&#34;&gt;https://nibblehole.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://searx.be/&#34;&gt;https://searx.be/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://searx.org/&#34;&gt;https://searx.org/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Searx 的功能十分丰富，关于它更多的玩法，各位自行去挖掘吧。&lt;/p&gt;
-&lt;p&gt;最后，再补充一个国内版本： &lt;a href=&#34;https://mijisou.com/&#34;&gt;秘迹搜索&lt;/a&gt; ，这个站点在国内是有备案的。&lt;/p&gt;</description>
       
     </item>
     
