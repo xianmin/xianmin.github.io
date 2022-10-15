@@ -6,10 +6,36 @@
     <description>Recent content on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 07 Oct 2022 22:15:10 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>浅谈一种搜索思路——找到专业网站</title>
+      <link>https://www.xianmin.org/post/2022/10-search-and-find-professional-websites/</link>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2022/10-search-and-find-professional-websites/</guid>
+      
+        <description>&lt;p&gt;关于 Google 等搜索引擎的搜索技巧，在网上已有很多，我就不多说了。
+本文分享一个搜索的 &lt;strong&gt;思路&lt;/strong&gt; ，这跟工具的使用技巧上有点差别。&lt;/p&gt;
+&lt;p&gt;如果你常用搜索引擎，你应该会发现： &lt;strong&gt;有的信息，直接用搜索引擎搜不到，但是在一些特定的网站上能搜到。&lt;/strong&gt;
+比如搜索论文，你可能会用谷歌学术或者知网；
+找电子书，你会去 Zlibrary 或者 Library Genesis；
+找代码片段，你会用 Github 上的搜索工具；
+等等，诸如此类。&lt;/p&gt;
+&lt;p&gt;那么这个搜索思路就是： &lt;strong&gt;先搜索到拥有特定信息的专业网站，然后在这个或这些专业网站中搜索你想要的信息。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://www.xianmin.org/post/english-dictionary-recommend/&#34;&gt;英文电子词典的选用建议&lt;/a&gt; 中，我提到 LDOCE6 这部词典，当时还是费了一点时间，才找到资源。
+这篇小文是在三年前写的，具体的搜索过程我记不清了，但我记得我没有直接找到资源，是先找到了 &lt;a href=&#34;https://www.pdawiki.com/forum/forum.php&#34;&gt;掌上百科 - PDAWIKI&lt;/a&gt; 这个 &lt;strong&gt;专门分享词典&lt;/strong&gt; 的论坛，然后用论坛内的搜索引擎搜索到了我想要的信息。&lt;/p&gt;
+&lt;p&gt;（注：上面举的例子不是很好。现在 2022 年的情况和当时 2019 年有一点不同的是， pdawiki.com 这个网站中的很多帖子在当时没有被 Google 收录（当然，可能是我记错了），但现在可以用 Google 直接搜到了。能用 Google 直接搜到，在搜索难度上就降低了许多。收录的站点在变，搜索引擎也一直在变，但不影响本文所谈的搜索思路。）&lt;/p&gt;
+&lt;p&gt;这个搜索思路也不是什么特别有难度的事情，但很多人可能没往这个角度去想，这跟搜索引擎的使用技巧还是有点儿区别的。
+肯定有人会说，这太平常了，他自己平时就是这么搜索的。
+不过，怎么说呢，我在生活中常常发现：许多我们以为稀松平常的小事，对有些人而言，可能只是才知道。
+包括他们以为稀松平常的小事，我也可能只是才知道。&lt;/p&gt;
+&lt;p&gt;关于「搜索思路」这个话题，其实还是有许多方面可谈的。比如：关键词的变换、联想、延伸（你没找到信息，大部分时候是因为选错了关键词）；语种的变换（换个语言，搜索结果就大不相同，英文不必说了，俄文、日文又是另一个信息世界）；用繁體字，港台术语，换个地区；使用不同的搜索引擎；使用特殊的协议网络，比如 &lt;a href=&#34;https://zh.wikipedia.org/zh-cn/EDonkey%E7%BD%91%E7%BB%9C&#34;&gt;eDonkey网络&lt;/a&gt; ；自己写个爬虫抓取后再搜索；直接上淘宝买……等等，这些留待我以后有灵感了再归纳总结吧。&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>兼职领队 - 香格里拉无底湖露营徒步</title>
@@ -1259,87 +1285,6 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;/ul&gt;
 &lt;h2 id=&#34;小结&#34;&gt;小结&lt;/h2&gt;
 &lt;p&gt;我喜欢登山这个比喻。前人开辟好的的路，后人走会很轻松。而越想走捷径，也就会遇上更多的荆棘，甚至不得不掉头。速度慢不要紧，重要的是找到自己的节奏，享受过程。废话不多说了，愿继续努力。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Linux 下，用命令行给 PDF 添加书签</title>
-      <link>https://www.xianmin.org/post/linux-pdftk/</link>
-      <pubDate>Tue, 25 Feb 2020 16:06:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/linux-pdftk/</guid>
-      
-        <description>&lt;p&gt;最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下：&lt;/p&gt;
-&lt;p&gt;一、安装 pdftk ：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-1&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-1&#34;&gt;1&lt;/a&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt install pdftk
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;二、导出 PDF 文件数据：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-1&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-1-1&#34;&gt;1&lt;/a&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pdftk my.pdf dump_data output data.txt
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;三、编辑数据文件 &lt;code&gt;data.txt&lt;/code&gt; ，与书签有关的内容为：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-1&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-2-1&#34;&gt; 1&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-2&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-2-2&#34;&gt; 2&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-3&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-2-3&#34;&gt; 3&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-4&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-2-4&#34;&gt; 4&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-5&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-2-5&#34;&gt; 5&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-6&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-2-6&#34;&gt; 6&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-7&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-2-7&#34;&gt; 7&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-8&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-2-8&#34;&gt; 8&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-9&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-2-9&#34;&gt; 9&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-10&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-2-10&#34;&gt;10&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-11&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-2-11&#34;&gt;11&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-12&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-2-12&#34;&gt;12&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-13&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-2-13&#34;&gt;13&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-14&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-2-14&#34;&gt;14&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-15&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-2-15&#34;&gt;15&lt;/a&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BookmarkBegin
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BookmarkTitle: -- Your Title 1 --
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BookmarkLevel: 1 #一级目录
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BookmarkPageNumber: 10 #页码
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BookmarkBegin
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BookmarkTitle: -- Your Title 2 --
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BookmarkLevel: 2 #二级目录
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BookmarkPageNumber: 20
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BookmarkBegin
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BookmarkTitle: -- Your Title 3 --
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BookmarkLevel: 1
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BookmarkPageNumber: 30
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;and so on...
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;这个步骤比较关键。如果能够复制一份固定格式的目录内容，那么就很好处理了。&lt;/p&gt;
-&lt;p&gt;四、将编辑好的数据文件导入并输出：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-3-1&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-3-1&#34;&gt;1&lt;/a&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pdftk my.pdf update_info data.txt output bookmarked.pdf
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;参考：&lt;a href=&#34;https://stackoverflow.com/questions/30304718/create-bookmarks-into-a-pdf-file-via-command-line&#34;&gt;Create bookmarks into a PDF file via command line - Stack Overflow&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;补充&#34;&gt;补充&lt;/h2&gt;
-&lt;p&gt;以上记录完成之后，发现一个用 python 的处理办法：
-&lt;a href=&#34;https://github.com/dnxbjyj/py-project/tree/master/AddPDFBookmarks&#34;&gt;py-project/AddPDFBookmarks at master · dnxbjyj/py-project&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;下次可以考虑用 python 试一试。对于文件的批量处理，以及字符的操作，用 python 会更高效一些。&lt;/p&gt;</description>
       
     </item>
     
