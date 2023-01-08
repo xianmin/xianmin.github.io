@@ -3,21 +3,63 @@
   
   <url>
     <loc>https://www.xianmin.org/categories/</loc>
-    <lastmod>2022-10-15T20:23:53+08:00</lastmod>
+    <lastmod>2023-01-08T19:24:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/post/</loc>
-    <lastmod>2022-10-15T20:23:53+08:00</lastmod>
+    <lastmod>2023-01-08T19:24:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/tags/</loc>
-    <lastmod>2022-10-15T20:23:53+08:00</lastmod>
+    <lastmod>2023-01-08T19:24:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/post/2022/goodbye-2022/</loc>
+    <lastmod>2023-01-08T19:24:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/tags/%E5%8F%8D%E6%80%9D/</loc>
+    <lastmod>2023-01-08T19:24:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/tags/%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2023-01-08T19:24:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/</loc>
+    <lastmod>2023-01-08T19:24:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/categories/%E6%9D%82%E6%96%87/</loc>
+    <lastmod>2023-01-08T19:24:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/tags/%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2023-01-08T19:24:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -51,13 +93,6 @@
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/</loc>
-    <lastmod>2022-10-15T20:23:53+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xianmin.org/tags/%E6%88%B7%E5%A4%96/</loc>
     <lastmod>2022-10-07T23:55:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -80,7 +115,7 @@
   
   <url>
     <loc>https://www.xianmin.org/tags/%E6%97%85%E8%A1%8C/</loc>
-    <lastmod>2022-10-07T23:55:36+08:00</lastmod>
+    <lastmod>2023-01-08T19:23:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -94,7 +129,7 @@
   
   <url>
     <loc>https://www.xianmin.org/tags/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</loc>
-    <lastmod>2022-10-07T23:55:36+08:00</lastmod>
+    <lastmod>2023-01-08T19:23:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -102,20 +137,6 @@
   <url>
     <loc>https://www.xianmin.org/categories/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</loc>
     <lastmod>2022-10-07T23:55:36+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xianmin.org/tags/%E5%8F%8D%E6%80%9D/</loc>
-    <lastmod>2022-08-30T00:26:03+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xianmin.org/tags/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2022-08-30T00:26:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -129,13 +150,6 @@
   
   <url>
     <loc>https://www.xianmin.org/tags/%E8%8B%B1%E8%AF%AD/</loc>
-    <lastmod>2022-08-30T00:26:03+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xianmin.org/tags/%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2022-08-30T00:26:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -296,13 +310,6 @@
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/categories/%E6%9D%82%E6%96%87/</loc>
-    <lastmod>2022-06-05T20:44:38+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xianmin.org/acknowledgments/</loc>
     <lastmod>2022-06-05T20:01:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -332,7 +339,7 @@
   
   <url>
     <loc>https://www.xianmin.org/post/goodbye-2021/</loc>
-    <lastmod>2022-01-24T07:56:57+08:00</lastmod>
+    <lastmod>2023-01-08T19:23:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
