@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="zh-cn" itemscope itemtype="http://schema.org/WebPage">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>构建你的移动书库——电子书阅读经验分享 - 贤民的博客</title>
-  
+<html
+  lang="zh-cn"
+  itemscope
+  itemtype="http://schema.org/WebPage"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>
+          构建你的移动书库——电子书阅读经验分享 - 贤民的博客
+        </title>
+    
 
 <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
@@ -54,7 +60,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.de22abc00de44766eebd1054fd9e0b254b071f89d5019044f893c484a9249a8d.css" integrity="sha256-3iKrwA3kR2buvRBU/Z4LJUsHH4nVAZBE&#43;JPEhKkkmo0=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.344fee5389fbc3b3675bdee1033db2900b2ebf2bb9afdd7cc0a696f015a8bcf8.css" integrity="sha256-NE/uU4n7w7NnW97hAz2ykAsuvyu5r918wKaW8BWovPg=" media="screen" crossorigin="anonymous">
 
 
 
@@ -105,9 +111,11 @@ if (!doNotTrack) {
 
 
 
-</head>
-<body>
-  <div id="mobile-navbar" class="mobile-navbar">
+  </head>
+  <body>
+    <div id="back-to-top"></div>
+
+    <div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
     <a href="/" class="logo">贤民的博客</a>
   </div>
@@ -190,8 +198,8 @@ if (!doNotTrack) {
 </nav>
 
 
-  
     
+      
 
 
 
@@ -248,10 +256,10 @@ if (!doNotTrack) {
     </div>
 </div>
 
-  
-
-  
     
+
+    
+      
 <div class="modal-dialog">
     
     <div class="modal-content">
@@ -278,12 +286,13 @@ if (!doNotTrack) {
     </div>
 </div>
 
-  
+    
 
-  
+    
 
-  <header id="header" class="header container">
-    <div class="logo-wrapper">
+
+    <header id="header" class="header">
+      <div class="logo-wrapper">
   <a href="/" class="logo">
     
       贤民的博客
@@ -394,19 +403,38 @@ if (!doNotTrack) {
   </ul>
 </nav>
 
-  </header>
+    </header>
 
-  <div id="mobile-panel">
-    <main id="main" class="main bg-llight wallpaper">
-      <div class="content-wrapper">
-        <div id="content" class="content container">
-          <article class="post bg-white">
+    <div id="mobile-panel">
+      <main id="main" class="main bg-llight wallpaper">
+        <div class="content-wrapper">
     
-    <header class="post-header">
-      <h1 class="post-title">构建你的移动书库——电子书阅读经验分享</h1>
-      
+    <nav class="toc" id="toc">
+    <div class="toc-title">文章目录</div>
+    <div class="toc-content custom-scrollbar">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#kindle">Kindle</a></li>
+    <li><a href="#android-平板--moon-reader静读天下">Android 平板 + 【Moon+ Reader】（静读天下）</a></li>
+  </ul>
 
-      <div class="post-meta">
+  <ul>
+    <li><a href="#关于电子书格式的选择">关于电子书格式的选择</a></li>
+  </ul>
+</nav>
+    </div>
+  </nav>
+
+
+
+    <div id="content" class="content">
+      <article class="post">
+        
+        <header class="post-header">
+          <h1 class="post-title">构建你的移动书库——电子书阅读经验分享</h1>
+          
+
+          <div class="post-meta">
   <div class="post-meta-author">
     by
       <a href="/about">
@@ -449,30 +477,11 @@ if (!doNotTrack) {
   </div>
 </div>
 
-    </header>
+        </header>
 
-    
-    
-<div class="post-toc" id="post-toc">
-  <h2 class="post-toc-title">文章目录</h2>
-  <div class="post-toc-content">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#kindle">Kindle</a></li>
-    <li><a href="#android-平板--moon-reader静读天下">Android 平板 + 【Moon+ Reader】（静读天下）</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#关于电子书格式的选择">关于电子书格式的选择</a></li>
-  </ul>
-</nav>
-  </div>
-</div>
-
-
-    
-    <div class="post-content">
-      <h1 id="写在前面">写在前面</h1>
+        
+        <div class="post-content">
+          <h1 id="写在前面">写在前面</h1>
 <p>作为一个农民的儿子，我从小跟随父母在外漂泊，长年都是租的房子，家里地方不大，除了教科书、习题册，基本没有任何藏书。那时候，没两年就会搬一次家，光是搬教科书都觉得挺累赘的。即便在成年后，自己依然一直在外漂泊，没有固定的居所，还是不敢买太多书，没地方安置。当然，还有一个很实际的问题，买书花钱，自己没多少钱。很多书像消费品，看完就丢一边了，它摆在那儿更多的像是一种象征性的装饰。</p>
 <p>现在的书籍太多了，想看的也太多，根本买不过来。电子书的好处则显而易见，携带方便，一块 1T 的移动硬盘就可以安置几万本电子书，在需要的时候，也可以随时随地的翻一翻。随着技术的进步，阅读设备不断改进完善，电子阅读必然越来越趋于主流。即便在快递业如此发达的中国，身处乡下，买实体书也要等上一个星期，而电子书呢？点击下载，等上几秒钟就可以翻阅了。</p>
 <p>我写此篇文章的目的，是想和大家分享一下我的电子阅读经验，尤其是像我一样没什么钱，又有阅读需求的朋友。这几年我通过阅读电子书，不光获取了很多信息，在物质上，我估算了下，至少给我省下了几万块人民币。比如说，很多优质的信息，你只能通过英文来获取，英文是一手资料，但是原版的英文书，太贵了，国内还买不到，而电子书就完美解决了这个问题。</p>
@@ -537,71 +546,71 @@ if (!doNotTrack) {
 <p>记得十年前我在老家县城读书的时候，资源很有限，学校的图书馆很小，基本没什么感兴趣的书，另外能找到书的地方，一个是租书店，大多是网络小说，一个是图书城，类别相对会多一些。前年再回到县城，发现图书城搬迁了，规模小了很多，里面卖的绝大多数都是教辅材料了。在落后的地方，能够获取到的信息太少，而互联网改变了这一切。</p>
 <p>这个年代，我不知道还有多少人在看书呢？不是没书可看，是信息太丰富了，互联网上铺天盖地的信息，每天微信订阅号的推送都看不完，哪还有时间看书呢？我很难回答，阅读带给了我什么，同样的收获，也许通过电影、综艺节目、与人交流，包括自身的经历，一样能够获得。「阅读」对我而言，是一项成本较低，信息表达更充分的媒介，仅此而已。</p>
 <p>希望这篇文章，能够对你在获取更多的信息上有所帮助。</p>
-    </div>
-
-    
-    
-
-
-
-    
-    
-
-
-    <footer class="post-footer">
-      <div class="post-tags">
-          <a href="https://www.xianmin.org/tags/ebook/">ebook</a>
-            <a href="https://www.xianmin.org/tags/tool/">tool</a>
-            
         </div>
 
-
-      
-      <nav class="post-nav">
         
-          <a class="prev" href="/post/javascript-this/">
+        
+
+
+
+        
+        
+
+
+        <footer class="post-footer">
+          <div class="post-tags">
+              <a href="https://www.xianmin.org/tags/ebook/">ebook</a>
+                <a href="https://www.xianmin.org/tags/tool/">tool</a>
+                
+            </div>
+
+
+          
+          <nav class="post-nav">
             
-            <i class="iconfont">
-              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+              <a class="prev" href="/post/javascript-this/">
+                
+                <i class="iconfont">
+                  <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
   width="18" height="18">
   <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
 </svg>
 
-            </i>
-            <span class="prev-text nav-default">JavaScript —— this 绑定</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
-        
-          <a class="next" href="/post/read-peak/">
-            <span class="next-text nav-default">关于编程的练习方法——读《刻意练习》有感</span>
-            <span class="prev-text nav-mobile">下一篇</span>
+                </i>
+                <span class="prev-text nav-default">JavaScript —— this 绑定</span>
+                <span class="prev-text nav-mobile">上一篇</span>
+              </a>
             
-            <i class="iconfont">
-              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+              <a class="next" href="/post/read-peak/">
+                <span class="next-text nav-default">关于编程的练习方法——读《刻意练习》有感</span>
+                <span class="prev-text nav-mobile">下一篇</span>
+                
+                <i class="iconfont">
+                  <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
   width="18" height="18">
   <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
 </svg>
 
-            </i>
-          </a>
-      </nav>
-    </footer>
-  </article>
+                </i>
+              </a>
+          </nav>
+        </footer>
+      </article>
+
+      
+      
+
+
+      
+      
+
+  
 
   
   
-
-
-  
-  
-
-  
-
-  
-  
-    <div class="post bg-white">
+    <div class="post">
   <script
     src="https://giscus.app/client.js"
     data-repo="xianmin/comments---xianmin.org"
@@ -664,12 +673,14 @@ if (!doNotTrack) {
 
   
 
-        </div>
-      </div>
-    </main>
 
-    <footer id="footer" class="footer">
-      <div class="icon-links">
+    </div>
+  </div>
+
+      </main>
+
+      <footer id="footer" class="footer">
+        <div class="icon-links">
   
   
     <a href="mailto:xianmin12@qq.com" rel="me noopener" class="iconfont"
@@ -742,28 +753,30 @@ if (!doNotTrack) {
   
 </div>
 
-    </footer>
+      </footer>
 
-    <div class="back-to-top" id="back-to-top">
-      <i class="iconfont">
-        
-        <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+      <div class="button__back-to-top">
+        <a href="#back-to-top">
+          <i class="iconfont">
+            
+            <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
   width="35" height="35">
   <path d="M510.866688 227.694839 95.449397 629.218702l235.761562 0-2.057869 328.796468 362.40389 0L691.55698 628.188232l241.942331-3.089361L510.866688 227.694839zM63.840492 63.962777l894.052392 0 0 131.813095L63.840492 195.775872 63.840492 63.962777 63.840492 63.962777zM63.840492 63.962777"></path>
 </svg>
 
-      </i>
+          </i>
+        </a>
+      </div>
     </div>
-  </div>
-  
+    
 <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
 
 
 
 
-<script type="text/javascript" src="/js/main.fe83e11b4fbc9193d67e2c9db78bad21f8dc59fca0cacd8c1c3bb071bb16a852.js" integrity="sha256-/oPhG0&#43;8kZPWfiydt4utIfjcWfygys2MHDuwcbsWqFI=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/js/main.6f39add904ee405bee90351754e8ccd5fbb6f302ae840b86eba9f142747e3686.js" integrity="sha256-bzmt2QTuQFvukDUXVOjM1fu28wKuhAuG66nxQnR&#43;NoY=" crossorigin="anonymous"></script>
 
 
 
@@ -777,7 +790,6 @@ if (!doNotTrack) {
 
 
   
-    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
     <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
     <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
   
@@ -817,5 +829,5 @@ if (!doNotTrack) {
   <script src="/js/custom.js"></script>
 
 
-</body>
+  </body>
 </html>
