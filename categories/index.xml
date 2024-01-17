@@ -6,7 +6,16 @@
     <description>Recent content in Categories on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 19 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Jan 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>计算机</title>
+      <link>https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
+      <pubDate>Wed, 17 Jan 2024 14:20:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>阅读</title>
       <link>https://www.xianmin.org/categories/%E9%98%85%E8%AF%BB/</link>
@@ -40,15 +49,6 @@
       <pubDate>Fri, 07 Oct 2022 22:15:10 +0800</pubDate>
       
       <guid>https://www.xianmin.org/categories/%E5%9C%A8%E8%B7%AF%E4%B8%8A/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>计算机</title>
-      <link>https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
-      <pubDate>Mon, 29 Aug 2022 22:10:10 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
       <description></description>
     </item>
     
