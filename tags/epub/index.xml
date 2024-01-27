@@ -6,7 +6,16 @@
     <description>Recent content in epub on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 17 Jan 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/epub/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jan 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/epub/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 PWA 创建跨平台应用，关联本地文件</title>
+      <link>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</link>
+      <pubDate>Sat, 27 Jan 2024 14:20:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</guid>
+      <description>「渐进式 Web 应用 (PWA) 是使用 Web 技术生成的应用程序，可以从一个代码库安装并可在所有设备上运行。」1 PWA 技术好些年前就已经推出了，但在国内似乎一直未受到</description>
+    </item>
+    
     <item>
       <title>EvoReader —— 一个新的 epub 阅读器</title>
       <link>https://www.xianmin.org/post/2024/00-evo-reader-v20240117/</link>

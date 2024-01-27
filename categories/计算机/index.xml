@@ -6,7 +6,16 @@
     <description>Recent content in 计算机 on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 17 Jan 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jan 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 PWA 创建跨平台应用，关联本地文件</title>
+      <link>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</link>
+      <pubDate>Sat, 27 Jan 2024 14:20:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</guid>
+      <description>「渐进式 Web 应用 (PWA) 是使用 Web 技术生成的应用程序，可以从一个代码库安装并可在所有设备上运行。」1 PWA 技术好些年前就已经推出了，但在国内似乎一直未受到</description>
+    </item>
+    
     <item>
       <title>EvoReader —— 一个新的 epub 阅读器</title>
       <link>https://www.xianmin.org/post/2024/00-evo-reader-v20240117/</link>
@@ -336,20 +345,6 @@
 &lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_editing-hacks&#34;&gt;Visual Studio Tips and Tricks&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>JavaScript —— this 绑定</title>
-      <link>https://www.xianmin.org/post/javascript-this/</link>
-      <pubDate>Tue, 14 Nov 2017 14:39:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/javascript-this/</guid>
-      <description>&lt;p&gt;Google 搜索出来的两个不错的链接：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jeffjade.com/2015/08/03/2015-08-03-javascript-this/&#34;&gt;JavaScript 之 this 详解 | 晚晴幽草轩&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://segmentfault.com/a/1190000003046071&#34;&gt;JS 中 this 关键字详解 - JSer - SegmentFault&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;我是先阅读的 &lt;a href=&#34;https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&amp;amp;%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes&#34;&gt;You-Dont-Know-JS: this &amp;amp; Object Prototypes&lt;/a&gt; 。再回过头看上面的那两篇文章，我觉得他们讲解的太复杂了，而 《You-Dont-Know-JS》 就归纳的非常好。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -6,10 +6,79 @@
     <description>Recent content on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 17 Jan 2024 14:20:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jan 2024 14:20:00 +0800</lastBuildDate>
     
         <atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>使用 PWA 创建跨平台应用，关联本地文件</title>
+      <link>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</link>
+      <pubDate>Sat, 27 Jan 2024 14:20:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</guid>
+      
+        <description>&lt;p&gt;「渐进式 Web 应用 (PWA) 是使用 Web 技术生成的应用程序，可以从一个代码库安装并可在所有设备上运行。」&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;PWA 技术好些年前就已经推出了，但在国内似乎一直未受到重视。
+我最早注意到这项技术，是在 Chrome 浏览器的地址栏上发现突然多了个 Install 按钮，就安装体验了一下，比如 Github 和 Twitter 。
+体验感受并不好，和 web 网页基本没差别，就是在系统桌面和任务栏多了个应用图标，还要额外打开一个窗口。
+包括现在，我也认为 &lt;strong&gt;大部分网站在桌面操作系统上 PWA 化是没啥意义的&lt;/strong&gt; 。&lt;/p&gt;
+&lt;p&gt;最近我写了个 &lt;a href=&#34;https://evoreader.github.io/&#34;&gt;epub 阅读器&lt;/a&gt; ，
+我需要一个跨平台方案，可以直接读取本地文件：双击 .epub 文件，直接用 app 打开，就是关联为默认程序，而不是在 app 中打开文件。
+我原本考虑是用 Electron ，代码都写好了，但对于一个工具类的小应用，用 Electron 构建总感觉有些偏重。
+安装包近 100M ，需要编译不同平台的安装包，每次更新都要再次编译。
+一次偶然的搜索发现，可以用 PWA 支持 &lt;strong&gt;关联本地 .epub 文件&lt;/strong&gt; ，这让我对 PWA 技术重新产生了兴趣。&lt;/p&gt;
+&lt;p&gt;实现代码非常简单，添加一个 &lt;code&gt;manifest.json&lt;/code&gt; 文件，然后在项目中加入代码：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-1&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-2&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-3&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-3&#34;&gt;3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-4&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-4&#34;&gt;4&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-5&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-5&#34;&gt;5&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-6&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-6&#34;&gt;6&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-7&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-7&#34;&gt;7&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-8&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-8&#34;&gt;8&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ts&#34; data-lang=&#34;ts&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;launchQueue&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#007020&#34;&gt;window&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  console.log(&lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;File Handling API is supported!&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#007020&#34;&gt;window&lt;/span&gt;.launchQueue.setConsumer((launchParams: &lt;span style=&#34;color:#902000&#34;&gt;LaunchParams&lt;/span&gt;) &lt;span style=&#34;color:#666&#34;&gt;=&amp;gt;&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    handleFiles(launchParams.files)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  })
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;else&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  console.error(&lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;File Handling API is not supported!&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;具体实现细节就不多说了，可以查阅文档 &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;技术实现不难，只是有时候我们不知道还有更简单高效的解决方案。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当我用 PWA 创建了本地跨平台应用，这感觉太爽了， &lt;strong&gt;省去了一堆 Electron 依赖&lt;/strong&gt; ，不用在系统层面的 api 上耗费精力，专注于应用层的开发，效率提升了许多。
+从用户角度考虑， PWA 应用， &lt;strong&gt;安装快捷，不占用空间，卸载方便，打开迅速，app 更新也不需要安装包&lt;/strong&gt; ，体验非常轻松。&lt;/p&gt;
+&lt;p&gt;另外：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PWA 应用支持 &lt;strong&gt;离线使用&lt;/strong&gt; ;&lt;/li&gt;
+&lt;li&gt;PWA 应用可以上传到 Windows Store 或 Chrome App Store 。（可惜我暂时没账号，就先不上传了）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示例&#34;&gt;示例&lt;/h2&gt;
+&lt;p&gt;EvoReader (&lt;a href=&#34;https://evoreader.github.io/&#34;&gt;https://evoreader.github.io/&lt;/a&gt;) 是一个轻量的跨平台 epub 阅读器， 可以用它浏览本地的 &lt;code&gt;.epub&lt;/code&gt; 文件。不了解 PWA 安装的，可以查阅 &lt;a href=&#34;https://github.com/EvoReader/EvoReader/blob/main/0-install-guide.md&#34;&gt;安装指南&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;如果你对这个项目感兴趣，欢迎点一下 &lt;a href=&#34;https://github.com/EvoReader/EvoReader&#34;&gt;https://github.com/EvoReader/EvoReader&lt;/a&gt; 上的小星星，有任何建议或 Bug ，欢迎向我反馈！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/EvoReader/EvoReader/raw/main/images/install-guide/install-guide-0.png&#34; alt=&#34;Install EvoReader&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/EvoReader/EvoReader/raw/main/images/install-guide/install-guide-4.png&#34; alt=&#34;open .epub file on Mac&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://learn.microsoft.com/zh-cn/microsoft-edge/progressive-web-apps-chromium/&#34;&gt;渐进式 Web 应用 （PWA） 概述 - Microsoft Edge Development | Microsoft Learn&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://learn.microsoft.com/zh-cn/microsoft-edge/progressive-web-apps-chromium/how-to/handle-files&#34;&gt;处理渐进式Web 应用中的文件 - Microsoft Edge Development | Microsoft Learn&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>EvoReader —— 一个新的 epub 阅读器</title>
@@ -1327,24 +1396,6 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/2018-read/&#34;&gt;我的 2018 年阅读总结 - 贤民的比特记忆&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.xianmin.org/post/review-read-2019/&#34;&gt;我的 2019 年阅读总结 - 贤民的比特记忆&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>请重视你的牙！！！</title>
-      <link>https://www.xianmin.org/post/202012-attention-teeth/</link>
-      <pubDate>Fri, 04 Dec 2020 21:37:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/202012-attention-teeth/</guid>
-      
-        <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34817533&#34;&gt;牙周炎还是牙龈炎？傻傻分不清楚！ - 知乎&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;前些日子终于去把牙洗了，洗过之后才感到庆幸，还好去的不是太晚，否则将来导致更严重的问题，就不是现在洗洗牙这么简单了。&lt;/p&gt;
-&lt;p&gt;这得感谢去年一位朋友的劝告，他患了牙周炎，花费了不少钱，治疗过程也少不了煎熬，从此就对牙齿特别重视了。他看到我的牙齿牙缝比较大，就好心的提醒我，牙齿可能有问题，建议到医院检查一下。我的牙齿的确有点儿问题，比如牙龈出血；因为长期抽烟的原因，还堆积了不少牙结石。可是呢，又自我感觉不是太大的问题，牙齿从来不疼，啃骨头什么的也没困难，又缺乏口腔护理的知识，当时还没有特别重视。直到今年回家的时候，弟媳建议我要去洗牙，她在口腔医院工作，我才认识到，应该得抽个时间去医院看一看了。&lt;/p&gt;
-&lt;p&gt;到了医院，医生看了我的牙，担心把我的牙洗掉，让我去拍牙片。我当时还是有点儿紧张的，要是洗个牙都能把牙洗掉，我的牙得有多脆弱，而我却从来没意识到。拍了牙片，到另一位级别更高的医生那儿诊断，说我的前面八颗门牙被牙结石腐蚀的比较严重了，建议我配合药物治疗。考虑了一下，还是先把牙洗了之后，视情况再做决定。洗牙的过程并没有太波折，是出了点血，牙石也挺多的，可我的门牙还是很坚强的，没有想的那么脆弱。&lt;/p&gt;
-&lt;p&gt;洗过牙之后，口腔干净多了。多亏了朋友善意的提醒，让我重新审视自己的牙齿。&lt;/p&gt;
-&lt;p&gt;很多时候，就是因为忽视了小问题的存在，最终引发大问题。尤其是人的身体，要是哪儿有一点儿不舒服，实际上就已经是某个病症初期的警告了！&lt;/p&gt;</description>
       
     </item>
     

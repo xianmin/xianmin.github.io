@@ -6,20 +6,29 @@
     <description>Recent content in Tags on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 17 Jan 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jan 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>epub</title>
       <link>https://www.xianmin.org/tags/epub/</link>
-      <pubDate>Wed, 17 Jan 2024 14:20:00 +0800</pubDate>
+      <pubDate>Sat, 27 Jan 2024 14:20:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/tags/epub/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>PWA</title>
+      <link>https://www.xianmin.org/tags/pwa/</link>
+      <pubDate>Sat, 27 Jan 2024 14:20:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/tags/pwa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>reader</title>
       <link>https://www.xianmin.org/tags/reader/</link>
-      <pubDate>Wed, 17 Jan 2024 14:20:00 +0800</pubDate>
+      <pubDate>Sat, 27 Jan 2024 14:20:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/tags/reader/</guid>
       <description></description>
@@ -28,7 +37,7 @@
     <item>
       <title>阅读器</title>
       <link>https://www.xianmin.org/tags/%E9%98%85%E8%AF%BB%E5%99%A8/</link>
-      <pubDate>Wed, 17 Jan 2024 14:20:00 +0800</pubDate>
+      <pubDate>Sat, 27 Jan 2024 14:20:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/tags/%E9%98%85%E8%AF%BB%E5%99%A8/</guid>
       <description></description>
@@ -175,15 +184,6 @@
       <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.xianmin.org/tags/debug/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>生活</title>
-      <link>https://www.xianmin.org/tags/%E7%94%9F%E6%B4%BB/</link>
-      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/tags/%E7%94%9F%E6%B4%BB/</guid>
       <description></description>
     </item>
     
