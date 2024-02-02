@@ -6,14 +6,44 @@
     <description>Recent content in Posts on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 27 Jan 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Feb 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>记录一次 Debug Windows 蓝屏 BSOD 修复</title>
+      <link>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</link>
+      <pubDate>Thu, 01 Feb 2024 14:20:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</guid>
+      <description>&lt;p&gt;上个月，我为我的笔记本电脑 ThinkPad T480 加装了一块 1T 硬盘，升级了内存条到 64G 。
+之后电脑也是正常运行的，但不确定从什么时候开始，系统出现蓝屏了。
+最开始出现蓝屏，重启就好了，我不知道是什么原因，也没在意。
+后来发现，每次只要电脑从深度睡眠状态启动恢复，系统就会出现蓝屏，但进入到系统后，运行时又是正常的。
+屏幕上的终止代码有以下三种： &lt;code&gt;MEMORY_MANAGEMENT&lt;/code&gt;, &lt;code&gt;IRQL_NOT_LESS_OR_EQUAL&lt;/code&gt;, &lt;code&gt;PFN_LIST_CORRUPT&lt;/code&gt; 。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/debug-windows-bsod.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/other/debug-windows-bsod.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;debug windows bsod&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;</description>
+    </item>
+    
     <item>
       <title>使用 PWA 创建跨平台应用，关联本地文件</title>
       <link>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</link>
       <pubDate>Sat, 27 Jan 2024 14:20:00 +0800</pubDate>
       
       <guid>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</guid>
-      <description>「渐进式 Web 应用 (PWA) 是使用 Web 技术生成的应用程序，可以从一个代码库安装并可在所有设备上运行。」1 PWA 技术好些年前就已经推出了，但在国内似乎一直未受到</description>
+      <description>&lt;p&gt;「渐进式 Web 应用 (PWA) 是使用 Web 技术生成的应用程序，可以从一个代码库安装并可在所有设备上运行。」&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;PWA 技术好些年前就已经推出了，但在国内似乎一直未受到重视。
+我最早注意到这项技术，是在 Chrome 浏览器的地址栏上发现突然多了个 Install 按钮，就安装体验了一下，比如 Github 和 Twitter 。
+体验感受并不好，和 web 网页基本没差别，就是在系统桌面和任务栏多了个应用图标，还要额外打开一个窗口。
+包括现在，我也认为 &lt;strong&gt;大部分网站在桌面操作系统上 PWA 化是没啥意义的&lt;/strong&gt; 。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -359,18 +389,6 @@
       <guid>https://www.xianmin.org/post/review-read-2020/</guid>
       <description>&lt;p&gt;回顾 2020 年的阅读，并没有做很好的梳理。因为琐事繁多，没能有计划的进行主题阅读。算是 2020 年的一大缺憾。&lt;/p&gt;
 &lt;p&gt;以下列出我在 2020  年读过的好书。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>请重视你的牙！！！</title>
-      <link>https://www.xianmin.org/post/202012-attention-teeth/</link>
-      <pubDate>Fri, 04 Dec 2020 21:37:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/202012-attention-teeth/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34817533&#34;&gt;牙周炎还是牙龈炎？傻傻分不清楚！ - 知乎&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;前些日子终于去把牙洗了，洗过之后才感到庆幸，还好去的不是太晚，否则将来导致更严重的问题，就不是现在洗洗牙这么简单了。&lt;/p&gt;</description>
     </item>
     
   </channel>
