@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 01 Aug 2018 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E8%BD%AC%E8%BD%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>（转载）Secure Design for Low Energy Bluetooth (BLE) Applications</title>
-      <link>https://www.xianmin.org/post/2024/03-secure-design-for-low-energy-bluetooth-ble-applications/</link>
+      <link>https://www.xianmin.org/post/2018/secure-design-for-low-energy-bluetooth-ble-applications/</link>
       <pubDate>Wed, 01 Aug 2018 14:20:00 +0800</pubDate>
       
-      <guid>https://www.xianmin.org/post/2024/03-secure-design-for-low-energy-bluetooth-ble-applications/</guid>
+      <guid>https://www.xianmin.org/post/2018/secure-design-for-low-energy-bluetooth-ble-applications/</guid>
       <description>(原文链接： https://tosdn.com/secure-design-for-low-energy-bluetooth-ble-applications/ ) Low Energy Bluetooth (BLE) is widely used in various smart devices and IoT scenarios as a low-power, short-range wireless communication technology. However, due to the characteristics of BLE, it is susceptible to various security threats. Therefore, when designing and developing BLE applications, it is crucial to focus on security issues and implement appropriate security measures to protect communication data and user privacy.</description>
     </item>
     

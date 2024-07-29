@@ -10,7 +10,7 @@
   
   <url>
     <loc>https://www.xianmin.org/categories/</loc>
-    <lastmod>2024-07-29T09:37:18+08:00</lastmod>
+    <lastmod>2024-07-29T09:45:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -24,14 +24,14 @@
   
   <url>
     <loc>https://www.xianmin.org/post/</loc>
-    <lastmod>2024-07-29T09:37:18+08:00</lastmod>
+    <lastmod>2024-07-29T09:45:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/tags/</loc>
-    <lastmod>2024-07-29T09:37:18+08:00</lastmod>
+    <lastmod>2024-07-29T09:45:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -59,7 +59,7 @@
   
   <url>
     <loc>https://www.xianmin.org/</loc>
-    <lastmod>2024-07-29T09:37:18+08:00</lastmod>
+    <lastmod>2024-07-29T09:45:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1157,29 +1157,29 @@
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/post/2024/03-secure-design-for-low-energy-bluetooth-ble-applications/</loc>
-    <lastmod>2024-07-29T09:37:18+08:00</lastmod>
+    <loc>https://www.xianmin.org/post/2018/secure-design-for-low-energy-bluetooth-ble-applications/</loc>
+    <lastmod>2024-07-29T09:45:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/tags/bluetooth/</loc>
-    <lastmod>2024-07-29T09:37:18+08:00</lastmod>
+    <lastmod>2024-07-29T09:45:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/tags/%E8%BD%AC%E8%BD%BD/</loc>
-    <lastmod>2024-07-29T09:37:18+08:00</lastmod>
+    <lastmod>2024-07-29T09:45:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/categories/%E8%BD%AC%E8%BD%BD/</loc>
-    <lastmod>2024-07-29T09:37:18+08:00</lastmod>
+    <lastmod>2024-07-29T09:45:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
