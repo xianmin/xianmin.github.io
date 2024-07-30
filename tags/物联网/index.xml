@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>物联网 on 贤民的博客</title>
+    <link>https://www.xianmin.org/tags/%E7%89%A9%E8%81%94%E7%BD%91/</link>
+    <description>Recent content in 物联网 on 贤民的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 01 Nov 2018 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E7%89%A9%E8%81%94%E7%BD%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>打造智能遥控车 EaseCar</title>
+      <link>https://www.xianmin.org/post/2018/easecar-tutorial/</link>
+      <pubDate>Thu, 01 Nov 2018 14:20:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2018/easecar-tutorial/</guid>
+      <description>项目概述 在本教程中，我们将学习如何将传统的遥控车改造成智能车EaseCar，它能够响应语音指令、手势控制，甚至自主避开障碍物，并将活动实时直</description>
+    </item>
+    
+  </channel>
+</rss>
