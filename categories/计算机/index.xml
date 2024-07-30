@@ -229,7 +229,34 @@
     </item>
     
     <item>
-      <title>打造智能遥控车 EaseCar</title>
+      <title>打造智能监控系统—— EaseWatcher</title>
+      <link>https://www.xianmin.org/post/2018/easewatcher-tutorial/</link>
+      <pubDate>Sun, 04 Nov 2018 14:20:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2018/easewatcher-tutorial/</guid>
+      <description>简介 EaseWatcher 是一个自己动手做的智能监控系统，可以检测不受欢迎的访客，捕捉他们的图像，并将通知发送到您的移动设备。 系统架构 系统由多个相互连接的组件构</description>
+    </item>
+    
+    <item>
+      <title>打造智能门锁控制系统 —— EaseLock</title>
+      <link>https://www.xianmin.org/post/2018/easelock-tutorial/</link>
+      <pubDate>Sat, 03 Nov 2018 14:20:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2018/easelock-tutorial/</guid>
+      <description>简介 EaseLock 是一个通过软件控制的智能门锁系统，结合硬件设置和软件编程，可实现远程开锁的功能。本教程将指导您快速了解并使用 EaseLock 系统。 硬件准备 在开始软件</description>
+    </item>
+    
+    <item>
+      <title>打造智能家居聊天机器人 —— EaseHome</title>
+      <link>https://www.xianmin.org/post/2018/easehome-tutorial/</link>
+      <pubDate>Fri, 02 Nov 2018 14:20:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2018/easehome-tutorial/</guid>
+      <description>项目概述 EaseHome 是一款智能家居聊天机器人，它利用微软的Bot Framework和LUIS（Language Understanding Intelligent Service），让你能够通过自然语</description>
+    </item>
+    
+    <item>
+      <title>打造智能遥控车 —— EaseCar</title>
       <link>https://www.xianmin.org/post/2018/easecar-tutorial/</link>
       <pubDate>Thu, 01 Nov 2018 14:20:00 +0800</pubDate>
       
@@ -313,45 +340,6 @@
 &lt;/div&gt;
 
 &lt;p&gt;代码来源： &lt;a href=&#34;https://immmmm.com/bitcron-show-douban-item&#34;&gt;Bitcron 文章内插入豆瓣条目 - 林小沐&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>linux 的文件管理器、命令行下，用 emacs 快速打开文件的方法</title>
-      <link>https://www.xianmin.org/post/linux-emacs-quick-open-file/</link>
-      <pubDate>Tue, 22 May 2018 21:28:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/linux-emacs-quick-open-file/</guid>
-      <description>&lt;p&gt;首先要确认 emacs 已经启动，并且开启了 server &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 。如果使用 spacemacs ，server 默认是开启的。这样就可以使用 &lt;code&gt;emacsclient&lt;/code&gt; 命令快速打开文件了。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>浅谈「用 git submodule 还是 git subtree」？</title>
-      <link>https://www.xianmin.org/post/git-submodule/</link>
-      <pubDate>Mon, 16 Apr 2018 23:14:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/git-submodule/</guid>
-      <description>&lt;p&gt;因为有用 &lt;code&gt;git&lt;/code&gt; 管理 &lt;strong&gt;子项目&lt;/strong&gt; 的需要，我在网上找到了 &lt;code&gt;submodule&lt;/code&gt; 和 &lt;code&gt;subtree&lt;/code&gt; 这两种方法。奇怪的是，有好几篇文章提到用 &lt;code&gt;subtree&lt;/code&gt; 替代 &lt;code&gt;submodule&lt;/code&gt; 。&lt;/p&gt;
-&lt;p&gt;比如这两篇：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://tech.youzan.com/git-subtree/&#34;&gt;用 Git Subtree 在多个 Git 项目间双向同步子项目，附简明使用手册 - Delai - 有赞技术团队&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/blog/git/alternatives-to-git-submodule-git-subtree&#34;&gt;Git subtree: the alternative to Git submodule&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这两个链接分别都出现在 Google 搜索中文和搜索英文时的首页上。因此，我最开始使用的是 subtree，以为 subtree 就是目前的主流方案，并且是 submodule 的替代方案。直到前些日子我改用了 submodule 才发现，submodule 才是真正我想用的。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo</title>
-      <link>https://www.xianmin.org/post/ox-hugo/</link>
-      <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/ox-hugo/</guid>
-      <description>&lt;p&gt;本文将对我个人的博文写作流程 &lt;strong&gt;所用到的工具&lt;/strong&gt; 做一个总结与分享。从标题就可以看出来，主要有这几个工具： &lt;code&gt;emacs&lt;/code&gt;, &lt;code&gt;orgmode&lt;/code&gt; &amp;amp; &lt;code&gt;hugo&lt;/code&gt; ，另外还有两个配合 &lt;code&gt;hugo&lt;/code&gt; 的辅助包 &lt;code&gt;easy-hugo&lt;/code&gt; （可选） &amp;amp; &lt;code&gt;ox-hugo&lt;/code&gt; 。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;hugo&lt;/code&gt; : &lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;orgmode&lt;/code&gt; : &lt;a href=&#34;https://orgmode.org/&#34;&gt;https://orgmode.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ox-hugo&lt;/code&gt; : &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;https://ox-hugo.scripter.co/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;easy-hygo&lt;/code&gt; : &lt;a href=&#34;https://github.com/masasam/emacs-easy-hugo&#34;&gt;https://github.com/masasam/emacs-easy-hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
     </item>
     
   </channel>

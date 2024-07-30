@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>
-          打造智能遥控车 —— EaseCar - 贤民的博客
+          打造智能监控系统—— EaseWatcher - 贤民的博客
         </title>
     
 
@@ -29,7 +29,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="贤民" />
-  <meta name="description" content="项目概述 在本教程中，我们将学习如何将传统的遥控车改造成智能车EaseCar，它能够响应语音指令、手势控制，甚至自主避开障碍物，并将活动实时直" />
+  <meta name="description" content="简介 EaseWatcher 是一个自己动手做的智能监控系统，可以检测不受欢迎的访客，捕捉他们的图像，并将通知发送到您的移动设备。 系统架构 系统由多个相互连接的组件构" />
 
   <meta name="keywords" content="linux, emacs, program, journal, 贤民, 博客, 笔记" />
 
@@ -41,7 +41,7 @@
 <meta name="generator" content="Hugo 0.99.1" />
 
 
-<link rel="canonical" href="https://www.xianmin.org/post/2018/easecar-tutorial/" />
+<link rel="canonical" href="https://www.xianmin.org/post/2018/easewatcher-tutorial/" />
 
 
 
@@ -69,20 +69,20 @@
 <link rel="stylesheet" href="/css/custom.css">
 
 
-<meta property="og:title" content="打造智能遥控车 —— EaseCar" />
-<meta property="og:description" content="项目概述 在本教程中，我们将学习如何将传统的遥控车改造成智能车EaseCar，它能够响应语音指令、手势控制，甚至自主避开障碍物，并将活动实时直" />
+<meta property="og:title" content="打造智能监控系统—— EaseWatcher" />
+<meta property="og:description" content="简介 EaseWatcher 是一个自己动手做的智能监控系统，可以检测不受欢迎的访客，捕捉他们的图像，并将通知发送到您的移动设备。 系统架构 系统由多个相互连接的组件构" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.xianmin.org/post/2018/easecar-tutorial/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2018-11-01T14:20:00+08:00" />
-<meta property="article:modified_time" content="2018-11-01T14:20:00+08:00" />
+<meta property="og:url" content="https://www.xianmin.org/post/2018/easewatcher-tutorial/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2018-11-04T14:20:00+08:00" />
+<meta property="article:modified_time" content="2018-11-04T14:20:00+08:00" />
 
-<meta itemprop="name" content="打造智能遥控车 —— EaseCar">
-<meta itemprop="description" content="项目概述 在本教程中，我们将学习如何将传统的遥控车改造成智能车EaseCar，它能够响应语音指令、手势控制，甚至自主避开障碍物，并将活动实时直"><meta itemprop="datePublished" content="2018-11-01T14:20:00+08:00" />
-<meta itemprop="dateModified" content="2018-11-01T14:20:00+08:00" />
-<meta itemprop="wordCount" content="843">
+<meta itemprop="name" content="打造智能监控系统—— EaseWatcher">
+<meta itemprop="description" content="简介 EaseWatcher 是一个自己动手做的智能监控系统，可以检测不受欢迎的访客，捕捉他们的图像，并将通知发送到您的移动设备。 系统架构 系统由多个相互连接的组件构"><meta itemprop="datePublished" content="2018-11-04T14:20:00+08:00" />
+<meta itemprop="dateModified" content="2018-11-04T14:20:00+08:00" />
+<meta itemprop="wordCount" content="783">
 <meta itemprop="keywords" content="物联网,IoT," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="打造智能遥控车 —— EaseCar"/>
-<meta name="twitter:description" content="项目概述 在本教程中，我们将学习如何将传统的遥控车改造成智能车EaseCar，它能够响应语音指令、手势控制，甚至自主避开障碍物，并将活动实时直"/>
+<meta name="twitter:title" content="打造智能监控系统—— EaseWatcher"/>
+<meta name="twitter:description" content="简介 EaseWatcher 是一个自己动手做的智能监控系统，可以检测不受欢迎的访客，捕捉他们的图像，并将通知发送到您的移动设备。 系统架构 系统由多个相互连接的组件构"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -408,7 +408,7 @@ if (!doNotTrack) {
       <article class="post">
         
         <header class="post-header">
-          <h1 class="post-title">打造智能遥控车 —— EaseCar</h1>
+          <h1 class="post-title">打造智能监控系统—— EaseWatcher</h1>
           
 
           <div class="post-meta">
@@ -423,8 +423,8 @@ if (!doNotTrack) {
   </div>
 
   <div class="post-meta-time">
-    <time datetime="2018-11-01">
-      2018-11-01
+    <time datetime="2018-11-04">
+      2018-11-04
     </time>
   </div>
 
@@ -453,55 +453,23 @@ if (!doNotTrack) {
 
         
         <div class="post-content">
-          <h2 id="项目概述">项目概述</h2>
-<p>在本教程中，我们将学习如何将传统的遥控车改造成智能车EaseCar，它能够响应语音指令、手势控制，甚至自主避开障碍物，并将活动实时直播到YouTube。</p>
-<p><img src="https://oneease.com/static/200.png" alt=""></p>
-<h2 id="所需材料">所需材料</h2>
+          <h2 id="简介">简介</h2>
+<p>EaseWatcher 是一个自己动手做的智能监控系统，可以检测不受欢迎的访客，捕捉他们的图像，并将通知发送到您的移动设备。</p>
+<h2 id="系统架构">系统架构</h2>
+<p>系统由多个相互连接的组件构成，包括：</p>
 <ul>
-<li>遥控车</li>
-<li>Intel Edison开发板（或兼容的IoT设备）</li>
-<li>Arduino兼容扩展板</li>
-<li>MQTT服务器</li>
-<li>智能手机或平板电脑</li>
-<li>摄像头（用于直播）</li>
-<li>必要的电子元件和工具（如：电线、电阻、传感器等）</li>
+<li>摄像头接口：与视频摄像头通信</li>
+<li>存储接口：处理文件传输、图像存储和控制命令</li>
+<li>触发接口：激活监控系统</li>
+<li>报警接口：远程通知用户事件</li>
 </ul>
-<h2 id="改造步骤">改造步骤</h2>
-<ol>
-<li>
-<p><strong>了解系统架构</strong>：首先，了解遥控车的工作原理，包括发射器和接收器的电路设计。</p>
-</li>
-<li>
-<p><strong>硬件改造</strong>：</p>
+<h2 id="硬件组件">硬件组件</h2>
 <ul>
-<li>打开遥控器，找到控制按钮的电路。</li>
-<li>切断电池盒与电路的连接，使用Grove连接器线缆将电源线连接到IoT设备。</li>
+<li><strong>摄像头</strong>：使用两种IP摄像头，一种是价格约50欧元的Conceptornic Wi-Fi摄像头，另一种是性能更高的Axis型号。</li>
+<li><strong>移动通知</strong>：使用约17欧元的基本USB AT调制解调器，用于在发生事件时向手机发送警报。</li>
+<li><strong>触发系统</strong>：使用Arduino Mega板、存在检测开关和继电器。</li>
 </ul>
-</li>
-<li>
-<p><strong>软件编程</strong>：</p>
-<ul>
-<li>在IoT设备上运行MQTT服务器，创建一个Node.js应用程序，订阅MQTT主题并根据接收到的命令控制车辆。</li>
-<li>编写代码，通过控制连接到Grove shield的引脚来模拟遥控器按钮的功能。</li>
-</ul>
-</li>
-<li>
-<p><strong>手势与语音控制</strong>：</p>
-<ul>
-<li>使用Intel RealSense技术，开发一个应用程序，通过手势和语音命令控制车辆。</li>
-<li>集成RealSense SDK，实现手势识别和情感检测，将手势或情感转换为车辆控制命令。</li>
-</ul>
-</li>
-<li>
-<p><strong>实时视频直播</strong>：</p>
-<ul>
-<li>在Intel Edison上安装并配置mjpg-streamer，用于视频流的捕获和传输。</li>
-<li>使用ffmpeg工具将视频流与音频混合，并推送到YouTube进行直播。</li>
-</ul>
-</li>
-</ol>
-<h2 id="编码示例">编码示例</h2>
-<p>以下是Node.js代码的简化示例，展示了如何根据MQTT消息控制车辆：</p>
+<h2 id="arduino-代码示例">Arduino 代码示例</h2>
 <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-1"> 1</a>
@@ -520,77 +488,51 @@ if (!doNotTrack) {
 </span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-14"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-14">14</a>
 </span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-15"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-15">15</a>
 </span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-16"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-16">16</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-17"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-17">17</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-18"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-18">18</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-19"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-19">19</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-20"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-20">20</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-21"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-21">21</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-22"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-22">22</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-23"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-23">23</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-24"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-24">24</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-25"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-25">25</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-26"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-26">26</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-27"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-27">27</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-28"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-28">28</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-29"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-29">29</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-30"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-30">30</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-31"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-31">31</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-32"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-32">32</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-33"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-33">33</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-34"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-34">34</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-35"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-35">35</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-36"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-36">36</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-37"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-37">37</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-38"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-38">38</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-39"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-39">39</a>
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">var</span> mqtt <span style="color:#666">=</span> require(<span style="color:#4070a0">&#39;mqtt&#39;</span>);
-</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">var</span> client <span style="color:#666">=</span> mqtt.connect(<span style="color:#4070a0">&#39;mqtt://192.168.1.101&#39;</span>); <span style="color:#60a0b0;font-style:italic">// 更改为Edison的本地IP地址
-</span></span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"></span>
-</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">// 定义并初始化引脚
-</span></span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"></span><span style="color:#007020;font-weight:bold">var</span> fPin <span style="color:#666">=</span> <span style="color:#007020;font-weight:bold">new</span> mraa.Gpio(<span style="color:#40a070">6</span>);
-</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">var</span> bPin <span style="color:#666">=</span> <span style="color:#007020;font-weight:bold">new</span> mraa.Gpio(<span style="color:#40a070">5</span>);
-</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">var</span> rPin <span style="color:#666">=</span> <span style="color:#007020;font-weight:bold">new</span> mraa.Gpio(<span style="color:#40a070">3</span>);
-</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">var</span> lPin <span style="color:#666">=</span> <span style="color:#007020;font-weight:bold">new</span> mraa.Gpio(<span style="color:#40a070">4</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">// 设置引脚方向并初始化状态
-</span></span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"></span>fPin.dir(mraa.DIR_OUT);
-</span></span><span style="display:flex;"><span>bPin.dir(mraa.DIR_OUT);
-</span></span><span style="display:flex;"><span>rPin.dir(mraa.DIR_OUT);
-</span></span><span style="display:flex;"><span>lPin.dir(mraa.DIR_OUT);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">// 初始化引脚状态为低
-</span></span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"></span>fPin.write(<span style="color:#40a070">0</span>);
-</span></span><span style="display:flex;"><span>bPin.write(<span style="color:#40a070">0</span>);
-</span></span><span style="display:flex;"><span>rPin.write(<span style="color:#40a070">0</span>);
-</span></span><span style="display:flex;"><span>lPin.write(<span style="color:#40a070">0</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">// 订阅MQTT主题
-</span></span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"></span>client.subscribe(<span style="color:#4070a0">&#39;rupam/data/#&#39;</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">// 处理MQTT消息
-</span></span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"></span>client.on(<span style="color:#4070a0">&#39;message&#39;</span>, <span style="color:#007020;font-weight:bold">function</span>(topic, message) {
-</span></span><span style="display:flex;"><span>  console.log(message.toString());
-</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">switch</span>(message.toString()) {
-</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">case</span> <span style="color:#4070a0">&#39;FORWARD&#39;</span><span style="color:#666">:</span>
-</span></span><span style="display:flex;"><span>      bPin.write(<span style="color:#40a070">0</span>);
-</span></span><span style="display:flex;"><span>      fPin.write(<span style="color:#40a070">1</span>);
-</span></span><span style="display:flex;"><span>      <span style="color:#007020;font-weight:bold">break</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">case</span> <span style="color:#4070a0">&#39;REVERSE&#39;</span><span style="color:#666">:</span>
-</span></span><span style="display:flex;"><span>      fPin.write(<span style="color:#40a070">0</span>);
-</span></span><span style="display:flex;"><span>      bPin.write(<span style="color:#40a070">1</span>);
-</span></span><span style="display:flex;"><span>      <span style="color:#007020;font-weight:bold">break</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic">// 其他指令类似...
-</span></span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"></span>  }
-</span></span><span style="display:flex;"><span>});
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-arduino" data-lang="arduino"><span style="display:flex;"><span><span style="color:#902000">int</span> pin1 <span style="color:#666">=</span> <span style="color:#40a070">28</span>;
+</span></span><span style="display:flex;"><span><span style="color:#902000">int</span> pin0 <span style="color:#666">=</span> <span style="color:#40a070">24</span>;
+</span></span><span style="display:flex;"><span><span style="color:#902000">void</span> <span style="color:#06287e">setup</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#06287e">pinMode</span>(pin0, <span style="color:#007020;font-weight:bold">OUTPUT</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#06287e">digitalWrite</span>(pin0, <span style="color:#007020;font-weight:bold">LOW</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#06287e">pinMode</span>(pin1, <span style="color:#007020;font-weight:bold">INPUT</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#06287e">digitalWrite</span>(pin1, <span style="color:#007020;font-weight:bold">LOW</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#0e84b5;font-weight:bold">Serial</span>.<span style="color:#06287e">begin</span>(<span style="color:#40a070">9600</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#902000">void</span> <span style="color:#06287e">loop</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#902000">int</span> val <span style="color:#666">=</span> <span style="color:#06287e">digitalRead</span>(pin1);
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">if</span> (val <span style="color:#666">==</span> <span style="color:#007020;font-weight:bold">HIGH</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#0e84b5;font-weight:bold">Serial</span>.<span style="color:#06287e">write</span>(<span style="color:#40a070">1</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#06287e">delay</span>(<span style="color:#40a070">1000</span>);
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="结论">结论</h2>
-<p>通过本教程，您可以将一个普通的遥控车改造成一个具有多种智能控制方式的EaseCar。这不仅能够提供一个有趣的项目实践机会，还能够启发您探索物联网的无限可能。</p>
+</div><h2 id="中央控制应用">中央控制应用</h2>
+<p>这是一个桌面MDI Windows应用程序，负责整个监控过程的协调。</p>
+<h3 id="控制面板">控制面板</h3>
+<p>配置各种协议，包括触发协议、通知（报警）协议设置和存储协议。</p>
+<h3 id="摄像头窗口">摄像头窗口</h3>
+<p>通过“文件/新建摄像头&hellip;”菜单选项配置个别摄像头。</p>
+<h3 id="配置存储">配置存储</h3>
+<p>所有设置存储在应用程序的App.config文件中。</p>
+<h2 id="移动客户端">移动客户端</h2>
+<p>使用Xamarin开发的移动应用程序，用于远程监控。</p>
+<h3 id="连接到主应用程序">连接到主应用程序</h3>
+<p>启动客户端应用程序后，按下“连接”按钮与主应用程序进行握手。</p>
+<h3 id="摄像头选择">摄像头选择</h3>
+<p>连接后，客户端会接收到可用摄像头列表，选择一个摄像头即可查看实时画面。</p>
+<h3 id="照片管理">照片管理</h3>
+<p>应用程序提供控制开始/停止摄像头画面、拍照或结束报警模式的功能。</p>
+<h2 id="代码工作">代码工作</h2>
+<p>定义了各种协议接口，如<code>IWatcherCamera</code>、<code>ITrigger</code>、<code>IAlarmChannel</code>和<code>IStorageManager</code>。</p>
+<h2 id="存储协议">存储协议</h2>
+<p>实现了两种存储协议：DropBoxProtocol和自定义存储协议。</p>
+<h2 id="结语">结语</h2>
+<p>通过本教程，您可以了解如何构建自己的EaseWatcher智能监控系统。更多细节和源代码，请访问<a href="https://oneease.com/easewatcher/tutorial/">下载页面</a>。</p>
 <h2 id="参考">参考</h2>
 <ul>
-<li><a href="https://oneease.com/easecar/tutorial/">EaseCar Tutorial - OneEase</a></li>
+<li><a href="https://oneease.com/easewatcher/">EaseWatcher - OneEase</a></li>
 </ul>
 
         </div>
@@ -605,7 +547,7 @@ if (!doNotTrack) {
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-      2018-11-01
+      2018-11-04
       
     </span>
   </p>
@@ -646,7 +588,7 @@ if (!doNotTrack) {
           
           <nav class="post-nav">
             
-              <a class="prev" href="/post/2018/easehome-tutorial/">
+              <a class="prev" href="/post/2018-lugu-lake/">
                 
                 <i class="iconfont">
                   <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -656,12 +598,12 @@ if (!doNotTrack) {
 </svg>
 
                 </i>
-                <span class="prev-text nav-default">打造智能家居聊天机器人 —— EaseHome</span>
+                <span class="prev-text nav-default">从泸沽湖到宝山石头城</span>
                 <span class="prev-text nav-mobile">上一篇</span>
               </a>
             
-              <a class="next" href="/post/review-2018-10/">
-                <span class="next-text nav-default">记录： 2018 年 10 月 - 音乐会</span>
+              <a class="next" href="/post/2018/easelock-tutorial/">
+                <span class="next-text nav-default">打造智能门锁控制系统 —— EaseLock</span>
                 <span class="prev-text nav-mobile">下一篇</span>
                 
                 <i class="iconfont">
@@ -722,7 +664,7 @@ if (!doNotTrack) {
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     var disqus_config = function () {
-      this.page.url = "https://www.xianmin.org/post/2018/easecar-tutorial/";
+      this.page.url = "https://www.xianmin.org/post/2018/easewatcher-tutorial/";
     };
     function load_disqus() {
       

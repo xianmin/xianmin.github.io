@@ -6,9 +6,36 @@
     <description>Recent content in 物联网 on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 01 Nov 2018 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E7%89%A9%E8%81%94%E7%BD%91/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Nov 2018 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E7%89%A9%E8%81%94%E7%BD%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>打造智能遥控车 EaseCar</title>
+      <title>打造智能监控系统—— EaseWatcher</title>
+      <link>https://www.xianmin.org/post/2018/easewatcher-tutorial/</link>
+      <pubDate>Sun, 04 Nov 2018 14:20:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2018/easewatcher-tutorial/</guid>
+      <description>简介 EaseWatcher 是一个自己动手做的智能监控系统，可以检测不受欢迎的访客，捕捉他们的图像，并将通知发送到您的移动设备。 系统架构 系统由多个相互连接的组件构</description>
+    </item>
+    
+    <item>
+      <title>打造智能门锁控制系统 —— EaseLock</title>
+      <link>https://www.xianmin.org/post/2018/easelock-tutorial/</link>
+      <pubDate>Sat, 03 Nov 2018 14:20:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2018/easelock-tutorial/</guid>
+      <description>简介 EaseLock 是一个通过软件控制的智能门锁系统，结合硬件设置和软件编程，可实现远程开锁的功能。本教程将指导您快速了解并使用 EaseLock 系统。 硬件准备 在开始软件</description>
+    </item>
+    
+    <item>
+      <title>打造智能家居聊天机器人 —— EaseHome</title>
+      <link>https://www.xianmin.org/post/2018/easehome-tutorial/</link>
+      <pubDate>Fri, 02 Nov 2018 14:20:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2018/easehome-tutorial/</guid>
+      <description>项目概述 EaseHome 是一款智能家居聊天机器人，它利用微软的Bot Framework和LUIS（Language Understanding Intelligent Service），让你能够通过自然语</description>
+    </item>
+    
+    <item>
+      <title>打造智能遥控车 —— EaseCar</title>
       <link>https://www.xianmin.org/post/2018/easecar-tutorial/</link>
       <pubDate>Thu, 01 Nov 2018 14:20:00 +0800</pubDate>
       
