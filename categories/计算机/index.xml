@@ -6,7 +6,34 @@
     <description>Recent content in 计算机 on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 01 Feb 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Sep 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>启用 ublock Cookie 规则，避免网站 Cookie 弹窗</title>
+      <link>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</link>
+      <pubDate>Fri, 06 Sep 2024 14:20:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</guid>
+      <description>&lt;p&gt;由于欧洲的数据保护政策，许多网站都会弹窗提醒你「接受 Cookies」 。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/avoid-cookie-00.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/other/avoid-cookie-00.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;cookie&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我个人并 &lt;strong&gt;不关心&lt;/strong&gt; 网站的 Cookie 存储了哪些数据，
+而且我也没那么多精力看各个网站的 Cookie 政策,
+所以每次弹窗，我都是无脑点击 「Accept all cookies」 。
+通常，点击一次，也就不会再弹窗了。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>记录一次 Debug Windows 蓝屏 BSOD 修复</title>
       <link>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</link>
@@ -322,24 +349,6 @@
       
       <guid>https://www.xianmin.org/post/utterances-comment-system/</guid>
       <description>背景介绍 基于 github issues 的评论系统，比较流行的有 gitment 和 gitalk 。这两个项目我很早就注意到了，它们明显的缺陷是，当用户如果尝试登录评论，所要求的权限是很多的，</description>
-    </item>
-    
-    <item>
-      <title>为 hugo 站点插入豆瓣条目的 shortcode</title>
-      <link>https://www.xianmin.org/post/hugo-shortcode-douban-item/</link>
-      <pubDate>Fri, 25 May 2018 15:20:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/hugo-shortcode-douban-item/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;最终效果：&lt;/strong&gt;
-&lt;div class=&#34;douban_show&#34;&gt;
-  &lt;div id=&#34;db9787532132263&#34; date-dbid=&#34;9787532132263&#34; class=&#34;douban_item post-preview&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;div class=&#34;douban_show&#34;&gt;
-  &lt;div id=&#34;db1307690&#34; date-dbid=&#34;1307690&#34; class=&#34;douban_item post-preview&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;代码来源： &lt;a href=&#34;https://immmmm.com/bitcron-show-douban-item&#34;&gt;Bitcron 文章内插入豆瓣条目 - 林小沐&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

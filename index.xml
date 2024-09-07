@@ -6,10 +6,62 @@
     <description>Recent content on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 01 Feb 2024 14:20:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 14:20:00 +0800</lastBuildDate>
     
         <atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>启用 ublock Cookie 规则，避免网站 Cookie 弹窗</title>
+      <link>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</link>
+      <pubDate>Fri, 06 Sep 2024 14:20:00 +0800</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</guid>
+      
+        <description>&lt;p&gt;由于欧洲的数据保护政策，许多网站都会弹窗提醒你「接受 Cookies」 。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/avoid-cookie-00.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/other/avoid-cookie-00.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;cookie&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我个人并 &lt;strong&gt;不关心&lt;/strong&gt; 网站的 Cookie 存储了哪些数据，
+而且我也没那么多精力看各个网站的 Cookie 政策,
+所以每次弹窗，我都是无脑点击 「Accept all cookies」 。
+通常，点击一次，也就不会再弹窗了。&lt;/p&gt;
+&lt;p&gt;直到最近，有几次 Cookie 弹窗，让我感到有些烦了。
+我就问 AI ： 有什么办法可以避免 「Cookie 弹窗」 呢？
+Perplexity 告诉我可以安装 「I don&amp;rsquo;t care about cookies」 扩展。
+我不想安装额外的扩展，就又尝试了搜索引擎。
+发现有的广告屏蔽扩展也可以屏蔽 Cookie 。
+我个人用的是 uBlock 这个屏蔽广告的扩展，
+打开设置页，在规则列表中，找到了屏蔽 Cookie 弹窗的规则，
+只是它默认是未选中的，将 Cookie Notices 规则选中就可以了。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/avoid-cookie-01.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://www.xianmin.org/image/other/avoid-cookie-01.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;&lt;h4&gt;cookie&lt;/h4&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;这样就再也不用被 Cookie 弹窗烦恼了。&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>记录一次 Debug Windows 蓝屏 BSOD 修复</title>
@@ -1331,51 +1383,6 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
 &lt;p&gt;当源文件项目有更新时，将自动生成网页。&lt;/p&gt;
 &lt;p&gt;那么，这样就可以方便的通过手机更新博客了。&lt;/p&gt;
 </description>
-      
-    </item>
-    
-    <item>
-      <title>别了， 2020！</title>
-      <link>https://www.xianmin.org/post/goodbye-2020/</link>
-      <pubDate>Mon, 01 Feb 2021 16:01:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/goodbye-2020/</guid>
-      
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/me.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/me.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;（又是迟到的总结，大体内容在 1 月初就写好了。只是拖延症太严重，一直拖到今天才发到博客上……）&lt;/p&gt;
-&lt;p&gt;2020 年，相信对这个星球上的每一个人都是非同寻常的一年。我个人其实经历的要少的多，也许是在小地方的缘故，既不在前线，地方上的疫情也不严重。除了 1 月底开始封锁的那一个月，我呆在院子里哪儿都没去，此后的生活并没有太多的影响。可以说是非常幸运了。&lt;/p&gt;
-&lt;p&gt;按照惯例，总结依然分为四大类：修行、工作、锻炼、学习。&lt;/p&gt;
-&lt;h2 id=&#34;修行&#34;&gt;修行&lt;/h2&gt;
-&lt;p&gt;总结了一个小公式：&lt;/p&gt;
-&lt;p&gt;「想 &amp;lt; 看 &amp;lt; 读 &amp;lt; 说 &amp;lt; 思 &amp;lt; 写 &amp;lt; 行」&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;子曰：“始吾于人也，听其言而信其行；今吾于人也，听其言而观其行。于予与改是。”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;陈嘉映先生在《十三邀》中的一段话：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我有一个想法，叫反思与过度反思。一方面哲学是一种反思，在那个意义上无不可追问无不可反思；另一方面，你事事反思，就会变成过度反思。我们现代人的精神说理追求是一个过度反思的时代。所以我经常跟我学生说，反思要跟天性的力量相配合，你有多少天性力量，你做多少反思。你要在你一生中逐渐明白你的天性有多强，你一开始可能看不清楚，但是别忘了，如果你的天性很孱弱，然后你拼命去反思，带来的结果，从个人来说，经常是毁灭性的。一个人爱反思，但没力量抗住反思，反思就把他压垮了。希腊人的幸运是，他们的天性太健全了，他们生活在一个对思想特别有利的环境和历史机遇之中。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;我是个时常自省的人。不过最近一年，我给自己提了要求，避免 &lt;strong&gt;过度自省&lt;/strong&gt; 。什么是过度自省？就是自省之后，没能纠正，继续自省，如此反复。自省当然是好事，但过度自省，却容易适得其反。&lt;/p&gt;
-&lt;p&gt;人要改变，的确是非常困难的。尤其是成人，各种思维习惯、行为习惯，基本上已经定型。但是我们也可以通过「理性」去培养新的习惯，去遏制固有的行为模式，与旧的不良习惯抗衡。而要迈出这一步，「想明白」当然是前提，但是光「想明白」是远远不够的，必须行动起来。先从最小的行动开始，然后不断「迭代」。迭代是计算机科学中非常重要的思维模式，通过设定一个边界，不断重复反馈，接近并达到目标。边界很重要，避免陷入死循环。过度自省，实际就是一种死循环。&lt;/p&gt;
-&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
-&lt;p&gt;2020 年，旅舍损失了 2 个月的营业额，尤其是春节，原本都预订满的房间，后面全部都退了。不过到了 4 月份之后，基本也就恢复了正常。因此，相对全年而言，影响并不是特别的大，在可承受范围内。&lt;/p&gt;
-&lt;h2 id=&#34;锻炼&#34;&gt;锻炼&lt;/h2&gt;
-&lt;p&gt;这一年最大的收获是，锻炼已经成为常态，是再普通不过的一项活动了。当每天都有运动的时候，其实没去记录也不会觉得有什么问题。&lt;/p&gt;
-&lt;h2 id=&#34;学习&#34;&gt;学习&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;「在做事中学习」&lt;/strong&gt; ，我在今年不断提醒自己。重写了自己的一个项目： &lt;a href=&#34;https://github.com/xianmin/EveReader&#34;&gt;xianmin/EveReader: Epub Reader, focused on annotation.&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;值得一提的是，掌握了一项新技能——吹口琴。口琴最大的好处是便于携带。我练的是半音阶口琴，音域广，可以演奏许多曲子。目前只能算是刚入门吧，视奏大部分流行曲没问题，演奏一些古典曲就有难度了。有这么一个小乐器傍身，到户外休闲的时候，拿出来把玩一番也是挺有意思的。&lt;/p&gt;
-&lt;h2 id=&#34;最后&#34;&gt;最后&lt;/h2&gt;
-&lt;p&gt;其实也没更多可说的。这一年整体状态一般，博客更新频率降低，总感觉自己缺乏做事儿的干劲和热情。目前有了一个重要的决定和计划，期望新的一年能有更多的精彩吧！&lt;/p&gt;</description>
       
     </item>
     
