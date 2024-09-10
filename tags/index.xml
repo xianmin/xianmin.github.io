@@ -6,13 +6,49 @@
     <description>Recent content in Tags on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 06 Sep 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Sep 2024 02:21:22 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>chrome</title>
       <link>https://www.xianmin.org/tags/chrome/</link>
-      <pubDate>Fri, 06 Sep 2024 14:20:00 +0800</pubDate>
+      <pubDate>Tue, 10 Sep 2024 02:21:22 +0000</pubDate>
       
       <guid>https://www.xianmin.org/tags/chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firefox</title>
+      <link>https://www.xianmin.org/tags/firefox/</link>
+      <pubDate>Tue, 10 Sep 2024 02:21:22 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/tags/firefox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sidebar</title>
+      <link>https://www.xianmin.org/tags/sidebar/</link>
+      <pubDate>Tue, 10 Sep 2024 02:21:22 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/tags/sidebar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TOC</title>
+      <link>https://www.xianmin.org/tags/toc/</link>
+      <pubDate>Tue, 10 Sep 2024 02:21:22 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/tags/toc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Userscript</title>
+      <link>https://www.xianmin.org/tags/userscript/</link>
+      <pubDate>Tue, 10 Sep 2024 02:21:22 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/tags/userscript/</guid>
       <description></description>
     </item>
     
@@ -148,42 +184,6 @@
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.xianmin.org/tags/%E6%8A%80%E5%B7%A7/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>搜索</title>
-      <link>https://www.xianmin.org/tags/%E6%90%9C%E7%B4%A2/</link>
-      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/tags/%E6%90%9C%E7%B4%A2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>户外</title>
-      <link>https://www.xianmin.org/tags/%E6%88%B7%E5%A4%96/</link>
-      <pubDate>Fri, 07 Oct 2022 22:15:10 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/tags/%E6%88%B7%E5%A4%96/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>领队</title>
-      <link>https://www.xianmin.org/tags/%E9%A2%86%E9%98%9F/</link>
-      <pubDate>Fri, 07 Oct 2022 22:15:10 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/tags/%E9%A2%86%E9%98%9F/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>旅行</title>
-      <link>https://www.xianmin.org/tags/%E6%97%85%E8%A1%8C/</link>
-      <pubDate>Fri, 07 Oct 2022 22:15:10 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/tags/%E6%97%85%E8%A1%8C/</guid>
       <description></description>
     </item>
     

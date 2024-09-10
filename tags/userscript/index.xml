@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Userscript on 贤民的博客</title>
+    <link>https://www.xianmin.org/tags/userscript/</link>
+    <description>Recent content in Userscript on 贤民的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 10 Sep 2024 02:21:22 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/tags/userscript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为网页生成一个目录大纲，侧边栏导航</title>
+      <link>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</link>
+      <pubDate>Tue, 10 Sep 2024 02:21:22 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</guid>
+      <description>&lt;p&gt;对于浏览长文章，有一个 &lt;strong&gt;目录大纲&lt;/strong&gt; ，可以极大的提升我们的阅读效率。
+然而，或许是出于美观考虑，许多网页并没有目录。
+即使有目录的网页，目录位置有可能在最上方，当我们跳转后，要查看目录还得返回去，这很不方便。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

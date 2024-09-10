@@ -3,34 +3,83 @@
   
   <url>
     <loc>https://www.xianmin.org/categories/</loc>
-    <lastmod>2024-09-06T14:20:00+08:00</lastmod>
+    <lastmod>2024-09-10T03:25:11+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/tags/chrome/</loc>
-    <lastmod>2024-09-06T14:20:00+08:00</lastmod>
+    <lastmod>2024-09-10T03:25:11+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/tags/cookie/</loc>
-    <lastmod>2024-09-06T14:20:00+08:00</lastmod>
+    <loc>https://www.xianmin.org/tags/firefox/</loc>
+    <lastmod>2024-09-10T03:25:11+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/post/</loc>
-    <lastmod>2024-09-06T14:20:00+08:00</lastmod>
+    <lastmod>2024-09-10T03:25:11+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/tags/sidebar/</loc>
+    <lastmod>2024-09-10T03:25:11+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.xianmin.org/tags/</loc>
+    <lastmod>2024-09-10T03:25:11+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/tags/toc/</loc>
+    <lastmod>2024-09-10T03:25:11+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/tags/userscript/</loc>
+    <lastmod>2024-09-10T03:25:11+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <lastmod>2024-09-10T03:25:11+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</loc>
+    <lastmod>2024-09-10T03:25:11+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/</loc>
+    <lastmod>2024-09-10T03:25:11+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.xianmin.org/tags/cookie/</loc>
     <lastmod>2024-09-06T14:20:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -44,21 +93,7 @@
   </url>
   
   <url>
-    <loc>https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
-    <lastmod>2024-09-06T14:20:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</loc>
-    <lastmod>2024-09-06T14:20:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.xianmin.org/</loc>
     <lastmod>2024-09-06T14:20:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

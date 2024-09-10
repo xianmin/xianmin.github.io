@@ -6,10 +6,51 @@
     <description>Recent content on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 06 Sep 2024 14:20:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2024 02:21:22 +0000</lastBuildDate>
     
         <atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>为网页生成一个目录大纲，侧边栏导航</title>
+      <link>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</link>
+      <pubDate>Tue, 10 Sep 2024 02:21:22 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</guid>
+      
+        <description>&lt;p&gt;对于浏览长文章，有一个 &lt;strong&gt;目录大纲&lt;/strong&gt; ，可以极大的提升我们的阅读效率。
+然而，或许是出于美观考虑，许多网页并没有目录。
+即使有目录的网页，目录位置有可能在最上方，当我们跳转后，要查看目录还得返回去，这很不方便。&lt;/p&gt;
+&lt;p&gt;为了解决这个问题，我写了一个 Userscript —— &lt;a href=&#34;https://github.com/xianmin/userscript-toc-sidebar&#34;&gt;userscript-toc-sidebar&lt;/a&gt; ，用于生成网页的目录大纲，效果如下(左侧侧边栏)：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/xianmin/userscript-toc-sidebar/main/screenshot.png&#34; alt=&#34;userscript-toc-sidebar 截图&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;它有如下优点：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;按照网页的标题生成目录；&lt;/li&gt;
+&lt;li&gt;使用 &lt;strong&gt;侧边栏&lt;/strong&gt; 的方式展示；&lt;/li&gt;
+&lt;li&gt;点击侧边栏的目录，跳转到相应位置；&lt;/li&gt;
+&lt;li&gt;默认使用快捷键 &lt;code&gt;t&lt;/code&gt; 来打开或关闭侧边栏；&lt;/li&gt;
+&lt;li&gt;识别浏览位置，并在目录中高亮显示；&lt;/li&gt;
+&lt;li&gt;支持「全部展开」或「全部折叠」目录；&lt;/li&gt;
+&lt;li&gt;可以调整侧边栏的宽度；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;原本我是想写一个 Chrome 扩展，但由于我个人没有 Google 开发者账号，无法上传到 Chrome Store，安装和更新就很不方便。&lt;/p&gt;
+&lt;p&gt;后来想到可以写成 Userscript&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ，这样不仅更加轻量，安装和更新也都更方便，还能跨浏览器通用。
+缺点就是没有按钮打开侧边栏，也暂时没有设置界面。&lt;/p&gt;
+&lt;p&gt;我考虑过在页面上增加一个「悬浮按钮」，但那样太影响原本页面的美观了，我个人 &lt;strong&gt;十分反感全局的悬浮按钮&lt;/strong&gt; 。
+没有按钮，就只能通过快捷键来打开目录侧边栏。
+但这也有个问题， &lt;code&gt;t&lt;/code&gt; 这个快捷键可能会和其他扩展有冲突，比如我常用的 &lt;code&gt;Vimium&lt;/code&gt; 扩展，我目前的做法是把 &lt;code&gt;Vimium&lt;/code&gt; 的 &lt;code&gt;t&lt;/code&gt; 禁用了，用 &lt;code&gt;C-t&lt;/code&gt; 替代。&lt;/p&gt;
+&lt;p&gt;后面再考虑添加一个更改快捷键的设置方式吧。&lt;/p&gt;
+&lt;p&gt;安装及使用方法，见 README: &lt;a href=&#34;https://github.com/xianmin/userscript-toc-sidebar/tree/main?tab=readme-ov-file#how-to-use&#34;&gt;https://github.com/xianmin/userscript-toc-sidebar/tree/main?tab=readme-ov-file#how-to-use&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Userscript&#34;&gt;Userscript - Wikipedia&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+      
+    </item>
     
     <item>
       <title>启用 ublock Cookie 规则，避免网站 Cookie 弹窗</title>
@@ -1368,21 +1409,6 @@ New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyT
   &lt;/figure&gt;
 &lt;/div&gt;
 &lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Github action 自动部署博客测试</title>
-      <link>https://www.xianmin.org/post/2021/00-github-action-test/</link>
-      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2021/00-github-action-test/</guid>
-      
-        <description>&lt;p&gt;本篇博文用于测试 GitHub action 。&lt;/p&gt;
-&lt;p&gt;使用 &lt;a href=&#34;https://github.com/peaceiris/actions-hugo&#34;&gt;https://github.com/peaceiris/actions-hugo&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;当源文件项目有更新时，将自动生成网页。&lt;/p&gt;
-&lt;p&gt;那么，这样就可以方便的通过手机更新博客了。&lt;/p&gt;
-</description>
       
     </item>
     

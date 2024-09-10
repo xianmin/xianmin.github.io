@@ -6,7 +6,18 @@
     <description>Recent content in 计算机 on 贤民的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 06 Sep 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Sep 2024 02:21:22 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为网页生成一个目录大纲，侧边栏导航</title>
+      <link>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</link>
+      <pubDate>Tue, 10 Sep 2024 02:21:22 +0000</pubDate>
+      
+      <guid>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</guid>
+      <description>&lt;p&gt;对于浏览长文章，有一个 &lt;strong&gt;目录大纲&lt;/strong&gt; ，可以极大的提升我们的阅读效率。
+然而，或许是出于美观考虑，许多网页并没有目录。
+即使有目录的网页，目录位置有可能在最上方，当我们跳转后，要查看目录还得返回去，这很不方便。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>启用 ublock Cookie 规则，避免网站 Cookie 弹窗</title>
       <link>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</link>
@@ -340,15 +351,6 @@
     &lt;a href=&#34;https://www.xianmin.org/image/other/fcitx-punc-01.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>更好的基于 github issues 的评论系统——utterances</title>
-      <link>https://www.xianmin.org/post/utterances-comment-system/</link>
-      <pubDate>Tue, 10 Jul 2018 14:34:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/utterances-comment-system/</guid>
-      <description>背景介绍 基于 github issues 的评论系统，比较流行的有 gitment 和 gitalk 。这两个项目我很早就注意到了，它们明显的缺陷是，当用户如果尝试登录评论，所要求的权限是很多的，</description>
     </item>
     
   </channel>
