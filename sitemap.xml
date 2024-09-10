@@ -1674,4 +1674,10 @@
     <priority>0.5</priority>
   </url>
   
+  <url>
+    <loc>https://www.xianmin.org/post/2024/04-toc-sidebar/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
 </urlset>
