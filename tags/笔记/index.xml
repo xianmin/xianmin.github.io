@@ -1,50 +1,219 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>笔记 on 贤民的博客</title>
-    <link>https://www.xianmin.org/tags/%E7%AC%94%E8%AE%B0/</link>
-    <description>Recent content in 笔记 on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 01 Sep 2019 10:50:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>笔记：公开课 Learning How to Learn</title>
-      <link>https://www.xianmin.org/post/note-learning-how-to-learn/</link>
-      <pubDate>Sun, 01 Sep 2019 10:50:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/note-learning-how-to-learn/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;在线播放地址： &lt;a href=&#34;https://www.bilibili.com/video/av31961814/&#34;&gt;【coursera公开课】学会如何学习 Learning How to Learn（中文字幕）- bilibili&lt;/a&gt; 。&lt;/li&gt;
-&lt;li&gt;配套的书： &lt;a href=&#34;https://www.goodreads.com/book/show/36647421-learning-how-to-learn&#34;&gt;Learning How to Learn - by Barbara Oakley | Goodreads&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;如果早个 10 年上这门课，那收获肯定是非常大的。课程中提到的大部分内容，在这些年的阅读中都有接触到。&lt;/p&gt;
-&lt;p&gt;课程的一大特点是运用了大量的图片隐喻，便于理解和加深印象。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>《七堂思维成长课》大纲笔记</title>
-      <link>https://www.xianmin.org/post/note-how-to-have-a-good-day/</link>
-      <pubDate>Tue, 25 Dec 2018 04:56:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/note-how-to-have-a-good-day/</guid>
-      <description>框架 1. 学科基础： 心理学、行为经济学、神经科学 2. 三个基础知识点 2.1 双系统大脑 深思熟虑系统：前额皮层 推理、自我控制、前瞻思维 容量小、运转速度慢 无意</description>
-    </item>
-    
-    <item>
-      <title>笔记：有关开源项目</title>
-      <link>https://www.xianmin.org/post/note-opensource-project/</link>
-      <pubDate>Tue, 27 Mar 2018 15:47:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/note-opensource-project/</guid>
-      <description>&lt;p&gt;以下内容是关于怎样参与到开源项目中的一些笔记，基本上摘自网络。&lt;/p&gt;
-&lt;h2 id=&#34;参考链接&#34;&gt;参考链接&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.phodal.com/blog/how-to-build-a-opensource-project/&#34;&gt;开源之美：开源软件开发流程 - Phodal | Phodal - A Growth Engineer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://juejin.im/post/59f98a196fb9a045132a03ed&#34;&gt;零起点的开源社区贡献指南 - 掘金&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html&#34;&gt;Commit message 和 Change log 编写指南 - 阮一峰的网络日志&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow&#34;&gt;git-flow 的工作流程&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>笔记 on 贤民的博客</title><link>https://www.xianmin.org/tags/%E7%AC%94%E8%AE%B0/</link><description>Recent content in 笔记 on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 01 Sep 2019 11:24:44 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>笔记：公开课 Learning How to Learn</title><link>https://www.xianmin.org/post/note-learning-how-to-learn/</link><pubDate>Sun, 01 Sep 2019 10:50:00 +0800</pubDate><guid>https://www.xianmin.org/post/note-learning-how-to-learn/</guid><description>&lt;ul>
+&lt;li>在线播放地址： &lt;a href="https://www.bilibili.com/video/av31961814/">【coursera公开课】学会如何学习 Learning How to Learn（中文字幕）- bilibili&lt;/a> 。&lt;/li>
+&lt;li>配套的书： &lt;a href="https://www.goodreads.com/book/show/36647421-learning-how-to-learn">Learning How to Learn - by Barbara Oakley | Goodreads&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>如果早个 10 年上这门课，那收获肯定是非常大的。课程中提到的大部分内容，在这些年的阅读中都有接触到。&lt;/p>
+&lt;p>课程的一大特点是运用了大量的图片隐喻，便于理解和加深印象。&lt;/p></description></item><item><title>《七堂思维成长课》大纲笔记</title><link>https://www.xianmin.org/post/note-how-to-have-a-good-day/</link><pubDate>Tue, 25 Dec 2018 04:56:00 +0800</pubDate><guid>https://www.xianmin.org/post/note-how-to-have-a-good-day/</guid><description>&lt;h2 id="框架">框架&lt;/h2>
+&lt;h3 id="1-dot-学科基础-心理学-行为经济学-神经科学">1. 学科基础： 心理学、行为经济学、神经科学&lt;/h3>
+&lt;h3 id="2-dot-三个基础知识点">2. 三个基础知识点&lt;/h3>
+&lt;h4 id="2-dot-1-双系统大脑">2.1 双系统大脑&lt;/h4>
+&lt;ul>
+&lt;li>深思熟虑系统：前额皮层
+&lt;ul>
+&lt;li>推理、自我控制、前瞻思维&lt;/li>
+&lt;li>容量小、运转速度慢&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>无意识系统
+&lt;ul>
+&lt;li>迅速、自动化、减轻大脑负载、可并行&lt;/li>
+&lt;li>选择性、有盲点&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>放慢节奏，从无意识状态出来，为深思熟虑系统发挥最佳效果创造条件&lt;/li>
+&lt;/ul>
+&lt;h4 id="2-dot-2-发现-防守模式">2.2 发现-防守模式&lt;/h4>
+&lt;ul>
+&lt;li>防守模式：影响思维&lt;/li>
+&lt;li>发现模式：奖励系统、期待、探索，寻找潜在奖励
+&lt;ul>
+&lt;li>社交奖励&lt;/li>
+&lt;li>感到自主权和个人胜任能力&lt;/li>
+&lt;li>好奇心&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="2-dot-3-身体和精神相互作用">2.3 身体和精神相互作用&lt;/h4>
+&lt;ul>
+&lt;li>积极锻炼、良好休息、正念——身体保持良好状态，思维也会活跃。&lt;/li>
+&lt;li>逆向设计，当模仿快乐、自信、放松相关的肢体动作，会给大脑积极暗示，从而真的感受到快乐、自信和放松。&lt;/li>
+&lt;/ul>
+&lt;h2 id="目标课">目标课&lt;/h2>
+&lt;h3 id="理念-大脑有过滤机制-要有意识地定义-什么是重要的">理念：大脑有过滤机制，要有意识地定义「什么是重要的」&lt;/h3>
+&lt;h3 id="操作一-每天设定意图">操作一：每天设定意图&lt;/h3>
+&lt;ul>
+&lt;li>Aim: 今天最重要的事项&lt;/li>
+&lt;li>Altitude: 留意并正视那些支配情绪的事情，它们有利于目标达成吗&lt;/li>
+&lt;li>Attention: 从优先事项出发，确保按计划行事&lt;/li>
+&lt;li>设立积极的意图（重解决方案）&lt;/li>
+&lt;li>检查和质疑自己的负面假设&lt;/li>
+&lt;li>小心绝对性用语&lt;/li>
+&lt;li>提前一天思考艰巨任务&lt;/li>
+&lt;/ul>
+&lt;h3 id="操作二-制定合适的计划">操作二：制定合适的计划&lt;/h3>
+&lt;ul>
+&lt;li>对于一天的优先事项、目标尽可能的具体，关乎自身行为&lt;/li>
+&lt;li>好的描述
+&lt;ul>
+&lt;li>接近型目标&lt;/li>
+&lt;li>关乎自己——内在动机会带来更好表现&lt;/li>
+&lt;li>化整为零&lt;/li>
+&lt;li>执行意图，「如果-那么」规则&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>对大脑友好
+&lt;ul>
+&lt;li>想到就写下来&lt;/li>
+&lt;li>只保持今天的任务可见&lt;/li>
+&lt;li>感受划掉事项的满足&lt;/li>
+&lt;li>一天的任务目标要符合实际&lt;/li>
+&lt;li>把精神-身体保养列入其中&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="操作三-坚持目标的三种思维工具">操作三：坚持目标的三种思维工具&lt;/h3>
+&lt;ul>
+&lt;li>心理对照（将理想结果和烦人的日常生活现实对比）：思考下消极面、直面障碍&lt;/li>
+&lt;li>启动效应：仪式感&lt;/li>
+&lt;li>心理演练：通过练习让神经元联系起来&lt;/li>
+&lt;/ul>
+&lt;h2 id="效率课">效率课&lt;/h2>
+&lt;h3 id="一心专用-同时开展多个任务影响工作效率">一心专用：同时开展多个任务影响工作效率&lt;/h3>
+&lt;h4 id="任务分批处理">任务分批处理&lt;/h4>
+&lt;ul>
+&lt;li>参考的分类类型
+&lt;ul>
+&lt;li>创意工作&lt;/li>
+&lt;li>回复邮件和信息&lt;/li>
+&lt;li>阅读和研究&lt;/li>
+&lt;li>会见（网络和当面）&lt;/li>
+&lt;li>个人项目&lt;/li>
+&lt;li>行政事物&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>明确不被打扰的时间段&lt;/li>
+&lt;li>将任务分配到各个时间段内&lt;/li>
+&lt;li>试验哪个时间段做哪个类型任务的效率最高&lt;/li>
+&lt;/ul>
+&lt;h4 id="处理令人分心的事物">处理令人分心的事物&lt;/h4>
+&lt;ul>
+&lt;li>关闭提醒&lt;/li>
+&lt;li>移走诱惑&lt;/li>
+&lt;li>将零散点子马上记录存储&lt;/li>
+&lt;li>培养持久力&lt;/li>
+&lt;li>计时&lt;/li>
+&lt;/ul>
+&lt;h3 id="需要休息时间">需要休息时间&lt;/h3>
+&lt;ul>
+&lt;li>在不同任务区域间隔，安排短时间休息&lt;/li>
+&lt;li>工作超过 90 分钟，必须要休息&lt;/li>
+&lt;li>尽量把会议时间设置的短一点，短于 30 / 60 分钟的标准时间，早一点结束，让大家有休息时间&lt;/li>
+&lt;li>时刻复盘，留出反思时间&lt;/li>
+&lt;/ul>
+&lt;h3 id="如何对待过载的工作">如何对待过载的工作&lt;/h3>
+&lt;ul>
+&lt;li>有意识的放慢节奏；焦虑时，尝试用正念放松自己&lt;/li>
+&lt;li>记忆外包，把想法清除出大脑，记下来&lt;/li>
+&lt;li>待办事项中，眼下最重要的是哪一个？&lt;/li>
+&lt;li>先迈出最小的一步&lt;/li>
+&lt;li>是不是有些事情只有你能做？智慧的委派&lt;/li>
+&lt;li>积极拒绝
+&lt;ul>
+&lt;li>热情开始：肯定对方的请求和建议&lt;/li>
+&lt;li>你的「是」：叙述你正在忙的积极的事情，解释它为什么有意思、很重要&lt;/li>
+&lt;li>你的「不」：解释清楚情况，表达遗憾&lt;/li>
+&lt;li>温情结尾：在不影响自己完成优先事项的情况下，给建议或提供帮助，或者热情祝项目成功&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>设定边界&lt;/li>
+&lt;li>为一些日常琐事设立规则，让它自动化起来&lt;/li>
+&lt;/ul>
+&lt;h3 id="战胜拖延">战胜拖延&lt;/h3>
+&lt;ul>
+&lt;li>想象收益&lt;/li>
+&lt;li>计划短期回报&lt;/li>
+&lt;li>给第一步一点甜头&lt;/li>
+&lt;li>想一想拖延的后果&lt;/li>
+&lt;li>预先承诺&lt;/li>
+&lt;li>追问自己拖延任务的原因，一步步深入&lt;/li>
+&lt;/ul>
+&lt;h2 id="社交课">社交课&lt;/h2>
+&lt;h3 id="提升人际热情度和信任感的因素">提升人际热情度和信任感的因素&lt;/h3>
+&lt;h4 id="设定合作的意图">设定合作的意图&lt;/h4>
+&lt;ul>
+&lt;li>集中改善人际关系的质量&lt;/li>
+&lt;li>检视自己的负面假设&lt;/li>
+&lt;li>发现对方有意思的地方&lt;/li>
+&lt;/ul>
+&lt;h4 id="表示好奇心-提出高质量的问题">表示好奇心（提出高质量的问题）&lt;/h4>
+&lt;ul>
+&lt;li>不是用「是或否」回答的封闭性问题&lt;/li>
+&lt;li>回答要激发对方的体验、经历和感受，而不只是谈论事实&lt;/li>
+&lt;li>认真倾听对方的回答并反思&lt;/li>
+&lt;/ul>
+&lt;h4 id="和谈话对象形成-圈内人">和谈话对象形成「圈内人」&lt;/h4>
+&lt;ul>
+&lt;li>找到共同兴趣&lt;/li>
+&lt;li>突出共同目标&lt;/li>
+&lt;li>谈谈相同的不满（谨慎，可能会激发防守模式，谈谈无关紧要的不满）&lt;/li>
+&lt;li>重复对方的话&lt;/li>
+&lt;/ul>
+&lt;h4 id="互惠性">互惠性&lt;/h4>
+&lt;h4 id="收好手机">收好手机&lt;/h4>
+&lt;h3 id="解决分歧">解决分歧&lt;/h3>
+&lt;h4 id="从共识出发-找到解决方案">从共识出发，找到解决方案&lt;/h4>
+&lt;ol>
+&lt;li>描述对方观点，尽可能慷慨大方，如同你真正赞同对方那样&lt;/li>
+&lt;li>找出你赞同的所有事情&lt;/li>
+&lt;li>把真正的分歧隔离出来加以理解&lt;/li>
+&lt;li>探讨双方是否可能都是正确的&lt;/li>
+&lt;li>基于双方的共识，现在可以做些什么&lt;/li>
+&lt;/ol>
+&lt;h4 id="正能量感染力">正能量感染力&lt;/h4>
+&lt;ul>
+&lt;li>情绪感染现象：高度社会化的大脑天生能感知周围人的情绪状态，并与其保持同步&lt;/li>
+&lt;li>当陷入紧张的谈话中，可以在潜意识层面发挥出积极正面的作用&lt;/li>
+&lt;/ul>
+&lt;h4 id="如何跳出基本归因假设-把别人的缺点归因于品格而不是处境的倾向">如何跳出基本归因假设（把别人的缺点归因于品格而不是处境的倾向）&lt;/h4>
+&lt;ol>
+&lt;li>明确你真正确定知道的事情&lt;/li>
+&lt;li>假设人性本善，处境使然&lt;/li>
+&lt;/ol>
+&lt;h4 id="触发别人的防守反应后">触发别人的防守反应后&lt;/h4>
+&lt;ul>
+&lt;li>留意：告诉对方你留意到了什么，询问他们的看法（专注于事实，用中性语气表达）&lt;/li>
+&lt;li>认同&lt;/li>
+&lt;li>贡献：询问自己能做什么改善局面&lt;/li>
+&lt;/ul>
+&lt;h4 id="整理好自己的包袱">整理好自己的包袱&lt;/h4>
+&lt;ul>
+&lt;li>了解自己的热键——哪些最可能惹到你的因素&lt;/li>
+&lt;li>了解自己的早起预警信号&lt;/li>
+&lt;li>知道如何退一步重启&lt;/li>
+&lt;/ul>
+&lt;h4 id="如何处理棘手的问题">如何处理棘手的问题&lt;/h4>
+&lt;ul>
+&lt;li>设定谈话意图&lt;/li>
+&lt;li>获得谈论许可&lt;/li>
+&lt;li>描述观察到的事实，而不要带入情绪、解读或者一概而论&lt;/li>
+&lt;li>表达你对这些事实的感受，不要用夸张和过激的言语，真诚的解释为什么这件事情对你很重要&lt;/li>
+&lt;li>征求对方的意见&lt;/li>
+&lt;li>共同解决问题&lt;/li>
+&lt;/ul>
+&lt;h4 id="如何应对难相处的人">如何应对难相处的人&lt;/h4>
+&lt;ul>
+&lt;li>复述他们的话&lt;/li>
+&lt;li>谈论观察到的行为，而不是态度&lt;/li>
+&lt;li>专注于解决方案&lt;/li>
+&lt;li>表达赞赏&lt;/li>
+&lt;/ul>
+&lt;h3 id="激发别人最佳状态">激发别人最佳状态&lt;/h3>
+&lt;h4 id="极端倾听">极端倾听&lt;/h4>
+&lt;p>有效原因：提升对方的自主和胜任感，使大脑保持发现模式；让人退一步反思&lt;/p></description></item><item><title>笔记：有关开源项目</title><link>https://www.xianmin.org/post/note-opensource-project/</link><pubDate>Tue, 27 Mar 2018 15:47:00 +0800</pubDate><guid>https://www.xianmin.org/post/note-opensource-project/</guid><description>&lt;p>以下内容是关于怎样参与到开源项目中的一些笔记，基本上摘自网络。&lt;/p>
+&lt;h2 id="参考链接">参考链接&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.phodal.com/blog/how-to-build-a-opensource-project/">开源之美：开源软件开发流程 - Phodal | Phodal - A Growth Engineer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://juejin.im/post/59f98a196fb9a045132a03ed">零起点的开源社区贡献指南 - 掘金&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html">Commit message 和 Change log 编写指南 - 阮一峰的网络日志&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow">git-flow 的工作流程&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,31 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>fcitx on 贤民的博客</title>
-    <link>https://www.xianmin.org/tags/fcitx/</link>
-    <description>Recent content in fcitx on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 07 Aug 2018 23:04:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/fcitx/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>linux 下，fcitx 输入法的直角引号设置</title>
-      <link>https://www.xianmin.org/post/linux-fcitx-punc/</link>
-      <pubDate>Tue, 07 Aug 2018 23:04:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/linux-fcitx-punc/</guid>
-      <description>&lt;p&gt;我不确定你有没有遇到过这样的问题，输入一个双引号，它是 &lt;strong&gt;前引号&lt;/strong&gt; 呢，还是 &lt;strong&gt;后引号&lt;/strong&gt; 。也许是字体的缘故，我总得瞪大了眼睛才能分辨的清楚。出于好奇，我上网搜了下，还真有解决办法。最简单的办法就是使用港台的标准，使用直角引号。请看图片：&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fcitx on 贤民的博客</title><link>https://www.xianmin.org/tags/fcitx/</link><description>Recent content in Fcitx on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 07 Aug 2018 23:17:15 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/fcitx/index.xml" rel="self" type="application/rss+xml"/><item><title>linux 下，fcitx 输入法的直角引号设置</title><link>https://www.xianmin.org/post/linux-fcitx-punc/</link><pubDate>Tue, 07 Aug 2018 23:04:00 +0800</pubDate><guid>https://www.xianmin.org/post/linux-fcitx-punc/</guid><description>&lt;p>我不确定你有没有遇到过这样的问题，输入一个双引号，它是 &lt;strong>前引号&lt;/strong> 呢，还是 &lt;strong>后引号&lt;/strong> 。也许是字体的缘故，我总得瞪大了眼睛才能分辨的清楚。出于好奇，我上网搜了下，还真有解决办法。最简单的办法就是使用港台的标准，使用直角引号。请看图片：&lt;/p>
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/fcitx-punc-01.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/fcitx-punc-01.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/fcitx-punc-01.png" />
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/other/fcitx-punc-01.png" itemprop="contentUrl">&lt;/a>
+ &lt;/figure>
+&lt;/div></description></item></channel></rss>

@@ -1,34 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>丙中洛 on 贤民的博客</title>
-    <link>https://www.xianmin.org/tags/%E4%B8%99%E4%B8%AD%E6%B4%9B/</link>
-    <description>Recent content in 丙中洛 on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 12 May 2018 09:58:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E4%B8%99%E4%B8%AD%E6%B4%9B/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>怒江行记（六）——终点丙中洛</title>
-      <link>https://www.xianmin.org/post/nujiang-05/</link>
-      <pubDate>Sat, 12 May 2018 09:58:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/nujiang-05/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/nujiang/05/02.jpg&#34; alt=&#34;这是从丙中洛进藏必经的桥，一座废弃的，一座在用的，一座新修的。&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/nujiang/05/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;三座桥&lt;/h4&gt;
-          &lt;p&gt;这是从丙中洛进藏必经的桥，一座废弃的，一座在用的，一座新修的。&lt;/p&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>丙中洛 on 贤民的博客</title><link>https://www.xianmin.org/tags/%E4%B8%99%E4%B8%AD%E6%B4%9B/</link><description>Recent content in 丙中洛 on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 24 May 2018 15:36:38 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E4%B8%99%E4%B8%AD%E6%B4%9B/index.xml" rel="self" type="application/rss+xml"/><item><title>怒江行记（六）——终点丙中洛</title><link>https://www.xianmin.org/post/nujiang-05/</link><pubDate>Sat, 12 May 2018 09:58:00 +0800</pubDate><guid>https://www.xianmin.org/post/nujiang-05/</guid><description>&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/nujiang/05/02.jpg" alt="这是从丙中洛进藏必经的桥，一座废弃的，一座在用的，一座新修的。"/>
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/nujiang/05/02.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;figcaption>&lt;h4>三座桥&lt;/h4>
+ &lt;p>这是从丙中洛进藏必经的桥，一座废弃的，一座在用的，一座新修的。&lt;/p>
+ &lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
 
-&lt;p&gt;丙中洛，原计划是我们进藏的起点站，由于前方流沙堵住了去路，却成了我们此次怒江之行的终点站。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p>丙中洛，原计划是我们进藏的起点站，由于前方流沙堵住了去路，却成了我们此次怒江之行的终点站。&lt;/p></description></item></channel></rss>

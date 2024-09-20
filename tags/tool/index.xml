@@ -1,81 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>tool on 贤民的博客</title>
-    <link>https://www.xianmin.org/tags/tool/</link>
-    <description>Recent content in tool on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 20 Sep 2018 14:45:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/tool/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>我所使用的计算机软件</title>
-      <link>https://www.xianmin.org/post/my-linux-app-list/</link>
-      <pubDate>Thu, 20 Sep 2018 14:45:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/my-linux-app-list/</guid>
-      <description>&lt;p&gt;本篇文章将对 &lt;strong&gt;我平时所使用的计算机软件做一个归纳整理&lt;/strong&gt; 。&lt;/p&gt;
-&lt;p&gt;我大部分时候使用的操作系统是 &lt;strong&gt;Deepin Linux&lt;/strong&gt; ，因此以下所列出的软件 &lt;strong&gt;也许在 Windows 和 Mac 下并不适用&lt;/strong&gt; 。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo</title>
-      <link>https://www.xianmin.org/post/ox-hugo/</link>
-      <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/ox-hugo/</guid>
-      <description>&lt;p&gt;本文将对我个人的博文写作流程 &lt;strong&gt;所用到的工具&lt;/strong&gt; 做一个总结与分享。从标题就可以看出来，主要有这几个工具： &lt;code&gt;emacs&lt;/code&gt;, &lt;code&gt;orgmode&lt;/code&gt; &amp;amp; &lt;code&gt;hugo&lt;/code&gt; ，另外还有两个配合 &lt;code&gt;hugo&lt;/code&gt; 的辅助包 &lt;code&gt;easy-hugo&lt;/code&gt; （可选） &amp;amp; &lt;code&gt;ox-hugo&lt;/code&gt; 。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;hugo&lt;/code&gt; : &lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;orgmode&lt;/code&gt; : &lt;a href=&#34;https://orgmode.org/&#34;&gt;https://orgmode.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ox-hugo&lt;/code&gt; : &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;https://ox-hugo.scripter.co/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;easy-hygo&lt;/code&gt; : &lt;a href=&#34;https://github.com/masasam/emacs-easy-hugo&#34;&gt;https://github.com/masasam/emacs-easy-hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>一些 Visual Studio Code 的使用技巧</title>
-      <link>https://www.xianmin.org/post/vscode/</link>
-      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/vscode/</guid>
-      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Visual Studio Code&lt;/code&gt; （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;官方文档： &lt;a href=&#34;https://code.visualstudio.com/docs&#34;&gt;https://code.visualstudio.com/docs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;VScode github 地址： &lt;a href=&#34;https://github.com/Microsoft/vscode&#34;&gt;https://github.com/Microsoft/vscode&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_editing-hacks&#34;&gt;Visual Studio Tips and Tricks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>构建你的移动书库——电子书阅读经验分享</title>
-      <link>https://www.xianmin.org/post/06-ebook/</link>
-      <pubDate>Mon, 06 Nov 2017 13:13:15 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/06-ebook/</guid>
-      <description>&lt;h1 id=&#34;写在前面&#34;&gt;写在前面&lt;/h1&gt;
-&lt;p&gt;作为一个农民的儿子，我从小跟随父母在外漂泊，长年都是租的房子，家里地方不大，除了教科书、习题册，基本没有任何藏书。那时候，没两年就会搬一次家，光是搬教科书都觉得挺累赘的。即便在成年后，自己依然一直在外漂泊，没有固定的居所，还是不敢买太多书，没地方安置。当然，还有一个很实际的问题，买书花钱，自己没多少钱。很多书像消费品，看完就丢一边了，它摆在那儿更多的像是一种象征性的装饰。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>工具癖患者的表现及自我修养</title>
-      <link>https://www.xianmin.org/post/05-tools-addict/</link>
-      <pubDate>Thu, 01 Jun 2017 09:32:56 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/05-tools-addict/</guid>
-      <description>&lt;p&gt;怎样给工具下定义？文字、语言算不算工具？知识算不算工具？数学公式算不算工具？科学方法算不算工具？甚至而言，宗教信仰算不算工具？那么工具癖又算什么呢？&lt;/p&gt;
-&lt;p&gt;由此可见，从更大的范围来讲，给工具下定义不是件容易的事。我在这篇文章仅谈论计算机相关的工具。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Linux 下，使用 Git 管理 dotfiles（配置文件）</title>
-      <link>https://www.xianmin.org/post/02-manage-dotfiles/</link>
-      <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/02-manage-dotfiles/</guid>
-      <description>&lt;p&gt;作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code&gt;.&lt;/code&gt; 开头，管它们叫 &lt;code&gt;dotfiles&lt;/code&gt; 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tool on 贤民的博客</title><link>https://www.xianmin.org/tags/tool/</link><description>Recent content in Tool on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 23 Sep 2018 15:06:10 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/tool/index.xml" rel="self" type="application/rss+xml"/><item><title>我所使用的计算机软件</title><link>https://www.xianmin.org/post/my-linux-app-list/</link><pubDate>Thu, 20 Sep 2018 14:45:00 +0800</pubDate><guid>https://www.xianmin.org/post/my-linux-app-list/</guid><description>&lt;p>本篇文章将对 &lt;strong>我平时所使用的计算机软件做一个归纳整理&lt;/strong> 。&lt;/p>
+&lt;p>我大部分时候使用的操作系统是 &lt;strong>Deepin Linux&lt;/strong> ，因此以下所列出的软件 &lt;strong>也许在 Windows 和 Mac 下并不适用&lt;/strong> 。&lt;/p></description></item><item><title>博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo</title><link>https://www.xianmin.org/post/ox-hugo/</link><pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/ox-hugo/</guid><description>&lt;p>本文将对我个人的博文写作流程 &lt;strong>所用到的工具&lt;/strong> 做一个总结与分享。从标题就可以看出来，主要有这几个工具： &lt;code>emacs&lt;/code>, &lt;code>orgmode&lt;/code> &amp;amp; &lt;code>hugo&lt;/code> ，另外还有两个配合 &lt;code>hugo&lt;/code> 的辅助包 &lt;code>easy-hugo&lt;/code> （可选） &amp;amp; &lt;code>ox-hugo&lt;/code> 。&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>hugo&lt;/code> : &lt;a href="https://gohugo.io/">https://gohugo.io/&lt;/a>&lt;/li>
+&lt;li>&lt;code>orgmode&lt;/code> : &lt;a href="https://orgmode.org/">https://orgmode.org/&lt;/a>&lt;/li>
+&lt;li>&lt;code>ox-hugo&lt;/code> : &lt;a href="https://ox-hugo.scripter.co/">https://ox-hugo.scripter.co/&lt;/a>&lt;/li>
+&lt;li>&lt;code>easy-hygo&lt;/code> : &lt;a href="https://github.com/masasam/emacs-easy-hugo">https://github.com/masasam/emacs-easy-hugo&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>一些 Visual Studio Code 的使用技巧</title><link>https://www.xianmin.org/post/vscode/</link><pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/vscode/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
+&lt;p>&lt;code>Visual Studio Code&lt;/code> （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。&lt;/p>
+&lt;ul>
+&lt;li>官方文档： &lt;a href="https://code.visualstudio.com/docs">https://code.visualstudio.com/docs&lt;/a>&lt;/li>
+&lt;li>VScode github 地址： &lt;a href="https://github.com/Microsoft/vscode">https://github.com/Microsoft/vscode&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_editing-hacks">Visual Studio Tips and Tricks&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。&lt;/p></description></item><item><title>构建你的移动书库——电子书阅读经验分享</title><link>https://www.xianmin.org/post/06-ebook/</link><pubDate>Mon, 06 Nov 2017 13:13:15 +0800</pubDate><guid>https://www.xianmin.org/post/06-ebook/</guid><description>&lt;h1 id="写在前面">写在前面&lt;/h1>
+&lt;p>作为一个农民的儿子，我从小跟随父母在外漂泊，长年都是租的房子，家里地方不大，除了教科书、习题册，基本没有任何藏书。那时候，没两年就会搬一次家，光是搬教科书都觉得挺累赘的。即便在成年后，自己依然一直在外漂泊，没有固定的居所，还是不敢买太多书，没地方安置。当然，还有一个很实际的问题，买书花钱，自己没多少钱。很多书像消费品，看完就丢一边了，它摆在那儿更多的像是一种象征性的装饰。&lt;/p></description></item><item><title>工具癖患者的表现及自我修养</title><link>https://www.xianmin.org/post/05-tools-addict/</link><pubDate>Thu, 01 Jun 2017 09:32:56 +0800</pubDate><guid>https://www.xianmin.org/post/05-tools-addict/</guid><description>&lt;p>怎样给工具下定义？文字、语言算不算工具？知识算不算工具？数学公式算不算工具？科学方法算不算工具？甚至而言，宗教信仰算不算工具？那么工具癖又算什么呢？&lt;/p>
+&lt;p>由此可见，从更大的范围来讲，给工具下定义不是件容易的事。我在这篇文章仅谈论计算机相关的工具。&lt;/p></description></item><item><title>Linux 下，使用 Git 管理 dotfiles（配置文件）</title><link>https://www.xianmin.org/post/02-manage-dotfiles/</link><pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate><guid>https://www.xianmin.org/post/02-manage-dotfiles/</guid><description>&lt;p>作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code>.&lt;/code> 开头，管它们叫 &lt;code>dotfiles&lt;/code> 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p></description></item></channel></rss>

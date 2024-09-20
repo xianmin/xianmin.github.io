@@ -1,39 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>博客 on 贤民的博客</title>
-    <link>https://www.xianmin.org/tags/%E5%8D%9A%E5%AE%A2/</link>
-    <description>Recent content in 博客 on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 05 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>博客重启 2.0</title>
-      <link>https://www.xianmin.org/post/2022/01-blog-restart/</link>
-      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/01-blog-restart/</guid>
-      <description>&lt;h2 id=&#34;为什么博客改名了&#34;&gt;为什么博客改名了？&lt;/h2&gt;
-&lt;p&gt;「贤民的博客」，简单明了。之前叫「贤民的比特记忆」，「比特记忆」这个名称，读者朋友不一定理解它的含义，增加额外的认知负担，感觉没这必要。&lt;/p&gt;
-&lt;h2 id=&#34;还做了哪些改动&#34;&gt;还做了哪些改动？&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.xianmin.org/about/&#34;&gt;「关于」&lt;/a&gt; 页面是新的来访者了解我和这个博客的一个重要链接，其中的内容是 2018 年写的，距今有四年多了，很多信息都已过时，而我在这几年也有些许变化，是应该更新一下了。&lt;/p&gt;
-&lt;p&gt;另外，我给博客专门添加了 &lt;a href=&#34;https://www.xianmin.org/acknowledgments/&#34;&gt;「致谢」&lt;/a&gt; 页面。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo</title>
-      <link>https://www.xianmin.org/post/ox-hugo/</link>
-      <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/ox-hugo/</guid>
-      <description>&lt;p&gt;本文将对我个人的博文写作流程 &lt;strong&gt;所用到的工具&lt;/strong&gt; 做一个总结与分享。从标题就可以看出来，主要有这几个工具： &lt;code&gt;emacs&lt;/code&gt;, &lt;code&gt;orgmode&lt;/code&gt; &amp;amp; &lt;code&gt;hugo&lt;/code&gt; ，另外还有两个配合 &lt;code&gt;hugo&lt;/code&gt; 的辅助包 &lt;code&gt;easy-hugo&lt;/code&gt; （可选） &amp;amp; &lt;code&gt;ox-hugo&lt;/code&gt; 。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;hugo&lt;/code&gt; : &lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;orgmode&lt;/code&gt; : &lt;a href=&#34;https://orgmode.org/&#34;&gt;https://orgmode.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ox-hugo&lt;/code&gt; : &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;https://ox-hugo.scripter.co/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;easy-hygo&lt;/code&gt; : &lt;a href=&#34;https://github.com/masasam/emacs-easy-hugo&#34;&gt;https://github.com/masasam/emacs-easy-hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客 on 贤民的博客</title><link>https://www.xianmin.org/tags/%E5%8D%9A%E5%AE%A2/</link><description>Recent content in 博客 on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 05 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>博客重启 2.0</title><link>https://www.xianmin.org/post/2022/01-blog-restart/</link><pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/01-blog-restart/</guid><description>&lt;h2 id="为什么博客改名了">为什么博客改名了？&lt;/h2>
+&lt;p>「贤民的博客」，简单明了。之前叫「贤民的比特记忆」，「比特记忆」这个名称，读者朋友不一定理解它的含义，增加额外的认知负担，感觉没这必要。&lt;/p>
+&lt;h2 id="还做了哪些改动">还做了哪些改动？&lt;/h2>
+&lt;p>&lt;a href="https://www.xianmin.org/about/">「关于」&lt;/a> 页面是新的来访者了解我和这个博客的一个重要链接，其中的内容是 2018 年写的，距今有四年多了，很多信息都已过时，而我在这几年也有些许变化，是应该更新一下了。&lt;/p>
+&lt;p>另外，我给博客专门添加了 &lt;a href="https://www.xianmin.org/acknowledgments/">「致谢」&lt;/a> 页面。&lt;/p></description></item><item><title>博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo</title><link>https://www.xianmin.org/post/ox-hugo/</link><pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/ox-hugo/</guid><description>&lt;p>本文将对我个人的博文写作流程 &lt;strong>所用到的工具&lt;/strong> 做一个总结与分享。从标题就可以看出来，主要有这几个工具： &lt;code>emacs&lt;/code>, &lt;code>orgmode&lt;/code> &amp;amp; &lt;code>hugo&lt;/code> ，另外还有两个配合 &lt;code>hugo&lt;/code> 的辅助包 &lt;code>easy-hugo&lt;/code> （可选） &amp;amp; &lt;code>ox-hugo&lt;/code> 。&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>hugo&lt;/code> : &lt;a href="https://gohugo.io/">https://gohugo.io/&lt;/a>&lt;/li>
+&lt;li>&lt;code>orgmode&lt;/code> : &lt;a href="https://orgmode.org/">https://orgmode.org/&lt;/a>&lt;/li>
+&lt;li>&lt;code>ox-hugo&lt;/code> : &lt;a href="https://ox-hugo.scripter.co/">https://ox-hugo.scripter.co/&lt;/a>&lt;/li>
+&lt;li>&lt;code>easy-hygo&lt;/code> : &lt;a href="https://github.com/masasam/emacs-easy-hugo">https://github.com/masasam/emacs-easy-hugo&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

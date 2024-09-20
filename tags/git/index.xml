@@ -1,44 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>git on 贤民的博客</title>
-    <link>https://www.xianmin.org/tags/git/</link>
-    <description>Recent content in git on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 16 Apr 2018 23:14:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/git/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>浅谈「用 git submodule 还是 git subtree」？</title>
-      <link>https://www.xianmin.org/post/git-submodule/</link>
-      <pubDate>Mon, 16 Apr 2018 23:14:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/git-submodule/</guid>
-      <description>&lt;p&gt;因为有用 &lt;code&gt;git&lt;/code&gt; 管理 &lt;strong&gt;子项目&lt;/strong&gt; 的需要，我在网上找到了 &lt;code&gt;submodule&lt;/code&gt; 和 &lt;code&gt;subtree&lt;/code&gt; 这两种方法。奇怪的是，有好几篇文章提到用 &lt;code&gt;subtree&lt;/code&gt; 替代 &lt;code&gt;submodule&lt;/code&gt; 。&lt;/p&gt;
-&lt;p&gt;比如这两篇：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://tech.youzan.com/git-subtree/&#34;&gt;用 Git Subtree 在多个 Git 项目间双向同步子项目，附简明使用手册 - Delai - 有赞技术团队&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/blog/git/alternatives-to-git-submodule-git-subtree&#34;&gt;Git subtree: the alternative to Git submodule&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这两个链接分别都出现在 Google 搜索中文和搜索英文时的首页上。因此，我最开始使用的是 subtree，以为 subtree 就是目前的主流方案，并且是 submodule 的替代方案。直到前些日子我改用了 submodule 才发现，submodule 才是真正我想用的。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>糟糕的项目管理新手</title>
-      <link>https://www.xianmin.org/post/i-am-a-bad-project-manager/</link>
-      <pubDate>Tue, 03 Apr 2018 15:40:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/i-am-a-bad-project-manager/</guid>
-      <description>&lt;p&gt;最近， &lt;code&gt;hugo-theme-jane&lt;/code&gt; 收到了几位朋友的 PR ，我作为这个项目的管理者，在处理 PR 上遇到了问题：有个别 PR 比较简单，我就直接在 github 后台操作合并，然后 &lt;code&gt;git pull&lt;/code&gt; 到本地。我想的是本地 master 直接从远程仓库抓取到最新版，但奇怪的是居然有一个合并请求，并且多了一个合并的 commit 。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Linux 下，使用 Git 管理 dotfiles（配置文件）</title>
-      <link>https://www.xianmin.org/post/02-manage-dotfiles/</link>
-      <pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/02-manage-dotfiles/</guid>
-      <description>&lt;p&gt;作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code&gt;.&lt;/code&gt; 开头，管它们叫 &lt;code&gt;dotfiles&lt;/code&gt; 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Git on 贤民的博客</title><link>https://www.xianmin.org/tags/git/</link><description>Recent content in Git on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 16 Apr 2018 23:18:23 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>浅谈「用 git submodule 还是 git subtree」？</title><link>https://www.xianmin.org/post/git-submodule/</link><pubDate>Mon, 16 Apr 2018 23:14:00 +0800</pubDate><guid>https://www.xianmin.org/post/git-submodule/</guid><description>&lt;p>因为有用 &lt;code>git&lt;/code> 管理 &lt;strong>子项目&lt;/strong> 的需要，我在网上找到了 &lt;code>submodule&lt;/code> 和 &lt;code>subtree&lt;/code> 这两种方法。奇怪的是，有好几篇文章提到用 &lt;code>subtree&lt;/code> 替代 &lt;code>submodule&lt;/code> 。&lt;/p>
+&lt;p>比如这两篇：&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://tech.youzan.com/git-subtree/">用 Git Subtree 在多个 Git 项目间双向同步子项目，附简明使用手册 - Delai - 有赞技术团队&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.atlassian.com/blog/git/alternatives-to-git-submodule-git-subtree">Git subtree: the alternative to Git submodule&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>这两个链接分别都出现在 Google 搜索中文和搜索英文时的首页上。因此，我最开始使用的是 subtree，以为 subtree 就是目前的主流方案，并且是 submodule 的替代方案。直到前些日子我改用了 submodule 才发现，submodule 才是真正我想用的。&lt;/p></description></item><item><title>糟糕的项目管理新手</title><link>https://www.xianmin.org/post/i-am-a-bad-project-manager/</link><pubDate>Tue, 03 Apr 2018 15:40:00 +0800</pubDate><guid>https://www.xianmin.org/post/i-am-a-bad-project-manager/</guid><description>&lt;p>最近， &lt;code>hugo-theme-jane&lt;/code> 收到了几位朋友的 PR ，我作为这个项目的管理者，在处理 PR 上遇到了问题：有个别 PR 比较简单，我就直接在 github 后台操作合并，然后 &lt;code>git pull&lt;/code> 到本地。我想的是本地 master 直接从远程仓库抓取到最新版，但奇怪的是居然有一个合并请求，并且多了一个合并的 commit 。&lt;/p></description></item><item><title>Linux 下，使用 Git 管理 dotfiles（配置文件）</title><link>https://www.xianmin.org/post/02-manage-dotfiles/</link><pubDate>Wed, 01 Mar 2017 18:03:09 +0800</pubDate><guid>https://www.xianmin.org/post/02-manage-dotfiles/</guid><description>&lt;p>作为一个计算机深度使用者，并且长期使用 Linux 作为主要操作系统，折腾各种功能强大的软件是常有的事儿。而这些软件有它们各自的配置文件，通常以 &lt;code>.&lt;/code> 开头，管它们叫 &lt;code>dotfiles&lt;/code> 。一旦 dotfiles 的数量增多，并且所在的位置不同，怎样合理有效的管理它们是一个问题。&lt;/p></description></item></channel></rss>

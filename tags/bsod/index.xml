@@ -1,37 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>bsod on 贤民的博客</title>
-    <link>https://www.xianmin.org/tags/bsod/</link>
-    <description>Recent content in bsod on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 01 Feb 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/bsod/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>记录一次 Debug Windows 蓝屏 BSOD 修复</title>
-      <link>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</link>
-      <pubDate>Thu, 01 Feb 2024 14:20:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</guid>
-      <description>&lt;p&gt;上个月，我为我的笔记本电脑 ThinkPad T480 加装了一块 1T 硬盘，升级了内存条到 64G 。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bsod on 贤民的博客</title><link>https://www.xianmin.org/tags/bsod/</link><description>Recent content in Bsod on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 01 Feb 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/bsod/index.xml" rel="self" type="application/rss+xml"/><item><title>记录一次 Debug Windows 蓝屏 BSOD 修复</title><link>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</link><pubDate>Thu, 01 Feb 2024 14:20:00 +0800</pubDate><guid>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</guid><description>&lt;p>上个月，我为我的笔记本电脑 ThinkPad T480 加装了一块 1T 硬盘，升级了内存条到 64G 。
 之后电脑也是正常运行的，但不确定从什么时候开始，系统出现蓝屏了。
 最开始出现蓝屏，重启就好了，我不知道是什么原因，也没在意。
 后来发现，每次只要电脑从深度睡眠状态启动恢复，系统就会出现蓝屏，但进入到系统后，运行时又是正常的。
-屏幕上的终止代码有以下三种： &lt;code&gt;MEMORY_MANAGEMENT&lt;/code&gt;, &lt;code&gt;IRQL_NOT_LESS_OR_EQUAL&lt;/code&gt;, &lt;code&gt;PFN_LIST_CORRUPT&lt;/code&gt; 。&lt;/p&gt;
+屏幕上的终止代码有以下三种： &lt;code>MEMORY_MANAGEMENT&lt;/code>, &lt;code>IRQL_NOT_LESS_OR_EQUAL&lt;/code>, &lt;code>PFN_LIST_CORRUPT&lt;/code> 。&lt;/p>
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/debug-windows-bsod.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/debug-windows-bsod.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;debug windows bsod&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/debug-windows-bsod.jpg" />
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/other/debug-windows-bsod.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;figcaption>&lt;h4>debug windows bsod&lt;/h4>
+ &lt;/figcaption>
+ &lt;/figure>
+&lt;/div></description></item></channel></rss>

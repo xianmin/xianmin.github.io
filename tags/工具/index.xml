@@ -1,61 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>工具 on 贤民的博客</title>
-    <link>https://www.xianmin.org/tags/%E5%B7%A5%E5%85%B7/</link>
-    <description>Recent content in 工具 on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 25 Feb 2020 16:06:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Linux 下，用命令行给 PDF 添加书签</title>
-      <link>https://www.xianmin.org/post/linux-pdftk/</link>
-      <pubDate>Tue, 25 Feb 2020 16:06:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/linux-pdftk/</guid>
-      <description>&lt;p&gt;最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下：&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Google 的替代 —— Searx</title>
-      <link>https://www.xianmin.org/post/replace-google/</link>
-      <pubDate>Thu, 20 Feb 2020 14:48:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/replace-google/</guid>
-      <description>&lt;p&gt;最近的网络很不好用，一到特殊时期就这个样子。&lt;/p&gt;
-&lt;p&gt;由于我是搜索引擎的重度使用者，当 Google 用不了的时候，有什么替代方案吗？&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Linux 下，使用 Linuxbrew 安装更多的软件</title>
-      <link>https://www.xianmin.org/post/use-linuxbrew/</link>
-      <pubDate>Wed, 27 Feb 2019 08:00:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/use-linuxbrew/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://brew.sh/&#34;&gt;Homebrew&lt;/a&gt; 是 MacOS 下的一个包管理工具，可以用它安装各种软件，相当于 Linux 下的 &lt;code&gt;apt-get&lt;/code&gt; ，大部分使用 Mac 的开发者对它应该很熟悉了。 &lt;a href=&#34;http://linuxbrew.sh&#34;&gt;Linuxbrew&lt;/a&gt; 是 Linux 下的 Homebrew ，使用它，就可以用 &lt;code&gt;brew install&lt;/code&gt; 安装更多的软件。&lt;/p&gt;
-&lt;p&gt;也许有人要问，各个 Linux 发行版都已经 &lt;strong&gt;自带了「包管理工具」&lt;/strong&gt; ，为什么还要多此一举，用 Linuxbrew 呢？&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>我的搭档 「ThinkPad X230」</title>
-      <link>https://www.xianmin.org/post/thinkpad-x230/</link>
-      <pubDate>Sat, 11 Aug 2018 12:14:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/thinkpad-x230/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:60%&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/thinkpad-x230.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/thinkpad-x230.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>工具 on 贤民的博客</title><link>https://www.xianmin.org/tags/%E5%B7%A5%E5%85%B7/</link><description>Recent content in 工具 on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 25 Feb 2020 16:11:24 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux 下，用命令行给 PDF 添加书签</title><link>https://www.xianmin.org/post/linux-pdftk/</link><pubDate>Tue, 25 Feb 2020 16:06:00 +0800</pubDate><guid>https://www.xianmin.org/post/linux-pdftk/</guid><description>&lt;p>最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下：&lt;/p></description></item><item><title>Google 的替代 —— Searx</title><link>https://www.xianmin.org/post/replace-google/</link><pubDate>Thu, 20 Feb 2020 14:48:00 +0800</pubDate><guid>https://www.xianmin.org/post/replace-google/</guid><description>&lt;p>最近的网络很不好用，一到特殊时期就这个样子。&lt;/p>
+&lt;p>由于我是搜索引擎的重度使用者，当 Google 用不了的时候，有什么替代方案吗？&lt;/p></description></item><item><title>Linux 下，使用 Linuxbrew 安装更多的软件</title><link>https://www.xianmin.org/post/use-linuxbrew/</link><pubDate>Wed, 27 Feb 2019 08:00:00 +0800</pubDate><guid>https://www.xianmin.org/post/use-linuxbrew/</guid><description>&lt;p>&lt;a href="https://brew.sh/">Homebrew&lt;/a> 是 MacOS 下的一个包管理工具，可以用它安装各种软件，相当于 Linux 下的 &lt;code>apt-get&lt;/code> ，大部分使用 Mac 的开发者对它应该很熟悉了。 &lt;a href="http://linuxbrew.sh">Linuxbrew&lt;/a> 是 Linux 下的 Homebrew ，使用它，就可以用 &lt;code>brew install&lt;/code> 安装更多的软件。&lt;/p>
+&lt;p>也许有人要问，各个 Linux 发行版都已经 &lt;strong>自带了「包管理工具」&lt;/strong> ，为什么还要多此一举，用 Linuxbrew 呢？&lt;/p></description></item><item><title>我的搭档 「ThinkPad X230」</title><link>https://www.xianmin.org/post/thinkpad-x230/</link><pubDate>Sat, 11 Aug 2018 12:14:00 +0800</pubDate><guid>https://www.xianmin.org/post/thinkpad-x230/</guid><description>&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure class="center" itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" 
+ style="max-width:60%" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/thinkpad-x230.jpg" />
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/other/thinkpad-x230.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;/figure>
+&lt;/div>
 
-&lt;p&gt;最近，我的搭档 「ThinkPad X230」 的键盘出了点问题，按键偶尔会完全失灵，小红点经常失控。当机立断，我直接在淘宝买了个新的键盘换上，感觉它又重获了新生。这是我喜欢 ThinkPad 的主要原因，它太好拆了，换个键盘只要下俩螺丝，几分钟就搞定。但凡哪个部件有任何问题，我都能轻松的更换，这让我觉得它是真正属于我的，能跟随我很久。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p>最近，我的搭档 「ThinkPad X230」 的键盘出了点问题，按键偶尔会完全失灵，小红点经常失控。当机立断，我直接在淘宝买了个新的键盘换上，感觉它又重获了新生。这是我喜欢 ThinkPad 的主要原因，它太好拆了，换个键盘只要下俩螺丝，几分钟就搞定。但凡哪个部件有任何问题，我都能轻松的更换，这让我觉得它是真正属于我的，能跟随我很久。&lt;/p></description></item></channel></rss>

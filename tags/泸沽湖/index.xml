@@ -1,34 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>泸沽湖 on 贤民的博客</title>
-    <link>https://www.xianmin.org/tags/%E6%B3%B8%E6%B2%BD%E6%B9%96/</link>
-    <description>Recent content in 泸沽湖 on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 30 Nov 2018 15:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E6%B3%B8%E6%B2%BD%E6%B9%96/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>从泸沽湖到宝山石头城</title>
-      <link>https://www.xianmin.org/post/2018-lugu-lake/</link>
-      <pubDate>Fri, 30 Nov 2018 15:20:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2018-lugu-lake/</guid>
-      <description>&lt;p&gt;在丽江待了这么多年，却一直没有去过泸沽湖。原因嘛，无非是我不喜欢去景点，尤其是大家都去的景点。我的偏好是，要么在路上，要么就在一个地方待着，逛景点也就是看看风景，有时候路上的风景或许比景点更美呢。&lt;/p&gt;
-&lt;p&gt;不过这个月月底，终于还是去了一趟泸沽湖，顺带还去了宝山石头城。这次比较特殊的是和几个熟悉的朋友一同出行，实在难得，一块儿吃喝玩乐，聊聊生活，增进一下友谊。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>泸沽湖 on 贤民的博客</title><link>https://www.xianmin.org/tags/%E6%B3%B8%E6%B2%BD%E6%B9%96/</link><description>Recent content in 泸沽湖 on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 30 Nov 2018 15:45:43 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E6%B3%B8%E6%B2%BD%E6%B9%96/index.xml" rel="self" type="application/rss+xml"/><item><title>从泸沽湖到宝山石头城</title><link>https://www.xianmin.org/post/2018-lugu-lake/</link><pubDate>Fri, 30 Nov 2018 15:20:00 +0800</pubDate><guid>https://www.xianmin.org/post/2018-lugu-lake/</guid><description>&lt;p>在丽江待了这么多年，却一直没有去过泸沽湖。原因嘛，无非是我不喜欢去景点，尤其是大家都去的景点。我的偏好是，要么在路上，要么就在一个地方待着，逛景点也就是看看风景，有时候路上的风景或许比景点更美呢。&lt;/p>
+&lt;p>不过这个月月底，终于还是去了一趟泸沽湖，顺带还去了宝山石头城。这次比较特殊的是和几个熟悉的朋友一同出行，实在难得，一块儿吃喝玩乐，聊聊生活，增进一下友谊。&lt;/p>
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/lugu-lake/00.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/lugu-lake/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;泸沽湖边飞翔的鸟儿&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/lugu-lake/00.jpg" />
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/lugu-lake/00.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;figcaption>&lt;h4>泸沽湖边飞翔的鸟儿&lt;/h4>
+ &lt;/figcaption>
+ &lt;/figure>
+&lt;/div></description></item></channel></rss>

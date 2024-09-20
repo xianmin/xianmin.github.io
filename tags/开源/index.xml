@@ -1,59 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>开源 on 贤民的博客</title>
-    <link>https://www.xianmin.org/tags/%E5%BC%80%E6%BA%90/</link>
-    <description>Recent content in 开源 on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E5%BC%80%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>捍卫开放的互联网</title>
-      <link>https://www.xianmin.org/post/defend-the-open-internet/</link>
-      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/defend-the-open-internet/</guid>
-      <description>&lt;p&gt;直奔主题，我在 github 上发起了一个组织 &lt;strong&gt;「复兴 RSS」&lt;/strong&gt; ——&lt;a href=&#34;https://github.com/RSS-Renaissance&#34;&gt; RSS-Renaissance&lt;/a&gt; ，并创建了一个项目 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; ，这篇文章旨在宣传这个组织和项目，让更多人，尤其是年轻人知道 RSS，知道在互联网上有这么一批 &lt;strong&gt;独立博客&lt;/strong&gt; ，并促进「独立博客」们的互动。此外，本文还将提供一个可操作的方法，让更多的 &lt;strong&gt;独立博客&lt;/strong&gt; 加入到列表当中。&lt;/p&gt;
-&lt;p&gt;「捍卫开放的互联网」，这个标题起的有点儿哗众取宠，不过「复兴RSS」的宗旨之一就是促进互联网的开放，而不是少数几个巨头（比如微信、Facebook）掌控着互联网的信息。微信和 Facebook 都是极为 &lt;strong&gt;封闭的生态圈&lt;/strong&gt; ，打个比方，它们是互联网世界的「大陆」，而独立博客呢？则是互联网世界的一座座「孤岛」。「复兴 RSS」的任务或者说使命，是让这些「孤岛」连起来，成为「群岛」。这个组织，是一个开放的组织，我只是发起人。这个项目 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; 是一个开源项目，任何人都可以参与，并且只是一个开端，我希望未来能有更多的、更细分的、专业性更强的类似项目，例如「旅行相关列表」、「法律相关列表」、「数学相关列表」，诸如此类，并不局限于「独立中文博客」。我还希望，能够有更多的志同道合的朋友加入这个组织，创建更多的项目。让微信做它的江湖老大去吧，我们立我们自己的山头。&lt;/p&gt;
-&lt;p&gt;如果看到这篇文章的你，对我发起的组织和项目感兴趣，不妨加我的微信，我想建立一个「独立博客博主」交流群，互相交流意见。加我时麻烦你备注一下，比如「独立博客 + 你的博客网址」。我的微信二维码：&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>开源 on 贤民的博客</title><link>https://www.xianmin.org/tags/%E5%BC%80%E6%BA%90/</link><description>Recent content in 开源 on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 25 Aug 2018 15:09:25 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E5%BC%80%E6%BA%90/index.xml" rel="self" type="application/rss+xml"/><item><title>捍卫开放的互联网</title><link>https://www.xianmin.org/post/defend-the-open-internet/</link><pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/defend-the-open-internet/</guid><description>&lt;p>直奔主题，我在 github 上发起了一个组织 &lt;strong>「复兴 RSS」&lt;/strong> ——&lt;a href="https://github.com/RSS-Renaissance"> RSS-Renaissance&lt;/a> ，并创建了一个项目 &lt;a href="https://github.com/RSS-Renaissance/awesome-blogCN-feeds">优质的「独立中文博客」列表&lt;/a> ，这篇文章旨在宣传这个组织和项目，让更多人，尤其是年轻人知道 RSS，知道在互联网上有这么一批 &lt;strong>独立博客&lt;/strong> ，并促进「独立博客」们的互动。此外，本文还将提供一个可操作的方法，让更多的 &lt;strong>独立博客&lt;/strong> 加入到列表当中。&lt;/p>
+&lt;p>「捍卫开放的互联网」，这个标题起的有点儿哗众取宠，不过「复兴RSS」的宗旨之一就是促进互联网的开放，而不是少数几个巨头（比如微信、Facebook）掌控着互联网的信息。微信和 Facebook 都是极为 &lt;strong>封闭的生态圈&lt;/strong> ，打个比方，它们是互联网世界的「大陆」，而独立博客呢？则是互联网世界的一座座「孤岛」。「复兴 RSS」的任务或者说使命，是让这些「孤岛」连起来，成为「群岛」。这个组织，是一个开放的组织，我只是发起人。这个项目 &lt;a href="https://github.com/RSS-Renaissance/awesome-blogCN-feeds">优质的「独立中文博客」列表&lt;/a> 是一个开源项目，任何人都可以参与，并且只是一个开端，我希望未来能有更多的、更细分的、专业性更强的类似项目，例如「旅行相关列表」、「法律相关列表」、「数学相关列表」，诸如此类，并不局限于「独立中文博客」。我还希望，能够有更多的志同道合的朋友加入这个组织，创建更多的项目。让微信做它的江湖老大去吧，我们立我们自己的山头。&lt;/p>
+&lt;p>如果看到这篇文章的你，对我发起的组织和项目感兴趣，不妨加我的微信，我想建立一个「独立博客博主」交流群，互相交流意见。加我时麻烦你备注一下，比如「独立博客 + 你的博客网址」。我的微信二维码：&lt;/p>
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:60%&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/wechat.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/wechat.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>笔记：有关开源项目</title>
-      <link>https://www.xianmin.org/post/note-opensource-project/</link>
-      <pubDate>Tue, 27 Mar 2018 15:47:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/note-opensource-project/</guid>
-      <description>&lt;p&gt;以下内容是关于怎样参与到开源项目中的一些笔记，基本上摘自网络。&lt;/p&gt;
-&lt;h2 id=&#34;参考链接&#34;&gt;参考链接&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.phodal.com/blog/how-to-build-a-opensource-project/&#34;&gt;开源之美：开源软件开发流程 - Phodal | Phodal - A Growth Engineer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://juejin.im/post/59f98a196fb9a045132a03ed&#34;&gt;零起点的开源社区贡献指南 - 掘金&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html&#34;&gt;Commit message 和 Change log 编写指南 - 阮一峰的网络日志&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow&#34;&gt;git-flow 的工作流程&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>开源实践：写在 Jane 发布之后</title>
-      <link>https://www.xianmin.org/post/hugo-theme-jane-publish/</link>
-      <pubDate>Sun, 11 Mar 2018 21:30:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/hugo-theme-jane-publish/</guid>
-      <description>&lt;p&gt;本周我发布了一个 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 主题 &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane&lt;/a&gt; ，Jane 克隆自 &lt;a href=&#34;https://github.com/olOwOlo/hugo-theme-even&#34;&gt;hugo-theme-even&lt;/a&gt; ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure class="center" itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" 
+ style="max-width:60%" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/wechat.jpg" />
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/wechat.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;/figure>
+&lt;/div></description></item><item><title>笔记：有关开源项目</title><link>https://www.xianmin.org/post/note-opensource-project/</link><pubDate>Tue, 27 Mar 2018 15:47:00 +0800</pubDate><guid>https://www.xianmin.org/post/note-opensource-project/</guid><description>&lt;p>以下内容是关于怎样参与到开源项目中的一些笔记，基本上摘自网络。&lt;/p>
+&lt;h2 id="参考链接">参考链接&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.phodal.com/blog/how-to-build-a-opensource-project/">开源之美：开源软件开发流程 - Phodal | Phodal - A Growth Engineer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://juejin.im/post/59f98a196fb9a045132a03ed">零起点的开源社区贡献指南 - 掘金&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html">Commit message 和 Change log 编写指南 - 阮一峰的网络日志&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow">git-flow 的工作流程&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>开源实践：写在 Jane 发布之后</title><link>https://www.xianmin.org/post/hugo-theme-jane-publish/</link><pubDate>Sun, 11 Mar 2018 21:30:00 +0800</pubDate><guid>https://www.xianmin.org/post/hugo-theme-jane-publish/</guid><description>&lt;p>本周我发布了一个 &lt;a href="https://gohugo.io/">Hugo&lt;/a> 主题 &lt;a href="https://github.com/xianmin/hugo-theme-jane">Jane&lt;/a> ，Jane 克隆自 &lt;a href="https://github.com/olOwOlo/hugo-theme-even">hugo-theme-even&lt;/a> ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>。&lt;/p></description></item></channel></rss>

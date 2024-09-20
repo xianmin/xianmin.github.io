@@ -1,305 +1,222 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>贤民的博客</title>
-    <link>https://www.xianmin.org/</link>
-    <description>Recent content on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 10 Sep 2024 02:21:22 +0000</lastBuildDate>
-    
-        <atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>为网页生成一个目录大纲，侧边栏导航</title>
-      <link>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</link>
-      <pubDate>Tue, 10 Sep 2024 02:21:22 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</guid>
-      
-        <description>&lt;p&gt;对于浏览长文章，有一个 &lt;strong&gt;目录大纲&lt;/strong&gt; ，可以极大的提升我们的阅读效率。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 10 Sep 2024 02:21:22 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>为网页生成一个目录大纲，侧边栏导航</title><link>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</link><pubDate>Tue, 10 Sep 2024 02:21:22 +0000</pubDate><guid>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</guid><description>&lt;p>对于浏览长文章，有一个 &lt;strong>目录大纲&lt;/strong> ，可以极大的提升我们的阅读效率。
 然而，或许是出于美观考虑，许多网页并没有目录。
-即使有目录的网页，目录位置有可能在最上方，当我们跳转后，要查看目录还得返回去，这很不方便。&lt;/p&gt;
-&lt;p&gt;为了解决这个问题，我写了一个 Userscript —— &lt;a href=&#34;https://github.com/xianmin/userscript-toc-sidebar&#34;&gt;userscript-toc-sidebar&lt;/a&gt; ，用于生成网页的目录大纲，效果如下(左侧侧边栏)：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/xianmin/userscript-toc-sidebar/main/screenshot.png&#34; alt=&#34;userscript-toc-sidebar 截图&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;它有如下优点：&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;按照网页的标题生成目录；&lt;/li&gt;
-&lt;li&gt;使用 &lt;strong&gt;侧边栏&lt;/strong&gt; 的方式展示；&lt;/li&gt;
-&lt;li&gt;点击侧边栏的目录，跳转到相应位置；&lt;/li&gt;
-&lt;li&gt;默认使用快捷键 &lt;code&gt;t&lt;/code&gt; 来打开或关闭侧边栏；&lt;/li&gt;
-&lt;li&gt;识别浏览位置，并在目录中高亮显示；&lt;/li&gt;
-&lt;li&gt;支持「全部展开」或「全部折叠」目录；&lt;/li&gt;
-&lt;li&gt;可以调整侧边栏的宽度；&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;原本我是想写一个 Chrome 扩展，但由于我个人没有 Google 开发者账号，无法上传到 Chrome Store，安装和更新就很不方便。&lt;/p&gt;
-&lt;p&gt;后来想到可以写成 Userscript&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ，这样不仅更加轻量，安装和更新也都更方便，还能跨浏览器通用。
-缺点就是没有按钮打开侧边栏，也暂时没有设置界面。&lt;/p&gt;
-&lt;p&gt;我考虑过在页面上增加一个「悬浮按钮」，但那样太影响原本页面的美观了，我个人 &lt;strong&gt;十分反感全局的悬浮按钮&lt;/strong&gt; 。
+即使有目录的网页，目录位置有可能在最上方，当我们跳转后，要查看目录还得返回去，这很不方便。&lt;/p>
+&lt;p>为了解决这个问题，我写了一个 Userscript —— &lt;a href="https://github.com/xianmin/userscript-toc-sidebar">userscript-toc-sidebar&lt;/a> ，用于生成网页的目录大纲，效果如下(左侧侧边栏)：&lt;/p>
+&lt;p>&lt;img alt="userscript-toc-sidebar 截图" src="https://raw.githubusercontent.com/xianmin/userscript-toc-sidebar/main/screenshot.png">&lt;/p>
+&lt;p>&lt;strong>它有如下优点：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>按照网页的标题生成目录；&lt;/li>
+&lt;li>使用 &lt;strong>侧边栏&lt;/strong> 的方式展示；&lt;/li>
+&lt;li>点击侧边栏的目录，跳转到相应位置；&lt;/li>
+&lt;li>默认使用快捷键 &lt;code>t&lt;/code> 来打开或关闭侧边栏；&lt;/li>
+&lt;li>识别浏览位置，并在目录中高亮显示；&lt;/li>
+&lt;li>支持「全部展开」或「全部折叠」目录；&lt;/li>
+&lt;li>可以调整侧边栏的宽度；&lt;/li>
+&lt;/ol>
+&lt;p>原本我是想写一个 Chrome 扩展，但由于我个人没有 Google 开发者账号，无法上传到 Chrome Store，安装和更新就很不方便。&lt;/p>
+&lt;p>后来想到可以写成 Userscript&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> ，这样不仅更加轻量，安装和更新也都更方便，还能跨浏览器通用。
+缺点就是没有按钮打开侧边栏，也暂时没有设置界面。&lt;/p>
+&lt;p>我考虑过在页面上增加一个「悬浮按钮」，但那样太影响原本页面的美观了，我个人 &lt;strong>十分反感全局的悬浮按钮&lt;/strong> 。
 没有按钮，就只能通过快捷键来打开目录侧边栏。
-但这也有个问题， &lt;code&gt;t&lt;/code&gt; 这个快捷键可能会和其他扩展有冲突，比如我常用的 &lt;code&gt;Vimium&lt;/code&gt; 扩展，我目前的做法是把 &lt;code&gt;Vimium&lt;/code&gt; 的 &lt;code&gt;t&lt;/code&gt; 禁用了，用 &lt;code&gt;C-t&lt;/code&gt; 替代。&lt;/p&gt;
-&lt;p&gt;后面再考虑添加一个更改快捷键的设置方式吧。&lt;/p&gt;
-&lt;p&gt;安装及使用方法，见 README: &lt;a href=&#34;https://github.com/xianmin/userscript-toc-sidebar/tree/main?tab=readme-ov-file#how-to-use&#34;&gt;https://github.com/xianmin/userscript-toc-sidebar/tree/main?tab=readme-ov-file#how-to-use&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Userscript&#34;&gt;Userscript - Wikipedia&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>启用 ublock Cookie 规则，避免网站 Cookie 弹窗</title>
-      <link>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</link>
-      <pubDate>Fri, 06 Sep 2024 14:20:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</guid>
-      
-        <description>&lt;p&gt;由于欧洲的数据保护政策，许多网站都会弹窗提醒你「接受 Cookies」 。&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/avoid-cookie-00.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/avoid-cookie-00.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;cookie&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;我个人并 &lt;strong&gt;不关心&lt;/strong&gt; 网站的 Cookie 存储了哪些数据，
+但这也有个问题， &lt;code>t&lt;/code> 这个快捷键可能会和其他扩展有冲突，比如我常用的 &lt;code>Vimium&lt;/code> 扩展，我目前的做法是把 &lt;code>Vimium&lt;/code> 的 &lt;code>t&lt;/code> 禁用了，用 &lt;code>C-t&lt;/code> 替代。&lt;/p>
+&lt;p>后面再考虑添加一个更改快捷键的设置方式吧。&lt;/p>
+&lt;p>安装及使用方法，见 README: &lt;a href="https://github.com/xianmin/userscript-toc-sidebar/tree/main?tab=readme-ov-file#how-to-use">https://github.com/xianmin/userscript-toc-sidebar/tree/main?tab=readme-ov-file#how-to-use&lt;/a>&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Userscript">Userscript - Wikipedia&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>启用 ublock Cookie 规则，避免网站 Cookie 弹窗</title><link>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</link><pubDate>Fri, 06 Sep 2024 14:20:00 +0800</pubDate><guid>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</guid><description>&lt;p>由于欧洲的数据保护政策，许多网站都会弹窗提醒你「接受 Cookies」 。&lt;/p>
+&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/avoid-cookie-00.png" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/other/avoid-cookie-00.png" itemprop="contentUrl">&lt;/a>
+&lt;figcaption>&lt;h4>cookie&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;p>我个人并 &lt;strong>不关心&lt;/strong> 网站的 Cookie 存储了哪些数据，
 而且我也没那么多精力看各个网站的 Cookie 政策,
 所以每次弹窗，我都是无脑点击 「Accept all cookies」 。
-通常，点击一次，也就不会再弹窗了。&lt;/p&gt;
-&lt;p&gt;直到最近，有几次 Cookie 弹窗，让我感到有些烦了。
+通常，点击一次，也就不会再弹窗了。&lt;/p>
+&lt;p>直到最近，有几次 Cookie 弹窗，让我感到有些烦了。
 我就问 AI ： 有什么办法可以避免 「Cookie 弹窗」 呢？
 Perplexity 告诉我可以安装 「I don&amp;rsquo;t care about cookies」 扩展。
 我不想安装额外的扩展，就又尝试了搜索引擎。
 发现有的广告屏蔽扩展也可以屏蔽 Cookie 。
 我个人用的是 uBlock 这个屏蔽广告的扩展，
 打开设置页，在规则列表中，找到了屏蔽 Cookie 弹窗的规则，
-只是它默认是未选中的，将 Cookie Notices 规则选中就可以了。&lt;/p&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/avoid-cookie-01.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/avoid-cookie-01.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;cookie&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;这样就再也不用被 Cookie 弹窗烦恼了。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>记录一次 Debug Windows 蓝屏 BSOD 修复</title>
-      <link>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</link>
-      <pubDate>Thu, 01 Feb 2024 14:20:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</guid>
-      
-        <description>&lt;p&gt;上个月，我为我的笔记本电脑 ThinkPad T480 加装了一块 1T 硬盘，升级了内存条到 64G 。
+只是它默认是未选中的，将 Cookie Notices 规则选中就可以了。&lt;/p>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/avoid-cookie-01.png" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/other/avoid-cookie-01.png" itemprop="contentUrl">&lt;/a>
+&lt;figcaption>&lt;h4>cookie&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;p>这样就再也不用被 Cookie 弹窗烦恼了。&lt;/p></description></item><item><title>记录一次 Debug Windows 蓝屏 BSOD 修复</title><link>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</link><pubDate>Thu, 01 Feb 2024 14:20:00 +0800</pubDate><guid>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</guid><description>&lt;p>上个月，我为我的笔记本电脑 ThinkPad T480 加装了一块 1T 硬盘，升级了内存条到 64G 。
 之后电脑也是正常运行的，但不确定从什么时候开始，系统出现蓝屏了。
 最开始出现蓝屏，重启就好了，我不知道是什么原因，也没在意。
 后来发现，每次只要电脑从深度睡眠状态启动恢复，系统就会出现蓝屏，但进入到系统后，运行时又是正常的。
-屏幕上的终止代码有以下三种： &lt;code&gt;MEMORY_MANAGEMENT&lt;/code&gt;, &lt;code&gt;IRQL_NOT_LESS_OR_EQUAL&lt;/code&gt;, &lt;code&gt;PFN_LIST_CORRUPT&lt;/code&gt; 。&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/debug-windows-bsod.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/debug-windows-bsod.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;debug windows bsod&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&#34;检测内存条故障太耗时暂不考虑&#34;&gt;检测内存条故障太耗时，暂不考虑&lt;/h3&gt;
-&lt;p&gt;我搜索这类终止代码是什么原因造成的。
+屏幕上的终止代码有以下三种： &lt;code>MEMORY_MANAGEMENT&lt;/code>, &lt;code>IRQL_NOT_LESS_OR_EQUAL&lt;/code>, &lt;code>PFN_LIST_CORRUPT&lt;/code> 。&lt;/p>
+&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/debug-windows-bsod.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/other/debug-windows-bsod.jpg" itemprop="contentUrl">&lt;/a>
+&lt;figcaption>&lt;h4>debug windows bsod&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;h3 id="检测内存条故障太耗时暂不考虑">检测内存条故障太耗时，暂不考虑&lt;/h3>
+&lt;p>我搜索这类终止代码是什么原因造成的。
 可能是内存条故障，也可能是内存条不兼容。
 要检测内存条故障，两个内存条 64G ，使用专业检测软件需要测试几个小时，我可不想这么麻烦，就没这么做。
 我一开始猜测，最大的可能是内存条的原因，因为官方资料说明 T480 最大支持 32G 。
 使用的是 DDR4 2400MHZ 规格的内存条，而我加装的内存条是 2666MHZ 频率的（没买到 2400MHZ），我一直怀疑它们是否兼容。
-但是网络上看网友们加装内存条的情况， DDR4 2666MHZ 是兼容 DDR4 2400MHZ 的，也有网友将 ThinkPad T480 的内存条升级到了 64 G 。&lt;/p&gt;
-&lt;p&gt;如果不是内存故障，还有什么原因呢？&lt;/p&gt;
-&lt;h3 id=&#34;使用-event-viewer-查看系统日志&#34;&gt;使用 Event Viewer 查看系统日志&lt;/h3&gt;
-&lt;p&gt;根据过往 Debug 的经验，先查阅 system log 。 在 Windows 下直接用 &lt;code&gt;Event Viewer&lt;/code&gt; 这个自带的软件就能查看系统日志。&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Initialization failed because the driver device could not be created. Use the string
+但是网络上看网友们加装内存条的情况， DDR4 2666MHZ 是兼容 DDR4 2400MHZ 的，也有网友将 ThinkPad T480 的内存条升级到了 64 G 。&lt;/p>
+&lt;p>如果不是内存故障，还有什么原因呢？&lt;/p>
+&lt;h3 id="使用-event-viewer-查看系统日志">使用 Event Viewer 查看系统日志&lt;/h3>
+&lt;p>根据过往 Debug 的经验，先查阅 system log 。 在 Windows 下直接用 &lt;code>Event Viewer&lt;/code> 这个自带的软件就能查看系统日志。&lt;/p>
+&lt;pre tabindex="0">&lt;code>Initialization failed because the driver device could not be created. Use the string
 &amp;#34;000000000100320000000000D71000C013010000250200C000000000000000000000000000000000&amp;#34; to identify
 the interface for which initialization failed. It represents the MAC address of the failed
 interface or the Globally Unique Interface Identifier (GUID) if NetBT was unable to map from
 GUID to MAC address. If neither the MAC address nor the GUID were available, the string
 represents a cluster device name.
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;还有别的错误，只能看懂表面意思，可能是驱动出现了问题。&lt;/p&gt;
-&lt;p&gt;我先把 Win10 系统，还有设备驱动全部更新到了最新版，问题依旧。&lt;/p&gt;
-&lt;p&gt;那么，怎么检测驱动是否存在问题呢？&lt;/p&gt;
-&lt;h3 id=&#34;debug-drivers&#34;&gt;Debug Drivers&lt;/h3&gt;
-&lt;p&gt;我找到了这篇帖子 &lt;a href=&#34;https://answers.microsoft.com/en-us/windows/forum/all/driver-verifier-tracking-down-a-mis-behaving/f5cb4faf-556b-4b6d-95b3-c48669e4c983&#34;&gt;Driver Verifier&amp;ndash; tracking down a mis-behaving driver. - Microsoft Community&lt;/a&gt; ，根据帖子中提到的方法，打开 &lt;code&gt;verifier&lt;/code&gt; 程序，重启。
-如果系统出现蓝屏，会生成 &lt;code&gt;DMP&lt;/code&gt; 日志文件，这样我们可以定位到是哪个驱动文件加载时出错了。
-我的系统确实蓝屏了。&lt;/p&gt;
-&lt;h3 id=&#34;没有生成-dmp-文件&#34;&gt;没有生成 DMP 文件？&lt;/h3&gt;
-&lt;p&gt;之后问题又出现了，我的操作系统上居然没找到 DMP 文件。
-然后在接下来的帖子 &lt;a href=&#34;https://answers.microsoft.com/en-us/windows/forum/all/bsod-finding-and-fixing-them/1939df35-283f-4830-a4dd-e95ee5d8669d&#34;&gt;BSOD 查找并修复它们 - Microsoft Community &amp;mdash; BSOD Finding and fixing them - Microsoft Community&lt;/a&gt; ，我看到了这段文字：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Page file must be on the same drive as your operating system&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;晕，我才想起来我此前加装硬盘的时候，干了件事，把 Page file 关闭了。。。&lt;/p&gt;
-&lt;p&gt;好吧，重新启动 Page file ，否则无法生成 DMP 文件。&lt;/p&gt;
-&lt;h3 id=&#34;进入-windows-安全模式关闭-verifier&#34;&gt;进入 Windows 安全模式，关闭 verifier&lt;/h3&gt;
-&lt;p&gt;在 cmd 命令行中输入命令:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;verifier /reset&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;定位出错的驱动程序&#34;&gt;定位出错的驱动程序&lt;/h3&gt;
-&lt;p&gt;用 WinDbg 打开 dmp 文件，查看日志。
-出错的驱动程序是 &lt;code&gt;xlwfp.sys&lt;/code&gt; ，来自迅雷，卸了。&lt;/p&gt;
-&lt;h3 id=&#34;重复-verifier-检测&#34;&gt;重复 verifier 检测&lt;/h3&gt;
-&lt;p&gt;再次用 verifier 检测，重启后，系统不再出现蓝屏，应该是恢复正常了。&lt;/p&gt;
-&lt;h3 id=&#34;经验教训&#34;&gt;经验教训&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;不要关闭 Page file 。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;之前我关闭是因为我的 C 盘空间不够用，128G 都快塞满了，加装内存后，我觉得我的内存完全够用，干脆就把 Page file 关了。&lt;/p&gt;
-&lt;p&gt;现在查资料发现， &lt;strong&gt;Page File 不仅仅只是作为虚拟内存，一些程序和系统进程可能会依赖于 page file 来工作，关闭后可能会导致这些程序无法正常运行，甚至出现蓝屏。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;至于迅雷为什么要在驱动这个层级搞事情，我格局太小想不明白。 &lt;a href=&#34;https://zhuanlan.zhihu.com/p/43433631&#34;&gt;与国产流氓软件的斗争 - 知乎&lt;/a&gt;&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>使用 PWA 创建跨平台应用，关联本地文件</title>
-      <link>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</link>
-      <pubDate>Sat, 27 Jan 2024 14:20:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</guid>
-      
-        <description>&lt;p&gt;「渐进式 Web 应用 (PWA) 是使用 Web 技术生成的应用程序，可以从一个代码库安装并可在所有设备上运行。」&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;PWA 技术好些年前就已经推出了，但在国内似乎一直未受到重视。
+&lt;/code>&lt;/pre>&lt;p>还有别的错误，只能看懂表面意思，可能是驱动出现了问题。&lt;/p>
+&lt;p>我先把 Win10 系统，还有设备驱动全部更新到了最新版，问题依旧。&lt;/p>
+&lt;p>那么，怎么检测驱动是否存在问题呢？&lt;/p>
+&lt;h3 id="debug-drivers">Debug Drivers&lt;/h3>
+&lt;p>我找到了这篇帖子 &lt;a href="https://answers.microsoft.com/en-us/windows/forum/all/driver-verifier-tracking-down-a-mis-behaving/f5cb4faf-556b-4b6d-95b3-c48669e4c983">Driver Verifier&amp;ndash; tracking down a mis-behaving driver. - Microsoft Community&lt;/a> ，根据帖子中提到的方法，打开 &lt;code>verifier&lt;/code> 程序，重启。
+如果系统出现蓝屏，会生成 &lt;code>DMP&lt;/code> 日志文件，这样我们可以定位到是哪个驱动文件加载时出错了。
+我的系统确实蓝屏了。&lt;/p>
+&lt;h3 id="没有生成-dmp-文件">没有生成 DMP 文件？&lt;/h3>
+&lt;p>之后问题又出现了，我的操作系统上居然没找到 DMP 文件。
+然后在接下来的帖子 &lt;a href="https://answers.microsoft.com/en-us/windows/forum/all/bsod-finding-and-fixing-them/1939df35-283f-4830-a4dd-e95ee5d8669d">BSOD 查找并修复它们 - Microsoft Community &amp;mdash; BSOD Finding and fixing them - Microsoft Community&lt;/a> ，我看到了这段文字：&lt;/p>
+&lt;blockquote>
+&lt;p>Page file must be on the same drive as your operating system&lt;/p>
+&lt;/blockquote>
+&lt;p>晕，我才想起来我此前加装硬盘的时候，干了件事，把 Page file 关闭了。。。&lt;/p>
+&lt;p>好吧，重新启动 Page file ，否则无法生成 DMP 文件。&lt;/p>
+&lt;h3 id="进入-windows-安全模式关闭-verifier">进入 Windows 安全模式，关闭 verifier&lt;/h3>
+&lt;p>在 cmd 命令行中输入命令:&lt;/p>
+&lt;p>&lt;code>verifier /reset&lt;/code>&lt;/p>
+&lt;h3 id="定位出错的驱动程序">定位出错的驱动程序&lt;/h3>
+&lt;p>用 WinDbg 打开 dmp 文件，查看日志。
+出错的驱动程序是 &lt;code>xlwfp.sys&lt;/code> ，来自迅雷，卸了。&lt;/p>
+&lt;h3 id="重复-verifier-检测">重复 verifier 检测&lt;/h3>
+&lt;p>再次用 verifier 检测，重启后，系统不再出现蓝屏，应该是恢复正常了。&lt;/p>
+&lt;h3 id="经验教训">经验教训&lt;/h3>
+&lt;p>&lt;strong>不要关闭 Page file 。&lt;/strong>&lt;/p>
+&lt;p>之前我关闭是因为我的 C 盘空间不够用，128G 都快塞满了，加装内存后，我觉得我的内存完全够用，干脆就把 Page file 关了。&lt;/p>
+&lt;p>现在查资料发现， &lt;strong>Page File 不仅仅只是作为虚拟内存，一些程序和系统进程可能会依赖于 page file 来工作，关闭后可能会导致这些程序无法正常运行，甚至出现蓝屏。&lt;/strong>&lt;/p>
+&lt;p>至于迅雷为什么要在驱动这个层级搞事情，我格局太小想不明白。 &lt;a href="https://zhuanlan.zhihu.com/p/43433631">与国产流氓软件的斗争 - 知乎&lt;/a>&lt;/p></description></item><item><title>使用 PWA 创建跨平台应用，关联本地文件</title><link>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</link><pubDate>Sat, 27 Jan 2024 14:20:00 +0800</pubDate><guid>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</guid><description>&lt;p>「渐进式 Web 应用 (PWA) 是使用 Web 技术生成的应用程序，可以从一个代码库安装并可在所有设备上运行。」&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>PWA 技术好些年前就已经推出了，但在国内似乎一直未受到重视。
 我最早注意到这项技术，是在 Chrome 浏览器的地址栏上发现突然多了个 Install 按钮，就安装体验了一下，比如 Github 和 Twitter 。
 体验感受并不好，和 web 网页基本没差别，就是在系统桌面和任务栏多了个应用图标，还要额外打开一个窗口。
-包括现在，我也认为 &lt;strong&gt;大部分网站在桌面操作系统上 PWA 化是没啥意义的&lt;/strong&gt; 。&lt;/p&gt;
-&lt;p&gt;最近我写了个 &lt;a href=&#34;https://evoreader.github.io/&#34;&gt;epub 阅读器&lt;/a&gt; ，
+包括现在，我也认为 &lt;strong>大部分网站在桌面操作系统上 PWA 化是没啥意义的&lt;/strong> 。&lt;/p>
+&lt;p>最近我写了个 &lt;a href="https://evoreader.github.io/">epub 阅读器&lt;/a> ，
 我需要一个跨平台方案，可以直接读取本地文件：双击 .epub 文件，直接用 app 打开，就是关联为默认程序，而不是在 app 中打开文件。
 我原本考虑是用 Electron ，代码都写好了，但对于一个工具类的小应用，用 Electron 构建总感觉有些偏重。
 安装包近 100M ，需要编译不同平台的安装包，每次更新都要再次编译。
-一次偶然的搜索发现，可以用 PWA 支持 &lt;strong&gt;关联本地 .epub 文件&lt;/strong&gt; ，这让我对 PWA 技术重新产生了兴趣。&lt;/p&gt;
-&lt;p&gt;实现代码非常简单，添加一个 &lt;code&gt;manifest.json&lt;/code&gt; 文件，然后在项目中加入代码：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-1&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-1&#34;&gt;1&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-2&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-2&#34;&gt;2&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-3&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-3&#34;&gt;3&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-4&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-4&#34;&gt;4&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-5&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-5&#34;&gt;5&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-6&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-6&#34;&gt;6&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-7&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-7&#34;&gt;7&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-8&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-8&#34;&gt;8&lt;/a&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ts&#34; data-lang=&#34;ts&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;launchQueue&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#007020&#34;&gt;window&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  console.log(&lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;File Handling API is supported!&amp;#39;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#007020&#34;&gt;window&lt;/span&gt;.launchQueue.setConsumer((launchParams: &lt;span style=&#34;color:#902000&#34;&gt;LaunchParams&lt;/span&gt;) &lt;span style=&#34;color:#666&#34;&gt;=&amp;gt;&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    handleFiles(launchParams.files)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  })
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;else&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  console.error(&lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;File Handling API is not supported!&amp;#39;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;具体实现细节就不多说了，可以查阅文档 &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;技术实现不难，只是有时候我们不知道还有更简单高效的解决方案。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;当我用 PWA 创建了本地跨平台应用，这感觉太爽了， &lt;strong&gt;省去了一堆 Electron 依赖&lt;/strong&gt; ，不用在系统层面的 api 上耗费精力，专注于应用层的开发，效率提升了许多。
-从用户角度考虑， PWA 应用， &lt;strong&gt;安装快捷，不占用空间，卸载方便，打开迅速，app 更新也不需要安装包&lt;/strong&gt; ，体验非常轻松。&lt;/p&gt;
-&lt;p&gt;另外：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;PWA 应用支持 &lt;strong&gt;离线使用&lt;/strong&gt; ;&lt;/li&gt;
-&lt;li&gt;PWA 应用可以上传到 Windows Store 或 Chrome App Store 。（可惜我暂时没账号，就先不上传了）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;示例&#34;&gt;示例&lt;/h2&gt;
-&lt;p&gt;EvoReader (&lt;a href=&#34;https://evoreader.github.io/&#34;&gt;https://evoreader.github.io/&lt;/a&gt;) 是一个轻量的跨平台 epub 阅读器， 可以用它浏览本地的 &lt;code&gt;.epub&lt;/code&gt; 文件。不了解 PWA 安装的，可以查阅 &lt;a href=&#34;https://github.com/EvoReader/EvoReader/blob/main/0-install-guide.md&#34;&gt;安装指南&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;如果你对这个项目感兴趣，欢迎点一下 &lt;a href=&#34;https://github.com/EvoReader/EvoReader&#34;&gt;https://github.com/EvoReader/EvoReader&lt;/a&gt; 上的小星星，有任何建议或 Bug ，欢迎向我反馈！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://github.com/EvoReader/EvoReader/raw/main/images/install-guide/install-guide-0.png&#34; alt=&#34;Install EvoReader&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://github.com/EvoReader/EvoReader/raw/main/images/install-guide/install-guide-4.png&#34; alt=&#34;open .epub file on Mac&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://learn.microsoft.com/zh-cn/microsoft-edge/progressive-web-apps-chromium/&#34;&gt;渐进式 Web 应用 （PWA） 概述 - Microsoft Edge Development | Microsoft Learn&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://learn.microsoft.com/zh-cn/microsoft-edge/progressive-web-apps-chromium/how-to/handle-files&#34;&gt;处理渐进式Web 应用中的文件 - Microsoft Edge Development | Microsoft Learn&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>EvoReader —— 一个新的 epub 阅读器</title>
-      <link>https://www.xianmin.org/post/2024/00-evo-reader-v20240117/</link>
-      <pubDate>Wed, 17 Jan 2024 14:20:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2024/00-evo-reader-v20240117/</guid>
-      
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/evo-reader/evoreader-20240117.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/evo-reader/evoreader-20240117.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;EvoReader 20240117 截图&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Demo&lt;/strong&gt; : &lt;a href=&#34;https://evoreader.github.io/&#34;&gt;https://evoreader.github.io/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;写了一个 web 小应用， epub 阅读器。结合 「沉浸式翻译」&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 这个扩展，可以方便的双语阅读。再利用 ChatGPT 相关的 Chrome 扩展，勉强可以和文档对话。&lt;/p&gt;
-&lt;p&gt;感兴趣的朋友可以帮忙测试一下，有任何问题或建议，可以在 &lt;a href=&#34;https://github.com/EvoReader/EvoReader/issues&#34;&gt;https://github.com/EvoReader/EvoReader/issues&lt;/a&gt; 反馈。&lt;/p&gt;
-&lt;p&gt;因为是个人开发的小项目，精力有限，目前仅提供基础的阅读浏览功能，还有不少需要改进的地方。
-另外，部分核心功能还在努力开发中。&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://immersivetranslate.com/&#34;&gt;沉浸式翻译 - 双语对照网页翻译插件_PDF文档翻译工具&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>重读《影响力》</title>
-      <link>https://www.xianmin.org/post/2023/00-read-influence/</link>
-      <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2023/00-read-influence/</guid>
-      
-        <description>&lt;p&gt;几个影响力武器：互惠、承诺与一致、社会认同、喜好、权威、稀缺。&lt;/p&gt;
-&lt;p&gt;以下随便谈谈个人的一些启发。&lt;/p&gt;
-&lt;p&gt;价格高，并不代表商品好。我们首先要问的是，我对这件商品有足够的了解吗？
-最简单的办法：在淘宝上多看几个同类商品比较差异，可以做一个初步的判断，一件商品比其他同类商品价格高的大概原因是什么。&lt;/p&gt;
-&lt;p&gt;谨慎承诺。我的性格通常不太容易拒绝别人。
+一次偶然的搜索发现，可以用 PWA 支持 &lt;strong>关联本地 .epub 文件&lt;/strong> ，这让我对 PWA 技术重新产生了兴趣。&lt;/p>
+&lt;p>实现代码非常简单，添加一个 &lt;code>manifest.json&lt;/code> 文件，然后在项目中加入代码：&lt;/p>
+&lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2">2&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3">3&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-4">4&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-5">5&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-6">6&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-7">7&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-8">8&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-ts" data-lang="ts">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#007020;font-weight:bold">if&lt;/span> (&lt;span style="color:#4070a0">&amp;#39;launchQueue&amp;#39;&lt;/span> &lt;span style="color:#007020;font-weight:bold">in&lt;/span> &lt;span style="color:#007020">window&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> console.log(&lt;span style="color:#4070a0">&amp;#39;File Handling API is supported!&amp;#39;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#007020">window&lt;/span>.launchQueue.setConsumer((launchParams: &lt;span style="color:#902000">LaunchParams&lt;/span>) &lt;span style="color:#666">=&amp;gt;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> handleFiles(launchParams.files)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> })
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>} &lt;span style="color:#007020;font-weight:bold">else&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> console.error(&lt;span style="color:#4070a0">&amp;#39;File Handling API is not supported!&amp;#39;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>具体实现细节就不多说了，可以查阅文档 &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> 。&lt;/p>
+&lt;p>&lt;strong>技术实现不难，只是有时候我们不知道还有更简单高效的解决方案。&lt;/strong>&lt;/p>
+&lt;p>当我用 PWA 创建了本地跨平台应用，这感觉太爽了， &lt;strong>省去了一堆 Electron 依赖&lt;/strong> ，不用在系统层面的 api 上耗费精力，专注于应用层的开发，效率提升了许多。
+从用户角度考虑， PWA 应用， &lt;strong>安装快捷，不占用空间，卸载方便，打开迅速，app 更新也不需要安装包&lt;/strong> ，体验非常轻松。&lt;/p>
+&lt;p>另外：&lt;/p>
+&lt;ul>
+&lt;li>PWA 应用支持 &lt;strong>离线使用&lt;/strong> ;&lt;/li>
+&lt;li>PWA 应用可以上传到 Windows Store 或 Chrome App Store 。（可惜我暂时没账号，就先不上传了）&lt;/li>
+&lt;/ul>
+&lt;h2 id="示例">示例&lt;/h2>
+&lt;p>EvoReader (&lt;a href="https://evoreader.github.io/">https://evoreader.github.io/&lt;/a>) 是一个轻量的跨平台 epub 阅读器， 可以用它浏览本地的 &lt;code>.epub&lt;/code> 文件。不了解 PWA 安装的，可以查阅 &lt;a href="https://github.com/EvoReader/EvoReader/blob/main/0-install-guide.md">安装指南&lt;/a> 。&lt;/p>
+&lt;p>如果你对这个项目感兴趣，欢迎点一下 &lt;a href="https://github.com/EvoReader/EvoReader">https://github.com/EvoReader/EvoReader&lt;/a> 上的小星星，有任何建议或 Bug ，欢迎向我反馈！&lt;/p>
+&lt;p>&lt;img alt="Install EvoReader" src="https://github.com/EvoReader/EvoReader/raw/main/images/install-guide/install-guide-0.png">&lt;/p>
+&lt;p>&lt;img alt="open .epub file on Mac" src="https://github.com/EvoReader/EvoReader/raw/main/images/install-guide/install-guide-4.png">&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://learn.microsoft.com/zh-cn/microsoft-edge/progressive-web-apps-chromium/">渐进式 Web 应用 （PWA） 概述 - Microsoft Edge Development | Microsoft Learn&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a href="https://learn.microsoft.com/zh-cn/microsoft-edge/progressive-web-apps-chromium/how-to/handle-files">处理渐进式Web 应用中的文件 - Microsoft Edge Development | Microsoft Learn&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>EvoReader —— 一个新的 epub 阅读器</title><link>https://www.xianmin.org/post/2024/00-evo-reader-v20240117/</link><pubDate>Wed, 17 Jan 2024 14:20:00 +0800</pubDate><guid>https://www.xianmin.org/post/2024/00-evo-reader-v20240117/</guid><description>&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/evo-reader/evoreader-20240117.png" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/evo-reader/evoreader-20240117.png" itemprop="contentUrl">&lt;/a>
+&lt;figcaption>&lt;h4>EvoReader 20240117 截图&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;p>&lt;strong>Demo&lt;/strong> : &lt;a href="https://evoreader.github.io/">https://evoreader.github.io/&lt;/a>&lt;/p>
+&lt;p>写了一个 web 小应用， epub 阅读器。结合 「沉浸式翻译」&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> 这个扩展，可以方便的双语阅读。再利用 ChatGPT 相关的 Chrome 扩展，勉强可以和文档对话。&lt;/p>
+&lt;p>感兴趣的朋友可以帮忙测试一下，有任何问题或建议，可以在 &lt;a href="https://github.com/EvoReader/EvoReader/issues">https://github.com/EvoReader/EvoReader/issues&lt;/a> 反馈。&lt;/p>
+&lt;p>因为是个人开发的小项目，精力有限，目前仅提供基础的阅读浏览功能，还有不少需要改进的地方。
+另外，部分核心功能还在努力开发中。&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://immersivetranslate.com/">沉浸式翻译 - 双语对照网页翻译插件_PDF文档翻译工具&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>重读《影响力》</title><link>https://www.xianmin.org/post/2023/00-read-influence/</link><pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2023/00-read-influence/</guid><description>&lt;p>几个影响力武器：互惠、承诺与一致、社会认同、喜好、权威、稀缺。&lt;/p>
+&lt;p>以下随便谈谈个人的一些启发。&lt;/p>
+&lt;p>价格高，并不代表商品好。我们首先要问的是，我对这件商品有足够的了解吗？
+最简单的办法：在淘宝上多看几个同类商品比较差异，可以做一个初步的判断，一件商品比其他同类商品价格高的大概原因是什么。&lt;/p>
+&lt;p>谨慎承诺。我的性格通常不太容易拒绝别人。
 「吃了几次亏」之后，我在面对一些自己不想答应的事情，学会了一种委婉的拒绝方式：让我想一想再答复你。
-这样就避免了当场给人做出承诺。&lt;/p&gt;
-&lt;p&gt;「互惠原理」应该说是几个影响力武器中最具有威力的，并且需要一些阅历、智慧去处理。
+这样就避免了当场给人做出承诺。&lt;/p>
+&lt;p>「互惠原理」应该说是几个影响力武器中最具有威力的，并且需要一些阅历、智慧去处理。
 我见过影响他人的高手，通常都会主动首先给予对方一些好处，这点好处呢，其实并不贵重，但容易使我对这个人产生好感，拉近距离。
-&lt;strong&gt;我遇到过的高级骗子，都熟练掌握「互惠原理」，他们待人十分慷慨，此类人要拒绝他们是很难的，如果涉及到借钱，那可要相当小心了。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;拒绝受「互惠」影响的一个办法：不要接受陌生人的好处，谨慎接受普通朋友的好处，至于好朋友的好处就分情况吧。
-&lt;strong&gt;「互惠」不仅仅只是一些物质上的互惠，还包括人情。&lt;/strong&gt;
+&lt;strong>我遇到过的高级骗子，都熟练掌握「互惠原理」，他们待人十分慷慨，此类人要拒绝他们是很难的，如果涉及到借钱，那可要相当小心了。&lt;/strong>&lt;/p>
+&lt;p>拒绝受「互惠」影响的一个办法：不要接受陌生人的好处，谨慎接受普通朋友的好处，至于好朋友的好处就分情况吧。
+&lt;strong>「互惠」不仅仅只是一些物质上的互惠，还包括人情。&lt;/strong>
 我感觉这里最大的难点就是社会上的人情往来。
 对于真正的朋友，人情往来是正常的，甚至是有必要的，它能加强彼此间的连接，大家相互帮忙，也能分担一些麻烦。
 很多时候，自己遇到麻烦事，真正的朋友是希望你去找他的，这样他以后需要你的时候也不会有太大的心理负担。
@@ -309,1108 +226,902 @@ represents a cluster device name.
 可人都会权衡利弊得失，小事不计较，或许只是无足轻重而已。
 这也是为什么「人情互惠」更复杂的原因吧。
 在正常的社会关系中，「欠人情」总是要还的，有时候还不太容易还……
-有些东西也不可以明说……&lt;/p&gt;
-&lt;p&gt;《影响力》这本书，没记错的话，是在 2014 年就看过了。
+有些东西也不可以明说……&lt;/p>
+&lt;p>《影响力》这本书，没记错的话，是在 2014 年就看过了。
 这次重读，是前段时间看到有人推荐，但自己却一点也想不起书中说了些什么。
 有意思的是，尽管自己记不起内容，但回想起这些年在应对一些事情的处理上，似乎受到了潜移默化的影响。
 尤其在自己亲身经历了一些事情之后，再回看书中的内容，也会有更多的认同。
-&lt;strong&gt;这或许就是「阅读的影响力」吧，阅读一本书，我们可能下个月就把内容忘了，但它也许在不知不觉间就改变了我们今后人生的很多决策。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;《影响力》是好人、老实人必须要读的一本书。人心叵测，避免被别人「利用」了，自己却不知道。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>别了， 2022！</title>
-      <link>https://www.xianmin.org/post/2022/goodbye-2022/</link>
-      <pubDate>Mon, 02 Jan 2023 16:01:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/goodbye-2022/</guid>
-      
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2022/00.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2022/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;2023 新年登高&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;2021 年，我结束了青旅的工作，之后有半年在流浪，居无定所，生活上有许多不确定性。
+&lt;strong>这或许就是「阅读的影响力」吧，阅读一本书，我们可能下个月就把内容忘了，但它也许在不知不觉间就改变了我们今后人生的很多决策。&lt;/strong>&lt;/p>
+&lt;p>《影响力》是好人、老实人必须要读的一本书。人心叵测，避免被别人「利用」了，自己却不知道。&lt;/p></description></item><item><title>别了， 2022！</title><link>https://www.xianmin.org/post/2022/goodbye-2022/</link><pubDate>Mon, 02 Jan 2023 16:01:00 +0800</pubDate><guid>https://www.xianmin.org/post/2022/goodbye-2022/</guid><description>&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2022/00.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2022/00.jpg" itemprop="contentUrl">&lt;/a>
+&lt;figcaption>&lt;h4>2023 新年登高&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;p>2021 年，我结束了青旅的工作，之后有半年在流浪，居无定所，生活上有许多不确定性。
 不过也正因为这半年「无拘无束的放飞自我」，今年终于可以定下心来专心做事。
-这是我自己的选择，我选择了自己想做的事情，选择了未来几年想走的道路，不能再有任何借口了。&lt;/p&gt;
-&lt;p&gt;2022 年，整个国内大环境有诸多变故。对此，我学识浅薄，没什么可说的。在个人有能力、可以施展身手的地方，比如技能、心态、修养，要自强不息，积极进取。而在个人无能力改变的地方，比如气候变化、疫情、政治生态，那就安之若命吧。&lt;/p&gt;
-&lt;p&gt;作为对我个人在 2022 年的回顾与总结，我想就以下几个方面简单谈一谈。&lt;/p&gt;
-&lt;h2 id=&#34;修行&#34;&gt;修行&lt;/h2&gt;
-&lt;p&gt;修行的目的：
-我们的一举一动，在有意无意间都会带来反馈，从而对自己和世界有更深刻的认识，此种认识，可能导致我们的行为跟不上，那么就要 &lt;strong&gt;修正行为，努力做到言行一致，从而更好的生活&lt;/strong&gt; 。
-简言之，就是「知行合一」吧。&lt;/p&gt;
-&lt;p&gt;由于我自己常常言行不一，并且随着知识、阅历的增长，许多观念也在转变，而这种转变我希望是朝着「理性」的方向，而非反面。
+这是我自己的选择，我选择了自己想做的事情，选择了未来几年想走的道路，不能再有任何借口了。&lt;/p>
+&lt;p>2022 年，整个国内大环境有诸多变故。对此，我学识浅薄，没什么可说的。在个人有能力、可以施展身手的地方，比如技能、心态、修养，要自强不息，积极进取。而在个人无能力改变的地方，比如气候变化、疫情、政治生态，那就安之若命吧。&lt;/p>
+&lt;p>作为对我个人在 2022 年的回顾与总结，我想就以下几个方面简单谈一谈。&lt;/p>
+&lt;h2 id="修行">修行&lt;/h2>
+&lt;p>修行的目的：
+我们的一举一动，在有意无意间都会带来反馈，从而对自己和世界有更深刻的认识，此种认识，可能导致我们的行为跟不上，那么就要 &lt;strong>修正行为，努力做到言行一致，从而更好的生活&lt;/strong> 。
+简言之，就是「知行合一」吧。&lt;/p>
+&lt;p>由于我自己常常言行不一，并且随着知识、阅历的增长，许多观念也在转变，而这种转变我希望是朝着「理性」的方向，而非反面。
 即便此刻，以这种文字的形式谈论修行，它也是矛盾的。
 我本人清楚的知道，什么才是真正需要彻底省思的，可它们又不宜公开。
 在博客上，只能有选择的点到为止。
-而且，文字不能代表行为，只能算作大脑活动梳理的产物，至于对行为本身有无作用，我只能说，「虽不能至，心向往之」吧。&lt;/p&gt;
-&lt;p&gt;今年我的生活与往年最大的变化是：独处的时间多了。
+而且，文字不能代表行为，只能算作大脑活动梳理的产物，至于对行为本身有无作用，我只能说，「虽不能至，心向往之」吧。&lt;/p>
+&lt;p>今年我的生活与往年最大的变化是：独处的时间多了。
 往年在青旅工作时，基本不存在一整天不与人接触的情况，是一种集体生活，很少有独处的时间。
 今年又是我职业转型的第一年，做远程工作，当下主要做前端开发。
-远程工作一年，或者说独自生活一年，也发现一些自身存在的问题，主要有两点需要在今后特别注意：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;谨言慎行！&lt;/li&gt;
-&lt;li&gt;慎独！&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;谨言慎行&#34;&gt;谨言慎行&lt;/h3&gt;
-&lt;p&gt;今年犯的几次错误，都是因为话说多了。
+远程工作一年，或者说独自生活一年，也发现一些自身存在的问题，主要有两点需要在今后特别注意：&lt;/p>
+&lt;ol>
+&lt;li>谨言慎行！&lt;/li>
+&lt;li>慎独！&lt;/li>
+&lt;/ol>
+&lt;h3 id="谨言慎行">谨言慎行&lt;/h3>
+&lt;p>今年犯的几次错误，都是因为话说多了。
 不知道是不是因为独处的时间久了，导致社交时容易多说话，话说的多了，就有说错的时候，尤其是跟不熟悉的人。
 我这人有个毛病，说话太直接，很多时候比较孩子气，喜欢开玩笑。
 熟悉的朋友，可能会觉得比较真诚。
 不熟悉的人呢，会觉得这人不懂世故。
-成人世界有成人世界的规则，尽管自己没有恶意，可也不能随便说话啊！&lt;/p&gt;
-&lt;p&gt;如何谨言慎行？&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;谦卑。&lt;/li&gt;
-&lt;li&gt;在与人互动前，先过一遍大脑，是什么场合，该以什么样的方式与其互动。&lt;/li&gt;
-&lt;li&gt;不熟悉的人，不能开玩笑。&lt;/li&gt;
-&lt;li&gt;人多的时候，一定要低调。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;慎独&#34;&gt;慎独&lt;/h3&gt;
-&lt;p&gt;有旁人在，人通常会注意自己的言行举止。
+成人世界有成人世界的规则，尽管自己没有恶意，可也不能随便说话啊！&lt;/p>
+&lt;p>如何谨言慎行？&lt;/p>
+&lt;ol>
+&lt;li>谦卑。&lt;/li>
+&lt;li>在与人互动前，先过一遍大脑，是什么场合，该以什么样的方式与其互动。&lt;/li>
+&lt;li>不熟悉的人，不能开玩笑。&lt;/li>
+&lt;li>人多的时候，一定要低调。&lt;/li>
+&lt;/ol>
+&lt;h3 id="慎独">慎独&lt;/h3>
+&lt;p>有旁人在，人通常会注意自己的言行举止。
 而一个人的时候，可能就会放纵自己。
-不管是在人前还是人后，言行都必须一致。&lt;/p&gt;
-&lt;p&gt;如何慎独？&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;给自己制定规矩，放在每天能看到的地方。&lt;/li&gt;
-&lt;li&gt;假想一位尊敬的师长在身旁。&lt;/li&gt;
-&lt;li&gt;出门，到有人的地方。&lt;/li&gt;
-&lt;li&gt;在日记中反省。&lt;/li&gt;
-&lt;li&gt;站桩冥想。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;「人心惟危，道心惟微；惟精惟一，允执厥中。」&lt;/p&gt;
-&lt;h2 id=&#34;健身&#34;&gt;健身&lt;/h2&gt;
-&lt;p&gt;站桩已成习惯，徒步、骑行也没落下，对今年的身体状况，整体是满意的。
-不足的地方：忽视了力量上的训练。&lt;/p&gt;
-&lt;p&gt;前年开始做引体向上，一开始只能做一个，后来能做五个，再提升就比较困难了。
+不管是在人前还是人后，言行都必须一致。&lt;/p>
+&lt;p>如何慎独？&lt;/p>
+&lt;ol>
+&lt;li>给自己制定规矩，放在每天能看到的地方。&lt;/li>
+&lt;li>假想一位尊敬的师长在身旁。&lt;/li>
+&lt;li>出门，到有人的地方。&lt;/li>
+&lt;li>在日记中反省。&lt;/li>
+&lt;li>站桩冥想。&lt;/li>
+&lt;/ol>
+&lt;p>「人心惟危，道心惟微；惟精惟一，允执厥中。」&lt;/p>
+&lt;h2 id="健身">健身&lt;/h2>
+&lt;p>站桩已成习惯，徒步、骑行也没落下，对今年的身体状况，整体是满意的。
+不足的地方：忽视了力量上的训练。&lt;/p>
+&lt;p>前年开始做引体向上，一开始只能做一个，后来能做五个，再提升就比较困难了。
 遇到困难，没有去想办法解决，之后也就松懈了。
 30 多岁，正是身体发福的时候，尤其像我这种长时间伏案工作，身体机能容易退化。
-&lt;strong&gt;希望新的一年加强力量上的训练。&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;阅读&#34;&gt;阅读&lt;/h2&gt;
-&lt;p&gt;反省的话，以前说过，要多输出，依旧做不到。希望今年能够补上。&lt;/p&gt;
-&lt;p&gt;简单提几本好书吧：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;《得到品控手册》 - 杰作&lt;/li&gt;
-&lt;li&gt;《救猫咪》 - 杰作&lt;/li&gt;
-&lt;li&gt;《感知·理知·自我认知》 - 力作+&lt;/li&gt;
-&lt;li&gt;《反脆弱》 - 力作+&lt;/li&gt;
-&lt;li&gt;Tools of Titans - 力作&lt;/li&gt;
-&lt;li&gt;Soft Skills - 力作&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
-&lt;p&gt;我在 &lt;a href=&#34;https://www.xianmin.org/post/2022/03-join-mathcrowd/&#34;&gt;2022 年中小记：远程工作四个月&lt;/a&gt; 中有提到，目前的主要工作，是跟着橘子老师做项目。
+&lt;strong>希望新的一年加强力量上的训练。&lt;/strong>&lt;/p>
+&lt;h2 id="阅读">阅读&lt;/h2>
+&lt;p>反省的话，以前说过，要多输出，依旧做不到。希望今年能够补上。&lt;/p>
+&lt;p>简单提几本好书吧：&lt;/p>
+&lt;ul>
+&lt;li>《得到品控手册》 - 杰作&lt;/li>
+&lt;li>《救猫咪》 - 杰作&lt;/li>
+&lt;li>《感知·理知·自我认知》 - 力作+&lt;/li>
+&lt;li>《反脆弱》 - 力作+&lt;/li>
+&lt;li>Tools of Titans - 力作&lt;/li>
+&lt;li>Soft Skills - 力作&lt;/li>
+&lt;/ul>
+&lt;h2 id="工作">工作&lt;/h2>
+&lt;p>我在 &lt;a href="https://www.xianmin.org/post/2022/03-join-mathcrowd/">2022 年中小记：远程工作四个月&lt;/a> 中有提到，目前的主要工作，是跟着橘子老师做项目。
 这一年，工作占据了我的大部分时间，也是重新把全部精力投入到编程事业中的一年。
 非常幸运，做的项目是跟数学相关的，我自己也有比较大的兴趣，那么工作不仅仅只是工作了，它成了一种乐趣。
 有人说 996 是福报，也有不少人认为程序员是「吃青春饭」的。
 怎么说呢，视角不同，何必在意他人看法呢。
-在我看来， &lt;strong&gt;能够做自己喜欢做的事儿，同时能够解决生存问题，就非常幸运了。&lt;/strong&gt;
+在我看来， &lt;strong>能够做自己喜欢做的事儿，同时能够解决生存问题，就非常幸运了。&lt;/strong>
 这一年，也因为有事要做，我有了恰当的理由推辞了各种饭局。
 我是不善于社交的，过去几年，由于频繁的社交，消耗了我太多的心力。
-现在终于可以专心提升计算机技术了，可以专心打磨产品了，我也没有了任何借口。&lt;/p&gt;
-&lt;p&gt;那么，工作做的如何呢？
+现在终于可以专心提升计算机技术了，可以专心打磨产品了，我也没有了任何借口。&lt;/p>
+&lt;p>那么，工作做的如何呢？
 对于指派的任务，比如修复某个 bug 、新增某个功能，一般能够完成，勉强算是合格吧。
 可对于需要自己发挥的部分，由于自身能力不足，就有些捉襟见肘了。
 比如页面设计、项目管理、代码如何安排，测试流程、文档该怎么写等等。
-&lt;strong&gt;写代码是技术活儿，而软件工程，则是大学问。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;发现问题，该如何改进呢？
+&lt;strong>写代码是技术活儿，而软件工程，则是大学问。&lt;/strong>&lt;/p>
+&lt;p>发现问题，该如何改进呢？
 我能想到的比较高效的方法：模仿现实世界中成功的案例。
-在软件工程上，模仿大的开源项目，比如我们团队使用的 &lt;a href=&#34;https://github.com/ant-design/ant-design&#34;&gt;ant-design&lt;/a&gt; 、 &lt;a href=&#34;https://github.com/alibaba/hooks&#34;&gt;alibaba/hooks&lt;/a&gt; 等等，借鉴他们做的好的地方。
-关于做产品，&lt;a href=&#34;https://dedao.feishu.cn/wiki/wikcnfT2WH5LXwFQvjgpmISVTzH&#34;&gt;《得到品控手册》&lt;/a&gt; 是极好的学习样板。&lt;/p&gt;
-&lt;p&gt;唉，知易行难啊，还是少说点话吧。&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;十年前，也就是 2012 年，我只身一人乘着绿皮火车来到云南，那年正好二十周岁。
+在软件工程上，模仿大的开源项目，比如我们团队使用的 &lt;a href="https://github.com/ant-design/ant-design">ant-design&lt;/a> 、 &lt;a href="https://github.com/alibaba/hooks">alibaba/hooks&lt;/a> 等等，借鉴他们做的好的地方。
+关于做产品，&lt;a href="https://dedao.feishu.cn/wiki/wikcnfT2WH5LXwFQvjgpmISVTzH">《得到品控手册》&lt;/a> 是极好的学习样板。&lt;/p>
+&lt;p>唉，知易行难啊，还是少说点话吧。&lt;/p>
+&lt;h2 id="结语">结语&lt;/h2>
+&lt;p>十年前，也就是 2012 年，我只身一人乘着绿皮火车来到云南，那年正好二十周岁。
 之所以选择云南，只是想离家远一点。
 父亲欠下巨额赌债，家庭分崩离析，我无法面对这些问题。
 那时的我，不知道自己能做什么，该做什么，要过怎么样的生活。
 有一天，在一个古镇，遇到一位中年男人，当时正好只有我俩，坐在一块儿，就闲聊起来。
 聊的熟了，我感觉他见过一些世面，就告诉了他我的烦恼。
-他跟我说， &lt;strong&gt;你还年轻，除了生老病死，能用钱解决的问题都不是问题。&lt;/strong&gt;
+他跟我说， &lt;strong>你还年轻，除了生老病死，能用钱解决的问题都不是问题。&lt;/strong>
 之后他就走了，我们再也没有见过面，我也不记得他的样貌了，但他的那句话，却深深记在我的心里。
 一晃眼，十年过去了，许多在当年的我看来是无法解决的问题，随着时间的推移，渐渐的还真不是问题了。
 后来我谈了恋爱，分开的时候，特别的痛苦。
 可随着时间的推移，也都不是问题了。
-每一次痛苦，似乎都是一次脱敏的过程，它们使我更加坚强。&lt;/p&gt;
-&lt;p&gt;2022 年好像比较糟吧，未来还会更糟吗？我不知道。但都会过去的。
-加油吧！行动起来，做出成果，做出作品。至少，我还有梦想。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>浅谈一种搜索思路——找到专业网站</title>
-      <link>https://www.xianmin.org/post/2022/10-search-and-find-professional-websites/</link>
-      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/10-search-and-find-professional-websites/</guid>
-      
-        <description>&lt;p&gt;关于 Google 等搜索引擎的搜索技巧，在网上已有很多，我就不多说了。
-本文分享一个搜索的 &lt;strong&gt;思路&lt;/strong&gt; ，这跟工具的使用技巧上有点差别。&lt;/p&gt;
-&lt;p&gt;如果你常用搜索引擎，你应该会发现： &lt;strong&gt;有的信息，直接用搜索引擎搜不到，但是在一些特定的网站上能搜到。&lt;/strong&gt;
+每一次痛苦，似乎都是一次脱敏的过程，它们使我更加坚强。&lt;/p>
+&lt;p>2022 年好像比较糟吧，未来还会更糟吗？我不知道。但都会过去的。
+加油吧！行动起来，做出成果，做出作品。至少，我还有梦想。&lt;/p></description></item><item><title>浅谈一种搜索思路——找到专业网站</title><link>https://www.xianmin.org/post/2022/10-search-and-find-professional-websites/</link><pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/10-search-and-find-professional-websites/</guid><description>&lt;p>关于 Google 等搜索引擎的搜索技巧，在网上已有很多，我就不多说了。
+本文分享一个搜索的 &lt;strong>思路&lt;/strong> ，这跟工具的使用技巧上有点差别。&lt;/p>
+&lt;p>如果你常用搜索引擎，你应该会发现： &lt;strong>有的信息，直接用搜索引擎搜不到，但是在一些特定的网站上能搜到。&lt;/strong>
 比如搜索论文，你可能会用谷歌学术或者知网；
 找电子书，你会去 Zlibrary 或者 Library Genesis；
 找代码片段，你会用 Github 上的搜索工具；
-等等，诸如此类。&lt;/p&gt;
-&lt;p&gt;那么这个搜索思路就是： &lt;strong&gt;先搜索到拥有特定信息的专业网站，然后在这个或这些专业网站中搜索你想要的信息。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在 &lt;a href=&#34;https://www.xianmin.org/post/english-dictionary-recommend/&#34;&gt;英文电子词典的选用建议&lt;/a&gt; 中，我提到 LDOCE6 这部词典，当时还是费了一点时间，才找到资源。
-这篇小文是在三年前写的，具体的搜索过程我记不清了，但我记得我没有直接找到资源，是先找到了 &lt;a href=&#34;https://www.pdawiki.com/forum/forum.php&#34;&gt;掌上百科 - PDAWIKI&lt;/a&gt; 这个 &lt;strong&gt;专门分享词典&lt;/strong&gt; 的论坛，然后用论坛内的搜索引擎搜索到了我想要的信息。&lt;/p&gt;
-&lt;p&gt;（注：上面举的例子不是很好。现在 2022 年的情况和当时 2019 年有一点不同的是， pdawiki.com 这个网站中的很多帖子在当时没有被 Google 收录（当然，可能是我记错了），但现在可以用 Google 直接搜到了。能用 Google 直接搜到，在搜索难度上就降低了许多。收录的站点在变，搜索引擎也一直在变，但不影响本文所谈的搜索思路。）&lt;/p&gt;
-&lt;p&gt;这个搜索思路也不是什么特别有难度的事情，但很多人可能没往这个角度去想，这跟搜索引擎的使用技巧还是有点儿区别的。
+等等，诸如此类。&lt;/p>
+&lt;p>那么这个搜索思路就是： &lt;strong>先搜索到拥有特定信息的专业网站，然后在这个或这些专业网站中搜索你想要的信息。&lt;/strong>&lt;/p>
+&lt;p>在 &lt;a href="https://www.xianmin.org/post/english-dictionary-recommend/">英文电子词典的选用建议&lt;/a> 中，我提到 LDOCE6 这部词典，当时还是费了一点时间，才找到资源。
+这篇小文是在三年前写的，具体的搜索过程我记不清了，但我记得我没有直接找到资源，是先找到了 &lt;a href="https://www.pdawiki.com/forum/forum.php">掌上百科 - PDAWIKI&lt;/a> 这个 &lt;strong>专门分享词典&lt;/strong> 的论坛，然后用论坛内的搜索引擎搜索到了我想要的信息。&lt;/p>
+&lt;p>（注：上面举的例子不是很好。现在 2022 年的情况和当时 2019 年有一点不同的是， pdawiki.com 这个网站中的很多帖子在当时没有被 Google 收录（当然，可能是我记错了），但现在可以用 Google 直接搜到了。能用 Google 直接搜到，在搜索难度上就降低了许多。收录的站点在变，搜索引擎也一直在变，但不影响本文所谈的搜索思路。）&lt;/p>
+&lt;p>这个搜索思路也不是什么特别有难度的事情，但很多人可能没往这个角度去想，这跟搜索引擎的使用技巧还是有点儿区别的。
 肯定有人会说，这太平常了，他自己平时就是这么搜索的。
 不过，怎么说呢，我在生活中常常发现：许多我们以为稀松平常的小事，对有些人而言，可能只是才知道。
-包括他们以为稀松平常的小事，我也可能只是才知道。&lt;/p&gt;
-&lt;p&gt;关于「搜索思路」这个话题，其实还是有许多方面可谈的。比如：关键词的变换、联想、延伸（你没找到信息，大部分时候是因为选错了关键词）；语种的变换（换个语言，搜索结果就大不相同，英文不必说了，俄文、日文又是另一个信息世界）；用繁體字，港台术语，换个地区；使用不同的搜索引擎；使用特殊的协议网络，比如 &lt;a href=&#34;https://zh.wikipedia.org/zh-cn/EDonkey%E7%BD%91%E7%BB%9C&#34;&gt;eDonkey网络&lt;/a&gt; ；自己写个爬虫抓取后再搜索；直接上淘宝买……等等，这些留待我以后有灵感了再归纳总结吧。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>兼职领队 - 香格里拉无底湖露营徒步</title>
-      <link>https://www.xianmin.org/post/2022/09-part-time-outdoor-tour-leader/</link>
-      <pubDate>Fri, 07 Oct 2022 22:15:10 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/09-part-time-outdoor-tour-leader/</guid>
-      
-        <description>&lt;p&gt;十一休假，经朋友推荐，我到某某户外俱乐部做了回兼职领队。以前在青旅，我也经常带队组织户外活动，但规模小、也并非自己的主业，有些业余。这次做兼职领队的主要目的， &lt;strong&gt;是想了解专业的户外俱乐部是怎样组织活动的、整个活动的流程、以及专业领队在活动中具体的工作内容&lt;/strong&gt; 。&lt;/p&gt;
-&lt;p&gt;尽管全国各地的疫情此起彼伏，好在丽江及丽江周边没受太大影响，无非是出行要提供 24 小时核酸，因此国庆长假还是有不少游客前来的。该户外俱乐部营销做的不错，报名参团的人数不少，比如我这次兼职的路线，团员就有 29 人（原本是 36 人，因为疫情原因有 7 人退团）。因为参团人数多，也就有了像我这样的兼职领队，辅佐主领队的工作，最主要的职责就是保障队员安全、避免走散。&lt;/p&gt;
-&lt;p&gt;此次活动，我们是前往 &lt;strong&gt;香格里拉无底湖露营徒步&lt;/strong&gt; 。无底湖是个小众景点，不经常在云南旅行的朋友估计都没听说过这个地方。无底湖营地海拔 3800 ，徒步路线是前往周边的另外两个高山湖泊——措姆湖和仙女湖。路途中的最高海拔大约在 4220 左右，路线不长，去相对较远的措姆湖往返也就 8km ，对于经常徒步的朋友而言应该说是挺轻松的。可即便是如此轻松的路线，还是有队员掉队、走不动，我也理解这种活动的意义了， &lt;strong&gt;让不懂户外的城市居民有机会参与到户外活动中，亲近自然，享受徒步登山的乐趣，同时保障他们的人身安全&lt;/strong&gt; 。通过与他们闲聊，我了解到，许多参加活动的队员，这是他们这几年中第一次露营徒步，还有队员是第一次走海拔超过 4000 的山路，他们平时在大城市生活工作，很少有类似的机会。&lt;/p&gt;
-&lt;p&gt;在没参加这次活动以前，我以为大部分队员是户外爱好者，有一些基本的户外经验，但实际情况并非如此，比如有人可能登山杖都没摸过。 &lt;strong&gt;我眼中稀松平常的小事，对于有些人却是第一次接触。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;要说这次活动有什么遗憾，就是参团的人数有点儿多了（不过要不是这么多人，也不会请到我）。人多了以后，就没办法每个人都照顾到，大家很难有近距离的沟通，很难交朋友，活动结束就散伙。这与我过去的经验相比，还是有明显的区别。过去我带队都是 8 人以下的小团队，一次户外活动下来，从陌生到相识，是结交朋友很好的方式。人多的话，就成了纯粹的工作了，要把服务做好。&lt;/p&gt;
-&lt;p&gt;活动结束后，顺利返回丽江，结束了这次短期兼职。我感觉 &lt;strong&gt;偶尔做一做兼职领队还是挺不错的&lt;/strong&gt; ，可以向专业人员学习，自己也能走一走路线，同时还能挣点小钱。让我想想下一次兼职做点什么，也许可以去做厨子吧，哈哈！&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2022/10-07.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2022/10-07.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>我的英语词汇量（ 2022 年 8 月 ）</title>
-      <link>https://www.xianmin.org/post/2022/08-review-english-2022-08/</link>
-      <pubDate>Mon, 29 Aug 2022 22:15:10 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/08-review-english-2022-08/</guid>
-      
-        <description>&lt;p&gt;上一次测试词汇量是在 &lt;a href=&#34;https://www.xianmin.org/post/review-english-202005/&#34;&gt;2020 年 5 月&lt;/a&gt; ，当时的词汇量大约是 7420 。今天突然想起来好久没测了，随手测了一下，这次测出的词汇量大约是 7810 ，跟两年前相比基本没有太大的变化。这是符合预期的，这两年我就没有在英语上下过工夫，没有退步就不错了。&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/review-english-2022-08-28.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/review-english-2022-08-28.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;2022 年 8 月，词汇量测试&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;打开 &lt;a href=&#34;https://testyourvocab.com&#34;&gt;https://testyourvocab.com&lt;/a&gt; 网站，自动跳转到了 &lt;a href=&#34;https://preply.com/en/learn/english/test-your-vocab&#34;&gt;https://preply.com/en/learn/english/test-your-vocab&lt;/a&gt; ，估计是被收购了，不过测试内容应该没有变化。&lt;/p&gt;
-&lt;p&gt;测试的好处是可以提醒自己依然有很大的提升空间，这两年在英语学习上真的是有些懈怠了。我的英语学习目标：能够无障碍阅读英文书。这个目标都说了好几年了，唉，实在是羞愧啊。学习方法目前无需调整， &lt;strong&gt;关键是每天都要抽出一个小时阅读英文，并且用半个小时复习前一天查过的生词短语。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;多说无益，到今年年底还有 4 个月，年底的时候再做总结。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>熟悉一套快捷键，提升文本编辑效率</title>
-      <link>https://www.xianmin.org/post/2022/07-familiar-one-keybinding-style/</link>
-      <pubDate>Mon, 29 Aug 2022 22:10:10 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/07-familiar-one-keybinding-style/</guid>
-      
-        <description>&lt;p&gt;今年由于工作需要，我将自己的常用操作系统从 Linux 换成了 Win10 。切换到 Win10 后，原本的 Emacs 配置无法正常工作了，我也懒的继续折腾配置，本来用 Emacs 也就是记笔记、写日记之类的文本编辑工作，写代码基本都是用 VSCode 。现在 VSCode 已经非常好用了，干脆把所有编辑文本的工作都交给 VSCode 吧。&lt;/p&gt;
-&lt;p&gt;使用 Emacs 让我受益最大的，就是它的快捷键操作方式。比如 &lt;code&gt;Ctrl-a&lt;/code&gt; 将光标移到行首， &lt;code&gt;Ctrl-e&lt;/code&gt; 移到行尾等等，就不一一列举了。我也曾用过 Vim ，但是它的操作方式我怎么都不适应（用 Vimium 浏览网页还是挺舒服的），因为它编辑的时候要进入「Insert-mode」，然后还要解决切换输入法的问题，在中文输入的情况下无法进入「Insert-mode」。而使用 Emacs 大部分时候没有切换输入法的烦恼，它的快捷键都需要加上 &lt;code&gt;Ctrl&lt;/code&gt; 或 &lt;code&gt;Alt&lt;/code&gt; 前缀。&lt;/p&gt;
-&lt;p&gt;在 VSCode 上，安装这个扩展： &lt;a href=&#34;https://github.com/whitphx/vscode-emacs-mcx&#34;&gt;whitphx/vscode-emacs-mcx: Awesome Emacs Keymap - VSCode emacs keybinding with multi cursor support&lt;/a&gt; ，就能用上 Emacs 的按键操作方式了。&lt;/p&gt;
-&lt;p&gt;由于历史原因，部分 Emacs 快捷键与我们的日常使用习惯不一致，比如复制粘贴，大部分软件都是 &lt;code&gt;C-c&lt;/code&gt;、 &lt;code&gt;C-v&lt;/code&gt; ，而 Emacs 默认是 &lt;code&gt;M-w&lt;/code&gt; 、 &lt;code&gt;C-y&lt;/code&gt; 。对于这部分快捷键，我倾向于改为一致的操作，即都用 &lt;code&gt;C-c&lt;/code&gt;、 &lt;code&gt;C-v&lt;/code&gt; ，不要特殊化，省的弄混了。还有一些常用却不太好按、不太好记的快捷键，我都重新绑定了按键。&lt;/p&gt;
-&lt;p&gt;快捷键，应该既要好按，又要好记，这样才快捷。我整理了一下自己的常用快捷键，就当作是复习巩固吧。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>我的 VSCode 快捷键</title>
-      <link>https://www.xianmin.org/post/2022/06-my-vscode-keybinding/</link>
-      <pubDate>Mon, 29 Aug 2022 22:06:10 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/06-my-vscode-keybinding/</guid>
-      
-        <description>&lt;h2 id=&#34;移动相关&#34;&gt;移动相关&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;快捷键&lt;/th&gt;
-&lt;th&gt;说明&lt;/th&gt;
-&lt;th&gt;补充&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-f&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;下一个字符&lt;/td&gt;
-&lt;td&gt;记忆： f - forward&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-b&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;上一个字符&lt;/td&gt;
-&lt;td&gt;记忆： b - backward&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-n&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;下一行&lt;/td&gt;
-&lt;td&gt;记忆： n - next&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-p&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;上一行&lt;/td&gt;
-&lt;td&gt;记忆： p - previous&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-a&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;行首&lt;/td&gt;
-&lt;td&gt;记忆： a - 第一个字母&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-e&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;行尾&lt;/td&gt;
-&lt;td&gt;记忆: e - end&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-f&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;下一个词&lt;/td&gt;
-&lt;td&gt;VSCode 中文断词设置，见附录A&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-b&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;上一个词&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-M-f&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;上一段&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-M-b&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;下一段&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-M-a&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;页首&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-M-e&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;页尾&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;快捷键&lt;/th&gt;
-&lt;th&gt;说明&lt;/th&gt;
-&lt;th&gt;补充&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-l&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;将当前光标位置居于屏幕中间&lt;/td&gt;
-&lt;td&gt;常用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-1&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;上一个标签&lt;/td&gt;
-&lt;td&gt;使用 &lt;code&gt;Alt Tab&lt;/code&gt; 临近的几个键操作标签&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-2&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;下一个标签&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-3&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;后退&lt;/td&gt;
-&lt;td&gt;光标跳转到别处后，回退到之前的位置&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-4&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;前进&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-w&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;关闭标签&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-u&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;撤销关闭的标签&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-x C-b&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;快速跳转至已经打开的标签&lt;/td&gt;
-&lt;td&gt;记忆： b - buffer&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-x C-f&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;快速打开文件&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-g&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;任何时候取消&lt;/td&gt;
-&lt;td&gt;emacs 默认&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;编辑相关&#34;&gt;编辑相关&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;快捷键&lt;/th&gt;
-&lt;th&gt;说明&lt;/th&gt;
-&lt;th&gt;补充&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-c&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;复制&lt;/td&gt;
-&lt;td&gt;与操作系统统一&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-v&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;粘贴&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-m&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;mark&lt;/td&gt;
-&lt;td&gt;默认是 &lt;code&gt;C-SPACE&lt;/code&gt; ，与切换输入法冲突&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-w&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;剪切&lt;/td&gt;
-&lt;td&gt;emacs 默认&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-k&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;删除当前行&lt;/td&gt;
-&lt;td&gt;记忆： k - kill&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-u&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;undo 撤销&lt;/td&gt;
-&lt;td&gt;记忆： u - undo&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-M-u&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;redo&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-;&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;注释行&lt;/td&gt;
-&lt;td&gt;常用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-;&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;注释块&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-↑&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;将当前行上移&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-↓&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;将当前行下移&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-S-↑&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;将当前行向上复制&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-S-↓&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;将当前行向下复制&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-h&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;删除&lt;/td&gt;
-&lt;td&gt;同 &lt;code&gt;Backspace&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;F2&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;重命名&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-s&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;插入 snippets&lt;/td&gt;
-&lt;td&gt;记忆： s - snippet&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-q&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;quick fix&lt;/td&gt;
-&lt;td&gt;常用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-q&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;折叠&lt;/td&gt;
-&lt;td&gt;常用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-M-↑&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;操作多光标，上移&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-M-↓&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;操作多光标，下移&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;按住鼠标中间选择&lt;/td&gt;
-&lt;td&gt;操作多光标&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;Alt Click&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;增添多个光标&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;命令相关&#34;&gt;命令相关&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;快捷键&lt;/th&gt;
-&lt;th&gt;说明&lt;/th&gt;
-&lt;th&gt;补充&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-x&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;输入 Command&lt;/td&gt;
-&lt;td&gt;常用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-p&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;peek&lt;/td&gt;
-&lt;td&gt;默认 &lt;code&gt;S-F12&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-o&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;go to defienition&lt;/td&gt;
-&lt;td&gt;默认 &lt;code&gt;F12&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-t&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;go to Symbol （当前文件）&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-M-t&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;go to Symbol （全局）&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;窗口相关&#34;&gt;窗口相关&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;快捷键&lt;/th&gt;
-&lt;th&gt;说明&lt;/th&gt;
-&lt;th&gt;补充&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;`C-``&lt;/td&gt;
-&lt;td&gt;终端&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-S-f&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;搜索&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-S-e&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;文件列表&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;F11&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Zen Mode&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;S-F11&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;全屏&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-x C-n&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;新的窗口&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;附录a-word-seperator-for-chiense-中文标点断句&#34;&gt;附录A： Word seperator for Chiense (中文标点断句)&lt;/h2&gt;
-&lt;p&gt;在 VSCode 中修改如下 setting ：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;#34;editor.wordSeparators&amp;#34;: &amp;#34;`~!@#$%^&amp;amp;*()-=+[{]}\\|;:&amp;#39;\&amp;#34;,.&amp;lt;&amp;gt;/?、，。？！“”‘’；：（）「」【】〔〕『』〖〗&amp;#34;,
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;附录b-我的全局快捷键&#34;&gt;附录B： 我的全局快捷键&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;快捷键&lt;/th&gt;
-&lt;th&gt;说明&lt;/th&gt;
-&lt;th&gt;补充&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;M-a&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;微信截图&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-M-c&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;CopyQ 剪切板&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;PrtSc&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;ShareX 截图&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-PrtSc&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;选择矩形区域截图&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;C-M-q&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;ShareX 取色&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>小技巧 debug 网页 css overflow ，避免出现底部滚动条</title>
-      <link>https://www.xianmin.org/post/2022/05-debug-css-x-overflow/</link>
-      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/05-debug-css-x-overflow/</guid>
-      
-        <description>&lt;p&gt;一般而言，绝大多数网页都是纵向滚动的，很少有横向滚动的网页。如果一个正常纵向滚动的网页，在浏览器的底部出现了滚动条，是因为这个网页的宽度超出了屏幕宽度。这种情况很多时候并非网站设计者的初衷，而是由于写错了 css 样式。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://qa.mathcrowd.cn/challenges&#34;&gt;趣味数学题 - 橘子数学社区 - 趣题挑战&lt;/a&gt; 原本有这个问题，之后被我解决了。一开始的解决方法比较笨，就是用 Chrome 的开发者工具，一个一个检查元素，看看是哪个元素溢出了。&lt;/p&gt;
-&lt;p&gt;最近我偶然发现了两个网站有类似的溢出问题：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;比如有名的知乎： &lt;a href=&#34;https://www.zhihu.com/column/mathcrowd&#34;&gt;数学趣题专栏 - 知乎&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://opencollective.com/&#34;&gt;Raise and spend money with full transparency. - Open Collective&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/zhihu-overflow.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/zhihu-overflow.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;知乎专栏网页溢出&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;这就引起了我的好奇，有没有更便捷的技巧 debug 网页的横向溢出呢？答案是有的。使用开发者工具，给网站添加以下样式：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-1&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-1&#34;&gt;1&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-2&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-2&#34;&gt;2&lt;/a&gt;
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-3&#34;&gt;&lt;a style=&#34;outline: none; text-decoration:none; color:inherit&#34; href=&#34;#hl-0-3&#34;&gt;3&lt;/a&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#666&#34;&gt;*&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;outline&lt;/span&gt;: &lt;span style=&#34;color:#40a070&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#902000&#34;&gt;px&lt;/span&gt; &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;solid&lt;/span&gt; &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;red&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;strong&gt;这不会影响网页原本的布局，同时还会给所有元素加上边框，这样我们就很容易发现是哪个地方有溢出了。利用这个小技巧，我们也可以更直观的观察一个网站的布局是怎样的。&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;使用-bookmarklet&#34;&gt;使用 bookmarklet&lt;/h2&gt;
-&lt;p&gt;我将这一小段 css 代码改成了 bookmarklet ：
-&lt;a href=&#34;javascript:(function()%7Bjavascript%3A(function()%7Bvar%20css%3D&#39;*%20%7Boutline%3A%201px%20solid%20red%3B%7D&#39;%3Bvar%20heads%3Ddocument.getElementsByTagName(&#39;head&#39;)%3Bif(heads.length%3E0)%7Bvar%20node%3Ddocument.createElement(&#39;style&#39;)%3Bnode.type%3D&#39;text%2Fcss&#39;%3Bnode.appendChild(document.createTextNode(css))%3Bheads%5B0%5D.appendChild(node)%3B%7D%7D)()%3B%7D)()%3B&#34;&gt;显示元素边框&lt;/a&gt; 。
-&lt;/p&gt;
-&lt;p&gt;这样只要点击书签就能直接生效了。&lt;/p&gt;
-&lt;h2 id=&#34;常见的会造成-x-overflow-的原因&#34;&gt;常见的会造成 x-overflow 的原因：&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;使用了 &lt;code&gt;width: 100vw;&lt;/code&gt; ;&lt;/li&gt;
-&lt;li&gt;grid 或 flex 使用了间隙或边框；&lt;/li&gt;
-&lt;li&gt;多余的 margin ；&lt;/li&gt;
-&lt;li&gt;图片宽度超出父容器的宽度；&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;参考链接&#34;&gt;参考链接&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.logrocket.com/how-to-prevent-overflow-scrolling-css/&#34;&gt;How to prevent overflow scrolling in CSS - LogRocket Blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>重学系鞋带</title>
-      <link>https://www.xianmin.org/post/2022/04-relearn-to-tie-your-laces/</link>
-      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/04-relearn-to-tie-your-laces/</guid>
-      
-        <description>&lt;p&gt;有段时间我上山徒步比较频繁，当时有一件小事让我印象深刻：&lt;/p&gt;
-&lt;p&gt;似乎每一次上山的途中，我的鞋带都会至少散开一次。鞋带散了，重新系上就是了，无非弯下腰花费十几秒钟的功夫而已。一开始，我没有把它当回事儿，毕竟平时走路鞋带很少散开，也就在登山的时候，散开的概率大一些。后来，次数多了，我才意识到这似乎是个问题。可是在山上，我不太可能当场去找解决办法，想着下山回家后，上网搜一搜怎样系鞋带不会散，可是下山后，我就把这件事儿给忘了。&lt;/p&gt;
-&lt;p&gt;直到有一天，我闲来无事儿，想起了鞋带会散的问题，才去上网搜索浏览了大约十分钟。对比了几种不同的系法，很快就找到了一种既简单又实用的方式，它只是在我原来打蝴蝶结的基础上再多缠上一圈，我试了试，果真比原来的系法结实多了，并且解开也十分容易。从这以后，我的鞋带就很少散开了。&lt;/p&gt;
-&lt;p&gt;我是在上幼儿园的时候学会的系鞋带，就是打一个蝴蝶结，我用这个方法系了二十年，从来没有思考过有没有更好的系鞋带的方法， &lt;strong&gt;因为我以为自己已经学会了系鞋带，它不过就是一项普普通通的生活技能。可是当我只用了十分钟，就改变了自己二十年惯用的系法，这令我无比的诧异。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;为什么在互联网如此发达的今天，我都不懂得及时去解决生活中遇到的问题呢？每每想起「系鞋带」这件小事儿，它改变了我在许多问题上做出的决策。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>2022 年中小记：远程工作四个月</title>
-      <link>https://www.xianmin.org/post/2022/03-join-mathcrowd/</link>
-      <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/03-join-mathcrowd/</guid>
-      
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2022/07-03.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2022/07-03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;去年青旅关门之后，我骑着自行车在外流浪了半年，一直都没有收入。好在自己日常开销不多，不至于被迫谋生，但从长远考虑，还是得尽早解决挣钱问题。今年过完春节的第一件大事，就是找工作。&lt;/p&gt;
-&lt;p&gt;找的工作方向是前端程序员，这是去年在路上的时候，就想清楚了。我不知道这是幸运还是不幸，直到 30 岁，我才从个人性格、特长、家庭背景等多方面因素，明确自己的职业发展方向。可能是因为过去一些年总有各种选择，对于要不要做程序员，我一直都很犹豫。犹豫的最大原因，是要不要去大城市，因为只有大城市才提供程序员的工作岗位，可我对大城市的生活并没有多少期待，感觉自己能在大城市立足的希望太渺茫了吧。 &lt;strong&gt;好在最近这几年，社会上慢慢认可了远程工作，所以今年我的最大目标，就是希望能够通过远程工作的方式让自己存活下来。这或许也将是我未来几年努力的方向。&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;加入橘子数学&#34;&gt;加入橘子数学&lt;/h2&gt;
-&lt;p&gt;让我欣喜的是，找工作比我预期的要顺利。 &lt;strong&gt;这里就要十分感谢 &lt;a href=&#34;https://www.mathcrowd.cn/&#34;&gt;橘子数学 https://www.mathcrowd.cn/&lt;/a&gt; 的创始人——橘子老师了。&lt;/strong&gt; 要知道，以我的高中学历，以及与计算机不相干的从业经历，还有匮乏的项目经验，要找一份编程工作，其实是很难的。从用人单位的角度，对我必然也是十分犹疑，这完全可以理解，尤其我想找的还是远程工作。当时我就做好了最坏的心理准备，如果两个月内，找不到心仪的远程工作，就另想出路。&lt;/p&gt;
-&lt;p&gt;我对找工作这件事并没有特别的经验，上一次找工作还是八年前， 2014 年在深圳的时候了。翻看当年写的简历，如今再重新写简历，依然还是没什么可写的，真是蹉跎岁月啊。青旅干了七年，跟计算机没有任何关系，在简历上只能一笔带过了。好在两三年前，有帮朋友做过几个外包的小项目，可以在简历上提一提，但太微不足道了。也许是我多少还算务实吧，能做什么不能做什么我都如实交代，投了四份简历，有三份得到了回复，两份给了面试机会，其中一个面试机会就是橘子老师给的。因为是小团队，面试过程也不复杂，他让我完成了一个测试，就给了试用的机会。&lt;/p&gt;
-&lt;p&gt;现在回过头看过去四个月的工作，可以说我是非常幸运的。当然过去几年也都挺幸运，只是挣钱少点而已。 &lt;strong&gt;在怎么都挣不到钱的情况下，要么能做喜欢的事，要么跟随一个好领导，要么有好的工作环境，要么能提升自己的技术水平。&lt;/strong&gt; 在橘子老师的带领下，我接触了最新的技术，而且他的技术能力、综合能力都非常的出色，我能从他那儿、以及项目中直接学到许多东西。&lt;/p&gt;
-&lt;p&gt;下面谈一谈远程工作的些许感想吧。&lt;/p&gt;
-&lt;h2 id=&#34;关于工作时间作息锻炼及自律&#34;&gt;关于工作时间，作息，锻炼，及自律&lt;/h2&gt;
-&lt;p&gt;虽说是远程工作，但我的工作状态、工作时间，与正常上班其实没有太大的区别。无非就是不用通勤，可以自由选择办公地点（基本上我都是在家）。如果在大城市，家离公司又远，通勤还是挺浪费时间的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;我想谈一谈如何提升远程工作的工作效率。最重要的一点，就是有规律的作息，像正常上班一样安排工作时间。&lt;/strong&gt; 每个人的作息规律不同，不同时间段的工作效率也不一样，有的人可能晚上的效率高，有的人可能是大清早的时候，这些都需要自身有意识的去觉察。比如经过多年多次的失败试验，我个人的经验是，我必须要有至少 7 个小时的睡眠时间，才能保证第二天的工作状态，我不能熬夜，在上午和晚上工作效率比较高。所以我对自己的要求，晚上 12 点前，必须上床睡觉，早上 8 点以前就自然醒了。另外，9 点必须打开电脑，查看和安排当天需要完成的工作。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;除了严格的按照有规律的作息去工作，还有一点很重要的是给自己「充电」的时间。&lt;/strong&gt; 我不太清楚其他的远程工作者是什么样的，我发现自己如果长时间只想着工作上的事、或者整天都忙于工作，会在某个时刻反噬自己、产生懈怠，再加上缺乏外界的监督，执行力就大打折扣了。简言之就是容易懒惰，却又提不起工作兴致，这种情况有时候并不是自己不想工作，而很有可能是「电量耗尽」了。我不确定这个比方是否正确，或者有没有相关严谨的研究，但在我看来时不时给自己「充电」是有必要的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;我自己的充电方式很简单，就是锻炼。&lt;/strong&gt; 每天早上站桩至少 20 分钟，吃完晚饭遛狗 20 分钟。每个周末，必须出门，要么骑行、要么登山。这在我看来，对于提升工作效率、保持良好的工作状态是有帮助的。当然了，说是这么说，其实我的完成情况也不是那么理想，目前的完成度大概能达到八成左右吧。依然需要时常反思。&lt;/p&gt;
-&lt;p&gt;很多人都知道锻炼的重要性，但能做到长期都保持锻炼的就不多了。锻炼不是需要坚持的事情，而是需要成为我们日常生活中的一部分。我自己就明显的能感觉到，如果长期长时间坐在电脑前，我的腰椎和颈椎就会不舒服。这种身体上的异样感，如果在早期不重视，往后极有可能引发大的病症，到了那个时候再重视起来，就要付出更大的代价了。&lt;/p&gt;
-&lt;p&gt;我在这里顺便补充一下我对自律的看法： &lt;strong&gt;比自律更重要的是习惯&lt;/strong&gt; 。我用了许多年的时间才戒除网瘾，用了许多年喜欢上阅读，用了许多年才知道如何让自己专注，同样用了许多年的时间重视起锻炼……它们是自律的问题吗？主要还是习惯的问题啊。任何一个习惯与我们的基因、我们的环境、每一天如何生活、以及过往的经历都是息息相关的。人们都说军人自律，我认识几个退伍的军人朋友，通过观察发现，大部分是因为他们在部队的环境中、他人的监督下养成了一些好习惯，他们同样也有坏习惯，而好习惯如果在退伍后又没能保持，慢慢也就消失了。我现在依然还有好多坏的习惯，以前总质疑自己为什么不能自律，现在释怀了，与其反思自己为什么做不到，不如真正过好当下的每一天。&lt;/p&gt;
-&lt;h2 id=&#34;远程工作者的心理健康问题&#34;&gt;远程工作者的心理健康问题&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;人是社会性动物，需要与他人交流，尤其是面对面的直接交流。&lt;/strong&gt; 这或许是远程工作的一大弊端，这方面，尤其是疫情以来，是有相关研究的。我暂时还没有更多可说的。有意识的去约朋友吃个饭，到朋友的店里闲坐，喝个茶、聊聊天，这些还是有必要的，算是对我自己提个醒。&lt;/p&gt;
-&lt;h2 id=&#34;需要改进的地方&#34;&gt;需要改进的地方&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;由于今年是我职业转型的第一年，这几个月的大部分时间基本都在偿还「技术债」。&lt;/strong&gt; 尽管这几年也时不时的关注前端的动态和技术演变，但一直缺乏项目实践。 TypeScript, React , Rollup 等等，这些都是才接触，多少还是有点儿压力，尤其是 TypeScript ，写起来确实不太顺畅。也因此这几个月我就没有完整的读过一本书，这是下半年需要改进的地方。还是需要抽时间阅读啊，比如睡前阅读半小时，或者起床后半小时，这个是可以做到的。&lt;/p&gt;
-&lt;p&gt;另外，如果有可能，也可以在博客上分享一点学习感悟。我总觉得自己的技术太菜，知识太入门，似乎没什么可分享的。怎么说呢，闻道有先后，分享出来，一方面巩固自己所学，说不定也能帮助到有需要的人呢？唉，还是少说点废话吧。&lt;/p&gt;
-&lt;h2 id=&#34;少说废话&#34;&gt;少说废话&lt;/h2&gt;
-&lt;p&gt;这四个月， &lt;strong&gt;我参与了两个项目：一个是《跨维组合牌 GF34》小游戏，一个是《橘子题库》小程序。&lt;/strong&gt; 小游戏是我从零到一完整参与开发的，小程序则是在原有项目的基础上进行了些许改进。（不打一波广告，对不起自己的劳动成果呀！）说到这里不得不佩服橘子老师，他一个人完成了橘子数学的前后端开发工作，包括运维、数据库维护等等……创业不易，我也得努力工作保住自己的饭碗…… &lt;strong&gt;对数学感兴趣的朋友，可以通过微信扫猫下方小程序码，或者进入我们的官网 &lt;a href=&#34;https://www.mathcrowd.cn/&#34;&gt;https://www.mathcrowd.cn/&lt;/a&gt; 加入社群，关注一下我们团队的产品。&lt;/strong&gt;&lt;/p&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:60%&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/work/mathcrowd/%e6%a9%98%e5%ad%90%e9%a2%98%e5%ba%93%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/work/mathcrowd/%e6%a9%98%e5%ad%90%e9%a2%98%e5%ba%93%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;橘子题库小程序码&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;另外，&lt;strong&gt;《跨维组合牌 GF34》这款益智小游戏，是有实体卡牌的，可以作为亲子或朋友之间互动的桌游。喜欢这款游戏的朋友，可以支持一下我们的实体产品（从游戏首页进入商店，即可购买），谢谢！&lt;/strong&gt;&lt;/p&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:60%&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/work/mathcrowd/%e8%b7%a8%e7%bb%b4%e7%bb%84%e5%90%88%e7%89%8c%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/work/mathcrowd/%e8%b7%a8%e7%bb%b4%e7%bb%84%e5%90%88%e7%89%8c%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;跨维组合牌小程序码&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;后记&#34;&gt;后记&lt;/h2&gt;
-&lt;p&gt;三月到六月，上海疫情，橘子老师被困家中，团购抢菜。我作为团队一员，身处异地，不能共患难，真是万分愧疚。以及每每想到或看到远方受苦受难的同胞们，同样感到心情沉重。在当今这样的时代背景下，我们这些渺小的个体，能做什么呢？我不知道。先做好本职工作吧。生活不易，可依然要砥砺前行呐。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>懒人做饭食谱（一）——万能凉拌菜</title>
-      <link>https://www.xianmin.org/post/2022/02-kitchen-salad/</link>
-      <pubDate>Sun, 12 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/02-kitchen-salad/</guid>
-      
-        <description>&lt;p&gt;这道菜的重点有两个：一是要清楚哪些菜可以直接生吃，哪些菜需要焯一道水，焯水就是把菜煮熟，或者给一些菜消毒杀菌。二是调成什么样的味道，最简单的就是直接倒生抽，或者在淘宝上买现成小包装的调料包。&lt;/p&gt;
-&lt;p&gt;这道菜的方便之处在于，不需要炒。把所有菜洗净处理好后，全部放入一个盆里，加入调味料，搅拌，就可以吃了。&lt;/p&gt;
-&lt;p&gt;几个 Tips ：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;豆腐、肉类、香菇等等，先放在水里煮熟；&lt;/li&gt;
-&lt;li&gt;一次拌上一大盆，吃一天是没问题的；&lt;/li&gt;
-&lt;li&gt;香菜、小米辣、葱、韭菜、蒜、洋葱等等，可以根据自己喜好加上一些；&lt;/li&gt;
-&lt;li&gt;可以每次尝试放入不同的调味料，西式的也可以，比如沙拉酱；&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2022/06-12.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2022/06-12.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;万能凉拌菜&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;我最近做的一次凉拌菜，食材有鸡胸肉、猪血、豆腐、生菜、洋葱、西红柿等，成本 10 元左右，耗时 30 分钟，可以吃一天。&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>博客重启 2.0</title>
-      <link>https://www.xianmin.org/post/2022/01-blog-restart/</link>
-      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/01-blog-restart/</guid>
-      
-        <description>&lt;h2 id=&#34;为什么博客改名了&#34;&gt;为什么博客改名了？&lt;/h2&gt;
-&lt;p&gt;「贤民的博客」，简单明了。之前叫「贤民的比特记忆」，「比特记忆」这个名称，读者朋友不一定理解它的含义，增加额外的认知负担，感觉没这必要。&lt;/p&gt;
-&lt;h2 id=&#34;还做了哪些改动&#34;&gt;还做了哪些改动？&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.xianmin.org/about/&#34;&gt;「关于」&lt;/a&gt; 页面是新的来访者了解我和这个博客的一个重要链接，其中的内容是 2018 年写的，距今有四年多了，很多信息都已过时，而我在这几年也有些许变化，是应该更新一下了。&lt;/p&gt;
-&lt;p&gt;另外，我给博客专门添加了 &lt;a href=&#34;https://www.xianmin.org/acknowledgments/&#34;&gt;「致谢」&lt;/a&gt; 页面。&lt;/p&gt;
-&lt;p&gt;这个博客在每篇博文下面，都有一个「打赏」按钮，这几年来断断续续收到了一些朋友的打赏鼓励。我自知才疏学浅，有朋友愿意打赏，我感到很惭愧。可是这个「打赏」之后呢，又没有任何的反馈，让我更加不好意思了。估计打赏的朋友并不在乎这些，但我还是想做点什么。思来想去，决定单独设立这个「致谢」页面，放在网站的右上角，算是作为小小的互动，它将鞭策我继续创作。&lt;/p&gt;
-&lt;h2 id=&#34;为什么还要写博客&#34;&gt;为什么还要写博客？&lt;/h2&gt;
-&lt;p&gt;最简单的理由，就是依然还有表达欲。我喜欢独来独往，可有时候又太孤独了，把自己想说却不知道跟谁说的话，写下来，发布到网上，这个过程让我心情愉悦，有助于释放孤独感。另外，我更愿意把写博客当作练习作文，记录某个时刻的所思所想，算是一件稍有难度的「娱乐活动」。&lt;/p&gt;
-&lt;p&gt;还有一个重要的理由，这个博客是我个人数字资产的一部分。通俗点说，就是我对这个博客有增删改查的自由，所有内容都是免费公开分享的，用浏览器就可以打开阅读。我把它们发布到互联网，网络爬虫想怎么爬就怎么爬，说不定还可以用作机器学习中文的分析数据。&lt;/p&gt;
-&lt;p&gt;另外，只要这个博客的链接还在，没准五年后，还会有人读到这些文字呢。如果 2027 年的你恰巧经过这里，我亲爱的陌生朋友，欢迎给我留言，我会告诉你一个我在 2022 年的秘密（这个秘密记在我 5 月 10 日的日记里）。&lt;/p&gt;
-&lt;h2 id=&#34;为什么这篇文章的标题叫博客重启&#34;&gt;为什么这篇文章的标题叫「博客重启」？&lt;/h2&gt;
-&lt;p&gt;惭愧。去年因为生活变动，基本没更新博客。现在生活慢慢稳定，我想这个博客还是得好好打理打理，毕竟这是我在互联网上唯一愿意活动的场所。一个院子如果不打理，一年也就荒废了，我想一个博客也是类似的。&lt;/p&gt;
-&lt;p&gt;至于重启，我并没有什么特别的计划。只是脑子里有一些想写的东西，我觉得应该把它们写下来，而不是停留在脑海中然后就忘了。希望今年可以多写一些内容。&lt;/p&gt;
-&lt;h2 id=&#34;还有什么想说的&#34;&gt;还有什么想说的？&lt;/h2&gt;
-&lt;p&gt;在这个博客上的所有留言我都有看到，我想对那些我没有回复留言的朋友们道个歉。你跟我打招呼，我没有回应，我感觉挺不礼貌的。哎，有些时候我确实不知道该回复什么，希望你能理解。祝好！&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>致谢</title>
-      <link>https://www.xianmin.org/acknowledgments/</link>
-      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/acknowledgments/</guid>
-      
-        <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;打赏人&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;金额&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;留言&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;日期&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;孤***&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;10 元&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;无意间搜到你的博客，陌生人加油&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;2023-12-10&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Xu*容&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;100 元&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;是结束，也是开始，那里是永远的白月光，你也是，谢谢你&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;2022-01-24&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;w**t&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;50 元&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;小兄弟，路还长，当下和未来还需把握。&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;2022-01-24&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;老*&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;20 元&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;2022-01-24&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;John**&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;10 元&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;2022-01-24&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;（注： 该页面于 2022 年才添加到这个博客，在这之前的打赏记录，我查询不到了，非常抱歉！）&lt;/p&gt;
-&lt;p&gt;这个博客在每篇博文下面，都有一个「打赏」按钮，这几年来断断续续收到了一些朋友的打赏鼓励。我自知才疏学浅，有朋友愿意打赏，我感到很惭愧。可是这个「打赏」之后呢，又没有任何的反馈，让我更加不好意思了。估计打赏的朋友并不在乎这些，但我还是想做点什么。思来想去，决定单独设立这个「致谢」页面，放在网站的右上角，算是作为小小的互动，它将鞭策我继续创作。&lt;/p&gt;
-&lt;p&gt;因为这个页面需要我手动输入和编辑，所以我暂定几条规则：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;打赏 30 元及以上，我会在一周内主动把你的留言加入到列表中；&lt;/li&gt;
-&lt;li&gt;打赏 10 ~ 30 元，你可以在 &lt;a href=&#34;https://github.com/xianmin/xianmin.org/blob/master/content/acknowledgments.md&#34;&gt;Github&lt;/a&gt; 上自行添加；&lt;/li&gt;
-&lt;li&gt;打赏者可以在留言中加入广告和链接；&lt;/li&gt;
-&lt;li&gt;留言限 50 字以内，对于我不喜欢的留言，我有权删除；&lt;/li&gt;
-&lt;li&gt;以上几条规则未来可能会有变动，一切解释权归本人所有。&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>Windows 下，交换 Ctrl 键和 CapsLock 键</title>
-      <link>https://www.xianmin.org/post/2022/00-windows-swap-ctrl-and-capslock/</link>
-      <pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/00-windows-swap-ctrl-and-capslock/</guid>
-      
-        <description>&lt;p&gt;好久没更新博客了，水一篇，找点状态。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Ctrl&lt;/code&gt; 键作为大部分软件的常用快捷按键，它在键盘上的位置是非常不合理的。而 &lt;code&gt;CapsLock&lt;/code&gt; 这个大写锁定键，不经常使用，却在键盘上占据了一个极佳的位置。在过去几年使用计算机的过程中，把 &lt;code&gt;Ctrl&lt;/code&gt; 和 &lt;code&gt;CapsLock&lt;/code&gt; 这两个按键的位置交换，极大的提升了我使用快捷键的舒适度和效率。&lt;/p&gt;
-&lt;p&gt;以下为使用 PowerShell 命令（需要以管理员身份运行）来交换这两个键的方式：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$hexified = &amp;#34;00,00,00,00,00,00,00,00,03,00,00,00,1d,00,3a,00,3a,00,1d,00,00,00,00,00&amp;#34;.Split(&amp;#39;,&amp;#39;) | % { &amp;#34;0x$_&amp;#34;};
-
+包括他们以为稀松平常的小事，我也可能只是才知道。&lt;/p>
+&lt;p>关于「搜索思路」这个话题，其实还是有许多方面可谈的。比如：关键词的变换、联想、延伸（你没找到信息，大部分时候是因为选错了关键词）；语种的变换（换个语言，搜索结果就大不相同，英文不必说了，俄文、日文又是另一个信息世界）；用繁體字，港台术语，换个地区；使用不同的搜索引擎；使用特殊的协议网络，比如 &lt;a href="https://zh.wikipedia.org/zh-cn/EDonkey%E7%BD%91%E7%BB%9C">eDonkey网络&lt;/a> ；自己写个爬虫抓取后再搜索；直接上淘宝买……等等，这些留待我以后有灵感了再归纳总结吧。&lt;/p></description></item><item><title>兼职领队 - 香格里拉无底湖露营徒步</title><link>https://www.xianmin.org/post/2022/09-part-time-outdoor-tour-leader/</link><pubDate>Fri, 07 Oct 2022 22:15:10 +0800</pubDate><guid>https://www.xianmin.org/post/2022/09-part-time-outdoor-tour-leader/</guid><description>&lt;p>十一休假，经朋友推荐，我到某某户外俱乐部做了回兼职领队。以前在青旅，我也经常带队组织户外活动，但规模小、也并非自己的主业，有些业余。这次做兼职领队的主要目的， &lt;strong>是想了解专业的户外俱乐部是怎样组织活动的、整个活动的流程、以及专业领队在活动中具体的工作内容&lt;/strong> 。&lt;/p>
+&lt;p>尽管全国各地的疫情此起彼伏，好在丽江及丽江周边没受太大影响，无非是出行要提供 24 小时核酸，因此国庆长假还是有不少游客前来的。该户外俱乐部营销做的不错，报名参团的人数不少，比如我这次兼职的路线，团员就有 29 人（原本是 36 人，因为疫情原因有 7 人退团）。因为参团人数多，也就有了像我这样的兼职领队，辅佐主领队的工作，最主要的职责就是保障队员安全、避免走散。&lt;/p>
+&lt;p>此次活动，我们是前往 &lt;strong>香格里拉无底湖露营徒步&lt;/strong> 。无底湖是个小众景点，不经常在云南旅行的朋友估计都没听说过这个地方。无底湖营地海拔 3800 ，徒步路线是前往周边的另外两个高山湖泊——措姆湖和仙女湖。路途中的最高海拔大约在 4220 左右，路线不长，去相对较远的措姆湖往返也就 8km ，对于经常徒步的朋友而言应该说是挺轻松的。可即便是如此轻松的路线，还是有队员掉队、走不动，我也理解这种活动的意义了， &lt;strong>让不懂户外的城市居民有机会参与到户外活动中，亲近自然，享受徒步登山的乐趣，同时保障他们的人身安全&lt;/strong> 。通过与他们闲聊，我了解到，许多参加活动的队员，这是他们这几年中第一次露营徒步，还有队员是第一次走海拔超过 4000 的山路，他们平时在大城市生活工作，很少有类似的机会。&lt;/p>
+&lt;p>在没参加这次活动以前，我以为大部分队员是户外爱好者，有一些基本的户外经验，但实际情况并非如此，比如有人可能登山杖都没摸过。 &lt;strong>我眼中稀松平常的小事，对于有些人却是第一次接触。&lt;/strong>&lt;/p>
+&lt;p>要说这次活动有什么遗憾，就是参团的人数有点儿多了（不过要不是这么多人，也不会请到我）。人多了以后，就没办法每个人都照顾到，大家很难有近距离的沟通，很难交朋友，活动结束就散伙。这与我过去的经验相比，还是有明显的区别。过去我带队都是 8 人以下的小团队，一次户外活动下来，从陌生到相识，是结交朋友很好的方式。人多的话，就成了纯粹的工作了，要把服务做好。&lt;/p>
+&lt;p>活动结束后，顺利返回丽江，结束了这次短期兼职。我感觉 &lt;strong>偶尔做一做兼职领队还是挺不错的&lt;/strong> ，可以向专业人员学习，自己也能走一走路线，同时还能挣点小钱。让我想想下一次兼职做点什么，也许可以去做厨子吧，哈哈！&lt;/p>
+&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2022/10-07.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2022/10-07.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div></description></item><item><title>我的英语词汇量（ 2022 年 8 月 ）</title><link>https://www.xianmin.org/post/2022/08-review-english-2022-08/</link><pubDate>Mon, 29 Aug 2022 22:15:10 +0800</pubDate><guid>https://www.xianmin.org/post/2022/08-review-english-2022-08/</guid><description>&lt;p>上一次测试词汇量是在 &lt;a href="https://www.xianmin.org/post/review-english-202005/">2020 年 5 月&lt;/a> ，当时的词汇量大约是 7420 。今天突然想起来好久没测了，随手测了一下，这次测出的词汇量大约是 7810 ，跟两年前相比基本没有太大的变化。这是符合预期的，这两年我就没有在英语上下过工夫，没有退步就不错了。&lt;/p>
+&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/review-english-2022-08-28.png" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/other/review-english-2022-08-28.png" itemprop="contentUrl">&lt;/a>
+&lt;figcaption>&lt;h4>2022 年 8 月，词汇量测试&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;p>打开 &lt;a href="https://testyourvocab.com">https://testyourvocab.com&lt;/a> 网站，自动跳转到了 &lt;a href="https://preply.com/en/learn/english/test-your-vocab">https://preply.com/en/learn/english/test-your-vocab&lt;/a> ，估计是被收购了，不过测试内容应该没有变化。&lt;/p>
+&lt;p>测试的好处是可以提醒自己依然有很大的提升空间，这两年在英语学习上真的是有些懈怠了。我的英语学习目标：能够无障碍阅读英文书。这个目标都说了好几年了，唉，实在是羞愧啊。学习方法目前无需调整， &lt;strong>关键是每天都要抽出一个小时阅读英文，并且用半个小时复习前一天查过的生词短语。&lt;/strong>&lt;/p>
+&lt;p>多说无益，到今年年底还有 4 个月，年底的时候再做总结。&lt;/p></description></item><item><title>熟悉一套快捷键，提升文本编辑效率</title><link>https://www.xianmin.org/post/2022/07-familiar-one-keybinding-style/</link><pubDate>Mon, 29 Aug 2022 22:10:10 +0800</pubDate><guid>https://www.xianmin.org/post/2022/07-familiar-one-keybinding-style/</guid><description>&lt;p>今年由于工作需要，我将自己的常用操作系统从 Linux 换成了 Win10 。切换到 Win10 后，原本的 Emacs 配置无法正常工作了，我也懒的继续折腾配置，本来用 Emacs 也就是记笔记、写日记之类的文本编辑工作，写代码基本都是用 VSCode 。现在 VSCode 已经非常好用了，干脆把所有编辑文本的工作都交给 VSCode 吧。&lt;/p>
+&lt;p>使用 Emacs 让我受益最大的，就是它的快捷键操作方式。比如 &lt;code>Ctrl-a&lt;/code> 将光标移到行首， &lt;code>Ctrl-e&lt;/code> 移到行尾等等，就不一一列举了。我也曾用过 Vim ，但是它的操作方式我怎么都不适应（用 Vimium 浏览网页还是挺舒服的），因为它编辑的时候要进入「Insert-mode」，然后还要解决切换输入法的问题，在中文输入的情况下无法进入「Insert-mode」。而使用 Emacs 大部分时候没有切换输入法的烦恼，它的快捷键都需要加上 &lt;code>Ctrl&lt;/code> 或 &lt;code>Alt&lt;/code> 前缀。&lt;/p>
+&lt;p>在 VSCode 上，安装这个扩展： &lt;a href="https://github.com/whitphx/vscode-emacs-mcx">whitphx/vscode-emacs-mcx: Awesome Emacs Keymap - VSCode emacs keybinding with multi cursor support&lt;/a> ，就能用上 Emacs 的按键操作方式了。&lt;/p>
+&lt;p>由于历史原因，部分 Emacs 快捷键与我们的日常使用习惯不一致，比如复制粘贴，大部分软件都是 &lt;code>C-c&lt;/code>、 &lt;code>C-v&lt;/code> ，而 Emacs 默认是 &lt;code>M-w&lt;/code> 、 &lt;code>C-y&lt;/code> 。对于这部分快捷键，我倾向于改为一致的操作，即都用 &lt;code>C-c&lt;/code>、 &lt;code>C-v&lt;/code> ，不要特殊化，省的弄混了。还有一些常用却不太好按、不太好记的快捷键，我都重新绑定了按键。&lt;/p>
+&lt;p>快捷键，应该既要好按，又要好记，这样才快捷。我整理了一下自己的常用快捷键，就当作是复习巩固吧。&lt;/p></description></item><item><title>我的 VSCode 快捷键</title><link>https://www.xianmin.org/post/2022/06-my-vscode-keybinding/</link><pubDate>Mon, 29 Aug 2022 22:06:10 +0800</pubDate><guid>https://www.xianmin.org/post/2022/06-my-vscode-keybinding/</guid><description>&lt;h2 id="移动相关">移动相关&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">快捷键&lt;/th>
+&lt;th style="text-align: left">说明&lt;/th>
+&lt;th style="text-align: left">补充&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-f&lt;/code>&lt;/td>
+&lt;td style="text-align: left">下一个字符&lt;/td>
+&lt;td style="text-align: left">记忆： f - forward&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-b&lt;/code>&lt;/td>
+&lt;td style="text-align: left">上一个字符&lt;/td>
+&lt;td style="text-align: left">记忆： b - backward&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-n&lt;/code>&lt;/td>
+&lt;td style="text-align: left">下一行&lt;/td>
+&lt;td style="text-align: left">记忆： n - next&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-p&lt;/code>&lt;/td>
+&lt;td style="text-align: left">上一行&lt;/td>
+&lt;td style="text-align: left">记忆： p - previous&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-a&lt;/code>&lt;/td>
+&lt;td style="text-align: left">行首&lt;/td>
+&lt;td style="text-align: left">记忆： a - 第一个字母&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-e&lt;/code>&lt;/td>
+&lt;td style="text-align: left">行尾&lt;/td>
+&lt;td style="text-align: left">记忆: e - end&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-f&lt;/code>&lt;/td>
+&lt;td style="text-align: left">下一个词&lt;/td>
+&lt;td style="text-align: left">VSCode 中文断词设置，见附录A&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-b&lt;/code>&lt;/td>
+&lt;td style="text-align: left">上一个词&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-M-f&lt;/code>&lt;/td>
+&lt;td style="text-align: left">上一段&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-M-b&lt;/code>&lt;/td>
+&lt;td style="text-align: left">下一段&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-M-a&lt;/code>&lt;/td>
+&lt;td style="text-align: left">页首&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-M-e&lt;/code>&lt;/td>
+&lt;td style="text-align: left">页尾&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">快捷键&lt;/th>
+&lt;th style="text-align: left">说明&lt;/th>
+&lt;th style="text-align: left">补充&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-l&lt;/code>&lt;/td>
+&lt;td style="text-align: left">将当前光标位置居于屏幕中间&lt;/td>
+&lt;td style="text-align: left">常用&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-1&lt;/code>&lt;/td>
+&lt;td style="text-align: left">上一个标签&lt;/td>
+&lt;td style="text-align: left">使用 &lt;code>Alt Tab&lt;/code> 临近的几个键操作标签&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-2&lt;/code>&lt;/td>
+&lt;td style="text-align: left">下一个标签&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-3&lt;/code>&lt;/td>
+&lt;td style="text-align: left">后退&lt;/td>
+&lt;td style="text-align: left">光标跳转到别处后，回退到之前的位置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-4&lt;/code>&lt;/td>
+&lt;td style="text-align: left">前进&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-w&lt;/code>&lt;/td>
+&lt;td style="text-align: left">关闭标签&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-u&lt;/code>&lt;/td>
+&lt;td style="text-align: left">撤销关闭的标签&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-x C-b&lt;/code>&lt;/td>
+&lt;td style="text-align: left">快速跳转至已经打开的标签&lt;/td>
+&lt;td style="text-align: left">记忆： b - buffer&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-x C-f&lt;/code>&lt;/td>
+&lt;td style="text-align: left">快速打开文件&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-g&lt;/code>&lt;/td>
+&lt;td style="text-align: left">任何时候取消&lt;/td>
+&lt;td style="text-align: left">emacs 默认&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="编辑相关">编辑相关&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">快捷键&lt;/th>
+&lt;th style="text-align: left">说明&lt;/th>
+&lt;th style="text-align: left">补充&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-c&lt;/code>&lt;/td>
+&lt;td style="text-align: left">复制&lt;/td>
+&lt;td style="text-align: left">与操作系统统一&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-v&lt;/code>&lt;/td>
+&lt;td style="text-align: left">粘贴&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-m&lt;/code>&lt;/td>
+&lt;td style="text-align: left">mark&lt;/td>
+&lt;td style="text-align: left">默认是 &lt;code>C-SPACE&lt;/code> ，与切换输入法冲突&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-w&lt;/code>&lt;/td>
+&lt;td style="text-align: left">剪切&lt;/td>
+&lt;td style="text-align: left">emacs 默认&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-k&lt;/code>&lt;/td>
+&lt;td style="text-align: left">删除当前行&lt;/td>
+&lt;td style="text-align: left">记忆： k - kill&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-u&lt;/code>&lt;/td>
+&lt;td style="text-align: left">undo 撤销&lt;/td>
+&lt;td style="text-align: left">记忆： u - undo&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-M-u&lt;/code>&lt;/td>
+&lt;td style="text-align: left">redo&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-;&lt;/code>&lt;/td>
+&lt;td style="text-align: left">注释行&lt;/td>
+&lt;td style="text-align: left">常用&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-;&lt;/code>&lt;/td>
+&lt;td style="text-align: left">注释块&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-↑&lt;/code>&lt;/td>
+&lt;td style="text-align: left">将当前行上移&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-↓&lt;/code>&lt;/td>
+&lt;td style="text-align: left">将当前行下移&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-S-↑&lt;/code>&lt;/td>
+&lt;td style="text-align: left">将当前行向上复制&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-S-↓&lt;/code>&lt;/td>
+&lt;td style="text-align: left">将当前行向下复制&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-h&lt;/code>&lt;/td>
+&lt;td style="text-align: left">删除&lt;/td>
+&lt;td style="text-align: left">同 &lt;code>Backspace&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>F2&lt;/code>&lt;/td>
+&lt;td style="text-align: left">重命名&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-s&lt;/code>&lt;/td>
+&lt;td style="text-align: left">插入 snippets&lt;/td>
+&lt;td style="text-align: left">记忆： s - snippet&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-q&lt;/code>&lt;/td>
+&lt;td style="text-align: left">quick fix&lt;/td>
+&lt;td style="text-align: left">常用&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-q&lt;/code>&lt;/td>
+&lt;td style="text-align: left">折叠&lt;/td>
+&lt;td style="text-align: left">常用&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-M-↑&lt;/code>&lt;/td>
+&lt;td style="text-align: left">操作多光标，上移&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-M-↓&lt;/code>&lt;/td>
+&lt;td style="text-align: left">操作多光标，下移&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">按住鼠标中间选择&lt;/td>
+&lt;td style="text-align: left">操作多光标&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>Alt Click&lt;/code>&lt;/td>
+&lt;td style="text-align: left">增添多个光标&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="命令相关">命令相关&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">快捷键&lt;/th>
+&lt;th style="text-align: left">说明&lt;/th>
+&lt;th style="text-align: left">补充&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-x&lt;/code>&lt;/td>
+&lt;td style="text-align: left">输入 Command&lt;/td>
+&lt;td style="text-align: left">常用&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-p&lt;/code>&lt;/td>
+&lt;td style="text-align: left">peek&lt;/td>
+&lt;td style="text-align: left">默认 &lt;code>S-F12&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-o&lt;/code>&lt;/td>
+&lt;td style="text-align: left">go to defienition&lt;/td>
+&lt;td style="text-align: left">默认 &lt;code>F12&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-t&lt;/code>&lt;/td>
+&lt;td style="text-align: left">go to Symbol （当前文件）&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-M-t&lt;/code>&lt;/td>
+&lt;td style="text-align: left">go to Symbol （全局）&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="窗口相关">窗口相关&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">快捷键&lt;/th>
+&lt;th style="text-align: left">说明&lt;/th>
+&lt;th style="text-align: left">补充&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">`C-``&lt;/td>
+&lt;td style="text-align: left">终端&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-S-f&lt;/code>&lt;/td>
+&lt;td style="text-align: left">搜索&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-S-e&lt;/code>&lt;/td>
+&lt;td style="text-align: left">文件列表&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>F11&lt;/code>&lt;/td>
+&lt;td style="text-align: left">Zen Mode&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>S-F11&lt;/code>&lt;/td>
+&lt;td style="text-align: left">全屏&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-x C-n&lt;/code>&lt;/td>
+&lt;td style="text-align: left">新的窗口&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="附录a-word-seperator-for-chiense-中文标点断句">附录A： Word seperator for Chiense (中文标点断句)&lt;/h2>
+&lt;p>在 VSCode 中修改如下 setting ：&lt;/p>
+&lt;pre tabindex="0">&lt;code>&amp;#34;editor.wordSeparators&amp;#34;: &amp;#34;`~!@#$%^&amp;amp;*()-=+[{]}\\|;:&amp;#39;\&amp;#34;,.&amp;lt;&amp;gt;/?、，。？！“”‘’；：（）「」【】〔〕『』〖〗&amp;#34;,
+&lt;/code>&lt;/pre>&lt;h2 id="附录b-我的全局快捷键">附录B： 我的全局快捷键&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">快捷键&lt;/th>
+&lt;th style="text-align: left">说明&lt;/th>
+&lt;th style="text-align: left">补充&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>M-a&lt;/code>&lt;/td>
+&lt;td style="text-align: left">微信截图&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-M-c&lt;/code>&lt;/td>
+&lt;td style="text-align: left">CopyQ 剪切板&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>PrtSc&lt;/code>&lt;/td>
+&lt;td style="text-align: left">ShareX 截图&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-PrtSc&lt;/code>&lt;/td>
+&lt;td style="text-align: left">选择矩形区域截图&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;code>C-M-q&lt;/code>&lt;/td>
+&lt;td style="text-align: left">ShareX 取色&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>小技巧 debug 网页 css overflow ，避免出现底部滚动条</title><link>https://www.xianmin.org/post/2022/05-debug-css-x-overflow/</link><pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/05-debug-css-x-overflow/</guid><description>&lt;p>一般而言，绝大多数网页都是纵向滚动的，很少有横向滚动的网页。如果一个正常纵向滚动的网页，在浏览器的底部出现了滚动条，是因为这个网页的宽度超出了屏幕宽度。这种情况很多时候并非网站设计者的初衷，而是由于写错了 css 样式。&lt;/p>
+&lt;p>&lt;a href="https://qa.mathcrowd.cn/challenges">趣味数学题 - 橘子数学社区 - 趣题挑战&lt;/a> 原本有这个问题，之后被我解决了。一开始的解决方法比较笨，就是用 Chrome 的开发者工具，一个一个检查元素，看看是哪个元素溢出了。&lt;/p>
+&lt;p>最近我偶然发现了两个网站有类似的溢出问题：&lt;/p>
+&lt;ul>
+&lt;li>比如有名的知乎： &lt;a href="https://www.zhihu.com/column/mathcrowd">数学趣题专栏 - 知乎&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://opencollective.com/">Raise and spend money with full transparency. - Open Collective&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/zhihu-overflow.png" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/other/zhihu-overflow.png" itemprop="contentUrl">&lt;/a>
+&lt;figcaption>&lt;h4>知乎专栏网页溢出&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;p>这就引起了我的好奇，有没有更便捷的技巧 debug 网页的横向溢出呢？答案是有的。使用开发者工具，给网站添加以下样式：&lt;/p>
+&lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2">2&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3">3&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#666">*&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#007020;font-weight:bold">outline&lt;/span>: &lt;span style="color:#40a070">1&lt;/span>&lt;span style="color:#902000">px&lt;/span> &lt;span style="color:#007020;font-weight:bold">solid&lt;/span> &lt;span style="color:#007020;font-weight:bold">red&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>这不会影响网页原本的布局，同时还会给所有元素加上边框，这样我们就很容易发现是哪个地方有溢出了。利用这个小技巧，我们也可以更直观的观察一个网站的布局是怎样的。&lt;/strong>&lt;/p>
+&lt;h2 id="使用-bookmarklet">使用 bookmarklet&lt;/h2>
+&lt;p>我将这一小段 css 代码改成了 bookmarklet ：
+&lt;a href="javascript:(function()%7Bjavascript%3A(function()%7Bvar%20css%3D'*%20%7Boutline%3A%201px%20solid%20red%3B%7D'%3Bvar%20heads%3Ddocument.getElementsByTagName('head')%3Bif(heads.length%3E0)%7Bvar%20node%3Ddocument.createElement('style')%3Bnode.type%3D'text%2Fcss'%3Bnode.appendChild(document.createTextNode(css))%3Bheads%5B0%5D.appendChild(node)%3B%7D%7D)()%3B%7D)()%3B">显示元素边框&lt;/a> 。
+&lt;/p>
+&lt;p>这样只要点击书签就能直接生效了。&lt;/p>
+&lt;h2 id="常见的会造成-x-overflow-的原因">常见的会造成 x-overflow 的原因：&lt;/h2>
+&lt;ol>
+&lt;li>使用了 &lt;code>width: 100vw;&lt;/code> ;&lt;/li>
+&lt;li>grid 或 flex 使用了间隙或边框；&lt;/li>
+&lt;li>多余的 margin ；&lt;/li>
+&lt;li>图片宽度超出父容器的宽度；&lt;/li>
+&lt;/ol>
+&lt;h2 id="参考链接">参考链接&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://blog.logrocket.com/how-to-prevent-overflow-scrolling-css/">How to prevent overflow scrolling in CSS - LogRocket Blog&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>重学系鞋带</title><link>https://www.xianmin.org/post/2022/04-relearn-to-tie-your-laces/</link><pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/04-relearn-to-tie-your-laces/</guid><description>&lt;p>有段时间我上山徒步比较频繁，当时有一件小事让我印象深刻：&lt;/p>
+&lt;p>似乎每一次上山的途中，我的鞋带都会至少散开一次。鞋带散了，重新系上就是了，无非弯下腰花费十几秒钟的功夫而已。一开始，我没有把它当回事儿，毕竟平时走路鞋带很少散开，也就在登山的时候，散开的概率大一些。后来，次数多了，我才意识到这似乎是个问题。可是在山上，我不太可能当场去找解决办法，想着下山回家后，上网搜一搜怎样系鞋带不会散，可是下山后，我就把这件事儿给忘了。&lt;/p>
+&lt;p>直到有一天，我闲来无事儿，想起了鞋带会散的问题，才去上网搜索浏览了大约十分钟。对比了几种不同的系法，很快就找到了一种既简单又实用的方式，它只是在我原来打蝴蝶结的基础上再多缠上一圈，我试了试，果真比原来的系法结实多了，并且解开也十分容易。从这以后，我的鞋带就很少散开了。&lt;/p>
+&lt;p>我是在上幼儿园的时候学会的系鞋带，就是打一个蝴蝶结，我用这个方法系了二十年，从来没有思考过有没有更好的系鞋带的方法， &lt;strong>因为我以为自己已经学会了系鞋带，它不过就是一项普普通通的生活技能。可是当我只用了十分钟，就改变了自己二十年惯用的系法，这令我无比的诧异。&lt;/strong>&lt;/p>
+&lt;p>为什么在互联网如此发达的今天，我都不懂得及时去解决生活中遇到的问题呢？每每想起「系鞋带」这件小事儿，它改变了我在许多问题上做出的决策。&lt;/p></description></item><item><title>2022 年中小记：远程工作四个月</title><link>https://www.xianmin.org/post/2022/03-join-mathcrowd/</link><pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/03-join-mathcrowd/</guid><description>&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2022/07-03.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2022/07-03.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;p>去年青旅关门之后，我骑着自行车在外流浪了半年，一直都没有收入。好在自己日常开销不多，不至于被迫谋生，但从长远考虑，还是得尽早解决挣钱问题。今年过完春节的第一件大事，就是找工作。&lt;/p>
+&lt;p>找的工作方向是前端程序员，这是去年在路上的时候，就想清楚了。我不知道这是幸运还是不幸，直到 30 岁，我才从个人性格、特长、家庭背景等多方面因素，明确自己的职业发展方向。可能是因为过去一些年总有各种选择，对于要不要做程序员，我一直都很犹豫。犹豫的最大原因，是要不要去大城市，因为只有大城市才提供程序员的工作岗位，可我对大城市的生活并没有多少期待，感觉自己能在大城市立足的希望太渺茫了吧。 &lt;strong>好在最近这几年，社会上慢慢认可了远程工作，所以今年我的最大目标，就是希望能够通过远程工作的方式让自己存活下来。这或许也将是我未来几年努力的方向。&lt;/strong>&lt;/p>
+&lt;h2 id="加入橘子数学">加入橘子数学&lt;/h2>
+&lt;p>让我欣喜的是，找工作比我预期的要顺利。 &lt;strong>这里就要十分感谢 &lt;a href="https://www.mathcrowd.cn/">橘子数学 https://www.mathcrowd.cn/&lt;/a> 的创始人——橘子老师了。&lt;/strong> 要知道，以我的高中学历，以及与计算机不相干的从业经历，还有匮乏的项目经验，要找一份编程工作，其实是很难的。从用人单位的角度，对我必然也是十分犹疑，这完全可以理解，尤其我想找的还是远程工作。当时我就做好了最坏的心理准备，如果两个月内，找不到心仪的远程工作，就另想出路。&lt;/p>
+&lt;p>我对找工作这件事并没有特别的经验，上一次找工作还是八年前， 2014 年在深圳的时候了。翻看当年写的简历，如今再重新写简历，依然还是没什么可写的，真是蹉跎岁月啊。青旅干了七年，跟计算机没有任何关系，在简历上只能一笔带过了。好在两三年前，有帮朋友做过几个外包的小项目，可以在简历上提一提，但太微不足道了。也许是我多少还算务实吧，能做什么不能做什么我都如实交代，投了四份简历，有三份得到了回复，两份给了面试机会，其中一个面试机会就是橘子老师给的。因为是小团队，面试过程也不复杂，他让我完成了一个测试，就给了试用的机会。&lt;/p>
+&lt;p>现在回过头看过去四个月的工作，可以说我是非常幸运的。当然过去几年也都挺幸运，只是挣钱少点而已。 &lt;strong>在怎么都挣不到钱的情况下，要么能做喜欢的事，要么跟随一个好领导，要么有好的工作环境，要么能提升自己的技术水平。&lt;/strong> 在橘子老师的带领下，我接触了最新的技术，而且他的技术能力、综合能力都非常的出色，我能从他那儿、以及项目中直接学到许多东西。&lt;/p>
+&lt;p>下面谈一谈远程工作的些许感想吧。&lt;/p>
+&lt;h2 id="关于工作时间作息锻炼及自律">关于工作时间，作息，锻炼，及自律&lt;/h2>
+&lt;p>虽说是远程工作，但我的工作状态、工作时间，与正常上班其实没有太大的区别。无非就是不用通勤，可以自由选择办公地点（基本上我都是在家）。如果在大城市，家离公司又远，通勤还是挺浪费时间的。&lt;/p>
+&lt;p>&lt;strong>我想谈一谈如何提升远程工作的工作效率。最重要的一点，就是有规律的作息，像正常上班一样安排工作时间。&lt;/strong> 每个人的作息规律不同，不同时间段的工作效率也不一样，有的人可能晚上的效率高，有的人可能是大清早的时候，这些都需要自身有意识的去觉察。比如经过多年多次的失败试验，我个人的经验是，我必须要有至少 7 个小时的睡眠时间，才能保证第二天的工作状态，我不能熬夜，在上午和晚上工作效率比较高。所以我对自己的要求，晚上 12 点前，必须上床睡觉，早上 8 点以前就自然醒了。另外，9 点必须打开电脑，查看和安排当天需要完成的工作。&lt;/p>
+&lt;p>&lt;strong>除了严格的按照有规律的作息去工作，还有一点很重要的是给自己「充电」的时间。&lt;/strong> 我不太清楚其他的远程工作者是什么样的，我发现自己如果长时间只想着工作上的事、或者整天都忙于工作，会在某个时刻反噬自己、产生懈怠，再加上缺乏外界的监督，执行力就大打折扣了。简言之就是容易懒惰，却又提不起工作兴致，这种情况有时候并不是自己不想工作，而很有可能是「电量耗尽」了。我不确定这个比方是否正确，或者有没有相关严谨的研究，但在我看来时不时给自己「充电」是有必要的。&lt;/p>
+&lt;p>&lt;strong>我自己的充电方式很简单，就是锻炼。&lt;/strong> 每天早上站桩至少 20 分钟，吃完晚饭遛狗 20 分钟。每个周末，必须出门，要么骑行、要么登山。这在我看来，对于提升工作效率、保持良好的工作状态是有帮助的。当然了，说是这么说，其实我的完成情况也不是那么理想，目前的完成度大概能达到八成左右吧。依然需要时常反思。&lt;/p>
+&lt;p>很多人都知道锻炼的重要性，但能做到长期都保持锻炼的就不多了。锻炼不是需要坚持的事情，而是需要成为我们日常生活中的一部分。我自己就明显的能感觉到，如果长期长时间坐在电脑前，我的腰椎和颈椎就会不舒服。这种身体上的异样感，如果在早期不重视，往后极有可能引发大的病症，到了那个时候再重视起来，就要付出更大的代价了。&lt;/p>
+&lt;p>我在这里顺便补充一下我对自律的看法： &lt;strong>比自律更重要的是习惯&lt;/strong> 。我用了许多年的时间才戒除网瘾，用了许多年喜欢上阅读，用了许多年才知道如何让自己专注，同样用了许多年的时间重视起锻炼……它们是自律的问题吗？主要还是习惯的问题啊。任何一个习惯与我们的基因、我们的环境、每一天如何生活、以及过往的经历都是息息相关的。人们都说军人自律，我认识几个退伍的军人朋友，通过观察发现，大部分是因为他们在部队的环境中、他人的监督下养成了一些好习惯，他们同样也有坏习惯，而好习惯如果在退伍后又没能保持，慢慢也就消失了。我现在依然还有好多坏的习惯，以前总质疑自己为什么不能自律，现在释怀了，与其反思自己为什么做不到，不如真正过好当下的每一天。&lt;/p>
+&lt;h2 id="远程工作者的心理健康问题">远程工作者的心理健康问题&lt;/h2>
+&lt;p>&lt;strong>人是社会性动物，需要与他人交流，尤其是面对面的直接交流。&lt;/strong> 这或许是远程工作的一大弊端，这方面，尤其是疫情以来，是有相关研究的。我暂时还没有更多可说的。有意识的去约朋友吃个饭，到朋友的店里闲坐，喝个茶、聊聊天，这些还是有必要的，算是对我自己提个醒。&lt;/p>
+&lt;h2 id="需要改进的地方">需要改进的地方&lt;/h2>
+&lt;p>&lt;strong>由于今年是我职业转型的第一年，这几个月的大部分时间基本都在偿还「技术债」。&lt;/strong> 尽管这几年也时不时的关注前端的动态和技术演变，但一直缺乏项目实践。 TypeScript, React , Rollup 等等，这些都是才接触，多少还是有点儿压力，尤其是 TypeScript ，写起来确实不太顺畅。也因此这几个月我就没有完整的读过一本书，这是下半年需要改进的地方。还是需要抽时间阅读啊，比如睡前阅读半小时，或者起床后半小时，这个是可以做到的。&lt;/p>
+&lt;p>另外，如果有可能，也可以在博客上分享一点学习感悟。我总觉得自己的技术太菜，知识太入门，似乎没什么可分享的。怎么说呢，闻道有先后，分享出来，一方面巩固自己所学，说不定也能帮助到有需要的人呢？唉，还是少说点废话吧。&lt;/p>
+&lt;h2 id="少说废话">少说废话&lt;/h2>
+&lt;p>这四个月， &lt;strong>我参与了两个项目：一个是《跨维组合牌 GF34》小游戏，一个是《橘子题库》小程序。&lt;/strong> 小游戏是我从零到一完整参与开发的，小程序则是在原有项目的基础上进行了些许改进。（不打一波广告，对不起自己的劳动成果呀！）说到这里不得不佩服橘子老师，他一个人完成了橘子数学的前后端开发工作，包括运维、数据库维护等等……创业不易，我也得努力工作保住自己的饭碗…… &lt;strong>对数学感兴趣的朋友，可以通过微信扫猫下方小程序码，或者进入我们的官网 &lt;a href="https://www.mathcrowd.cn/">https://www.mathcrowd.cn/&lt;/a> 加入社群，关注一下我们团队的产品。&lt;/strong>&lt;/p>
+&lt;div class="box">
+&lt;figure class="center" itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject"
+style="max-width:60%" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/work/mathcrowd/%e6%a9%98%e5%ad%90%e9%a2%98%e5%ba%93%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.png" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/work/mathcrowd/%e6%a9%98%e5%ad%90%e9%a2%98%e5%ba%93%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.png" itemprop="contentUrl">&lt;/a>
+&lt;figcaption>&lt;h4>橘子题库小程序码&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;p>另外，&lt;strong>《跨维组合牌 GF34》这款益智小游戏，是有实体卡牌的，可以作为亲子或朋友之间互动的桌游。喜欢这款游戏的朋友，可以支持一下我们的实体产品（从游戏首页进入商店，即可购买），谢谢！&lt;/strong>&lt;/p>
+&lt;div class="box">
+&lt;figure class="center" itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject"
+style="max-width:60%" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/work/mathcrowd/%e8%b7%a8%e7%bb%b4%e7%bb%84%e5%90%88%e7%89%8c%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/work/mathcrowd/%e8%b7%a8%e7%bb%b4%e7%bb%84%e5%90%88%e7%89%8c%e5%b0%8f%e7%a8%8b%e5%ba%8f%e7%a0%81.jpg" itemprop="contentUrl">&lt;/a>
+&lt;figcaption>&lt;h4>跨维组合牌小程序码&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;h2 id="后记">后记&lt;/h2>
+&lt;p>三月到六月，上海疫情，橘子老师被困家中，团购抢菜。我作为团队一员，身处异地，不能共患难，真是万分愧疚。以及每每想到或看到远方受苦受难的同胞们，同样感到心情沉重。在当今这样的时代背景下，我们这些渺小的个体，能做什么呢？我不知道。先做好本职工作吧。生活不易，可依然要砥砺前行呐。&lt;/p></description></item><item><title>懒人做饭食谱（一）——万能凉拌菜</title><link>https://www.xianmin.org/post/2022/02-kitchen-salad/</link><pubDate>Sun, 12 Jun 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/02-kitchen-salad/</guid><description>&lt;p>这道菜的重点有两个：一是要清楚哪些菜可以直接生吃，哪些菜需要焯一道水，焯水就是把菜煮熟，或者给一些菜消毒杀菌。二是调成什么样的味道，最简单的就是直接倒生抽，或者在淘宝上买现成小包装的调料包。&lt;/p>
+&lt;p>这道菜的方便之处在于，不需要炒。把所有菜洗净处理好后，全部放入一个盆里，加入调味料，搅拌，就可以吃了。&lt;/p>
+&lt;p>几个 Tips ：&lt;/p>
+&lt;ol>
+&lt;li>豆腐、肉类、香菇等等，先放在水里煮熟；&lt;/li>
+&lt;li>一次拌上一大盆，吃一天是没问题的；&lt;/li>
+&lt;li>香菜、小米辣、葱、韭菜、蒜、洋葱等等，可以根据自己喜好加上一些；&lt;/li>
+&lt;li>可以每次尝试放入不同的调味料，西式的也可以，比如沙拉酱；&lt;/li>
+&lt;/ol>
+&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2022/06-12.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2022/06-12.jpg" itemprop="contentUrl">&lt;/a>
+&lt;figcaption>&lt;h4>万能凉拌菜&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;p>我最近做的一次凉拌菜，食材有鸡胸肉、猪血、豆腐、生菜、洋葱、西红柿等，成本 10 元左右，耗时 30 分钟，可以吃一天。&lt;/p></description></item><item><title>博客重启 2.0</title><link>https://www.xianmin.org/post/2022/01-blog-restart/</link><pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/01-blog-restart/</guid><description>&lt;h2 id="为什么博客改名了">为什么博客改名了？&lt;/h2>
+&lt;p>「贤民的博客」，简单明了。之前叫「贤民的比特记忆」，「比特记忆」这个名称，读者朋友不一定理解它的含义，增加额外的认知负担，感觉没这必要。&lt;/p>
+&lt;h2 id="还做了哪些改动">还做了哪些改动？&lt;/h2>
+&lt;p>&lt;a href="https://www.xianmin.org/about/">「关于」&lt;/a> 页面是新的来访者了解我和这个博客的一个重要链接，其中的内容是 2018 年写的，距今有四年多了，很多信息都已过时，而我在这几年也有些许变化，是应该更新一下了。&lt;/p>
+&lt;p>另外，我给博客专门添加了 &lt;a href="https://www.xianmin.org/acknowledgments/">「致谢」&lt;/a> 页面。&lt;/p>
+&lt;p>这个博客在每篇博文下面，都有一个「打赏」按钮，这几年来断断续续收到了一些朋友的打赏鼓励。我自知才疏学浅，有朋友愿意打赏，我感到很惭愧。可是这个「打赏」之后呢，又没有任何的反馈，让我更加不好意思了。估计打赏的朋友并不在乎这些，但我还是想做点什么。思来想去，决定单独设立这个「致谢」页面，放在网站的右上角，算是作为小小的互动，它将鞭策我继续创作。&lt;/p>
+&lt;h2 id="为什么还要写博客">为什么还要写博客？&lt;/h2>
+&lt;p>最简单的理由，就是依然还有表达欲。我喜欢独来独往，可有时候又太孤独了，把自己想说却不知道跟谁说的话，写下来，发布到网上，这个过程让我心情愉悦，有助于释放孤独感。另外，我更愿意把写博客当作练习作文，记录某个时刻的所思所想，算是一件稍有难度的「娱乐活动」。&lt;/p>
+&lt;p>还有一个重要的理由，这个博客是我个人数字资产的一部分。通俗点说，就是我对这个博客有增删改查的自由，所有内容都是免费公开分享的，用浏览器就可以打开阅读。我把它们发布到互联网，网络爬虫想怎么爬就怎么爬，说不定还可以用作机器学习中文的分析数据。&lt;/p>
+&lt;p>另外，只要这个博客的链接还在，没准五年后，还会有人读到这些文字呢。如果 2027 年的你恰巧经过这里，我亲爱的陌生朋友，欢迎给我留言，我会告诉你一个我在 2022 年的秘密（这个秘密记在我 5 月 10 日的日记里）。&lt;/p>
+&lt;h2 id="为什么这篇文章的标题叫博客重启">为什么这篇文章的标题叫「博客重启」？&lt;/h2>
+&lt;p>惭愧。去年因为生活变动，基本没更新博客。现在生活慢慢稳定，我想这个博客还是得好好打理打理，毕竟这是我在互联网上唯一愿意活动的场所。一个院子如果不打理，一年也就荒废了，我想一个博客也是类似的。&lt;/p>
+&lt;p>至于重启，我并没有什么特别的计划。只是脑子里有一些想写的东西，我觉得应该把它们写下来，而不是停留在脑海中然后就忘了。希望今年可以多写一些内容。&lt;/p>
+&lt;h2 id="还有什么想说的">还有什么想说的？&lt;/h2>
+&lt;p>在这个博客上的所有留言我都有看到，我想对那些我没有回复留言的朋友们道个歉。你跟我打招呼，我没有回应，我感觉挺不礼貌的。哎，有些时候我确实不知道该回复什么，希望你能理解。祝好！&lt;/p></description></item><item><title>致谢</title><link>https://www.xianmin.org/acknowledgments/</link><pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/acknowledgments/</guid><description>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">打赏人&lt;/th>
+&lt;th style="text-align: left">金额&lt;/th>
+&lt;th style="text-align: left">留言&lt;/th>
+&lt;th style="text-align: left">日期&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">孤***&lt;/td>
+&lt;td style="text-align: left">10 元&lt;/td>
+&lt;td style="text-align: left">无意间搜到你的博客，陌生人加油&lt;/td>
+&lt;td style="text-align: left">2023-12-10&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">Xu*容&lt;/td>
+&lt;td style="text-align: left">100 元&lt;/td>
+&lt;td style="text-align: left">是结束，也是开始，那里是永远的白月光，你也是，谢谢你&lt;/td>
+&lt;td style="text-align: left">2022-01-24&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">w**t&lt;/td>
+&lt;td style="text-align: left">50 元&lt;/td>
+&lt;td style="text-align: left">小兄弟，路还长，当下和未来还需把握。&lt;/td>
+&lt;td style="text-align: left">2022-01-24&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">老*&lt;/td>
+&lt;td style="text-align: left">20 元&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">2022-01-24&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">John**&lt;/td>
+&lt;td style="text-align: left">10 元&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;td style="text-align: left">2022-01-24&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>（注： 该页面于 2022 年才添加到这个博客，在这之前的打赏记录，我查询不到了，非常抱歉！）&lt;/p>
+&lt;p>这个博客在每篇博文下面，都有一个「打赏」按钮，这几年来断断续续收到了一些朋友的打赏鼓励。我自知才疏学浅，有朋友愿意打赏，我感到很惭愧。可是这个「打赏」之后呢，又没有任何的反馈，让我更加不好意思了。估计打赏的朋友并不在乎这些，但我还是想做点什么。思来想去，决定单独设立这个「致谢」页面，放在网站的右上角，算是作为小小的互动，它将鞭策我继续创作。&lt;/p>
+&lt;p>因为这个页面需要我手动输入和编辑，所以我暂定几条规则：&lt;/p>
+&lt;ol>
+&lt;li>打赏 30 元及以上，我会在一周内主动把你的留言加入到列表中；&lt;/li>
+&lt;li>打赏 10 ~ 30 元，你可以在 &lt;a href="https://github.com/xianmin/xianmin.org/blob/master/content/acknowledgments.md">Github&lt;/a> 上自行添加；&lt;/li>
+&lt;li>打赏者可以在留言中加入广告和链接；&lt;/li>
+&lt;li>留言限 50 字以内，对于我不喜欢的留言，我有权删除；&lt;/li>
+&lt;li>以上几条规则未来可能会有变动，一切解释权归本人所有。&lt;/li>
+&lt;/ol></description></item><item><title>Windows 下，交换 Ctrl 键和 CapsLock 键</title><link>https://www.xianmin.org/post/2022/00-windows-swap-ctrl-and-capslock/</link><pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/00-windows-swap-ctrl-and-capslock/</guid><description>&lt;p>好久没更新博客了，水一篇，找点状态。&lt;/p>
+&lt;p>&lt;code>Ctrl&lt;/code> 键作为大部分软件的常用快捷按键，它在键盘上的位置是非常不合理的。而 &lt;code>CapsLock&lt;/code> 这个大写锁定键，不经常使用，却在键盘上占据了一个极佳的位置。在过去几年使用计算机的过程中，把 &lt;code>Ctrl&lt;/code> 和 &lt;code>CapsLock&lt;/code> 这两个按键的位置交换，极大的提升了我使用快捷键的舒适度和效率。&lt;/p>
+&lt;p>以下为使用 PowerShell 命令（需要以管理员身份运行）来交换这两个键的方式：&lt;/p>
+&lt;pre tabindex="0">&lt;code>$hexified = &amp;#34;00,00,00,00,00,00,00,00,03,00,00,00,1d,00,3a,00,3a,00,1d,00,00,00,00,00&amp;#34;.Split(&amp;#39;,&amp;#39;) | % { &amp;#34;0x$_&amp;#34;};
 $kbLayout = &amp;#39;HKLM:\System\CurrentControlSet\Control\Keyboard Layout&amp;#39;;
-
 New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyType Binary -Value ([byte[]]$hexified);
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;参考链接&#34;&gt;参考链接&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gist.github.com/joshschmelzle/5e88dabc71014d7427ff01bca3fed33d&#34;&gt;Remap Caps Lock to Control on Windows 10&lt;/a&gt; - 这个链接提供的信息是把 CapsLock 映射为 Ctrl ，而非交换。&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.jianshu.com/p/d14dd07c025c&#34;&gt;windows下交换ctrl和capslock - 简书&lt;/a&gt; - 这个链接是手动修改注册表，不太方便。&lt;/li&gt;
-&lt;/ul&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>别了，2021！</title>
-      <link>https://www.xianmin.org/post/goodbye-2021/</link>
-      <pubDate>Mon, 24 Jan 2022 06:21:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/goodbye-2021/</guid>
-      
-        <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2021/00.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2021/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;再过几个月，我将年满 30 周岁。在 30 周岁前，也就是 2021 年，我了结了一个在脑海中萦绕了很久的念想——骑着自行车去流浪，去了一些想去的地方，做了一些想做的事儿，这算是送给自己 30 周岁的礼物吧。&lt;/p&gt;
-&lt;h2 id=&#34;行程概要&#34;&gt;行程概要&lt;/h2&gt;
-&lt;p&gt;从 2021 年 4 月 26 日出发，到 10 月 24 日返程，历时半年，途经云南、西藏、四川、甘肃、青海，累计行程约有 5000 公里。这趟行程，我并没有明确的目的地，只是有几条想走的路线，有几个想去的地方，但没有具体的计划，走到哪儿算哪儿。起初，我没有想过自己是否会返回丽江，这个我工作生活了八年的地方。我不想有任何的牵绊，我希望自己是以一种完全自由的状态在世间流浪。所以我把我的狗带上了，它叫卡卡，六岁。我很难想象，如果把它丢下，我是否会在路上时常牵挂它，我只能把它带上。现在看来，这是多么明智的决定，它一路上给了我许多帮助，为这趟行程增添了许多欢乐，我俩也一起共同缔造了许多美好的回忆。&lt;/p&gt;
-&lt;p&gt;此次行程共有七个阶段：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;从丽江出发，过金沙江到维西县，沿澜沧江北上，翻越徳贡公路到丙中洛，沿怒江北上，走丙察察到察隅，再到然乌，与 318 国道会合。&lt;/li&gt;
-&lt;li&gt;之后，我并没有选择从 318 去拉萨，而是坐上了好友圆圆的车到了芒康。从芒康经贡觉县北上到了国道 317 ，再从 317 出了西藏，经江达、德格，抵达甘孜县，在甘孜县修整数日。&lt;/li&gt;
-&lt;li&gt;从甘孜县往东，经炉霍、马尔康，再往北到红原，穿过若尔盖草原，到朗木寺镇，修整数日。&lt;/li&gt;
-&lt;li&gt;从朗木寺镇，经夏河县进入青海，到同仁，坐上了好友茜茜的车，经西宁、乌兰、德令哈、柴旦木，抵达敦煌，在敦煌修整数日。&lt;/li&gt;
-&lt;li&gt;原本想从敦煌进入新疆，因疫情原因作罢。告别好友，从敦煌出发，沿着河西走廊一路往东，经玉门、嘉峪关、高台，到张掖。&lt;/li&gt;
-&lt;li&gt;从张掖一路往南，走 227 国道，翻越祁连山，经西宁、贵德，进入果洛藏族自治州，经玛沁、甘德，到达达日县，在达日县修整数日。&lt;/li&gt;
-&lt;li&gt;从达日继续往南，经班玛、色达、新龙、理塘，抵达稻城，在稻城坐上兄长老杨的车，返回出发地——丽江。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;当我写下以上文字，难免会有一些感慨，那些大江、雪山、草原、戈壁，经过的小镇、县城，可爱的人们，还有我与卡卡的种种经历，好像真实发生过，又仿佛是梦境、幻觉。&lt;/p&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2021/01.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2021/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2021/02.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2021/02.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2021/03.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2021/03.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2021/04.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2021/04.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;和过往作个了断&#34;&gt;和过往作个了断&lt;/h2&gt;
-&lt;p&gt;丽江白沙那里国际青年旅舍，这个我工作、生活了近 8 年的地方，要和它作个了断，并不容易，一方面因为太舒适了，另一方面待了这么多年，也有了深厚的感情。除了挣钱少点，但衣食无忧，每天还能与三两好友把酒言欢。前面说过，我不想在路上有牵绊，那自然也要割舍这份工作，和它作个了断。&lt;/p&gt;
-&lt;p&gt;这么多年下来，旅舍积累了太多的杂物，有一些是只用过几次就闲置在那儿了，有一些是客人留下的，还有一些是坏了但没舍得丢。我们的生活究竟有多少东西，是自己真正需要的呢？把旅舍清空，该丢弃的丢弃，该送人的送人。平时不舍得丢的，最后还是丢了。把自己真正需要的东西打包，也就是一箱杂物，一包衣服，还有三箱书。这么多年，全部家当，也就这些了。&lt;/p&gt;
-&lt;p&gt;事后看，自己所拥有的外在物质少（不论实体的，还是虚拟的），社会关系简单，还是有好处的，不会让我患得患失。这趟行程，家人那边，我没敢告诉他们，他们必然会过度担忧，那我在路上的心态就不可能平静了。我在出发前给自己买了保险，偶尔向我弟汇报一下行踪，每周正常和家人通一次电话。&lt;/p&gt;
-&lt;p&gt;旅舍关了之后，最对不起的是喜爱这个旅舍的朋友们。&lt;/p&gt;
-&lt;h2 id=&#34;心路比烂路难走&#34;&gt;心路比烂路难走&lt;/h2&gt;
-&lt;p&gt;有朋友问我，路上遇到最大的困难是什么？我当然明白他的意思，比如一些烂路就挺难走的，大货车多的路段就非常危险，有些地方水源、食物稀缺，然后我带着卡卡，一路有诸多不便。但这些困难都是可以克服的，或者找到解决办法，唯有自己的心路，太难走了。所谓心路，具体而言，感触最深的是，恐惧、孤独、空虚，还有自己的软弱。说到这儿，就得感谢卡卡了，它给予的帮助，更多的是精神上的鼓舞。&lt;/p&gt;
-&lt;p&gt;负重骑行，上坡基本上就只能下来推车，卡卡是一条天生会拉车的狗，并且喜欢拉车。它可卖命了，不知疲倦，我从它身上知道了什么是「不遗余力」。很多次我都累得不行了，它也累得不行了，在路旁休息十几分钟再继续走，我望着山上盘延曲折的公路感到有些泄气，而卡卡呢，每一次出发都打足了精神，先吼上几嗓子，依旧鼓足了劲拉车，每一次都让我忍不住笑了，我也有力气继续推车了。很多时候是这样的，当遇到困难，如果有同伴相互鼓励，共同面对，我们也就更有毅力坚持下去。而如果只是自己一个人，对个人的要求，则要高的多。&lt;/p&gt;
-&lt;p&gt;在翻越徳贡公路的时候，我没法在一天之内到达垭口。下午在半山腰，正好发现了一间闲置的小木屋，我就决定在此过一夜，第二天再翻山。这间小木屋距离山下最近的村子约有 5 km ，它应该是某个农夫修建的，作为山上的一个歇脚点。那是一个风雨交加的夜晚，刚入夜，差不多八点半，我就早早睡了，早睡的原因就是不想经历对黑夜的恐惧，可越怕什么，它就越是要出现。屋顶是铁皮搭的，在风吹雨打下哐当作响，我睡的迷迷糊糊。不知几点，卡卡边哼唧边挠帐篷，我感觉它可能有些害怕，我安抚它，让它平静，告诉它我在这儿。这是个多么漆黑的夜啊，什么也看不见，我想卡卡可能是因为看不见我，以为我消失了。可是它的恐惧，也升起了我心里的恐惧。我不敢开灯，我担忧黑暗里的一点光，就成了这片深山老林里的焦点，我不想成为焦点。我只能静静地听，除了风声雨声，还有各种千奇百怪的声音，大部分是虫子发出的，它们在夜里都活跃起来，可有些声音，分辨不出是什么。我难以入眠，只能默默祈祷。这是一个难忘的夜晚，在恐惧中度过的。&lt;/p&gt;
-&lt;p&gt;恐惧应该是人类的一种原始本能，在野外露营，恐惧感就强烈一些，而在村子附近明显就弱一些。而有狗的陪伴，也能增加自己的胆量。随着在旅途中逐渐适应，慢慢也就能和恐惧共处了。&lt;/p&gt;
-&lt;p&gt;这趟旅程的绝大多数时光，只有我和卡卡相依相伴，偶有认识新的朋友，也不过就是短暂的相逢。我是享受孤独的。我会选择在公路旁一座废弃的房子停留数日，也会在环境优美的林地小溪边逗留好几天，远离一切喧嚣。可这样的生活，并非总是那么岁月静好。在一个地方停留，偶有感到无聊的时候。无聊，心就乱了，不知道做什么。在路上骑行的时候，不会想那么多，每天只管不断前行就是了。可一旦停下来，闲下来，欲望就来了，想喝酒，想姑娘，怀念往昔，想去工作，忧虑明天。大部分时候，我会看看书，听一听梁文道的节目，或者听一听《金刚经》，让自己静下来。如果实在控制不住胡思乱想，我知道我又该继续上路了。每一次出发，都会重拾在路上的喜悦。自由啊，是那么的美妙。&lt;/p&gt;
-&lt;p&gt;在一个人旅途中，就是这样一次又一次的重新认识自己。&lt;/p&gt;
-&lt;p&gt;
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2021/05.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2021/05.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2021/06.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2021/06.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2021/07.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2021/07.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2021/08.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2021/08.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;在漂泊中做事-太难了&#34;&gt;在漂泊中做事，太难了&lt;/h2&gt;
-&lt;p&gt;我也有考虑拍点视频，记录生活，但剪辑就有些麻烦。尤其是一整天骑行之后，身体非常的疲惫，这时候什么事情也不想做，只想早点休息。在路上时间久了，会感到审美疲劳，见过了最美的风景，再看一般的美景，无动于衷，照片都懒的拍了。&lt;/p&gt;
-&lt;p&gt;也想过，在旅途中，更新一下博客，可终究还是太懒了。一个借口就是，要有个安稳的环境，没有安稳的环境，总是忧心忡忡。这也是后来为什么想回云南了吧。&lt;/p&gt;
-&lt;p&gt;在流浪的这半年时间里，我没有任何收入，用的都是积蓄。我很清楚，现实问题是无法回避的，我终究还是要解决生存问题，否则这样的状态是不可能持续的。我也考虑过，在一个小城，租个房子，打打零工，攒些路费再继续上路。任何一次选择，都会引向不同的人生轨迹。就好比在每一个岔路口，当我选择直行，就必然要舍弃其他方向的风景，我们不可能把每条路都走一遍。&lt;/p&gt;
-&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
-&lt;p&gt;孔子在两千多年前就说过，三十而立，可是这个「立」，立的是什么呢？我审视了一下自己，似乎没什么立的住的，物质上是空的，既没房子也没事业，更无伴侣，精神上摇摆不定。不知不觉，我的人生就过去了三十年，回想起来，这算是一个重要的人生节点，经过了学校里的学习、社会上的历练，我多少也该对自己、对世界有了初步的认识。而人这一生，或许就是认识自己、认识世界的一个过程。&lt;/p&gt;
-&lt;p&gt;在 2021 这一年，我做了一件一直想做的事，但在工作上，一无所获，专业知识方面，没有任何的进步。我又一次走到了人生的岔路口。也许我可以畅想一下，下一个十年，也就是到我四十岁的时候，我希望自己完成哪些事情，在什么地方，做什么工作，过着怎样的生活。一切都是有可能的，不是吗？&lt;/p&gt;
-&lt;p&gt;未来的路依旧漫长，愿每一次出发都充满挑战，愿你在每一个挑战面前都敢于面对。&lt;/p&gt;
-&lt;h2 id=&#34;后记&#34;&gt;后记&lt;/h2&gt;
-&lt;p&gt;关于单车旅行、流浪，的确有许多见闻和经验是值得分享，也是我想要分享的。只是很惭愧，自身的状态总是不够稳定，好的习惯又常常不能坚持。不过大体而言，除了有些想做的事没能做到，我的心理状况、身体状况都还不错。这个博客终于更新了！这个博主又回来了！谢谢你的关注！&lt;/p&gt;
-&lt;p&gt;对于这篇总结，我挺不满意的。不过完成比完美重要，只能这么安慰自己了。&lt;/p&gt;
-&lt;p&gt;祝你新年快乐！&lt;/p&gt;
-&lt;p&gt;
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2021/09.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2021/09.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2021/10.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2021/10.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2021/11.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2021/11.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-&lt;/p&gt;</description>
-      
-    </item>
-    
-  </channel>
-</rss>
+&lt;/code>&lt;/pre>&lt;h2 id="参考链接">参考链接&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://gist.github.com/joshschmelzle/5e88dabc71014d7427ff01bca3fed33d">Remap Caps Lock to Control on Windows 10&lt;/a> - 这个链接提供的信息是把 CapsLock 映射为 Ctrl ，而非交换。&lt;/li>
+&lt;li>&lt;a href="https://www.jianshu.com/p/d14dd07c025c">windows下交换ctrl和capslock - 简书&lt;/a> - 这个链接是手动修改注册表，不太方便。&lt;/li>
+&lt;/ul></description></item><item><title>别了，2021！</title><link>https://www.xianmin.org/post/goodbye-2021/</link><pubDate>Mon, 24 Jan 2022 06:21:00 +0800</pubDate><guid>https://www.xianmin.org/post/goodbye-2021/</guid><description>&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2021/00.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2021/00.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;p>再过几个月，我将年满 30 周岁。在 30 周岁前，也就是 2021 年，我了结了一个在脑海中萦绕了很久的念想——骑着自行车去流浪，去了一些想去的地方，做了一些想做的事儿，这算是送给自己 30 周岁的礼物吧。&lt;/p>
+&lt;h2 id="行程概要">行程概要&lt;/h2>
+&lt;p>从 2021 年 4 月 26 日出发，到 10 月 24 日返程，历时半年，途经云南、西藏、四川、甘肃、青海，累计行程约有 5000 公里。这趟行程，我并没有明确的目的地，只是有几条想走的路线，有几个想去的地方，但没有具体的计划，走到哪儿算哪儿。起初，我没有想过自己是否会返回丽江，这个我工作生活了八年的地方。我不想有任何的牵绊，我希望自己是以一种完全自由的状态在世间流浪。所以我把我的狗带上了，它叫卡卡，六岁。我很难想象，如果把它丢下，我是否会在路上时常牵挂它，我只能把它带上。现在看来，这是多么明智的决定，它一路上给了我许多帮助，为这趟行程增添了许多欢乐，我俩也一起共同缔造了许多美好的回忆。&lt;/p>
+&lt;p>此次行程共有七个阶段：&lt;/p>
+&lt;ol>
+&lt;li>从丽江出发，过金沙江到维西县，沿澜沧江北上，翻越徳贡公路到丙中洛，沿怒江北上，走丙察察到察隅，再到然乌，与 318 国道会合。&lt;/li>
+&lt;li>之后，我并没有选择从 318 去拉萨，而是坐上了好友圆圆的车到了芒康。从芒康经贡觉县北上到了国道 317 ，再从 317 出了西藏，经江达、德格，抵达甘孜县，在甘孜县修整数日。&lt;/li>
+&lt;li>从甘孜县往东，经炉霍、马尔康，再往北到红原，穿过若尔盖草原，到朗木寺镇，修整数日。&lt;/li>
+&lt;li>从朗木寺镇，经夏河县进入青海，到同仁，坐上了好友茜茜的车，经西宁、乌兰、德令哈、柴旦木，抵达敦煌，在敦煌修整数日。&lt;/li>
+&lt;li>原本想从敦煌进入新疆，因疫情原因作罢。告别好友，从敦煌出发，沿着河西走廊一路往东，经玉门、嘉峪关、高台，到张掖。&lt;/li>
+&lt;li>从张掖一路往南，走 227 国道，翻越祁连山，经西宁、贵德，进入果洛藏族自治州，经玛沁、甘德，到达达日县，在达日县修整数日。&lt;/li>
+&lt;li>从达日继续往南，经班玛、色达、新龙、理塘，抵达稻城，在稻城坐上兄长老杨的车，返回出发地——丽江。&lt;/li>
+&lt;/ol>
+&lt;p>当我写下以上文字，难免会有一些感慨，那些大江、雪山、草原、戈壁，经过的小镇、县城，可爱的人们，还有我与卡卡的种种经历，好像真实发生过，又仿佛是梦境、幻觉。&lt;/p>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2021/01.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2021/01.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;p>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2021/02.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2021/02.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2021/03.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2021/03.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2021/04.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2021/04.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="和过往作个了断">和过往作个了断&lt;/h2>
+&lt;p>丽江白沙那里国际青年旅舍，这个我工作、生活了近 8 年的地方，要和它作个了断，并不容易，一方面因为太舒适了，另一方面待了这么多年，也有了深厚的感情。除了挣钱少点，但衣食无忧，每天还能与三两好友把酒言欢。前面说过，我不想在路上有牵绊，那自然也要割舍这份工作，和它作个了断。&lt;/p>
+&lt;p>这么多年下来，旅舍积累了太多的杂物，有一些是只用过几次就闲置在那儿了，有一些是客人留下的，还有一些是坏了但没舍得丢。我们的生活究竟有多少东西，是自己真正需要的呢？把旅舍清空，该丢弃的丢弃，该送人的送人。平时不舍得丢的，最后还是丢了。把自己真正需要的东西打包，也就是一箱杂物，一包衣服，还有三箱书。这么多年，全部家当，也就这些了。&lt;/p>
+&lt;p>事后看，自己所拥有的外在物质少（不论实体的，还是虚拟的），社会关系简单，还是有好处的，不会让我患得患失。这趟行程，家人那边，我没敢告诉他们，他们必然会过度担忧，那我在路上的心态就不可能平静了。我在出发前给自己买了保险，偶尔向我弟汇报一下行踪，每周正常和家人通一次电话。&lt;/p>
+&lt;p>旅舍关了之后，最对不起的是喜爱这个旅舍的朋友们。&lt;/p>
+&lt;h2 id="心路比烂路难走">心路比烂路难走&lt;/h2>
+&lt;p>有朋友问我，路上遇到最大的困难是什么？我当然明白他的意思，比如一些烂路就挺难走的，大货车多的路段就非常危险，有些地方水源、食物稀缺，然后我带着卡卡，一路有诸多不便。但这些困难都是可以克服的，或者找到解决办法，唯有自己的心路，太难走了。所谓心路，具体而言，感触最深的是，恐惧、孤独、空虚，还有自己的软弱。说到这儿，就得感谢卡卡了，它给予的帮助，更多的是精神上的鼓舞。&lt;/p>
+&lt;p>负重骑行，上坡基本上就只能下来推车，卡卡是一条天生会拉车的狗，并且喜欢拉车。它可卖命了，不知疲倦，我从它身上知道了什么是「不遗余力」。很多次我都累得不行了，它也累得不行了，在路旁休息十几分钟再继续走，我望着山上盘延曲折的公路感到有些泄气，而卡卡呢，每一次出发都打足了精神，先吼上几嗓子，依旧鼓足了劲拉车，每一次都让我忍不住笑了，我也有力气继续推车了。很多时候是这样的，当遇到困难，如果有同伴相互鼓励，共同面对，我们也就更有毅力坚持下去。而如果只是自己一个人，对个人的要求，则要高的多。&lt;/p>
+&lt;p>在翻越徳贡公路的时候，我没法在一天之内到达垭口。下午在半山腰，正好发现了一间闲置的小木屋，我就决定在此过一夜，第二天再翻山。这间小木屋距离山下最近的村子约有 5 km ，它应该是某个农夫修建的，作为山上的一个歇脚点。那是一个风雨交加的夜晚，刚入夜，差不多八点半，我就早早睡了，早睡的原因就是不想经历对黑夜的恐惧，可越怕什么，它就越是要出现。屋顶是铁皮搭的，在风吹雨打下哐当作响，我睡的迷迷糊糊。不知几点，卡卡边哼唧边挠帐篷，我感觉它可能有些害怕，我安抚它，让它平静，告诉它我在这儿。这是个多么漆黑的夜啊，什么也看不见，我想卡卡可能是因为看不见我，以为我消失了。可是它的恐惧，也升起了我心里的恐惧。我不敢开灯，我担忧黑暗里的一点光，就成了这片深山老林里的焦点，我不想成为焦点。我只能静静地听，除了风声雨声，还有各种千奇百怪的声音，大部分是虫子发出的，它们在夜里都活跃起来，可有些声音，分辨不出是什么。我难以入眠，只能默默祈祷。这是一个难忘的夜晚，在恐惧中度过的。&lt;/p>
+&lt;p>恐惧应该是人类的一种原始本能，在野外露营，恐惧感就强烈一些，而在村子附近明显就弱一些。而有狗的陪伴，也能增加自己的胆量。随着在旅途中逐渐适应，慢慢也就能和恐惧共处了。&lt;/p>
+&lt;p>这趟旅程的绝大多数时光，只有我和卡卡相依相伴，偶有认识新的朋友，也不过就是短暂的相逢。我是享受孤独的。我会选择在公路旁一座废弃的房子停留数日，也会在环境优美的林地小溪边逗留好几天，远离一切喧嚣。可这样的生活，并非总是那么岁月静好。在一个地方停留，偶有感到无聊的时候。无聊，心就乱了，不知道做什么。在路上骑行的时候，不会想那么多，每天只管不断前行就是了。可一旦停下来，闲下来，欲望就来了，想喝酒，想姑娘，怀念往昔，想去工作，忧虑明天。大部分时候，我会看看书，听一听梁文道的节目，或者听一听《金刚经》，让自己静下来。如果实在控制不住胡思乱想，我知道我又该继续上路了。每一次出发，都会重拾在路上的喜悦。自由啊，是那么的美妙。&lt;/p>
+&lt;p>在一个人旅途中，就是这样一次又一次的重新认识自己。&lt;/p>
+&lt;p>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2021/05.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2021/05.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2021/06.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2021/06.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2021/07.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2021/07.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2021/08.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2021/08.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;/p>
+&lt;h2 id="在漂泊中做事-太难了">在漂泊中做事，太难了&lt;/h2>
+&lt;p>我也有考虑拍点视频，记录生活，但剪辑就有些麻烦。尤其是一整天骑行之后，身体非常的疲惫，这时候什么事情也不想做，只想早点休息。在路上时间久了，会感到审美疲劳，见过了最美的风景，再看一般的美景，无动于衷，照片都懒的拍了。&lt;/p>
+&lt;p>也想过，在旅途中，更新一下博客，可终究还是太懒了。一个借口就是，要有个安稳的环境，没有安稳的环境，总是忧心忡忡。这也是后来为什么想回云南了吧。&lt;/p>
+&lt;p>在流浪的这半年时间里，我没有任何收入，用的都是积蓄。我很清楚，现实问题是无法回避的，我终究还是要解决生存问题，否则这样的状态是不可能持续的。我也考虑过，在一个小城，租个房子，打打零工，攒些路费再继续上路。任何一次选择，都会引向不同的人生轨迹。就好比在每一个岔路口，当我选择直行，就必然要舍弃其他方向的风景，我们不可能把每条路都走一遍。&lt;/p>
+&lt;h2 id="结语">结语&lt;/h2>
+&lt;p>孔子在两千多年前就说过，三十而立，可是这个「立」，立的是什么呢？我审视了一下自己，似乎没什么立的住的，物质上是空的，既没房子也没事业，更无伴侣，精神上摇摆不定。不知不觉，我的人生就过去了三十年，回想起来，这算是一个重要的人生节点，经过了学校里的学习、社会上的历练，我多少也该对自己、对世界有了初步的认识。而人这一生，或许就是认识自己、认识世界的一个过程。&lt;/p>
+&lt;p>在 2021 这一年，我做了一件一直想做的事，但在工作上，一无所获，专业知识方面，没有任何的进步。我又一次走到了人生的岔路口。也许我可以畅想一下，下一个十年，也就是到我四十岁的时候，我希望自己完成哪些事情，在什么地方，做什么工作，过着怎样的生活。一切都是有可能的，不是吗？&lt;/p>
+&lt;p>未来的路依旧漫长，愿每一次出发都充满挑战，愿你在每一个挑战面前都敢于面对。&lt;/p>
+&lt;h2 id="后记">后记&lt;/h2>
+&lt;p>关于单车旅行、流浪，的确有许多见闻和经验是值得分享，也是我想要分享的。只是很惭愧，自身的状态总是不够稳定，好的习惯又常常不能坚持。不过大体而言，除了有些想做的事没能做到，我的心理状况、身体状况都还不错。这个博客终于更新了！这个博主又回来了！谢谢你的关注！&lt;/p>
+&lt;p>对于这篇总结，我挺不满意的。不过完成比完美重要，只能这么安慰自己了。&lt;/p>
+&lt;p>祝你新年快乐！&lt;/p>
+&lt;p>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2021/09.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2021/09.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2021/10.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2021/10.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+itemscope itemtype="http://schema.org/ImageObject" >
+&lt;div class="img">
+&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2021/11.jpg" />
+&lt;/div>
+&lt;a href="https://www.xianmin.org/image/memory/2021/11.jpg" itemprop="contentUrl">&lt;/a>
+&lt;/figure>
+&lt;/div>
+&lt;/p></description></item></channel></rss>

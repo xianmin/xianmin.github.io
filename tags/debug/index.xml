@@ -1,47 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>debug on 贤民的博客</title>
-    <link>https://www.xianmin.org/tags/debug/</link>
-    <description>Recent content in debug on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 01 Feb 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/debug/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>记录一次 Debug Windows 蓝屏 BSOD 修复</title>
-      <link>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</link>
-      <pubDate>Thu, 01 Feb 2024 14:20:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</guid>
-      <description>&lt;p&gt;上个月，我为我的笔记本电脑 ThinkPad T480 加装了一块 1T 硬盘，升级了内存条到 64G 。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Debug on 贤民的博客</title><link>https://www.xianmin.org/tags/debug/</link><description>Recent content in Debug on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 01 Feb 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/debug/index.xml" rel="self" type="application/rss+xml"/><item><title>记录一次 Debug Windows 蓝屏 BSOD 修复</title><link>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</link><pubDate>Thu, 01 Feb 2024 14:20:00 +0800</pubDate><guid>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</guid><description>&lt;p>上个月，我为我的笔记本电脑 ThinkPad T480 加装了一块 1T 硬盘，升级了内存条到 64G 。
 之后电脑也是正常运行的，但不确定从什么时候开始，系统出现蓝屏了。
 最开始出现蓝屏，重启就好了，我不知道是什么原因，也没在意。
 后来发现，每次只要电脑从深度睡眠状态启动恢复，系统就会出现蓝屏，但进入到系统后，运行时又是正常的。
-屏幕上的终止代码有以下三种： &lt;code&gt;MEMORY_MANAGEMENT&lt;/code&gt;, &lt;code&gt;IRQL_NOT_LESS_OR_EQUAL&lt;/code&gt;, &lt;code&gt;PFN_LIST_CORRUPT&lt;/code&gt; 。&lt;/p&gt;
+屏幕上的终止代码有以下三种： &lt;code>MEMORY_MANAGEMENT&lt;/code>, &lt;code>IRQL_NOT_LESS_OR_EQUAL&lt;/code>, &lt;code>PFN_LIST_CORRUPT&lt;/code> 。&lt;/p>
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/debug-windows-bsod.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/debug-windows-bsod.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;debug windows bsod&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>小技巧 debug 网页 css overflow ，避免出现底部滚动条</title>
-      <link>https://www.xianmin.org/post/2022/05-debug-css-x-overflow/</link>
-      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/05-debug-css-x-overflow/</guid>
-      <description>&lt;p&gt;一般而言，绝大多数网页都是纵向滚动的，很少有横向滚动的网页。如果一个正常纵向滚动的网页，在浏览器的底部出现了滚动条，是因为这个网页的宽度超出了屏幕宽度。这种情况很多时候并非网站设计者的初衷，而是由于写错了 css 样式。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://qa.mathcrowd.cn/challenges&#34;&gt;趣味数学题 - 橘子数学社区 - 趣题挑战&lt;/a&gt; 原本有这个问题，之后被我解决了。一开始的解决方法比较笨，就是用 Chrome 的开发者工具，一个一个检查元素，看看是哪个元素溢出了。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/debug-windows-bsod.jpg" />
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/other/debug-windows-bsod.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;figcaption>&lt;h4>debug windows bsod&lt;/h4>
+ &lt;/figcaption>
+ &lt;/figure>
+&lt;/div></description></item><item><title>小技巧 debug 网页 css overflow ，避免出现底部滚动条</title><link>https://www.xianmin.org/post/2022/05-debug-css-x-overflow/</link><pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/05-debug-css-x-overflow/</guid><description>&lt;p>一般而言，绝大多数网页都是纵向滚动的，很少有横向滚动的网页。如果一个正常纵向滚动的网页，在浏览器的底部出现了滚动条，是因为这个网页的宽度超出了屏幕宽度。这种情况很多时候并非网站设计者的初衷，而是由于写错了 css 样式。&lt;/p>
+&lt;p>&lt;a href="https://qa.mathcrowd.cn/challenges">趣味数学题 - 橘子数学社区 - 趣题挑战&lt;/a> 原本有这个问题，之后被我解决了。一开始的解决方法比较笨，就是用 Chrome 的开发者工具，一个一个检查元素，看看是哪个元素溢出了。&lt;/p></description></item></channel></rss>

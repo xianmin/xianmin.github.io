@@ -1,695 +1,101 @@
-<!DOCTYPE html>
-<html
-  lang="zh-cn"
-  itemscope
-  itemtype="http://schema.org/WebPage"
->
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>
-          博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo - 贤民的博客
-        </title>
-    
-
-<meta name="renderer" content="webkit" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
-
-<meta name="MobileOptimized" content="width"/>
-<meta name="HandheldFriendly" content="true"/>
-
-
-<meta name="applicable-device" content="pc,mobile">
-
-<meta name="theme-color" content="#f8f5ec" />
-<meta name="msapplication-navbutton-color" content="#f8f5ec">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
-
-<meta name="mobile-web-app-capable" content="yes">
-
-<meta name="author" content="贤民" />
-  <meta name="description" content="本文将对我个人的博文写作流程 所用到的工具 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode &amp;amp; hugo ，另外还有两个配合 hugo 的辅助包 easy-hugo （可选） &amp;amp; ox-hugo 。
- hugo : https://gohugo.io/ orgmode : https://orgmode.org/ ox-hugo : https://ox-hugo.scripter.co/ easy-hygo : https://github.com/masasam/emacs-easy-hugo " />
-
-  <meta name="keywords" content="linux, emacs, program, journal, 贤民, 博客, 笔记" />
-
-
-
-
-
-
-<meta name="generator" content="Hugo 0.99.1" />
-
-
-<link rel="canonical" href="https://www.xianmin.org/post/ox-hugo/" />
-
-
-
-
-
-<link rel="icon" href="/favicon.ico" />
-
-
-
-
-
-
-
-
-
-
-
-<link rel="stylesheet" href="/sass/jane.min.d8d87b982993a745e5e7b6a6cbf257be8c3e82aab5e485f0908ad7e6c3501ab2.css" integrity="sha256-2Nh7mCmTp0Xl57amy/JXvow&#43;gqq15IXwkIrX5sNQGrI=" media="screen" crossorigin="anonymous">
-
-
-
-
-
-
-<link rel="stylesheet" href="/css/custom.css">
-
-
-<meta property="og:title" content="博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo" />
-<meta property="og:description" content="本文将对我个人的博文写作流程 所用到的工具 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode &amp; hugo ，另外还有两个配合 hugo 的辅助包 easy-hugo （可选） &amp; ox-hugo 。
-
-hugo : https://gohugo.io/
-orgmode : https://orgmode.org/
-ox-hugo : https://ox-hugo.scripter.co/
-easy-hygo : https://github.com/masasam/emacs-easy-hugo
-" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.xianmin.org/post/ox-hugo/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2018-03-31T00:00:00+00:00" />
-<meta property="article:modified_time" content="2018-03-31T18:19:26+08:00" />
-
-<meta itemprop="name" content="博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo">
-<meta itemprop="description" content="本文将对我个人的博文写作流程 所用到的工具 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode &amp; hugo ，另外还有两个配合 hugo 的辅助包 easy-hugo （可选） &amp; ox-hugo 。
-
-hugo : https://gohugo.io/
-orgmode : https://orgmode.org/
-ox-hugo : https://ox-hugo.scripter.co/
-easy-hygo : https://github.com/masasam/emacs-easy-hugo
-"><meta itemprop="datePublished" content="2018-03-31T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2018-03-31T18:19:26+08:00" />
-<meta itemprop="wordCount" content="2081">
-<meta itemprop="keywords" content="emacs,editor,orgmode,hugo,写作,tool,博客," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo"/>
-<meta name="twitter:description" content="本文将对我个人的博文写作流程 所用到的工具 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode &amp; hugo ，另外还有两个配合 hugo 的辅助包 easy-hugo （可选） &amp; ox-hugo 。
-
-hugo : https://gohugo.io/
-orgmode : https://orgmode.org/
-ox-hugo : https://ox-hugo.scripter.co/
-easy-hygo : https://github.com/masasam/emacs-easy-hugo
-"/>
-
-<!--[if lte IE 9]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-<![endif]-->
-
-<!--[if lt IE 9]>
-  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-<![endif]-->
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4SFSR6JRVT"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-4SFSR6JRVT', { 'anonymize_ip': false });
-}
-</script>
-
-
-
-  </head>
-  <body>
-    <div id="back-to-top"></div>
-
-    <div id="mobile-navbar" class="mobile-navbar">
-  <div class="mobile-header-logo">
-    <a href="/" class="logo">贤民的博客</a>
-  </div>
-  <div class="mobile-navbar-icon">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div>
-<nav id="mobile-menu" class="mobile-menu slideout-menu">
-  <ul class="mobile-menu-list">
-    <li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://www.xianmin.org/">主页</a>
-          
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://www.xianmin.org/post/">全部文章</a>
-          
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://www.xianmin.org/tags/">标签</a>
-          
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://www.xianmin.org/categories/">分类</a>
-          
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://www.xianmin.org/about/">关于</a>
-          
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://www.xianmin.org/acknowledgments/">致谢</a>
-          
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://www.xianmin.org/index.xml">订阅</a>
-          
-        
-      </li>
-    
-
-    
-      <li class="mobile-menu-item">
-        <a id="openSearchMobile" class="mobile-menu-item-link menu-item-search" href="#">
-          <i class="iconfont">
-            <svg version="1.1" viewBox="0 0 1024 1024"
-  xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M973.81454219 973.81454219a91.78207815 91.78207815 0 0 1-129.80999631 0l-161.97482118-161.97482118a425.48527711 425.48527711 0 0 1-230.35931791 68.16531768 428.3346319 428.3346319 0 1 1 428.3346319-428.3346319 425.48527711 425.48527711 0 0 1-68.16531768 230.35931791l162.02961656 161.97482118a91.83687354 91.83687354 0 0 1-0.05479538 129.80999631zM451.67040679 145.69361559a305.97679241 305.97679241 0 1 0 0 611.95358361 305.97679241 305.97679241 0 0 0 0-611.95358361z">
-  </path>
-</svg>
-
-          </i>
-        </a>
-      </li>
-    
-  </ul>
-</nav>
-
-
-    
-      
-
-
-
-
-
-
-  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
-  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
-
-
-
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-<div class="pswp__bg"></div>
-
-<div class="pswp__scroll-wrap">
-    
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
-    
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
-
-    
-
-    
-      
-<div class="modal-dialog">
-    
-    <div class="modal-content">
-      <div id="closeSearch" title="Close" class="close">X</div>
-      <div class="modal-header">
-        <div class="modal-title">Search</div>
-      </div>
-      <div class="modal-body">
-          <script>
-            (function() {
-              var cx = '002186711602136249422:q1gkomof_em';
-              var gcse = document.createElement('script');
-              gcse.type = 'text/javascript';
-              gcse.async = true;
-              gcse.src = (document.location.protocol == 'https:' ? 'https:' :
-                  'http:') +
-                '//cse.google.com/cse.js?cx=' + cx;
-              var s = document.getElementsByTagName('script')[0];
-              s.parentNode.insertBefore(gcse, s);
-            })();
-          </script>
-          <gcse:search></gcse:search>
-      </div>
-    </div>
-</div>
-
-    
-
-    
-
-
-    <header id="header" class="header">
-      <div class="logo-wrapper">
-  <a href="/" class="logo">
-    
-      贤民的博客
-    
-  </a>
-</div>
-
-<nav class="site-navbar">
-  <ul id="menu" class="menu">
-    
-    
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://www.xianmin.org/">主页</a>
-          
-
-        
-
-      </li>
-    
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://www.xianmin.org/post/">全部文章</a>
-          
-
-        
-
-      </li>
-    
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://www.xianmin.org/tags/">标签</a>
-          
-
-        
-
-      </li>
-    
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://www.xianmin.org/categories/">分类</a>
-          
-
-        
-
-      </li>
-    
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://www.xianmin.org/about/">关于</a>
-          
-
-        
-
-      </li>
-    
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://www.xianmin.org/acknowledgments/">致谢</a>
-          
-
-        
-
-      </li>
-    
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://www.xianmin.org/index.xml">订阅</a>
-          
-
-        
-
-      </li>
-    
-
-    
-    
-
-    
-      <li class="menu-item">
-        <a id="openSearch" class="menu-item-link menu-item-search" href="#">
-          <i class="iconfont">
-            <svg version="1.1" viewBox="0 0 1024 1024"
-  xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M973.81454219 973.81454219a91.78207815 91.78207815 0 0 1-129.80999631 0l-161.97482118-161.97482118a425.48527711 425.48527711 0 0 1-230.35931791 68.16531768 428.3346319 428.3346319 0 1 1 428.3346319-428.3346319 425.48527711 425.48527711 0 0 1-68.16531768 230.35931791l162.02961656 161.97482118a91.83687354 91.83687354 0 0 1-0.05479538 129.80999631zM451.67040679 145.69361559a305.97679241 305.97679241 0 1 0 0 611.95358361 305.97679241 305.97679241 0 0 0 0-611.95358361z">
-  </path>
-</svg>
-
-          </i>
-        </a>
-      </li>
-    
-  </ul>
-</nav>
-
-    </header>
-
-    <div id="mobile-panel">
-      <main id="main" class="main bg-llight wallpaper">
-        <div class="content-wrapper">
-    <div id="content" class="content">
-      <article class="post">
-        
-        <header class="post-header">
-          <h1 class="post-title">博客写作流程之工具篇： emacs, orgmode, hugo &amp; ox-hugo</h1>
-          
-
-          <div class="post-meta">
-  <div class="post-meta-author">
-    by
-      <a href="/about">
-        <span class="post-meta-author-name">
-          贤民
-        </span>
-      </a>
-    
-  </div>
-
-  <div class="post-meta-time">
-    <time datetime="2018-03-31">
-      2018-03-31
-    </time>
-  </div>
-
-  
-
-
-  <div class="post-meta__right">
-    
-
-    <div class="post-meta-category">
-        <a href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"> 计算机 </a>
-          
-      </div>
-
-
-    
-    
-
-
-    
-    
-  </div>
-</div>
-
-        </header>
-
-        
-        <div class="post-content">
-          <p>本文将对我个人的博文写作流程 <strong>所用到的工具</strong> 做一个总结与分享。从标题就可以看出来，主要有这几个工具： <code>emacs</code>, <code>orgmode</code> &amp; <code>hugo</code> ，另外还有两个配合 <code>hugo</code> 的辅助包 <code>easy-hugo</code> （可选） &amp; <code>ox-hugo</code> 。</p>
-<ul>
-<li><code>hugo</code> : <a href="https://gohugo.io/">https://gohugo.io/</a></li>
-<li><code>orgmode</code> : <a href="https://orgmode.org/">https://orgmode.org/</a></li>
-<li><code>ox-hugo</code> : <a href="https://ox-hugo.scripter.co/">https://ox-hugo.scripter.co/</a></li>
-<li><code>easy-hygo</code> : <a href="https://github.com/masasam/emacs-easy-hugo">https://github.com/masasam/emacs-easy-hugo</a></li>
-</ul>
-<h2 id="自问自答">自问自答</h2>
-<h3 id="问-为什么写这篇文章">问： 为什么写这篇文章？</h3>
-<p>答： 中文搜索居然搜索不到一篇有关 <code>ox-hugo</code> 的内容。</p>
-<h3 id="问-这篇文章主要解决什么问题">问： 这篇文章主要解决什么问题？</h3>
-<p>答： orgmode 配合 hugo 来写作、发布、管理博文的一种便捷方案。</p>
-<h3 id="问-为什么用-emacs-和-orgmode">问： 为什么用 emacs 和 orgmode ？</h3>
-<p>答： 谁让我当年入了 emacs 和 orgmode 的「坑」 😂 ，这只是习惯而已。这俩工具还是需要一定的学习成本的，因此，本文对不熟悉 emacs 和 orgmode，或者使用其它编辑器的用户没多大帮助，但多少可以了解一下。</p>
-<h3 id="问-为什么用-hugo">问： 为什么用 hugo ？</h3>
-<p>答： 最开始只是因为 hugo 原生支持 orgmode ，事后来看，其实支持的不是很好，但是 ox-hugo 解决了用 orgmode 写博文的问题。当然还有一点，在生成静态网站的诸多工具（如 jekyll, hexo 等等）中，我发现 hugo 的安装是最便捷的，只需要下载一个二进制文件直接安装就能用了，而其它工具却总要安装一些别的依赖。网上还有种说法是 hugo 的网站生成速度是最快的，这个我没测试过，也不太确定。</p>
-<h2 id="发布博文的一般流程">发布博文的一般流程</h2>
-<ol>
-<li>创建一个 orgmode heading 作为博文标题；</li>
-<li>写文章（废话）；</li>
-<li>使用 ox-hugo 生成 markdown 文件；</li>
-<li>使用 easy-hugo 预览；</li>
-<li>发布（废话）。</li>
-</ol>
-<p>如前文所说，如果你不熟悉 emacs 和 orgmode ，一定会觉得这个流程好麻烦，何必用这些工具，把写作这回事儿弄得复杂了。我下面会对这个流程进行补充说明，并阐述它们的优点。</p>
-<h2 id="创建博文">创建博文</h2>
-<p>正常我们使用 hugo 是怎样创建一篇新博文的呢？在命令行下，敲击命令 <code>hugo new posts/my-first-post.md</code> ，然后用自己熟悉的编辑器编辑这个文件。这个文件的头部包含我们这篇文章的一些基本信息，比如像这样：</p>
-<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-1">1</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-2">2</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-3">3</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-4">4</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-5"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-5">5</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-6"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-6">6</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-7"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-7">7</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-8"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-0-8">8</a>
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#0e84b5;font-weight:bold">---</span><span style="color:#bbb">
-</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#062873;font-weight:bold">title</span>:<span style="color:#bbb"> </span><span style="color:#4070a0">&#34;An Example Post&#34;</span><span style="color:#bbb">  </span><span style="color:#60a0b0;font-style:italic">#标题</span><span style="color:#bbb">
-</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#062873;font-weight:bold">date</span>:<span style="color:#bbb"> </span>2018-01-01T16:01:23<span style="color:#40a070">+08</span>:<span style="color:#40a070">00</span><span style="color:#bbb"> </span><span style="color:#60a0b0;font-style:italic">#发布时间</span><span style="color:#bbb">
-</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#062873;font-weight:bold">lastmod</span>:<span style="color:#bbb"> </span>2018-01-02T16:01:23<span style="color:#40a070">+08</span>:<span style="color:#40a070">00</span><span style="color:#bbb"> </span><span style="color:#60a0b0;font-style:italic">#修改时间</span><span style="color:#bbb">
-</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#062873;font-weight:bold">draft</span>:<span style="color:#bbb"> </span><span style="color:#007020;font-weight:bold">false</span><span style="color:#bbb">  </span><span style="color:#60a0b0;font-style:italic">#是否是草稿？</span><span style="color:#bbb">
-</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#062873;font-weight:bold">tags</span>:<span style="color:#bbb"> </span>[<span style="color:#4070a0">&#34;tag-1&#34;</span>,<span style="color:#bbb"> </span><span style="color:#4070a0">&#34;tag-2&#34;</span>,<span style="color:#bbb"> </span><span style="color:#4070a0">&#34;tag-3&#34;</span>]<span style="color:#bbb">  </span><span style="color:#60a0b0;font-style:italic">#标签</span><span style="color:#bbb">
-</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#062873;font-weight:bold">categories</span>:<span style="color:#bbb"> </span>[<span style="color:#4070a0">&#34;index&#34;</span>]<span style="color:#bbb">  </span><span style="color:#60a0b0;font-style:italic">#分类</span><span style="color:#bbb">
-</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#0e84b5;font-weight:bold">---</span><span style="color:#bbb">
-</span></span></span></code></pre></td></tr></table>
-</div>
-</div><p>那么，使用 <code>ox-hugo</code> 之后，是怎样表示这些基本信息的呢？</p>
-<p>一种是使用 orgmode 的一个标题（heading），这种方式比较适合一些随笔或者简短的文章，像这样：</p>
-
-<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
-<div class="box">
-<figure  itemprop="associatedMedia"
-  itemscope itemtype="http://schema.org/ImageObject" >
-    <div class="img">
-      <img itemprop="thumbnail" src="/image/other/ox-hugo-01.png" />
-    </div>
-    <a href="/image/other/ox-hugo-01.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
-
-<p><strong>说明：</strong></p>
-<ul>
-<li>1 是 ox-hugo 的单文件配置</li>
-<li>2 是这篇文章的完成情况， <code>DONE</code> 说明已完成</li>
-<li>3 是这篇文章的标题</li>
-<li>4 是这篇文章的 tag ，tag 前带有 <code>@</code> 表示 category</li>
-<li>5 是 <code>DONE</code> 自动生成的时间戳，表示这篇文章的完成时间</li>
-<li>6 是导出为 markdown 文件后的文件名</li>
-</ul>
-<p>还有一种是使用单独的文件 <code>example.org</code> ，像这样：</p>
-
-
-<div class="box">
-<figure  itemprop="associatedMedia"
-  itemscope itemtype="http://schema.org/ImageObject" >
-    <div class="img">
-      <img itemprop="thumbnail" src="/image/other/ox-hugo-02.png" />
-    </div>
-    <a href="/image/other/ox-hugo-02.png" itemprop="contentUrl"></a>
-  </figure>
-</div>
-
-<p>这两种方式都可以配合 emacs 强大的功能来快速生成，而不必每次都手动输入，亦或是复制粘贴。</p>
-<h3 id="使用-org-capture-创建博文">使用 org-capture 创建博文</h3>
-<p>以下配置摘自 <a href="https://ox-hugo.scripter.co/doc/org-capture-setup/">官方介绍</a> ：</p>
-<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-1"> 1</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-2"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-2"> 2</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-3"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-3"> 3</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-4"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-4"> 4</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-5"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-5"> 5</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-6"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-6"> 6</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-7"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-7"> 7</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-8"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-8"> 8</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-9"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-9"> 9</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-10"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-10">10</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-11"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-11">11</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-12"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-12">12</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-13"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-13">13</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-14"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-14">14</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-15"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-15">15</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-16"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-16">16</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-17"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-17">17</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-18"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-18">18</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-19"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-19">19</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-20"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-20">20</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-21"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-21">21</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-22"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-22">22</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-23"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-23">23</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-24"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-24">24</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-25"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-25">25</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-26"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-26">26</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-27"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-27">27</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-28"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-28">28</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-29"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-29">29</a>
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-30"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-1-30">30</a>
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">;; org-hugo capture</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#007020">with-eval-after-load</span> <span style="color:#517918">&#39;org-capture</span>
-</span></span><span style="display:flex;"><span>  (<span style="color:#007020">defun</span> <span style="color:#bb60d5">org-hugo-new-subtree-post-capture-template</span> ()
-</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">&#34;Returns </span><span style="color:#517918">`org-capture&#39;</span><span style="color:#4070a0"> template string for new Hugo post.
-</span></span></span><span style="display:flex;"><span><span style="color:#4070a0">See </span><span style="color:#517918">`org-capture-templates&#39;</span><span style="color:#4070a0"> for more information.&#34;</span>
-</span></span><span style="display:flex;"><span>    (<span style="color:#007020">let*</span> (<span style="color:#60a0b0;font-style:italic">;; http://www.holgerschurig.de/en/emacs-blog-from-org-to-hugo/</span>
-</span></span><span style="display:flex;"><span>           (<span style="color:#bb60d5">date</span> (<span style="color:#06287e">format-time-string</span> (<span style="color:#bb60d5">org-time-stamp-format</span> <span style="color:#007020">:long</span> <span style="color:#007020">:inactive</span>) (<span style="color:#bb60d5">org-current-time</span>)))
-</span></span><span style="display:flex;"><span>           (<span style="color:#bb60d5">title</span> (<span style="color:#06287e">read-from-minibuffer</span> <span style="color:#4070a0">&#34;Post Title: &#34;</span>)) <span style="color:#60a0b0;font-style:italic">;Prompt to enter the post title</span>
-</span></span><span style="display:flex;"><span>           (<span style="color:#bb60d5">fname</span> (<span style="color:#bb60d5">org-hugo-slug</span> <span style="color:#bb60d5">title</span>)))
-</span></span><span style="display:flex;"><span>      (<span style="color:#06287e">mapconcat</span> <span style="color:#06287e">#&#39;identity</span>
-</span></span><span style="display:flex;"><span>                 <span style="color:#666">`</span>(
-</span></span><span style="display:flex;"><span>                   <span style="color:#666">,</span>(<span style="color:#06287e">concat</span> <span style="color:#4070a0">&#34;** TODO &#34;</span> <span style="color:#bb60d5">title</span> <span style="color:#4070a0">&#34;     :@随笔:&#34;</span>)
-</span></span><span style="display:flex;"><span>                   <span style="color:#4070a0">&#34;:PROPERTIES:&#34;</span>
-</span></span><span style="display:flex;"><span>                   <span style="color:#666">,</span>(<span style="color:#06287e">concat</span> <span style="color:#4070a0">&#34;:EXPORT_FILE_NAME: &#34;</span> <span style="color:#bb60d5">fname</span>)
-</span></span><span style="display:flex;"><span>                   <span style="color:#60a0b0;font-style:italic">;; ,(concat &#34;:EXPORT_DATE: &#34; date) ;Enter current date and time</span>
-</span></span><span style="display:flex;"><span>                   <span style="color:#4070a0">&#34;:END:&#34;</span>
-</span></span><span style="display:flex;"><span>                   <span style="color:#4070a0">&#34;%?\n&#34;</span>)          <span style="color:#60a0b0;font-style:italic">;Place the cursor here finally</span>
-</span></span><span style="display:flex;"><span>                 <span style="color:#4070a0">&#34;\n&#34;</span>)))
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  (<span style="color:#bb60d5">add-to-list</span> <span style="color:#517918">&#39;org-capture-templates</span>
-</span></span><span style="display:flex;"><span>               <span style="color:#666">&#39;</span>(<span style="color:#4070a0">&#34;h&#34;</span>                <span style="color:#60a0b0;font-style:italic">;`org-capture&#39; binding + h</span>
-</span></span><span style="display:flex;"><span>                 <span style="color:#4070a0">&#34;Hugo post&#34;</span>
-</span></span><span style="display:flex;"><span>                 <span style="color:#bb60d5">entry</span>
-</span></span><span style="display:flex;"><span>                 <span style="color:#60a0b0;font-style:italic">;; It is assumed that below file is present in `org-directory&#39;</span>
-</span></span><span style="display:flex;"><span>                 <span style="color:#60a0b0;font-style:italic">;; and that it has a &#34;Blog Ideas&#34; heading. It can even be a</span>
-</span></span><span style="display:flex;"><span>                 <span style="color:#60a0b0;font-style:italic">;; symlink pointing to the actual location of all-posts.org!</span>
-</span></span><span style="display:flex;"><span>                 (<span style="color:#bb60d5">file+headline</span> <span style="color:#4070a0">&#34;~/Dropbox/Write/blog/orgpost/0000-posts.org&#34;</span> <span style="color:#4070a0">&#34;INBOX&#34;</span>)
-</span></span><span style="display:flex;"><span>                 (<span style="color:#007020">function</span> <span style="color:#bb60d5">org-hugo-new-subtree-post-capture-template</span>))))
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>(<span style="color:#bb60d5">spacemacs/set-leader-keys</span> <span style="color:#4070a0">&#34;av&#34;</span> <span style="color:#517918">&#39;org-capture</span>)
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="使用-yasnippet-创建博文">使用 YASnippet 创建博文</h3>
-<p>我在文末的附录中，会附上我使用的一些 snippet 模板。</p>
-<p>模板的用法：
-输入字母 <code>h</code> ，按下 <code>M-/</code> ，它就会自动帮你生成以下内容：</p>
-<pre tabindex="0"><code class="language-nil" data-lang="nil">#+HUGO_BASE_DIR: ../
+<!doctype html><html lang=zh-cn itemscope itemtype=http://schema.org/WebPage data-theme=light><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>博客写作流程之工具篇： emacs, orgmode, hugo & ox-hugo - 贤民的博客
+</title><meta name=renderer content="webkit"><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=yes"><meta name=MobileOptimized content="width"><meta name=HandheldFriendly content="true"><meta name=applicable-device content="pc,mobile"><meta name=color-scheme content="light dark"><meta name=msapplication-navbutton-color content="#f8f5ec"><meta name=apple-mobile-web-app-capable content="yes"><meta name=apple-mobile-web-app-status-bar-style content="#f8f5ec"><meta name=mobile-web-app-capable content="yes"><meta name=author content="贤民"><meta name=description content="本文将对我个人的博文写作流程 所用到的工具 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode & hugo ，另外还有两个配合 hugo 的辅助包 easy-hugo （可选） & ox-hugo 。
+hugo : https://gohugo.io/ orgmode : https://orgmode.org/ ox-hugo : https://ox-hugo.scripter.co/ easy-hygo : https://github.com/masasam/emacs-easy-hugo "><meta name=keywords content="linux,emacs,program,journal,贤民,博客,笔记"><meta name=generator content="Hugo 0.134.3"><link rel=canonical href=https://www.xianmin.org/post/ox-hugo/><link rel=icon href=/favicon.ico><link rel=stylesheet href=/css/style.min.31d900d2ca3478f21c8200a14d72e968e9cd5497a85bdf68684b57ed757bb047.css integrity="sha256-MdkA0so0ePIcggChTXLpaOnNVJeoW99oaEtX7XV7sEc=" media=screen crossorigin=anonymous><link rel=stylesheet href=/%20css/custom.css><meta property="og:url" content="https://www.xianmin.org/post/ox-hugo/"><meta property="og:site_name" content="贤民的博客"><meta property="og:title" content="博客写作流程之工具篇： emacs, orgmode, hugo & ox-hugo"><meta property="og:description" content="本文将对我个人的博文写作流程 所用到的工具 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode & hugo ，另外还有两个配合 hugo 的辅助包 easy-hugo （可选） & ox-hugo 。
+hugo : https://gohugo.io/ orgmode : https://orgmode.org/ ox-hugo : https://ox-hugo.scripter.co/ easy-hygo : https://github.com/masasam/emacs-easy-hugo "><meta property="og:locale" content="zh_cn"><meta property="og:type" content="article"><meta property="article:section" content="post"><meta property="article:published_time" content="2018-03-31T00:00:00+00:00"><meta property="article:modified_time" content="2018-03-31T18:19:26+08:00"><meta property="article:tag" content="Emacs"><meta property="article:tag" content="Editor"><meta property="article:tag" content="Orgmode"><meta property="article:tag" content="Hugo"><meta property="article:tag" content="写作"><meta property="article:tag" content="Tool"><meta itemprop=name content="博客写作流程之工具篇： emacs, orgmode, hugo & ox-hugo"><meta itemprop=description content="本文将对我个人的博文写作流程 所用到的工具 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode & hugo ，另外还有两个配合 hugo 的辅助包 easy-hugo （可选） & ox-hugo 。
+hugo : https://gohugo.io/ orgmode : https://orgmode.org/ ox-hugo : https://ox-hugo.scripter.co/ easy-hygo : https://github.com/masasam/emacs-easy-hugo "><meta itemprop=datePublished content="2018-03-31T00:00:00+00:00"><meta itemprop=dateModified content="2018-03-31T18:19:26+08:00"><meta itemprop=wordCount content="1939"><meta itemprop=keywords content="Emacs,Editor,Orgmode,Hugo,写作,Tool,博客"><meta name=twitter:card content="summary"><meta name=twitter:title content="博客写作流程之工具篇： emacs, orgmode, hugo & ox-hugo"><meta name=twitter:description content="本文将对我个人的博文写作流程 所用到的工具 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode & hugo ，另外还有两个配合 hugo 的辅助包 easy-hugo （可选） & ox-hugo 。
+hugo : https://gohugo.io/ orgmode : https://orgmode.org/ ox-hugo : https://ox-hugo.scripter.co/ easy-hygo : https://github.com/masasam/emacs-easy-hugo "><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script><script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]--><script async src="https://www.googletagmanager.com/gtag/js?id=G-4SFSR6JRVT"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-4SFSR6JRVT")}</script><script>(function(){var e=localStorage.getItem("theme")||"light";document.documentElement.setAttribute("data-theme",e)})()</script></head><body><div id=back-to-top></div><header><div class=desktop-header><div class=desktop-header-logo><a href=/ class=logo>贤民的博客</a></div><nav class=desktop-navbar><ul id=menu class=menu><li class=menu-item><a class=menu-item-link href=https://www.xianmin.org/>主页</a></li><li class=menu-item><a class=menu-item-link href=https://www.xianmin.org/post/>全部文章</a></li><li class=menu-item><a class=menu-item-link href=https://www.xianmin.org/tags/>标签</a></li><li class=menu-item><a class=menu-item-link href=https://www.xianmin.org/about/>关于</a></li><li class=menu-item><a class=menu-item-link href=https://www.xianmin.org/acknowledgments/>致谢</a></li><li class=menu-item><a class=menu-item-link href=https://www.xianmin.org/index.xml>订阅</a></li><li class=menu-item><a id=openSearch class="menu-item-link menu-item-search" href=#><svg aria-hidden="true" class="hi-svg-inline icon--search" fill="none" height="1em" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></a></li><li class=menu-item><a class="theme-toggle menu-item-link" href=javascript:void(0);><span class="theme-icon theme-icon-light"><svg aria-hidden="true" class="hi-svg-inline icon--sun" fill="none" height="1em" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+</span><span class="theme-icon theme-icon-dark"><svg aria-hidden="true" class="hi-svg-inline icon--moon" fill="none" height="1em" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em"><path d="M12 3a6 6 0 009 9 9 9 0 11-9-9z"/></svg></span></a></li><li class=menu-item><a class=menu-item-link href=https://www.xianmin.org/index.xml rel="noopener alternate" type=application/rss+xml title=rss target=_blank><svg aria-hidden="true" class="hi-svg-inline icon--rss" fill="none" height="1em" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></li></ul></nav></div><div class=mobile-header><div id=mobile-navbar class=mobile-navbar><div id=mobile-navbar-icon class=mobile-navbar-icon><svg aria-hidden="true" class="hi-svg-inline icon--menu" fill="none" height="1em" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg></div><div class=mobile-navbar-logo><a href=/%20/ class=logo>贤民的博客</a></div></div><div id=mobile-menu-close-modal class=mobile-menu-close-modal></div><nav id=mobile-menu class=mobile-menu><ul class=mobile-menu-list><li class=mobile-menu-item><a class=menu-item-link href=https://www.xianmin.org/>主页</a></li><li class=mobile-menu-item><a class=menu-item-link href=https://www.xianmin.org/post/>全部文章</a></li><li class=mobile-menu-item><a class=menu-item-link href=https://www.xianmin.org/tags/>标签</a></li><li class=mobile-menu-item><a class=menu-item-link href=https://www.xianmin.org/about/>关于</a></li><li class=mobile-menu-item><a class=menu-item-link href=https://www.xianmin.org/acknowledgments/>致谢</a></li><li class=mobile-menu-item><a class=menu-item-link href=https://www.xianmin.org/index.xml>订阅</a></li><li class=mobile-menu-item><a id=openSearchMobile class="mobile-menu-item-link menu-item-search" href=#><svg aria-hidden="true" class="hi-svg-inline icon--search" fill="none" height="1em" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></a></li><li class=mobile-menu-item><a class="theme-toggle menu-item-link" href=javascript:void(0);><span class="theme-icon theme-icon-light"><svg aria-hidden="true" class="hi-svg-inline icon--sun" fill="none" height="1em" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+</span><span class="theme-icon theme-icon-dark"><svg aria-hidden="true" class="hi-svg-inline icon--moon" fill="none" height="1em" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em"><path d="M12 3a6 6 0 009 9 9 9 0 11-9-9z"/></svg></span></a></li><li class=mobile-menu-item><a class=menu-item-link href=https://www.xianmin.org/index.xml rel="noopener alternate" type=application/rss+xml title=rss target=_blank><svg aria-hidden="true" class="hi-svg-inline icon--rss" fill="none" height="1em" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></li></ul></nav></div></header><main id=main class="main pico container"><div class=content-wrapper><aside class=sidebar></aside><div id=content class=content><article class=post><header class=post-header><h1 class=post-title>博客写作流程之工具篇： emacs, orgmode, hugo & ox-hugo</h1><div class=post-meta><div class=post-meta-author><svg aria-hidden="true" class="hi-svg-inline" fill="currentcolor" height="1em" id="mdi-account-edit-outline" viewBox="0 0 24 24" width="1em"><path d="M2 17v3h8V18.11H3.9V17C3.9 16.36 7.03 14.9 10 14.9 10.96 14.91 11.91 15.04 12.83 15.28l1.52-1.52C12.95 13.29 11.5 13.03 10 13c-2.67.0-8 1.33-8 4M10 4C7.79 4 6 5.79 6 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4m0 6C8.9 10 8 9.11 8 8s.9-2 2-2 2 .9 2 2S11.11 10 10 10m11.7 3.35-1 1-2.05-2 1-1C19.86 11.14 20.21 11.14 20.42 11.35l1.28 1.28C21.91 12.84 21.91 13.19 21.7 13.4M12 18.94l6.06-6.06 2.05 2-6 6.07H12V18.94"/></svg>
+<a href=/about><span class=post-meta-author-name>贤民</span></a></div><div class=post-meta-time><svg aria-hidden="true" class="hi-svg-inline" fill="currentcolor" height="1em" id="mdi-calendar-range-outline" viewBox="0 0 24 24" width="1em"><path d="M7 11H9v2H7V11M21 5V19C21 20.11 20.11 21 19 21H5C3.89 21 3 20.1 3 19V5c0-1.1.9-2 2-2H6V1H8V3h8V1h2V3h1c1.11.0 2 .9 2 2M5 7H19V5H5V7M19 19V9H5V19H19m-4-6h2V11H15v2m-4 0h2V11H11v2z"/></svg>
+<time datetime=2018-03-31>2018-03-31</time></div><div class=post-meta__right><div class=post-meta-category><a href=https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/>计算机</a></div></div></div></header><div class=post-content><p>本文将对我个人的博文写作流程 <strong>所用到的工具</strong> 做一个总结与分享。从标题就可以看出来，主要有这几个工具： <code>emacs</code>, <code>orgmode</code> & <code>hugo</code> ，另外还有两个配合 <code>hugo</code> 的辅助包 <code>easy-hugo</code> （可选） & <code>ox-hugo</code> 。</p><ul><li><code>hugo</code> : <a href=https://gohugo.io/>https://gohugo.io/</a></li><li><code>orgmode</code> : <a href=https://orgmode.org/>https://orgmode.org/</a></li><li><code>ox-hugo</code> : <a href=https://ox-hugo.scripter.co/>https://ox-hugo.scripter.co/</a></li><li><code>easy-hygo</code> : <a href=https://github.com/masasam/emacs-easy-hugo>https://github.com/masasam/emacs-easy-hugo</a></li></ul><h2 id=自问自答>自问自答</h2><h3 id=问-为什么写这篇文章>问： 为什么写这篇文章？</h3><p>答： 中文搜索居然搜索不到一篇有关 <code>ox-hugo</code> 的内容。</p><h3 id=问-这篇文章主要解决什么问题>问： 这篇文章主要解决什么问题？</h3><p>答： orgmode 配合 hugo 来写作、发布、管理博文的一种便捷方案。</p><h3 id=问-为什么用-emacs-和-orgmode>问： 为什么用 emacs 和 orgmode ？</h3><p>答： 谁让我当年入了 emacs 和 orgmode 的「坑」 &#x1f602; ，这只是习惯而已。这俩工具还是需要一定的学习成本的，因此，本文对不熟悉 emacs 和 orgmode，或者使用其它编辑器的用户没多大帮助，但多少可以了解一下。</p><h3 id=问-为什么用-hugo>问： 为什么用 hugo ？</h3><p>答： 最开始只是因为 hugo 原生支持 orgmode ，事后来看，其实支持的不是很好，但是 ox-hugo 解决了用 orgmode 写博文的问题。当然还有一点，在生成静态网站的诸多工具（如 jekyll, hexo 等等）中，我发现 hugo 的安装是最便捷的，只需要下载一个二进制文件直接安装就能用了，而其它工具却总要安装一些别的依赖。网上还有种说法是 hugo 的网站生成速度是最快的，这个我没测试过，也不太确定。</p><h2 id=发布博文的一般流程>发布博文的一般流程</h2><ol><li>创建一个 orgmode heading 作为博文标题；</li><li>写文章（废话）；</li><li>使用 ox-hugo 生成 markdown 文件；</li><li>使用 easy-hugo 预览；</li><li>发布（废话）。</li></ol><p>如前文所说，如果你不熟悉 emacs 和 orgmode ，一定会觉得这个流程好麻烦，何必用这些工具，把写作这回事儿弄得复杂了。我下面会对这个流程进行补充说明，并阐述它们的优点。</p><h2 id=创建博文>创建博文</h2><p>正常我们使用 hugo 是怎样创建一篇新博文的呢？在命令行下，敲击命令 <code>hugo new posts/my-first-post.md</code> ，然后用自己熟悉的编辑器编辑这个文件。这个文件的头部包含我们这篇文章的一些基本信息，比如像这样：</p><div class=highlight><div style=background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-1>1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-2>2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-3>3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-4><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-4>4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-5><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-5>5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-6><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-6>6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-7><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-7>7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-8><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-8>8</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#0e84b5;font-weight:700>---</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#062873;font-weight:700>title</span>:<span style=color:#bbb> </span><span style=color:#4070a0>&#34;An Example Post&#34;</span><span style=color:#bbb>  </span><span style=color:#60a0b0;font-style:italic>#标题</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#062873;font-weight:700>date</span>:<span style=color:#bbb> </span>2018-01-01T16:01:23<span style=color:#40a070>+08</span>:<span style=color:#40a070>00</span><span style=color:#bbb> </span><span style=color:#60a0b0;font-style:italic>#发布时间</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#062873;font-weight:700>lastmod</span>:<span style=color:#bbb> </span>2018-01-02T16:01:23<span style=color:#40a070>+08</span>:<span style=color:#40a070>00</span><span style=color:#bbb> </span><span style=color:#60a0b0;font-style:italic>#修改时间</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#062873;font-weight:700>draft</span>:<span style=color:#bbb> </span><span style=color:#007020;font-weight:700>false</span><span style=color:#bbb>  </span><span style=color:#60a0b0;font-style:italic>#是否是草稿？</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#062873;font-weight:700>tags</span>:<span style=color:#bbb> </span>[<span style=color:#4070a0>&#34;tag-1&#34;</span>,<span style=color:#bbb> </span><span style=color:#4070a0>&#34;tag-2&#34;</span>,<span style=color:#bbb> </span><span style=color:#4070a0>&#34;tag-3&#34;</span>]<span style=color:#bbb>  </span><span style=color:#60a0b0;font-style:italic>#标签</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#062873;font-weight:700>categories</span>:<span style=color:#bbb> </span>[<span style=color:#4070a0>&#34;index&#34;</span>]<span style=color:#bbb>  </span><span style=color:#60a0b0;font-style:italic>#分类</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#0e84b5;font-weight:700>---</span><span style=color:#bbb>
+</span></span></span></code></pre></td></tr></table></div></div><p>那么，使用 <code>ox-hugo</code> 之后，是怎样表示这些基本信息的呢？</p><p>一种是使用 orgmode 的一个标题（heading），这种方式比较适合一些随笔或者简短的文章，像这样：</p><link rel=stylesheet href=/css/hugo-easy-gallery.css><div class=box><figure itemprop=associatedMedia itemscope itemtype=http://schema.org/ImageObject><div class=img><img itemprop=thumbnail src=/image/other/ox-hugo-01.png></div><a href=/image/other/ox-hugo-01.png itemprop=contentUrl></a></figure></div><p><strong>说明：</strong></p><ul><li>1 是 ox-hugo 的单文件配置</li><li>2 是这篇文章的完成情况， <code>DONE</code> 说明已完成</li><li>3 是这篇文章的标题</li><li>4 是这篇文章的 tag ，tag 前带有 <code>@</code> 表示 category</li><li>5 是 <code>DONE</code> 自动生成的时间戳，表示这篇文章的完成时间</li><li>6 是导出为 markdown 文件后的文件名</li></ul><p>还有一种是使用单独的文件 <code>example.org</code> ，像这样：</p><div class=box><figure itemprop=associatedMedia itemscope itemtype=http://schema.org/ImageObject><div class=img><img itemprop=thumbnail src=/image/other/ox-hugo-02.png></div><a href=/image/other/ox-hugo-02.png itemprop=contentUrl></a></figure></div><p>这两种方式都可以配合 emacs 强大的功能来快速生成，而不必每次都手动输入，亦或是复制粘贴。</p><h3 id=使用-org-capture-创建博文>使用 org-capture 创建博文</h3><p>以下配置摘自 <a href=https://ox-hugo.scripter.co/doc/org-capture-setup/>官方介绍</a> ：</p><div class=highlight><div style=background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-1> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-2> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-3> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-4><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-4> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-5><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-5> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-6><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-6> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-7><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-7> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-8><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-8> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-9><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-9> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-10><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-10>10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-11><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-11>11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-12><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-12>12</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-13><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-13>13</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-14><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-14>14</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-15><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-15>15</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-16><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-16>16</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-17><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-17>17</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-18><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-18>18</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-19><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-19>19</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-20><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-20>20</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-21><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-21>21</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-22><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-22>22</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-23><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-23>23</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-24><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-24>24</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-25><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-25>25</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-26><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-26>26</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-27><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-27>27</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-28><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-28>28</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-29><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-29>29</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-30><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-30>30</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-elisp data-lang=elisp><span style=display:flex><span><span style=color:#60a0b0;font-style:italic>;; org-hugo capture</span>
+</span></span><span style=display:flex><span>(<span style=color:#007020>with-eval-after-load</span> <span style=color:#517918>&#39;org-capture</span>
+</span></span><span style=display:flex><span>  (<span style=color:#007020>defun</span> <span style=color:#bb60d5>org-hugo-new-subtree-post-capture-template</span> ()
+</span></span><span style=display:flex><span>    <span style=color:#4070a0>&#34;Returns </span><span style=color:#517918>`org-capture&#39;</span><span style=color:#4070a0> template string for new Hugo post.
+</span></span></span><span style=display:flex><span><span style=color:#4070a0>See </span><span style=color:#517918>`org-capture-templates&#39;</span><span style=color:#4070a0> for more information.&#34;</span>
+</span></span><span style=display:flex><span>    (<span style=color:#007020>let*</span> (<span style=color:#60a0b0;font-style:italic>;; http://www.holgerschurig.de/en/emacs-blog-from-org-to-hugo/</span>
+</span></span><span style=display:flex><span>           (<span style=color:#bb60d5>date</span> (<span style=color:#06287e>format-time-string</span> (<span style=color:#bb60d5>org-time-stamp-format</span> <span style=color:#007020>:long</span> <span style=color:#007020>:inactive</span>) (<span style=color:#bb60d5>org-current-time</span>)))
+</span></span><span style=display:flex><span>           (<span style=color:#bb60d5>title</span> (<span style=color:#06287e>read-from-minibuffer</span> <span style=color:#4070a0>&#34;Post Title: &#34;</span>)) <span style=color:#60a0b0;font-style:italic>;Prompt to enter the post title</span>
+</span></span><span style=display:flex><span>           (<span style=color:#bb60d5>fname</span> (<span style=color:#bb60d5>org-hugo-slug</span> <span style=color:#bb60d5>title</span>)))
+</span></span><span style=display:flex><span>      (<span style=color:#06287e>mapconcat</span> <span style=color:#06287e>#&#39;identity</span>
+</span></span><span style=display:flex><span>                 <span style=color:#666>`</span>(
+</span></span><span style=display:flex><span>                   <span style=color:#666>,</span>(<span style=color:#06287e>concat</span> <span style=color:#4070a0>&#34;** TODO &#34;</span> <span style=color:#bb60d5>title</span> <span style=color:#4070a0>&#34;     :@随笔:&#34;</span>)
+</span></span><span style=display:flex><span>                   <span style=color:#4070a0>&#34;:PROPERTIES:&#34;</span>
+</span></span><span style=display:flex><span>                   <span style=color:#666>,</span>(<span style=color:#06287e>concat</span> <span style=color:#4070a0>&#34;:EXPORT_FILE_NAME: &#34;</span> <span style=color:#bb60d5>fname</span>)
+</span></span><span style=display:flex><span>                   <span style=color:#60a0b0;font-style:italic>;; ,(concat &#34;:EXPORT_DATE: &#34; date) ;Enter current date and time</span>
+</span></span><span style=display:flex><span>                   <span style=color:#4070a0>&#34;:END:&#34;</span>
+</span></span><span style=display:flex><span>                   <span style=color:#4070a0>&#34;%?\n&#34;</span>)          <span style=color:#60a0b0;font-style:italic>;Place the cursor here finally</span>
+</span></span><span style=display:flex><span>                 <span style=color:#4070a0>&#34;\n&#34;</span>)))
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  (<span style=color:#bb60d5>add-to-list</span> <span style=color:#517918>&#39;org-capture-templates</span>
+</span></span><span style=display:flex><span>               <span style=color:#666>&#39;</span>(<span style=color:#4070a0>&#34;h&#34;</span>                <span style=color:#60a0b0;font-style:italic>;`org-capture&#39; binding + h</span>
+</span></span><span style=display:flex><span>                 <span style=color:#4070a0>&#34;Hugo post&#34;</span>
+</span></span><span style=display:flex><span>                 <span style=color:#bb60d5>entry</span>
+</span></span><span style=display:flex><span>                 <span style=color:#60a0b0;font-style:italic>;; It is assumed that below file is present in `org-directory&#39;</span>
+</span></span><span style=display:flex><span>                 <span style=color:#60a0b0;font-style:italic>;; and that it has a &#34;Blog Ideas&#34; heading. It can even be a</span>
+</span></span><span style=display:flex><span>                 <span style=color:#60a0b0;font-style:italic>;; symlink pointing to the actual location of all-posts.org!</span>
+</span></span><span style=display:flex><span>                 (<span style=color:#bb60d5>file+headline</span> <span style=color:#4070a0>&#34;~/Dropbox/Write/blog/orgpost/0000-posts.org&#34;</span> <span style=color:#4070a0>&#34;INBOX&#34;</span>)
+</span></span><span style=display:flex><span>                 (<span style=color:#007020>function</span> <span style=color:#bb60d5>org-hugo-new-subtree-post-capture-template</span>))))
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>(<span style=color:#bb60d5>spacemacs/set-leader-keys</span> <span style=color:#4070a0>&#34;av&#34;</span> <span style=color:#517918>&#39;org-capture</span>)
+</span></span></code></pre></td></tr></table></div></div><h3 id=使用-yasnippet-创建博文>使用 YASnippet 创建博文</h3><p>我在文末的附录中，会附上我使用的一些 snippet 模板。</p><p>模板的用法：
+输入字母 <code>h</code> ，按下 <code>M-/</code> ，它就会自动帮你生成以下内容：</p><pre tabindex=0><code class=language-nil data-lang=nil>#+HUGO_BASE_DIR: ../
 #+TITLE:
 #+DATE:
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_TAGS:
 #+HUGO_CATEGORIES:
 #+HUGO_DRAFT: false
-</code></pre><h2 id="由-ox-hugo-生成-markdown">由 ox-hugo 生成 markdown</h2>
-<p>尽管说 <code>hugo</code> 原生支持渲染 orgmode 文件，但它所使用的 markdown 渲染引擎比 orgmode 的渲染引擎要强大的多，谁让 markdown 更流行呢？这是使用 <code>ox-hugo</code> 的原因之一。</p>
-<p>使用 <code>ox-hugo</code> 可以将你的 orgmode 博文，生成指定的 markdown 文件，这只需要一条指令就够了（官方默认 <code>C-c C-e H h</code> ），并且，它还会自动更正你的文章 <strong>修改时间</strong> ，markdown 文件中的 <code>lastmod</code> 值。</p>
-<p>至此，你就已经可以按照常规的方法来预览、发布你的博文了。不过还有一个扩展没有介绍—— <code>easy-hugo</code> 。</p>
-<h2 id="使用-easy-hugo-管理你的博客-可选">使用 easy-hugo 管理你的博客（可选）</h2>
-
-
-<div class="box">
-<figure  class="center"  itemprop="associatedMedia"
-  itemscope itemtype="http://schema.org/ImageObject" >
-    <div class="img">
-      <img itemprop="thumbnail" src="/image/other/ox-hugo-00.png" />
-    </div>
-    <a href="/image/other/ox-hugo-00.png" itemprop="contentUrl"></a>
-      <figcaption><h4>Easy-Hugo 主界面</h4>
-      </figcaption>
-  </figure>
-</div>
-
-<p>常规的方法是怎样来预览你的博客呢？先进入你的博客目录，然后键入命令 <code>hugo server</code> 。</p>
-<p>使用 <code>easy-hugo</code> 之后，打开它的主界面（我的快捷键 <code>&lt;SPA&gt; a h</code> ），再按 <code>p</code> 键就可以直接预览了。它还有快速打开你的博客配置文件，快速发布到 github，等等功能，可以单独写篇介绍了。不过我只是用它来管理博文而已。</p>
-<h2 id="最后的总结">最后的总结</h2>
-<p><code>emacs</code> ，想说爱你不容易。😅</p>
-<p>用惯了一种编辑器，任何文本编辑相关的工作都想通过它来完成，换用其他的编辑器总觉得缺了些什么。这个写作流程，在我短暂的使用过程中（不到一年），总体上还是挺舒适的。这篇文章算是做一个梳理。</p>
-<p>为什么我从头到尾都没提到如何配置 <code>ox-hugo</code> 和 <code>easy-hugo</code> 呢？ emacs 的配置千差万别，怎样配置还是自己去看它们的文档吧。</p>
-<h2 id="附录a-几个辅助写作的-emacs-扩展">附录A：几个辅助写作的 emacs 扩展</h2>
-<ol>
-<li><a href="https://github.com/joostkremers/writeroom-mode">joostkremers/writeroom-mode: Writeroom-mode: distraction-free writing for Emacs.</a></li>
-<li>spacemacs 的 emoji Layer ，方便插入 emoji 表情</li>
-</ol>
-<h2 id="附录b-快速获取-orgmode-或-markdown-格式的网页标题和链接">附录B：快速获取 orgmode 或 markdown 格式的网页标题和链接</h2>
-<p>将以下代码存储为浏览器的书签，以后获取网页的标题和链接只需要点击这个书签即可。链接的标题默认是网站的标题，也可以选中一段文字作为标题。</p>
-<p>orgmode 的 bookmarklet ：</p>
-<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-3-1">1</a>
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>javascript<span style="color:#666">:</span>(<span style="color:#007020;font-weight:bold">function</span> () { <span style="color:#007020;font-weight:bold">var</span> selection <span style="color:#666">=</span> <span style="color:#007020">window</span>.getSelection().toString(); <span style="color:#007020;font-weight:bold">var</span> anchor <span style="color:#666">=</span> selection <span style="color:#666">?</span> selection <span style="color:#666">:</span> <span style="color:#007020">document</span>.title; <span style="color:#007020;font-weight:bold">void</span>(prompt(<span style="color:#4070a0">&#39;&#39;</span>, <span style="color:#4070a0">&#39;[[&#39;</span> <span style="color:#666">+</span> location.href <span style="color:#666">+</span> <span style="color:#4070a0">&#39;][&#39;</span> <span style="color:#666">+</span> anchor <span style="color:#666">+</span> <span style="color:#4070a0">&#39;]]&#39;</span>)); })();
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>markdown 的 bookmarklet ：</p>
-<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-1"><a style="outline: none; text-decoration:none; color:inherit" href="#hl-4-1">1</a>
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>javascript<span style="color:#666">:</span>(<span style="color:#007020;font-weight:bold">function</span> () { <span style="color:#007020;font-weight:bold">var</span> selection <span style="color:#666">=</span> <span style="color:#007020">window</span>.getSelection().toString(); <span style="color:#007020;font-weight:bold">var</span> anchor <span style="color:#666">=</span> selection <span style="color:#666">?</span> selection <span style="color:#666">:</span> <span style="color:#007020">document</span>.title; <span style="color:#007020;font-weight:bold">void</span>(prompt(<span style="color:#4070a0">&#39;&#39;</span>, <span style="color:#4070a0">&#39;[&#39;</span> <span style="color:#666">+</span> anchor <span style="color:#666">+</span> <span style="color:#4070a0">&#39;](&#39;</span> <span style="color:#666">+</span> location.href <span style="color:#666">+</span> <span style="color:#4070a0">&#39;)&#39;</span>)); })();
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="附录c-我的-yasnippet-模板">附录C：我的 YASnippet 模板</h2>
-<h3 id="hugo-文章信息模板">hugo 文章信息模板</h3>
-<pre tabindex="0"><code class="language-nil" data-lang="nil"># -*- mode: snippet -*-
+</code></pre><h2 id=由-ox-hugo-生成-markdown>由 ox-hugo 生成 markdown</h2><p>尽管说 <code>hugo</code> 原生支持渲染 orgmode 文件，但它所使用的 markdown 渲染引擎比 orgmode 的渲染引擎要强大的多，谁让 markdown 更流行呢？这是使用 <code>ox-hugo</code> 的原因之一。</p><p>使用 <code>ox-hugo</code> 可以将你的 orgmode 博文，生成指定的 markdown 文件，这只需要一条指令就够了（官方默认 <code>C-c C-e H h</code> ），并且，它还会自动更正你的文章 <strong>修改时间</strong> ，markdown 文件中的 <code>lastmod</code> 值。</p><p>至此，你就已经可以按照常规的方法来预览、发布你的博文了。不过还有一个扩展没有介绍—— <code>easy-hugo</code> 。</p><h2 id=使用-easy-hugo-管理你的博客-可选>使用 easy-hugo 管理你的博客（可选）</h2><div class=box><figure class=center itemprop=associatedMedia itemscope itemtype=http://schema.org/ImageObject><div class=img><img itemprop=thumbnail src=/image/other/ox-hugo-00.png></div><a href=/image/other/ox-hugo-00.png itemprop=contentUrl></a><figcaption><h4>Easy-Hugo 主界面</h4></figcaption></figure></div><p>常规的方法是怎样来预览你的博客呢？先进入你的博客目录，然后键入命令 <code>hugo server</code> 。</p><p>使用 <code>easy-hugo</code> 之后，打开它的主界面（我的快捷键 <code>&lt;SPA> a h</code> ），再按 <code>p</code> 键就可以直接预览了。它还有快速打开你的博客配置文件，快速发布到 github，等等功能，可以单独写篇介绍了。不过我只是用它来管理博文而已。</p><h2 id=最后的总结>最后的总结</h2><p><code>emacs</code> ，想说爱你不容易。&#x1f605;</p><p>用惯了一种编辑器，任何文本编辑相关的工作都想通过它来完成，换用其他的编辑器总觉得缺了些什么。这个写作流程，在我短暂的使用过程中（不到一年），总体上还是挺舒适的。这篇文章算是做一个梳理。</p><p>为什么我从头到尾都没提到如何配置 <code>ox-hugo</code> 和 <code>easy-hugo</code> 呢？ emacs 的配置千差万别，怎样配置还是自己去看它们的文档吧。</p><h2 id=附录a-几个辅助写作的-emacs-扩展>附录A：几个辅助写作的 emacs 扩展</h2><ol><li><a href=https://github.com/joostkremers/writeroom-mode>joostkremers/writeroom-mode: Writeroom-mode: distraction-free writing for Emacs.</a></li><li>spacemacs 的 emoji Layer ，方便插入 emoji 表情</li></ol><h2 id=附录b-快速获取-orgmode-或-markdown-格式的网页标题和链接>附录B：快速获取 orgmode 或 markdown 格式的网页标题和链接</h2><p>将以下代码存储为浏览器的书签，以后获取网页的标题和链接只需要点击这个书签即可。链接的标题默认是网站的标题，也可以选中一段文字作为标题。</p><p>orgmode 的 bookmarklet ：</p><div class=highlight><div style=background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-1>1</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=display:flex><span>javascript<span style=color:#666>:</span>(<span style=color:#007020;font-weight:700>function</span> () { <span style=color:#007020;font-weight:700>var</span> selection <span style=color:#666>=</span> <span style=color:#007020>window</span>.getSelection().toString(); <span style=color:#007020;font-weight:700>var</span> anchor <span style=color:#666>=</span> selection <span style=color:#666>?</span> selection <span style=color:#666>:</span> <span style=color:#007020>document</span>.title; <span style=color:#007020;font-weight:700>void</span>(prompt(<span style=color:#4070a0>&#39;&#39;</span>, <span style=color:#4070a0>&#39;[[&#39;</span> <span style=color:#666>+</span> location.href <span style=color:#666>+</span> <span style=color:#4070a0>&#39;][&#39;</span> <span style=color:#666>+</span> anchor <span style=color:#666>+</span> <span style=color:#4070a0>&#39;]]&#39;</span>)); })();
+</span></span></code></pre></td></tr></table></div></div><p>markdown 的 bookmarklet ：</p><div class=highlight><div style=background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-4-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-4-1>1</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=display:flex><span>javascript<span style=color:#666>:</span>(<span style=color:#007020;font-weight:700>function</span> () { <span style=color:#007020;font-weight:700>var</span> selection <span style=color:#666>=</span> <span style=color:#007020>window</span>.getSelection().toString(); <span style=color:#007020;font-weight:700>var</span> anchor <span style=color:#666>=</span> selection <span style=color:#666>?</span> selection <span style=color:#666>:</span> <span style=color:#007020>document</span>.title; <span style=color:#007020;font-weight:700>void</span>(prompt(<span style=color:#4070a0>&#39;&#39;</span>, <span style=color:#4070a0>&#39;[&#39;</span> <span style=color:#666>+</span> anchor <span style=color:#666>+</span> <span style=color:#4070a0>&#39;](&#39;</span> <span style=color:#666>+</span> location.href <span style=color:#666>+</span> <span style=color:#4070a0>&#39;)&#39;</span>)); })();
+</span></span></code></pre></td></tr></table></div></div><h2 id=附录c-我的-yasnippet-模板>附录C：我的 YASnippet 模板</h2><h3 id=hugo-文章信息模板>hugo 文章信息模板</h3><pre tabindex=0><code class=language-nil data-lang=nil># -*- mode: snippet -*-
 # name: hugo
 # key: h
 # --
@@ -702,373 +108,37 @@ if (!doNotTrack) {
 #+HUGO_DRAFT: false
 
 $0
-</code></pre><h3 id="more">more</h3>
-<p>我也搞不清为什么我总是记不住 <code>&lt;!--more--&gt;</code> 这个标签</p>
-<pre tabindex="0"><code class="language-nil" data-lang="nil"># -*- mode: snippet -*-
+</code></pre><h3 id=more>more</h3><p>我也搞不清为什么我总是记不住 <code>&lt;!--more--></code> 这个标签</p><pre tabindex=0><code class=language-nil data-lang=nil># -*- mode: snippet -*-
 # name: more
 # key: m
 # --
 &lt;!--more--&gt;
 
 $0
-</code></pre><p>有待补充&hellip;</p>
-        </div>
-
-        
-        
-<div class="post-copyright">
-  <p class="copyright-item">
-    <span class="item-title">文章作者</span>
-    <span class="item-content">贤民</span>
-  </p>
-  <p class="copyright-item">
-    <span class="item-title">上次更新</span>
-    <span class="item-content">
-      2018-03-31
-      
-    </span>
-  </p>
-  
-  <p class="copyright-item">
-    <span class="item-title">许可协议</span>
-    <span class="item-content">原创文章，如需转载请注明文章作者和出处。谢谢！</span>
-  </p>
-</div>
-
-
-
-        
-        
-<div class="post-reward">
-  <input type="checkbox" name="reward" id="reward" hidden />
-  <label class="reward-button" for="reward">赞赏支持</label>
-  <div class="qr-code">
-    
-    
-      <label class="qr-code-image" for="reward">
-        <img class="image" src="/reward_wechat.png">
-        <span>微信打赏</span>
-      </label>
-    
-  </div>
-</div>
-
-
-        <footer class="post-footer">
-          <div class="post-tags">
-              <a href="https://www.xianmin.org/tags/emacs/">emacs</a>
-                <a href="https://www.xianmin.org/tags/editor/">editor</a>
-                <a href="https://www.xianmin.org/tags/orgmode/">orgmode</a>
-                <a href="https://www.xianmin.org/tags/hugo/">hugo</a>
-                <a href="https://www.xianmin.org/tags/%E5%86%99%E4%BD%9C/">写作</a>
-                <a href="https://www.xianmin.org/tags/tool/">tool</a>
-                <a href="https://www.xianmin.org/tags/%E5%8D%9A%E5%AE%A2/">博客</a>
-                
-            </div>
-
-
-          
-          <nav class="post-nav">
-            
-              <a class="prev" href="/post/i-am-a-bad-project-manager/">
-                
-                <i class="iconfont">
-                  <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="18" height="18">
-  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
-</svg>
-
-                </i>
-                <span class="prev-text nav-default">糟糕的项目管理新手</span>
-                <span class="prev-text nav-mobile">上一篇</span>
-              </a>
-            
-              <a class="next" href="/post/note-opensource-project/">
-                <span class="next-text nav-default">笔记：有关开源项目</span>
-                <span class="prev-text nav-mobile">下一篇</span>
-                
-                <i class="iconfont">
-                  <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="18" height="18">
-  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
-</svg>
-
-                </i>
-              </a>
-          </nav>
-        </footer>
-      </article>
-
-      
-      
-
-
-      
-      
-
-  
-
-  
-  
-    <div class="post">
-  <script
-    src="https://giscus.app/client.js"
-    data-repo="xianmin/comments---xianmin.org"
-    data-repo-id="MDEwOlJlcG9zaXRvcnkxNDAyNTY2MDI="
-    data-category="Announcements"
-    data-category-id="DIC_kwDOCFwlWs4CRRxW"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="light"
-    data-lang="zh-CN"
-    
-    crossorigin="anonymous"
-    async
-  ></script>
-</div>
-
-  
-
-  
-  
-
-  
-
-  <div class="disqus-comment">
-  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
-    显示 Disqus 评论
-  </div>
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-    var disqus_config = function () {
-      this.page.url = "https://www.xianmin.org/post/ox-hugo/";
-    };
-    function load_disqus() {
-      
-      
-      if (window.location.hostname === 'localhost') return;
-
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      var disqus_shortname = 'xianmin12';
-      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-
-      $('#load_disqus').remove();
-    };
-  </script>
-  <noscript
-    >Please enable JavaScript to view the
-    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-  </noscript>
-  
-</div>
-
-
-    
-
-  
-
-  
-
-
-    </div>
-
-    
-    <nav class="toc" id="toc">
-    <div class="toc-title">文章目录</div>
-    <div class="toc-content custom-scrollbar">
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#自问自答">自问自答</a>
-      <ul>
-        <li><a href="#问-为什么写这篇文章">问： 为什么写这篇文章？</a></li>
-        <li><a href="#问-这篇文章主要解决什么问题">问： 这篇文章主要解决什么问题？</a></li>
-        <li><a href="#问-为什么用-emacs-和-orgmode">问： 为什么用 emacs 和 orgmode ？</a></li>
-        <li><a href="#问-为什么用-hugo">问： 为什么用 hugo ？</a></li>
-      </ul>
-    </li>
-    <li><a href="#发布博文的一般流程">发布博文的一般流程</a></li>
-    <li><a href="#创建博文">创建博文</a>
-      <ul>
-        <li><a href="#使用-org-capture-创建博文">使用 org-capture 创建博文</a></li>
-        <li><a href="#使用-yasnippet-创建博文">使用 YASnippet 创建博文</a></li>
-      </ul>
-    </li>
-    <li><a href="#由-ox-hugo-生成-markdown">由 ox-hugo 生成 markdown</a></li>
-    <li><a href="#使用-easy-hugo-管理你的博客-可选">使用 easy-hugo 管理你的博客（可选）</a></li>
-    <li><a href="#最后的总结">最后的总结</a></li>
-    <li><a href="#附录a-几个辅助写作的-emacs-扩展">附录A：几个辅助写作的 emacs 扩展</a></li>
-    <li><a href="#附录b-快速获取-orgmode-或-markdown-格式的网页标题和链接">附录B：快速获取 orgmode 或 markdown 格式的网页标题和链接</a></li>
-    <li><a href="#附录c-我的-yasnippet-模板">附录C：我的 YASnippet 模板</a>
-      <ul>
-        <li><a href="#hugo-文章信息模板">hugo 文章信息模板</a></li>
-        <li><a href="#more">more</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-    </div>
-  </nav>
-
-
-  </div>
-
-      </main>
-
-      <footer id="footer" class="footer">
-        <div class="icon-links">
-  
-  
-    <a href="mailto:xianmin12@qq.com" rel="me noopener" class="iconfont"
-      title="email" >
-      <svg class="icon" viewBox="0 0 1451 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="36" height="36">
-  <path d="M664.781909 681.472759 0 97.881301C0 3.997201 71.046997 0 71.046997 0L474.477909 0 961.649408 0 1361.641813 0C1361.641813 0 1432.688811 3.997201 1432.688811 97.881301L771.345323 681.472759C771.345323 681.472759 764.482731 685.154773 753.594283 688.65053L753.594283 688.664858C741.602731 693.493018 729.424896 695.068979 718.077952 694.839748 706.731093 695.068979 694.553173 693.493018 682.561621 688.664858L682.561621 688.65053C671.644501 685.140446 664.781909 681.472759 664.781909 681.472759L664.781909 681.472759ZM718.063616 811.603883C693.779541 811.016482 658.879232 802.205449 619.10784 767.734955 542.989056 701.759633 0 212.052267 0 212.052267L0 942.809523C0 942.809523 0 1024 83.726336 1024L682.532949 1024 753.579947 1024 1348.948139 1024C1432.688811 1024 1432.688811 942.809523 1432.688811 942.809523L1432.688811 212.052267C1432.688811 212.052267 893.138176 701.759633 817.019477 767.734955 777.248 802.205449 742.347691 811.03081 718.063616 811.603883L718.063616 811.603883Z"></path>
-</svg>
-
-    </a>
-  
-    <a href="https://github.com/xianmin" rel="me noopener" class="iconfont"
-      title="github"  target="_blank"
-      >
-      <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="36" height="36">
-  <path d="M512 12.672c-282.88 0-512 229.248-512 512 0 226.261333 146.688 418.133333 350.08 485.76 25.6 4.821333 34.986667-11.008 34.986667-24.618667 0-12.16-0.426667-44.373333-0.64-87.04-142.421333 30.890667-172.458667-68.693333-172.458667-68.693333C188.672 770.986667 155.008 755.2 155.008 755.2c-46.378667-31.744 3.584-31.104 3.584-31.104 51.413333 3.584 78.421333 52.736 78.421333 52.736 45.653333 78.293333 119.850667 55.68 149.12 42.581333 4.608-33.109333 17.792-55.68 32.426667-68.48-113.706667-12.8-233.216-56.832-233.216-253.013333 0-55.893333 19.84-101.546667 52.693333-137.386667-5.76-12.928-23.04-64.981333 4.48-135.509333 0 0 42.88-13.738667 140.8 52.48 40.96-11.392 84.48-17.024 128-17.28 43.52 0.256 87.04 5.888 128 17.28 97.28-66.218667 140.16-52.48 140.16-52.48 27.52 70.528 10.24 122.581333 5.12 135.509333 32.64 35.84 52.48 81.493333 52.48 137.386667 0 196.693333-119.68 240-233.6 252.586667 17.92 15.36 34.56 46.762667 34.56 94.72 0 68.522667-0.64 123.562667-0.64 140.202666 0 13.44 8.96 29.44 35.2 24.32C877.44 942.592 1024 750.592 1024 524.672c0-282.752-229.248-512-512-512"></path>
-</svg>
-
-    </a>
-
-
-<a href="https://www.xianmin.org/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
-    class="iconfont" title="rss" target="_blank">
-    <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="30" height="30">
-  <path d="M819.157333 1024C819.157333 574.592 449.408 204.8 0 204.8V0c561.706667 0 1024 462.293333 1024 1024h-204.842667zM140.416 743.04a140.8 140.8 0 0 1 140.501333 140.586667A140.928 140.928 0 0 1 140.074667 1024C62.72 1024 0 961.109333 0 883.626667s62.933333-140.544 140.416-140.586667zM678.784 1024h-199.04c0-263.210667-216.533333-479.786667-479.744-479.786667V345.173333c372.352 0 678.784 306.517333 678.784 678.826667z"></path>
-</svg>
-
-  </a>
-  
-</div>
-
-<div class="copyright">
-  <span class="power-by">
-    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
-  </span>
-  <span class="division">|</span>
-  <span class="theme-info">
-    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
-  </span>
-
-  <span class="copyright-year">
-    &copy;
-    
-      2017 -
-    2024
-    <span class="heart">
-      
-      <i class="iconfont">
-        <svg class="icon" viewBox="0 0 1025 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="14" height="14">
-  <path d="M1000.1 247.9c-15.5-37.3-37.6-70.6-65.7-98.9-54.4-54.8-125.8-85-201-85-85.7 0-166 39-221.4 107.4C456.6 103 376.3 64 290.6 64c-75.1 0-146.5 30.4-201.1 85.6-28.2 28.5-50.4 61.9-65.8 99.3-16 38.8-24 79.9-23.6 122.2 0.7 91.7 40.1 177.2 108.1 234.8 3.1 2.6 6 5.1 8.9 7.8 14.9 13.4 58 52.8 112.6 102.7 93.5 85.5 209.9 191.9 257.5 234.2 7 6.1 15.8 9.5 24.9 9.5 9.2 0 18.1-3.4 24.9-9.5 34.5-30.7 105.8-95.9 181.4-165 74.2-67.8 150.9-138 195.8-178.2 69.5-57.9 109.6-144.4 109.9-237.3 0.1-42.5-8-83.6-24-122.2z"
-   fill="#8a8a8a"></path>
-</svg>
-
-      </i>
-    </span><span class="author">
-        贤民
-        
-      </span></span>
-
-  
-  
-
-  
-</div>
-
-      </footer>
-
-      <div class="button__back-to-top">
-        <a href="#back-to-top">
-          <i class="iconfont">
-            
-            <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="35" height="35">
-  <path d="M510.866688 227.694839 95.449397 629.218702l235.761562 0-2.057869 328.796468 362.40389 0L691.55698 628.188232l241.942331-3.089361L510.866688 227.694839zM63.840492 63.962777l894.052392 0 0 131.813095L63.840492 195.775872 63.840492 63.962777 63.840492 63.962777zM63.840492 63.962777"></path>
-</svg>
-
-          </i>
-        </a>
-      </div>
-    </div>
-    
-<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
-
-
-
-
-<script type="text/javascript" src="/js/main.6f39add904ee405bee90351754e8ccd5fbb6f302ae840b86eba9f142747e3686.js" integrity="sha256-bzmt2QTuQFvukDUXVOjM1fu28wKuhAuG66nxQnR&#43;NoY=" crossorigin="anonymous"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
-    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script>
-    $("#openSearch, #openSearchMobile").click(function(){
-      $(".modal-dialog").addClass("visible");
-    });
-
-    $("#closeSearch").click(function(){
-      $(".modal-dialog").removeClass("visible");
-    });
-
-    $(document).click(function(event) {
-    
-      if (!$(event.target).closest(".modal-content, #openSearch, #openSearchMobile").length) {
-        $("body").find(".modal-dialog").removeClass("visible");
-      }
-    });
-  </script>
-
-
-
-
-  <script src="/js/custom.js"></script>
-
-
-  </body>
-</html>
+</code></pre><p>有待补充&mldr;</p></div><div class=post-copyright><p class=copyright-item><span class=item-title>文章作者</span>
+<span class=item-content>贤民</span></p><p class=copyright-item><span class=item-title>上次更新</span>
+<span class=item-content>2018-03-31</span></p><p class=copyright-item><span class=item-title>许可协议</span>
+<span class=item-content>原创文章，如需转载请注明文章作者和出处。谢谢！</span></p></div><div class=post-reward><input type=checkbox name=reward id=reward hidden>
+<label class=reward-button for=reward>赞赏支持</label><div class=qr-code><label class=qr-code-image for=reward><img class=image src=/reward_wechat.png>
+<span>微信打赏</span></label></div></div><footer class=post-footer><div class=post-tags><a href=https://www.xianmin.org/tags/emacs/>emacs</a>
+<a href=https://www.xianmin.org/tags/editor/>editor</a>
+<a href=https://www.xianmin.org/tags/orgmode/>orgmode</a>
+<a href=https://www.xianmin.org/tags/hugo/>hugo</a>
+<a href=https://www.xianmin.org/tags/%E5%86%99%E4%BD%9C/>写作</a>
+<a href=https://www.xianmin.org/tags/tool/>tool</a>
+<a href=https://www.xianmin.org/tags/%E5%8D%9A%E5%AE%A2/>博客</a></div><nav class=post-nav><a class=prev href=/post/i-am-a-bad-project-manager/><i class=iconfont><svg class="icon" viewBox="0 0 1024 1024" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18"><path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417l277.93508-310.326815c11.338233-12.190647 11.035334-32.285311-.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"/></svg>
+</i><span class="prev-text nav-default">糟糕的项目管理新手</span>
+<span class="prev-text nav-mobile">上一篇</span>
+</a><a class=next href=/post/note-opensource-project/><span class="next-text nav-default">笔记：有关开源项目</span>
+<span class="prev-text nav-mobile">下一篇</span>
+<i class=iconfont><svg class="icon" viewBox="0 0 1024 1024" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18"><path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697c-11.777231-11.500939-30.216186-10.304694-41.178865 2.712784z"/></svg></i></a></nav></footer></article><div class=comment><script src=https://giscus.app/client.js data-repo=xianmin/comments---xianmin.org data-repo-id="MDEwOlJlcG9zaXRvcnkxNDAyNTY2MDI=" data-category=Announcements data-category-id=DIC_kwDOCFwlWs4CRRxW data-mapping=pathname data-strict=0 data-reactions-enabled=1 data-emit-metadata=0 data-input-position=top data-theme=light data-lang=zh-CN crossorigin=anonymous async></script></div><div class="disqus-comment comment"><div class=disqus-button id=load_disqus onclick=load_disqus()>显示 Disqus 评论</div><div id=disqus_thread></div><script type=text/javascript>var disqus_config=function(){this.page.url="https://www.xianmin.org/post/ox-hugo/"};function load_disqus(){if(window.location.hostname==="localhost")return;var t,e=document.createElement("script");e.type="text/javascript",e.async=!0,t="xianmin12",e.src="//"+t+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e),$("#load_disqus").remove()}</script><noscript>Please enable JavaScript to view the
+<a href=http://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript></div></div><nav class=toc id=toc><div class=toc-title>文章目录</div><div class="toc-content custom-scrollbar"><nav id=TableOfContents><ul><li><a href=#自问自答>自问自答</a><ul><li><a href=#问-为什么写这篇文章>问： 为什么写这篇文章？</a></li><li><a href=#问-这篇文章主要解决什么问题>问： 这篇文章主要解决什么问题？</a></li><li><a href=#问-为什么用-emacs-和-orgmode>问： 为什么用 emacs 和 orgmode ？</a></li><li><a href=#问-为什么用-hugo>问： 为什么用 hugo ？</a></li></ul></li><li><a href=#发布博文的一般流程>发布博文的一般流程</a></li><li><a href=#创建博文>创建博文</a><ul><li><a href=#使用-org-capture-创建博文>使用 org-capture 创建博文</a></li><li><a href=#使用-yasnippet-创建博文>使用 YASnippet 创建博文</a></li></ul></li><li><a href=#由-ox-hugo-生成-markdown>由 ox-hugo 生成 markdown</a></li><li><a href=#使用-easy-hugo-管理你的博客-可选>使用 easy-hugo 管理你的博客（可选）</a></li><li><a href=#最后的总结>最后的总结</a></li><li><a href=#附录a-几个辅助写作的-emacs-扩展>附录A：几个辅助写作的 emacs 扩展</a></li><li><a href=#附录b-快速获取-orgmode-或-markdown-格式的网页标题和链接>附录B：快速获取 orgmode 或 markdown 格式的网页标题和链接</a></li><li><a href=#附录c-我的-yasnippet-模板>附录C：我的 YASnippet 模板</a><ul><li><a href=#hugo-文章信息模板>hugo 文章信息模板</a></li><li><a href=#more>more</a></li></ul></li></ul></nav></div></nav></div></main><footer id=footer class=footer><div class=icon-links><a href rel="me noopener" class=icon-link title=email target=_blank><svg aria-hidden="true" class="hi-svg-inline" fill="currentcolor" height="1em" id="mdi-email-outline" viewBox="0 0 24 24" width="1em"><path d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18c0 1.1.9 2 2 2H20C21.1 20 22 19.1 22 18V6M20 6l-8 5L4 6H20m0 12H4V8l8 5 8-5V18z"/></svg>
+</a><a href rel="me noopener" class=icon-link title=github target=_blank><svg aria-hidden="true" class="hi-svg-inline" fill="currentcolor" height="1em" id="mdi-github" viewBox="0 0 24 24" width="1em"><path d="M12 2A10 10 0 002 12c0 4.42 2.87 8.17 6.84 9.5C9.34 21.58 9.5 21.27 9.5 21 9.5 20.77 9.5 20.14 9.5 19.31 6.73 19.91 6.14 17.97 6.14 17.97c-.46-1.16-1.11-1.47-1.11-1.47C4.12 15.88 5.1 15.9 5.1 15.9 6.1 15.97 6.63 16.93 6.63 16.93 7.5 18.45 8.97 18 9.54 17.76 9.63 17.11 9.89 16.67 10.17 16.42c-2.22-.25-4.55-1.11-4.55-4.92.0-1.11.38-2 1.03-2.71C6.55 8.54 6.2 7.5 6.75 6.15c0 0 .84-.27 2.75 1.02C10.29 6.95 11.15 6.84 12 6.84s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02C17.8 7.5 17.45 8.54 17.35 8.79 18 9.5 18.38 10.39 18.38 11.5c0 3.82-2.34 4.66-4.57 4.91C14.17 16.72 14.5 17.33 14.5 18.26c0 1.34.0 2.42.0 2.74.0.27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0012 2z"/></svg>
+</a><a href=https://www.xianmin.org/index.xml rel="noopener alternate" type=application/rss+xml class=icon-link title=rss target=_blank><svg aria-hidden="true" class="hi-svg-inline icon--rss" fill="none" height="1em" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></div><div class=copyright><span class=power-by>Powered by <a class=hexo-link href=https://gohugo.io>Hugo</a>
+</span><span class=division>|</span>
+<span class=theme-info>Theme - <a class=theme-link href=https://github.com/xianmin/hugo-theme-jane>Jane</a>
+</span><span class=copyright-year>&copy;
+2017 -
+2024
+<span class=heart><i class=iconfont><svg class="icon" viewBox="0 0 1025 1024" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14"><path d="M1000.1 247.9c-15.5-37.3-37.6-70.6-65.7-98.9-54.4-54.8-125.8-85-201-85-85.7.0-166 39-221.4 107.4C456.6 103 376.3 64 290.6 64c-75.1.0-146.5 30.4-201.1 85.6-28.2 28.5-50.4 61.9-65.8 99.3-16 38.8-24 79.9-23.6 122.2.7 91.7 40.1 177.2 108.1 234.8 3.1 2.6 6 5.1 8.9 7.8 14.9 13.4 58 52.8 112.6 102.7 93.5 85.5 209.9 191.9 257.5 234.2 7 6.1 15.8 9.5 24.9 9.5 9.2.0 18.1-3.4 24.9-9.5 34.5-30.7 105.8-95.9 181.4-165 74.2-67.8 150.9-138 195.8-178.2 69.5-57.9 109.6-144.4 109.9-237.3.1-42.5-8-83.6-24-122.2z" fill="#8a8a8a"/></svg>
+</i></span><span class=author>贤民</span></span></div></footer><script type=text/javascript src=/lib/jquery/jquery-3.7.1.min.js></script><script type=text/javascript src=/lib/slideout/slideout-1.0.1.min.js></script><script type=text/javascript src=/js/main.67dcae1bc0cc95d0bb932526ef5689fea35bd3a9957a1546c34955d9e3ecd364.js integrity="sha256-Z9yuG8DMldC7kyUm71aJ/qNb06mVehVGw0lV2ePs02Q=" crossorigin=anonymous></script><script type=text/javascript src=/lib/photoswipe/photoswipe.min.js></script><script type=text/javascript src=/lib/photoswipe/photoswipe-ui-default.min.js></script><script>$("#openSearch, #openSearchMobile").click(function(){$(".modal-dialog").addClass("visible")}),$("#closeSearch").click(function(){$(".modal-dialog").removeClass("visible")}),$(document).click(function(e){$(e.target).closest(".modal-content, #openSearch, #openSearchMobile").length||$("body").find(".modal-dialog").removeClass("visible")})</script><script src=/js/custom.js></script></body></html>

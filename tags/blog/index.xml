@@ -1,33 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>blog on 贤民的博客</title>
-    <link>https://www.xianmin.org/tags/blog/</link>
-    <description>Recent content in blog on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 05 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/tags/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>博客重启 2.0</title>
-      <link>https://www.xianmin.org/post/2022/01-blog-restart/</link>
-      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/01-blog-restart/</guid>
-      <description>&lt;h2 id=&#34;为什么博客改名了&#34;&gt;为什么博客改名了？&lt;/h2&gt;
-&lt;p&gt;「贤民的博客」，简单明了。之前叫「贤民的比特记忆」，「比特记忆」这个名称，读者朋友不一定理解它的含义，增加额外的认知负担，感觉没这必要。&lt;/p&gt;
-&lt;h2 id=&#34;还做了哪些改动&#34;&gt;还做了哪些改动？&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.xianmin.org/about/&#34;&gt;「关于」&lt;/a&gt; 页面是新的来访者了解我和这个博客的一个重要链接，其中的内容是 2018 年写的，距今有四年多了，很多信息都已过时，而我在这几年也有些许变化，是应该更新一下了。&lt;/p&gt;
-&lt;p&gt;另外，我给博客专门添加了 &lt;a href=&#34;https://www.xianmin.org/acknowledgments/&#34;&gt;「致谢」&lt;/a&gt; 页面。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>更好的基于 github issues 的评论系统——utterances</title>
-      <link>https://www.xianmin.org/post/utterances-comment-system/</link>
-      <pubDate>Tue, 10 Jul 2018 14:34:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/utterances-comment-system/</guid>
-      <description>背景介绍 基于 github issues 的评论系统，比较流行的有 gitment 和 gitalk 。这两个项目我很早就注意到了，它们明显的缺陷是，当用户如果尝试登录评论，所要求的权限是很多的，</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on 贤民的博客</title><link>https://www.xianmin.org/tags/blog/</link><description>Recent content in Blog on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 05 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>博客重启 2.0</title><link>https://www.xianmin.org/post/2022/01-blog-restart/</link><pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/01-blog-restart/</guid><description>&lt;h2 id="为什么博客改名了">为什么博客改名了？&lt;/h2>
+&lt;p>「贤民的博客」，简单明了。之前叫「贤民的比特记忆」，「比特记忆」这个名称，读者朋友不一定理解它的含义，增加额外的认知负担，感觉没这必要。&lt;/p>
+&lt;h2 id="还做了哪些改动">还做了哪些改动？&lt;/h2>
+&lt;p>&lt;a href="https://www.xianmin.org/about/">「关于」&lt;/a> 页面是新的来访者了解我和这个博客的一个重要链接，其中的内容是 2018 年写的，距今有四年多了，很多信息都已过时，而我在这几年也有些许变化，是应该更新一下了。&lt;/p>
+&lt;p>另外，我给博客专门添加了 &lt;a href="https://www.xianmin.org/acknowledgments/">「致谢」&lt;/a> 页面。&lt;/p></description></item><item><title>更好的基于 github issues 的评论系统——utterances</title><link>https://www.xianmin.org/post/utterances-comment-system/</link><pubDate>Tue, 10 Jul 2018 14:34:00 +0800</pubDate><guid>https://www.xianmin.org/post/utterances-comment-system/</guid><description>&lt;h2 id="背景介绍">背景介绍&lt;/h2>
+&lt;p>基于 &lt;strong>github issues&lt;/strong> 的评论系统，比较流行的有 &lt;a href="https://github.com/imsun/gitment">gitment&lt;/a> 和 &lt;a href="https://github.com/gitalk/gitalk">gitalk&lt;/a> 。这两个项目我很早就注意到了，它们明显的缺陷是，当用户如果尝试登录评论，所要求的权限是很多的，因此我也一直有所顾忌，不愿授权。不授权就无法评论了吗？还真不是。我在网上搜到了这篇文章——&lt;a href="https://blog.wolfogre.com/posts/security-problem-of-gitment/">Gitment 的安全性争议 | 狼煞博客&lt;/a>，文中提到：&lt;/p></description></item></channel></rss>

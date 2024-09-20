@@ -1,21 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>技巧 on 贤民的博客</title>
-    <link>https://www.xianmin.org/tags/%E6%8A%80%E5%B7%A7/</link>
-    <description>Recent content in 技巧 on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>浅谈一种搜索思路——找到专业网站</title>
-      <link>https://www.xianmin.org/post/2022/10-search-and-find-professional-websites/</link>
-      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/10-search-and-find-professional-websites/</guid>
-      <description>&lt;p&gt;关于 Google 等搜索引擎的搜索技巧，在网上已有很多，我就不多说了。
-本文分享一个搜索的 &lt;strong&gt;思路&lt;/strong&gt; ，这跟工具的使用技巧上有点差别。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技巧 on 贤民的博客</title><link>https://www.xianmin.org/tags/%E6%8A%80%E5%B7%A7/</link><description>Recent content in 技巧 on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/tags/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>浅谈一种搜索思路——找到专业网站</title><link>https://www.xianmin.org/post/2022/10-search-and-find-professional-websites/</link><pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/10-search-and-find-professional-websites/</guid><description>&lt;p>关于 Google 等搜索引擎的搜索技巧，在网上已有很多，我就不多说了。
+本文分享一个搜索的 &lt;strong>思路&lt;/strong> ，这跟工具的使用技巧上有点差别。&lt;/p></description></item></channel></rss>

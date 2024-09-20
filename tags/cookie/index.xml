@@ -1,38 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>cookie on 贤民的博客</title>
-    <link>https://www.xianmin.org/tags/cookie/</link>
-    <description>Recent content in cookie on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 06 Sep 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/cookie/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>启用 ublock Cookie 规则，避免网站 Cookie 弹窗</title>
-      <link>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</link>
-      <pubDate>Fri, 06 Sep 2024 14:20:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</guid>
-      <description>&lt;p&gt;由于欧洲的数据保护政策，许多网站都会弹窗提醒你「接受 Cookies」 。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cookie on 贤民的博客</title><link>https://www.xianmin.org/tags/cookie/</link><description>Recent content in Cookie on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 06 Sep 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/cookie/index.xml" rel="self" type="application/rss+xml"/><item><title>启用 ublock Cookie 规则，避免网站 Cookie 弹窗</title><link>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</link><pubDate>Fri, 06 Sep 2024 14:20:00 +0800</pubDate><guid>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</guid><description>&lt;p>由于欧洲的数据保护政策，许多网站都会弹窗提醒你「接受 Cookies」 。&lt;/p>
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/avoid-cookie-00.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/avoid-cookie-00.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;cookie&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
+&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/avoid-cookie-00.png" />
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/other/avoid-cookie-00.png" itemprop="contentUrl">&lt;/a>
+ &lt;figcaption>&lt;h4>cookie&lt;/h4>
+ &lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
 
-&lt;p&gt;我个人并 &lt;strong&gt;不关心&lt;/strong&gt; 网站的 Cookie 存储了哪些数据，
+&lt;p>我个人并 &lt;strong>不关心&lt;/strong> 网站的 Cookie 存储了哪些数据，
 而且我也没那么多精力看各个网站的 Cookie 政策,
 所以每次弹窗，我都是无脑点击 「Accept all cookies」 。
-通常，点击一次，也就不会再弹窗了。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+通常，点击一次，也就不会再弹窗了。&lt;/p></description></item></channel></rss>

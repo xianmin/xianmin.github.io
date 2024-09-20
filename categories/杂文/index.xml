@@ -1,300 +1,146 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>杂文 on 贤民的博客</title>
-    <link>https://www.xianmin.org/categories/%E6%9D%82%E6%96%87/</link>
-    <description>Recent content in 杂文 on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 02 Jan 2023 16:01:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E6%9D%82%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>别了， 2022！</title>
-      <link>https://www.xianmin.org/post/2022/goodbye-2022/</link>
-      <pubDate>Mon, 02 Jan 2023 16:01:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/goodbye-2022/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2022/00.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2022/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;2023 新年登高&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>杂文 on 贤民的博客</title><link>https://www.xianmin.org/categories/%E6%9D%82%E6%96%87/</link><description>Recent content in 杂文 on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 02 Jan 2023 16:01:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E6%9D%82%E6%96%87/index.xml" rel="self" type="application/rss+xml"/><item><title>别了， 2022！</title><link>https://www.xianmin.org/post/2022/goodbye-2022/</link><pubDate>Mon, 02 Jan 2023 16:01:00 +0800</pubDate><guid>https://www.xianmin.org/post/2022/goodbye-2022/</guid><description>&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2022/00.jpg" />
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/memory/2022/00.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;figcaption>&lt;h4>2023 新年登高&lt;/h4>
+ &lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
 
-&lt;p&gt;2021 年，我结束了青旅的工作，之后有半年在流浪，居无定所，生活上有许多不确定性。
+&lt;p>2021 年，我结束了青旅的工作，之后有半年在流浪，居无定所，生活上有许多不确定性。
 不过也正因为这半年「无拘无束的放飞自我」，今年终于可以定下心来专心做事。
-这是我自己的选择，我选择了自己想做的事情，选择了未来几年想走的道路，不能再有任何借口了。&lt;/p&gt;
-&lt;p&gt;2022 年，整个国内大环境有诸多变故。对此，我学识浅薄，没什么可说的。在个人有能力、可以施展身手的地方，比如技能、心态、修养，要自强不息，积极进取。而在个人无能力改变的地方，比如气候变化、疫情、政治生态，那就安之若命吧。&lt;/p&gt;
-&lt;p&gt;作为对我个人在 2022 年的回顾与总结，我想就以下几个方面简单谈一谈。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>博客重启 2.0</title>
-      <link>https://www.xianmin.org/post/2022/01-blog-restart/</link>
-      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2022/01-blog-restart/</guid>
-      <description>&lt;h2 id=&#34;为什么博客改名了&#34;&gt;为什么博客改名了？&lt;/h2&gt;
-&lt;p&gt;「贤民的博客」，简单明了。之前叫「贤民的比特记忆」，「比特记忆」这个名称，读者朋友不一定理解它的含义，增加额外的认知负担，感觉没这必要。&lt;/p&gt;
-&lt;h2 id=&#34;还做了哪些改动&#34;&gt;还做了哪些改动？&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.xianmin.org/about/&#34;&gt;「关于」&lt;/a&gt; 页面是新的来访者了解我和这个博客的一个重要链接，其中的内容是 2018 年写的，距今有四年多了，很多信息都已过时，而我在这几年也有些许变化，是应该更新一下了。&lt;/p&gt;
-&lt;p&gt;另外，我给博客专门添加了 &lt;a href=&#34;https://www.xianmin.org/acknowledgments/&#34;&gt;「致谢」&lt;/a&gt; 页面。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>别了，2021！</title>
-      <link>https://www.xianmin.org/post/goodbye-2021/</link>
-      <pubDate>Mon, 24 Jan 2022 06:21:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/goodbye-2021/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2021/00.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2021/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
+这是我自己的选择，我选择了自己想做的事情，选择了未来几年想走的道路，不能再有任何借口了。&lt;/p>
+&lt;p>2022 年，整个国内大环境有诸多变故。对此，我学识浅薄，没什么可说的。在个人有能力、可以施展身手的地方，比如技能、心态、修养，要自强不息，积极进取。而在个人无能力改变的地方，比如气候变化、疫情、政治生态，那就安之若命吧。&lt;/p>
+&lt;p>作为对我个人在 2022 年的回顾与总结，我想就以下几个方面简单谈一谈。&lt;/p></description></item><item><title>博客重启 2.0</title><link>https://www.xianmin.org/post/2022/01-blog-restart/</link><pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/01-blog-restart/</guid><description>&lt;h2 id="为什么博客改名了">为什么博客改名了？&lt;/h2>
+&lt;p>「贤民的博客」，简单明了。之前叫「贤民的比特记忆」，「比特记忆」这个名称，读者朋友不一定理解它的含义，增加额外的认知负担，感觉没这必要。&lt;/p>
+&lt;h2 id="还做了哪些改动">还做了哪些改动？&lt;/h2>
+&lt;p>&lt;a href="https://www.xianmin.org/about/">「关于」&lt;/a> 页面是新的来访者了解我和这个博客的一个重要链接，其中的内容是 2018 年写的，距今有四年多了，很多信息都已过时，而我在这几年也有些许变化，是应该更新一下了。&lt;/p>
+&lt;p>另外，我给博客专门添加了 &lt;a href="https://www.xianmin.org/acknowledgments/">「致谢」&lt;/a> 页面。&lt;/p></description></item><item><title>别了，2021！</title><link>https://www.xianmin.org/post/goodbye-2021/</link><pubDate>Mon, 24 Jan 2022 06:21:00 +0800</pubDate><guid>https://www.xianmin.org/post/goodbye-2021/</guid><description>&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2021/00.jpg" />
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/memory/2021/00.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;/figure>
+&lt;/div>
 
-&lt;p&gt;再过几个月，我将年满 30 周岁。在 30 周岁前，也就是 2021 年，我了结了一个在脑海中萦绕了很久的念想——骑着自行车去流浪，去了一些想去的地方，做了一些想做的事儿，这算是送给自己 30 周岁的礼物吧。&lt;/p&gt;
-&lt;h2 id=&#34;行程概要&#34;&gt;行程概要&lt;/h2&gt;
-&lt;p&gt;从 2021 年 4 月 26 日出发，到 10 月 24 日返程，历时半年，途经云南、西藏、四川、甘肃、青海，累计行程约有 5000 公里。这趟行程，我并没有明确的目的地，只是有几条想走的路线，有几个想去的地方，但没有具体的计划，走到哪儿算哪儿。起初，我没有想过自己是否会返回丽江，这个我工作生活了八年的地方。我不想有任何的牵绊，我希望自己是以一种完全自由的状态在世间流浪。所以我把我的狗带上了，它叫卡卡，六岁。我很难想象，如果把它丢下，我是否会在路上时常牵挂它，我只能把它带上。现在看来，这是多么明智的决定，它一路上给了我许多帮助，为这趟行程增添了许多欢乐，我俩也一起共同缔造了许多美好的回忆。&lt;/p&gt;
-&lt;p&gt;此次行程共有七个阶段：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;从丽江出发，过金沙江到维西县，沿澜沧江北上，翻越徳贡公路到丙中洛，沿怒江北上，走丙察察到察隅，再到然乌，与 318 国道会合。&lt;/li&gt;
-&lt;li&gt;之后，我并没有选择从 318 去拉萨，而是坐上了好友圆圆的车到了芒康。从芒康经贡觉县北上到了国道 317 ，再从 317 出了西藏，经江达、德格，抵达甘孜县，在甘孜县修整数日。&lt;/li&gt;
-&lt;li&gt;从甘孜县往东，经炉霍、马尔康，再往北到红原，穿过若尔盖草原，到朗木寺镇，修整数日。&lt;/li&gt;
-&lt;li&gt;从朗木寺镇，经夏河县进入青海，到同仁，坐上了好友茜茜的车，经西宁、乌兰、德令哈、柴旦木，抵达敦煌，在敦煌修整数日。&lt;/li&gt;
-&lt;li&gt;原本想从敦煌进入新疆，因疫情原因作罢。告别好友，从敦煌出发，沿着河西走廊一路往东，经玉门、嘉峪关、高台，到张掖。&lt;/li&gt;
-&lt;li&gt;从张掖一路往南，走 227 国道，翻越祁连山，经西宁、贵德，进入果洛藏族自治州，经玛沁、甘德，到达达日县，在达日县修整数日。&lt;/li&gt;
-&lt;li&gt;从达日继续往南，经班玛、色达、新龙、理塘，抵达稻城，在稻城坐上兄长老杨的车，返回出发地——丽江。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;当我写下以上文字，难免会有一些感慨，那些大江、雪山、草原、戈壁，经过的小镇、县城，可爱的人们，还有我与卡卡的种种经历，好像真实发生过，又仿佛是梦境、幻觉。&lt;/p&gt;
+&lt;p>再过几个月，我将年满 30 周岁。在 30 周岁前，也就是 2021 年，我了结了一个在脑海中萦绕了很久的念想——骑着自行车去流浪，去了一些想去的地方，做了一些想做的事儿，这算是送给自己 30 周岁的礼物吧。&lt;/p>
+&lt;h2 id="行程概要">行程概要&lt;/h2>
+&lt;p>从 2021 年 4 月 26 日出发，到 10 月 24 日返程，历时半年，途经云南、西藏、四川、甘肃、青海，累计行程约有 5000 公里。这趟行程，我并没有明确的目的地，只是有几条想走的路线，有几个想去的地方，但没有具体的计划，走到哪儿算哪儿。起初，我没有想过自己是否会返回丽江，这个我工作生活了八年的地方。我不想有任何的牵绊，我希望自己是以一种完全自由的状态在世间流浪。所以我把我的狗带上了，它叫卡卡，六岁。我很难想象，如果把它丢下，我是否会在路上时常牵挂它，我只能把它带上。现在看来，这是多么明智的决定，它一路上给了我许多帮助，为这趟行程增添了许多欢乐，我俩也一起共同缔造了许多美好的回忆。&lt;/p>
+&lt;p>此次行程共有七个阶段：&lt;/p>
+&lt;ol>
+&lt;li>从丽江出发，过金沙江到维西县，沿澜沧江北上，翻越徳贡公路到丙中洛，沿怒江北上，走丙察察到察隅，再到然乌，与 318 国道会合。&lt;/li>
+&lt;li>之后，我并没有选择从 318 去拉萨，而是坐上了好友圆圆的车到了芒康。从芒康经贡觉县北上到了国道 317 ，再从 317 出了西藏，经江达、德格，抵达甘孜县，在甘孜县修整数日。&lt;/li>
+&lt;li>从甘孜县往东，经炉霍、马尔康，再往北到红原，穿过若尔盖草原，到朗木寺镇，修整数日。&lt;/li>
+&lt;li>从朗木寺镇，经夏河县进入青海，到同仁，坐上了好友茜茜的车，经西宁、乌兰、德令哈、柴旦木，抵达敦煌，在敦煌修整数日。&lt;/li>
+&lt;li>原本想从敦煌进入新疆，因疫情原因作罢。告别好友，从敦煌出发，沿着河西走廊一路往东，经玉门、嘉峪关、高台，到张掖。&lt;/li>
+&lt;li>从张掖一路往南，走 227 国道，翻越祁连山，经西宁、贵德，进入果洛藏族自治州，经玛沁、甘德，到达达日县，在达日县修整数日。&lt;/li>
+&lt;li>从达日继续往南，经班玛、色达、新龙、理塘，抵达稻城，在稻城坐上兄长老杨的车，返回出发地——丽江。&lt;/li>
+&lt;/ol>
+&lt;p>当我写下以上文字，难免会有一些感慨，那些大江、雪山、草原、戈壁，经过的小镇、县城，可爱的人们，还有我与卡卡的种种经历，好像真实发生过，又仿佛是梦境、幻觉。&lt;/p>
 
 
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2021/01.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2021/01.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>别了， 2020！</title>
-      <link>https://www.xianmin.org/post/goodbye-2020/</link>
-      <pubDate>Mon, 01 Feb 2021 16:01:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/goodbye-2020/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/me.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/me.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2021/01.jpg" />
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/memory/2021/01.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;/figure>
+&lt;/div></description></item><item><title>别了， 2020！</title><link>https://www.xianmin.org/post/goodbye-2020/</link><pubDate>Mon, 01 Feb 2021 16:01:00 +0800</pubDate><guid>https://www.xianmin.org/post/goodbye-2020/</guid><description>&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/me.jpg" />
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/other/me.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;/figure>
+&lt;/div>
 
-&lt;p&gt;（又是迟到的总结，大体内容在 1 月初就写好了。只是拖延症太严重，一直拖到今天才发到博客上……）&lt;/p&gt;
-&lt;p&gt;2020 年，相信对这个星球上的每一个人都是非同寻常的一年。我个人其实经历的要少的多，也许是在小地方的缘故，既不在前线，地方上的疫情也不严重。除了 1 月底开始封锁的那一个月，我呆在院子里哪儿都没去，此后的生活并没有太多的影响。可以说是非常幸运了。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>重返江南</title>
-      <link>https://www.xianmin.org/post/review-2020-return-jiangnan/</link>
-      <pubDate>Thu, 15 Oct 2020 11:11:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/review-2020-return-jiangnan/</guid>
-      <description>&lt;h2 id=&#34;1&#34;&gt;1&lt;/h2&gt;
+&lt;p>（又是迟到的总结，大体内容在 1 月初就写好了。只是拖延症太严重，一直拖到今天才发到博客上……）&lt;/p>
+&lt;p>2020 年，相信对这个星球上的每一个人都是非同寻常的一年。我个人其实经历的要少的多，也许是在小地方的缘故，既不在前线，地方上的疫情也不严重。除了 1 月底开始封锁的那一个月，我呆在院子里哪儿都没去，此后的生活并没有太多的影响。可以说是非常幸运了。&lt;/p></description></item><item><title>重返江南</title><link>https://www.xianmin.org/post/review-2020-return-jiangnan/</link><pubDate>Thu, 15 Oct 2020 11:11:00 +0800</pubDate><guid>https://www.xianmin.org/post/review-2020-return-jiangnan/</guid><description>&lt;h2 id="1">1&lt;/h2>
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/memory/2020/06/00.jpg&#34; alt=&#34;摄于良渚遗址 - 2020 年 6 月&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/memory/2020/06/00.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;我和我弟&lt;/h4&gt;
-          &lt;p&gt;摄于良渚遗址 - 2020 年 6 月&lt;/p&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
+&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2020/06/00.jpg" alt="摄于良渚遗址 - 2020 年 6 月"/>
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/memory/2020/06/00.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;figcaption>&lt;h4>我和我弟&lt;/h4>
+ &lt;p>摄于良渚遗址 - 2020 年 6 月&lt;/p>
+ &lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
 
-&lt;p&gt;有两年多没去大城市，也有好些年没见过弟弟了，他还是那么瘦，脸上洋溢着充满阳光的笑容。是啊！想想我俩所走的不同的道路，尽管出生在不那么幸福的家庭，他所经历的比我可要顺利的多。即便只相差两岁，我俩的个性却截然不同。他比我专注，学业稳定，考入名牌大学，毕业后找一份好工作也就顺理成章。多年未见，他还是老样子，也许我也还是老样子，相见无需多言，还是那个熟悉的兄弟，七分相像，三分的不同，却引向各自迥异的命运。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>别了，2019！</title>
-      <link>https://www.xianmin.org/post/goodbye-2019/</link>
-      <pubDate>Tue, 21 Jan 2020 14:57:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/goodbye-2019/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/goodbye-2019.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/goodbye-2019.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;11 月的梅里&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
+&lt;p>有两年多没去大城市，也有好些年没见过弟弟了，他还是那么瘦，脸上洋溢着充满阳光的笑容。是啊！想想我俩所走的不同的道路，尽管出生在不那么幸福的家庭，他所经历的比我可要顺利的多。即便只相差两岁，我俩的个性却截然不同。他比我专注，学业稳定，考入名牌大学，毕业后找一份好工作也就顺理成章。多年未见，他还是老样子，也许我也还是老样子，相见无需多言，还是那个熟悉的兄弟，七分相像，三分的不同，却引向各自迥异的命运。&lt;/p></description></item><item><title>别了，2019！</title><link>https://www.xianmin.org/post/goodbye-2019/</link><pubDate>Tue, 21 Jan 2020 14:57:00 +0800</pubDate><guid>https://www.xianmin.org/post/goodbye-2019/</guid><description>&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/goodbye-2019.jpg" />
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/other/goodbye-2019.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;figcaption>&lt;h4>11 月的梅里&lt;/h4>
+ &lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
 
-&lt;p&gt;2019 年的年终总结来的比往年晚了一些，最近完全没有想做总结的冲动。如果写这篇总结的过程让自己不愉快，那还不如不写，对吧。可不做总结吧，反而内心有点儿愧疚，还是写下来吧。生命只有一次， 19 年也只有一次，还是要活得有意思吧，别人看着有意思，那是别人的事，关键得自己觉得有意思。很多事情，错过了也就错过了。&lt;/p&gt;
-&lt;p&gt;回顾起来，相比 18 年， 19 年就平淡了许多。&lt;/p&gt;
-&lt;p&gt;按照惯例，总结依然分为四大类：修行、工作、锻炼、学习。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>英文电子词典的选用建议</title>
-      <link>https://www.xianmin.org/post/english-dictionary-recommend/</link>
-      <pubDate>Sun, 23 Jun 2019 08:18:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/english-dictionary-recommend/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;去年 9 月，我写了篇 &lt;a href=&#34;https://www.xianmin.org/post/plan-english-2018/&#34;&gt;英语学习方法总结&lt;/a&gt; ，经过半年多的实践，期间查询了大量的英文单词，对不同词典的优缺点有了更直观的感触。 &lt;strong&gt;在本篇文章中，我将对英文词典的选用，分享一点自己的心得。&lt;/strong&gt; 鉴于我个人的英文水平依旧一般，选用建议仅供参考。&lt;/p&gt;
-&lt;p&gt;注：本文所提到的词典皆为 &lt;strong&gt;电子词典&lt;/strong&gt; 。手机端使用的 APP 为欧路词典，电脑端使用 GoldenDict 。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;以下两部词典解决 99% 的查词需求：&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;《柯林斯（ Collins ）双解词典》；&lt;/li&gt;
-&lt;li&gt;《朗文当代英语词典》 第六版 （ Longman Dictionary of Contemporary English 6th - 简称：LDOCE6 ）。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;再加上一部《麦克米伦（ Macmillan ）高阶学习词典》，基本就解决了 99.9% 的查词需求。&lt;/p&gt;
-&lt;p&gt;词典的数量在精不在多， &lt;strong&gt;我拥有的二十几部英文词典，绝大多数完全没有用过，释义基本大同小异。&lt;/strong&gt; 而我选用的这三部词典，各有各的特色，满足了我在不同场景下的使用需求。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>别了， 2018 ！</title>
-      <link>https://www.xianmin.org/post/goodbye-2018/</link>
-      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/goodbye-2018/</guid>
-      <description>&lt;p&gt;一年又过去了，我重新看了下与你在 2017 年末（&lt;a href=&#34;https://www.xianmin.org/post/2017/&#34;&gt;别了，2017！&lt;/a&gt;）的交流，再回顾这刚过去的 2018 年，我应该对你说些什么呢？&lt;/p&gt;
-&lt;p&gt;现在，我将对你的 2018 年终总结分为四大类：修行、工作、锻炼、学习。「学习」下面分为四小类：编程、英语、写作、阅读。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>浅谈冥想（或者说正念）——反抗痛苦的方法</title>
-      <link>https://www.xianmin.org/post/talk-about-mindfulness/</link>
-      <pubDate>Fri, 12 Oct 2018 08:06:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/talk-about-mindfulness/</guid>
-      <description>&lt;p&gt;这一年多，「冥想」对我的帮助非常大。主要体现在：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;减少了我的「痛苦」。&lt;/li&gt;
-&lt;li&gt;降低了我的「焦虑」。&lt;/li&gt;
-&lt;li&gt;提高了我的「专注力」。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;另外，从实际行动层面：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;我开始了我的博客，尽管目前有价值的内容还不是很多。&lt;/li&gt;
-&lt;li&gt;我开始真正使用 Github 。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;翻了翻邮箱，我曾经在三年前与 ZH 、 LM 两位老师多次谈过我的痛苦和焦虑，见 &lt;a href=&#34;#%E9%99%84%E4%B8%80-%E5%85%B3%E4%BA%8E%E7%97%9B%E8%8B%A6%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BF%A1%E4%BB%B6%E6%91%98%E5%BD%95&#34;&gt;附一：关于痛苦的一些信件摘录&lt;/a&gt; 。今年我的状态明显好了很多。&lt;/p&gt;
-&lt;p&gt;我想在这篇文章里， &lt;strong&gt;简单谈一谈「冥想」&lt;/strong&gt; 。本着对读者负责的态度，有几点需要说明的：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;本篇文章只是我个人小小的分享。&lt;/li&gt;
-&lt;li&gt;我个人真正「实践冥想」只是近一年左右的事情，我还是一个初学者，所分享的内容仅限于我 &lt;strong&gt;个人的感悟和理解&lt;/strong&gt; 。&lt;/li&gt;
-&lt;li&gt;我不是「利益相关者」，我的分享只是因为 &lt;strong&gt;它对我有帮助&lt;/strong&gt; ，也希望对你有帮助。&lt;/li&gt;
-&lt;li&gt;有关冥想、以及其疗效的严谨学术研究并不多。 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;li&gt;不过呢，关于人体的奥秘，目前还有非常多科学无法解释的东西。&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
-    
-    <item>
-      <title>捍卫开放的互联网</title>
-      <link>https://www.xianmin.org/post/defend-the-open-internet/</link>
-      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/defend-the-open-internet/</guid>
-      <description>&lt;p&gt;直奔主题，我在 github 上发起了一个组织 &lt;strong&gt;「复兴 RSS」&lt;/strong&gt; ——&lt;a href=&#34;https://github.com/RSS-Renaissance&#34;&gt; RSS-Renaissance&lt;/a&gt; ，并创建了一个项目 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; ，这篇文章旨在宣传这个组织和项目，让更多人，尤其是年轻人知道 RSS，知道在互联网上有这么一批 &lt;strong&gt;独立博客&lt;/strong&gt; ，并促进「独立博客」们的互动。此外，本文还将提供一个可操作的方法，让更多的 &lt;strong&gt;独立博客&lt;/strong&gt; 加入到列表当中。&lt;/p&gt;
-&lt;p&gt;「捍卫开放的互联网」，这个标题起的有点儿哗众取宠，不过「复兴RSS」的宗旨之一就是促进互联网的开放，而不是少数几个巨头（比如微信、Facebook）掌控着互联网的信息。微信和 Facebook 都是极为 &lt;strong&gt;封闭的生态圈&lt;/strong&gt; ，打个比方，它们是互联网世界的「大陆」，而独立博客呢？则是互联网世界的一座座「孤岛」。「复兴 RSS」的任务或者说使命，是让这些「孤岛」连起来，成为「群岛」。这个组织，是一个开放的组织，我只是发起人。这个项目 &lt;a href=&#34;https://github.com/RSS-Renaissance/awesome-blogCN-feeds&#34;&gt;优质的「独立中文博客」列表&lt;/a&gt; 是一个开源项目，任何人都可以参与，并且只是一个开端，我希望未来能有更多的、更细分的、专业性更强的类似项目，例如「旅行相关列表」、「法律相关列表」、「数学相关列表」，诸如此类，并不局限于「独立中文博客」。我还希望，能够有更多的志同道合的朋友加入这个组织，创建更多的项目。让微信做它的江湖老大去吧，我们立我们自己的山头。&lt;/p&gt;
-&lt;p&gt;如果看到这篇文章的你，对我发起的组织和项目感兴趣，不妨加我的微信，我想建立一个「独立博客博主」交流群，互相交流意见。加我时麻烦你备注一下，比如「独立博客 + 你的博客网址」。我的微信二维码：&lt;/p&gt;
+&lt;p>2019 年的年终总结来的比往年晚了一些，最近完全没有想做总结的冲动。如果写这篇总结的过程让自己不愉快，那还不如不写，对吧。可不做总结吧，反而内心有点儿愧疚，还是写下来吧。生命只有一次， 19 年也只有一次，还是要活得有意思吧，别人看着有意思，那是别人的事，关键得自己觉得有意思。很多事情，错过了也就错过了。&lt;/p>
+&lt;p>回顾起来，相比 18 年， 19 年就平淡了许多。&lt;/p>
+&lt;p>按照惯例，总结依然分为四大类：修行、工作、锻炼、学习。&lt;/p></description></item><item><title>英文电子词典的选用建议</title><link>https://www.xianmin.org/post/english-dictionary-recommend/</link><pubDate>Sun, 23 Jun 2019 08:18:00 +0800</pubDate><guid>https://www.xianmin.org/post/english-dictionary-recommend/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>去年 9 月，我写了篇 &lt;a href="https://www.xianmin.org/post/plan-english-2018/">英语学习方法总结&lt;/a> ，经过半年多的实践，期间查询了大量的英文单词，对不同词典的优缺点有了更直观的感触。 &lt;strong>在本篇文章中，我将对英文词典的选用，分享一点自己的心得。&lt;/strong> 鉴于我个人的英文水平依旧一般，选用建议仅供参考。&lt;/p>
+&lt;p>注：本文所提到的词典皆为 &lt;strong>电子词典&lt;/strong> 。手机端使用的 APP 为欧路词典，电脑端使用 GoldenDict 。&lt;/p>
+&lt;p>&lt;strong>以下两部词典解决 99% 的查词需求：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>《柯林斯（ Collins ）双解词典》；&lt;/li>
+&lt;li>《朗文当代英语词典》 第六版 （ Longman Dictionary of Contemporary English 6th - 简称：LDOCE6 ）。&lt;/li>
+&lt;/ol>
+&lt;p>再加上一部《麦克米伦（ Macmillan ）高阶学习词典》，基本就解决了 99.9% 的查词需求。&lt;/p>
+&lt;p>词典的数量在精不在多， &lt;strong>我拥有的二十几部英文词典，绝大多数完全没有用过，释义基本大同小异。&lt;/strong> 而我选用的这三部词典，各有各的特色，满足了我在不同场景下的使用需求。&lt;/p></description></item><item><title>别了， 2018 ！</title><link>https://www.xianmin.org/post/goodbye-2018/</link><pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/goodbye-2018/</guid><description>&lt;p>一年又过去了，我重新看了下与你在 2017 年末（&lt;a href="https://www.xianmin.org/post/2017/">别了，2017！&lt;/a>）的交流，再回顾这刚过去的 2018 年，我应该对你说些什么呢？&lt;/p>
+&lt;p>现在，我将对你的 2018 年终总结分为四大类：修行、工作、锻炼、学习。「学习」下面分为四小类：编程、英语、写作、阅读。&lt;/p></description></item><item><title>浅谈冥想（或者说正念）——反抗痛苦的方法</title><link>https://www.xianmin.org/post/talk-about-mindfulness/</link><pubDate>Fri, 12 Oct 2018 08:06:00 +0800</pubDate><guid>https://www.xianmin.org/post/talk-about-mindfulness/</guid><description>&lt;p>这一年多，「冥想」对我的帮助非常大。主要体现在：&lt;/p>
+&lt;ol>
+&lt;li>减少了我的「痛苦」。&lt;/li>
+&lt;li>降低了我的「焦虑」。&lt;/li>
+&lt;li>提高了我的「专注力」。&lt;/li>
+&lt;/ol>
+&lt;p>另外，从实际行动层面：&lt;/p>
+&lt;ol>
+&lt;li>我开始了我的博客，尽管目前有价值的内容还不是很多。&lt;/li>
+&lt;li>我开始真正使用 Github 。&lt;/li>
+&lt;/ol>
+&lt;p>翻了翻邮箱，我曾经在三年前与 ZH 、 LM 两位老师多次谈过我的痛苦和焦虑，见 &lt;a href="https://www.xianmin.org/post/talk-about-mindfulness/#附一-关于痛苦的一些信件摘录">附一：关于痛苦的一些信件摘录&lt;/a> 。今年我的状态明显好了很多。&lt;/p>
+&lt;p>我想在这篇文章里， &lt;strong>简单谈一谈「冥想」&lt;/strong> 。本着对读者负责的态度，有几点需要说明的：&lt;/p>
+&lt;ol>
+&lt;li>本篇文章只是我个人小小的分享。&lt;/li>
+&lt;li>我个人真正「实践冥想」只是近一年左右的事情，我还是一个初学者，所分享的内容仅限于我 &lt;strong>个人的感悟和理解&lt;/strong> 。&lt;/li>
+&lt;li>我不是「利益相关者」，我的分享只是因为 &lt;strong>它对我有帮助&lt;/strong> ，也希望对你有帮助。&lt;/li>
+&lt;li>有关冥想、以及其疗效的严谨学术研究并不多。 &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;li>不过呢，关于人体的奥秘，目前还有非常多科学无法解释的东西。&lt;/li>
+&lt;/ol></description></item><item><title>捍卫开放的互联网</title><link>https://www.xianmin.org/post/defend-the-open-internet/</link><pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/defend-the-open-internet/</guid><description>&lt;p>直奔主题，我在 github 上发起了一个组织 &lt;strong>「复兴 RSS」&lt;/strong> ——&lt;a href="https://github.com/RSS-Renaissance"> RSS-Renaissance&lt;/a> ，并创建了一个项目 &lt;a href="https://github.com/RSS-Renaissance/awesome-blogCN-feeds">优质的「独立中文博客」列表&lt;/a> ，这篇文章旨在宣传这个组织和项目，让更多人，尤其是年轻人知道 RSS，知道在互联网上有这么一批 &lt;strong>独立博客&lt;/strong> ，并促进「独立博客」们的互动。此外，本文还将提供一个可操作的方法，让更多的 &lt;strong>独立博客&lt;/strong> 加入到列表当中。&lt;/p>
+&lt;p>「捍卫开放的互联网」，这个标题起的有点儿哗众取宠，不过「复兴RSS」的宗旨之一就是促进互联网的开放，而不是少数几个巨头（比如微信、Facebook）掌控着互联网的信息。微信和 Facebook 都是极为 &lt;strong>封闭的生态圈&lt;/strong> ，打个比方，它们是互联网世界的「大陆」，而独立博客呢？则是互联网世界的一座座「孤岛」。「复兴 RSS」的任务或者说使命，是让这些「孤岛」连起来，成为「群岛」。这个组织，是一个开放的组织，我只是发起人。这个项目 &lt;a href="https://github.com/RSS-Renaissance/awesome-blogCN-feeds">优质的「独立中文博客」列表&lt;/a> 是一个开源项目，任何人都可以参与，并且只是一个开端，我希望未来能有更多的、更细分的、专业性更强的类似项目，例如「旅行相关列表」、「法律相关列表」、「数学相关列表」，诸如此类，并不局限于「独立中文博客」。我还希望，能够有更多的志同道合的朋友加入这个组织，创建更多的项目。让微信做它的江湖老大去吧，我们立我们自己的山头。&lt;/p>
+&lt;p>如果看到这篇文章的你，对我发起的组织和项目感兴趣，不妨加我的微信，我想建立一个「独立博客博主」交流群，互相交流意见。加我时麻烦你备注一下，比如「独立博客 + 你的博客网址」。我的微信二维码：&lt;/p>
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  class=&#34;center&#34;  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:60%&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/wechat.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/wechat.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>开源实践：写在 Jane 发布之后</title>
-      <link>https://www.xianmin.org/post/hugo-theme-jane-publish/</link>
-      <pubDate>Sun, 11 Mar 2018 21:30:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/hugo-theme-jane-publish/</guid>
-      <description>&lt;p&gt;本周我发布了一个 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 主题 &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;Jane&lt;/a&gt; ，Jane 克隆自 &lt;a href=&#34;https://github.com/olOwOlo/hugo-theme-even&#34;&gt;hugo-theme-even&lt;/a&gt; ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>别了，2017！</title>
-      <link>https://www.xianmin.org/post/2017/</link>
-      <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2017/</guid>
-      <description>&lt;p&gt;翻阅你在这一年写的日记，「2017年6月26日：我是一个无知、无明、无趣的年轻人，对烟酒没有控制，自制力差，拖延症严重，喜欢胡思乱想，空想而缺乏行动，空有抱负却一事无成，喜好很多但一无所长。也许再过几年，我就是一个无知、无明、无趣的中年人了。」&lt;/p&gt;
-&lt;p&gt;似乎每年总有那么几天，你会感到焦虑，厌恶自己。但不管怎么说，一年又要过去了，我想从以下几个方面对你的2017年做一个总结：工作、锻炼、编程、英语、写作、阅读。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>构建你的移动书库——电子书阅读经验分享</title>
-      <link>https://www.xianmin.org/post/06-ebook/</link>
-      <pubDate>Mon, 06 Nov 2017 13:13:15 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/06-ebook/</guid>
-      <description>&lt;h1 id=&#34;写在前面&#34;&gt;写在前面&lt;/h1&gt;
-&lt;p&gt;作为一个农民的儿子，我从小跟随父母在外漂泊，长年都是租的房子，家里地方不大，除了教科书、习题册，基本没有任何藏书。那时候，没两年就会搬一次家，光是搬教科书都觉得挺累赘的。即便在成年后，自己依然一直在外漂泊，没有固定的居所，还是不敢买太多书，没地方安置。当然，还有一个很实际的问题，买书花钱，自己没多少钱。很多书像消费品，看完就丢一边了，它摆在那儿更多的像是一种象征性的装饰。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>工具癖患者的表现及自我修养</title>
-      <link>https://www.xianmin.org/post/05-tools-addict/</link>
-      <pubDate>Thu, 01 Jun 2017 09:32:56 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/05-tools-addict/</guid>
-      <description>&lt;p&gt;怎样给工具下定义？文字、语言算不算工具？知识算不算工具？数学公式算不算工具？科学方法算不算工具？甚至而言，宗教信仰算不算工具？那么工具癖又算什么呢？&lt;/p&gt;
-&lt;p&gt;由此可见，从更大的范围来讲，给工具下定义不是件容易的事。我在这篇文章仅谈论计算机相关的工具。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>专注于内容</title>
-      <link>https://www.xianmin.org/post/03-focus-on-content/</link>
-      <pubDate>Sat, 01 Apr 2017 09:13:20 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/03-focus-on-content/</guid>
-      <description>&lt;p&gt;当我们开始做一件事情，首先想一想这件事的核心是什么？然后再想，完成它有哪些方案？哪个方案即便它不够完美，却是自己目前可行的？哪个方案目前不可行，但是自己能够改进的？对于目前不可行，自己又无法改进的方案，暂时搁置，应当先以完成这件事情为主。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>主题与markdown语法测试</title>
-      <link>https://www.xianmin.org/post/00-even-theme-preview/</link>
-      <pubDate>Sun, 01 Jan 2017 18:03:09 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/00-even-theme-preview/</guid>
-      <description>&lt;p&gt;主题与markdown语法测试。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure class="center" itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" 
+ style="max-width:60%" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/wechat.jpg" />
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/wechat.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;/figure>
+&lt;/div></description></item><item><title>开源实践：写在 Jane 发布之后</title><link>https://www.xianmin.org/post/hugo-theme-jane-publish/</link><pubDate>Sun, 11 Mar 2018 21:30:00 +0800</pubDate><guid>https://www.xianmin.org/post/hugo-theme-jane-publish/</guid><description>&lt;p>本周我发布了一个 &lt;a href="https://gohugo.io/">Hugo&lt;/a> 主题 &lt;a href="https://github.com/xianmin/hugo-theme-jane">Jane&lt;/a> ，Jane 克隆自 &lt;a href="https://github.com/olOwOlo/hugo-theme-even">hugo-theme-even&lt;/a> ，大体功能基本继承自 Even 。起先，我只是使用 Hugo 来发布博文，并且选择使用 Even 作为我的博客主题。后来觉得 Even 这个主题的样式我个人不是很喜欢，就自己动手改了。改动的地方多了，外观上基本上已经不是原来的 Even 了，就想着也许自己可以基于它单独创建一个主题，顺便练练手，于是就有了 Jane 这个项目。当我在四天前向 Hugo 官方提交这个主题之后，意外地获得了官方的肯定以及推荐&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>。&lt;/p></description></item><item><title>别了，2017！</title><link>https://www.xianmin.org/post/2017/</link><pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2017/</guid><description>&lt;p>翻阅你在这一年写的日记，「2017年6月26日：我是一个无知、无明、无趣的年轻人，对烟酒没有控制，自制力差，拖延症严重，喜欢胡思乱想，空想而缺乏行动，空有抱负却一事无成，喜好很多但一无所长。也许再过几年，我就是一个无知、无明、无趣的中年人了。」&lt;/p>
+&lt;p>似乎每年总有那么几天，你会感到焦虑，厌恶自己。但不管怎么说，一年又要过去了，我想从以下几个方面对你的2017年做一个总结：工作、锻炼、编程、英语、写作、阅读。&lt;/p></description></item><item><title>构建你的移动书库——电子书阅读经验分享</title><link>https://www.xianmin.org/post/06-ebook/</link><pubDate>Mon, 06 Nov 2017 13:13:15 +0800</pubDate><guid>https://www.xianmin.org/post/06-ebook/</guid><description>&lt;h1 id="写在前面">写在前面&lt;/h1>
+&lt;p>作为一个农民的儿子，我从小跟随父母在外漂泊，长年都是租的房子，家里地方不大，除了教科书、习题册，基本没有任何藏书。那时候，没两年就会搬一次家，光是搬教科书都觉得挺累赘的。即便在成年后，自己依然一直在外漂泊，没有固定的居所，还是不敢买太多书，没地方安置。当然，还有一个很实际的问题，买书花钱，自己没多少钱。很多书像消费品，看完就丢一边了，它摆在那儿更多的像是一种象征性的装饰。&lt;/p></description></item><item><title>工具癖患者的表现及自我修养</title><link>https://www.xianmin.org/post/05-tools-addict/</link><pubDate>Thu, 01 Jun 2017 09:32:56 +0800</pubDate><guid>https://www.xianmin.org/post/05-tools-addict/</guid><description>&lt;p>怎样给工具下定义？文字、语言算不算工具？知识算不算工具？数学公式算不算工具？科学方法算不算工具？甚至而言，宗教信仰算不算工具？那么工具癖又算什么呢？&lt;/p>
+&lt;p>由此可见，从更大的范围来讲，给工具下定义不是件容易的事。我在这篇文章仅谈论计算机相关的工具。&lt;/p></description></item><item><title>专注于内容</title><link>https://www.xianmin.org/post/03-focus-on-content/</link><pubDate>Sat, 01 Apr 2017 09:13:20 +0800</pubDate><guid>https://www.xianmin.org/post/03-focus-on-content/</guid><description>&lt;p>当我们开始做一件事情，首先想一想这件事的核心是什么？然后再想，完成它有哪些方案？哪个方案即便它不够完美，却是自己目前可行的？哪个方案目前不可行，但是自己能够改进的？对于目前不可行，自己又无法改进的方案，暂时搁置，应当先以完成这件事情为主。&lt;/p></description></item><item><title>主题与markdown语法测试</title><link>https://www.xianmin.org/post/00-even-theme-preview/</link><pubDate>Sun, 01 Jan 2017 18:03:09 +0800</pubDate><guid>https://www.xianmin.org/post/00-even-theme-preview/</guid><description>&lt;p>主题与markdown语法测试。&lt;/p></description></item></channel></rss>

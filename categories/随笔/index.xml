@@ -1,160 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>随笔 on 贤民的博客</title>
-    <link>https://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/</link>
-    <description>Recent content in 随笔 on 贤民的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Github action 自动部署博客测试</title>
-      <link>https://www.xianmin.org/post/2021/00-github-action-test/</link>
-      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.xianmin.org/post/2021/00-github-action-test/</guid>
-      <description>本篇博文用于测试 GitHub action 。 使用 https://github.com/peaceiris/actions-hugo 。 当源文件项目有更新时，将自动生成网页。 那么，这样就可以方便的通过手机更新博客了。</description>
-    </item>
-    
-    <item>
-      <title>请重视你的牙！！！</title>
-      <link>https://www.xianmin.org/post/202012-attention-teeth/</link>
-      <pubDate>Fri, 04 Dec 2020 21:37:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/202012-attention-teeth/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/34817533&#34;&gt;牙周炎还是牙龈炎？傻傻分不清楚！ - 知乎&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;前些日子终于去把牙洗了，洗过之后才感到庆幸，还好去的不是太晚，否则将来导致更严重的问题，就不是现在洗洗牙这么简单了。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>正念日与整理信息</title>
-      <link>https://www.xianmin.org/post/201905-organize-infomation/</link>
-      <pubDate>Fri, 31 May 2019 23:31:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/201905-organize-infomation/</guid>
-      <description>&lt;p&gt;曾经写过，我有一个正念日，是用来提醒自己少去胡思乱想，顺便做些平时不大乐意做的事情，诸如洗衣服、打扫房间等等。现在，我给这一天又增添了一项任务——「整理信息」。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>瞎忙</title>
-      <link>https://www.xianmin.org/post/201905-busy-what/</link>
-      <pubDate>Fri, 31 May 2019 22:47:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/201905-busy-what/</guid>
-      <description>&lt;p&gt;最近也不晓得在瞎忙些什么。&lt;/p&gt;
-&lt;p&gt;想写的文章写不出，想编的代码编不出，阅读上似乎也难有发现新知的喜悦，整个人突然间缺少了创造的冲动，就连思维也被禁锢了。总觉得哪里不对劲，却又道不出个所以然来。只好怪这闷热的天气了，使人昏昏欲睡，真希望它赶紧下几场雨，好滋润一下我干涸的躯体，顺便浇灌浇灌缺少了营养的灵魂。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>敬告自己</title>
-      <link>https://www.xianmin.org/post/remind-myself/</link>
-      <pubDate>Sun, 12 May 2019 13:59:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/remind-myself/</guid>
-      <description>&lt;p&gt;今天听了一期《看理想》的节目——《梁文道×许子东：五四青年比当代青年更优秀吗？》。节目中，他俩聊到陈独秀的《敬告青年》，聊到「自主的而非奴隶的」。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>自制卤肉</title>
-      <link>https://www.xianmin.org/post/homemade-lurou/</link>
-      <pubDate>Wed, 27 Feb 2019 07:35:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/homemade-lurou/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.xiachufang.com/recipe/100410171/&#34;&gt;【靠谱的自制卤水的做法视频_做法步骤】_下厨房&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;去年 12 月，听了曲哥的建议，烧了一锅卤水。我的第一锅卤水，是用几块牛筒骨炖出来的，卤料直接用的是「李锦记」的。此后，每隔几日便卤点东西，卤五花肉，卤排骨，卤牛肉，卤鸡翅，卤鸡腿，卤鸡爪，还有卤鸡蛋。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>一次难忘的寻狗</title>
-      <link>https://www.xianmin.org/post/unforgettable-find-dog/</link>
-      <pubDate>Mon, 21 Jan 2019 07:55:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/unforgettable-find-dog/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/kaka-and-baihe.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/kaka-and-baihe.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;左，卡卡；右，百合&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>随笔 on 贤民的博客</title><link>https://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/</link><description>Recent content in 随笔 on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml"/><item><title>Github action 自动部署博客测试</title><link>https://www.xianmin.org/post/2021/00-github-action-test/</link><pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2021/00-github-action-test/</guid><description>&lt;p>本篇博文用于测试 GitHub action 。&lt;/p>
+&lt;p>使用 &lt;a href="https://github.com/peaceiris/actions-hugo">https://github.com/peaceiris/actions-hugo&lt;/a> 。&lt;/p>
+&lt;p>当源文件项目有更新时，将自动生成网页。&lt;/p>
+&lt;p>那么，这样就可以方便的通过手机更新博客了。&lt;/p></description></item><item><title>请重视你的牙！！！</title><link>https://www.xianmin.org/post/202012-attention-teeth/</link><pubDate>Fri, 04 Dec 2020 21:37:00 +0800</pubDate><guid>https://www.xianmin.org/post/202012-attention-teeth/</guid><description>&lt;ul>
+&lt;li>&lt;a href="https://zhuanlan.zhihu.com/p/34817533">牙周炎还是牙龈炎？傻傻分不清楚！ - 知乎&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>前些日子终于去把牙洗了，洗过之后才感到庆幸，还好去的不是太晚，否则将来导致更严重的问题，就不是现在洗洗牙这么简单了。&lt;/p></description></item><item><title>正念日与整理信息</title><link>https://www.xianmin.org/post/201905-organize-infomation/</link><pubDate>Fri, 31 May 2019 23:31:00 +0800</pubDate><guid>https://www.xianmin.org/post/201905-organize-infomation/</guid><description>&lt;p>曾经写过，我有一个正念日，是用来提醒自己少去胡思乱想，顺便做些平时不大乐意做的事情，诸如洗衣服、打扫房间等等。现在，我给这一天又增添了一项任务——「整理信息」。&lt;/p></description></item><item><title>瞎忙</title><link>https://www.xianmin.org/post/201905-busy-what/</link><pubDate>Fri, 31 May 2019 22:47:00 +0800</pubDate><guid>https://www.xianmin.org/post/201905-busy-what/</guid><description>&lt;p>最近也不晓得在瞎忙些什么。&lt;/p>
+&lt;p>想写的文章写不出，想编的代码编不出，阅读上似乎也难有发现新知的喜悦，整个人突然间缺少了创造的冲动，就连思维也被禁锢了。总觉得哪里不对劲，却又道不出个所以然来。只好怪这闷热的天气了，使人昏昏欲睡，真希望它赶紧下几场雨，好滋润一下我干涸的躯体，顺便浇灌浇灌缺少了营养的灵魂。&lt;/p></description></item><item><title>敬告自己</title><link>https://www.xianmin.org/post/remind-myself/</link><pubDate>Sun, 12 May 2019 13:59:00 +0800</pubDate><guid>https://www.xianmin.org/post/remind-myself/</guid><description>&lt;p>今天听了一期《看理想》的节目——《梁文道×许子东：五四青年比当代青年更优秀吗？》。节目中，他俩聊到陈独秀的《敬告青年》，聊到「自主的而非奴隶的」。&lt;/p></description></item><item><title>自制卤肉</title><link>https://www.xianmin.org/post/homemade-lurou/</link><pubDate>Wed, 27 Feb 2019 07:35:00 +0800</pubDate><guid>https://www.xianmin.org/post/homemade-lurou/</guid><description>&lt;ul>
+&lt;li>&lt;a href="https://www.xiachufang.com/recipe/100410171/">【靠谱的自制卤水的做法视频_做法步骤】_下厨房&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>去年 12 月，听了曲哥的建议，烧了一锅卤水。我的第一锅卤水，是用几块牛筒骨炖出来的，卤料直接用的是「李锦记」的。此后，每隔几日便卤点东西，卤五花肉，卤排骨，卤牛肉，卤鸡翅，卤鸡腿，卤鸡爪，还有卤鸡蛋。&lt;/p></description></item><item><title>一次难忘的寻狗</title><link>https://www.xianmin.org/post/unforgettable-find-dog/</link><pubDate>Mon, 21 Jan 2019 07:55:00 +0800</pubDate><guid>https://www.xianmin.org/post/unforgettable-find-dog/</guid><description>&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/kaka-and-baihe.jpg" />
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/other/kaka-and-baihe.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;figcaption>&lt;h4>左，卡卡；右，百合&lt;/h4>
+ &lt;/figcaption>
+ &lt;/figure>
+&lt;/div>
 
-&lt;p&gt;百合，金毛，母狗，8岁。卡卡，边牧和二哈的串儿，公狗，3岁。这两条狗在我们旅舍非常受欢迎。&lt;/p&gt;
-&lt;p&gt;13 日，腊八节，晚上 12 点，送走最后一位聚餐的朋友，我才发现两条狗不见了，而前一个小时还是在的。我当时感到有些愤怒，这俩小家伙这么晚了还跑出去，估计又是跑去后面的田地里了。我去寻找，外面漆黑一片，拿着手电找了一圈，没有找到。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>一位哥伦比亚作家在中国</title>
-      <link>https://www.xianmin.org/post/a-colombian-in-china/</link>
-      <pubDate>Sun, 12 Aug 2018 20:41:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/a-colombian-in-china/</guid>
-      <description>&lt;p&gt;John 是哥伦比亚人，上个月住进了我们旅舍，明天他就要搬走了。他长期带着一个宽沿帽子，六十多岁，也许是保持健身的缘故，身材很壮实，精神状态很好，在中国生活了二十几年。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>因为贫穷的缘故</title>
-      <link>https://www.xianmin.org/post/because-of-poverty/</link>
-      <pubDate>Fri, 06 Jul 2018 21:36:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/because-of-poverty/</guid>
-      <description>&lt;p&gt;最近一个多月比较忙。店里的事情，接待客人，接待朋友，接待团队，还有办理证件。另外，和一个朋友合作，做几个微信公众号的项目，也算是开了些眼界。这种忙碌，如果换在大城市，估计算不了什么。只是过惯了在乡下自由散漫的日子，还是会觉得，哎呀，有点儿忙啊。因为贫穷的缘故吧，想着多做点事儿，能多挣些钱，钱也没挣多少，反倒更焦虑了。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>正念日</title>
-      <link>https://www.xianmin.org/post/days-of-mindfulness/</link>
-      <pubDate>Sun, 20 May 2018 20:31:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/days-of-mindfulness/</guid>
-      <description>&lt;p&gt;今天是正念日。早上7点的闹钟响起，起床，洗漱，煮上一锅粥，站桩半个小时，吃早饭。吃完早饭，开始收拾房间。随意乱放的衣物整理到衣柜，把脏了的衣物洗净晾晒。没用的纸盒垃圾一并丢弃。最后，用抹布把整个房间擦一遍。有的时候状态不佳、杂念丛生，打扫的过程中会感有些许烦躁，但完成整个过程，看到自己收拾整齐的房间，至少会有小小的成就感。这是我个人的修行。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>从丽江到重庆</title>
-      <link>https://www.xianmin.org/post/from-lijing-to-chongqing/</link>
-      <pubDate>Sun, 22 Apr 2018 21:11:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/from-lijing-to-chongqing/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.xianmin.org/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.xianmin.org/image/other/chongqing.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://www.xianmin.org/image/other/chongqing.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
+&lt;p>百合，金毛，母狗，8岁。卡卡，边牧和二哈的串儿，公狗，3岁。这两条狗在我们旅舍非常受欢迎。&lt;/p>
+&lt;p>13 日，腊八节，晚上 12 点，送走最后一位聚餐的朋友，我才发现两条狗不见了，而前一个小时还是在的。我当时感到有些愤怒，这俩小家伙这么晚了还跑出去，估计又是跑去后面的田地里了。我去寻找，外面漆黑一片，拿着手电找了一圈，没有找到。&lt;/p></description></item><item><title>一位哥伦比亚作家在中国</title><link>https://www.xianmin.org/post/a-colombian-in-china/</link><pubDate>Sun, 12 Aug 2018 20:41:00 +0800</pubDate><guid>https://www.xianmin.org/post/a-colombian-in-china/</guid><description>&lt;p>John 是哥伦比亚人，上个月住进了我们旅舍，明天他就要搬走了。他长期带着一个宽沿帽子，六十多岁，也许是保持健身的缘故，身材很壮实，精神状态很好，在中国生活了二十几年。&lt;/p></description></item><item><title>因为贫穷的缘故</title><link>https://www.xianmin.org/post/because-of-poverty/</link><pubDate>Fri, 06 Jul 2018 21:36:00 +0800</pubDate><guid>https://www.xianmin.org/post/because-of-poverty/</guid><description>&lt;p>最近一个多月比较忙。店里的事情，接待客人，接待朋友，接待团队，还有办理证件。另外，和一个朋友合作，做几个微信公众号的项目，也算是开了些眼界。这种忙碌，如果换在大城市，估计算不了什么。只是过惯了在乡下自由散漫的日子，还是会觉得，哎呀，有点儿忙啊。因为贫穷的缘故吧，想着多做点事儿，能多挣些钱，钱也没挣多少，反倒更焦虑了。&lt;/p></description></item><item><title>正念日</title><link>https://www.xianmin.org/post/days-of-mindfulness/</link><pubDate>Sun, 20 May 2018 20:31:00 +0800</pubDate><guid>https://www.xianmin.org/post/days-of-mindfulness/</guid><description>&lt;p>今天是正念日。早上7点的闹钟响起，起床，洗漱，煮上一锅粥，站桩半个小时，吃早饭。吃完早饭，开始收拾房间。随意乱放的衣物整理到衣柜，把脏了的衣物洗净晾晒。没用的纸盒垃圾一并丢弃。最后，用抹布把整个房间擦一遍。有的时候状态不佳、杂念丛生，打扫的过程中会感有些许烦躁，但完成整个过程，看到自己收拾整齐的房间，至少会有小小的成就感。这是我个人的修行。&lt;/p></description></item><item><title>从丽江到重庆</title><link>https://www.xianmin.org/post/from-lijing-to-chongqing/</link><pubDate>Sun, 22 Apr 2018 21:11:00 +0800</pubDate><guid>https://www.xianmin.org/post/from-lijing-to-chongqing/</guid><description>&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
+&lt;div class="box">
+&lt;figure itemprop="associatedMedia"
+ itemscope itemtype="http://schema.org/ImageObject" >
+ &lt;div class="img">
+ &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/chongqing.jpg" />
+ &lt;/div>
+ &lt;a href="https://www.xianmin.org/image/other/chongqing.jpg" itemprop="contentUrl">&lt;/a>
+ &lt;/figure>
+&lt;/div>
 
-&lt;p&gt;这两年最常去的一个城市——重庆，因为她在那儿。上周又去了一趟重庆，她腹痛，在医院检查出畸胎瘤&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ，需要做手术切除，我到医院陪她。我抵达医院是手术完成后的第二天，她在病床上躺着，身上插着监护仪还有导尿管，很虚弱，什么也不能吃。手术完成的很顺利，对卵巢的伤害不是很严重。在手术前，她的父亲和医院签了协议，这个手术如果进展的不顺利，有可能需要切除卵巢，算是比较幸运，这并没有发生。她当天去的医院，当天检查出畸胎瘤，当天就做了手术，一切都发生的太突然。很遗憾，我没能第一时间陪伴在她的身边。两个人身处异地，相隔 1000 公里，距离并不可怕，可怕的是当她需要我的时候，我不能及时的出现。我还记得那晚等待她父亲回复消息——关于她手术完成的情况——那4个小时的煎熬，比预计手术时间晚了2个小时，我只能茫然的盯着手机屏幕。晚上失眠，凌晨三点多醒来，一早前往机场，飞去重庆，这一次是到医院陪她。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>恢复锻炼，站桩日志</title>
-      <link>https://www.xianmin.org/post/exercise01/</link>
-      <pubDate>Sat, 07 Apr 2018 15:35:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/exercise01/</guid>
-      <description>&lt;p&gt;每次都是这样，身体觉得不太舒服了，才想到要锻炼。最近一个多月每天差不多有十几个小时坐在电脑前，导致这些天腰部又感到酸痛了。有几个月都没锻炼了吧？上一次站桩还是在 1月22日。从今天开始恢复站桩，制定一个连续 100 天的站桩计划。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>糟糕的项目管理新手</title>
-      <link>https://www.xianmin.org/post/i-am-a-bad-project-manager/</link>
-      <pubDate>Tue, 03 Apr 2018 15:40:00 +0800</pubDate>
-      
-      <guid>https://www.xianmin.org/post/i-am-a-bad-project-manager/</guid>
-      <description>&lt;p&gt;最近， &lt;code&gt;hugo-theme-jane&lt;/code&gt; 收到了几位朋友的 PR ，我作为这个项目的管理者，在处理 PR 上遇到了问题：有个别 PR 比较简单，我就直接在 github 后台操作合并，然后 &lt;code&gt;git pull&lt;/code&gt; 到本地。我想的是本地 master 直接从远程仓库抓取到最新版，但奇怪的是居然有一个合并请求，并且多了一个合并的 commit 。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p>这两年最常去的一个城市——重庆，因为她在那儿。上周又去了一趟重庆，她腹痛，在医院检查出畸胎瘤&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> ，需要做手术切除，我到医院陪她。我抵达医院是手术完成后的第二天，她在病床上躺着，身上插着监护仪还有导尿管，很虚弱，什么也不能吃。手术完成的很顺利，对卵巢的伤害不是很严重。在手术前，她的父亲和医院签了协议，这个手术如果进展的不顺利，有可能需要切除卵巢，算是比较幸运，这并没有发生。她当天去的医院，当天检查出畸胎瘤，当天就做了手术，一切都发生的太突然。很遗憾，我没能第一时间陪伴在她的身边。两个人身处异地，相隔 1000 公里，距离并不可怕，可怕的是当她需要我的时候，我不能及时的出现。我还记得那晚等待她父亲回复消息——关于她手术完成的情况——那4个小时的煎熬，比预计手术时间晚了2个小时，我只能茫然的盯着手机屏幕。晚上失眠，凌晨三点多醒来，一早前往机场，飞去重庆，这一次是到医院陪她。&lt;/p></description></item><item><title>恢复锻炼，站桩日志</title><link>https://www.xianmin.org/post/exercise01/</link><pubDate>Sat, 07 Apr 2018 15:35:00 +0800</pubDate><guid>https://www.xianmin.org/post/exercise01/</guid><description>&lt;p>每次都是这样，身体觉得不太舒服了，才想到要锻炼。最近一个多月每天差不多有十几个小时坐在电脑前，导致这些天腰部又感到酸痛了。有几个月都没锻炼了吧？上一次站桩还是在 1月22日。从今天开始恢复站桩，制定一个连续 100 天的站桩计划。&lt;/p></description></item><item><title>糟糕的项目管理新手</title><link>https://www.xianmin.org/post/i-am-a-bad-project-manager/</link><pubDate>Tue, 03 Apr 2018 15:40:00 +0800</pubDate><guid>https://www.xianmin.org/post/i-am-a-bad-project-manager/</guid><description>&lt;p>最近， &lt;code>hugo-theme-jane&lt;/code> 收到了几位朋友的 PR ，我作为这个项目的管理者，在处理 PR 上遇到了问题：有个别 PR 比较简单，我就直接在 github 后台操作合并，然后 &lt;code>git pull&lt;/code> 到本地。我想的是本地 master 直接从远程仓库抓取到最新版，但奇怪的是居然有一个合并请求，并且多了一个合并的 commit 。&lt;/p></description></item></channel></rss>
