@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>计算机 on 贤民的博客</title><link>https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link><description>Recent content in 计算机 on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 10 Sep 2024 03:25:11 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml"/><item><title>为网页生成一个目录大纲，侧边栏导航</title><link>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</link><pubDate>Tue, 10 Sep 2024 02:21:22 +0000</pubDate><guid>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</guid><description>&lt;p>对于浏览长文章，有一个 &lt;strong>目录大纲&lt;/strong> ，可以极大的提升我们的阅读效率。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>计算机 on 贤民的博客</title><link>https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link><description>Recent content in 计算机 on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 20 Sep 2024 11:46:43 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml"/><item><title>博客主题 Jane V3 大版本更新</title><link>https://www.xianmin.org/post/2024/2024-09-20-jane-theme-v3-major-update/</link><pubDate>Fri, 20 Sep 2024 11:29:47 +0000</pubDate><guid>https://www.xianmin.org/post/2024/2024-09-20-jane-theme-v3-major-update/</guid><description>&lt;p>项目主页： &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> 。&lt;/p>
+&lt;h2 id="更新内容">更新内容&lt;/h2>
+&lt;ul>
+&lt;li>使用 &lt;a href="https://picocss.com/">Pico CSS&lt;/a> 作为配色方案，可切换主题颜色，可切换 dark / light 模式。&lt;/li>
+&lt;li>添加 STYLE SETTINGS ，位于 /assets/sass/_settings.scss ；&lt;/li>
+&lt;li>使用 &lt;a href="https://github.com/hugo-mods/icons">hugo-mods/icons&lt;/a> 添加图标 ；&lt;/li>
+&lt;li>弃用 Category 页面，合并到 Archive 页面。&lt;/li>
+&lt;/ul>
+&lt;p>由于修改的地方比较多，还有很多地方不完善，请您谅解！&lt;/p></description></item><item><title>为网页生成一个目录大纲，侧边栏导航</title><link>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</link><pubDate>Tue, 10 Sep 2024 02:21:22 +0000</pubDate><guid>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</guid><description>&lt;p>对于浏览长文章，有一个 &lt;strong>目录大纲&lt;/strong> ，可以极大的提升我们的阅读效率。
 然而，或许是出于美观考虑，许多网页并没有目录。
 即使有目录的网页，目录位置有可能在最上方，当我们跳转后，要查看目录还得返回去，这很不方便。&lt;/p></description></item><item><title>启用 ublock Cookie 规则，避免网站 Cookie 弹窗</title><link>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</link><pubDate>Fri, 06 Sep 2024 14:20:00 +0800</pubDate><guid>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</guid><description>&lt;p>由于欧洲的数据保护政策，许多网站都会弹窗提醒你「接受 Cookies」 。&lt;/p>
 
@@ -214,15 +222,4 @@
  &lt;/figure>
 &lt;/div>
 
-&lt;p>最近，我的搭档 「ThinkPad X230」 的键盘出了点问题，按键偶尔会完全失灵，小红点经常失控。当机立断，我直接在淘宝买了个新的键盘换上，感觉它又重获了新生。这是我喜欢 ThinkPad 的主要原因，它太好拆了，换个键盘只要下俩螺丝，几分钟就搞定。但凡哪个部件有任何问题，我都能轻松的更换，这让我觉得它是真正属于我的，能跟随我很久。&lt;/p></description></item><item><title>linux 下，fcitx 输入法的直角引号设置</title><link>https://www.xianmin.org/post/linux-fcitx-punc/</link><pubDate>Tue, 07 Aug 2018 23:04:00 +0800</pubDate><guid>https://www.xianmin.org/post/linux-fcitx-punc/</guid><description>&lt;p>我不确定你有没有遇到过这样的问题，输入一个双引号，它是 &lt;strong>前引号&lt;/strong> 呢，还是 &lt;strong>后引号&lt;/strong> 。也许是字体的缘故，我总得瞪大了眼睛才能分辨的清楚。出于好奇，我上网搜了下，还真有解决办法。最简单的办法就是使用港台的标准，使用直角引号。请看图片：&lt;/p>
-
-&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
-&lt;div class="box">
-&lt;figure itemprop="associatedMedia"
- itemscope itemtype="http://schema.org/ImageObject" >
- &lt;div class="img">
- &lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/fcitx-punc-01.png" />
- &lt;/div>
- &lt;a href="https://www.xianmin.org/image/other/fcitx-punc-01.png" itemprop="contentUrl">&lt;/a>
- &lt;/figure>
-&lt;/div></description></item></channel></rss>
+&lt;p>最近，我的搭档 「ThinkPad X230」 的键盘出了点问题，按键偶尔会完全失灵，小红点经常失控。当机立断，我直接在淘宝买了个新的键盘换上，感觉它又重获了新生。这是我喜欢 ThinkPad 的主要原因，它太好拆了，换个键盘只要下俩螺丝，几分钟就搞定。但凡哪个部件有任何问题，我都能轻松的更换，这让我觉得它是真正属于我的，能跟随我很久。&lt;/p></description></item></channel></rss>
