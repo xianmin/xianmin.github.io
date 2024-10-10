@@ -116,7 +116,7 @@
   };
   var initHeaderAnchor_default = initHeaderAnchor;
 
-  // ns-hugo:/home/runner/work/xianmin.org/xianmin.org/themes/jane/assets/js/initToogleTheme.js
+  // ns-hugo:/home/runner/work/xianmin.org/xianmin.org/themes/jane/assets/js/initToggleTheme.js
   function initThemeToggle() {
     const html = document.documentElement;
     const themeToggles = document.querySelectorAll(".theme-toggle");
@@ -136,13 +136,43 @@
       });
     });
   }
-  var initToogleTheme_default = initThemeToggle;
+  var initToggleTheme_default = initThemeToggle;
+
+  // ns-hugo:/home/runner/work/xianmin.org/xianmin.org/themes/jane/assets/js/initCopyCode.js
+  var initCopyCode = () => {
+    const containers = document.querySelectorAll(".highlight-container");
+    containers.forEach((container) => {
+      const copyBtn = container.querySelector(".copy-code-btn");
+      const codeElement = container.querySelector(".highlight code[data-lang]");
+      copyBtn.addEventListener("click", function() {
+        navigator.clipboard.writeText(codeElement.textContent).then(function() {
+          copyBtn.blur();
+          copyBtn.innerText = "Copied!";
+          setTimeout(function() {
+            copyBtn.innerText = "Copy";
+          }, 2e3);
+        }, function(error) {
+          copyBtn.innerText = "Error";
+        });
+      });
+    });
+  };
+  var initCopyCode_default = initCopyCode;
 
   // <stdin>
-  $(document).ready(function() {
-    initToogleTheme_default();
-    initMobileNavbar_default();
-    initToc_default();
-    initHeaderAnchor_default();
-  });
+  async function initApp() {
+    try {
+      await initToggleTheme_default();
+      await Promise.all([
+        initMobileNavbar_default(),
+        initToc_default(),
+        initHeaderAnchor_default(),
+        initCopyCode_default()
+      ]);
+      console.log("All modules initialized successfully");
+    } catch (error) {
+      console.error("Error occurred during initialization:", error);
+    }
+  }
+  document.addEventListener("DOMContentLoaded", initApp);
 })();

@@ -19,6 +19,8 @@
 &lt;ol start="2">
 &lt;li>由于新版本使用到了 hugo module ，请在你的配置文件 &lt;code>config.toml&lt;/code> 中加入以下内容：&lt;/li>
 &lt;/ol>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
 &lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
 &lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1&lt;/a>
@@ -34,10 +36,11 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [[module.imports]]
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> path = &lt;span style="color:#4070a0">&amp;#39;github.com/hugomods/icons/vendors/mdi&amp;#39;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [[module.imports]]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> path = &lt;span style="color:#4070a0">&amp;#39;github.com/hugomods/icons/vendors/lucide&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> path = &lt;span style="color:#4070a0">&amp;#39;github.com/hugomods/icons/vendors/lucide&amp;#39;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>注意: 升级之后可能会遇到一些兼容性问题。如果遇到困难，欢迎提 issue。&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>注意: 升级之后可能会遇到一些兼容性问题。如果遇到困难，欢迎提 issue。&lt;/p>
 &lt;h2 id="这个主题的开发理念">这个主题的开发理念&lt;/h2>
 &lt;ol>
 &lt;li>没有 &lt;code>node_modules&lt;/code> ，越少的依赖越容易维护；&lt;/li>
@@ -142,13 +145,16 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;p>如果不是内存故障，还有什么原因呢？&lt;/p>
 &lt;h3 id="使用-event-viewer-查看系统日志">使用 Event Viewer 查看系统日志&lt;/h3>
 &lt;p>根据过往 Debug 的经验，先查阅 system log 。 在 Windows 下直接用 &lt;code>Event Viewer&lt;/code> 这个自带的软件就能查看系统日志。&lt;/p>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
 &lt;pre tabindex="0">&lt;code>Initialization failed because the driver device could not be created. Use the string
 &amp;#34;000000000100320000000000D71000C013010000250200C000000000000000000000000000000000&amp;#34; to identify
 the interface for which initialization failed. It represents the MAC address of the failed
 interface or the Globally Unique Interface Identifier (GUID) if NetBT was unable to map from
 GUID to MAC address. If neither the MAC address nor the GUID were available, the string
-represents a cluster device name.
-&lt;/code>&lt;/pre>&lt;p>还有别的错误，只能看懂表面意思，可能是驱动出现了问题。&lt;/p>
+represents a cluster device name.&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;p>还有别的错误，只能看懂表面意思，可能是驱动出现了问题。&lt;/p>
 &lt;p>我先把 Win10 系统，还有设备驱动全部更新到了最新版，问题依旧。&lt;/p>
 &lt;p>那么，怎么检测驱动是否存在问题呢？&lt;/p>
 &lt;h3 id="debug-drivers">Debug Drivers&lt;/h3>
@@ -186,6 +192,8 @@ represents a cluster device name.
 安装包近 100M ，需要编译不同平台的安装包，每次更新都要再次编译。
 一次偶然的搜索发现，可以用 PWA 支持 &lt;strong>关联本地 .epub 文件&lt;/strong> ，这让我对 PWA 技术重新产生了兴趣。&lt;/p>
 &lt;p>实现代码非常简单，添加一个 &lt;code>manifest.json&lt;/code> 文件，然后在项目中加入代码：&lt;/p>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
 &lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
 &lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1&lt;/a>
@@ -205,10 +213,11 @@ represents a cluster device name.
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> })
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>} &lt;span style="color:#007020;font-weight:bold">else&lt;/span> {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> console.error(&lt;span style="color:#4070a0">&amp;#39;File Handling API is not supported!&amp;#39;&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>具体实现细节就不多说了，可以查阅文档 &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> 。&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>具体实现细节就不多说了，可以查阅文档 &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> 。&lt;/p>
 &lt;p>&lt;strong>技术实现不难，只是有时候我们不知道还有更简单高效的解决方案。&lt;/strong>&lt;/p>
 &lt;p>当我用 PWA 创建了本地跨平台应用，这感觉太爽了， &lt;strong>省去了一堆 Electron 依赖&lt;/strong> ，不用在系统层面的 api 上耗费精力，专注于应用层的开发，效率提升了许多。
 从用户角度考虑， PWA 应用， &lt;strong>安装快捷，不占用空间，卸载方便，打开迅速，app 更新也不需要安装包&lt;/strong> ，体验非常轻松。&lt;/p>
@@ -781,8 +790,11 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;/table>
 &lt;h2 id="附录a-word-seperator-for-chiense-中文标点断句">附录A： Word seperator for Chiense (中文标点断句)&lt;/h2>
 &lt;p>在 VSCode 中修改如下 setting ：&lt;/p>
-&lt;pre tabindex="0">&lt;code>&amp;#34;editor.wordSeparators&amp;#34;: &amp;#34;`~!@#$%^&amp;amp;*()-=+[{]}\\|;:&amp;#39;\&amp;#34;,.&amp;lt;&amp;gt;/?、，。？！“”‘’；：（）「」【】〔〕『』〖〗&amp;#34;,
-&lt;/code>&lt;/pre>&lt;h2 id="附录b-我的全局快捷键">附录B： 我的全局快捷键&lt;/h2>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;pre tabindex="0">&lt;code>&amp;#34;editor.wordSeparators&amp;#34;: &amp;#34;`~!@#$%^&amp;amp;*()-=+[{]}\\|;:&amp;#39;\&amp;#34;,.&amp;lt;&amp;gt;/?、，。？！“”‘’；：（）「」【】〔〕『』〖〗&amp;#34;,&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;h2 id="附录b-我的全局快捷键">附录B： 我的全局快捷键&lt;/h2>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -838,6 +850,8 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;/figure>
 &lt;/div>
 &lt;p>这就引起了我的好奇，有没有更便捷的技巧 debug 网页的横向溢出呢？答案是有的。使用开发者工具，给网站添加以下样式：&lt;/p>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
 &lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
 &lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1&lt;/a>
@@ -847,10 +861,11 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 &lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#666">*&lt;/span> {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#007020;font-weight:bold">outline&lt;/span>: &lt;span style="color:#40a070">1&lt;/span>&lt;span style="color:#902000">px&lt;/span> &lt;span style="color:#007020;font-weight:bold">solid&lt;/span> &lt;span style="color:#007020;font-weight:bold">red&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;strong>这不会影响网页原本的布局，同时还会给所有元素加上边框，这样我们就很容易发现是哪个地方有溢出了。利用这个小技巧，我们也可以更直观的观察一个网站的布局是怎样的。&lt;/strong>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>这不会影响网页原本的布局，同时还会给所有元素加上边框，这样我们就很容易发现是哪个地方有溢出了。利用这个小技巧，我们也可以更直观的观察一个网站的布局是怎样的。&lt;/strong>&lt;/p>
 &lt;h2 id="使用-bookmarklet">使用 bookmarklet&lt;/h2>
 &lt;p>我将这一小段 css 代码改成了 bookmarklet ：
 &lt;a href="javascript:(function()%7Bjavascript%3A(function()%7Bvar%20css%3D'*%20%7Boutline%3A%201px%20solid%20red%3B%7D'%3Bvar%20heads%3Ddocument.getElementsByTagName('head')%3Bif(heads.length%3E0)%7Bvar%20node%3Ddocument.createElement('style')%3Bnode.type%3D'text%2Fcss'%3Bnode.appendChild(document.createTextNode(css))%3Bheads%5B0%5D.appendChild(node)%3B%7D%7D)()%3B%7D)()%3B">显示元素边框&lt;/a> 。
@@ -1016,10 +1031,13 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;/ol></description></item><item><title>Windows 下，交换 Ctrl 键和 CapsLock 键</title><link>https://www.xianmin.org/post/2022/00-windows-swap-ctrl-and-capslock/</link><pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/00-windows-swap-ctrl-and-capslock/</guid><description>&lt;p>好久没更新博客了，水一篇，找点状态。&lt;/p>
 &lt;p>&lt;code>Ctrl&lt;/code> 键作为大部分软件的常用快捷按键，它在键盘上的位置是非常不合理的。而 &lt;code>CapsLock&lt;/code> 这个大写锁定键，不经常使用，却在键盘上占据了一个极佳的位置。在过去几年使用计算机的过程中，把 &lt;code>Ctrl&lt;/code> 和 &lt;code>CapsLock&lt;/code> 这两个按键的位置交换，极大的提升了我使用快捷键的舒适度和效率。&lt;/p>
 &lt;p>以下为使用 PowerShell 命令（需要以管理员身份运行）来交换这两个键的方式：&lt;/p>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
 &lt;pre tabindex="0">&lt;code>$hexified = &amp;#34;00,00,00,00,00,00,00,00,03,00,00,00,1d,00,3a,00,3a,00,1d,00,00,00,00,00&amp;#34;.Split(&amp;#39;,&amp;#39;) | % { &amp;#34;0x$_&amp;#34;};
 $kbLayout = &amp;#39;HKLM:\System\CurrentControlSet\Control\Keyboard Layout&amp;#39;;
-New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyType Binary -Value ([byte[]]$hexified);
-&lt;/code>&lt;/pre>&lt;h2 id="参考链接">参考链接&lt;/h2>
+New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyType Binary -Value ([byte[]]$hexified);&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;h2 id="参考链接">参考链接&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://gist.github.com/joshschmelzle/5e88dabc71014d7427ff01bca3fed33d">Remap Caps Lock to Control on Windows 10&lt;/a> - 这个链接提供的信息是把 CapsLock 映射为 Ctrl ，而非交换。&lt;/li>
 &lt;li>&lt;a href="https://www.jianshu.com/p/d14dd07c025c">windows下交换ctrl和capslock - 简书&lt;/a> - 这个链接是手动修改注册表，不太方便。&lt;/li>
