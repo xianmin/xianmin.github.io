@@ -1,4 +1,3 @@
-"use strict";
 (() => {
   // ns-hugo:/home/runner/work/xianmin.org/xianmin.org/themes/jane/assets/js/initMobileNavbar.js
   var initMobileNavbar = () => {
