@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Блог Сяньминя</title><link>https://www.xianmin.org/ru/</link><description>Recent content on Блог Сяньминя</description><generator>Hugo -- gohugo.io</generator><language>ru</language><atom:link href="https://www.xianmin.org/ru/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Блог Xianmin</title><link>https://www.xianmin.org/ru/</link><description>Recent content on Блог Xianmin</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Mon, 04 Nov 2024 06:56:56 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/ru/index.xml" rel="self" type="application/rss+xml"/><item><title>Крупное Обновление Hugo-Theme-Jane V3</title><link>https://www.xianmin.org/ru/post/2024/hugo-theme-jane-v3-major-update/</link><pubDate>Mon, 04 Nov 2024 06:56:56 +0000</pubDate><guid>https://www.xianmin.org/ru/post/2024/hugo-theme-jane-v3-major-update/</guid><description>&lt;p>Домашняя страница проекта: &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> .&lt;/p>
+&lt;h2 id="содержание-обновления">Содержание Обновления&lt;/h2>
+&lt;ul>
+&lt;li>Использование &lt;a href="https://picocss.com/">Pico CSS&lt;/a> в качестве цветовой схемы, с переключаемыми цветами темы и поддержкой светлого/тёмного режима.&lt;/li>
+&lt;li>Настраиваемая домашняя страница.&lt;/li>
+&lt;li>Добавлены STYLE SETTINGS, расположенные в /assets/sass/_settings.scss&lt;/li>
+&lt;li>Страница категорий упразднена, объединена со страницей архива.&lt;/li>
+&lt;/ul>
+&lt;p>Из-за множества изменений некоторые области ещё не идеальны. Спасибо за понимание!&lt;/p>
+&lt;h2 id="настройка-домашней-страницы">Настройка Домашней Страницы&lt;/h2>
+&lt;p>Изначально домашняя страница представляла собой постраничный список статей, что могло быть несколько монотонным. Теперь у вас может быть более персонализированная домашняя страница.&lt;/p>
+&lt;p>Скопируйте &lt;code>/exampleSite/content/_index.md&lt;/code> в &lt;code>/content/_index.md&lt;/code> вашего сайта и измените параметры.&lt;/p>
+&lt;p>Для многоязычных сайтов создайте похожие файлы &lt;code>_index.language.md&lt;/code>, например &lt;code>_index.ru.md&lt;/code>.&lt;/p>
+&lt;h2 id="персонализация-сайта-через-style-settings">Персонализация Сайта через STYLE SETTINGS&lt;/h2>
+&lt;p>Скопируйте &lt;code>/assets/sass/_settings.scss&lt;/code> и &lt;code>/assets/sass/_custom.scss&lt;/code> в корневой каталог вашего сайта (Примечание: имена путей и файлов должны совпадать).&lt;/p>
+&lt;p>Измените переменные в &lt;code>_settings.scss&lt;/code> и добавьте пользовательские стили в &lt;code>/assets/sass/_custom.scss&lt;/code>.&lt;/p>
+&lt;h2 id="обновление-со-старой-версии-до-v3">Обновление со Старой Версии до v3&lt;/h2>
+&lt;p>Поскольку новая версия использует последние функции языка Sass, необходимо установить Dart Sass.&lt;/p>
+&lt;p>Руководство по установке можно найти в официальной документации: &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass">https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass&lt;/a>&lt;/p>
+&lt;p>Если вы используете инструменты автоматизации CI/CD, не забудьте также установить Dart Sass: &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#installing-in-a-production-environment">https://gohugo.io/hugo-pipes/transpile-sass-to-css/#installing-in-a-production-environment&lt;/a>&lt;/p>
+&lt;p>Примечание: После обновления могут возникнуть проблемы с совместимостью. Если возникнут трудности, не стесняйтесь открыть issue.&lt;/p>
+&lt;h2 id="философия-разработки-темы">Философия Разработки Темы&lt;/h2>
+&lt;ol>
+&lt;li>Нет &lt;code>node_modules&lt;/code>, меньше зависимостей означает более простое обслуживание&lt;/li>
+&lt;li>Поощрение пользователей модифицировать тему под свои предпочтения для более персонализированного сайта&lt;/li>
+&lt;li>Удобство чтения всегда в приоритете&lt;/li>
+&lt;li>Развернуть один раз, сосредоточиться на написании, больше никаких настроек&lt;/li>
+&lt;/ol>
+&lt;h2 id="заключение">Заключение&lt;/h2>
+&lt;p>Я использую эту тему сайта уже семь лет. За исключением частых изменений в первый год, с тех пор она не сильно менялась.&lt;/p>
+&lt;p>Я всегда считал, что для личных блогов написанный контент является самым важным, а что касается стиля сайта, он просто должен быть приемлемым.&lt;/p>
+&lt;p>Эта крупная редакция была внезапным вдохновением полностью изменить цветовую схему и заодно обновить версию Hugo.&lt;/p>
+&lt;p>Надеюсь, пользователям это понравится.&lt;/p></description></item></channel></rss>

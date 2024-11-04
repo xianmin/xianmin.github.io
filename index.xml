@@ -2,44 +2,22 @@
 &lt;h2 id="更新内容">更新内容&lt;/h2>
 &lt;ul>
 &lt;li>使用 &lt;a href="https://picocss.com/">Pico CSS&lt;/a> 作为配色方案，可切换主题颜色，可切换 dark / light 模式。&lt;/li>
+&lt;li>自定义主页。&lt;/li>
 &lt;li>添加 STYLE SETTINGS ，位于 /assets/sass/_settings.scss ；&lt;/li>
-&lt;li>使用 &lt;a href="https://github.com/hugo-mods/icons">hugo-mods/icons&lt;/a> 添加图标 ；&lt;/li>
 &lt;li>弃用 Category 页面，合并到 Archive 页面。&lt;/li>
 &lt;/ul>
 &lt;p>由于修改的地方比较多，还有很多地方不完善，请您谅解！&lt;/p>
+&lt;h2 id="自定义你的主页">自定义你的主页&lt;/h2>
+&lt;p>原本的主页是翻页式的文章列表，风格难免有些单一。现在你可以拥有一个更加个性化的主页了。&lt;/p>
+&lt;p>复制 &lt;code>/exampleSite/content/_index.md&lt;/code> 到你的网站 &lt;code>/content/_index.md&lt;/code> ，修改里面的参数。&lt;/p>
+&lt;p>对于多语言站点，请创建类似的 &lt;code>_index.language.md&lt;/code> 文件，比如 &lt;code>_index.zh-cn.md&lt;/code> 。&lt;/p>
 &lt;h2 id="通过-style-settings-个性化你的网站">通过 STYLE SETTINGS 个性化你的网站&lt;/h2>
 &lt;p>将 &lt;code>/assets/sass/_settings.scss&lt;/code> 和 &lt;code>/assets/sass/_custom.scss&lt;/code> 复制到你的网站根目录下（注意：路径名、文件名要一致）。&lt;/p>
 &lt;p>在 &lt;code>_settings.scss&lt;/code> 中修改变量，在 &lt;code>/assets/sass/_custom.scss&lt;/code> 中添加自定义样式。&lt;/p>
 &lt;h2 id="从旧版本升级到-v3">从旧版本升级到 v3&lt;/h2>
-&lt;ol>
-&lt;li>由于新版本使用到了 Sass 语言的最新功能，需要安装 Dart Sass 。&lt;/li>
-&lt;/ol>
+&lt;p>由于新版本使用到了 Sass 语言的最新功能，需要安装 Dart Sass 。&lt;/p>
 &lt;p>安装指南见官方文档： &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass">https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass&lt;/a> 。&lt;/p>
 &lt;p>如果你使用了 CI/CD 自动化工具，请记得同样要安装 Dart Sass: &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#installing-in-a-production-environment">https://gohugo.io/hugo-pipes/transpile-sass-to-css/#installing-in-a-production-environment&lt;/a>&lt;/p>
-&lt;ol start="2">
-&lt;li>由于新版本使用到了 hugo module ，请在你的配置文件 &lt;code>config.toml&lt;/code> 中加入以下内容：&lt;/li>
-&lt;/ol>
-&lt;div class="highlight-container">
-&lt;button class="copy-code-btn outline">Copy&lt;/button>
-&lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2">2&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3">3&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-4">4&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-5">5&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-6">6&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#60a0b0;font-style:italic"># icons used by Jane, import module&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[module]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [[module.imports]]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> path = &lt;span style="color:#4070a0">&amp;#39;github.com/hugomods/icons/vendors/mdi&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [[module.imports]]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> path = &lt;span style="color:#4070a0">&amp;#39;github.com/hugomods/icons/vendors/lucide&amp;#39;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>
-&lt;/div>
 &lt;p>注意: 升级之后可能会遇到一些兼容性问题。如果遇到困难，欢迎提 issue。&lt;/p>
 &lt;h2 id="这个主题的开发理念">这个主题的开发理念&lt;/h2>
 &lt;ol>
@@ -49,7 +27,7 @@
 &lt;li>一次部署，专心写作，不再折腾。&lt;/li>
 &lt;/ol>
 &lt;h2 id="后记">后记&lt;/h2>
-&lt;p>这个网站主题是我自己写的，用了七年了，除了第一年改动比较频繁，之后就没怎么动过。&lt;/p>
+&lt;p>这个网站主题用了七年了，除了第一年改动比较频繁，之后就没怎么动过。&lt;/p>
 &lt;p>我一直觉得对于个人博客，写作内容才是最重要的，网站的样式嘛，看的过去就行了。&lt;/p>
 &lt;p>这次大改版，也是心血来潮，彻底改了配色方案，顺便升级一下 hugo 版本。&lt;/p>
 &lt;p>希望使用者能够喜欢。&lt;/p></description></item><item><title>为网页生成一个目录大纲，侧边栏导航</title><link>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</link><pubDate>Tue, 10 Sep 2024 02:21:22 +0000</pubDate><guid>https://www.xianmin.org/post/2024/userscript-toc-sidebar/</guid><description>&lt;p>对于浏览长文章，有一个 &lt;strong>目录大纲&lt;/strong> ，可以极大的提升我们的阅读效率。

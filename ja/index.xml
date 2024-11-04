@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianminのブログ</title><link>https://www.xianmin.org/ja/</link><description>Recent content on Xianminのブログ</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 04 Nov 2024 06:56:56 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/ja/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo-Theme-Jane V3 メジャーアップデート</title><link>https://www.xianmin.org/ja/post/2024/hugo-theme-jane-v3-major-update/</link><pubDate>Mon, 04 Nov 2024 06:56:56 +0000</pubDate><guid>https://www.xianmin.org/ja/post/2024/hugo-theme-jane-v3-major-update/</guid><description>&lt;p>プロジェクトホームページ: &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> .&lt;/p>
+&lt;h2 id="アップデート内容">アップデート内容&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://picocss.com/">Pico CSS&lt;/a> をカラースキームとして採用し、切り替え可能なテーマカラーとダーク/ライトモードをサポート。&lt;/li>
+&lt;li>カスタマイズ可能なホームページ。&lt;/li>
+&lt;li>STYLE SETTINGS を追加、/assets/sass/_settings.scss に配置。&lt;/li>
+&lt;li>カテゴリーページを廃止し、アーカイブページに統合。&lt;/li>
+&lt;/ul>
+&lt;p>多くの変更があるため、一部の領域はまだ完璧ではありません。ご理解ありがとうございます！&lt;/p>
+&lt;h2 id="ホームページのカスタマイズ">ホームページのカスタマイズ&lt;/h2>
+&lt;p>元のホームページはページ分けされた記事リストで、やや単調でした。今では、よりパーソナライズされたホームページを持つことができます。&lt;/p>
+&lt;p>&lt;code>/exampleSite/content/_index.md&lt;/code> をウェブサイトの &lt;code>/content/_index.md&lt;/code> にコピーし、パラメータを変更してください。&lt;/p>
+&lt;p>多言語サイトの場合、&lt;code>_index.language.md&lt;/code> のような類似ファイル（例：&lt;code>_index.ja.md&lt;/code>）を作成してください。&lt;/p>
+&lt;h2 id="style-settings-によるウェブサイトのカスタマイズ">STYLE SETTINGS によるウェブサイトのカスタマイズ&lt;/h2>
+&lt;p>&lt;code>/assets/sass/_settings.scss&lt;/code> と &lt;code>/assets/sass/_custom.scss&lt;/code> をウェブサイトのルートディレクトリにコピーしてください（注：パス名とファイル名は一致する必要があります）。&lt;/p>
+&lt;p>&lt;code>_settings.scss&lt;/code> で変数を変更し、&lt;code>/assets/sass/_custom.scss&lt;/code> でカスタムスタイルを追加してください。&lt;/p>
+&lt;h2 id="旧バージョンから-v3-へのアップグレード">旧バージョンから v3 へのアップグレード&lt;/h2>
+&lt;p>新バージョンは最新の Sass 言語機能を使用しているため、Dart Sass のインストールが必要です。&lt;/p>
+&lt;p>インストールガイドは公式ドキュメントにあります：https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass&lt;/p>
+&lt;p>CI/CD 自動化ツールを使用している場合、Dart Sass もインストールすることを忘れないでください：https://gohugo.io/hugo-pipes/transpile-sass-to-css/#installing-in-a-production-environment&lt;/p>
+&lt;p>注：アップグレード後に互換性の問題が発生する可能性があります。困難な場合は、issue を開いてください。&lt;/p>
+&lt;h2 id="テーマ開発の哲学">テーマ開発の哲学&lt;/h2>
+&lt;ol>
+&lt;li>&lt;code>node_modules&lt;/code> なし、依存関係が少ないことでメンテナンスが容易に&lt;/li>
+&lt;li>ユーザーが好みに応じてテーマを修正し、よりパーソナライズされたウェブサイトを作ることを推奨&lt;/li>
+&lt;li>読書体験を常に最優先&lt;/li>
+&lt;li>一度デプロイしたら、執筆に集中し、これ以上いじらない&lt;/li>
+&lt;/ol>
+&lt;h2 id="あとがき">あとがき&lt;/h2>
+&lt;p>このウェブサイトテーマを7年間使用してきました。最初の1年は頻繁に変更がありましたが、それ以降はあまり変更されていません。&lt;/p>
+&lt;p>個人ブログでは、書かれた内容が最も重要で、ウェブサイトのスタイルは受け入れられる程度であれば十分だと常に考えてきました。&lt;/p>
+&lt;p>この大規模な改訂は、カラースキームを完全に変更し、同時に Hugo バージョンをアップグレードするという突然のインスピレーションでした。&lt;/p>
+&lt;p>ユーザーの皆様に楽しんでいただければ幸いです。&lt;/p></description></item></channel></rss>

@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>مدونة شيانمين</title><link>https://www.xianmin.org/ar/</link><description>Recent content on مدونة شيانمين</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://www.xianmin.org/ar/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>مدونة Xianmin</title><link>https://www.xianmin.org/ar/</link><description>Recent content on مدونة Xianmin</description><generator>Hugo -- gohugo.io</generator><language>ar</language><lastBuildDate>Mon, 04 Nov 2024 06:56:56 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/ar/index.xml" rel="self" type="application/rss+xml"/><item><title>تحديث رئيسي لنسخة Hugo-Theme-Jane V3</title><link>https://www.xianmin.org/ar/post/2024/hugo-theme-jane-v3-major-update/</link><pubDate>Mon, 04 Nov 2024 06:56:56 +0000</pubDate><guid>https://www.xianmin.org/ar/post/2024/hugo-theme-jane-v3-major-update/</guid><description>&lt;p>صفحة المشروع: &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> .&lt;/p>
+&lt;h2 id="محتوى-التحديث">محتوى التحديث&lt;/h2>
+&lt;ul>
+&lt;li>استخدام &lt;a href="https://picocss.com/">Pico CSS&lt;/a> كنظام ألوان، مع ألوان قالب قابلة للتبديل ودعم للوضع الفاتح/الداكن.&lt;/li>
+&lt;li>صفحة رئيسية قابلة للتخصيص.&lt;/li>
+&lt;li>إضافة إعدادات الأنماط، موجودة في /assets/sass/_settings.scss&lt;/li>
+&lt;li>إلغاء صفحة التصنيفات، ودمجها في صفحة الأرشيف.&lt;/li>
+&lt;/ul>
+&lt;p>نظرًا للتعديلات الكثيرة، بعض المناطق لا تزال غير مثالية. شكرًا لتفهمكم!&lt;/p>
+&lt;h2 id="تخصيص-صفحتك-الرئيسية">تخصيص صفحتك الرئيسية&lt;/h2>
+&lt;p>كانت الصفحة الرئيسية الأصلية قائمة مقالات مقسمة إلى صفحات، والتي قد تكون رتيبة نوعًا ما. الآن يمكنك الحصول على صفحة رئيسية أكثر تخصيصًا.&lt;/p>
+&lt;p>انسخ &lt;code>/exampleSite/content/_index.md&lt;/code> إلى &lt;code>/content/_index.md&lt;/code> في موقعك وقم بتعديل المعلمات.&lt;/p>
+&lt;p>للمواقع متعددة اللغات، قم بإنشاء ملفات &lt;code>_index.language.md&lt;/code> مماثلة، مثل &lt;code>_index.ar.md&lt;/code>.&lt;/p>
+&lt;h2 id="تخصيص-موقعك-من-خلال-إعدادات-الأنماط">تخصيص موقعك من خلال إعدادات الأنماط&lt;/h2>
+&lt;p>انسخ &lt;code>/assets/sass/_settings.scss&lt;/code> و &lt;code>/assets/sass/_custom.scss&lt;/code> إلى المجلد الرئيسي لموقعك (ملاحظة: يجب أن تتطابق أسماء المسارات والملفات).&lt;/p>
+&lt;p>قم بتعديل المتغيرات في &lt;code>_settings.scss&lt;/code> وأضف الأنماط المخصصة في &lt;code>/assets/sass/_custom.scss&lt;/code>.&lt;/p>
+&lt;h2 id="الترقية-من-الإصدار-القديم-إلى-v3">الترقية من الإصدار القديم إلى v3&lt;/h2>
+&lt;p>نظرًا لاستخدام الإصدار الجديد لأحدث ميزات لغة Sass، يجب تثبيت Dart Sass.&lt;/p>
+&lt;p>يمكن العثور على دليل التثبيت في الوثائق الرسمية: &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass">https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass&lt;/a>&lt;/p>
+&lt;p>إذا كنت تستخدم أدوات أتمتة CI/CD، تذكر تثبيت Dart Sass أيضًا: &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#installing-in-a-production-environment">https://gohugo.io/hugo-pipes/transpile-sass-to-css/#installing-in-a-production-environment&lt;/a>&lt;/p>
+&lt;p>ملاحظة: قد تواجه بعض مشاكل التوافق بعد الترقية. إذا واجهت أي صعوبات، لا تتردد في فتح مشكلة.&lt;/p>
+&lt;h2 id="فلسفة-تطوير-القالب">فلسفة تطوير القالب&lt;/h2>
+&lt;ol>
+&lt;li>لا &lt;code>node_modules&lt;/code>، اعتماديات أقل تعني صيانة أسهل&lt;/li>
+&lt;li>تشجيع المستخدمين على تعديل القالب وفقًا لتفضيلاتهم للحصول على موقع أكثر تخصيصًا&lt;/li>
+&lt;li>تجربة القراءة دائمًا هي الأولوية القصوى&lt;/li>
+&lt;li>نشر مرة واحدة، التركيز على الكتابة، لا مزيد من التعديلات&lt;/li>
+&lt;/ol>
+&lt;h2 id="خاتمة">خاتمة&lt;/h2>
+&lt;p>لقد استخدمت قالب الموقع هذا لمدة سبع سنوات. باستثناء التغييرات المتكررة في السنة الأولى، لم يتم تعديله كثيرًا منذ ذلك الحين.&lt;/p>
+&lt;p>لطالما اعتقدت أنه بالنسبة للمدونات الشخصية، المحتوى المكتوب هو الأهم، وفيما يتعلق بنمط الموقع، يجب أن يكون مقبولاً فقط.&lt;/p>
+&lt;p>كانت هذه المراجعة الرئيسية إلهامًا مفاجئًا لتغيير نظام الألوان بالكامل وترقية إصدار Hugo في نفس الوقت.&lt;/p>
+&lt;p>آمل أن يستمتع المستخدمون بذلك.&lt;/p></description></item></channel></rss>

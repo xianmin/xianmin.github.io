@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog do Xianmin</title><link>https://www.xianmin.org/pt/</link><description>Recent content on Blog do Xianmin</description><generator>Hugo -- gohugo.io</generator><language>pt</language><atom:link href="https://www.xianmin.org/pt/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog do Xianmin</title><link>https://www.xianmin.org/pt/</link><description>Recent content on Blog do Xianmin</description><generator>Hugo -- gohugo.io</generator><language>pt</language><lastBuildDate>Mon, 04 Nov 2024 06:56:56 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/pt/index.xml" rel="self" type="application/rss+xml"/><item><title>Atualização Principal do Hugo-Theme-Jane V3</title><link>https://www.xianmin.org/pt/post/2024/hugo-theme-jane-v3-major-update/</link><pubDate>Mon, 04 Nov 2024 06:56:56 +0000</pubDate><guid>https://www.xianmin.org/pt/post/2024/hugo-theme-jane-v3-major-update/</guid><description>&lt;p>Página do projeto: &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> .&lt;/p>
+&lt;h2 id="conteúdo-da-atualização">Conteúdo da Atualização&lt;/h2>
+&lt;ul>
+&lt;li>Usando &lt;a href="https://picocss.com/">Pico CSS&lt;/a> como esquema de cores, com cores de tema alternáveis e suporte para modo claro/escuro.&lt;/li>
+&lt;li>Página inicial personalizável.&lt;/li>
+&lt;li>Adicionado STYLE SETTINGS, localizado em /assets/sass/_settings.scss&lt;/li>
+&lt;li>Página de Categoria descontinuada, fundida na página de Arquivo.&lt;/li>
+&lt;/ul>
+&lt;p>Devido às muitas modificações, algumas áreas ainda não estão perfeitas. Obrigado pela sua compreensão!&lt;/p>
+&lt;h2 id="personalize-sua-página-inicial">Personalize sua Página Inicial&lt;/h2>
+&lt;p>A página inicial original era uma lista paginada de artigos, que podia ser um pouco monótona. Agora você pode ter uma página inicial mais personalizada.&lt;/p>
+&lt;p>Copie &lt;code>/exampleSite/content/_index.md&lt;/code> para &lt;code>/content/_index.md&lt;/code> do seu site e modifique os parâmetros.&lt;/p>
+&lt;p>Para sites multilíngues, crie arquivos similares &lt;code>_index.language.md&lt;/code>, como &lt;code>_index.pt.md&lt;/code>.&lt;/p>
+&lt;h2 id="personalize-seu-site-através-do-style-settings">Personalize seu Site através do STYLE SETTINGS&lt;/h2>
+&lt;p>Copie &lt;code>/assets/sass/_settings.scss&lt;/code> e &lt;code>/assets/sass/_custom.scss&lt;/code> para o diretório raiz do seu site (Nota: nomes de caminho e arquivo devem corresponder).&lt;/p>
+&lt;p>Modifique variáveis em &lt;code>_settings.scss&lt;/code> e adicione estilos personalizados em &lt;code>/assets/sass/_custom.scss&lt;/code>.&lt;/p>
+&lt;h2 id="atualizando-da-versão-antiga-para-v3">Atualizando da Versão Antiga para v3&lt;/h2>
+&lt;p>Devido à nova versão usar os recursos mais recentes da linguagem Sass, o Dart Sass precisa ser instalado.&lt;/p>
+&lt;p>O guia de instalação pode ser encontrado na documentação oficial: &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass">https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass&lt;/a>&lt;/p>
+&lt;p>Se você estiver usando ferramentas de automação CI/CD, lembre-se de instalar o Dart Sass também: &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#installing-in-a-production-environment">https://gohugo.io/hugo-pipes/transpile-sass-to-css/#installing-in-a-production-environment&lt;/a>&lt;/p>
+&lt;p>Nota: Você pode encontrar alguns problemas de compatibilidade após a atualização. Se encontrar dificuldades, sinta-se à vontade para abrir uma issue.&lt;/p>
+&lt;h2 id="filosofia-de-desenvolvimento-do-tema">Filosofia de Desenvolvimento do Tema&lt;/h2>
+&lt;ol>
+&lt;li>Sem &lt;code>node_modules&lt;/code>, menos dependências significam manutenção mais fácil&lt;/li>
+&lt;li>Encorajar usuários a modificar o tema de acordo com suas preferências para um site mais personalizado&lt;/li>
+&lt;li>A experiência de leitura é sempre a prioridade principal&lt;/li>
+&lt;li>Implantar uma vez, focar na escrita, sem mais ajustes&lt;/li>
+&lt;/ol>
+&lt;h2 id="considerações-finais">Considerações Finais&lt;/h2>
+&lt;p>Tenho usando este tema de site há sete anos. Exceto por mudanças frequentes no primeiro ano, não foi muito modificado desde então.&lt;/p>
+&lt;p>Sempre acreditei que para blogs pessoais, o conteúdo escrito é o mais importante, e quanto ao estilo do site, ele só precisa ser aceitável.&lt;/p>
+&lt;p>Esta revisão principal foi uma inspiração repentina para mudar completamente o esquema de cores e atualizar a versão do Hugo ao mesmo tempo.&lt;/p>
+&lt;p>Espero que os usuários gostem.&lt;/p></description></item></channel></rss>

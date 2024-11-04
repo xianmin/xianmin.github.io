@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 04 Nov 2024 06:56:56 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo-Theme-Jane V3 Major Update</title><link>https://www.xianmin.org/en/post/2024/hugo-theme-jane-v3-major-update/</link><pubDate>Mon, 04 Nov 2024 06:56:56 +0000</pubDate><guid>https://www.xianmin.org/en/post/2024/hugo-theme-jane-v3-major-update/</guid><description>&lt;p>Project homepage: &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> .&lt;/p>
+&lt;h2 id="update-content">Update Content&lt;/h2>
+&lt;ul>
+&lt;li>Using &lt;a href="https://picocss.com/">Pico CSS&lt;/a> as the color scheme, with switchable theme colors and dark/light mode support.&lt;/li>
+&lt;li>Custom homepage.&lt;/li>
+&lt;li>Added STYLE SETTINGS, located in /assets/sass/_settings.scss&lt;/li>
+&lt;li>Deprecated Category page, merged into Archive page.&lt;/li>
+&lt;/ul>
+&lt;p>Since there are many modifications, some areas are still not perfect. Thank you for your understanding!&lt;/p>
+&lt;h2 id="customize-your-homepage">Customize Your Homepage&lt;/h2>
+&lt;p>The original homepage was a paginated article list, which could be somewhat monotonous. Now you can have a more personalized homepage.&lt;/p>
+&lt;p>Copy &lt;code>/exampleSite/content/_index.md&lt;/code> to your website&amp;rsquo;s &lt;code>/content/_index.md&lt;/code> and modify the parameters.&lt;/p>
+&lt;p>For multilingual sites, create similar &lt;code>_index.language.md&lt;/code> files, such as &lt;code>_index.zh-cn.md&lt;/code>.&lt;/p>
+&lt;h2 id="personalize-your-website-through-style-settings">Personalize Your Website Through STYLE SETTINGS&lt;/h2>
+&lt;p>Copy &lt;code>/assets/sass/_settings.scss&lt;/code> and &lt;code>/assets/sass/_custom.scss&lt;/code> to your website&amp;rsquo;s root directory (Note: path names and file names must match).&lt;/p>
+&lt;p>Modify variables in &lt;code>_settings.scss&lt;/code> and add custom styles in &lt;code>/assets/sass/_custom.scss&lt;/code>.&lt;/p>
+&lt;h2 id="upgrading-from-old-version-to-v3">Upgrading from Old Version to v3&lt;/h2>
+&lt;p>Due to the new version using the latest Sass language features, Dart Sass needs to be installed.&lt;/p>
+&lt;p>Installation guide can be found in the official documentation: &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass">https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass&lt;/a>&lt;/p>
+&lt;p>If you&amp;rsquo;re using CI/CD automation tools, remember to install Dart Sass as well: &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#installing-in-a-production-environment">https://gohugo.io/hugo-pipes/transpile-sass-to-css/#installing-in-a-production-environment&lt;/a>&lt;/p>
+&lt;p>Note: You might encounter some compatibility issues after upgrading. If you face any difficulties, feel free to open an issue.&lt;/p>
+&lt;h2 id="theme-development-philosophy">Theme Development Philosophy&lt;/h2>
+&lt;ol>
+&lt;li>No &lt;code>node_modules&lt;/code>, fewer dependencies mean easier maintenance&lt;/li>
+&lt;li>Encouraging users to modify the theme according to their preferences for a more personalized website&lt;/li>
+&lt;li>Reading experience is always the top priority&lt;/li>
+&lt;li>Deploy once, focus on writing, no more tinkering&lt;/li>
+&lt;/ol>
+&lt;h2 id="afterword">Afterword&lt;/h2>
+&lt;p>I&amp;rsquo;ve been using this website theme for seven years. Except for frequent changes in the first year, it hasn&amp;rsquo;t been modified much since then.&lt;/p>
+&lt;p>I&amp;rsquo;ve always believed that for personal blogs, the written content is the most important, and as for the website style, it just needs to be acceptable.&lt;/p>
+&lt;p>This major revision was a sudden inspiration to completely change the color scheme and upgrade the Hugo version while at it.&lt;/p>
+&lt;p>I hope users will enjoy it.&lt;/p></description></item></channel></rss>
