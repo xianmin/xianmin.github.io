@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 20 Sep 2024 11:29:47 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>博客主题 Jane V3 大版本更新</title><link>https://www.xianmin.org/post/2024/2024-09-20-jane-theme-v3-major-update/</link><pubDate>Fri, 20 Sep 2024 11:29:47 +0000</pubDate><guid>https://www.xianmin.org/post/2024/2024-09-20-jane-theme-v3-major-update/</guid><description>&lt;p>项目主页： &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> 。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 05 Nov 2024 11:04:39 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 多语言博客搭建，如何优雅地管理多语言 md 内容</title><link>https://www.xianmin.org/post/2024/hugo-multilingual-blog-structure/</link><pubDate>Tue, 05 Nov 2024 11:04:39 +0800</pubDate><guid>https://www.xianmin.org/post/2024/hugo-multilingual-blog-structure/</guid><description>&lt;p>这个网站是用 &lt;a href="https://gohugo.io/">Hugo&lt;/a> 建设的，部署在 Github 。
+通常写一篇新的文章，我只需要把 Markdown 文件编辑好，上传到 Github ，GitHub Actions 就会自动帮我把网页生成好。
+整个流程非常简单，手机上都可以更新博文。&lt;/p>
+&lt;p>随着博文数量增多，如何管理 Markdown 文件倒是成了一个问题。
+以前没有好的习惯，都是直接放在 &lt;code>post/&lt;/code> 目录下。
+后来文件多了，就在 &lt;code>post/&lt;/code> 目录下新建了一些 &lt;code>post/2024/&lt;/code> 之类的子目录。
+博文的 URL 与文件的存放位置是相关的，比如 &lt;code>post/2024/example.md&lt;/code> 这篇博文， URL 地址就是 &lt;code>/post/2024/example/&lt;/code> 。
+&lt;strong>为了不改变已发布博文的 URL&lt;/strong> ，旧的 Markdown 文件位置，我就懒的改了。&lt;/p>
+&lt;p>&lt;img alt="my blog old post structure" src="https://www.xianmin.org/image/post/2024/hugo-multilingual-blog-structure.png">&lt;/p>
+&lt;h2 id="多语言站点">多语言站点&lt;/h2>
+&lt;p>Hugo 很多年前就支持多语言站点，我也曾考虑过创建一个英文站，但翻译始终是个问题。
+这两年随着 AI 的发展，文章的翻译质量提升了许多。
+最近我突发奇想，要不就创建一个多语言站点吧。&lt;/p>
+&lt;p>在 Hugo 中，对于多语言站点，一篇博文如果要有多个语言，通常要创建相应语言版本的 md 文件。
+比如， &lt;code>blog.md&lt;/code> 这篇博文的英文版，就是 &lt;code>blog.en.md&lt;/code> ，其他语言以此类推。&lt;/p>
+&lt;p>如果没有合适的整理方案，随着时间推移，就会导致 &lt;code>post/&lt;/code> 目录下的文件越来越多，也就越难管理。
+并且，以后再修改博文的 URL 也就越麻烦。&lt;/p>
+&lt;p>为此，&lt;strong>如何整理 post/ 目录下的文件&lt;/strong>，有必要把这个问题尽早解决。&lt;/p>
+&lt;h2 id="要有个合适的整理方案">要有个合适的整理方案&lt;/h2>
+&lt;p>根据我过往的经验，每年创建一个新的文件夹， &lt;code>post/2022/&lt;/code>、 &lt;code>post/2023/&lt;/code>、 &lt;code>post/2024/&lt;/code> 等等，这样基本就够我使用了。&lt;/p>
+&lt;p>而对于多语言站点，如果把所有的 &lt;code>blog.md&lt;/code>、 &lt;code>blog.language.md&lt;/code> 都放在一个文件夹下，这样也不好管理。&lt;/p>
+&lt;p>最好是把同一篇博文的多个语言版本，统一放在一个文件夹，比如 &lt;code>post/2024/blog/blog.md&lt;/code> , &lt;code>post/2024/blog/blog.language.md&lt;/code> 等等。但是生成的 URL 就成了 &lt;code>/post/2024/blog/blog&lt;/code> ，有点儿重复。为了解决这个问题， Hugo 提供了一个 &lt;code>slug&lt;/code> 的参数，可以修改 URL 的结尾部分的路径。&lt;/p>
+&lt;p>同时，&lt;strong>为了排序方便，我会在文件夹前加上日期&lt;/strong> 。&lt;/p>
+&lt;p>比如这篇文章的目录结构是这样的：&lt;/p>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;pre tabindex="0">&lt;code>post
+├───2017
+├───2018
+├───2019
+├───2020
+├───2021
+├───2022
+├───2023
+└───2024
+├───20240920-jane-theme-v3-major-update
+└───20241105-hugo-multilingual-blog-structure
+hugo-multilingual-blog-structure.en.md
+hugo-multilingual-blog-structure.md&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;p>这篇文章的 &lt;code>Front Matter&lt;/code> 结构是这样的：&lt;/p>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;pre tabindex="0">&lt;code>---
+title: Hugo 多语言博客搭建，如何优雅地管理多语言 Markdown 内容
+date: 2024-11-05T11:04:39+08:00
+draft: true
+tags:
+- Hugo
+- 多语言
+- 博客搭建
+- 网站优化
+- 文件管理
+- URL 结构
+- 内容管理
+- 站点迁移
+categories:
+- 计算机
+lastmod: 2024-11-05T11:04:39+08:00
+slug: ../hugo-multilingual-blog-structure/
+summary: 本文介绍使用 Hugo 搭建多语言站点后的文件组织方案、URL 结构优化，以及如何安全迁移现有博客内容。适合想要构建多语言博客的 Hugo 用户参考。
+---&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;h2 id="整理旧的-markdown-文件">整理旧的 Markdown 文件&lt;/h2>
+&lt;p>有了合适的整理方案，那么就应该先把旧有的文件也重新整理，把它们放到合适的位置。
+这里需要特别注意的是： &lt;strong>避免 URL 变更&lt;/strong> 。 Hugo 提供了 &lt;code>url&lt;/code> 这个参数，可以把 URL 写成一个固定值。&lt;/p>
+&lt;p>这里我分享一下我的流程：&lt;/p>
+&lt;p>第一步：删除 &lt;code>public/&lt;/code> 目录，基于旧有博文，用 Hugo 生成一个新的 &lt;code>public/&lt;/code> ，重命名为 &lt;code>public_old/&lt;/code> 。&lt;/p>
+&lt;p>第二步：一个一个转移文件，为转移的文件添加上原有的 &lt;code>url&lt;/code> 地址。&lt;/p>
+&lt;p>第三步：转移完成后，重新生成 &lt;code>public/&lt;/code> 。&lt;/p>
+&lt;p>第四步：比较 &lt;code>public/sitemap.xml&lt;/code> 和 &lt;code>public_old/sitemap.xml&lt;/code> ，检查 URL 是否一致。&lt;/p>
+&lt;p>第五步：使用 &lt;code>Beyond Compare&lt;/code> 比较 &lt;code>public/&lt;/code> 和 &lt;code>public_old/&lt;/code> 是否一致。&lt;/p>
+&lt;p>手动修改 URL 还需要注意： URL 的大小写是否一致。&lt;/p>
+&lt;h2 id="参考链接">参考链接&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://gohugo.io/content-management/multilingual/">Multilingual mode | Hugo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gohugo.io/content-management/urls/">URL management | Hugo&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>博客主题 Jane V3 大版本更新</title><link>https://www.xianmin.org/post/2024/2024-09-20-jane-theme-v3-major-update/</link><pubDate>Fri, 20 Sep 2024 11:29:47 +0000</pubDate><guid>https://www.xianmin.org/post/2024/2024-09-20-jane-theme-v3-major-update/</guid><description>&lt;p>项目主页： &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> 。&lt;/p>
 &lt;h2 id="更新内容">更新内容&lt;/h2>
 &lt;ul>
 &lt;li>使用 &lt;a href="https://picocss.com/">Pico CSS&lt;/a> 作为配色方案，可切换主题颜色，可切换 dark / light 模式。&lt;/li>
@@ -1006,17 +1083,4 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;li>打赏者可以在留言中加入广告和链接；&lt;/li>
 &lt;li>留言限 50 字以内，对于我不喜欢的留言，我有权删除；&lt;/li>
 &lt;li>以上几条规则未来可能会有变动，一切解释权归本人所有。&lt;/li>
-&lt;/ol></description></item><item><title>Windows 下，交换 Ctrl 键和 CapsLock 键</title><link>https://www.xianmin.org/post/2022/00-windows-swap-ctrl-and-capslock/</link><pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/00-windows-swap-ctrl-and-capslock/</guid><description>&lt;p>好久没更新博客了，水一篇，找点状态。&lt;/p>
-&lt;p>&lt;code>Ctrl&lt;/code> 键作为大部分软件的常用快捷按键，它在键盘上的位置是非常不合理的。而 &lt;code>CapsLock&lt;/code> 这个大写锁定键，不经常使用，却在键盘上占据了一个极佳的位置。在过去几年使用计算机的过程中，把 &lt;code>Ctrl&lt;/code> 和 &lt;code>CapsLock&lt;/code> 这两个按键的位置交换，极大的提升了我使用快捷键的舒适度和效率。&lt;/p>
-&lt;p>以下为使用 PowerShell 命令（需要以管理员身份运行）来交换这两个键的方式：&lt;/p>
-&lt;div class="highlight-container">
-&lt;button class="copy-code-btn outline">Copy&lt;/button>
-&lt;pre tabindex="0">&lt;code>$hexified = &amp;#34;00,00,00,00,00,00,00,00,03,00,00,00,1d,00,3a,00,3a,00,1d,00,00,00,00,00&amp;#34;.Split(&amp;#39;,&amp;#39;) | % { &amp;#34;0x$_&amp;#34;};
-$kbLayout = &amp;#39;HKLM:\System\CurrentControlSet\Control\Keyboard Layout&amp;#39;;
-New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyType Binary -Value ([byte[]]$hexified);&lt;/code>&lt;/pre>
-&lt;/div>
-&lt;h2 id="参考链接">参考链接&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://gist.github.com/joshschmelzle/5e88dabc71014d7427ff01bca3fed33d">Remap Caps Lock to Control on Windows 10&lt;/a> - 这个链接提供的信息是把 CapsLock 映射为 Ctrl ，而非交换。&lt;/li>
-&lt;li>&lt;a href="https://www.jianshu.com/p/d14dd07c025c">windows下交换ctrl和capslock - 简书&lt;/a> - 这个链接是手动修改注册表，不太方便。&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ol></description></item></channel></rss>

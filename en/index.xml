@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 04 Nov 2024 06:56:56 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo-Theme-Jane V3 Major Update</title><link>https://www.xianmin.org/en/post/2024/hugo-theme-jane-v3-major-update/</link><pubDate>Mon, 04 Nov 2024 06:56:56 +0000</pubDate><guid>https://www.xianmin.org/en/post/2024/hugo-theme-jane-v3-major-update/</guid><description>&lt;p>Project homepage: &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> .&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 05 Nov 2024 11:04:39 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Multilingual Hugo Blog - How to Elegantly Manage Markdown Content</title><link>https://www.xianmin.org/en/post/2024/hugo-multilingual-blog-structure/</link><pubDate>Tue, 05 Nov 2024 11:04:39 +0800</pubDate><guid>https://www.xianmin.org/en/post/2024/hugo-multilingual-blog-structure/</guid><description>&lt;p>This website is built with &lt;a href="https://gohugo.io/">Hugo&lt;/a> and deployed on Github.
+To publish a new article, I only need to edit the Markdown file and upload it to Github, where GitHub Actions automatically generates the webpage for me.
+The entire process is so simple that I can update blog posts even from my phone.&lt;/p>
+&lt;p>As the number of blog posts increased, managing Markdown files became a challenge.
+Previously, without good organizational habits, I placed all files directly in the &lt;code>post/&lt;/code> directory.
+Later, as files accumulated, I created subdirectories like &lt;code>post/2024/&lt;/code> within the &lt;code>post/&lt;/code> directory.
+The URL of a blog post is related to its file location. For example, a blog post at &lt;code>post/2024/example.md&lt;/code> would have the URL &lt;code>/post/2024/example/&lt;/code>.
+&lt;strong>To avoid changing the URLs of published posts&lt;/strong>, I left the old Markdown files in their original locations.&lt;/p>
+&lt;p>&lt;img alt="my blog old post structure" src="https://www.xianmin.org/image/post/2024/hugo-multilingual-blog-structure.png">&lt;/p>
+&lt;h2 id="multilingual-sites">Multilingual Sites&lt;/h2>
+&lt;p>Hugo has supported multilingual sites for many years, and I had considered creating an English version of my site, but translation was always an issue.
+With the advancement of AI in recent years, translation quality has improved significantly.
+Recently, I had the idea to create a multilingual site.&lt;/p>
+&lt;p>In Hugo, for multilingual sites, if you want a blog post to have multiple language versions, you typically need to create corresponding language versions of the md file.
+For example, the English version of &lt;code>blog.md&lt;/code> would be &lt;code>blog.en.md&lt;/code>, and other languages follow the same pattern.&lt;/p>
+&lt;p>Without a proper organization scheme, as time goes by, the number of files in the &lt;code>post/&lt;/code> directory would keep increasing, making it increasingly difficult to manage.
+Additionally, modifying blog post URLs would become more complicated in the future.&lt;/p>
+&lt;p>Therefore, it&amp;rsquo;s essential to address &lt;strong>how to organize files in the post/ directory&lt;/strong> early on.&lt;/p>
+&lt;h2 id="need-for-a-proper-organization-scheme">Need for a Proper Organization Scheme&lt;/h2>
+&lt;p>Based on my past experience, creating a new folder for each year like &lt;code>post/2022/&lt;/code>, &lt;code>post/2023/&lt;/code>, &lt;code>post/2024/&lt;/code>, etc., is generally sufficient for my needs.&lt;/p>
+&lt;p>For multilingual sites, placing all &lt;code>blog.md&lt;/code> and &lt;code>blog.language.md&lt;/code> files in one folder isn&amp;rsquo;t ideal for management.&lt;/p>
+&lt;p>It&amp;rsquo;s better to keep all language versions of the same blog post in one folder, such as &lt;code>post/2024/blog/blog.md&lt;/code>, &lt;code>post/2024/blog/blog.language.md&lt;/code>, etc. However, this would result in URLs like &lt;code>/post/2024/blog/blog&lt;/code>, which is redundant. To address this, Hugo provides a &lt;code>slug&lt;/code> parameter that can modify the final part of the URL path.&lt;/p>
+&lt;p>Also, &lt;strong>to facilitate sorting, I add dates to the beginning of folder names&lt;/strong>.&lt;/p>
+&lt;p>For example, this article&amp;rsquo;s directory structure looks like this:&lt;/p>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;pre tabindex="0">&lt;code>post
+├───2017
+├───2018
+├───2019
+├───2020
+├───2021
+├───2022
+├───2023
+└───2024
+├───20240920-jane-theme-v3-major-update
+└───20241105-hugo-multilingual-blog-structure
+hugo-multilingual-blog-structure.en.md
+hugo-multilingual-blog-structure.md&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;p>The &lt;code>Front Matter&lt;/code> structure of this article looks like this:&lt;/p>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;pre tabindex="0">&lt;code>---
+title: Hugo 多语言博客搭建，如何优雅地管理多语言 Markdown 内容
+date: 2024-11-05T11:04:39+08:00
+draft: true
+tags:
+- Hugo
+- 多语言
+- 博客搭建
+- 网站优化
+- 文件管理
+- URL 结构
+- 内容管理
+- 站点迁移
+categories:
+- 计算机
+lastmod: 2024-11-05T11:04:39+08:00
+slug: ../hugo-multilingual-blog-structure/
+summary: 本文介绍使用 Hugo 搭建多语言站点后的文件组织方案、URL 结构优化，以及如何安全迁移现有博客内容。适合想要构建多语言博客的 Hugo 用户参考。
+---&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;h2 id="organizing-old-markdown-files">Organizing Old Markdown Files&lt;/h2>
+&lt;p>With a proper organization scheme in place, we should reorganize existing files and place them in appropriate locations.
+It&amp;rsquo;s particularly important to &lt;strong>avoid URL changes&lt;/strong>. Hugo provides a &lt;code>url&lt;/code> parameter that can set URLs to fixed values.&lt;/p>
+&lt;p>Here&amp;rsquo;s my process:&lt;/p>
+&lt;p>Step 1: Delete the &lt;code>public/&lt;/code> directory, generate a new &lt;code>public/&lt;/code> based on existing blog posts, and rename it to &lt;code>public_old/&lt;/code>.&lt;/p>
+&lt;p>Step 2: Transfer files one by one, adding the original &lt;code>url&lt;/code> address to transferred files.&lt;/p>
+&lt;p>Step 3: After completing the transfer, regenerate the &lt;code>public/&lt;/code> directory.&lt;/p>
+&lt;p>Step 4: Compare &lt;code>public/sitemap.xml&lt;/code> and &lt;code>public_old/sitemap.xml&lt;/code> to check if URLs are consistent.&lt;/p>
+&lt;p>Step 5: Use &lt;code>Beyond Compare&lt;/code> to check if &lt;code>public/&lt;/code> and &lt;code>public_old/&lt;/code> are consistent.&lt;/p>
+&lt;p>When manually modifying URLs, also pay attention to URL case sensitivity.&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://gohugo.io/content-management/multilingual/">Multilingual mode | Hugo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gohugo.io/content-management/urls/">URL management | Hugo&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Hugo-Theme-Jane V3 Major Update</title><link>https://www.xianmin.org/en/post/2024/hugo-theme-jane-v3-major-update/</link><pubDate>Mon, 04 Nov 2024 06:56:56 +0000</pubDate><guid>https://www.xianmin.org/en/post/2024/hugo-theme-jane-v3-major-update/</guid><description>&lt;p>Project homepage: &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> .&lt;/p>
 &lt;h2 id="update-content">Update Content&lt;/h2>
 &lt;ul>
 &lt;li>Using &lt;a href="https://picocss.com/">Pico CSS&lt;/a> as the color scheme, with switchable theme colors and dark/light mode support.&lt;/li>
