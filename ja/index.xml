@@ -30,4 +30,15 @@
 &lt;p>このウェブサイトテーマを7年間使用してきました。最初の1年は頻繁に変更がありましたが、それ以降はあまり変更されていません。&lt;/p>
 &lt;p>個人ブログでは、書かれた内容が最も重要で、ウェブサイトのスタイルは受け入れられる程度であれば十分だと常に考えてきました。&lt;/p>
 &lt;p>この大規模な改訂は、カラースキームを完全に変更し、同時に Hugo バージョンをアップグレードするという突然のインスピレーションでした。&lt;/p>
-&lt;p>ユーザーの皆様に楽しんでいただければ幸いです。&lt;/p></description></item></channel></rss>
+&lt;p>ユーザーの皆様に楽しんでいただければ幸いです。&lt;/p></description></item><item><title>WindowsでCtrlキーとCapsLockキーを入れ替える方法</title><link>https://www.xianmin.org/ja/post/2022/windows-keyboard-remap-ctrl-capslock-powershell/</link><pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/ja/post/2022/windows-keyboard-remap-ctrl-capslock-powershell/</guid><description>&lt;p>&lt;code>Ctrl&lt;/code>キーは、ほとんどのソフトウェアショートカットで使用される一般的な修飾キーですが、キーボード上の位置が非常に不便です。一方、めったに使用されない&lt;code>CapsLock&lt;/code>キーが、キーボード上の最適な位置を占めています。長年のコンピューター使用経験から、&lt;code>Ctrl&lt;/code>キーと&lt;code>CapsLock&lt;/code>キーの位置を入れ替えることで、キーボードショートカットを使用する際の快適性と効率が大幅に向上しました。&lt;/p>
+&lt;p>以下は、PowerShellコマンドを使用してこれら2つのキーを入れ替える方法です（管理者として実行する必要があります）：&lt;/p>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;pre tabindex="0">&lt;code>$hexified = &amp;#34;00,00,00,00,00,00,00,00,03,00,00,00,1d,00,3a,00,3a,00,1d,00,00,00,00,00&amp;#34;.Split(&amp;#39;,&amp;#39;) | % { &amp;#34;0x$_&amp;#34;};
+$kbLayout = &amp;#39;HKLM:\System\CurrentControlSet\Control\Keyboard Layout&amp;#39;;
+New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyType Binary -Value ([byte[]]$hexified);&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;h2 id="参考">参考&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://gist.github.com/joshschmelzle/5e88dabc71014d7427ff01bca3fed33d">Remap Caps Lock to Control on Windows 10&lt;/a> - このリンクでは、CapsLockとCtrlを入れ替えるのではなく、CapsLockをCtrlにマッピングする方法について説明しています。&lt;/li>
+&lt;/ul></description></item></channel></rss>

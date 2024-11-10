@@ -30,4 +30,15 @@
 &lt;p>He estado usando este tema de sitio web durante siete años. Excepto por cambios frecuentes en el primer año, no ha sido modificado mucho desde entonces.&lt;/p>
 &lt;p>Siempre he creído que para los blogs personales, el contenido escrito es lo más importante, y en cuanto al estilo del sitio web, solo necesita ser aceptable.&lt;/p>
 &lt;p>Esta revisión mayor fue una inspiración repentina para cambiar completamente el esquema de colores y actualizar la versión de Hugo al mismo tiempo.&lt;/p>
-&lt;p>Espero que los usuarios lo disfruten.&lt;/p></description></item></channel></rss>
+&lt;p>Espero que los usuarios lo disfruten.&lt;/p></description></item><item><title>Intercambiar las teclas Ctrl y CapsLock en Windows</title><link>https://www.xianmin.org/es/post/2022/windows-keyboard-remap-ctrl-capslock-powershell/</link><pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/es/post/2022/windows-keyboard-remap-ctrl-capslock-powershell/</guid><description>&lt;p>La tecla &lt;code>Ctrl&lt;/code>, siendo un modificador común para la mayoría de los atajos de software, está ubicada de manera bastante inconveniente en el teclado. Mientras tanto, la tecla &lt;code>CapsLock&lt;/code>, que se usa raramente, ocupa una ubicación privilegiada en el teclado. A lo largo de mis años de uso de computadoras, intercambiar las posiciones de las teclas &lt;code>Ctrl&lt;/code> y &lt;code>CapsLock&lt;/code> ha mejorado significativamente mi comodidad y eficiencia al usar atajos de teclado.&lt;/p>
+&lt;p>Aquí está cómo intercambiar estas dos teclas usando comandos de PowerShell (debe ejecutarse como administrador):&lt;/p>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;pre tabindex="0">&lt;code>$hexified = &amp;#34;00,00,00,00,00,00,00,00,03,00,00,00,1d,00,3a,00,3a,00,1d,00,00,00,00,00&amp;#34;.Split(&amp;#39;,&amp;#39;) | % { &amp;#34;0x$_&amp;#34;};
+$kbLayout = &amp;#39;HKLM:\System\CurrentControlSet\Control\Keyboard Layout&amp;#39;;
+New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyType Binary -Value ([byte[]]$hexified);&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;h2 id="referencias">Referencias&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://gist.github.com/joshschmelzle/5e88dabc71014d7427ff01bca3fed33d">Remap Caps Lock to Control on Windows 10&lt;/a> - Este enlace proporciona información sobre cómo mapear CapsLock a Ctrl, en lugar de intercambiarlos.&lt;/li>
+&lt;/ul></description></item></channel></rss>

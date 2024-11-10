@@ -30,4 +30,15 @@
 &lt;p>لقد استخدمت قالب الموقع هذا لمدة سبع سنوات. باستثناء التغييرات المتكررة في السنة الأولى، لم يتم تعديله كثيرًا منذ ذلك الحين.&lt;/p>
 &lt;p>لطالما اعتقدت أنه بالنسبة للمدونات الشخصية، المحتوى المكتوب هو الأهم، وفيما يتعلق بنمط الموقع، يجب أن يكون مقبولاً فقط.&lt;/p>
 &lt;p>كانت هذه المراجعة الرئيسية إلهامًا مفاجئًا لتغيير نظام الألوان بالكامل وترقية إصدار Hugo في نفس الوقت.&lt;/p>
-&lt;p>آمل أن يستمتع المستخدمون بذلك.&lt;/p></description></item></channel></rss>
+&lt;p>آمل أن يستمتع المستخدمون بذلك.&lt;/p></description></item><item><title>تبديل مفتاحي Ctrl و CapsLock في نظام Windows</title><link>https://www.xianmin.org/ar/post/2022/windows-keyboard-remap-ctrl-capslock-powershell/</link><pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/ar/post/2022/windows-keyboard-remap-ctrl-capslock-powershell/</guid><description>&lt;p>مفتاح &lt;code>Ctrl&lt;/code>، الذي يعد معدلاً شائعاً لمعظم اختصارات البرامج، موضوع بشكل غير مريح على لوحة المفاتيح. في حين أن مفتاح &lt;code>CapsLock&lt;/code>، الذي نادراً ما يستخدم، يحتل موقعاً مميزاً على لوحة المفاتيح. على مدار سنوات استخدامي للكمبيوتر، أدى تبديل مواضع مفتاحي &lt;code>Ctrl&lt;/code> و &lt;code>CapsLock&lt;/code> إلى تحسين راحتي وكفاءتي بشكل كبير عند استخدام اختصارات لوحة المفاتيح.&lt;/p>
+&lt;p>إليك كيفية تبديل هذين المفتاحين باستخدام أوامر PowerShell (يجب تشغيلها كمسؤول):&lt;/p>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;pre tabindex="0">&lt;code>$hexified = &amp;#34;00,00,00,00,00,00,00,00,03,00,00,00,1d,00,3a,00,3a,00,1d,00,00,00,00,00&amp;#34;.Split(&amp;#39;,&amp;#39;) | % { &amp;#34;0x$_&amp;#34;};
+$kbLayout = &amp;#39;HKLM:\System\CurrentControlSet\Control\Keyboard Layout&amp;#39;;
+New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyType Binary -Value ([byte[]]$hexified);&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;h2 id="المراجع">المراجع&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://gist.github.com/joshschmelzle/5e88dabc71014d7427ff01bca3fed33d">Remap Caps Lock to Control on Windows 10&lt;/a> - يوفر هذا الرابط معلومات حول تعيين CapsLock إلى Ctrl، بدلاً من تبديلهما.&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -107,4 +107,15 @@ It&amp;rsquo;s particularly important to &lt;strong>avoid URL changes&lt;/strong
 &lt;p>I&amp;rsquo;ve been using this website theme for seven years. Except for frequent changes in the first year, it hasn&amp;rsquo;t been modified much since then.&lt;/p>
 &lt;p>I&amp;rsquo;ve always believed that for personal blogs, the written content is the most important, and as for the website style, it just needs to be acceptable.&lt;/p>
 &lt;p>This major revision was a sudden inspiration to completely change the color scheme and upgrade the Hugo version while at it.&lt;/p>
-&lt;p>I hope users will enjoy it.&lt;/p></description></item></channel></rss>
+&lt;p>I hope users will enjoy it.&lt;/p></description></item><item><title>Swapping Ctrl and CapsLock Keys in Windows</title><link>https://www.xianmin.org/en/post/2022/windows-keyboard-remap-ctrl-capslock-powershell/</link><pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/en/post/2022/windows-keyboard-remap-ctrl-capslock-powershell/</guid><description>&lt;p>The &lt;code>Ctrl&lt;/code> key, being a common modifier for most software shortcuts, is quite inconveniently positioned on the keyboard. Meanwhile, the &lt;code>CapsLock&lt;/code> key, which is rarely used, occupies a prime location on the keyboard. Over my years of computer usage, swapping the positions of &lt;code>Ctrl&lt;/code> and &lt;code>CapsLock&lt;/code> keys has significantly improved my comfort and efficiency when using keyboard shortcuts.&lt;/p>
+&lt;p>Here&amp;rsquo;s how to swap these two keys using PowerShell commands (must be run as administrator):&lt;/p>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;pre tabindex="0">&lt;code>$hexified = &amp;#34;00,00,00,00,00,00,00,00,03,00,00,00,1d,00,3a,00,3a,00,1d,00,00,00,00,00&amp;#34;.Split(&amp;#39;,&amp;#39;) | % { &amp;#34;0x$_&amp;#34;};
+$kbLayout = &amp;#39;HKLM:\System\CurrentControlSet\Control\Keyboard Layout&amp;#39;;
+New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyType Binary -Value ([byte[]]$hexified);&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://gist.github.com/joshschmelzle/5e88dabc71014d7427ff01bca3fed33d">Remap Caps Lock to Control on Windows 10&lt;/a> - This link provides information about mapping CapsLock to Ctrl, rather than swapping them.&lt;/li>
+&lt;/ul></description></item></channel></rss>

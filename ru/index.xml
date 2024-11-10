@@ -30,4 +30,15 @@
 &lt;p>Я использую эту тему сайта уже семь лет. За исключением частых изменений в первый год, с тех пор она не сильно менялась.&lt;/p>
 &lt;p>Я всегда считал, что для личных блогов написанный контент является самым важным, а что касается стиля сайта, он просто должен быть приемлемым.&lt;/p>
 &lt;p>Эта крупная редакция была внезапным вдохновением полностью изменить цветовую схему и заодно обновить версию Hugo.&lt;/p>
-&lt;p>Надеюсь, пользователям это понравится.&lt;/p></description></item></channel></rss>
+&lt;p>Надеюсь, пользователям это понравится.&lt;/p></description></item><item><title>Как поменять местами клавиши Ctrl и CapsLock в Windows</title><link>https://www.xianmin.org/ru/post/2022/windows-keyboard-remap-ctrl-capslock-powershell/</link><pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/ru/post/2022/windows-keyboard-remap-ctrl-capslock-powershell/</guid><description>&lt;p>Клавиша &lt;code>Ctrl&lt;/code>, являясь общим модификатором для большинства программных сочетаний клавиш, расположена довольно неудобно на клавиатуре. В то же время клавиша &lt;code>CapsLock&lt;/code>, которая редко используется, занимает привилегированное место на клавиатуре. За годы использования компьютера замена позиций клавиш &lt;code>Ctrl&lt;/code> и &lt;code>CapsLock&lt;/code> значительно улучшила мой комфорт и эффективность при использовании сочетаний клавиш.&lt;/p>
+&lt;p>Вот как поменять местами эти две клавиши с помощью команд PowerShell (должны выполняться от имени администратора):&lt;/p>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;pre tabindex="0">&lt;code>$hexified = &amp;#34;00,00,00,00,00,00,00,00,03,00,00,00,1d,00,3a,00,3a,00,1d,00,00,00,00,00&amp;#34;.Split(&amp;#39;,&amp;#39;) | % { &amp;#34;0x$_&amp;#34;};
+$kbLayout = &amp;#39;HKLM:\System\CurrentControlSet\Control\Keyboard Layout&amp;#39;;
+New-ItemProperty -Path $kbLayout -Name &amp;#34;Scancode Map&amp;#34; -PropertyType Binary -Value ([byte[]]$hexified);&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;h2 id="ссылки">Ссылки&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://gist.github.com/joshschmelzle/5e88dabc71014d7427ff01bca3fed33d">Remap Caps Lock to Control on Windows 10&lt;/a> - Эта ссылка пр��доставляет информацию о сопоставлении CapsLock с Ctrl, а не об их обмене местами.&lt;/li>
+&lt;/ul></description></item></channel></rss>
