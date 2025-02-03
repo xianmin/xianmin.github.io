@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 05 Nov 2024 11:04:39 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Multilingual Hugo Blog - How to Elegantly Manage Markdown Content</title><link>https://www.xianmin.org/en/post/2024/hugo-multilingual-blog-structure/</link><pubDate>Tue, 05 Nov 2024 11:04:39 +0800</pubDate><guid>https://www.xianmin.org/en/post/2024/hugo-multilingual-blog-structure/</guid><description>&lt;p>This website is built with &lt;a href="https://gohugo.io/">Hugo&lt;/a> and deployed on Github.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 03 Feb 2025 13:36:42 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Copy Unblocker - A Userscript to Remove Website Copy Restrictions</title><link>https://www.xianmin.org/en/post/2025/20250203-userscript-copy-unblocker/userscript-copy-unblocker/</link><pubDate>Mon, 03 Feb 2025 13:36:42 +0000</pubDate><guid>https://www.xianmin.org/en/post/2025/20250203-userscript-copy-unblocker/userscript-copy-unblocker/</guid><description>&lt;p>Some websites prevent text copying. I previously used the SuperCopy Chrome extension to bypass website copy restrictions. Later, I discovered that this extension was involved in traffic hijacking behavior: &lt;a href="https://www.v2ex.com/t/1084504">Chrome Extension with 600K Users Contains Malicious Code - V2EX&lt;/a>.&lt;/p>
+&lt;p>Well, I decided to have AI help me write a script instead.&lt;/p>
+&lt;p>Project Repository: &lt;a href="https://github.com/xianmin/userscript-copy-unblocker">xianmin/userscript-copy-unblocker: Automatically removes copy restrictions&lt;/a>&lt;/p>
+&lt;h2 id="userscript-copy-unblocker">userscript-copy-unblocker&lt;/h2>
+&lt;p>userscript-copy-unblocker is a userscript that automatically removes copy restrictions from web pages, allowing you to freely copy text content.&lt;/p>
+&lt;h2 id="how-to-use">How to Use&lt;/h2>
+&lt;ol>
+&lt;li>Install a browser extension:
+&lt;ul>
+&lt;li>Chrome: &lt;a href="https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Tampermonkey&lt;/a>&lt;/li>
+&lt;li>Firefox: &lt;a href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Install the Copy Unblocker script: &lt;a href="https://raw.githubusercontent.com/xianmin/userscript-copy-unblocker/refs/heads/master/copy-unblocker.user.js">Click to Install&lt;/a>&lt;/li>
+&lt;li>Visit supported websites, and the script will automatically remove copy restrictions&lt;/li>
+&lt;/ol>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>Automatically removes webpage copy restrictions&lt;/li>
+&lt;li>Enables text selection and right-click menu&lt;/li>
+&lt;li>Removes overlay layers that block content&lt;/li>
+&lt;li>Supports keyboard shortcuts (Ctrl+C/Cmd+C)&lt;/li>
+&lt;/ul>
+&lt;h2 id="adding-support-for-new-websites">Adding Support for New Websites&lt;/h2>
+&lt;p>If you want the script to support new websites, you can:&lt;/p>
+&lt;ol>
+&lt;li>Submit an &lt;a href="https://github.com/xianmin/userscript-copy-unblocker/issues">Issue&lt;/a> on GitHub&lt;/li>
+&lt;li>Or modify the script directly by adding new &lt;code>@match&lt;/code> rules at the top of the code&lt;/li>
+&lt;/ol>
+&lt;h2 id="privacy-and-security">Privacy and Security&lt;/h2>
+&lt;ul>
+&lt;li>Runs entirely on the client-side&lt;/li>
+&lt;li>No data collection&lt;/li>
+&lt;li>Open-source and transparent&lt;/li>
+&lt;/ul>
+&lt;h2 id="additional-references">Additional References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/WindRunnerMax/TKScript">WindRunnerMax/TKScript: Userscripts &amp;amp; Browser Extensions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.runningcheese.com/enable-copy">3 Methods to Solve 99% of Web Page Copy Issues - Running Cheese&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Multilingual Hugo Blog - How to Elegantly Manage Markdown Content</title><link>https://www.xianmin.org/en/post/2024/hugo-multilingual-blog-structure/</link><pubDate>Tue, 05 Nov 2024 11:04:39 +0800</pubDate><guid>https://www.xianmin.org/en/post/2024/hugo-multilingual-blog-structure/</guid><description>&lt;p>This website is built with &lt;a href="https://gohugo.io/">Hugo&lt;/a> and deployed on Github.
 To publish a new article, I only need to edit the Markdown file and upload it to Github, where GitHub Actions automatically generates the webpage for me.
 The entire process is so simple that I can update blog posts even from my phone.&lt;/p>
 &lt;p>As the number of blog posts increased, managing Markdown files became a challenge.

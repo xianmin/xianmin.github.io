@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 05 Nov 2024 11:04:39 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 多语言博客搭建，如何优雅地管理多语言 md 内容</title><link>https://www.xianmin.org/post/2024/hugo-multilingual-blog-structure/</link><pubDate>Tue, 05 Nov 2024 11:04:39 +0800</pubDate><guid>https://www.xianmin.org/post/2024/hugo-multilingual-blog-structure/</guid><description>&lt;p>这个网站是用 &lt;a href="https://gohugo.io/">Hugo&lt;/a> 建设的，部署在 Github 。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 03 Feb 2025 13:36:42 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>解除网页复制限制的插件 - userscript-copy-unblocker 油猴脚本</title><link>https://www.xianmin.org/post/2025/20250203-userscript-copy-unblocker/userscript-copy-unblocker/</link><pubDate>Mon, 03 Feb 2025 13:36:42 +0000</pubDate><guid>https://www.xianmin.org/post/2025/20250203-userscript-copy-unblocker/userscript-copy-unblocker/</guid><description>&lt;p>有的网站不能复制文本，我原来使用的是 SuperCopy 这个 Chrome 扩展，来解除网站的复制限制。后来看到这个扩展存在流量劫持的行为： &lt;a href="https://www.v2ex.com/t/1084504">60W 用户 Chrome 插件存在恶意代码 - V2EX&lt;/a> 。&lt;/p>
+&lt;p>好吧，那干脆让 AI 帮我写一个脚本吧。&lt;/p>
+&lt;p>项目地址： &lt;a href="https://github.com/xianmin/userscript-copy-unblocker">xianmin/userscript-copy-unblocker: Automatically removes copy restrictions&lt;/a>&lt;/p>
+&lt;h2 id="userscript-copy-unblocker">userscript-copy-unblocker&lt;/h2>
+&lt;p>userscript-copy-unblocker 是一个油猴脚本，可以自动移除网页的复制限制，让你能够自由地复制文本内容。&lt;/p>
+&lt;h2 id="如何使用">如何使用&lt;/h2>
+&lt;ol>
+&lt;li>安装浏览器扩展：
+&lt;ul>
+&lt;li>Chrome：&lt;a href="https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Tampermonkey&lt;/a>&lt;/li>
+&lt;li>Firefox：&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>安装 Copy Unblocker 脚本：&lt;a href="https://raw.githubusercontent.com/xianmin/userscript-copy-unblocker/refs/heads/master/copy-unblocker.user.js">点击安装&lt;/a>&lt;/li>
+&lt;li>访问支持的网站，脚本会自动移除复制限制&lt;/li>
+&lt;/ol>
+&lt;h2 id="功能特性">功能特性&lt;/h2>
+&lt;ul>
+&lt;li>自动移除网页复制限制&lt;/li>
+&lt;li>启用文本选择和右键菜单&lt;/li>
+&lt;li>移除遮挡内容的覆盖层&lt;/li>
+&lt;li>支持键盘快捷键（Ctrl+C/Cmd+C）&lt;/li>
+&lt;/ul>
+&lt;h2 id="添加新网站支持">添加新网站支持&lt;/h2>
+&lt;p>如果你希望脚本支持新的网站，可以：&lt;/p>
+&lt;ol>
+&lt;li>在 GitHub 上提交 &lt;a href="https://github.com/xianmin/userscript-copy-unblocker/issues">Issue&lt;/a>&lt;/li>
+&lt;li>或者直接修改脚本，在代码头部添加新的 &lt;code>@match&lt;/code> 规则&lt;/li>
+&lt;/ol>
+&lt;h2 id="隐私和安全">隐私和安全&lt;/h2>
+&lt;ul>
+&lt;li>完全在客户端运行&lt;/li>
+&lt;li>无数据收集&lt;/li>
+&lt;li>开源透明&lt;/li>
+&lt;/ul>
+&lt;h2 id="其他参考链接">其他参考链接&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/WindRunnerMax/TKScript">WindRunnerMax/TKScript: 油猴脚本 &amp;amp; 浏览器扩展&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.runningcheese.com/enable-copy">3 个方法，帮你解决 99% 的网页复制问题 - 奔跑中的奶酪&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Hugo 多语言博客搭建，如何优雅地管理多语言 md 内容</title><link>https://www.xianmin.org/post/2024/hugo-multilingual-blog-structure/</link><pubDate>Tue, 05 Nov 2024 11:04:39 +0800</pubDate><guid>https://www.xianmin.org/post/2024/hugo-multilingual-blog-structure/</guid><description>&lt;p>这个网站是用 &lt;a href="https://gohugo.io/">Hugo&lt;/a> 建设的，部署在 Github 。
 通常写一篇新的文章，我只需要把 Markdown 文件编辑好，上传到 Github ，GitHub Actions 就会自动帮我把网页生成好。
 整个流程非常简单，手机上都可以更新博文。&lt;/p>
 &lt;p>随着博文数量增多，如何管理 Markdown 文件倒是成了一个问题。
@@ -1032,55 +1071,4 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;p>惭愧。去年因为生活变动，基本没更新博客。现在生活慢慢稳定，我想这个博客还是得好好打理打理，毕竟这是我在互联网上唯一愿意活动的场所。一个院子如果不打理，一年也就荒废了，我想一个博客也是类似的。&lt;/p>
 &lt;p>至于重启，我并没有什么特别的计划。只是脑子里有一些想写的东西，我觉得应该把它们写下来，而不是停留在脑海中然后就忘了。希望今年可以多写一些内容。&lt;/p>
 &lt;h2 id="还有什么想说的">还有什么想说的？&lt;/h2>
-&lt;p>在这个博客上的所有留言我都有看到，我想对那些我没有回复留言的朋友们道个歉。你跟我打招呼，我没有回应，我感觉挺不礼貌的。哎，有些时候我确实不知道该回复什么，希望你能理解。祝好！&lt;/p></description></item><item><title>致谢</title><link>https://www.xianmin.org/acknowledgments/</link><pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/acknowledgments/</guid><description>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">打赏人&lt;/th>
-&lt;th style="text-align: left">金额&lt;/th>
-&lt;th style="text-align: left">留言&lt;/th>
-&lt;th style="text-align: left">日期&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">孤***&lt;/td>
-&lt;td style="text-align: left">10 元&lt;/td>
-&lt;td style="text-align: left">无意间搜到你的博客，陌生人加油&lt;/td>
-&lt;td style="text-align: left">2023-12-10&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">Xu*容&lt;/td>
-&lt;td style="text-align: left">100 元&lt;/td>
-&lt;td style="text-align: left">是结束，也是开始，那里是永远的白月光，你也是，谢谢你&lt;/td>
-&lt;td style="text-align: left">2022-01-24&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">w**t&lt;/td>
-&lt;td style="text-align: left">50 元&lt;/td>
-&lt;td style="text-align: left">小兄弟，路还长，当下和未来还需把握。&lt;/td>
-&lt;td style="text-align: left">2022-01-24&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">老*&lt;/td>
-&lt;td style="text-align: left">20 元&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">2022-01-24&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">John**&lt;/td>
-&lt;td style="text-align: left">10 元&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">2022-01-24&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>（注： 该页面于 2022 年才添加到这个博客，在这之前的打赏记录，我查询不到了，非常抱歉！）&lt;/p>
-&lt;p>这个博客在每篇博文下面，都有一个「打赏」按钮，这几年来断断续续收到了一些朋友的打赏鼓励。我自知才疏学浅，有朋友愿意打赏，我感到很惭愧。可是这个「打赏」之后呢，又没有任何的反馈，让我更加不好意思了。估计打赏的朋友并不在乎这些，但我还是想做点什么。思来想去，决定单独设立这个「致谢」页面，放在网站的右上角，算是作为小小的互动，它将鞭策我继续创作。&lt;/p>
-&lt;p>因为这个页面需要我手动输入和编辑，所以我暂定几条规则：&lt;/p>
-&lt;ol>
-&lt;li>打赏 30 元及以上，我会在一周内主动把你的留言加入到列表中；&lt;/li>
-&lt;li>打赏 10 ~ 30 元，你可以在 &lt;a href="https://github.com/xianmin/xianmin.org/blob/master/content/acknowledgments.md">Github&lt;/a> 上自行添加；&lt;/li>
-&lt;li>打赏者可以在留言中加入广告和链接；&lt;/li>
-&lt;li>留言限 50 字以内，对于我不喜欢的留言，我有权删除；&lt;/li>
-&lt;li>以上几条规则未来可能会有变动，一切解释权归本人所有。&lt;/li>
-&lt;/ol></description></item></channel></rss>
+&lt;p>在这个博客上的所有留言我都有看到，我想对那些我没有回复留言的朋友们道个歉。你跟我打招呼，我没有回应，我感觉挺不礼貌的。哎，有些时候我确实不知道该回复什么，希望你能理解。祝好！&lt;/p></description></item></channel></rss>
