@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianminのブログ</title><link>https://www.xianmin.org/ja/</link><description>Recent content on Xianminのブログ</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 04 Nov 2024 06:56:56 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/ja/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo-Theme-Jane V3 メジャーアップデート</title><link>https://www.xianmin.org/ja/post/2024/hugo-theme-jane-v3-major-update/</link><pubDate>Mon, 04 Nov 2024 06:56:56 +0000</pubDate><guid>https://www.xianmin.org/ja/post/2024/hugo-theme-jane-v3-major-update/</guid><description>&lt;p>プロジェクトホームページ: &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> .&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianminのブログ</title><link>https://www.xianmin.org/ja/</link><description>Recent content on Xianminのブログ</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 13 Feb 2025 12:57:01 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/ja/index.xml" rel="self" type="application/rss+xml"/><item><title>なぜVivaldiをメインブラウザとして選んだのか</title><link>https://www.xianmin.org/ja/post/2025/why-choose-vivaldi-browser-vs-chrome/</link><pubDate>Thu, 13 Feb 2025 12:57:01 +0800</pubDate><guid>https://www.xianmin.org/ja/post/2025/why-choose-vivaldi-browser-vs-chrome/</guid><description>&lt;p>私は長年Chromeを使用してきました。高速で、多くの拡張機能があり、ウェブデバッグも便利で、すべての要件を満たしていました。&lt;/p>
+&lt;p>しかし、ある日、Chromeが突然UIスタイルを変更し、使いづらくなりました。&lt;/p>
+&lt;p>主な問題は右クリックメニューの変更で、メニューオプションの間隔が大きくなり、オプションが多すぎる場合にスクロールが必要になりました。&lt;/p>
+&lt;p>最初は&lt;code>chrome://flags/&lt;/code>を通じて古いUIスタイルに戻すことができましたが、後にそのオプションは完全に削除されました。
+オンラインで新しい解決策を探している時に、誰かがVivaldiについて言及しているのを見つけました。&lt;/p>
+&lt;p>そこで試してみることにしました。&lt;/p>
+&lt;p>&lt;img alt="Vivaldi Browser" src="https://www.xianmin.org/post/2025/why-choose-vivaldi-browser-vs-chrome/vivaldi.jpg" title="Vivaldiブラウザのインターフェース">&lt;/p>
+&lt;p>VivaldiもChromiumベースのブラウザで、Chrome ウェブストアから直接拡張機能をインストールできるため、切り替えは全く難しくありませんでした。&lt;/p>
+&lt;p>ブックマークを移行し、よく使う拡張機能をインストールすると、ほとんどの要件が満たされました。&lt;/p>
+&lt;p>&lt;strong>Vivaldiの右クリックメニューは古いスタイルに切り替えることができ、これが私がVivaldiを使い始めた最初の動機でした。&lt;/strong>&lt;/p>
+&lt;p>VivaldiはChromiumの上に多くの追加機能を加えています。
+最初はあまり使用しませんでしたが、後になっていくつかの機能が非常に便利だと気づきました。&lt;/p>
+&lt;p>以下は、私が最もよく使用する機能です：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>サイドバーのタブ管理&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>多くのタブを開いているとき、タイトルを見たり切り替えたいタブを見つけたりするのが難しくなります。
+サイドバーのウィンドウマネージャーがそれを便利にしてくれます。
+タブの切り替えや、削除、移動などの操作が簡単です。&lt;/p>
+&lt;ol start="2">
+&lt;li>&lt;strong>マルチページタイリング&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>時には1つのウィンドウで2つのタブを同時に表示したい場合があり、行き来する必要がなくなります。&lt;/p>
+&lt;ol start="3">
+&lt;li>&lt;strong>画像読み込みの切り替え&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>コンテンツの多いウェブサイトでは、テキストだけを読みたい時に画像が多すぎることがあります。&lt;/p>
+&lt;ol start="4">
+&lt;li>&lt;strong>ウェブページの全体スクリーンショット&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>内蔵のウェブページスクリーンショットツールは操作が便利です。&lt;/p>
+&lt;p>などなど。&lt;/p>
+&lt;p>上記の機能の一部はChromeの拡張機能でも実現できますが、Vivaldiではブラウザに統合されており、よりスムーズな体験を提供します。&lt;/p>
+&lt;p>Vivaldiの他の機能、例えば内蔵メールクライアントやRSSリーダーについては、使用していないためコメントは控えさせていただきます。&lt;/p></description></item><item><title>Hugo-Theme-Jane V3 メジャーアップデート</title><link>https://www.xianmin.org/ja/post/2024/hugo-theme-jane-v3-major-update/</link><pubDate>Mon, 04 Nov 2024 06:56:56 +0000</pubDate><guid>https://www.xianmin.org/ja/post/2024/hugo-theme-jane-v3-major-update/</guid><description>&lt;p>プロジェクトホームページ: &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> .&lt;/p>
 &lt;h2 id="アップデート内容">アップデート内容&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://picocss.com/">Pico CSS&lt;/a> をカラースキームとして採用し、切り替え可能なテーマカラーとダーク/ライトモードをサポート。&lt;/li>

@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Le Blog de Xianmin</title><link>https://www.xianmin.org/fr/</link><description>Recent content on Le Blog de Xianmin</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Mon, 04 Nov 2024 06:56:56 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/fr/index.xml" rel="self" type="application/rss+xml"/><item><title>Mise à jour majeure de Hugo-Theme-Jane V3</title><link>https://www.xianmin.org/fr/post/2024/hugo-theme-jane-v3-major-update/</link><pubDate>Mon, 04 Nov 2024 06:56:56 +0000</pubDate><guid>https://www.xianmin.org/fr/post/2024/hugo-theme-jane-v3-major-update/</guid><description>&lt;p>Page d&amp;rsquo;accueil du projet : &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> .&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Le Blog de Xianmin</title><link>https://www.xianmin.org/fr/</link><description>Recent content on Le Blog de Xianmin</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Thu, 13 Feb 2025 12:57:01 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/fr/index.xml" rel="self" type="application/rss+xml"/><item><title>Pourquoi j'ai choisi Vivaldi comme navigateur principal</title><link>https://www.xianmin.org/fr/post/2025/why-choose-vivaldi-browser-vs-chrome/</link><pubDate>Thu, 13 Feb 2025 12:57:01 +0800</pubDate><guid>https://www.xianmin.org/fr/post/2025/why-choose-vivaldi-browser-vs-chrome/</guid><description>&lt;p>J&amp;rsquo;ai utilisé Chrome pendant de nombreuses années. Il était rapide, disposait de nombreuses extensions et facilitait le débogage web - répondant à tous mes besoins.&lt;/p>
+&lt;p>Cependant, un jour, Chrome a soudainement changé son style d&amp;rsquo;interface, le rendant inconfortable à utiliser.&lt;/p>
+&lt;p>Le problème principal était le changement dans le menu du clic droit, où les options du menu avaient un espacement plus grand et nécessitaient de défiler lorsqu&amp;rsquo;il y avait trop d&amp;rsquo;options.&lt;/p>
+&lt;p>Au début, je pouvais revenir à l&amp;rsquo;ancien style d&amp;rsquo;interface via &lt;code>chrome://flags/&lt;/code>, mais plus tard, cette option a été complètement supprimée.
+En cherchant de nouvelles solutions en ligne, je suis tombé sur quelqu&amp;rsquo;un qui mentionnait Vivaldi.&lt;/p>
+&lt;p>J&amp;rsquo;ai donc décidé de l&amp;rsquo;essayer.&lt;/p>
+&lt;p>&lt;img alt="Vivaldi Browser" src="https://www.xianmin.org/post/2025/why-choose-vivaldi-browser-vs-chrome/vivaldi.jpg" title="Interface du navigateur Vivaldi">&lt;/p>
+&lt;p>La transition vers Vivaldi n&amp;rsquo;a pas été difficile car c&amp;rsquo;est aussi un navigateur basé sur Chromium qui peut directement installer des extensions depuis le Chrome Web Store.&lt;/p>
+&lt;p>J&amp;rsquo;ai migré mes favoris, installé mes extensions fréquemment utilisées, et la plupart de mes besoins ont été satisfaits.&lt;/p>
+&lt;p>&lt;strong>Le menu du clic droit de Vivaldi peut être remis à l&amp;rsquo;ancien style, ce qui était ma motivation initiale pour l&amp;rsquo;utiliser.&lt;/strong>&lt;/p>
+&lt;p>Vivaldi ajoute de nombreuses fonctionnalités supplémentaires à Chromium.
+Je ne les utilisais pas beaucoup au début, mais j&amp;rsquo;ai découvert plus tard que certaines fonctionnalités étaient très utiles.&lt;/p>
+&lt;p>Voici plusieurs fonctionnalités que j&amp;rsquo;utilise le plus fréquemment :&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Gestion des onglets dans la barre latérale.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Quand vous avez beaucoup d&amp;rsquo;onglets ouverts, il est difficile de voir leurs titres ou de trouver l&amp;rsquo;onglet vers lequel vous voulez basculer.
+Le gestionnaire de fenêtres latéral le rend pratique.
+Il est facile de basculer entre les onglets et d&amp;rsquo;effectuer des opérations comme la suppression et le déplacement d&amp;rsquo;onglets.&lt;/p>
+&lt;ol start="2">
+&lt;li>&lt;strong>Affichage en tuiles multi-pages.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Parfois, vous voulez afficher deux onglets simultanément dans une fenêtre, éliminant le besoin de basculer d&amp;rsquo;avant en arrière.&lt;/p>
+&lt;ol start="3">
+&lt;li>&lt;strong>Activation/désactivation du chargement des images.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Certains sites web riches en contenu ont trop d&amp;rsquo;images quand je veux seulement lire le texte.&lt;/p>
+&lt;ol start="4">
+&lt;li>&lt;strong>Capture d&amp;rsquo;écran de page entière.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>L&amp;rsquo;outil de capture d&amp;rsquo;écran de page web intégré est pratique à utiliser.&lt;/p>
+&lt;p>Et plus encore.&lt;/p>
+&lt;p>Bien que certaines extensions Chrome puissent réaliser les fonctions ci-dessus, Vivaldi les intègre dans le navigateur, offrant une expérience plus fluide.&lt;/p>
+&lt;p>Quant aux autres fonctionnalités de Vivaldi comme le client de messagerie intégré et le lecteur RSS, je ne les utilise pas, donc je ne commenterai pas à leur sujet.&lt;/p></description></item><item><title>Mise à jour majeure de Hugo-Theme-Jane V3</title><link>https://www.xianmin.org/fr/post/2024/hugo-theme-jane-v3-major-update/</link><pubDate>Mon, 04 Nov 2024 06:56:56 +0000</pubDate><guid>https://www.xianmin.org/fr/post/2024/hugo-theme-jane-v3-major-update/</guid><description>&lt;p>Page d&amp;rsquo;accueil du projet : &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> .&lt;/p>
 &lt;h2 id="contenu-de-la-mise-à-jour">Contenu de la mise à jour&lt;/h2>
 &lt;ul>
 &lt;li>Utilisation de &lt;a href="https://picocss.com/">Pico CSS&lt;/a> comme schéma de couleurs, avec des couleurs de thème commutables et support du mode sombre/clair.&lt;/li>

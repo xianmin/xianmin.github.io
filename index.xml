@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 03 Feb 2025 13:36:42 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>解除网页复制限制的插件 - userscript-copy-unblocker 油猴脚本</title><link>https://www.xianmin.org/post/2025/userscript-copy-unblocker/</link><pubDate>Mon, 03 Feb 2025 13:36:42 +0000</pubDate><guid>https://www.xianmin.org/post/2025/userscript-copy-unblocker/</guid><description>&lt;p>有的网站不能复制文本，我原来使用的是 SuperCopy 这个 Chrome 扩展，来解除网站的复制限制。后来看到这个扩展存在流量劫持的行为： &lt;a href="https://www.v2ex.com/t/1084504">60W 用户 Chrome 插件存在恶意代码 - V2EX&lt;/a> 。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 13 Feb 2025 12:57:01 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>为什么我使用 Vivaldi 作为主力浏览器</title><link>https://www.xianmin.org/post/2025/why-choose-vivaldi-browser-vs-chrome/</link><pubDate>Thu, 13 Feb 2025 12:57:01 +0800</pubDate><guid>https://www.xianmin.org/post/2025/why-choose-vivaldi-browser-vs-chrome/</guid><description>&lt;p>我用了许多年的 Chrome ，它速度快，扩展多，调试网页方便，满足我的一切需求。&lt;/p>
+&lt;p>但在前年的某一天，Chrome 突然改变了 UI 风格，让我用的很不习惯。&lt;/p>
+&lt;p>主要是右键菜单栏的变化，菜单选项的间距大了，选项过多时还需要滚动。&lt;/p>
+&lt;p>一开始可以通过 &lt;code>chrome://flags/&lt;/code> ，换回旧的 UI 风格，后来压根儿就换不回去了。&lt;/p>
+&lt;p>我在网络上寻找新的解决办法，然后就看到有人说，可以用 Vivaldi 。
+那就试一试吧。&lt;/p>
+&lt;p>&lt;img alt="Vivaldi 浏览器" src="https://www.xianmin.org/post/2025/why-choose-vivaldi-browser-vs-chrome/vivaldi.jpg" title="Vivaldi 浏览器界面展示">&lt;/p>
+&lt;p>切换到 Vivaldi 没有太多不适，它也是基于 Chromium 的浏览器，可以直接安装 Chrome 商店的扩展。&lt;/p>
+&lt;p>我把书签迁移过去，把常用扩展装上，需求基本就满足了。
+&lt;strong>Vivaldi 的右键菜单，可以切换回旧的样式，这是我最初使用它的动机。&lt;/strong>&lt;/p>
+&lt;p>Vivaldi 在 Chromium 的基础上，增添了许多额外的功能。
+我开始并没有怎么用，但后来发现，有些功能还挺好用的。&lt;/p>
+&lt;p>分享几个我最常用的功能：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>侧边栏标签页管理。&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>标签一旦多了，看不到标题，找不到想要跳转的标签。
+但是侧边栏的窗口管理器就很方便。
+方便切换标签，也方便标签的删除、移动等操作。&lt;/p>
+&lt;ol start="2">
+&lt;li>&lt;strong>多页面平铺。&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>有时候在一个窗口同时展示两个标签页，这样就不用来回切换了。&lt;/p>
+&lt;ol start="3">
+&lt;li>&lt;strong>加载图片的开关。&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>有的内容网站图片太多了，我只需要看文字。&lt;/p>
+&lt;ol start="4">
+&lt;li>&lt;strong>整个网页截图。&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>内置的网页截图工具，操作便捷。&lt;/p>
+&lt;p>等等。&lt;/p>
+&lt;p>尽管以上功能，某些 Chrome 扩展就能实现，但 Vivaldi 将它们集成在浏览器中，体验更加流畅&lt;/p>
+&lt;p>至于 Vivaldi 的其他功能，如内置邮箱客户端、RSS 阅读器等，这些我用不上，就不做评价了。&lt;/p></description></item><item><title>解除网页复制限制的插件 - userscript-copy-unblocker 油猴脚本</title><link>https://www.xianmin.org/post/2025/userscript-copy-unblocker/</link><pubDate>Mon, 03 Feb 2025 13:36:42 +0000</pubDate><guid>https://www.xianmin.org/post/2025/userscript-copy-unblocker/</guid><description>&lt;p>有的网站不能复制文本，我原来使用的是 SuperCopy 这个 Chrome 扩展，来解除网站的复制限制。后来看到这个扩展存在流量劫持的行为： &lt;a href="https://www.v2ex.com/t/1084504">60W 用户 Chrome 插件存在恶意代码 - V2EX&lt;/a> 。&lt;/p>
 &lt;p>好吧，那干脆让 AI 帮我写一个脚本吧。&lt;/p>
 &lt;p>项目地址： &lt;a href="https://github.com/xianmin/userscript-copy-unblocker">xianmin/userscript-copy-unblocker: Automatically removes copy restrictions&lt;/a>&lt;/p>
 &lt;h2 id="userscript-copy-unblocker">userscript-copy-unblocker&lt;/h2>
@@ -1057,18 +1090,4 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;/figcaption>
 &lt;/figure>
 &lt;/div>
-&lt;p>我最近做的一次凉拌菜，食材有鸡胸肉、猪血、豆腐、生菜、洋葱、西红柿等，成本 10 元左右，耗时 30 分钟，可以吃一天。&lt;/p></description></item><item><title>博客重启 2.0</title><link>https://www.xianmin.org/post/2022/01-blog-restart/</link><pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/01-blog-restart/</guid><description>&lt;h2 id="为什么博客改名了">为什么博客改名了？&lt;/h2>
-&lt;p>「贤民的博客」，简单明了。之前叫「贤民的比特记忆」，「比特记忆」这个名称，读者朋友不一定理解它的含义，增加额外的认知负担，感觉没这必要。&lt;/p>
-&lt;h2 id="还做了哪些改动">还做了哪些改动？&lt;/h2>
-&lt;p>&lt;a href="https://www.xianmin.org/about/">「关于」&lt;/a> 页面是新的来访者了解我和这个博客的一个重要链接，其中的内容是 2018 年写的，距今有四年多了，很多信息都已过时，而我在这几年也有些许变化，是应该更新一下了。&lt;/p>
-&lt;p>另外，我给博客专门添加了 &lt;a href="https://www.xianmin.org/acknowledgments/">「致谢」&lt;/a> 页面。&lt;/p>
-&lt;p>这个博客在每篇博文下面，都有一个「打赏」按钮，这几年来断断续续收到了一些朋友的打赏鼓励。我自知才疏学浅，有朋友愿意打赏，我感到很惭愧。可是这个「打赏」之后呢，又没有任何的反馈，让我更加不好意思了。估计打赏的朋友并不在乎这些，但我还是想做点什么。思来想去，决定单独设立这个「致谢」页面，放在网站的右上角，算是作为小小的互动，它将鞭策我继续创作。&lt;/p>
-&lt;h2 id="为什么还要写博客">为什么还要写博客？&lt;/h2>
-&lt;p>最简单的理由，就是依然还有表达欲。我喜欢独来独往，可有时候又太孤独了，把自己想说却不知道跟谁说的话，写下来，发布到网上，这个过程让我心情愉悦，有助于释放孤独感。另外，我更愿意把写博客当作练习作文，记录某个时刻的所思所想，算是一件稍有难度的「娱乐活动」。&lt;/p>
-&lt;p>还有一个重要的理由，这个博客是我个人数字资产的一部分。通俗点说，就是我对这个博客有增删改查的自由，所有内容都是免费公开分享的，用浏览器就可以打开阅读。我把它们发布到互联网，网络爬虫想怎么爬就怎么爬，说不定还可以用作机器学习中文的分析数据。&lt;/p>
-&lt;p>另外，只要这个博客的链接还在，没准五年后，还会有人读到这些文字呢。如果 2027 年的你恰巧经过这里，我亲爱的陌生朋友，欢迎给我留言，我会告诉你一个我在 2022 年的秘密（这个秘密记在我 5 月 10 日的日记里）。&lt;/p>
-&lt;h2 id="为什么这篇文章的标题叫博客重启">为什么这篇文章的标题叫「博客重启」？&lt;/h2>
-&lt;p>惭愧。去年因为生活变动，基本没更新博客。现在生活慢慢稳定，我想这个博客还是得好好打理打理，毕竟这是我在互联网上唯一愿意活动的场所。一个院子如果不打理，一年也就荒废了，我想一个博客也是类似的。&lt;/p>
-&lt;p>至于重启，我并没有什么特别的计划。只是脑子里有一些想写的东西，我觉得应该把它们写下来，而不是停留在脑海中然后就忘了。希望今年可以多写一些内容。&lt;/p>
-&lt;h2 id="还有什么想说的">还有什么想说的？&lt;/h2>
-&lt;p>在这个博客上的所有留言我都有看到，我想对那些我没有回复留言的朋友们道个歉。你跟我打招呼，我没有回应，我感觉挺不礼貌的。哎，有些时候我确实不知道该回复什么，希望你能理解。祝好！&lt;/p></description></item></channel></rss>
+&lt;p>我最近做的一次凉拌菜，食材有鸡胸肉、猪血、豆腐、生菜、洋葱、西红柿等，成本 10 元左右，耗时 30 分钟，可以吃一天。&lt;/p></description></item></channel></rss>

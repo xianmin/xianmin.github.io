@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Блог Xianmin</title><link>https://www.xianmin.org/ru/</link><description>Recent content on Блог Xianmin</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Mon, 04 Nov 2024 06:56:56 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/ru/index.xml" rel="self" type="application/rss+xml"/><item><title>Крупное Обновление Hugo-Theme-Jane V3</title><link>https://www.xianmin.org/ru/post/2024/hugo-theme-jane-v3-major-update/</link><pubDate>Mon, 04 Nov 2024 06:56:56 +0000</pubDate><guid>https://www.xianmin.org/ru/post/2024/hugo-theme-jane-v3-major-update/</guid><description>&lt;p>Домашняя страница проекта: &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> .&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Блог Xianmin</title><link>https://www.xianmin.org/ru/</link><description>Recent content on Блог Xianmin</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Thu, 13 Feb 2025 12:57:01 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/ru/index.xml" rel="self" type="application/rss+xml"/><item><title>Почему я Выбрал Vivaldi как Основной Браузер</title><link>https://www.xianmin.org/ru/post/2025/why-choose-vivaldi-browser-vs-chrome/</link><pubDate>Thu, 13 Feb 2025 12:57:01 +0800</pubDate><guid>https://www.xianmin.org/ru/post/2025/why-choose-vivaldi-browser-vs-chrome/</guid><description>&lt;p>Я использовал Chrome много лет. Он был быстрым, имел множество расширений и делал отладку веб-страниц удобной - удовлетворяя все мои потребности.&lt;/p>
+&lt;p>Однако однажды Chrome внезапно изменил стиль своего интерфейса, сделав его неудобным в использовании.&lt;/p>
+&lt;p>Основной проблемой было изменение в контекстном меню, где пункты меню имели большие промежутки и требовали прокрутки при большом количестве опций.&lt;/p>
+&lt;p>Изначально я мог вернуться к старому стилю интерфейса через &lt;code>chrome://flags/&lt;/code>, но позже эта опция была полностью удалена.
+Во время поиска новых решений в интернете я наткнулся на упоминание о Vivaldi.&lt;/p>
+&lt;p>Поэтому я решил попробовать его.&lt;/p>
+&lt;p>&lt;img alt="Vivaldi Browser" src="https://www.xianmin.org/post/2025/why-choose-vivaldi-browser-vs-chrome/vivaldi.jpg" title="Интерфейс браузера Vivaldi">&lt;/p>
+&lt;p>Переход на Vivaldi не был сложным, так как это тоже браузер на основе Chromium, который может напрямую устанавливать расширения из Chrome Web Store.&lt;/p>
+&lt;p>Я перенес свои закладки, установил часто используемые расширения, и большинство моих потребностей были удовлетворены.&lt;/p>
+&lt;p>&lt;strong>Контекстное меню Vivaldi можно переключить обратно на старый стиль, что было моей первоначальной мотивацией для его использования.&lt;/strong>&lt;/p>
+&lt;p>Vivaldi добавляет много дополнительных функций поверх Chromium.
+Сначала я не очень ими пользовался, но позже обнаружил, что некоторые функции довольно полезны.&lt;/p>
+&lt;p>Вот несколько функций, которые я использую чаще всего:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Управление вкладками в боковой панели.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Когда у вас открыто много вкладок, трудно видеть их заголовки или найти нужную вкладку для переключения.
+Менеджер окон в боковой панели делает это удобным.
+Легко переключаться между вкладками и выполнять операции, такие как удаление и перемещение вкладок.&lt;/p>
+&lt;ol start="2">
+&lt;li>&lt;strong>Мозаичное размещение нескольких страниц.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Иногда вы хотите отобразить две вкладки в одном окне одновременно, устраняя необходимость переключения между ними.&lt;/p>
+&lt;ol start="3">
+&lt;li>&lt;strong>Переключение загрузки изображений.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Некоторые сайты с большим количеством контента имеют слишком много изображений, когда мне нужно только читать текст.&lt;/p>
+&lt;ol start="4">
+&lt;li>&lt;strong>Полный скриншот веб-страницы.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Встроенный инструмент для создания скриншотов веб-страниц удобен в использовании.&lt;/p>
+&lt;p>И многое другое.&lt;/p>
+&lt;p>Хотя некоторые расширения Chrome могут обеспечить вышеуказанные функции, Vivaldi интегрирует их в браузер, обеспечивая более плавный опыт использования.&lt;/p>
+&lt;p>Что касается других функций Vivaldi, таких как встроенный почтовый клиент и RSS-ридер, я их не использую, поэтому не буду о них комментировать.&lt;/p></description></item><item><title>Крупное Обновление Hugo-Theme-Jane V3</title><link>https://www.xianmin.org/ru/post/2024/hugo-theme-jane-v3-major-update/</link><pubDate>Mon, 04 Nov 2024 06:56:56 +0000</pubDate><guid>https://www.xianmin.org/ru/post/2024/hugo-theme-jane-v3-major-update/</guid><description>&lt;p>Домашняя страница проекта: &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> .&lt;/p>
 &lt;h2 id="содержание-обновления">Содержание Обновления&lt;/h2>
 &lt;ul>
 &lt;li>Использование &lt;a href="https://picocss.com/">Pico CSS&lt;/a> в качестве цветовой схемы, с переключаемыми цветами темы и поддержкой светлого/тёмного режима.&lt;/li>

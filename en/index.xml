@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 03 Feb 2025 13:36:42 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Copy Unblocker - A Userscript to Remove Website Copy Restrictions</title><link>https://www.xianmin.org/en/post/2025/userscript-copy-unblocker/</link><pubDate>Mon, 03 Feb 2025 13:36:42 +0000</pubDate><guid>https://www.xianmin.org/en/post/2025/userscript-copy-unblocker/</guid><description>&lt;p>Some websites prevent text copying. I previously used the SuperCopy Chrome extension to bypass website copy restrictions. Later, I discovered that this extension was involved in traffic hijacking behavior: &lt;a href="https://www.v2ex.com/t/1084504">Chrome Extension with 600K Users Contains Malicious Code - V2EX&lt;/a>.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 13 Feb 2025 12:57:01 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Why I Choose Vivaldi as My Primary Browser</title><link>https://www.xianmin.org/en/post/2025/why-choose-vivaldi-browser-vs-chrome/</link><pubDate>Thu, 13 Feb 2025 12:57:01 +0800</pubDate><guid>https://www.xianmin.org/en/post/2025/why-choose-vivaldi-browser-vs-chrome/</guid><description>&lt;p>I used Chrome for many years. It was fast, had plenty of extensions, and made web debugging convenient - meeting all my needs.&lt;/p>
+&lt;p>However, one day, Chrome suddenly changed its UI style, making it uncomfortable to use.&lt;/p>
+&lt;p>The main issue was the change in the right-click menu, where menu options had larger spacing and required scrolling when there were too many options.&lt;/p>
+&lt;p>Initially, I could revert to the old UI style through &lt;code>chrome://flags/&lt;/code>, but later that option was completely removed.
+While searching online for new solutions, I came across someone mentioning Vivaldi.&lt;/p>
+&lt;p>So I decided to give it a try.&lt;/p>
+&lt;p>&lt;img alt="Vivaldi Browser" src="https://www.xianmin.org/post/2025/why-choose-vivaldi-browser-vs-chrome/vivaldi.jpg" title="Vivaldi Browser Interface">&lt;/p>
+&lt;p>Switching to Vivaldi wasn&amp;rsquo;t difficult at all since it&amp;rsquo;s also a Chromium-based browser that can directly install extensions from the Chrome Web Store.&lt;/p>
+&lt;p>I migrated my bookmarks, installed my frequently used extensions, and most of my needs were met.&lt;/p>
+&lt;p>&lt;strong>Vivaldi&amp;rsquo;s right-click menu can be switched back to the old style, which was my initial motivation for using it.&lt;/strong>&lt;/p>
+&lt;p>Vivaldi adds many extra features on top of Chromium.
+I didn&amp;rsquo;t use them much at first, but later discovered that some features were quite useful.&lt;/p>
+&lt;p>Here are several features I use most frequently:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Sidebar Tab Management.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>When you have many tabs open, it&amp;rsquo;s hard to see their titles or find the tab you want to switch to.
+The sidebar window manager makes it convenient.
+It&amp;rsquo;s easy to switch between tabs and perform operations like deletion and moving tabs.&lt;/p>
+&lt;ol start="2">
+&lt;li>&lt;strong>Multi-page Tiling.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Sometimes you want to display two tabs in one window simultaneously, eliminating the need to switch back and forth.&lt;/p>
+&lt;ol start="3">
+&lt;li>&lt;strong>Image Loading Toggle.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Some content-heavy websites have too many images when I only need to read the text.&lt;/p>
+&lt;ol start="4">
+&lt;li>&lt;strong>Full Webpage Screenshot.&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>The built-in webpage screenshot tool is convenient to operate.&lt;/p>
+&lt;p>And more.&lt;/p>
+&lt;p>Although some Chrome extensions can achieve the above functions, Vivaldi integrates them into the browser, providing a smoother experience.&lt;/p>
+&lt;p>As for Vivaldi&amp;rsquo;s other features like the built-in email client and RSS reader, I don&amp;rsquo;t use them, so I won&amp;rsquo;t comment on those.&lt;/p></description></item><item><title>Copy Unblocker - A Userscript to Remove Website Copy Restrictions</title><link>https://www.xianmin.org/en/post/2025/userscript-copy-unblocker/</link><pubDate>Mon, 03 Feb 2025 13:36:42 +0000</pubDate><guid>https://www.xianmin.org/en/post/2025/userscript-copy-unblocker/</guid><description>&lt;p>Some websites prevent text copying. I previously used the SuperCopy Chrome extension to bypass website copy restrictions. Later, I discovered that this extension was involved in traffic hijacking behavior: &lt;a href="https://www.v2ex.com/t/1084504">Chrome Extension with 600K Users Contains Malicious Code - V2EX&lt;/a>.&lt;/p>
 &lt;p>Well, I decided to have AI help me write a script instead.&lt;/p>
 &lt;p>Project Repository: &lt;a href="https://github.com/xianmin/userscript-copy-unblocker">xianmin/userscript-copy-unblocker: Automatically removes copy restrictions&lt;/a>&lt;/p>
 &lt;h2 id="userscript-copy-unblocker">userscript-copy-unblocker&lt;/h2>
