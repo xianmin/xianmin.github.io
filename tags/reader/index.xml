@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reader on 贤民的博客</title><link>https://www.xianmin.org/tags/reader/</link><description>Recent content in Reader on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 27 Jan 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/reader/index.xml" rel="self" type="application/rss+xml"/><item><title>使用 PWA 创建跨平台应用，关联本地文件</title><link>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</link><pubDate>Sat, 27 Jan 2024 14:20:00 +0800</pubDate><guid>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</guid><description>&lt;p>「渐进式 Web 应用 (PWA) 是使用 Web 技术生成的应用程序，可以从一个代码库安装并可在所有设备上运行。」&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>PWA 技术好些年前就已经推出了，但在国内似乎一直未受到重视。
-我最早注意到这项技术，是在 Chrome 浏览器的地址栏上发现突然多了个 Install 按钮，就安装体验了一下，比如 Github 和 Twitter 。
-体验感受并不好，和 web 网页基本没差别，就是在系统桌面和任务栏多了个应用图标，还要额外打开一个窗口。
+&lt;p>PWA 技术好些年前就已经推出了，但在国内似乎一直未受到重视。&lt;br>
+我最早注意到这项技术，是在 Chrome 浏览器的地址栏上发现突然多了个 Install 按钮，就安装体验了一下，比如 Github 和 Twitter 。&lt;br>
+体验感受并不好，和 web 网页基本没差别，就是在系统桌面和任务栏多了个应用图标，还要额外打开一个窗口。&lt;br>
 包括现在，我也认为 &lt;strong>大部分网站在桌面操作系统上 PWA 化是没啥意义的&lt;/strong> 。&lt;/p></description></item><item><title>EvoReader —— 一个新的 epub 阅读器</title><link>https://www.xianmin.org/post/2024/00-evo-reader-v20240117/</link><pubDate>Wed, 17 Jan 2024 14:20:00 +0800</pubDate><guid>https://www.xianmin.org/post/2024/00-evo-reader-v20240117/</guid><description>&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
 &lt;div class="box">
 &lt;figure itemprop="associatedMedia"

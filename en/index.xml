@@ -1,21 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 13 Feb 2025 12:57:01 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Why I Choose Vivaldi as My Primary Browser</title><link>https://www.xianmin.org/en/post/2025/why-choose-vivaldi-browser-vs-chrome/</link><pubDate>Thu, 13 Feb 2025 12:57:01 +0800</pubDate><guid>https://www.xianmin.org/en/post/2025/why-choose-vivaldi-browser-vs-chrome/</guid><description>&lt;p>I used Chrome for many years. It was fast, had plenty of extensions, and made web debugging convenient - meeting all my needs.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 16 Feb 2025 02:23:22 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly: 33-years-old Unemployed Programmer's Self-rescue (1)</title><link>https://www.xianmin.org/en/post/weekly/001/</link><pubDate>Sun, 16 Feb 2025 02:23:22 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/001/</guid><description>&lt;p>Hello, I&amp;rsquo;m Xianmin, 33 years old, a programmer living in the countryside, unemployed for two years.&lt;br>
+I have a middle school education, self-taught programming, and started my career in Shenzhen.&lt;br>
+Later, I ran a youth hostel in Lijiang for 7 years, which closed due to the pandemic and other reasons.&lt;br>
+Not wanting to return to big cities, I did remote work for over a year.&lt;br>
+Two years ago, I went traveling with my girlfriend, and my programming work was interrupted again.&lt;br>
+During the travels, I helped my girlfriend with social media accounts, shooting videos, and writing content.&lt;br>
+Last year showed some improvement, but the income wasn&amp;rsquo;t enough to cover even half of one person&amp;rsquo;s expenses.&lt;br>
+The dream of being financially supported by content creation fell through.&lt;/p>
+&lt;p>This year, to solve survival problems, I must make some changes.&lt;br>
+Let&amp;rsquo;s start with this weekly journal, recording my self-rescue actions from the past week.&lt;/p>
+&lt;h2 id="how-to-save-myself">How to Save Myself&lt;/h2>
+&lt;p>Last year, I briefly tried the independent development path, creating a reader application called EvoReader.&lt;br>
+But after launch, there was little feedback, and many features weren&amp;rsquo;t completed, so I paused the project.&lt;br>
+Since I hadn&amp;rsquo;t figured out how to promote or monetize it, continuing development might only increase sunk costs.&lt;br>
+I lacked confidence in this project.&lt;br>
+Then I started learning and understanding how other independent developers do it, how they make money.&lt;br>
+The reality is much harder than I imagined, with most independent developers&amp;rsquo; works disappearing in the vast internet ocean.&lt;br>
+Even for the few that stand out, monetization is extremely difficult.&lt;br>
+Succeeding in this path requires exceptionally high comprehensive abilities, and it&amp;rsquo;s time-consuming with uncertain results.&lt;br>
+I urgently need to make money now, so this path can only be a side project in my spare time.&lt;/p>
+&lt;h2 id="ruling-out-big-city-job-search">Ruling Out Big City Job Search&lt;/h2>
+&lt;p>Having lived in rural Yunnan for many years, I&amp;rsquo;m too used to freedom and can&amp;rsquo;t return to big cities.&lt;br>
+With my resume, job hunting would be extremely challenging.&lt;/p>
+&lt;h2 id="finding-remote-work">Finding Remote Work&lt;/h2>
+&lt;p>Usually, only small startup teams might need a versatile programmer like me.&lt;br>
+This is relatively suitable but requires the right opportunity.&lt;/p>
+&lt;h2 id="freelancing">Freelancing&lt;/h2>
+&lt;p>Last year, I took some small projects on a platform, which proved to be a viable path.&lt;br>
+However, there were too few projects with low rates.&lt;br>
+I hadn&amp;rsquo;t accumulated enough experience, having had many choices before, I didn&amp;rsquo;t put much effort into freelancing.&lt;br>
+I used to avoid projects I wasn&amp;rsquo;t interested in, but now I have to change my mindset.&lt;/p>
+&lt;p>Freelancing provides simple and direct feedback - each project means income.&lt;br>
+With AI support, efficiency has greatly improved.&lt;br>
+This is my main path for short-term self-rescue.&lt;/p>
+&lt;h2 id="content-writing">Content Writing&lt;/h2>
+&lt;p>I&amp;rsquo;ve had a personal website for a long time, which helped me find jobs and meet new friends.&lt;br>
+But, well, the output was too little, update frequency too low, mainly because I was too lazy.&lt;br>
+This path serves freelancing in the short term and potential personal works in the long term.&lt;/p>
+&lt;h2 id="writing-more-utility-applications">Writing More Utility Applications&lt;/h2>
+&lt;p>I&amp;rsquo;ve now mastered an AI development process for personal use.&lt;br>
+Development efficiency skyrockets as long as I have ideas.&lt;/p>
+&lt;h2 id="this-weeks-accomplishments">This Week&amp;rsquo;s Accomplishments&lt;/h2>
+&lt;ol>
+&lt;li>Added Google Ads to my personal website. Well, although I know the revenue won&amp;rsquo;t be much, in the current situation, I have to try every direction;&lt;/li>
+&lt;li>Opened a WeChat Official Account - Cognitive Leap Plan;&lt;/li>
+&lt;li>Updated WeChat Official Account and Xiaohongshu, I must take this step, though I feel I&amp;rsquo;m a hundred steps behind others;&lt;/li>
+&lt;li>Compiled a list of remote work websites;&lt;/li>
+&lt;li>Joined 3 freelancing groups (still late to realize this);&lt;/li>
+&lt;/ol>
+&lt;h2 id="this-weeks-income">This Week&amp;rsquo;s Income&lt;/h2>
+&lt;ol>
+&lt;li>Completed 1 small project + 98 yuan;&lt;/li>
+&lt;li>Completed 1 small project + 149 yuan;&lt;/li>
+&lt;li>More small projects like these, please&amp;hellip;&lt;/li>
+&lt;/ol>
+&lt;h2 id="closing-words">Closing Words&lt;/h2>
+&lt;p>If you have any thoughts on this middle-aged unemployed programmer&amp;rsquo;s self-rescue action, please leave a comment, thank you! 🙏&lt;/p></description></item><item><title>Why I Choose Vivaldi as My Primary Browser</title><link>https://www.xianmin.org/en/post/2025/why-choose-vivaldi-browser-vs-chrome/</link><pubDate>Thu, 13 Feb 2025 12:57:01 +0800</pubDate><guid>https://www.xianmin.org/en/post/2025/why-choose-vivaldi-browser-vs-chrome/</guid><description>&lt;p>I used Chrome for many years. It was fast, had plenty of extensions, and made web debugging convenient - meeting all my needs.&lt;/p>
 &lt;p>However, one day, Chrome suddenly changed its UI style, making it uncomfortable to use.&lt;/p>
 &lt;p>The main issue was the change in the right-click menu, where menu options had larger spacing and required scrolling when there were too many options.&lt;/p>
-&lt;p>Initially, I could revert to the old UI style through &lt;code>chrome://flags/&lt;/code>, but later that option was completely removed.
+&lt;p>Initially, I could revert to the old UI style through &lt;code>chrome://flags/&lt;/code>, but later that option was completely removed.&lt;br>
 While searching online for new solutions, I came across someone mentioning Vivaldi.&lt;/p>
 &lt;p>So I decided to give it a try.&lt;/p>
 &lt;p>&lt;img alt="Vivaldi Browser" src="https://www.xianmin.org/post/2025/why-choose-vivaldi-browser-vs-chrome/vivaldi.jpg" title="Vivaldi Browser Interface">&lt;/p>
 &lt;p>Switching to Vivaldi wasn&amp;rsquo;t difficult at all since it&amp;rsquo;s also a Chromium-based browser that can directly install extensions from the Chrome Web Store.&lt;/p>
 &lt;p>I migrated my bookmarks, installed my frequently used extensions, and most of my needs were met.&lt;/p>
 &lt;p>&lt;strong>Vivaldi&amp;rsquo;s right-click menu can be switched back to the old style, which was my initial motivation for using it.&lt;/strong>&lt;/p>
-&lt;p>Vivaldi adds many extra features on top of Chromium.
+&lt;p>Vivaldi adds many extra features on top of Chromium.&lt;br>
 I didn&amp;rsquo;t use them much at first, but later discovered that some features were quite useful.&lt;/p>
 &lt;p>Here are several features I use most frequently:&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Sidebar Tab Management.&lt;/strong>&lt;/li>
 &lt;/ol>
-&lt;p>When you have many tabs open, it&amp;rsquo;s hard to see their titles or find the tab you want to switch to.
-The sidebar window manager makes it convenient.
+&lt;p>When you have many tabs open, it&amp;rsquo;s hard to see their titles or find the tab you want to switch to.&lt;br>
+The sidebar window manager makes it convenient.&lt;br>
 It&amp;rsquo;s easy to switch between tabs and perform operations like deletion and moving tabs.&lt;/p>
 &lt;ol start="2">
 &lt;li>&lt;strong>Multi-page Tiling.&lt;/strong>&lt;/li>
@@ -70,22 +126,22 @@ It&amp;rsquo;s easy to switch between tabs and perform operations like deletion 
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/WindRunnerMax/TKScript">WindRunnerMax/TKScript: Userscripts &amp;amp; Browser Extensions&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.runningcheese.com/enable-copy">3 Methods to Solve 99% of Web Page Copy Issues - Running Cheese&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Multilingual Hugo Blog - How to Elegantly Manage Markdown Content</title><link>https://www.xianmin.org/en/post/2024/hugo-multilingual-blog-structure/</link><pubDate>Tue, 05 Nov 2024 11:04:39 +0800</pubDate><guid>https://www.xianmin.org/en/post/2024/hugo-multilingual-blog-structure/</guid><description>&lt;p>This website is built with &lt;a href="https://gohugo.io/">Hugo&lt;/a> and deployed on Github.
-To publish a new article, I only need to edit the Markdown file and upload it to Github, where GitHub Actions automatically generates the webpage for me.
+&lt;/ul></description></item><item><title>Multilingual Hugo Blog - How to Elegantly Manage Markdown Content</title><link>https://www.xianmin.org/en/post/2024/hugo-multilingual-blog-structure/</link><pubDate>Tue, 05 Nov 2024 11:04:39 +0800</pubDate><guid>https://www.xianmin.org/en/post/2024/hugo-multilingual-blog-structure/</guid><description>&lt;p>This website is built with &lt;a href="https://gohugo.io/">Hugo&lt;/a> and deployed on Github.&lt;br>
+To publish a new article, I only need to edit the Markdown file and upload it to Github, where GitHub Actions automatically generates the webpage for me.&lt;br>
 The entire process is so simple that I can update blog posts even from my phone.&lt;/p>
-&lt;p>As the number of blog posts increased, managing Markdown files became a challenge.
-Previously, without good organizational habits, I placed all files directly in the &lt;code>post/&lt;/code> directory.
-Later, as files accumulated, I created subdirectories like &lt;code>post/2024/&lt;/code> within the &lt;code>post/&lt;/code> directory.
-The URL of a blog post is related to its file location. For example, a blog post at &lt;code>post/2024/example.md&lt;/code> would have the URL &lt;code>/post/2024/example/&lt;/code>.
+&lt;p>As the number of blog posts increased, managing Markdown files became a challenge.&lt;br>
+Previously, without good organizational habits, I placed all files directly in the &lt;code>post/&lt;/code> directory.&lt;br>
+Later, as files accumulated, I created subdirectories like &lt;code>post/2024/&lt;/code> within the &lt;code>post/&lt;/code> directory.&lt;br>
+The URL of a blog post is related to its file location. For example, a blog post at &lt;code>post/2024/example.md&lt;/code> would have the URL &lt;code>/post/2024/example/&lt;/code>.&lt;br>
 &lt;strong>To avoid changing the URLs of published posts&lt;/strong>, I left the old Markdown files in their original locations.&lt;/p>
 &lt;p>&lt;img alt="my blog old post structure" src="https://www.xianmin.org/image/post/2024/hugo-multilingual-blog-structure.png">&lt;/p>
 &lt;h2 id="multilingual-sites">Multilingual Sites&lt;/h2>
-&lt;p>Hugo has supported multilingual sites for many years, and I had considered creating an English version of my site, but translation was always an issue.
-With the advancement of AI in recent years, translation quality has improved significantly.
+&lt;p>Hugo has supported multilingual sites for many years, and I had considered creating an English version of my site, but translation was always an issue.&lt;br>
+With the advancement of AI in recent years, translation quality has improved significantly.&lt;br>
 Recently, I had the idea to create a multilingual site.&lt;/p>
-&lt;p>In Hugo, for multilingual sites, if you want a blog post to have multiple language versions, you typically need to create corresponding language versions of the md file.
+&lt;p>In Hugo, for multilingual sites, if you want a blog post to have multiple language versions, you typically need to create corresponding language versions of the md file.&lt;br>
 For example, the English version of &lt;code>blog.md&lt;/code> would be &lt;code>blog.en.md&lt;/code>, and other languages follow the same pattern.&lt;/p>
-&lt;p>Without a proper organization scheme, as time goes by, the number of files in the &lt;code>post/&lt;/code> directory would keep increasing, making it increasingly difficult to manage.
+&lt;p>Without a proper organization scheme, as time goes by, the number of files in the &lt;code>post/&lt;/code> directory would keep increasing, making it increasingly difficult to manage.&lt;br>
 Additionally, modifying blog post URLs would become more complicated in the future.&lt;/p>
 &lt;p>Therefore, it&amp;rsquo;s essential to address &lt;strong>how to organize files in the post/ directory&lt;/strong> early on.&lt;/p>
 &lt;h2 id="need-for-a-proper-organization-scheme">Need for a Proper Organization Scheme&lt;/h2>
@@ -134,7 +190,7 @@ summary: 本文介绍使用 Hugo 搭建多语言站点后的文件组织方案�
 ---&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;h2 id="organizing-old-markdown-files">Organizing Old Markdown Files&lt;/h2>
-&lt;p>With a proper organization scheme in place, we should reorganize existing files and place them in appropriate locations.
+&lt;p>With a proper organization scheme in place, we should reorganize existing files and place them in appropriate locations.&lt;br>
 It&amp;rsquo;s particularly important to &lt;strong>avoid URL changes&lt;/strong>. Hugo provides a &lt;code>url&lt;/code> parameter that can set URLs to fixed values.&lt;/p>
 &lt;p>Here&amp;rsquo;s my process:&lt;/p>
 &lt;p>Step 1: Delete the &lt;code>public/&lt;/code> directory, generate a new &lt;code>public/&lt;/code> based on existing blog posts, and rename it to &lt;code>public_old/&lt;/code>.&lt;/p>
