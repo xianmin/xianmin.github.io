@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 01 Mar 2025 14:41:53 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>33 岁失业农村程序员自救周记 （三）- 明确定位</title><link>https://www.xianmin.org/post/weekly/003/</link><pubDate>Sat, 01 Mar 2025 14:41:53 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/003/</guid><description>&lt;p>你好，我是贤民，33 岁，程序员，在乡下生活，失业两年。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 09 Mar 2025 05:50:37 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>33 岁失业农村程序员自救周记 （四）- AI 提效，收入 1410 元</title><link>https://www.xianmin.org/post/weekly/004/</link><pubDate>Sun, 09 Mar 2025 05:50:37 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/004/</guid><description>&lt;p>你好，我是贤民，程序员，你身边的技术管家。&lt;br>
+在乡下生活，失业两年，自谋生路，这里是我的自救周记。&lt;/p>
+&lt;h2 id="本周自救行动">本周自救行动&lt;/h2>
+&lt;p>说说几个有意思的单子：&lt;/p>
+&lt;h3 id="企业表格自动化处理">企业表格自动化处理&lt;/h3>
+&lt;p>根据表格的内容，提取信息，下载附件到指定位置，压缩，更新表格。&lt;/p>
+&lt;p>用的是 Node.js &amp;amp; TypeScript 。&lt;br>
+前几年写 ts ，最麻烦的就是标注类型，&lt;br>
+有了 AI 之后，写 ts 的效率提高了太多。&lt;br>
+用 ts 写出的程序，更健壮，也更容易维护。&lt;/p>
+&lt;p>从我的经验而言，AI 依然是一个助手的角色，我必须知道它每一步都做了什么，才不会被它带偏方向。&lt;/p>
+&lt;h3 id="automa-自动化脚本">Automa 自动化脚本&lt;/h3>
+&lt;p>这是一个老客户的需求，自动给招聘网站投简历。&lt;/p>
+&lt;p>这个需求还是挺耗费时间的，因为 AI 帮不上忙，都得手动定位和调试。&lt;/p>
+&lt;p>自动化脚本，这块儿市场需求还是挺多的，每个人的操作流程不同，需要不一样的定制方案。&lt;br>
+以后或许可以多接一些这类单子。&lt;/p>
+&lt;p>对于一些重复性操作，都应该让机器帮我们自动完成。&lt;/p>
+&lt;h3 id="vue-改-react">Vue 改 React&lt;/h3>
+&lt;p>这又是一个需要知道 AI 做了什么的例子。&lt;/p>
+&lt;p>客户会用 AI 帮忙转换，但他不理解 React 的代码，运行不了，他就没招了。&lt;/p>
+&lt;p>有人说， AI 取代程序员，目前看来，完全取代还做不到。&lt;br>
+但是五天的工作量，压缩到一天完成，或者原本需要五个人做的事情，现在也许只需要一个人就能做了。&lt;/p>
+&lt;p>对于我这种靠接单吃饭的程序员是有好处的。&lt;br>
+以前，一个单子，如果是两天的活儿，报价 1000 ，客户会嫌贵，不做了。&lt;br>
+这种单子没法成交，一方面程序员要耗费时间，另一方面，客户那边预算不够。&lt;br>
+但现在只需要两小时，报价 200 ，客户可以接受了。&lt;br>
+所以，在我看来， &lt;strong>我们可接单的范围是更广阔了。&lt;/strong>&lt;br>
+但从找工作的角度，也许岗位更少了，甚至要求也更高了。&lt;/p>
+&lt;h3 id="基于-wangeditor-的二次开发">基于 WangEditor 的二次开发&lt;/h3>
+&lt;p>这是一个失败案例。&lt;/p>
+&lt;p>客户一开始说的是，改两个 BUG 。&lt;br>
+接了单以后，才发现是一个实验项目，主要是针对 WangEditor ，一个富文本编辑器的二次开发。&lt;/p>
+&lt;p>需求表面上看并不复杂，但实际操作，要深入到 WangEditor 的源码。&lt;br>
+研究了两个小时的源码，跟客户说，要耗费更多的时间。&lt;br>
+然后才知道，客户是中介，他把单子转交给我做。&lt;br>
+唉，这种不能直接面对客户，交流就比较费劲，最后只能退款了。&lt;/p>
+&lt;h2 id="本周收入">本周收入&lt;/h2>
+&lt;p>成交 8 笔单子，合计 1410 元。&lt;br>
+其中有 2 笔，是老客户。&lt;br>
+感谢所有支持我的老板！&lt;/p>
+&lt;p>&lt;strong>为什么很多人在失业之后，会遇到困境？ 一大原因是没有自己的客户资源。&lt;/strong>&lt;br>
+我以前做青旅的时候，年营业额差不多有近三成是老顾客贡献的。&lt;br>
+但后面转型做回程序员，青旅的客户资源基本就用不上了，只能重新开始。&lt;/p>
+&lt;p>&lt;strong>客户是需要积累的，信任也需要时间和合作案例去加深。&lt;/strong>&lt;/p>
+&lt;p>目前老客户并不多，我也还是在模仿学习，比如把客户的联系方式加上，以后对方再有需求的时候，可能会直接想到我。&lt;/p>
+&lt;h2 id="结束语">结束语&lt;/h2>
+&lt;p>如果你在生活中，遇到任何计算机相关的技术问题，欢迎扫描下方二维码，免费咨询。&lt;/p>
+&lt;p>&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg">&lt;/p></description></item><item><title>33 岁失业农村程序员自救周记 （三）- 明确定位</title><link>https://www.xianmin.org/post/weekly/003/</link><pubDate>Sat, 01 Mar 2025 14:41:53 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/003/</guid><description>&lt;p>你好，我是贤民，33 岁，程序员，在乡下生活，失业两年。&lt;/p>
 &lt;p>这周收入破千，算是完成了阶段性的目标。&lt;/p>
 &lt;h2 id="本周自救行动">本周自救行动&lt;/h2>
 &lt;p>这周的前四天，一直在忙碌。&lt;br>
@@ -1152,55 +1199,4 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;td style="text-align: left">&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>小技巧 debug 网页 css overflow ，避免出现底部滚动条</title><link>https://www.xianmin.org/post/2022/05-debug-css-x-overflow/</link><pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/05-debug-css-x-overflow/</guid><description>&lt;p>一般而言，绝大多数网页都是纵向滚动的，很少有横向滚动的网页。如果一个正常纵向滚动的网页，在浏览器的底部出现了滚动条，是因为这个网页的宽度超出了屏幕宽度。这种情况很多时候并非网站设计者的初衷，而是由于写错了 css 样式。&lt;/p>
-&lt;p>&lt;a href="https://qa.mathcrowd.cn/challenges">趣味数学题 - 橘子数学社区 - 趣题挑战&lt;/a> 原本有这个问题，之后被我解决了。一开始的解决方法比较笨，就是用 Chrome 的开发者工具，一个一个检查元素，看看是哪个元素溢出了。&lt;/p>
-&lt;p>最近我偶然发现了两个网站有类似的溢出问题：&lt;/p>
-&lt;ul>
-&lt;li>比如有名的知乎： &lt;a href="https://www.zhihu.com/column/mathcrowd">数学趣题专栏 - 知乎&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://opencollective.com/">Raise and spend money with full transparency. - Open Collective&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
-&lt;div class="box">
-&lt;figure itemprop="associatedMedia"
-itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img">
-&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/zhihu-overflow.png" />
-&lt;/div>
-&lt;a href="https://www.xianmin.org/image/other/zhihu-overflow.png" itemprop="contentUrl">&lt;/a>
-&lt;figcaption>&lt;h4>知乎专栏网页溢出&lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/div>
-&lt;p>这就引起了我的好奇，有没有更便捷的技巧 debug 网页的横向溢出呢？答案是有的。使用开发者工具，给网站添加以下样式：&lt;/p>
-&lt;div class="highlight-container">
-&lt;button class="copy-code-btn outline">Copy&lt;/button>
-&lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2">2&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3">3&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#666">*&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#007020;font-weight:bold">outline&lt;/span>: &lt;span style="color:#40a070">1&lt;/span>&lt;span style="color:#902000">px&lt;/span> &lt;span style="color:#007020;font-weight:bold">solid&lt;/span> &lt;span style="color:#007020;font-weight:bold">red&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>这不会影响网页原本的布局，同时还会给所有元素加上边框，这样我们就很容易发现是哪个地方有溢出了。利用这个小技巧，我们也可以更直观的观察一个网站的布局是怎样的。&lt;/strong>&lt;/p>
-&lt;h2 id="使用-bookmarklet">使用 bookmarklet&lt;/h2>
-&lt;p>我将这一小段 css 代码改成了 bookmarklet ：
-&lt;a href="javascript:(function()%7Bjavascript%3A(function()%7Bvar%20css%3D'*%20%7Boutline%3A%201px%20solid%20red%3B%7D'%3Bvar%20heads%3Ddocument.getElementsByTagName('head')%3Bif(heads.length%3E0)%7Bvar%20node%3Ddocument.createElement('style')%3Bnode.type%3D'text%2Fcss'%3Bnode.appendChild(document.createTextNode(css))%3Bheads%5B0%5D.appendChild(node)%3B%7D%7D)()%3B%7D)()%3B">显示元素边框&lt;/a> 。
-&lt;/p>
-&lt;p>这样只要点击书签就能直接生效了。&lt;/p>
-&lt;h2 id="常见的会造成-x-overflow-的原因">常见的会造成 x-overflow 的原因：&lt;/h2>
-&lt;ol>
-&lt;li>使用了 &lt;code>width: 100vw;&lt;/code> ;&lt;/li>
-&lt;li>grid 或 flex 使用了间隙或边框；&lt;/li>
-&lt;li>多余的 margin ；&lt;/li>
-&lt;li>图片宽度超出父容器的宽度；&lt;/li>
-&lt;/ol>
-&lt;h2 id="参考链接">参考链接&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.logrocket.com/how-to-prevent-overflow-scrolling-css/">How to prevent overflow scrolling in CSS - LogRocket Blog&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/table></description></item></channel></rss>

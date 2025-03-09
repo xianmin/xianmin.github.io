@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Le Blog de Xianmin</title><link>https://www.xianmin.org/fr/</link><description>Recent content on Le Blog de Xianmin</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Sun, 23 Feb 2025 00:31:09 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/fr/index.xml" rel="self" type="application/rss+xml"/><item><title>Hebdomadaire : L'auto-sauvetage d'un programmeur sans emploi de 33 ans (2) - Rédaction d'articles académiques</title><link>https://www.xianmin.org/fr/post/weekly/002/</link><pubDate>Sun, 23 Feb 2025 00:31:09 +0000</pubDate><guid>https://www.xianmin.org/fr/post/weekly/002/</guid><description>&lt;p>Bonjour, je suis Xianmin, 33 ans, un programmeur vivant à la campagne, sans emploi depuis deux ans.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Le Blog de Xianmin</title><link>https://www.xianmin.org/fr/</link><description>Recent content on Le Blog de Xianmin</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Sun, 09 Mar 2025 05:50:37 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/fr/index.xml" rel="self" type="application/rss+xml"/><item><title>Journal hebdomadaire du parcours d'auto-assistance d'un programmeur rural au chômage de 33 ans (4) - Efficacité de l'IA, Revenu ¥1410</title><link>https://www.xianmin.org/fr/post/weekly/004/</link><pubDate>Sun, 09 Mar 2025 05:50:37 +0000</pubDate><guid>https://www.xianmin.org/fr/post/weekly/004/</guid><description>&lt;p>Bonjour, je suis Xianmin, programmeur et votre majordome technique.&lt;br>
+Vivant à la campagne, au chômage depuis deux ans, je trace ma propre voie - voici mon journal hebdomadaire d&amp;rsquo;auto-assistance.&lt;/p>
+&lt;h2 id="actions-dauto-assistance-de-cette-semaine">Actions d&amp;rsquo;auto-assistance de cette semaine&lt;/h2>
+&lt;p>Permettez-moi de partager quelques projets intéressants :&lt;/p>
+&lt;h3 id="automatisation-des-feuilles-de-calcul-dentreprise">Automatisation des feuilles de calcul d&amp;rsquo;entreprise&lt;/h3>
+&lt;p>Extraction d&amp;rsquo;informations des feuilles de calcul, téléchargement de pièces jointes vers des emplacements spécifiés, compression et mise à jour des feuilles de calcul.&lt;/p>
+&lt;p>Utilisation de Node.js &amp;amp; TypeScript.&lt;br>
+Les années précédentes, l&amp;rsquo;annotation des types était la partie la plus fastidieuse de l&amp;rsquo;écriture en TypeScript.&lt;br>
+Avec l&amp;rsquo;IA, l&amp;rsquo;efficacité de l&amp;rsquo;écriture en TypeScript s&amp;rsquo;est considérablement améliorée.&lt;br>
+Les programmes écrits en TypeScript sont plus robustes et plus faciles à maintenir.&lt;/p>
+&lt;p>D&amp;rsquo;après mon expérience, l&amp;rsquo;IA reste dans un rôle d&amp;rsquo;assistant - je dois comprendre chaque étape qu&amp;rsquo;elle entreprend pour éviter d&amp;rsquo;être induit en erreur.&lt;/p>
+&lt;h3 id="script-dautomatisation-automa">Script d&amp;rsquo;automatisation Automa&lt;/h3>
+&lt;p>C&amp;rsquo;était une exigence d&amp;rsquo;un client fidèle - automatiser la soumission de CV sur les sites de recrutement.&lt;/p>
+&lt;p>Cette tâche était assez chronophage car l&amp;rsquo;IA ne pouvait pas beaucoup aider ; tout devait être localisé et débogué manuellement.&lt;/p>
+&lt;p>Il existe une forte demande du marché pour les scripts d&amp;rsquo;automatisation, car chaque personne a des processus opérationnels différents nécessitant des solutions personnalisées.&lt;br>
+Je pourrais accepter plus de ce type de commandes à l&amp;rsquo;avenir.&lt;/p>
+&lt;p>Pour les opérations répétitives, nous devrions laisser les machines nous aider à les compléter automatiquement.&lt;/p>
+&lt;h3 id="conversion-de-vue-vers-react">Conversion de Vue vers React&lt;/h3>
+&lt;p>C&amp;rsquo;est un autre exemple où comprendre les actions de l&amp;rsquo;IA est crucial.&lt;/p>
+&lt;p>Les clients utilisent l&amp;rsquo;IA pour la conversion, mais quand ils ne comprennent pas le code React et ne peuvent pas le faire fonctionner, ils sont bloqués.&lt;/p>
+&lt;p>Certains disent que l&amp;rsquo;IA remplacera les programmeurs, mais de ce que nous voyons maintenant, un remplacement complet n&amp;rsquo;est pas possible.&lt;br>
+Cependant, elle peut compresser cinq jours de travail en une journée, ou peut-être que ce qui nécessitait auparavant cinq personnes peut maintenant être fait par une seule personne.&lt;/p>
+&lt;p>Cela profite aux programmeurs freelance comme moi.&lt;br>
+Auparavant, un travail de deux jours facturé ¥1000 aurait été rejeté par les clients comme trop cher.&lt;br>
+Ces commandes ne pouvaient pas être conclues - les programmeurs avaient besoin de temps, tandis que les clients avaient des budgets insuffisants.&lt;br>
+Mais maintenant, cela ne prend que deux heures, facturé ¥200, ce que les clients peuvent accepter.&lt;br>
+Donc, à mon avis, &lt;strong>notre marché potentiel pour les commandes s&amp;rsquo;est élargi.&lt;/strong>&lt;br>
+Cependant, du point de vue de l&amp;rsquo;emploi, il pourrait y avoir moins de postes, et même des exigences plus élevées.&lt;/p>
+&lt;h3 id="développement-secondaire-basé-sur-wangeditor">Développement secondaire basé sur WangEditor&lt;/h3>
+&lt;p>C&amp;rsquo;est un cas d&amp;rsquo;échec.&lt;/p>
+&lt;p>Le client avait initialement dit qu&amp;rsquo;il s&amp;rsquo;agissait de corriger deux bugs.&lt;br>
+Après avoir accepté la commande, j&amp;rsquo;ai découvert que c&amp;rsquo;était un projet expérimental, principalement axé sur le développement secondaire de WangEditor, un éditeur de texte enrichi.&lt;/p>
+&lt;p>Les exigences semblaient simples en surface, mais en pratique, cela nécessitait de plonger profondément dans le code source de WangEditor.&lt;br>
+Après avoir passé deux heures à étudier le code source, j&amp;rsquo;ai dit au client que cela prendrait beaucoup plus de temps.&lt;br>
+J&amp;rsquo;ai alors appris que le client était un intermédiaire qui m&amp;rsquo;avait transféré la commande.&lt;br>
+Hélas, quand on ne peut pas communiquer directement avec le client final, la communication devient difficile, et j&amp;rsquo;ai finalement dû rembourser.&lt;/p>
+&lt;h2 id="revenus-de-cette-semaine">Revenus de cette semaine&lt;/h2>
+&lt;p>Achèvement de 8 commandes, totalisant ¥1410.&lt;br>
+Deux d&amp;rsquo;entre elles provenaient de clients réguliers.&lt;br>
+Merci à tous les patrons qui m&amp;rsquo;ont soutenu !&lt;/p>
+&lt;p>&lt;strong>Pourquoi beaucoup de gens rencontrent-ils des difficultés après le chômage ? Une raison majeure est le manque de leurs propres ressources clients.&lt;/strong>&lt;br>
+Lorsque je gérais précédemment une auberge de jeunesse, près de 30% du chiffre d&amp;rsquo;affaires annuel provenait de clients réguliers.&lt;br>
+Mais après être revenu à la programmation, les ressources clients de l&amp;rsquo;auberge sont devenues majoritairement inutilisables, et j&amp;rsquo;ai dû recommencer à zéro.&lt;/p>
+&lt;p>&lt;strong>Les relations clients doivent être accumulées, et la confiance nécessite du temps et des cas de collaboration pour s&amp;rsquo;approfondir.&lt;/strong>&lt;/p>
+&lt;p>Actuellement, je n&amp;rsquo;ai pas beaucoup de clients réguliers, et j&amp;rsquo;apprends encore et j&amp;rsquo;imite - par exemple, en ajoutant les coordonnées des clients pour qu&amp;rsquo;ils puissent penser à moi lorsqu&amp;rsquo;ils auront des besoins futurs.&lt;/p>
+&lt;h2 id="mot-de-la-fin">Mot de la fin&lt;/h2>
+&lt;p>Si vous rencontrez des problèmes techniques liés à l&amp;rsquo;informatique dans votre vie, n&amp;rsquo;hésitez pas à scanner le QR code ci-dessous pour une consultation gratuite.&lt;/p>
+&lt;p>&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg">&lt;/p></description></item><item><title>Hebdomadaire : L'auto-sauvetage d'un programmeur sans emploi de 33 ans (2) - Rédaction d'articles académiques</title><link>https://www.xianmin.org/fr/post/weekly/002/</link><pubDate>Sun, 23 Feb 2025 00:31:09 +0000</pubDate><guid>https://www.xianmin.org/fr/post/weekly/002/</guid><description>&lt;p>Bonjour, je suis Xianmin, 33 ans, un programmeur vivant à la campagne, sans emploi depuis deux ans.&lt;/p>
 &lt;h2 id="actions-dauto-assistance-de-cette-semaine">Actions d&amp;rsquo;auto-assistance de cette semaine&lt;/h2>
 &lt;p>Le week-end dernier, j&amp;rsquo;ai accepté un travail de rédaction d&amp;rsquo;un article académique sur l&amp;rsquo;apprentissage automatique.&lt;br>
 Je ne connais pas grand-chose à l&amp;rsquo;apprentissage automatique, mais je peux écrire un peu de Python.&lt;br>

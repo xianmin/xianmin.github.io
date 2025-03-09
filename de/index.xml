@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmins Blog</title><link>https://www.xianmin.org/de/</link><description>Recent content on Xianmins Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Sun, 23 Feb 2025 00:31:09 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/de/index.xml" rel="self" type="application/rss+xml"/><item><title>Wöchentlich: Selbstrettung eines 33-jährigen arbeitslosen Programmierers (2) - Wissenschaftliche Artikel schreiben</title><link>https://www.xianmin.org/de/post/weekly/002/</link><pubDate>Sun, 23 Feb 2025 00:31:09 +0000</pubDate><guid>https://www.xianmin.org/de/post/weekly/002/</guid><description>&lt;p>Hallo, ich bin Xianmin, 33 Jahre alt, ein Programmierer, der auf dem Land lebt und seit zwei Jahren arbeitslos ist.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmins Blog</title><link>https://www.xianmin.org/de/</link><description>Recent content on Xianmins Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>de</language><lastBuildDate>Sun, 09 Mar 2025 05:50:37 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/de/index.xml" rel="self" type="application/rss+xml"/><item><title>Wochenbericht eines 33-jährigen arbeitslosen Programmierers vom Land auf dem Weg zur Selbsthilfe (4) - KI-Effizienz, Einkommen ¥1410</title><link>https://www.xianmin.org/de/post/weekly/004/</link><pubDate>Sun, 09 Mar 2025 05:50:37 +0000</pubDate><guid>https://www.xianmin.org/de/post/weekly/004/</guid><description>&lt;p>Hallo, ich bin Xianmin, Programmierer und Ihr technischer Butler.&lt;br>
+Ich lebe auf dem Land, bin seit zwei Jahren arbeitslos und gehe meinen eigenen Weg - hier ist mein wöchentlicher Selbsthilfe-Bericht.&lt;/p>
+&lt;h2 id="selbsthilfe-aktionen-dieser-woche">Selbsthilfe-Aktionen dieser Woche&lt;/h2>
+&lt;p>Lassen Sie mich einige interessante Projekte teilen:&lt;/p>
+&lt;h3 id="unternehmens-tabellenautomatisierung">Unternehmens-Tabellenautomatisierung&lt;/h3>
+&lt;p>Extraktion von Informationen aus Tabellen, Herunterladen von Anhängen an bestimmte Orte, Komprimierung und Aktualisierung von Tabellen.&lt;/p>
+&lt;p>Verwendung von Node.js &amp;amp; TypeScript.&lt;br>
+In den vergangenen Jahren war die Typ-Annotation der mühsamste Teil beim Schreiben von TypeScript.&lt;br>
+Mit KI hat sich die Effizienz beim Schreiben von TypeScript enorm verbessert.&lt;br>
+In TypeScript geschriebene Programme sind robuster und einfacher zu warten.&lt;/p>
+&lt;p>Aus meiner Erfahrung bleibt KI in einer Assistentenrolle - ich muss jeden Schritt verstehen, den sie macht, um nicht in die falsche Richtung geführt zu werden.&lt;/p>
+&lt;h3 id="automa-automatisierungsskript">Automa Automatisierungsskript&lt;/h3>
+&lt;p>Dies war eine Anforderung eines wiederkehrenden Kunden - Automatisierung von Lebenslauf-Einreichungen auf Rekrutierungswebseiten.&lt;/p>
+&lt;p>Diese Aufgabe war recht zeitaufwendig, da KI nicht viel helfen konnte; alles musste manuell lokalisiert und debuggt werden.&lt;/p>
+&lt;p>Es gibt eine ziemliche Marktnachfrage nach Automatisierungsskripten, da jede Person unterschiedliche Betriebsabläufe hat, die maßgeschneiderte Lösungen erfordern.&lt;br>
+Ich könnte in Zukunft mehr solcher Aufträge annehmen.&lt;/p>
+&lt;p>Bei sich wiederholenden Operationen sollten wir Maschinen helfen lassen, diese automatisch auszuführen.&lt;/p>
+&lt;h3 id="vue-zu-react-konvertierung">Vue zu React Konvertierung&lt;/h3>
+&lt;p>Dies ist ein weiteres Beispiel, wo das Verständnis der KI-Aktionen entscheidend ist.&lt;/p>
+&lt;p>Kunden nutzen KI für die Konvertierung, aber wenn sie den React-Code nicht verstehen und ihn nicht zum Laufen bringen können, stecken sie fest.&lt;/p>
+&lt;p>Einige sagen, KI wird Programmierer ersetzen, aber nach dem, was wir jetzt sehen, ist ein vollständiger Ersatz nicht möglich.&lt;br>
+Allerdings kann sie fünf Tage Arbeit auf einen Tag komprimieren, oder vielleicht kann das, was früher fünf Personen erforderte, jetzt von einer Person erledigt werden.&lt;/p>
+&lt;p>Das kommt freiberuflichen Programmierern wie mir zugute.&lt;br>
+Früher wäre ein zweitägiger Job für ¥1000 von Kunden als zu teuer abgelehnt worden.&lt;br>
+Solche Aufträge konnten nicht abgeschlossen werden - Programmierer brauchten Zeit, während Kunden unzureichende Budgets hatten.&lt;br>
+Aber jetzt dauert es nur zwei Stunden, kostet ¥200, was Kunden akzeptieren können.&lt;br>
+Also, meiner Meinung nach, &lt;strong>hat sich unser potenzieller Markt für Aufträge erweitert.&lt;/strong>&lt;br>
+Allerdings könnte es aus Beschäftigungsperspektive weniger Positionen geben, und sogar höhere Anforderungen.&lt;/p>
+&lt;h3 id="wangeditor-basierte-sekundärentwicklung">WangEditor-basierte Sekundärentwicklung&lt;/h3>
+&lt;p>Dies ist ein gescheiterter Fall.&lt;/p>
+&lt;p>Der Kunde sagte zunächst, es ginge um die Behebung von zwei Bugs.&lt;br>
+Nach Annahme des Auftrags stellte ich fest, dass es sich um ein experimentelles Projekt handelte, hauptsächlich fokussiert auf die Sekundärentwicklung von WangEditor, einem Rich-Text-Editor.&lt;/p>
+&lt;p>Die Anforderungen schienen oberflächlich einfach, aber in der Praxis erforderte es ein tiefes Eintauchen in den Quellcode von WangEditor.&lt;br>
+Nach zwei Stunden Studium des Quellcodes teilte ich dem Kunden mit, dass es viel mehr Zeit in Anspruch nehmen würde.&lt;br>
+Dann erfuhr ich, dass der Kunde ein Vermittler war, der den Auftrag an mich weitergegeben hatte.&lt;br>
+Seufz, wenn man nicht direkt mit dem Endkunden kommunizieren kann, wird die Kommunikation schwierig, und ich musste schließlich zurückerstatten.&lt;/p>
+&lt;h2 id="einkommen-dieser-woche">Einkommen dieser Woche&lt;/h2>
+&lt;p>8 Aufträge abgeschlossen, insgesamt ¥1410.&lt;br>
+Zwei davon waren von wiederkehrenden Kunden.&lt;br>
+Danke an alle Chefs, die mich unterstützt haben!&lt;/p>
+&lt;p>&lt;strong>Warum haben viele Menschen nach der Arbeitslosigkeit Schwierigkeiten? Ein Hauptgrund ist der Mangel an eigenen Kundenressourcen.&lt;/strong>&lt;br>
+Als ich früher ein Jugendhotel betrieb, kamen fast 30% des Jahresumsatzes von Stammkunden.&lt;br>
+Aber nach dem Übergang zurück zur Programmierung wurden die Hostel-Kundenressourcen größtenteils unbrauchbar, und ich musste von vorne anfangen.&lt;/p>
+&lt;p>&lt;strong>Kundenbeziehungen müssen aufgebaut werden, und Vertrauen braucht Zeit und gemeinsame Fälle zum Vertiefen.&lt;/strong>&lt;/p>
+&lt;p>Derzeit habe ich nicht viele Stammkunden und lerne noch und imitiere - zum Beispiel füge ich Kundenkontaktinformationen hinzu, damit sie bei zukünftigen Bedürfnissen an mich denken könnten.&lt;/p>
+&lt;h2 id="schlusswort">Schlusswort&lt;/h2>
+&lt;p>Wenn Sie im Leben auf computerbezogene technische Probleme stoßen, scannen Sie gerne den QR-Code unten für eine kostenlose Beratung.&lt;/p>
+&lt;p>&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg">&lt;/p></description></item><item><title>Wöchentlich: Selbstrettung eines 33-jährigen arbeitslosen Programmierers (2) - Wissenschaftliche Artikel schreiben</title><link>https://www.xianmin.org/de/post/weekly/002/</link><pubDate>Sun, 23 Feb 2025 00:31:09 +0000</pubDate><guid>https://www.xianmin.org/de/post/weekly/002/</guid><description>&lt;p>Hallo, ich bin Xianmin, 33 Jahre alt, ein Programmierer, der auf dem Land lebt und seit zwei Jahren arbeitslos ist.&lt;/p>
 &lt;h2 id="selbsthilfe-aktionen-dieser-woche">Selbsthilfe-Aktionen dieser Woche&lt;/h2>
 &lt;p>Letztes Wochenende übernahm ich einen Schreibauftrag für einen wissenschaftlichen Artikel über maschinelles Lernen.&lt;br>
 Ich weiß nicht viel über maschinelles Lernen, aber ich kann etwas Python programmieren.&lt;br>

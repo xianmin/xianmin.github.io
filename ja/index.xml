@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianminのブログ</title><link>https://www.xianmin.org/ja/</link><description>Recent content on Xianminのブログ</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 23 Feb 2025 00:31:09 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/ja/index.xml" rel="self" type="application/rss+xml"/><item><title>週刊：33歳の失業プログラマーの自己救済（2）- 学術論文の執筆</title><link>https://www.xianmin.org/ja/post/weekly/002/</link><pubDate>Sun, 23 Feb 2025 00:31:09 +0000</pubDate><guid>https://www.xianmin.org/ja/post/weekly/002/</guid><description>&lt;p>こんにちは、私は賢民です。33歳で、田舎に住むプログラマーで、2年間失業中です。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianminのブログ</title><link>https://www.xianmin.org/ja/</link><description>Recent content on Xianminのブログ</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 09 Mar 2025 05:50:37 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/ja/index.xml" rel="self" type="application/rss+xml"/><item><title>33歳の失業中の田舎プログラマーの自立への道（4）- AI効率、収入¥1410</title><link>https://www.xianmin.org/ja/post/weekly/004/</link><pubDate>Sun, 09 Mar 2025 05:50:37 +0000</pubDate><guid>https://www.xianmin.org/ja/post/weekly/004/</guid><description>&lt;p>こんにちは、プログラマーで技術執事の咸民です。&lt;br>
+田舎に住み、2年間失業中、自分の道を切り開いている - これが私の週刊自立日記です。&lt;/p>
+&lt;h2 id="今週の自立アクション">今週の自立アクション&lt;/h2>
+&lt;p>いくつかの興味深いプロジェクトを共有させていただきます：&lt;/p>
+&lt;h3 id="企業の表計算自動化">企業の表計算自動化&lt;/h3>
+&lt;p>表計算からの情報抽出、添付ファイルの指定場所へのダウンロード、圧縮、表の更新。&lt;/p>
+&lt;p>Node.jsとTypeScriptを使用。&lt;br>
+以前は、TypeScriptを書く際に型アノテーションが最も面倒な部分でした。&lt;br>
+AIにより、TypeScriptを書く効率が大幅に向上しました。&lt;br>
+TypeScriptで書かれたプログラムは、より堅牢でメンテナンスが容易です。&lt;/p>
+&lt;p>経験上、AIはアシスタントの役割に留まっています - 道を誤らないよう、私はAIの各ステップを理解する必要があります。&lt;/p>
+&lt;h3 id="automaの自動化スクリプト">Automaの自動化スクリプト&lt;/h3>
+&lt;p>これは、リピートクライアントからの要件で - 求人サイトへの履歴書の自動提出です。&lt;/p>
+&lt;p>このタスクは、AIがあまり役に立たなかったため、かなり時間がかかりました。すべて手動で場所を特定してデバッグする必要がありました。&lt;/p>
+&lt;p>自動化スクリプトには相当な市場需要があります。それぞれの人が異なる操作プロセスを持っており、カスタマイズされたソリューションが必要だからです。&lt;br>
+今後、このような注文をもっと受けるかもしれません。&lt;/p>
+&lt;p>繰り返しの操作は、機械に自動的に完了させるべきです。&lt;/p>
+&lt;h3 id="vueからreactへの変換">VueからReactへの変換&lt;/h3>
+&lt;p>これも、AIの動作を理解することが重要な例です。&lt;/p>
+&lt;p>クライアントは変換にAIを使用しますが、Reactコードを理解できず、実行できない場合、行き詰まってしまいます。&lt;/p>
+&lt;p>AIがプログラマーを置き換えると言う人もいますが、現状では完全な置き換えは不可能です。&lt;br>
+ただし、5日分の作業を1日に圧縮したり、以前は5人必要だった作業を1人で行えるようになったりする可能性はあります。&lt;/p>
+&lt;p>これは私のようなフリーランスプログラマーにとって有益です。&lt;br>
+以前は、¥1000の2日間の仕事は、クライアントにとって高すぎると拒否されていました。&lt;br>
+そのような注文は成立しませんでした - プログラマーには時間が必要で、クライアントには十分な予算がありませんでした。&lt;br>
+しかし今では2時間しかかからず、¥200の価格でクライアントが受け入れられます。&lt;br>
+そのため、私の見解では、&lt;strong>注文の潜在的な市場が広がりました。&lt;/strong>&lt;br>
+ただし、雇用の観点からは、ポジションが少なくなり、要件も高くなるかもしれません。&lt;/p>
+&lt;h3 id="wangeditorベースの二次開発">WangEditorベースの二次開発&lt;/h3>
+&lt;p>これは失敗例です。&lt;/p>
+&lt;p>クライアントは最初、2つのバグ修正だと言いました。&lt;br>
+注文を受けた後、これがWangEditor（リッチテキストエディタ）の二次開発に焦点を当てた実験的なプロジェクトだとわかりました。&lt;/p>
+&lt;p>要件は表面上シンプルに見えましたが、実際にはWangEditorのソースコードを深く掘り下げる必要がありました。&lt;br>
+ソースコードを2時間勉強した後、クライアントにもっと時間がかかると伝えました。&lt;br>
+その後、クライアントが仲介者で、注文を私に転送したことがわかりました。&lt;br>
+はぁ、エンドクライアントと直接コミュニケーションが取れない場合、意思疎通が困難になり、最終的に返金せざるを得ませんでした。&lt;/p>
+&lt;h2 id="今週の収入">今週の収入&lt;/h2>
+&lt;p>8件の注文を完了し、合計¥1410。&lt;br>
+そのうち2件はリピートクライアントからでした。&lt;br>
+サポートしてくださったすべての社長様に感謝します！&lt;/p>
+&lt;p>&lt;strong>なぜ多くの人が失業後に困難に直面するのでしょうか？主な理由は、独自のクライアントリソースがないことです。&lt;/strong>&lt;br>
+以前、ユースホステルを経営していた時は、年間売上の約30%がリピーターからでした。&lt;br>
+しかし、プログラミングに戻った後、ホステルのクライアントリソースはほとんど使えなくなり、一からやり直す必要がありました。&lt;/p>
+&lt;p>&lt;strong>クライアントとの関係は蓄積が必要で、信頼を深めるには時間と協力案件が必要です。&lt;/strong>&lt;/p>
+&lt;p>現在、私にはリピートクライアントが多くなく、まだ学習と模倣の段階です - 例えば、将来ニーズが発生した時に私のことを思い出してもらえるよう、クライアントの連絡先情報を追加するなどしています。&lt;/p>
+&lt;h2 id="おわりに">おわりに&lt;/h2>
+&lt;p>コンピュータ関連の技術的な問題がありましたら、以下のQRコードをスキャンして無料相談をお気軽にご利用ください。&lt;/p>
+&lt;p>&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg">&lt;/p></description></item><item><title>週刊：33歳の失業プログラマーの自己救済（2）- 学術論文の執筆</title><link>https://www.xianmin.org/ja/post/weekly/002/</link><pubDate>Sun, 23 Feb 2025 00:31:09 +0000</pubDate><guid>https://www.xianmin.org/ja/post/weekly/002/</guid><description>&lt;p>こんにちは、私は賢民です。33歳で、田舎に住むプログラマーで、2年間失業中です。&lt;/p>
 &lt;h2 id="今週の自助努力">今週の自助努力&lt;/h2>
 &lt;p>先週末、機械学習に関する学術論文の執筆の仕事を引き受けました。&lt;br>
 機械学習についてはあまり詳しくありませんが、Pythonは少し書けます。&lt;br>

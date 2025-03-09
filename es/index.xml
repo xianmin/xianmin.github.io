@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>El Blog de Xianmin</title><link>https://www.xianmin.org/es/</link><description>Recent content on El Blog de Xianmin</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sun, 23 Feb 2025 00:31:09 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/es/index.xml" rel="self" type="application/rss+xml"/><item><title>Semanal: Autosalvación de un programador desempleado de 33 años (2) - Escribiendo artículos académicos</title><link>https://www.xianmin.org/es/post/weekly/002/</link><pubDate>Sun, 23 Feb 2025 00:31:09 +0000</pubDate><guid>https://www.xianmin.org/es/post/weekly/002/</guid><description>&lt;p>Hola, soy Xianmin, tengo 33 años, soy un programador que vive en el campo, desempleado desde hace dos años.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>El Blog de Xianmin</title><link>https://www.xianmin.org/es/</link><description>Recent content on El Blog de Xianmin</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sun, 09 Mar 2025 05:50:37 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/es/index.xml" rel="self" type="application/rss+xml"/><item><title>Diario Semanal del Viaje de Autoayuda de un Programador Rural Desempleado de 33 Años (4) - Eficiencia de IA, Ingresos ¥1410</title><link>https://www.xianmin.org/es/post/weekly/004/</link><pubDate>Sun, 09 Mar 2025 05:50:37 +0000</pubDate><guid>https://www.xianmin.org/es/post/weekly/004/</guid><description>&lt;p>Hola, soy Xianmin, programador y su mayordomo técnico.&lt;br>
+Viviendo en el campo, desempleado durante dos años, abriéndome camino - aquí está mi diario semanal de autoayuda.&lt;/p>
+&lt;h2 id="acciones-de-autoayuda-de-esta-semana">Acciones de Autoayuda de Esta Semana&lt;/h2>
+&lt;p>Permítanme compartir algunos proyectos interesantes:&lt;/p>
+&lt;h3 id="automatización-de-hojas-de-cálculo-empresariales">Automatización de Hojas de Cálculo Empresariales&lt;/h3>
+&lt;p>Extracción de información de hojas de cálculo, descarga de archivos adjuntos a ubicaciones específicas, compresión y actualización de hojas de cálculo.&lt;/p>
+&lt;p>Usando Node.js &amp;amp; TypeScript.&lt;br>
+En años anteriores, la anotación de tipos era la parte más problemática de escribir TypeScript.&lt;br>
+Con la IA, la eficiencia de escribir TypeScript ha mejorado enormemente.&lt;br>
+Los programas escritos en TypeScript son más robustos y más fáciles de mantener.&lt;/p>
+&lt;p>Desde mi experiencia, la IA sigue siendo un asistente - debo entender cada paso que da para evitar ser desviado.&lt;/p>
+&lt;h3 id="script-de-automatización-automa">Script de Automatización Automa&lt;/h3>
+&lt;p>Este fue un requisito de un cliente recurrente - automatizar el envío de currículums a sitios web de reclutamiento.&lt;/p>
+&lt;p>Esta tarea fue bastante laboriosa porque la IA no podía ayudar mucho; todo tenía que ser localizado y depurado manualmente.&lt;/p>
+&lt;p>Hay bastante demanda del mercado para scripts de automatización, ya que cada persona tiene diferentes procesos operativos que requieren soluciones personalizadas.&lt;br>
+Podría aceptar más de este tipo de pedidos en el futuro.&lt;/p>
+&lt;p>Para operaciones repetitivas, deberíamos dejar que las máquinas nos ayuden a completarlas automáticamente.&lt;/p>
+&lt;h3 id="conversión-de-vue-a-react">Conversión de Vue a React&lt;/h3>
+&lt;p>Este es otro ejemplo donde entender las acciones de la IA es crucial.&lt;/p>
+&lt;p>Los clientes usan IA para la conversión, pero cuando no entienden el código React y no pueden hacerlo funcionar, se quedan atascados.&lt;/p>
+&lt;p>Algunos dicen que la IA reemplazará a los programadores, pero por lo que vemos ahora, el reemplazo completo no es posible.&lt;br>
+Sin embargo, puede comprimir cinco días de trabajo en uno, o quizás lo que antes requería cinco personas ahora puede hacerlo una sola persona.&lt;/p>
+&lt;p>Esto beneficia a programadores freelance como yo.&lt;br>
+Anteriormente, un trabajo de dos días con precio de ¥1000 sería rechazado por los clientes por ser demasiado caro.&lt;br>
+Estos pedidos no podían cerrarse - los programadores necesitaban tiempo, mientras que los clientes tenían presupuestos insuficientes.&lt;br>
+Pero ahora solo toma dos horas, con precio de ¥200, que los clientes pueden aceptar.&lt;br>
+Así que, en mi opinión, &lt;strong>nuestro mercado potencial para pedidos se ha ampliado.&lt;/strong>&lt;br>
+Sin embargo, desde la perspectiva del empleo, podría haber menos puestos, e incluso requisitos más altos.&lt;/p>
+&lt;h3 id="desarrollo-secundario-basado-en-wangeditor">Desarrollo Secundario Basado en WangEditor&lt;/h3>
+&lt;p>Este es un caso fallido.&lt;/p>
+&lt;p>El cliente inicialmente dijo que era arreglar dos errores.&lt;br>
+Después de aceptar el pedido, descubrí que era un proyecto experimental, principalmente enfocado en el desarrollo secundario de WangEditor, un editor de texto enriquecido.&lt;/p>
+&lt;p>Los requisitos parecían simples en la superficie, pero en la práctica, requería profundizar en el código fuente de WangEditor.&lt;br>
+Después de pasar dos horas estudiando el código fuente, le dije al cliente que tomaría mucho más tiempo.&lt;br>
+Luego me enteré de que el cliente era un intermediario que me había transferido el pedido.&lt;br>
+Suspiro, cuando no puedes comunicarte directamente con el cliente final, la comunicación se vuelve difícil, y finalmente tuve que reembolsar.&lt;/p>
+&lt;h2 id="ingresos-de-esta-semana">Ingresos de Esta Semana&lt;/h2>
+&lt;p>Completé 8 pedidos, totalizando ¥1410.&lt;br>
+Dos de estos fueron de clientes recurrentes.&lt;br>
+¡Gracias a todos los jefes que me apoyaron!&lt;/p>
+&lt;p>&lt;strong>¿Por qué mucha gente enfrenta dificultades después del desempleo? Una razón principal es la falta de sus propios recursos de clientes.&lt;/strong>&lt;br>
+Cuando anteriormente dirigía un albergue juvenil, casi el 30% de la facturación anual provenía de clientes regulares.&lt;br>
+Pero después de volver a la programación, los recursos de clientes del albergue se volvieron mayormente inutilizables, y tuve que empezar de nuevo.&lt;/p>
+&lt;p>&lt;strong>Las relaciones con los clientes necesitan acumularse, y la confianza requiere tiempo y casos de colaboración para profundizarse.&lt;/strong>&lt;/p>
+&lt;p>Actualmente, no tengo muchos clientes regulares, y todavía estoy aprendiendo e imitando - por ejemplo, agregando la información de contacto de los clientes para que puedan pensar en mí cuando tengan necesidades futuras.&lt;/p>
+&lt;h2 id="palabras-finales">Palabras Finales&lt;/h2>
+&lt;p>Si encuentras algún problema técnico relacionado con computadoras en tu vida, siéntete libre de escanear el código QR a continuación para una consulta gratuita.&lt;/p>
+&lt;p>&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg">&lt;/p></description></item><item><title>Semanal: Autosalvación de un programador desempleado de 33 años (2) - Escribiendo artículos académicos</title><link>https://www.xianmin.org/es/post/weekly/002/</link><pubDate>Sun, 23 Feb 2025 00:31:09 +0000</pubDate><guid>https://www.xianmin.org/es/post/weekly/002/</guid><description>&lt;p>Hola, soy Xianmin, tengo 33 años, soy un programador que vive en el campo, desempleado desde hace dos años.&lt;/p>
 &lt;h2 id="acciones-de-autoayuda-de-esta-semana">Acciones de autoayuda de esta semana&lt;/h2>
 &lt;p>El fin de semana pasado, acepté un trabajo de redacción de un artículo académico sobre aprendizaje automático.&lt;br>
 No sé mucho sobre aprendizaje automático, pero puedo escribir algo de Python.&lt;br>

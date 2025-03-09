@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Mar 2025 14:41:53 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Journal of a 33-year-old Unemployed Rural Programmer's Self-Help Journey (Part 3) - Finding My Position</title><link>https://www.xianmin.org/en/post/weekly/003/</link><pubDate>Sat, 01 Mar 2025 14:41:53 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/003/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, 33 years old, a programmer living in the countryside, unemployed for two years.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 09 Mar 2025 05:50:37 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Journal of a 33-Year-Old Unemployed Rural Programmer's Self-Help Journey (4) - AI Efficiency, Income ¥1410</title><link>https://www.xianmin.org/en/post/weekly/004/</link><pubDate>Sun, 09 Mar 2025 05:50:37 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/004/</guid><description>&lt;p>Hello, I&amp;rsquo;m Xianmin, a programmer and your technical butler.&lt;br>
+Living in the countryside, unemployed for two years, making my own way - here&amp;rsquo;s my weekly self-help journal.&lt;/p>
+&lt;h2 id="this-weeks-self-help-actions">This Week&amp;rsquo;s Self-Help Actions&lt;/h2>
+&lt;p>Let me share some interesting projects:&lt;/p>
+&lt;h3 id="enterprise-spreadsheet-automation">Enterprise Spreadsheet Automation&lt;/h3>
+&lt;p>Extracting information from spreadsheets, downloading attachments to specified locations, compressing, and updating spreadsheets.&lt;/p>
+&lt;p>Using Node.js &amp;amp; TypeScript.&lt;br>
+In previous years, type annotation was the most troublesome part of writing TypeScript.&lt;br>
+With AI, the efficiency of writing TypeScript has improved tremendously.&lt;br>
+Programs written in TypeScript are more robust and easier to maintain.&lt;/p>
+&lt;p>From my experience, AI remains in an assistant role - I must understand every step it takes to avoid being led astray.&lt;/p>
+&lt;h3 id="automa-automation-script">Automa Automation Script&lt;/h3>
+&lt;p>This was a requirement from a returning client - automating resume submissions to recruitment websites.&lt;/p>
+&lt;p>This task was quite time-consuming because AI couldn&amp;rsquo;t help much; everything had to be manually located and debugged.&lt;/p>
+&lt;p>There&amp;rsquo;s quite a market demand for automation scripts, as each person has different operation processes requiring customized solutions.&lt;br>
+I might take on more of these types of orders in the future.&lt;/p>
+&lt;p>For repetitive operations, we should let machines help us complete them automatically.&lt;/p>
+&lt;h3 id="vue-to-react-conversion">Vue to React Conversion&lt;/h3>
+&lt;p>This is another example where understanding AI&amp;rsquo;s actions is crucial.&lt;/p>
+&lt;p>Clients use AI for conversion, but when they don&amp;rsquo;t understand React code and can&amp;rsquo;t get it running, they&amp;rsquo;re stuck.&lt;/p>
+&lt;p>Some say AI will replace programmers, but from what we see now, complete replacement isn&amp;rsquo;t possible.&lt;br>
+However, it can compress five days&amp;rsquo; work into one day, or perhaps what used to require five people can now be done by one person.&lt;/p>
+&lt;p>This benefits freelance programmers like me.&lt;br>
+Previously, a two-day job priced at ¥1000 would be rejected by clients as too expensive.&lt;br>
+Such orders couldn&amp;rsquo;t be closed - programmers needed time, while clients had insufficient budgets.&lt;br>
+But now it only takes two hours, priced at ¥200, which clients can accept.&lt;br>
+So in my view, &lt;strong>our potential market for orders has broadened.&lt;/strong>&lt;br>
+However, from an employment perspective, there might be fewer positions, and even higher requirements.&lt;/p>
+&lt;h3 id="wangeditor-based-secondary-development">WangEditor-Based Secondary Development&lt;/h3>
+&lt;p>This is a failed case.&lt;/p>
+&lt;p>The client initially said it was fixing two bugs.&lt;br>
+After accepting the order, I discovered it was an experimental project, mainly focusing on secondary development of WangEditor, a rich text editor.&lt;/p>
+&lt;p>The requirements seemed simple on the surface, but in practice, it required diving deep into WangEditor&amp;rsquo;s source code.&lt;br>
+After spending two hours studying the source code, I told the client it would take much more time.&lt;br>
+Then I learned the client was an intermediary who had transferred the order to me.&lt;br>
+Sigh, when you can&amp;rsquo;t communicate directly with the end client, communication becomes difficult, and I had to eventually refund.&lt;/p>
+&lt;h2 id="this-weeks-income">This Week&amp;rsquo;s Income&lt;/h2>
+&lt;p>Completed 8 orders, totaling ¥1410.&lt;br>
+Two of these were from returning clients.&lt;br>
+Thanks to all the bosses who supported me!&lt;/p>
+&lt;p>&lt;strong>Why do many people face difficulties after unemployment? A major reason is the lack of their own client resources.&lt;/strong>&lt;br>
+When I previously ran a youth hostel, nearly 30% of annual turnover came from regular customers.&lt;br>
+But after transitioning back to programming, the hostel client resources became mostly unusable, and I had to start over.&lt;/p>
+&lt;p>&lt;strong>Client relationships need to be accumulated, and trust requires time and collaborative cases to deepen.&lt;/strong>&lt;/p>
+&lt;p>Currently, I don&amp;rsquo;t have many regular clients, and I&amp;rsquo;m still learning and imitating - for instance, adding clients&amp;rsquo; contact information so they might think of me when they have future needs.&lt;/p>
+&lt;h2 id="closing-words">Closing Words&lt;/h2>
+&lt;p>If you encounter any computer-related technical issues in your life, feel free to scan the QR code below for free consultation.&lt;/p>
+&lt;p>&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg">&lt;/p></description></item><item><title>Weekly Journal of a 33-year-old Unemployed Rural Programmer's Self-Help Journey (3) - Finding My Position</title><link>https://www.xianmin.org/en/post/weekly/003/</link><pubDate>Sat, 01 Mar 2025 14:41:53 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/003/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, 33 years old, a programmer living in the countryside, unemployed for two years.&lt;/p>
 &lt;p>This week, my income broke through a thousand yuan, achieving a milestone goal.&lt;/p>
 &lt;h2 id="this-weeks-self-help-actions">This Week&amp;rsquo;s Self-Help Actions&lt;/h2>
 &lt;p>The first four days of this week were busy.&lt;br>
