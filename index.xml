@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 09 Mar 2025 05:50:37 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>33 岁失业农村程序员自救周记 （四）- AI 提效，收入 1410 元</title><link>https://www.xianmin.org/post/weekly/004/</link><pubDate>Sun, 09 Mar 2025 05:50:37 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/004/</guid><description>&lt;p>你好，我是贤民，程序员，你身边的技术管家。&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 14 Mar 2025 18:07:14 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>远程技术管家创业周记（五）- 小成本解决大问题</title><link>https://www.xianmin.org/post/weekly/005/</link><pubDate>Fri, 14 Mar 2025 18:07:14 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/005/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
+&lt;h2 id="第五周创业行动">第五周创业行动&lt;/h2>
+&lt;p>关注过我前几期周记内容的朋友，应该会发现，我的标题改了。&lt;/p>
+&lt;p>是的，短期自救行动可以告一段落了。&lt;br>
+&lt;strong>我有独立接单的能力，能为客户带来价值，也获得了不错的反馈。&lt;/strong>&lt;br>
+那么，我觉得可以暂时抛弃找工作的想法，开创自己的事业了。&lt;/p>
+&lt;p>如果从创业的角度，此前的内容主题存在以下问题：&lt;/p>
+&lt;ol>
+&lt;li>「失业」、「农村」、「自救」等字眼，也许能吸引眼球，但降低了我的专业可信度。&lt;/li>
+&lt;li>从推荐算法的角度，吸引的或许是同龄失业者和程序员同行，他们并非我的潜在客户。我需要改变策略。&lt;/li>
+&lt;li>有点儿以自我为中心了，而非以客户价值为导向。&lt;/li>
+&lt;/ol>
+&lt;p>目前，我的大方向没有改变，还是希望能做出一款好用且能盈利的产品。本周再次重启了个人的开发计划。&lt;/p>
+&lt;p>&lt;strong>生存方面，依然以接单为主，当前接单的收入每周稳定在 1500 左右，可考虑有选择性的接单。&lt;/strong>&lt;br>
+每天用于接单的工作时间尽量控制在 5 个小时，其余时间用来做个人项目。&lt;/p>
+&lt;p>以上是最近的一点反思。&lt;/p>
+&lt;h2 id="本周收获">本周收获&lt;/h2>
+&lt;ol>
+&lt;li>为一位老师制作了一款浏览器插件，难度不大，但能解决实际问题，同时有助于教育工作，还是有成就感的；&lt;/li>
+&lt;li>帮一位程序员解决了小程序在 iOS 下的输入问题；&lt;/li>
+&lt;li>解决 Puppeteer 在需要登录的情况下，下载文件的问题。这个问题挺有意思的， AI 又一次陷入了改 Bug 的死循环，我灵机一动，问他通过「某某方法」有没有可能处理，他也恍然大悟。当然，我不喜欢这种 hack 技巧，但 AI 在某个错误的方向上一意孤行的时候，人工介入还是有必要的。&lt;/li>
+&lt;li>帮一位大学生写作业。&lt;/li>
+&lt;/ol>
+&lt;h2 id="结束语">结束语&lt;/h2>
+&lt;p>写周记以来，收到了几位陌生朋友的私信，比如分享接单讯息，什么单子可以挣钱；&lt;br>
+比如分享工作讯息，告诉我有个可接受远程办公的公司在招人，可能适合我。&lt;br>
+也有不少鼓励。&lt;/p>
+&lt;p>&lt;strong>我由衷的感谢你们。&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>如果你在生活中，遇到任何计算机相关的技术问题，欢迎扫描下方二维码，免费咨询。&lt;/p>
+&lt;figure style="display: flex; gap: 10px;">
+&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg" alt="图片1描述" style="width: 49%;object-fit: contain;">
+&lt;img src="https://www.xianmin.org/mp_wechat.jpg" alt="图片2描述" style="width: 49%;object-fit: contain;">
+&lt;/figure></description></item><item><title>33 岁失业农村程序员自救周记 （四）- AI 提效，收入 1410 元</title><link>https://www.xianmin.org/post/weekly/004/</link><pubDate>Sun, 09 Mar 2025 05:50:37 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/004/</guid><description>&lt;p>你好，我是贤民，程序员，你身边的技术管家。&lt;br>
 在乡下生活，失业两年，自谋生路，这里是我的自救周记。&lt;/p>
 &lt;h2 id="本周自救行动">本周自救行动&lt;/h2>
 &lt;p>说说几个有意思的单子：&lt;/p>
@@ -823,380 +856,4 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;p>使用 Emacs 让我受益最大的，就是它的快捷键操作方式。比如 &lt;code>Ctrl-a&lt;/code> 将光标移到行首， &lt;code>Ctrl-e&lt;/code> 移到行尾等等，就不一一列举了。我也曾用过 Vim ，但是它的操作方式我怎么都不适应（用 Vimium 浏览网页还是挺舒服的），因为它编辑的时候要进入「Insert-mode」，然后还要解决切换输入法的问题，在中文输入的情况下无法进入「Insert-mode」。而使用 Emacs 大部分时候没有切换输入法的烦恼，它的快捷键都需要加上 &lt;code>Ctrl&lt;/code> 或 &lt;code>Alt&lt;/code> 前缀。&lt;/p>
 &lt;p>在 VSCode 上，安装这个扩展： &lt;a href="https://github.com/whitphx/vscode-emacs-mcx">whitphx/vscode-emacs-mcx: Awesome Emacs Keymap - VSCode emacs keybinding with multi cursor support&lt;/a> ，就能用上 Emacs 的按键操作方式了。&lt;/p>
 &lt;p>由于历史原因，部分 Emacs 快捷键与我们的日常使用习惯不一致，比如复制粘贴，大部分软件都是 &lt;code>C-c&lt;/code>、 &lt;code>C-v&lt;/code> ，而 Emacs 默认是 &lt;code>M-w&lt;/code> 、 &lt;code>C-y&lt;/code> 。对于这部分快捷键，我倾向于改为一致的操作，即都用 &lt;code>C-c&lt;/code>、 &lt;code>C-v&lt;/code> ，不要特殊化，省的弄混了。还有一些常用却不太好按、不太好记的快捷键，我都重新绑定了按键。&lt;/p>
-&lt;p>快捷键，应该既要好按，又要好记，这样才快捷。我整理了一下自己的常用快捷键，就当作是复习巩固吧。&lt;/p></description></item><item><title>我的 VSCode 快捷键</title><link>https://www.xianmin.org/post/2022/06-my-vscode-keybinding/</link><pubDate>Mon, 29 Aug 2022 22:06:10 +0800</pubDate><guid>https://www.xianmin.org/post/2022/06-my-vscode-keybinding/</guid><description>&lt;h2 id="移动相关">移动相关&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">快捷键&lt;/th>
-&lt;th style="text-align: left">说明&lt;/th>
-&lt;th style="text-align: left">补充&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-f&lt;/code>&lt;/td>
-&lt;td style="text-align: left">下一个字符&lt;/td>
-&lt;td style="text-align: left">记忆： f - forward&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-b&lt;/code>&lt;/td>
-&lt;td style="text-align: left">上一个字符&lt;/td>
-&lt;td style="text-align: left">记忆： b - backward&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-n&lt;/code>&lt;/td>
-&lt;td style="text-align: left">下一行&lt;/td>
-&lt;td style="text-align: left">记忆： n - next&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-p&lt;/code>&lt;/td>
-&lt;td style="text-align: left">上一行&lt;/td>
-&lt;td style="text-align: left">记忆： p - previous&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-a&lt;/code>&lt;/td>
-&lt;td style="text-align: left">行首&lt;/td>
-&lt;td style="text-align: left">记忆： a - 第一个字母&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-e&lt;/code>&lt;/td>
-&lt;td style="text-align: left">行尾&lt;/td>
-&lt;td style="text-align: left">记忆: e - end&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-f&lt;/code>&lt;/td>
-&lt;td style="text-align: left">下一个词&lt;/td>
-&lt;td style="text-align: left">VSCode 中文断词设置，见附录A&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-b&lt;/code>&lt;/td>
-&lt;td style="text-align: left">上一个词&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-M-f&lt;/code>&lt;/td>
-&lt;td style="text-align: left">上一段&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-M-b&lt;/code>&lt;/td>
-&lt;td style="text-align: left">下一段&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-M-a&lt;/code>&lt;/td>
-&lt;td style="text-align: left">页首&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-M-e&lt;/code>&lt;/td>
-&lt;td style="text-align: left">页尾&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">快捷键&lt;/th>
-&lt;th style="text-align: left">说明&lt;/th>
-&lt;th style="text-align: left">补充&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-l&lt;/code>&lt;/td>
-&lt;td style="text-align: left">将当前光标位置居于屏幕中间&lt;/td>
-&lt;td style="text-align: left">常用&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-1&lt;/code>&lt;/td>
-&lt;td style="text-align: left">上一个标签&lt;/td>
-&lt;td style="text-align: left">使用 &lt;code>Alt Tab&lt;/code> 临近的几个键操作标签&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-2&lt;/code>&lt;/td>
-&lt;td style="text-align: left">下一个标签&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-3&lt;/code>&lt;/td>
-&lt;td style="text-align: left">后退&lt;/td>
-&lt;td style="text-align: left">光标跳转到别处后，回退到之前的位置&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-4&lt;/code>&lt;/td>
-&lt;td style="text-align: left">前进&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-w&lt;/code>&lt;/td>
-&lt;td style="text-align: left">关闭标签&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-u&lt;/code>&lt;/td>
-&lt;td style="text-align: left">撤销关闭的标签&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-x C-b&lt;/code>&lt;/td>
-&lt;td style="text-align: left">快速跳转至已经打开的标签&lt;/td>
-&lt;td style="text-align: left">记忆： b - buffer&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-x C-f&lt;/code>&lt;/td>
-&lt;td style="text-align: left">快速打开文件&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-g&lt;/code>&lt;/td>
-&lt;td style="text-align: left">任何时候取消&lt;/td>
-&lt;td style="text-align: left">emacs 默认&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="编辑相关">编辑相关&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">快捷键&lt;/th>
-&lt;th style="text-align: left">说明&lt;/th>
-&lt;th style="text-align: left">补充&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-c&lt;/code>&lt;/td>
-&lt;td style="text-align: left">复制&lt;/td>
-&lt;td style="text-align: left">与操作系统统一&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-v&lt;/code>&lt;/td>
-&lt;td style="text-align: left">粘贴&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-m&lt;/code>&lt;/td>
-&lt;td style="text-align: left">mark&lt;/td>
-&lt;td style="text-align: left">默认是 &lt;code>C-SPACE&lt;/code> ，与切换输入法冲突&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-w&lt;/code>&lt;/td>
-&lt;td style="text-align: left">剪切&lt;/td>
-&lt;td style="text-align: left">emacs 默认&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-k&lt;/code>&lt;/td>
-&lt;td style="text-align: left">删除当前行&lt;/td>
-&lt;td style="text-align: left">记忆： k - kill&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-u&lt;/code>&lt;/td>
-&lt;td style="text-align: left">undo 撤销&lt;/td>
-&lt;td style="text-align: left">记忆： u - undo&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-M-u&lt;/code>&lt;/td>
-&lt;td style="text-align: left">redo&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-;&lt;/code>&lt;/td>
-&lt;td style="text-align: left">注释行&lt;/td>
-&lt;td style="text-align: left">常用&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-;&lt;/code>&lt;/td>
-&lt;td style="text-align: left">注释块&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-↑&lt;/code>&lt;/td>
-&lt;td style="text-align: left">将当前行上移&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-↓&lt;/code>&lt;/td>
-&lt;td style="text-align: left">将当前行下移&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-S-↑&lt;/code>&lt;/td>
-&lt;td style="text-align: left">将当前行向上复制&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-S-↓&lt;/code>&lt;/td>
-&lt;td style="text-align: left">将当前行向下复制&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-h&lt;/code>&lt;/td>
-&lt;td style="text-align: left">删除&lt;/td>
-&lt;td style="text-align: left">同 &lt;code>Backspace&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>F2&lt;/code>&lt;/td>
-&lt;td style="text-align: left">重命名&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-s&lt;/code>&lt;/td>
-&lt;td style="text-align: left">插入 snippets&lt;/td>
-&lt;td style="text-align: left">记忆： s - snippet&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-q&lt;/code>&lt;/td>
-&lt;td style="text-align: left">quick fix&lt;/td>
-&lt;td style="text-align: left">常用&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-q&lt;/code>&lt;/td>
-&lt;td style="text-align: left">折叠&lt;/td>
-&lt;td style="text-align: left">常用&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-M-↑&lt;/code>&lt;/td>
-&lt;td style="text-align: left">操作多光标，上移&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-M-↓&lt;/code>&lt;/td>
-&lt;td style="text-align: left">操作多光标，下移&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">按住鼠标中间选择&lt;/td>
-&lt;td style="text-align: left">操作多光标&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>Alt Click&lt;/code>&lt;/td>
-&lt;td style="text-align: left">增添多个光标&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="命令相关">命令相关&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">快捷键&lt;/th>
-&lt;th style="text-align: left">说明&lt;/th>
-&lt;th style="text-align: left">补充&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-x&lt;/code>&lt;/td>
-&lt;td style="text-align: left">输入 Command&lt;/td>
-&lt;td style="text-align: left">常用&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-p&lt;/code>&lt;/td>
-&lt;td style="text-align: left">peek&lt;/td>
-&lt;td style="text-align: left">默认 &lt;code>S-F12&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-o&lt;/code>&lt;/td>
-&lt;td style="text-align: left">go to defienition&lt;/td>
-&lt;td style="text-align: left">默认 &lt;code>F12&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-t&lt;/code>&lt;/td>
-&lt;td style="text-align: left">go to Symbol （当前文件）&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-M-t&lt;/code>&lt;/td>
-&lt;td style="text-align: left">go to Symbol （全局）&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="窗口相关">窗口相关&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">快捷键&lt;/th>
-&lt;th style="text-align: left">说明&lt;/th>
-&lt;th style="text-align: left">补充&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">`C-``&lt;/td>
-&lt;td style="text-align: left">终端&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-S-f&lt;/code>&lt;/td>
-&lt;td style="text-align: left">搜索&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-S-e&lt;/code>&lt;/td>
-&lt;td style="text-align: left">文件列表&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>F11&lt;/code>&lt;/td>
-&lt;td style="text-align: left">Zen Mode&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>S-F11&lt;/code>&lt;/td>
-&lt;td style="text-align: left">全屏&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-x C-n&lt;/code>&lt;/td>
-&lt;td style="text-align: left">新的窗口&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="附录a-word-seperator-for-chiense-中文标点断句">附录A： Word seperator for Chiense (中文标点断句)&lt;/h2>
-&lt;p>在 VSCode 中修改如下 setting ：&lt;/p>
-&lt;div class="highlight-container">
-&lt;button class="copy-code-btn outline">Copy&lt;/button>
-&lt;pre tabindex="0">&lt;code>&amp;#34;editor.wordSeparators&amp;#34;: &amp;#34;`~!@#$%^&amp;amp;*()-=+[{]}\\|;:&amp;#39;\&amp;#34;,.&amp;lt;&amp;gt;/?、，。？！“”‘’；：（）「」【】〔〕『』〖〗&amp;#34;,&lt;/code>&lt;/pre>
-&lt;/div>
-&lt;h2 id="附录b-我的全局快捷键">附录B： 我的全局快捷键&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">快捷键&lt;/th>
-&lt;th style="text-align: left">说明&lt;/th>
-&lt;th style="text-align: left">补充&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>M-a&lt;/code>&lt;/td>
-&lt;td style="text-align: left">微信截图&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-M-c&lt;/code>&lt;/td>
-&lt;td style="text-align: left">CopyQ 剪切板&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>PrtSc&lt;/code>&lt;/td>
-&lt;td style="text-align: left">ShareX 截图&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-PrtSc&lt;/code>&lt;/td>
-&lt;td style="text-align: left">选择矩形区域截图&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;code>C-M-q&lt;/code>&lt;/td>
-&lt;td style="text-align: left">ShareX 取色&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item></channel></rss>
+&lt;p>快捷键，应该既要好按，又要好记，这样才快捷。我整理了一下自己的常用快捷键，就当作是复习巩固吧。&lt;/p></description></item></channel></rss>
