@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 09 Mar 2025 05:50:37 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Journal of a 33-Year-Old Unemployed Rural Programmer's Self-Help Journey (4) - AI Efficiency, Income ¥1410</title><link>https://www.xianmin.org/en/post/weekly/004/</link><pubDate>Sun, 09 Mar 2025 05:50:37 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/004/</guid><description>&lt;p>Hello, I&amp;rsquo;m Xianmin, a programmer and your technical butler.&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 14 Mar 2025 18:07:14 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Remote IT Concierge Startup Weekly (5) - Solving Big Problems with Small Investment</title><link>https://www.xianmin.org/en/post/weekly/005/</link><pubDate>Fri, 14 Mar 2025 18:07:14 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/005/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your Remote IT Concierge, and this is my startup weekly journal.&lt;/p>
+&lt;h2 id="week-5-startup-actions">Week 5 Startup Actions&lt;/h2>
+&lt;p>For those who have been following my previous weekly journals, you might notice that I&amp;rsquo;ve changed the title.&lt;/p>
+&lt;p>Yes, the short-term self-rescue action can now be concluded.&lt;br>
+&lt;strong>I have the ability to work independently, can bring value to clients, and have received positive feedback.&lt;/strong>&lt;br>
+Therefore, I think I can temporarily put aside the idea of job hunting and start building my own business.&lt;/p>
+&lt;p>From an entrepreneurial perspective, the previous content themes had these issues:&lt;/p>
+&lt;ol>
+&lt;li>Words like &amp;ldquo;unemployment,&amp;rdquo; &amp;ldquo;rural,&amp;rdquo; and &amp;ldquo;self-rescue&amp;rdquo; might attract attention but reduced my professional credibility.&lt;/li>
+&lt;li>From a recommendation algorithm perspective, it might attract unemployed peers and fellow programmers who aren&amp;rsquo;t my potential clients. I need to change this strategy.&lt;/li>
+&lt;li>It was somewhat self-centered rather than client value-oriented.&lt;/li>
+&lt;/ol>
+&lt;p>Currently, my main direction hasn&amp;rsquo;t changed - I still hope to create a useful and profitable product. This week, I&amp;rsquo;ve restarted my personal development plan.&lt;/p>
+&lt;p>&lt;strong>For survival, freelancing remains the primary focus, with current weekly earnings stable at around 1500, allowing for selective project acceptance.&lt;/strong>&lt;br>
+I try to limit freelancing work to 5 hours daily, using the remaining time for personal projects.&lt;/p>
+&lt;p>These are some recent reflections.&lt;/p>
+&lt;h2 id="this-weeks-achievements">This Week&amp;rsquo;s Achievements&lt;/h2>
+&lt;ol>
+&lt;li>Created a browser extension for a teacher - not technically challenging but solved a practical problem and contributed to education work, which was fulfilling;&lt;/li>
+&lt;li>Helped a programmer resolve iOS input issues in a mini program;&lt;/li>
+&lt;li>Solved a Puppeteer file download issue requiring login. This was interesting - AI got stuck in a bug-fixing loop, but when I suggested &amp;ldquo;a certain method,&amp;rdquo; it had an aha moment. Of course, I don&amp;rsquo;t like such hack techniques, but human intervention is necessary when AI stubbornly pursues the wrong direction.&lt;/li>
+&lt;li>Helped a university student with assignments.&lt;/li>
+&lt;/ol>
+&lt;h2 id="closing-words">Closing Words&lt;/h2>
+&lt;p>Since starting these weekly journals, I&amp;rsquo;ve received private messages from several strangers, sharing freelancing opportunities and potential income sources;&lt;br>
+Some shared job opportunities, telling me about companies that accept remote work that might suit me.&lt;br>
+There was also lots of encouragement.&lt;/p>
+&lt;p>&lt;strong>I sincerely thank you all.&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>如果你在生活中，遇到任何计算机相关的技术问题，欢迎扫描下方二维码，免费咨询。&lt;/p>
+&lt;figure style="display: flex; gap: 10px;">
+&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg" alt="图片1描述" style="width: 49%;object-fit: contain;">
+&lt;img src="https://www.xianmin.org/mp_wechat.jpg" alt="图片2描述" style="width: 49%;object-fit: contain;">
+&lt;/figure></description></item><item><title>Weekly Journal of a 33-Year-Old Unemployed Rural Programmer's Self-Help Journey (4) - AI Efficiency, Income ¥1410</title><link>https://www.xianmin.org/en/post/weekly/004/</link><pubDate>Sun, 09 Mar 2025 05:50:37 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/004/</guid><description>&lt;p>Hello, I&amp;rsquo;m Xianmin, a programmer and your technical butler.&lt;br>
 Living in the countryside, unemployed for two years, making my own way - here&amp;rsquo;s my weekly self-help journal.&lt;/p>
 &lt;h2 id="this-weeks-self-help-actions">This Week&amp;rsquo;s Self-Help Actions&lt;/h2>
 &lt;p>Let me share some interesting projects:&lt;/p>
