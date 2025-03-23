@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 14 Mar 2025 18:07:14 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Remote IT Concierge Startup Weekly (5) - Solving Big Problems with Small Investment</title><link>https://www.xianmin.org/en/post/weekly/005/</link><pubDate>Fri, 14 Mar 2025 18:07:14 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/005/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your Remote IT Concierge, and this is my startup weekly journal.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 23 Mar 2025 06:39:41 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Remote IT Concierge Startup Weekly (5) - First Consulting Business</title><link>https://www.xianmin.org/en/post/weekly/006/</link><pubDate>Sun, 23 Mar 2025 06:39:41 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/006/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your Remote IT Concierge, and this is my startup weekly journal.&lt;/p>
+&lt;h2 id="week-6-startup-actions">Week 6 Startup Actions&lt;/h2>
+&lt;p>My biggest achievement this week was receiving my first consulting job.&lt;/p>
+&lt;p>The client was a college student about to graduate and looking for work, who was a customer of mine two weeks ago.&lt;br>
+He told me he was feeling uncertain about his future as graduation approached and wanted to chat with me.&lt;br>
+I acknowledged my limited knowledge and that I couldn&amp;rsquo;t solve his problems in a short time, telling him that even after many years in society, I also face uncertainty.&lt;br>
+He still wanted to talk, proactively offered payment, and since I had time available, I agreed to chat.&lt;/p>
+&lt;p>This consultation (which could also be described as a collision between a confused Gen Z graduate and a confused middle-aged unemployed person) was conducted in two parts:&lt;/p>
+&lt;h3 id="first-hour-discussing-life">First Hour: Discussing Life&lt;/h3>
+&lt;p>I&amp;rsquo;m hesitant to give life advice, but he wanted to know what I would tell my ten-year-old self.&lt;br>
+I said my ideas are mostly from books, nothing original,&lt;br>
+and recommended &amp;ldquo;Poor Charlie&amp;rsquo;s Almanack,&amp;rdquo; sharing the concepts of margin of safety and mental models from the book.&lt;br>
+&lt;strong>My understanding of &amp;ldquo;margin of safety&amp;rdquo; is not just about securing your capital; by extension, health, time, credit, etc., should all be kept safe and not overdrawn.&lt;/strong>&lt;br>
+Also, Munger&amp;rsquo;s &amp;ldquo;inverse thinking&amp;rdquo; method is interesting: &lt;strong>rather than thinking &amp;ldquo;what should I do,&amp;rdquo; consider &amp;ldquo;what should I avoid.&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>When he mentioned applying to a Web3 company, I gave a friendly reminder that without proper domestic compliance, there&amp;rsquo;s little security and potential legal risks.&lt;/p>
+&lt;p>He said he was considering graduate school.&lt;br>
+I encouraged him to pursue it, saying it&amp;rsquo;s never too late and a year is enough time.&lt;br>
+The core thinking model in computer science is &lt;strong>divide and conquer&lt;/strong>.&lt;br>
+Graduate school is a big goal and problem - how do we break it down into specific smaller goals and problems?&lt;br>
+Thinking isn&amp;rsquo;t enough; only action matters.&lt;br>
+&lt;strong>Take action, and the world will give you answers.&lt;/strong>&lt;/p>
+&lt;p>He later extended for another hour.&lt;/p>
+&lt;h3 id="second-hour-discussing-technology">Second Hour: Discussing Technology&lt;/h3>
+&lt;p>This mainly focused on explaining unclear aspects of the project I did for him two weeks ago.&lt;br>
+On the technical side, there was no fluff - I simply explained what he asked about.&lt;br>
+I also pointed out the key technical aspects of his project.&lt;/p>
+&lt;p>However, interview and job search advice is not my area of expertise.&lt;/p>
+&lt;h2 id="reflections-on-this-consultation">Reflections on This Consultation&lt;/h2>
+&lt;p>If this student had initially just wanted to chat casually without mentioning payment, I probably would have kept it casual without sharing too much.&lt;br>
+But since he paid, the nature changed, and I felt obligated to provide good service.&lt;/p>
+&lt;p>Everyone can offer consulting services; everyone has their unique experiences.&lt;br>
+Payment can secure better service.&lt;br>
+If you want to gain something from others, it&amp;rsquo;s better to offer them something first.&lt;br>
+This is what I learned from this college student.&lt;/p>
+&lt;p>This consultation came without preparation but gave me some inspiration.&lt;/p>
+&lt;p>Perhaps I could package &amp;ldquo;consulting services&amp;rdquo; as a product? I need to think more about this.&lt;/p>
+&lt;p>For now, let me advertise a bit.&lt;/p>
+&lt;p>I offer the following consulting services:&lt;/p>
+&lt;ol>
+&lt;li>Computer front-end technology explanations, front-end best practices, etc.;&lt;/li>
+&lt;li>AI usage tips for the general public, insights on AI applications in your industry;&lt;/li>
+&lt;li>Advice on managing and operating hostels (after all, I ran a youth hostel for 7 years);&lt;/li>
+&lt;li>How to self-learn computer science and English;&lt;/li>
+&lt;li>Experience with car camping, RV travel;&lt;/li>
+&lt;li>Experience with hiking and long-distance cycling;&lt;/li>
+&lt;/ol>
+&lt;p>Fee: 42 per hour. (The number 42 is &amp;ldquo;the answer to the ultimate question of life, the universe, and everything&amp;rdquo; 😄)&lt;/p>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>What types of consulting services are worth paying for?&lt;br>
+How can we effectively evaluate a consultant&amp;rsquo;s professional ability and service quality? What are some reliable evaluation metrics and reference factors?&lt;/p></description></item><item><title>Remote IT Concierge Startup Weekly (5) - Solving Big Problems with Small Investment</title><link>https://www.xianmin.org/en/post/weekly/005/</link><pubDate>Fri, 14 Mar 2025 18:07:14 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/005/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your Remote IT Concierge, and this is my startup weekly journal.&lt;/p>
 &lt;h2 id="week-5-startup-actions">Week 5 Startup Actions&lt;/h2>
 &lt;p>For those who have been following my previous weekly journals, you might notice that I&amp;rsquo;ve changed the title.&lt;/p>
 &lt;p>Yes, the short-term self-rescue action can now be concluded.&lt;br>
