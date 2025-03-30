@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 23 Mar 2025 06:39:41 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>远程技术管家创业周记（六）- 第一单咨询业务</title><link>https://www.xianmin.org/post/weekly/006/</link><pubDate>Sun, 23 Mar 2025 06:39:41 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/006/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 30 Mar 2025 15:23:55 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>远程技术管家创业周记（七）- 爆单</title><link>https://www.xianmin.org/post/weekly/007/</link><pubDate>Sun, 30 Mar 2025 15:23:55 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/007/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
+&lt;h2 id="第七周创业行动">第七周创业行动&lt;/h2>
+&lt;p>这周爆单了。&lt;br>
+从周一开始，就一直在忙碌，每天晚上都要加班。&lt;br>
+截止到现在周日晚 10 点半，还有两单没完成。&lt;/p>
+&lt;p>即便是爆单，收入也是有限的，因为时薪是固定的，每天可工作的时长也是固定的。&lt;br>
+我目前的报价方式，是根据对方的需求判断工作量，估算时长，再乘以我的时薪。&lt;br>
+我的时薪，是在与多个客户的交流后，逐渐调整到目前 80 每小时的价格。&lt;br>
+&lt;strong>报价的时薪，并非真实的时薪，前期的沟通、后期的维护，这些时间都没有计算在内。&lt;/strong>&lt;br>
+所以我的真实时薪，估计是在 50 左右。&lt;br>
+这个收入，应该说是中规中矩吧，饿不死，也富不了。&lt;br>
+相比上班，自由一点，但终究是售卖自己的时间，忙碌起来，也没啥自由可言。&lt;/p>
+&lt;p>本周接了各种各样的活儿。&lt;/p>
+&lt;h3 id="一咨询">一、咨询&lt;/h3>
+&lt;p>上周发了个广告，还真有同学愿意找我聊天，哈哈！&lt;br>
+那天比较忙，只聊了一个小时，主要是私人情感方面。&lt;br>
+虽然我不是情感专家，但我价格低啊，还且同是程序员，也许更能共情。&lt;br>
+我和他分享了我的 &lt;strong>一手经验和二手经验&lt;/strong> 的理论，简言之就是多去约姑娘，增加一手经验。&lt;br>
+我的咨询服务，定价低，主要也是想多增加这方面的一手经验，同时还能多认识个朋友。&lt;/p>
+&lt;h3 id="二教学">二、教学&lt;/h3>
+&lt;p>算是老客户了。&lt;br>
+第一次是帮他解决开发环境的依赖问题，当时我发现他用 AI 编程，但他不懂代码、不懂项目管理，用 AI 写出来的代码就是一坨，难以维护，AI 自己都改不下去了。&lt;br>
+我劝他干脆重启一个新的项目，我演示给他看，现代 AI 编程的最佳实践策略。&lt;br>
+比如如何 &lt;strong>通过 Git 进行版本管理，与 AI 编码的技巧，如何分解代码，遇到 Bug 怎样解决等等&lt;/strong> 。&lt;br>
+有几次差点翻车，但 AI 都很好的挽回了局面。&lt;/p>
+&lt;h3 id="三项目国际化">三、项目国际化&lt;/h3>
+&lt;p>这是基于一个中型开源项目的二次开发。&lt;br>
+原本的项目只有英文，由于代码量大，文本数量多，是个难度不大、但费时的活儿。&lt;/p>
+&lt;p>&lt;strong>小企业，员工有限，活儿干不过来，再招人又要增加成本。找我就很合适，即刻上手干活，临时的合作关系，干完即走。小成本解决大问题。&lt;/strong>&lt;/p>
+&lt;h3 id="四docker-部署">四、Docker 部署&lt;/h3>
+&lt;p>远程帮客户把整个应用搭建起来。&lt;br>
+尽管 Docker 已经很方便了，但在现实中，对于非开发者，依然是个麻烦的东西。&lt;/p>
+&lt;h3 id="五linux-服务器应用部署">五、Linux 服务器应用部署&lt;/h3>
+&lt;p>同样是为老客户服务。&lt;br>
+他的应用在本地运行正常，但是到服务器就出错了。&lt;/p>
+&lt;p>这里面主要是 Debug 找到出错的原因。&lt;br>
+没有具体的报错，AI 也难啊。&lt;br>
+定位到出错的文件，让 AI 给这个文件写了个测试，本地测试正常，服务器上定位到了出错的位置。&lt;br>
+再让 AI 解决就简单了。&lt;/p>
+&lt;h3 id="六echarts-画图">六、ECharts 画图&lt;/h3>
+&lt;p>客户说，找了个人做了 2 天放弃了。&lt;br>
+如果是我，如果半天没进展，就早点放弃……&lt;/p>
+&lt;p>为啥不好做？最后发现是因为后端给的数据本身就是有问题的。&lt;br>
+如果数据有问题，生成的图表就总是错误的。&lt;/p>
+&lt;p>怎么发现的呢？自己先用模拟数据，把正确的图表做出来，至少说明图表是能正常生成的。&lt;br>
+然后排查后端给的数据，以及数据的处理， console.log 打印出来。&lt;/p>
+&lt;h3 id="七为啥我好像啥都会">七、为啥我好像啥都会&lt;/h3>
+&lt;p>先说结论，我是走野路子在实战中训练出来的程序员，技术面广，但都不够深入。&lt;/p>
+&lt;p>我至今不知道是好是坏。&lt;br>
+早年我也学过 C 语言，了解过汇编，想深入学习 Linux 系统底层，但终究没有实战机会。&lt;br>
+我最开始学的是 Python ，因为市场需要，入了前端的坑。&lt;/p>
+&lt;p>&lt;strong>后来我就认清现实了，人生苦短，黑猫白猫，能抓老鼠，就是好猫……&lt;/strong>&lt;/p>
+&lt;h2 id="结束语">结束语&lt;/h2>
+&lt;p>程序员该选择技术深度还是技术广度？&lt;/p>
+&lt;hr>
+&lt;p>如果你在生活中，遇到任何计算机相关的技术问题，欢迎扫描下方二维码，免费咨询。&lt;/p>
+&lt;figure style="display: flex; gap: 10px;">
+&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg" alt="图片1描述" style="width: 49%;object-fit: contain;">
+&lt;img src="https://www.xianmin.org/mp_wechat.jpg" alt="图片2描述" style="width: 49%;object-fit: contain;">
+&lt;/figure></description></item><item><title>远程技术管家创业周记（六）- 第一单咨询业务</title><link>https://www.xianmin.org/post/weekly/006/</link><pubDate>Sun, 23 Mar 2025 06:39:41 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/006/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
 &lt;h2 id="第六周创业行动">第六周创业行动&lt;/h2>
 &lt;p>本周最大的收获是接到了我的第一单咨询。&lt;/p>
 &lt;p>来访的是一位即将毕业找工作的大学生，他是我两周前的一位客户。&lt;br>
@@ -893,19 +952,4 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;/div>
 &lt;a href="https://www.xianmin.org/image/memory/2022/10-07.jpg" itemprop="contentUrl">&lt;/a>
 &lt;/figure>
-&lt;/div></description></item><item><title>我的英语词汇量（ 2022 年 8 月 ）</title><link>https://www.xianmin.org/post/2022/08-review-english-2022-08/</link><pubDate>Mon, 29 Aug 2022 22:15:10 +0800</pubDate><guid>https://www.xianmin.org/post/2022/08-review-english-2022-08/</guid><description>&lt;p>上一次测试词汇量是在 &lt;a href="https://www.xianmin.org/post/review-english-202005/">2020 年 5 月&lt;/a> ，当时的词汇量大约是 7420 。今天突然想起来好久没测了，随手测了一下，这次测出的词汇量大约是 7810 ，跟两年前相比基本没有太大的变化。这是符合预期的，这两年我就没有在英语上下过工夫，没有退步就不错了。&lt;/p>
-&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
-&lt;div class="box">
-&lt;figure itemprop="associatedMedia"
-itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img">
-&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/review-english-2022-08-28.png" />
-&lt;/div>
-&lt;a href="https://www.xianmin.org/image/other/review-english-2022-08-28.png" itemprop="contentUrl">&lt;/a>
-&lt;figcaption>&lt;h4>2022 年 8 月，词汇量测试&lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/div>
-&lt;p>打开 &lt;a href="https://testyourvocab.com">https://testyourvocab.com&lt;/a> 网站，自动跳转到了 &lt;a href="https://preply.com/en/learn/english/test-your-vocab">https://preply.com/en/learn/english/test-your-vocab&lt;/a> ，估计是被收购了，不过测试内容应该没有变化。&lt;/p>
-&lt;p>测试的好处是可以提醒自己依然有很大的提升空间，这两年在英语学习上真的是有些懈怠了。我的英语学习目标：能够无障碍阅读英文书。这个目标都说了好几年了，唉，实在是羞愧啊。学习方法目前无需调整， &lt;strong>关键是每天都要抽出一个小时阅读英文，并且用半个小时复习前一天查过的生词短语。&lt;/strong>&lt;/p>
-&lt;p>多说无益，到今年年底还有 4 个月，年底的时候再做总结。&lt;/p></description></item></channel></rss>
+&lt;/div></description></item></channel></rss>

@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 23 Mar 2025 06:39:41 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Remote IT Concierge Startup Weekly (5) - First Consulting Business</title><link>https://www.xianmin.org/en/post/weekly/006/</link><pubDate>Sun, 23 Mar 2025 06:39:41 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/006/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your Remote IT Concierge, and this is my startup weekly journal.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 30 Mar 2025 15:23:55 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Remote IT Concierge Startup Weekly (7) - Order Explosion</title><link>https://www.xianmin.org/en/post/weekly/007/</link><pubDate>Sun, 30 Mar 2025 15:23:55 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/007/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your Remote IT Concierge, and this is my startup weekly journal.&lt;/p>
+&lt;h2 id="week-7-startup-actions">Week 7 Startup Actions&lt;/h2>
+&lt;p>This week exploded with orders.&lt;br>
+Starting from Monday, I&amp;rsquo;ve been busy non-stop, working overtime every evening.&lt;br>
+As of Sunday night at 10:30, I still have two orders incomplete.&lt;/p>
+&lt;p>Even with the explosion of orders, income remains limited because the hourly rate is fixed, and the working hours per day are also fixed.&lt;br>
+My current pricing method is to assess the workload based on the client&amp;rsquo;s requirements, estimate the time needed, and multiply by my hourly rate.&lt;br>
+My hourly rate has gradually adjusted to the current 80 per hour after conversations with multiple clients.&lt;br>
+&lt;strong>The quoted hourly rate is not the actual hourly rate, as initial communications and subsequent maintenance are not calculated in the time.&lt;/strong>&lt;br>
+So my actual hourly rate is probably around 50.&lt;br>
+This income is quite average, I would say - won&amp;rsquo;t starve, but won&amp;rsquo;t get rich either.&lt;br>
+Compared to regular employment, it&amp;rsquo;s a bit more flexible, but ultimately I&amp;rsquo;m still selling my time, and when it gets busy, there&amp;rsquo;s not much freedom to speak of.&lt;/p>
+&lt;p>This week, I took on a variety of jobs.&lt;/p>
+&lt;h3 id="i-consulting">I. Consulting&lt;/h3>
+&lt;p>I posted an advertisement last week, and someone actually wanted to chat with me, haha!&lt;br>
+I was quite busy that day, so we only talked for an hour, mainly about personal emotional matters.&lt;br>
+Although I&amp;rsquo;m not a relationship expert, my price is low, and being a fellow programmer, I can perhaps empathize better.&lt;br>
+I shared my theory of &lt;strong>first-hand experience and second-hand experience&lt;/strong> with him, which essentially means going on more dates with girls to gain first-hand experience.&lt;br>
+My consulting service is priced low, mainly because I want to gain more first-hand experience in this area while also making new friends.&lt;/p>
+&lt;h3 id="ii-teaching">II. Teaching&lt;/h3>
+&lt;p>This is somewhat of a regular client.&lt;br>
+The first time I helped him solve dependency issues in his development environment, I discovered he was using AI for programming but didn&amp;rsquo;t understand code or project management, so the code written by AI was a mess, difficult to maintain, and even AI itself couldn&amp;rsquo;t improve it.&lt;br>
+I advised him to simply restart with a new project, and I demonstrated to him the best practices for modern AI programming.&lt;br>
+For example, &lt;strong>how to use Git for version control, techniques for coding with AI, how to break down code, and how to solve bugs, etc.&lt;/strong>&lt;br>
+There were a few near misses, but the AI managed to save the situation.&lt;/p>
+&lt;h3 id="iii-project-internationalization">III. Project Internationalization&lt;/h3>
+&lt;p>This was secondary development based on a medium-sized open-source project.&lt;br>
+The original project was only in English, and with a large codebase and numerous text elements, it was a time-consuming task though not technically difficult.&lt;/p>
+&lt;p>&lt;strong>Small businesses with limited staff can&amp;rsquo;t handle all the work, but hiring more people increases costs. Hiring me is a perfect fit—I can immediately start working, establish a temporary collaboration, and leave when the job is done. Solving big problems with minimal cost.&lt;/strong>&lt;/p>
+&lt;h3 id="iv-docker-deployment">IV. Docker Deployment&lt;/h3>
+&lt;p>Remotely helping a client set up an entire application.&lt;br>
+Although Docker is already quite convenient, in reality, it&amp;rsquo;s still a troublesome thing for non-developers.&lt;/p>
+&lt;h3 id="v-linux-server-application-deployment">V. Linux Server Application Deployment&lt;/h3>
+&lt;p>Another service for a regular client.&lt;br>
+His application was running normally on the local machine but had errors on the server.&lt;/p>
+&lt;p>The main task here was debugging to find the cause of the error.&lt;br>
+Without specific error messages, even AI would struggle.&lt;br>
+I located the faulty file, had AI write a test for it, which ran fine locally but helped pinpoint the error location on the server.&lt;br>
+After that, having AI fix it was simple.&lt;/p>
+&lt;h3 id="vi-echarts-visualization">VI. ECharts Visualization&lt;/h3>
+&lt;p>The client mentioned that someone had worked on it for 2 days before giving up.&lt;br>
+If it were me, I would have abandoned it much earlier if there was no progress after half a day&amp;hellip;&lt;/p>
+&lt;p>Why was it difficult? In the end, I discovered that the data provided by the backend was problematic.&lt;br>
+If the data is flawed, the generated charts will always be incorrect.&lt;/p>
+&lt;p>How did I discover this? First, I used simulated data to create a correct chart, at least proving that the chart could be generated normally.&lt;br>
+Then I examined the data from the backend and how it was processed, using console.log to print it out.&lt;/p>
+&lt;h3 id="vii-why-do-i-seem-to-know-a-bit-of-everything">VII. Why Do I Seem to Know a Bit of Everything?&lt;/h3>
+&lt;p>To sum it up, I&amp;rsquo;m a programmer trained through the school of hard knocks and real-world experience—broad in technical knowledge but not deep in any particular area.&lt;/p>
+&lt;p>To this day, I don&amp;rsquo;t know if this is good or bad.&lt;br>
+In my early years, I studied C language, learned about assembly, and wanted to delve into the Linux system&amp;rsquo;s underlying layers, but never had practical opportunities.&lt;br>
+I started with Python, then entered the frontend world because of market demand.&lt;/p>
+&lt;p>&lt;strong>Later, I faced reality: life is short, and whether it&amp;rsquo;s a black cat or a white cat, a cat that catches mice is a good cat&amp;hellip;&lt;/strong>&lt;/p>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>Should programmers choose technical depth or technical breadth?&lt;/p>
+&lt;hr>
+&lt;p>如果你在生活中，遇到任何计算机相关的技术问题，欢迎扫描下方二维码，免费咨询。&lt;/p>
+&lt;figure style="display: flex; gap: 10px;">
+&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg" alt="图片1描述" style="width: 49%;object-fit: contain;">
+&lt;img src="https://www.xianmin.org/mp_wechat.jpg" alt="图片2描述" style="width: 49%;object-fit: contain;">
+&lt;/figure></description></item><item><title>Remote IT Concierge Startup Weekly (6) - First Consulting Business</title><link>https://www.xianmin.org/en/post/weekly/006/</link><pubDate>Sun, 23 Mar 2025 06:39:41 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/006/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your Remote IT Concierge, and this is my startup weekly journal.&lt;/p>
 &lt;h2 id="week-6-startup-actions">Week 6 Startup Actions&lt;/h2>
 &lt;p>My biggest achievement this week was receiving my first consulting job.&lt;/p>
 &lt;p>The client was a college student about to graduate and looking for work, who was a customer of mine two weeks ago.&lt;br>
