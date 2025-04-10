@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 30 Mar 2025 15:23:55 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>远程技术管家创业周记（七）- 爆单了</title><link>https://www.xianmin.org/post/weekly/007/</link><pubDate>Sun, 30 Mar 2025 15:23:55 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/007/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 06 Apr 2025 15:39:53 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>远程技术管家创业周记（八）- 手里有活心不慌</title><link>https://www.xianmin.org/post/weekly/008/</link><pubDate>Sun, 06 Apr 2025 15:39:53 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/008/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
+&lt;h2 id="第八周创业行动">第八周创业行动&lt;/h2>
+&lt;p>这周对接上了一家外包公司，估计他们人手不够吧，找到了我。&lt;br>
+一开始干了点小活，我看他们的项目是个长期活儿，还有挺多任务没做。&lt;br>
+&lt;strong>我主动跟经理说，干脆你们把我下午的时间包了，专做你们的活儿，我也不用自己去找活了。&lt;/strong>&lt;br>
+我的想法很简单，只做半天呢，双方都有灵活安排的空间，他们想节约成本，我也不想完全依赖一家公司，互惠共赢。&lt;/p>
+&lt;p>上个月，有位网友评论，「手里有活，心里不慌」。&lt;br>
+我觉得他说的有道理。&lt;/p>
+&lt;p>我想了想，这里的「有活」，可以拆解为​​「有技术」和「有客户」​​两个维度。&lt;br>
+&lt;strong>​​「有技术」不容易被市场淘汰。「有客户」不至于陷入被动。​&lt;/strong>&lt;/p>
+&lt;p>作为技术工作者，在过去，我只是单纯的提升技术，却一直忽略了「有客户」这个维度的积累。&lt;/p>
+&lt;h2 id="反思">反思&lt;/h2>
+&lt;ol>
+&lt;li>最近两周一直都比较忙碌，有点儿项目过载了。&lt;/li>
+&lt;li>时间分配不合理，个人项目进展缓慢。鱼与熊掌不可兼得啊……&lt;/li>
+&lt;li>想法太多，不够聚焦。&lt;/li>
+&lt;/ol>
+&lt;h2 id="一点分享">一点分享&lt;/h2>
+&lt;p>本周确实不知道该写点什么，思绪混乱，为了避免不至于太水，分享一下我的项目管理方法吧。&lt;/p>
+&lt;p>我用的是 PARA 文件管理方法（Project、Area、Resource 和 Archive），它的提出者是 Tiago Forte 。&lt;/p>
+&lt;p>日常短期工作，都在 &lt;code>Project/&lt;/code> 目录下进行，每起一个项目，就新建一个文件夹，在文件夹前备注上日期。&lt;/p>
+&lt;p>一个项目完成，不再动了，就把它移动到 &lt;code>Archive/&lt;/code> 目录下。&lt;/p>
+&lt;p>就这么简单。&lt;/p>
+&lt;h2 id="结束语">结束语&lt;/h2>
+&lt;p>得找时间休息休息了。&lt;/p>
+&lt;hr>
+&lt;p>如果你在生活中，遇到任何计算机相关的技术问题，欢迎扫描下方二维码，免费咨询。&lt;/p>
+&lt;figure style="display: flex; gap: 10px;">
+&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg" alt="图片1描述" style="width: 49%;object-fit: contain;">
+&lt;img src="https://www.xianmin.org/mp_wechat.jpg" alt="图片2描述" style="width: 49%;object-fit: contain;">
+&lt;/figure></description></item><item><title>远程技术管家创业周记（七）- 爆单了</title><link>https://www.xianmin.org/post/weekly/007/</link><pubDate>Sun, 30 Mar 2025 15:23:55 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/007/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
 &lt;h2 id="第七周创业行动">第七周创业行动&lt;/h2>
 &lt;p>这周爆单了。&lt;br>
 从周一开始，就一直在忙碌，每天晚上都要加班。&lt;br>
@@ -937,19 +967,4 @@ itemscope itemtype="http://schema.org/ImageObject" >
 肯定有人会说，这太平常了，他自己平时就是这么搜索的。&lt;br>
 不过，怎么说呢，我在生活中常常发现：许多我们以为稀松平常的小事，对有些人而言，可能只是才知道。&lt;br>
 包括他们以为稀松平常的小事，我也可能只是才知道。&lt;/p>
-&lt;p>关于「搜索思路」这个话题，其实还是有许多方面可谈的。比如：关键词的变换、联想、延伸（你没找到信息，大部分时候是因为选错了关键词）；语种的变换（换个语言，搜索结果就大不相同，英文不必说了，俄文、日文又是另一个信息世界）；用繁體字，港台术语，换个地区；使用不同的搜索引擎；使用特殊的协议网络，比如 &lt;a href="https://zh.wikipedia.org/zh-cn/EDonkey%E7%BD%91%E7%BB%9C">eDonkey网络&lt;/a> ；自己写个爬虫抓取后再搜索；直接上淘宝买……等等，这些留待我以后有灵感了再归纳总结吧。&lt;/p></description></item><item><title>兼职领队 - 香格里拉无底湖露营徒步</title><link>https://www.xianmin.org/post/2022/09-part-time-outdoor-tour-leader/</link><pubDate>Fri, 07 Oct 2022 22:15:10 +0800</pubDate><guid>https://www.xianmin.org/post/2022/09-part-time-outdoor-tour-leader/</guid><description>&lt;p>十一休假，经朋友推荐，我到某某户外俱乐部做了回兼职领队。以前在青旅，我也经常带队组织户外活动，但规模小、也并非自己的主业，有些业余。这次做兼职领队的主要目的， &lt;strong>是想了解专业的户外俱乐部是怎样组织活动的、整个活动的流程、以及专业领队在活动中具体的工作内容&lt;/strong> 。&lt;/p>
-&lt;p>尽管全国各地的疫情此起彼伏，好在丽江及丽江周边没受太大影响，无非是出行要提供 24 小时核酸，因此国庆长假还是有不少游客前来的。该户外俱乐部营销做的不错，报名参团的人数不少，比如我这次兼职的路线，团员就有 29 人（原本是 36 人，因为疫情原因有 7 人退团）。因为参团人数多，也就有了像我这样的兼职领队，辅佐主领队的工作，最主要的职责就是保障队员安全、避免走散。&lt;/p>
-&lt;p>此次活动，我们是前往 &lt;strong>香格里拉无底湖露营徒步&lt;/strong> 。无底湖是个小众景点，不经常在云南旅行的朋友估计都没听说过这个地方。无底湖营地海拔 3800 ，徒步路线是前往周边的另外两个高山湖泊——措姆湖和仙女湖。路途中的最高海拔大约在 4220 左右，路线不长，去相对较远的措姆湖往返也就 8km ，对于经常徒步的朋友而言应该说是挺轻松的。可即便是如此轻松的路线，还是有队员掉队、走不动，我也理解这种活动的意义了， &lt;strong>让不懂户外的城市居民有机会参与到户外活动中，亲近自然，享受徒步登山的乐趣，同时保障他们的人身安全&lt;/strong> 。通过与他们闲聊，我了解到，许多参加活动的队员，这是他们这几年中第一次露营徒步，还有队员是第一次走海拔超过 4000 的山路，他们平时在大城市生活工作，很少有类似的机会。&lt;/p>
-&lt;p>在没参加这次活动以前，我以为大部分队员是户外爱好者，有一些基本的户外经验，但实际情况并非如此，比如有人可能登山杖都没摸过。 &lt;strong>我眼中稀松平常的小事，对于有些人却是第一次接触。&lt;/strong>&lt;/p>
-&lt;p>要说这次活动有什么遗憾，就是参团的人数有点儿多了（不过要不是这么多人，也不会请到我）。人多了以后，就没办法每个人都照顾到，大家很难有近距离的沟通，很难交朋友，活动结束就散伙。这与我过去的经验相比，还是有明显的区别。过去我带队都是 8 人以下的小团队，一次户外活动下来，从陌生到相识，是结交朋友很好的方式。人多的话，就成了纯粹的工作了，要把服务做好。&lt;/p>
-&lt;p>活动结束后，顺利返回丽江，结束了这次短期兼职。我感觉 &lt;strong>偶尔做一做兼职领队还是挺不错的&lt;/strong> ，可以向专业人员学习，自己也能走一走路线，同时还能挣点小钱。让我想想下一次兼职做点什么，也许可以去做厨子吧，哈哈！&lt;/p>
-&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
-&lt;div class="box">
-&lt;figure itemprop="associatedMedia"
-itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img">
-&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/memory/2022/10-07.jpg" />
-&lt;/div>
-&lt;a href="https://www.xianmin.org/image/memory/2022/10-07.jpg" itemprop="contentUrl">&lt;/a>
-&lt;/figure>
-&lt;/div></description></item></channel></rss>
+&lt;p>关于「搜索思路」这个话题，其实还是有许多方面可谈的。比如：关键词的变换、联想、延伸（你没找到信息，大部分时候是因为选错了关键词）；语种的变换（换个语言，搜索结果就大不相同，英文不必说了，俄文、日文又是另一个信息世界）；用繁體字，港台术语，换个地区；使用不同的搜索引擎；使用特殊的协议网络，比如 &lt;a href="https://zh.wikipedia.org/zh-cn/EDonkey%E7%BD%91%E7%BB%9C">eDonkey网络&lt;/a> ；自己写个爬虫抓取后再搜索；直接上淘宝买……等等，这些留待我以后有灵感了再归纳总结吧。&lt;/p></description></item></channel></rss>
