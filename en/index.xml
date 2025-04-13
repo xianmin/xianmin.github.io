@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 12 Apr 2025 10:00:56 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Git Archive: Practical Guide for Efficient Packaging and Project Delivery</title><link>https://www.xianmin.org/en/post/2025/git-archive-tutorial-project-packaging/</link><pubDate>Sat, 12 Apr 2025 10:00:56 +0800</pubDate><guid>https://www.xianmin.org/en/post/2025/git-archive-tutorial-project-packaging/</guid><description>&lt;p>During software development and project delivery, we often need to package source code while excluding directories like &lt;code>.git/&lt;/code> and &lt;code>node_modules&lt;/code>.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 13 Apr 2025 14:59:39 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>A Powerful Tool for English Output | Remote IT Concierge Startup Weekly (9)</title><link>https://www.xianmin.org/en/post/weekly/009/</link><pubDate>Sun, 13 Apr 2025 14:59:39 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/009/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your IT tech butler, and this is my startup weekly journal.&lt;/p>
+&lt;h2 id="week-9-startup-actions">Week 9 Startup Actions&lt;/h2>
+&lt;p>I&amp;rsquo;ve developed a secondary application based on an open-source project, &lt;a href="https://github.com/xianmin/inpot-desktop">inpot-desktop: A cross-platform software focused on input translation&lt;/a>.&lt;/p>
+&lt;p>It primarily solves a personal need: inputting Chinese and outputting English.&lt;/p>
+&lt;p>The traditional method has a rather cumbersome process.&lt;br>
+Open a browser, enter a URL, open a webpage, input Chinese, copy, switch, paste.&lt;/p>
+&lt;p>Most translation tools solve the workflow of translating foreign languages into your native language.&lt;br>
+But there are few tools that translate from native language to foreign languages.&lt;/p>
+&lt;p>&lt;a href="https://github.com/pot-app/pot-desktop">Pot&lt;/a> is an open-source software released under the GPL license.&lt;br>
+It has quite comprehensive features: selection translation, input translation, screenshot translation, text recognition, etc., and it integrates with many translation interfaces.&lt;/p>
+&lt;p>However, during my usage, I still encountered some &amp;ldquo;uncomfortable&amp;rdquo; pain points.&lt;br>
+For example: when using input translation, you can&amp;rsquo;t switch windows, otherwise the source text would be lost; the translation window opens too slowly; and I don&amp;rsquo;t particularly like the vertical display format&amp;hellip;&lt;/p>
+&lt;p>Since it&amp;rsquo;s open-source software, I might as well modify it myself.&lt;/p>
+&lt;p>When communicating with international friends, you generally need to use English. If your English expression skills aren&amp;rsquo;t that fluent, how do you solve this problem?&lt;/p>
+&lt;hr>
+&lt;p>如果你在生活中，遇到任何计算机相关的技术问题，欢迎扫描下方二维码，免费咨询。&lt;/p>
+&lt;figure style="display: flex; gap: 10px;">
+&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg" alt="图片1描述" style="width: 49%;object-fit: contain;">
+&lt;img src="https://www.xianmin.org/mp_wechat.jpg" alt="图片2描述" style="width: 49%;object-fit: contain;">
+&lt;/figure></description></item><item><title>Git Archive: Practical Guide for Efficient Packaging and Project Delivery</title><link>https://www.xianmin.org/en/post/2025/git-archive-tutorial-project-packaging/</link><pubDate>Sat, 12 Apr 2025 10:00:56 +0800</pubDate><guid>https://www.xianmin.org/en/post/2025/git-archive-tutorial-project-packaging/</guid><description>&lt;p>During software development and project delivery, we often need to package source code while excluding directories like &lt;code>.git/&lt;/code> and &lt;code>node_modules&lt;/code>.&lt;/p>
 &lt;p>The common approach is to manually select the required files for packaging.&lt;br>
 Or, delete unwanted files first, then package the entire folder.&lt;br>
 Both methods require manual filtering.&lt;/p>
