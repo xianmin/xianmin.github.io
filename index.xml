@@ -1,4 +1,207 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 12 Apr 2025 10:00:56 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>远程技术管家创业周记（八）- 手里有活心不慌</title><link>https://www.xianmin.org/post/weekly/008/</link><pubDate>Sun, 06 Apr 2025 15:39:53 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/008/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 12 Apr 2025 10:00:56 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Git Archive：高效打包、项目交付的实用指南</title><link>https://www.xianmin.org/post/2025/git-archive-tutorial-project-packaging/</link><pubDate>Sat, 12 Apr 2025 10:00:56 +0800</pubDate><guid>https://www.xianmin.org/post/2025/git-archive-tutorial-project-packaging/</guid><description>&lt;p>在软件开发和项目交付过程中，我们经常需要将源码打包，但打包文件中我们又需要排除 &lt;code>.git/&lt;/code> 、&lt;code>node_modules&lt;/code> 等目录。&lt;/p>
+&lt;p>一般做法是，手动勾选需要的文件，进行打包。&lt;br>
+或者，把不想打包的文件先删除，再打包整个文件夹。&lt;br>
+这两种方法，都需要人为的筛选。&lt;/p>
+&lt;p>那么，有什么优雅的办法，方便打包项目源码呢？&lt;/p>
+&lt;h2 id="太长不看版">太长不看版&lt;/h2>
+&lt;p>使用 &lt;code>git archive&lt;/code> 命令打包，它会自动排除 &lt;code>.git/&lt;/code> ，以及 &lt;code>.gitignore&lt;/code> 中的文件。&lt;/p>
+&lt;p>在你的 Windows 系统中的 &lt;code>PowerShell Profile&lt;/code> 添加一个命令，&lt;code>Git-ArchiveProject&lt;/code> 。&lt;br>
+当你在项目目录使用这个命令，它就会打包整个项目，并在项目的上一层目录，输出一个名为 &lt;code>yyyyMMdd-projectName.zip&lt;/code> 的打包文件。&lt;/p>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1"> 1&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2"> 2&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3"> 3&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-4"> 4&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-5"> 5&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-6"> 6&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-7"> 7&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-8"> 8&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-9">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-9"> 9&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-10">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-10">10&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-11">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-11">11&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-12">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-12">12&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-13">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-13">13&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-14">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-14">14&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-15">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-15">15&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-16">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-16">16&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-17">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-17">17&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-18">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-18">18&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-powershell" data-lang="powershell">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#60a0b0;font-style:italic"># 创建当前工作目录的压缩包，输出到上一级目录&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#60a0b0;font-style:italic"># 压缩包中有一个顶级目录，名为当前的工作目录&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#60a0b0;font-style:italic"># 输出的压缩包，命名为 yyyyMMdd-projectName.zip&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#007020;font-weight:bold">function&lt;/span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#007020">Git-ArchiveProject&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#60a0b0;font-style:italic"># 获取当前工作目录的名称作为项目名称&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#bb60d5">$projectName&lt;/span> = &lt;span style="color:#007020">Split-Path&lt;/span> -Path (&lt;span style="color:#007020">Get-Location&lt;/span>) -Leaf
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#bb60d5">$date&lt;/span> = &lt;span style="color:#007020">Get-Date&lt;/span> -Format &lt;span style="color:#4070a0">&amp;#34;yyyyMMdd&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#bb60d5">$outputFile&lt;/span> = &lt;span style="color:#4070a0">&amp;#34;../&lt;/span>&lt;span style="color:#bb60d5">$date&lt;/span>&lt;span style="color:#4070a0">-&lt;/span>&lt;span style="color:#bb60d5">$projectName&lt;/span>&lt;span style="color:#4070a0">.zip&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> git archive --format=zip --prefix=&lt;span style="color:#4070a0">&amp;#34;&lt;/span>&lt;span style="color:#bb60d5">$projectName&lt;/span>&lt;span style="color:#4070a0">/&amp;#34;&lt;/span> --output=&lt;span style="color:#4070a0">&amp;#34;&lt;/span>&lt;span style="color:#bb60d5">$outputFile&lt;/span>&lt;span style="color:#4070a0">&amp;#34;&lt;/span> HEAD
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#007020;font-weight:bold">if&lt;/span> (&lt;span style="color:#bb60d5">$LASTEXITCODE&lt;/span> &lt;span style="color:#666">-eq&lt;/span> &lt;span style="color:#40a070">0&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#007020">Write-Host&lt;/span> &lt;span style="color:#4070a0">&amp;#34;Success: &lt;/span>&lt;span style="color:#bb60d5">$outputFile&lt;/span>&lt;span style="color:#4070a0">&amp;#34;&lt;/span> -ForegroundColor Green
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="color:#007020;font-weight:bold">else&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#007020">Write-Host&lt;/span> &lt;span style="color:#4070a0">&amp;#34;Fail: &lt;/span>&lt;span style="color:#bb60d5">$outputFile&lt;/span>&lt;span style="color:#4070a0">&amp;#34;&lt;/span> -ForegroundColor Red
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>如果你用的是 Linux ，可以用 Bash 写一个类似的脚本。&lt;/p>
+&lt;h2 id="什么是-git-archive">什么是 Git Archive？&lt;/h2>
+&lt;p>&lt;code>git archive&lt;/code> 是 Git 提供的一个命令，用于从 Git 仓库创建源代码归档文件（如 .zip 或 .tar），同时自动排除版本控制相关的信息。它主要用于：&lt;/p>
+&lt;ul>
+&lt;li>创建发布版本的源代码包&lt;/li>
+&lt;li>分发项目代码给无需访问版本历史的用户&lt;/li>
+&lt;li>部署应用到服务器环境&lt;/li>
+&lt;/ul>
+&lt;p>&lt;code>git archive&lt;/code> 的主要特点是&lt;strong>只打包已提交到仓库的文件&lt;/strong>，并自动排除 .git 目录和 .gitignore 中指定的文件。&lt;/p>
+&lt;h2 id="基本用法">基本用法&lt;/h2>
+&lt;h3 id="创建-zip-格式归档">创建 ZIP 格式归档&lt;/h3>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-1">1&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git archive --format&lt;span style="color:#666">=&lt;/span>zip --output&lt;span style="color:#666">=&lt;/span>project.zip HEAD&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h3 id="创建压缩的-tar-文件">创建压缩的 TAR 文件&lt;/h3>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-1">1&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git archive --format&lt;span style="color:#666">=&lt;/span>tar HEAD | gzip &amp;gt; project.tar.gz&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="关键参数详解">关键参数详解&lt;/h2>
+&lt;h3 id="1-格式指定---format">1. 格式指定: &lt;code>--format&lt;/code>&lt;/h3>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-1">1&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git archive --format&lt;span style="color:#666">=&lt;/span>zip HEAD&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>支持的格式主要有 &lt;code>zip&lt;/code>、&lt;code>tar&lt;/code>。如果未指定，Git 会根据输出文件名猜测格式。&lt;/p>
+&lt;h3 id="2-输出位置---output">2. 输出位置: &lt;code>--output&lt;/code>&lt;/h3>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-1">1&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git archive --format&lt;span style="color:#666">=&lt;/span>zip --output&lt;span style="color:#666">=&lt;/span>../releases/project.zip HEAD&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>指定归档文件的保存路径和文件名。&lt;/p>
+&lt;h3 id="3-添加前缀---prefix">3. 添加前缀: &lt;code>--prefix&lt;/code>&lt;/h3>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-1">1&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git archive --format&lt;span style="color:#666">=&lt;/span>zip --prefix&lt;span style="color:#666">=&lt;/span>project-name/ --output&lt;span style="color:#666">=&lt;/span>project.zip HEAD&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>在归档的所有文件前添加目录前缀，创建顶级目录。&lt;/p>
+&lt;h3 id="4-版本指定">4. 版本指定&lt;/h3>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-1">1&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-2">2&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-3">3&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-4">4&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-5">5&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-6">6&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-7">7&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-8">8&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#60a0b0;font-style:italic"># 归档特定标签版本&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git archive --format&lt;span style="color:#666">=&lt;/span>zip v1.0.0 --output&lt;span style="color:#666">=&lt;/span>release-1.0.0.zip
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#60a0b0;font-style:italic"># 归档特定分支最新提交&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git archive --format&lt;span style="color:#666">=&lt;/span>zip feature/new-ui --output&lt;span style="color:#666">=&lt;/span>new-ui.zip
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#60a0b0;font-style:italic"># 归档特定提交&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git archive --format&lt;span style="color:#666">=&lt;/span>zip 5a8e2 --output&lt;span style="color:#666">=&lt;/span>specific-commit.zip&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h3 id="5-限定目录归档">5. 限定目录归档&lt;/h3>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-1">1&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git archive --format&lt;span style="color:#666">=&lt;/span>zip HEAD:src --output&lt;span style="color:#666">=&lt;/span>src.zip&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>只归档仓库中的特定子目录。&lt;/p>
+&lt;h3 id="6-远程仓库---remote">6. 远程仓库: &lt;code>--remote&lt;/code>&lt;/h3>
+&lt;div class="highlight-container">
+&lt;button class="copy-code-btn outline">Copy&lt;/button>
+&lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-1">1&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git archive --remote&lt;span style="color:#666">=&lt;/span>origin --format&lt;span style="color:#666">=&lt;/span>zip master &amp;gt; remote-master.zip&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>从远程仓库创建归档（需要远程服务器支持）。&lt;/p>
+&lt;h2 id="归档文件范围说明">归档文件范围说明&lt;/h2>
+&lt;p>了解 &lt;code>git archive&lt;/code> 归档的文件范围非常重要：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>已提交文件&lt;/strong>：会被归档（最新提交版本）&lt;/li>
+&lt;li>&lt;strong>已修改但未提交的文件&lt;/strong>：不会被归档！&lt;/li>
+&lt;li>&lt;strong>已暂存但未提交的文件&lt;/strong>：不会被归档！&lt;/li>
+&lt;li>&lt;strong>未跟踪的文件&lt;/strong>：不会被归档！&lt;/li>
+&lt;li>&lt;strong>已忽略的文件&lt;/strong>：不会被归档！&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>特别注意&lt;/strong>：&lt;code>git archive&lt;/code> 无法包含 .git 目录，这是设计使然，目的是创建不包含版本控制信息的干净归档。&lt;/p>
+&lt;h2 id="与其他打包方式的对比">与其他打包方式的对比&lt;/h2>
+&lt;p>与使用 7-Zip、WinRAR 等工具手动打包相比，&lt;code>git archive&lt;/code> 具有以下优势：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>自动排除非跟踪文件&lt;/strong>：无需手动指定排除规则&lt;/li>
+&lt;li>&lt;strong>遵循 .gitignore 规则&lt;/strong>：保持与版本控制一致&lt;/li>
+&lt;li>&lt;strong>不包含 .git 目录&lt;/strong>：避免版本控制信息泄露&lt;/li>
+&lt;li>&lt;strong>可指定任意历史版本&lt;/strong>：便于创建特定版本的归档&lt;/li>
+&lt;/ol>
+&lt;h2 id="结语">结语&lt;/h2>
+&lt;p>不是每个客户都会使用 Git ，许多私有项目也不方便上传到网上。&lt;br>
+对于小型项目， zip 压缩包是最直接的交付方式。&lt;/p>
+&lt;p>以前我都是手动选择文件打包，实在低效。&lt;br>
+后面用 7z 的 exclude 命令参数排除一些文件，也还是有点儿麻烦。&lt;/p>
+&lt;p>直到发现了 &lt;code>git archive&lt;/code> 命令，项目交付方便多了。&lt;/p></description></item><item><title>远程技术管家创业周记（八）- 手里有活心不慌</title><link>https://www.xianmin.org/post/weekly/008/</link><pubDate>Sun, 06 Apr 2025 15:39:53 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/008/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
 &lt;h2 id="第八周创业行动">第八周创业行动&lt;/h2>
 &lt;p>这周对接上了一家外包公司，估计他们人手不够吧，找到了我。&lt;br>
 一开始干了点小活，我看他们的项目是个长期活儿，还有挺多任务没做。&lt;br>
@@ -952,19 +1155,4 @@ itemscope itemtype="http://schema.org/ImageObject" >
 可随着时间的推移，也都不是问题了。&lt;br>
 每一次痛苦，似乎都是一次脱敏的过程，它们使我更加坚强。&lt;/p>
 &lt;p>2022 年好像比较糟吧，未来还会更糟吗？我不知道。但都会过去的。&lt;br>
-加油吧！行动起来，做出成果，做出作品。至少，我还有梦想。&lt;/p></description></item><item><title>浅谈一种搜索思路——找到专业网站</title><link>https://www.xianmin.org/post/2022/10-search-and-find-professional-websites/</link><pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2022/10-search-and-find-professional-websites/</guid><description>&lt;p>关于 Google 等搜索引擎的搜索技巧，在网上已有很多，我就不多说了。&lt;br>
-本文分享一个搜索的 &lt;strong>思路&lt;/strong> ，这跟工具的使用技巧上有点差别。&lt;/p>
-&lt;p>如果你常用搜索引擎，你应该会发现： &lt;strong>有的信息，直接用搜索引擎搜不到，但是在一些特定的网站上能搜到。&lt;/strong>&lt;br>
-比如搜索论文，你可能会用谷歌学术或者知网；&lt;br>
-找电子书，你会去 Zlibrary 或者 Library Genesis；&lt;br>
-找代码片段，你会用 Github 上的搜索工具；&lt;br>
-等等，诸如此类。&lt;/p>
-&lt;p>那么这个搜索思路就是： &lt;strong>先搜索到拥有特定信息的专业网站，然后在这个或这些专业网站中搜索你想要的信息。&lt;/strong>&lt;/p>
-&lt;p>在 &lt;a href="https://www.xianmin.org/post/english-dictionary-recommend/">英文电子词典的选用建议&lt;/a> 中，我提到 LDOCE6 这部词典，当时还是费了一点时间，才找到资源。&lt;br>
-这篇小文是在三年前写的，具体的搜索过程我记不清了，但我记得我没有直接找到资源，是先找到了 &lt;a href="https://www.pdawiki.com/forum/forum.php">掌上百科 - PDAWIKI&lt;/a> 这个 &lt;strong>专门分享词典&lt;/strong> 的论坛，然后用论坛内的搜索引擎搜索到了我想要的信息。&lt;/p>
-&lt;p>（注：上面举的例子不是很好。现在 2022 年的情况和当时 2019 年有一点不同的是， pdawiki.com 这个网站中的很多帖子在当时没有被 Google 收录（当然，可能是我记错了），但现在可以用 Google 直接搜到了。能用 Google 直接搜到，在搜索难度上就降低了许多。收录的站点在变，搜索引擎也一直在变，但不影响本文所谈的搜索思路。）&lt;/p>
-&lt;p>这个搜索思路也不是什么特别有难度的事情，但很多人可能没往这个角度去想，这跟搜索引擎的使用技巧还是有点儿区别的。&lt;br>
-肯定有人会说，这太平常了，他自己平时就是这么搜索的。&lt;br>
-不过，怎么说呢，我在生活中常常发现：许多我们以为稀松平常的小事，对有些人而言，可能只是才知道。&lt;br>
-包括他们以为稀松平常的小事，我也可能只是才知道。&lt;/p>
-&lt;p>关于「搜索思路」这个话题，其实还是有许多方面可谈的。比如：关键词的变换、联想、延伸（你没找到信息，大部分时候是因为选错了关键词）；语种的变换（换个语言，搜索结果就大不相同，英文不必说了，俄文、日文又是另一个信息世界）；用繁體字，港台术语，换个地区；使用不同的搜索引擎；使用特殊的协议网络，比如 &lt;a href="https://zh.wikipedia.org/zh-cn/EDonkey%E7%BD%91%E7%BB%9C">eDonkey网络&lt;/a> ；自己写个爬虫抓取后再搜索；直接上淘宝买……等等，这些留待我以后有灵感了再归纳总结吧。&lt;/p></description></item></channel></rss>
+加油吧！行动起来，做出成果，做出作品。至少，我还有梦想。&lt;/p></description></item></channel></rss>
