@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 13 Apr 2025 14:59:39 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>一个输出英文的利器 | 远程技术管家创业周记（九）</title><link>https://www.xianmin.org/post/weekly/009/</link><pubDate>Sun, 13 Apr 2025 14:59:39 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/009/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 20 Apr 2025 16:25:20 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>没活儿了 | 远程技术管家创业周记（10）</title><link>https://www.xianmin.org/post/weekly/010/</link><pubDate>Sun, 20 Apr 2025 16:25:20 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/010/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
+&lt;h2 id="本周行动">本周行动&lt;/h2>
+&lt;p>过去的三周，手上一直积压着两三个活儿，导致基本没有时间休息，状态多少有点儿焦虑。&lt;br>
+本周婉拒了一些活儿，终于把积压的项目做完了。&lt;br>
+&lt;strong>接活儿就是这样，没活儿的时候焦虑，活儿多了也焦虑。&lt;/strong>&lt;/p>
+&lt;p>不过呢，我这人总是很乐观的。&lt;br>
+只要生存问题解决了，那就可以做点自己感兴趣的事儿了。&lt;/p>
+&lt;p>给别人干活儿呢，多少有点「迫不得已」，你要满足客户的需求。&lt;br>
+你比如说改网页样式，这改点边距，那改点颜色，很多时候挺无聊的，也没啥技术含量。&lt;br>
+但谁让人家是金主呢，金主怎么要求，咱就怎么执行。&lt;/p>
+&lt;p>尽管很多时候写代码是为了生存，但不管怎么说，我还是挺热爱这项活动的。&lt;br>
+遇到好玩儿的项目，钱多钱少不重要，能提升技术，能开阔视野，就挺好。&lt;br>
+项目好玩儿，还有人愿意给钱，那就是双倍快乐。&lt;br>
+这或许也是为什么我至今还是穷人吧。&lt;br>
+太容易知足了。&lt;/p>
+&lt;p>别人的代码写完了，终于可以写点「自己的代码」了。&lt;/p>
+&lt;h2 id="一个-vscode-扩展">一个 VSCode 扩展&lt;/h2>
+&lt;p>最近这两天，我写了一个 VSCode 扩展， &lt;strong>一键复制 Markdown 内容排版到微信公众号。&lt;/strong>&lt;br>
+类似这样的应用已经有好几个了，不过都是 Web 应用，Markdown 文本，得在他们的应用上编辑。&lt;/p>
+&lt;p>我以前的流程是这样的：&lt;br>
+在 VSCode 上编辑 Markdown 内容，写好后呢，复制到其他 Markdown 渲染应用，再复制到微信公众号。&lt;/p>
+&lt;p>&lt;strong>在 VSCode 上居然没有一个好用的渲染 Markdown 的扩展，可用于直接复制到微信公众号上的。&lt;/strong>&lt;/p>
+&lt;p>这让我很不舒服。&lt;/p>
+&lt;p>别人不想写，那就我自己写吧。&lt;/p>
+&lt;p>这篇短文，不出意外，公众号上的排版应该就是用我写的 VSCode 扩展，渲染出来的。&lt;/p>
+&lt;p>由于目前还有一些没有完善的功能，估计要到下周才能发布了，敬请期待！&lt;/p>
+&lt;h2 id="结束语">结束语&lt;/h2>
+&lt;p>你用 VSCode 编辑 Markdown 文本吗？&lt;/p>
+&lt;hr>
+&lt;p>如果你在生活中，遇到任何计算机相关的技术问题，欢迎扫描下方二维码，免费咨询。&lt;/p>
+&lt;figure style="display: flex; gap: 10px;">
+&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg" alt="图片1描述" style="width: 49%;object-fit: contain;">
+&lt;img src="https://www.xianmin.org/mp_wechat.jpg" alt="图片2描述" style="width: 49%;object-fit: contain;">
+&lt;/figure></description></item><item><title>一个输出英文的利器 | 远程技术管家创业周记（九）</title><link>https://www.xianmin.org/post/weekly/009/</link><pubDate>Sun, 13 Apr 2025 14:59:39 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/009/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
 &lt;h2 id="第九周创业行动">第九周创业行动&lt;/h2>
 &lt;p>基于一个开源项目进行了二次开发，&lt;a href="https://github.com/xianmin/inpot-desktop">inpot-desktop: 一个专注于输入翻译的跨平台软件&lt;/a> 。&lt;/p>
 &lt;p>主要解决我个人的一个需求：输入中文，输出英文。&lt;/p>
@@ -1034,31 +1067,4 @@ itemscope itemtype="http://schema.org/ImageObject" >
 &lt;p>&lt;a href="https://immersivetranslate.com/">沉浸式翻译 - 双语对照网页翻译插件_PDF文档翻译工具&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>重读《影响力》</title><link>https://www.xianmin.org/post/2023/00-read-influence/</link><pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate><guid>https://www.xianmin.org/post/2023/00-read-influence/</guid><description>&lt;p>几个影响力武器：互惠、承诺与一致、社会认同、喜好、权威、稀缺。&lt;/p>
-&lt;p>以下随便谈谈个人的一些启发。&lt;/p>
-&lt;p>价格高，并不代表商品好。我们首先要问的是，我对这件商品有足够的了解吗？&lt;br>
-最简单的办法：在淘宝上多看几个同类商品比较差异，可以做一个初步的判断，一件商品比其他同类商品价格高的大概原因是什么。&lt;/p>
-&lt;p>谨慎承诺。我的性格通常不太容易拒绝别人。&lt;br>
-「吃了几次亏」之后，我在面对一些自己不想答应的事情，学会了一种委婉的拒绝方式：让我想一想再答复你。&lt;br>
-这样就避免了当场给人做出承诺。&lt;/p>
-&lt;p>「互惠原理」应该说是几个影响力武器中最具有威力的，并且需要一些阅历、智慧去处理。&lt;br>
-我见过影响他人的高手，通常都会主动首先给予对方一些好处，这点好处呢，其实并不贵重，但容易使我对这个人产生好感，拉近距离。&lt;br>
-&lt;strong>我遇到过的高级骗子，都熟练掌握「互惠原理」，他们待人十分慷慨，此类人要拒绝他们是很难的，如果涉及到借钱，那可要相当小心了。&lt;/strong>&lt;/p>
-&lt;p>拒绝受「互惠」影响的一个办法：不要接受陌生人的好处，谨慎接受普通朋友的好处，至于好朋友的好处就分情况吧。&lt;br>
-&lt;strong>「互惠」不仅仅只是一些物质上的互惠，还包括人情。&lt;/strong>&lt;br>
-我感觉这里最大的难点就是社会上的人情往来。&lt;br>
-对于真正的朋友，人情往来是正常的，甚至是有必要的，它能加强彼此间的连接，大家相互帮忙，也能分担一些麻烦。&lt;br>
-很多时候，自己遇到麻烦事，真正的朋友是希望你去找他的，这样他以后需要你的时候也不会有太大的心理负担。&lt;br>
-可如何鉴别真正的朋友，倒是个大问题。&lt;br>
-而且，我这样把话说出来，反而就容易伤害友谊，破坏信任。&lt;br>
-真正的朋友似乎是不图回报的。&lt;br>
-可人都会权衡利弊得失，小事不计较，或许只是无足轻重而已。&lt;br>
-这也是为什么「人情互惠」更复杂的原因吧。&lt;br>
-在正常的社会关系中，「欠人情」总是要还的，有时候还不太容易还……&lt;br>
-有些东西也不可以明说……&lt;/p>
-&lt;p>《影响力》这本书，没记错的话，是在 2014 年就看过了。&lt;br>
-这次重读，是前段时间看到有人推荐，但自己却一点也想不起书中说了些什么。&lt;br>
-有意思的是，尽管自己记不起内容，但回想起这些年在应对一些事情的处理上，似乎受到了潜移默化的影响。&lt;br>
-尤其在自己亲身经历了一些事情之后，再回看书中的内容，也会有更多的认同。&lt;br>
-&lt;strong>这或许就是「阅读的影响力」吧，阅读一本书，我们可能下个月就把内容忘了，但它也许在不知不觉间就改变了我们今后人生的很多决策。&lt;/strong>&lt;/p>
-&lt;p>《影响力》是好人、老实人必须要读的一本书。人心叵测，避免被别人「利用」了，自己却不知道。&lt;/p></description></item></channel></rss>
+&lt;/div></description></item></channel></rss>

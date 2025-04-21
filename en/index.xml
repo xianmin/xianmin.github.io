@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 13 Apr 2025 14:59:39 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>A Powerful Tool for English Output | Remote IT Concierge Startup Weekly (9)</title><link>https://www.xianmin.org/en/post/weekly/009/</link><pubDate>Sun, 13 Apr 2025 14:59:39 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/009/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your IT tech butler, and this is my startup weekly journal.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 20 Apr 2025 16:25:20 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>No More Tasks | Remote Tech Manager Startup Weekly (10)</title><link>https://www.xianmin.org/en/post/weekly/010/</link><pubDate>Sun, 20 Apr 2025 16:25:20 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/010/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your Remote IT Concierge, and this is my startup weekly journal.&lt;/p>
+&lt;h2 id="this-weeks-actions">This Week&amp;rsquo;s Actions&lt;/h2>
+&lt;p>For the past three weeks, I&amp;rsquo;ve been backlogged with several projects, leaving virtually no time to rest and feeling somewhat anxious.&lt;br>
+This week, I declined some jobs and finally completed all the pending projects.&lt;br>
+&lt;strong>Freelancing is just like this—you&amp;rsquo;re anxious when there&amp;rsquo;s no work, and anxious when there&amp;rsquo;s too much work.&lt;/strong>&lt;/p>
+&lt;p>However, I&amp;rsquo;m always an optimistic person.&lt;br>
+Once survival issues are resolved, I can do things that interest me.&lt;/p>
+&lt;p>Working for others has an element of &amp;ldquo;necessity&amp;rdquo; as you must meet client demands.&lt;br>
+Take webpage styling, for example—adjusting margins here, changing colors there—often boring tasks with little technical challenge.&lt;br>
+But the client is paying, so I execute their requirements.&lt;/p>
+&lt;p>Although coding is often a means of survival, I still love this activity quite a bit.&lt;br>
+When I find interesting projects, the money isn&amp;rsquo;t important—what matters is improving my skills and broadening my horizons.&lt;br>
+When a project is fun AND someone is willing to pay for it, that&amp;rsquo;s double happiness.&lt;br>
+Perhaps this is why I&amp;rsquo;m still not wealthy.&lt;br>
+I&amp;rsquo;m too easily satisfied.&lt;/p>
+&lt;p>Now that I&amp;rsquo;ve finished coding for others, I can finally write &amp;ldquo;my own code.&amp;rdquo;&lt;/p>
+&lt;h2 id="a-vscode-extension">A VSCode Extension&lt;/h2>
+&lt;p>In the last couple of days, I created a VSCode extension that &lt;strong>formats and copies Markdown content to WeChat Official Accounts with one click.&lt;/strong>&lt;br>
+Several similar applications already exist, but they&amp;rsquo;re all web-based applications where you edit Markdown text on their platforms.&lt;/p>
+&lt;p>My previous workflow was:&lt;br>
+Edit Markdown content in VSCode, then copy it to another Markdown rendering application, and finally copy it to WeChat Official Accounts.&lt;/p>
+&lt;p>&lt;strong>Surprisingly, there isn&amp;rsquo;t a good VSCode extension for rendering Markdown that can be directly copied to WeChat Official Accounts.&lt;/strong>&lt;/p>
+&lt;p>This bothered me.&lt;/p>
+&lt;p>If others won&amp;rsquo;t build it, I&amp;rsquo;ll build it myself.&lt;/p>
+&lt;p>This short article, if all goes well, should be formatted on the Official Account using my VSCode extension.&lt;/p>
+&lt;p>Since there are still some unfinished features, it probably won&amp;rsquo;t be released until next week. Stay tuned!&lt;/p>
+&lt;h2 id="closing-thoughts">Closing Thoughts&lt;/h2>
+&lt;p>Do you use VSCode to edit Markdown text?&lt;/p>
+&lt;hr>
+&lt;p>如果你在生活中，遇到任何计算机相关的技术问题，欢迎扫描下方二维码，免费咨询。&lt;/p>
+&lt;figure style="display: flex; gap: 10px;">
+&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg" alt="图片1描述" style="width: 49%;object-fit: contain;">
+&lt;img src="https://www.xianmin.org/mp_wechat.jpg" alt="图片2描述" style="width: 49%;object-fit: contain;">
+&lt;/figure></description></item><item><title>A Powerful Tool for English Output | Remote IT Concierge Startup Weekly (9)</title><link>https://www.xianmin.org/en/post/weekly/009/</link><pubDate>Sun, 13 Apr 2025 14:59:39 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/009/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your IT tech butler, and this is my startup weekly journal.&lt;/p>
 &lt;h2 id="week-9-startup-actions">Week 9 Startup Actions&lt;/h2>
 &lt;p>I&amp;rsquo;ve developed a secondary application based on an open-source project, &lt;a href="https://github.com/xianmin/inpot-desktop">inpot-desktop: A cross-platform software focused on input translation&lt;/a>.&lt;/p>
 &lt;p>It primarily solves a personal need: inputting Chinese and outputting English.&lt;/p>
