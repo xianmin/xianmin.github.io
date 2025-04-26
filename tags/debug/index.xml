@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Debug on 贤民的博客</title><link>https://www.xianmin.org/tags/debug/</link><description>Recent content in Debug on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 01 Feb 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/debug/index.xml" rel="self" type="application/rss+xml"/><item><title>记录一次 Debug Windows 蓝屏 BSOD 修复</title><link>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</link><pubDate>Thu, 01 Feb 2024 14:20:00 +0800</pubDate><guid>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</guid><description>&lt;p>上个月，我为我的笔记本电脑 ThinkPad T480 加装了一块 1T 硬盘，升级了内存条到 64G 。&lt;br>
-之后电脑也是正常运行的，但不确定从什么时候开始，系统出现蓝屏了。&lt;br>
-最开始出现蓝屏，重启就好了，我不知道是什么原因，也没在意。&lt;br>
-后来发现，每次只要电脑从深度睡眠状态启动恢复，系统就会出现蓝屏，但进入到系统后，运行时又是正常的。&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Debug on 贤民的博客</title><link>https://www.xianmin.org/tags/debug/</link><description>Recent content in Debug on 贤民的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 01 Feb 2024 14:20:00 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/tags/debug/index.xml" rel="self" type="application/rss+xml"/><item><title>记录一次 Debug Windows 蓝屏 BSOD 修复</title><link>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</link><pubDate>Thu, 01 Feb 2024 14:20:00 +0800</pubDate><guid>https://www.xianmin.org/post/2024/02-debug-windows-bsod/</guid><description>&lt;p>上个月，我为我的笔记本电脑 ThinkPad T480 加装了一块 1T 硬盘，升级了内存条到 64G 。
+之后电脑也是正常运行的，但不确定从什么时候开始，系统出现蓝屏了。
+最开始出现蓝屏，重启就好了，我不知道是什么原因，也没在意。
+后来发现，每次只要电脑从深度睡眠状态启动恢复，系统就会出现蓝屏，但进入到系统后，运行时又是正常的。
 屏幕上的终止代码有以下三种： &lt;code>MEMORY_MANAGEMENT&lt;/code>, &lt;code>IRQL_NOT_LESS_OR_EQUAL&lt;/code>, &lt;code>PFN_LIST_CORRUPT&lt;/code> 。&lt;/p>
 
 &lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />

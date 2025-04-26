@@ -1,45 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>El Blog de Xianmin</title><link>https://www.xianmin.org/es/</link><description>Recent content on El Blog de Xianmin</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sun, 09 Mar 2025 05:50:37 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/es/index.xml" rel="self" type="application/rss+xml"/><item><title>Diario Semanal del Viaje de Autoayuda de un Programador Rural Desempleado de 33 Años (4) - Eficiencia de IA, Ingresos ¥1410</title><link>https://www.xianmin.org/es/post/weekly/004/</link><pubDate>Sun, 09 Mar 2025 05:50:37 +0000</pubDate><guid>https://www.xianmin.org/es/post/weekly/004/</guid><description>&lt;p>Hola, soy Xianmin, programador y su mayordomo técnico.&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>El Blog de Xianmin</title><link>https://www.xianmin.org/es/</link><description>Recent content on El Blog de Xianmin</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sun, 09 Mar 2025 05:50:37 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/es/index.xml" rel="self" type="application/rss+xml"/><item><title>Diario Semanal del Viaje de Autoayuda de un Programador Rural Desempleado de 33 Años (4) - Eficiencia de IA, Ingresos ¥1410</title><link>https://www.xianmin.org/es/post/weekly/004/</link><pubDate>Sun, 09 Mar 2025 05:50:37 +0000</pubDate><guid>https://www.xianmin.org/es/post/weekly/004/</guid><description>&lt;p>Hola, soy Xianmin, programador y su mayordomo técnico.
 Viviendo en el campo, desempleado durante dos años, abriéndome camino - aquí está mi diario semanal de autoayuda.&lt;/p>
 &lt;h2 id="acciones-de-autoayuda-de-esta-semana">Acciones de Autoayuda de Esta Semana&lt;/h2>
 &lt;p>Permítanme compartir algunos proyectos interesantes:&lt;/p>
 &lt;h3 id="automatización-de-hojas-de-cálculo-empresariales">Automatización de Hojas de Cálculo Empresariales&lt;/h3>
 &lt;p>Extracción de información de hojas de cálculo, descarga de archivos adjuntos a ubicaciones específicas, compresión y actualización de hojas de cálculo.&lt;/p>
-&lt;p>Usando Node.js &amp;amp; TypeScript.&lt;br>
-En años anteriores, la anotación de tipos era la parte más problemática de escribir TypeScript.&lt;br>
-Con la IA, la eficiencia de escribir TypeScript ha mejorado enormemente.&lt;br>
+&lt;p>Usando Node.js &amp;amp; TypeScript.
+En años anteriores, la anotación de tipos era la parte más problemática de escribir TypeScript.
+Con la IA, la eficiencia de escribir TypeScript ha mejorado enormemente.
 Los programas escritos en TypeScript son más robustos y más fáciles de mantener.&lt;/p>
 &lt;p>Desde mi experiencia, la IA sigue siendo un asistente - debo entender cada paso que da para evitar ser desviado.&lt;/p>
 &lt;h3 id="script-de-automatización-automa">Script de Automatización Automa&lt;/h3>
 &lt;p>Este fue un requisito de un cliente recurrente - automatizar el envío de currículums a sitios web de reclutamiento.&lt;/p>
 &lt;p>Esta tarea fue bastante laboriosa porque la IA no podía ayudar mucho; todo tenía que ser localizado y depurado manualmente.&lt;/p>
-&lt;p>Hay bastante demanda del mercado para scripts de automatización, ya que cada persona tiene diferentes procesos operativos que requieren soluciones personalizadas.&lt;br>
+&lt;p>Hay bastante demanda del mercado para scripts de automatización, ya que cada persona tiene diferentes procesos operativos que requieren soluciones personalizadas.
 Podría aceptar más de este tipo de pedidos en el futuro.&lt;/p>
 &lt;p>Para operaciones repetitivas, deberíamos dejar que las máquinas nos ayuden a completarlas automáticamente.&lt;/p>
 &lt;h3 id="conversión-de-vue-a-react">Conversión de Vue a React&lt;/h3>
 &lt;p>Este es otro ejemplo donde entender las acciones de la IA es crucial.&lt;/p>
 &lt;p>Los clientes usan IA para la conversión, pero cuando no entienden el código React y no pueden hacerlo funcionar, se quedan atascados.&lt;/p>
-&lt;p>Algunos dicen que la IA reemplazará a los programadores, pero por lo que vemos ahora, el reemplazo completo no es posible.&lt;br>
+&lt;p>Algunos dicen que la IA reemplazará a los programadores, pero por lo que vemos ahora, el reemplazo completo no es posible.
 Sin embargo, puede comprimir cinco días de trabajo en uno, o quizás lo que antes requería cinco personas ahora puede hacerlo una sola persona.&lt;/p>
-&lt;p>Esto beneficia a programadores freelance como yo.&lt;br>
-Anteriormente, un trabajo de dos días con precio de ¥1000 sería rechazado por los clientes por ser demasiado caro.&lt;br>
-Estos pedidos no podían cerrarse - los programadores necesitaban tiempo, mientras que los clientes tenían presupuestos insuficientes.&lt;br>
-Pero ahora solo toma dos horas, con precio de ¥200, que los clientes pueden aceptar.&lt;br>
-Así que, en mi opinión, &lt;strong>nuestro mercado potencial para pedidos se ha ampliado.&lt;/strong>&lt;br>
+&lt;p>Esto beneficia a programadores freelance como yo.
+Anteriormente, un trabajo de dos días con precio de ¥1000 sería rechazado por los clientes por ser demasiado caro.
+Estos pedidos no podían cerrarse - los programadores necesitaban tiempo, mientras que los clientes tenían presupuestos insuficientes.
+Pero ahora solo toma dos horas, con precio de ¥200, que los clientes pueden aceptar.
+Así que, en mi opinión, &lt;strong>nuestro mercado potencial para pedidos se ha ampliado.&lt;/strong>
 Sin embargo, desde la perspectiva del empleo, podría haber menos puestos, e incluso requisitos más altos.&lt;/p>
 &lt;h3 id="desarrollo-secundario-basado-en-wangeditor">Desarrollo Secundario Basado en WangEditor&lt;/h3>
 &lt;p>Este es un caso fallido.&lt;/p>
-&lt;p>El cliente inicialmente dijo que era arreglar dos errores.&lt;br>
+&lt;p>El cliente inicialmente dijo que era arreglar dos errores.
 Después de aceptar el pedido, descubrí que era un proyecto experimental, principalmente enfocado en el desarrollo secundario de WangEditor, un editor de texto enriquecido.&lt;/p>
-&lt;p>Los requisitos parecían simples en la superficie, pero en la práctica, requería profundizar en el código fuente de WangEditor.&lt;br>
-Después de pasar dos horas estudiando el código fuente, le dije al cliente que tomaría mucho más tiempo.&lt;br>
-Luego me enteré de que el cliente era un intermediario que me había transferido el pedido.&lt;br>
+&lt;p>Los requisitos parecían simples en la superficie, pero en la práctica, requería profundizar en el código fuente de WangEditor.
+Después de pasar dos horas estudiando el código fuente, le dije al cliente que tomaría mucho más tiempo.
+Luego me enteré de que el cliente era un intermediario que me había transferido el pedido.
 Suspiro, cuando no puedes comunicarte directamente con el cliente final, la comunicación se vuelve difícil, y finalmente tuve que reembolsar.&lt;/p>
 &lt;h2 id="ingresos-de-esta-semana">Ingresos de Esta Semana&lt;/h2>
-&lt;p>Completé 8 pedidos, totalizando ¥1410.&lt;br>
-Dos de estos fueron de clientes recurrentes.&lt;br>
+&lt;p>Completé 8 pedidos, totalizando ¥1410.
+Dos de estos fueron de clientes recurrentes.
 ¡Gracias a todos los jefes que me apoyaron!&lt;/p>
-&lt;p>&lt;strong>¿Por qué mucha gente enfrenta dificultades después del desempleo? Una razón principal es la falta de sus propios recursos de clientes.&lt;/strong>&lt;br>
-Cuando anteriormente dirigía un albergue juvenil, casi el 30% de la facturación anual provenía de clientes regulares.&lt;br>
+&lt;p>&lt;strong>¿Por qué mucha gente enfrenta dificultades después del desempleo? Una razón principal es la falta de sus propios recursos de clientes.&lt;/strong>
+Cuando anteriormente dirigía un albergue juvenil, casi el 30% de la facturación anual provenía de clientes regulares.
 Pero después de volver a la programación, los recursos de clientes del albergue se volvieron mayormente inutilizables, y tuve que empezar de nuevo.&lt;/p>
 &lt;p>&lt;strong>Las relaciones con los clientes necesitan acumularse, y la confianza requiere tiempo y casos de colaboración para profundizarse.&lt;/strong>&lt;/p>
 &lt;p>Actualmente, no tengo muchos clientes regulares, y todavía estoy aprendiendo e imitando - por ejemplo, agregando la información de contacto de los clientes para que puedan pensar en mí cuando tengan necesidades futuras.&lt;/p>
@@ -47,26 +47,26 @@ Pero después de volver a la programación, los recursos de clientes del albergu
 &lt;p>Si encuentras algún problema técnico relacionado con computadoras en tu vida, siéntete libre de escanear el código QR a continuación para una consulta gratuita.&lt;/p>
 &lt;p>&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg">&lt;/p></description></item><item><title>Semanal: Autosalvación de un programador desempleado de 33 años (2) - Escribiendo artículos académicos</title><link>https://www.xianmin.org/es/post/weekly/002/</link><pubDate>Sun, 23 Feb 2025 00:31:09 +0000</pubDate><guid>https://www.xianmin.org/es/post/weekly/002/</guid><description>&lt;p>Hola, soy Xianmin, tengo 33 años, soy un programador que vive en el campo, desempleado desde hace dos años.&lt;/p>
 &lt;h2 id="acciones-de-autoayuda-de-esta-semana">Acciones de autoayuda de esta semana&lt;/h2>
-&lt;p>El fin de semana pasado, acepté un trabajo de redacción de un artículo académico sobre aprendizaje automático.&lt;br>
-No sé mucho sobre aprendizaje automático, pero puedo escribir algo de Python.&lt;br>
-Con la ayuda de IA disponible, acepté valientemente el proyecto.&lt;br>
+&lt;p>El fin de semana pasado, acepté un trabajo de redacción de un artículo académico sobre aprendizaje automático.
+No sé mucho sobre aprendizaje automático, pero puedo escribir algo de Python.
+Con la ayuda de IA disponible, acepté valientemente el proyecto.
 Mirando hacia atrás ahora, fue un poco presuntuoso.&lt;/p>
-&lt;p>Pasé cuatro días completos programando. Durante los primeros dos días con poco progreso, casi me rindo.&lt;br>
-El tercer día, las cosas comenzaron a avanzar, pero las limitaciones de hardware y los bucles de depuración de IA se volvieron desafiantes.&lt;br>
-El principal problema era mi falta de comprensión. Cuando le pedía explicaciones a la IA, podía leer cada palabra pero no podía entender por qué las cosas se hacían de ciertas maneras.&lt;br>
-No tenía tiempo para estudiar los fundamentos, así que tuve que seguir adelante con innumerables nuevas conversaciones con la IA y experimentos.&lt;br>
-La parte más problemática fue la pérdida de contexto - tenía que seguir resumiendo nuestro progreso anterior para la IA.&lt;br>
-Sin embargo, logré alcanzar los objetivos experimentales, con solo un día restante antes de la fecha límite del cliente.&lt;br>
+&lt;p>Pasé cuatro días completos programando. Durante los primeros dos días con poco progreso, casi me rindo.
+El tercer día, las cosas comenzaron a avanzar, pero las limitaciones de hardware y los bucles de depuración de IA se volvieron desafiantes.
+El principal problema era mi falta de comprensión. Cuando le pedía explicaciones a la IA, podía leer cada palabra pero no podía entender por qué las cosas se hacían de ciertas maneras.
+No tenía tiempo para estudiar los fundamentos, así que tuve que seguir adelante con innumerables nuevas conversaciones con la IA y experimentos.
+La parte más problemática fue la pérdida de contexto - tenía que seguir resumiendo nuestro progreso anterior para la IA.
+Sin embargo, logré alcanzar los objetivos experimentales, con solo un día restante antes de la fecha límite del cliente.
 En el último día, produje apresuradamente un artículo de casi 20,000 palabras, por supuesto, con la ayuda de la IA.&lt;/p>
-&lt;p>Cuando entregué el trabajo, me sentí completamente agotado de energía durante toda la semana.&lt;br>
-Era mi primera vez escribiendo un artículo académico y mi primera vez programando para aprendizaje automático.&lt;br>
-Este trabajo no solo era salir de mi zona de confort - era como rodar en la oscuridad incómoda.&lt;br>
-Aunque no estoy completamente satisfecho con la calidad del artículo y el código, al menos entregué algo al cliente.&lt;br>
+&lt;p>Cuando entregué el trabajo, me sentí completamente agotado de energía durante toda la semana.
+Era mi primera vez escribiendo un artículo académico y mi primera vez programando para aprendizaje automático.
+Este trabajo no solo era salir de mi zona de confort - era como rodar en la oscuridad incómoda.
+Aunque no estoy completamente satisfecho con la calidad del artículo y el código, al menos entregué algo al cliente.
 ¡Este dinero no fue fácil de ganar!&lt;/p>
-&lt;p>En retrospectiva, para un profesional, esto habría sido un trabajo de dos días.&lt;br>
-Un día para programar, un día para escribir - equivalente a 500 por día, lo que lo hace algo factible.&lt;br>
-Mi principal desafío era estar completamente desconocedor del aprendizaje automático, lo que requiere tiempo para aprender.&lt;br>
-Estimo que tomaría dos semanas comprender los conocimientos básicos.&lt;br>
+&lt;p>En retrospectiva, para un profesional, esto habría sido un trabajo de dos días.
+Un día para programar, un día para escribir - equivalente a 500 por día, lo que lo hace algo factible.
+Mi principal desafío era estar completamente desconocedor del aprendizaje automático, lo que requiere tiempo para aprender.
+Estimo que tomaría dos semanas comprender los conocimientos básicos.
 Pero no estoy seguro de qué más podría hacer con conocimientos de aprendizaje automático además de escribir artículos.&lt;/p>
 &lt;h2 id="ingresos-de-esta-semana">Ingresos de esta semana&lt;/h2>
 &lt;ol>
@@ -77,46 +77,46 @@ Pero no estoy seguro de qué más podría hacer con conocimientos de aprendizaje
 &lt;li>¿Has tenido experiencia en tutoría de redacción de artículos académicos?&lt;/li>
 &lt;li>¿Crees que vale la pena invertir tiempo en aprender aprendizaje automático?&lt;/li>
 &lt;/ol>
-&lt;p>Si tienes alguna reflexión sobre el viaje de autoayuda de un programador desempleado de mediana edad, por favor deja un comentario. ¡Gracias! 🙏&lt;/p></description></item><item><title>Semanal: Autosalvación de un programador desempleado de 33 años (1)</title><link>https://www.xianmin.org/es/post/weekly/001/</link><pubDate>Sun, 16 Feb 2025 02:23:22 +0000</pubDate><guid>https://www.xianmin.org/es/post/weekly/001/</guid><description>&lt;p>Hola, soy Xianmin, tengo 33 años, soy un programador que vive en el campo, desempleado desde hace dos años.&lt;br>
-Tengo educación secundaria, aprendí programación de forma autodidacta y comencé mi carrera en Shenzhen.&lt;br>
-Más tarde, dirigí un hostal juvenil en Lijiang durante 7 años, que cerró debido a la pandemia y otras razones.&lt;br>
-No queriendo volver a las grandes ciudades, hice trabajo remoto durante más de un año.&lt;br>
-Hace dos años, me fui de viaje con mi novia, y mi trabajo de programación se interrumpió nuevamente.&lt;br>
-Durante los viajes, ayudé a mi novia con las cuentas de redes sociales, grabación de videos y creación de contenido.&lt;br>
-El año pasado mostró algunas mejoras, pero los ingresos no eran suficientes para cubrir ni siquiera la mitad de los gastos de una persona.&lt;br>
+&lt;p>Si tienes alguna reflexión sobre el viaje de autoayuda de un programador desempleado de mediana edad, por favor deja un comentario. ¡Gracias! 🙏&lt;/p></description></item><item><title>Semanal: Autosalvación de un programador desempleado de 33 años (1)</title><link>https://www.xianmin.org/es/post/weekly/001/</link><pubDate>Sun, 16 Feb 2025 02:23:22 +0000</pubDate><guid>https://www.xianmin.org/es/post/weekly/001/</guid><description>&lt;p>Hola, soy Xianmin, tengo 33 años, soy un programador que vive en el campo, desempleado desde hace dos años.
+Tengo educación secundaria, aprendí programación de forma autodidacta y comencé mi carrera en Shenzhen.
+Más tarde, dirigí un hostal juvenil en Lijiang durante 7 años, que cerró debido a la pandemia y otras razones.
+No queriendo volver a las grandes ciudades, hice trabajo remoto durante más de un año.
+Hace dos años, me fui de viaje con mi novia, y mi trabajo de programación se interrumpió nuevamente.
+Durante los viajes, ayudé a mi novia con las cuentas de redes sociales, grabación de videos y creación de contenido.
+El año pasado mostró algunas mejoras, pero los ingresos no eran suficientes para cubrir ni siquiera la mitad de los gastos de una persona.
 El sueño de ser apoyado financieramente por la creación de contenido se desvaneció.&lt;/p>
-&lt;p>Este año, para resolver problemas de supervivencia, debo hacer algunos cambios.&lt;br>
+&lt;p>Este año, para resolver problemas de supervivencia, debo hacer algunos cambios.
 Comencemos con este diario semanal, registrando mis acciones de autosalvación de la semana pasada.&lt;/p>
 &lt;h2 id="cómo-salvarme-a-mí-mismo">Cómo salvarme a mí mismo&lt;/h2>
-&lt;p>El año pasado, probé brevemente el camino del desarrollo independiente, creando una aplicación de lectura llamada EvoReader.&lt;br>
-Pero después del lanzamiento, hubo poca retroalimentación, y muchas características no se completaron, así que pausé el proyecto.&lt;br>
-Como no había descubierto cómo promocionarlo o monetizarlo, continuar el desarrollo solo aumentaría los costos hundidos.&lt;br>
-Me faltaba confianza en este proyecto.&lt;br>
-Luego comencé a aprender y entender cómo lo hacen otros desarrolladores independientes, cómo ganan dinero.&lt;br>
-La realidad es mucho más dura de lo que imaginaba, con la mayoría de los trabajos de desarrolladores independientes desapareciendo en el vasto océano de Internet.&lt;br>
-Incluso para los pocos que destacan, la monetización es extremadamente difícil.&lt;br>
-Tener éxito en este camino requiere capacidades integrales excepcionalmente altas, y consume mucho tiempo con resultados inciertos.&lt;br>
+&lt;p>El año pasado, probé brevemente el camino del desarrollo independiente, creando una aplicación de lectura llamada EvoReader.
+Pero después del lanzamiento, hubo poca retroalimentación, y muchas características no se completaron, así que pausé el proyecto.
+Como no había descubierto cómo promocionarlo o monetizarlo, continuar el desarrollo solo aumentaría los costos hundidos.
+Me faltaba confianza en este proyecto.
+Luego comencé a aprender y entender cómo lo hacen otros desarrolladores independientes, cómo ganan dinero.
+La realidad es mucho más dura de lo que imaginaba, con la mayoría de los trabajos de desarrolladores independientes desapareciendo en el vasto océano de Internet.
+Incluso para los pocos que destacan, la monetización es extremadamente difícil.
+Tener éxito en este camino requiere capacidades integrales excepcionalmente altas, y consume mucho tiempo con resultados inciertos.
 Necesito ganar dinero urgentemente ahora, así que este camino solo puede ser un proyecto secundario en mi tiempo libre.&lt;/p>
 &lt;h2 id="descartando-la-búsqueda-de-trabajo-en-grandes-ciudades">Descartando la búsqueda de trabajo en grandes ciudades&lt;/h2>
-&lt;p>Habiendo vivido en el Yunnan rural durante muchos años, estoy demasiado acostumbrado a la libertad y no puedo volver a las grandes ciudades.&lt;br>
+&lt;p>Habiendo vivido en el Yunnan rural durante muchos años, estoy demasiado acostumbrado a la libertad y no puedo volver a las grandes ciudades.
 Con mi currículum, la búsqueda de trabajo sería extremadamente desafiante.&lt;/p>
 &lt;h2 id="encontrar-trabajo-remoto">Encontrar trabajo remoto&lt;/h2>
-&lt;p>Usualmente, solo los pequeños equipos de startups podrían necesitar un programador versátil como yo.&lt;br>
+&lt;p>Usualmente, solo los pequeños equipos de startups podrían necesitar un programador versátil como yo.
 Esto es relativamente adecuado pero requiere la oportunidad correcta.&lt;/p>
 &lt;h2 id="trabajo-freelance">Trabajo freelance&lt;/h2>
-&lt;p>El año pasado, tomé algunos pequeños proyectos en una plataforma, lo que demostró ser un camino viable.&lt;br>
-Sin embargo, había muy pocos proyectos con tarifas bajas.&lt;br>
-No había acumulado suficiente experiencia, habiendo tenido muchas opciones antes, no puse mucho esfuerzo en el trabajo freelance.&lt;br>
+&lt;p>El año pasado, tomé algunos pequeños proyectos en una plataforma, lo que demostró ser un camino viable.
+Sin embargo, había muy pocos proyectos con tarifas bajas.
+No había acumulado suficiente experiencia, habiendo tenido muchas opciones antes, no puse mucho esfuerzo en el trabajo freelance.
 Solía evitar proyectos que no me interesaban, pero ahora debo cambiar mi mentalidad.&lt;/p>
-&lt;p>El trabajo freelance proporciona retroalimentación simple y directa - cada proyecto significa ingresos.&lt;br>
-Con el apoyo de la IA, la eficiencia ha mejorado enormemente.&lt;br>
+&lt;p>El trabajo freelance proporciona retroalimentación simple y directa - cada proyecto significa ingresos.
+Con el apoyo de la IA, la eficiencia ha mejorado enormemente.
 Este es mi camino principal para la autosalvación a corto plazo.&lt;/p>
 &lt;h2 id="escritura-de-contenido">Escritura de contenido&lt;/h2>
-&lt;p>He tenido un sitio web personal durante mucho tiempo, que me ayudó a encontrar trabajos y conocer nuevos amigos.&lt;br>
-Pero, bueno, la producción era demasiado escasa, la frecuencia de actualización demasiado baja, principalmente porque era demasiado perezoso.&lt;br>
+&lt;p>He tenido un sitio web personal durante mucho tiempo, que me ayudó a encontrar trabajos y conocer nuevos amigos.
+Pero, bueno, la producción era demasiado escasa, la frecuencia de actualización demasiado baja, principalmente porque era demasiado perezoso.
 Este camino sirve para el trabajo freelance a corto plazo y trabajos personales potenciales a largo plazo.&lt;/p>
 &lt;h2 id="escribir-más-aplicaciones-utilitarias">Escribir más aplicaciones utilitarias&lt;/h2>
-&lt;p>Ahora he dominado un proceso de desarrollo de IA para uso personal.&lt;br>
+&lt;p>Ahora he dominado un proceso de desarrollo de IA para uso personal.
 La eficiencia de desarrollo se dispara mientras tenga ideas.&lt;/p>
 &lt;h2 id="logros-de-esta-semana">Logros de esta semana&lt;/h2>
 &lt;ol>
@@ -136,21 +136,21 @@ La eficiencia de desarrollo se dispara mientras tenga ideas.&lt;/p>
 &lt;p>Si tienes algún pensamiento sobre esta acción de autosalvación de un programador desempleado de mediana edad, por favor deja un comentario, ¡gracias! 🙏&lt;/p></description></item><item><title>Por qué elegí Vivaldi como mi navegador principal</title><link>https://www.xianmin.org/es/post/2025/why-choose-vivaldi-browser-vs-chrome/</link><pubDate>Thu, 13 Feb 2025 12:57:01 +0800</pubDate><guid>https://www.xianmin.org/es/post/2025/why-choose-vivaldi-browser-vs-chrome/</guid><description>&lt;p>Usé Chrome durante muchos años. Era rápido, tenía muchas extensiones y hacía que la depuración web fuera conveniente - satisfacía todas mis necesidades.&lt;/p>
 &lt;p>Sin embargo, un día, Chrome cambió repentinamente su estilo de interfaz, haciéndolo incómodo de usar.&lt;/p>
 &lt;p>El principal problema fue el cambio en el menú del clic derecho, donde las opciones del menú tenían un espaciado más grande y requerían desplazamiento cuando había demasiadas opciones.&lt;/p>
-&lt;p>Inicialmente, podía volver al estilo de interfaz antiguo a través de &lt;code>chrome://flags/&lt;/code>, pero más tarde esa opción fue completamente eliminada.&lt;br>
+&lt;p>Inicialmente, podía volver al estilo de interfaz antiguo a través de &lt;code>chrome://flags/&lt;/code>, pero más tarde esa opción fue completamente eliminada.
 Mientras buscaba nuevas soluciones en línea, me encontré con alguien que mencionaba Vivaldi.&lt;/p>
 &lt;p>Así que decidí probarlo.&lt;/p>
 &lt;p>&lt;img alt="Vivaldi Browser" src="https://www.xianmin.org/post/2025/why-choose-vivaldi-browser-vs-chrome/vivaldi.jpg" title="Interfaz del navegador Vivaldi">&lt;/p>
 &lt;p>Cambiar a Vivaldi no fue difícil en absoluto ya que también es un navegador basado en Chromium que puede instalar extensiones directamente desde la Chrome Web Store.&lt;/p>
 &lt;p>Migré mis marcadores, instalé mis extensiones de uso frecuente, y la mayoría de mis necesidades fueron satisfechas.&lt;/p>
 &lt;p>&lt;strong>El menú del clic derecho de Vivaldi se puede cambiar al estilo antiguo, que fue mi motivación inicial para usarlo.&lt;/strong>&lt;/p>
-&lt;p>Vivaldi añade muchas características adicionales sobre Chromium.&lt;br>
+&lt;p>Vivaldi añade muchas características adicionales sobre Chromium.
 No las usé mucho al principio, pero más tarde descubrí que algunas características eran bastante útiles.&lt;/p>
 &lt;p>Aquí están varias características que uso con más frecuencia:&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Gestión de pestañas en la barra lateral.&lt;/strong>&lt;/li>
 &lt;/ol>
-&lt;p>Cuando tienes muchas pestañas abiertas, es difícil ver sus títulos o encontrar la pestaña a la que quieres cambiar.&lt;br>
-El administrador de ventanas lateral lo hace conveniente.&lt;br>
+&lt;p>Cuando tienes muchas pestañas abiertas, es difícil ver sus títulos o encontrar la pestaña a la que quieres cambiar.
+El administrador de ventanas lateral lo hace conveniente.
 Es fácil cambiar entre pestañas y realizar operaciones como eliminar y mover pestañas.&lt;/p>
 &lt;ol start="2">
 &lt;li>&lt;strong>Mosaico de múltiples páginas.&lt;/strong>&lt;/li>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 20 Apr 2025 16:25:20 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>No More Tasks | Remote Tech Manager Startup Weekly (10)</title><link>https://www.xianmin.org/en/post/weekly/010/</link><pubDate>Sun, 20 Apr 2025 16:25:20 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/010/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your Remote IT Concierge, and this is my startup weekly journal.&lt;/p>
 &lt;h2 id="this-weeks-actions">This Week&amp;rsquo;s Actions&lt;/h2>
-&lt;p>For the past three weeks, I&amp;rsquo;ve been backlogged with several projects, leaving virtually no time to rest and feeling somewhat anxious.&lt;br>
-This week, I declined some jobs and finally completed all the pending projects.&lt;br>
+&lt;p>For the past three weeks, I&amp;rsquo;ve been backlogged with several projects, leaving virtually no time to rest and feeling somewhat anxious.
+This week, I declined some jobs and finally completed all the pending projects.
 &lt;strong>Freelancing is just like this—you&amp;rsquo;re anxious when there&amp;rsquo;s no work, and anxious when there&amp;rsquo;s too much work.&lt;/strong>&lt;/p>
-&lt;p>However, I&amp;rsquo;m always an optimistic person.&lt;br>
+&lt;p>However, I&amp;rsquo;m always an optimistic person.
 Once survival issues are resolved, I can do things that interest me.&lt;/p>
-&lt;p>Working for others has an element of &amp;ldquo;necessity&amp;rdquo; as you must meet client demands.&lt;br>
-Take webpage styling, for example—adjusting margins here, changing colors there—often boring tasks with little technical challenge.&lt;br>
+&lt;p>Working for others has an element of &amp;ldquo;necessity&amp;rdquo; as you must meet client demands.
+Take webpage styling, for example—adjusting margins here, changing colors there—often boring tasks with little technical challenge.
 But the client is paying, so I execute their requirements.&lt;/p>
-&lt;p>Although coding is often a means of survival, I still love this activity quite a bit.&lt;br>
-When I find interesting projects, the money isn&amp;rsquo;t important—what matters is improving my skills and broadening my horizons.&lt;br>
-When a project is fun AND someone is willing to pay for it, that&amp;rsquo;s double happiness.&lt;br>
-Perhaps this is why I&amp;rsquo;m still not wealthy.&lt;br>
+&lt;p>Although coding is often a means of survival, I still love this activity quite a bit.
+When I find interesting projects, the money isn&amp;rsquo;t important—what matters is improving my skills and broadening my horizons.
+When a project is fun AND someone is willing to pay for it, that&amp;rsquo;s double happiness.
+Perhaps this is why I&amp;rsquo;m still not wealthy.
 I&amp;rsquo;m too easily satisfied.&lt;/p>
 &lt;p>Now that I&amp;rsquo;ve finished coding for others, I can finally write &amp;ldquo;my own code.&amp;rdquo;&lt;/p>
 &lt;h2 id="a-vscode-extension">A VSCode Extension&lt;/h2>
-&lt;p>In the last couple of days, I created a VSCode extension that &lt;strong>formats and copies Markdown content to WeChat Official Accounts with one click.&lt;/strong>&lt;br>
+&lt;p>In the last couple of days, I created a VSCode extension that &lt;strong>formats and copies Markdown content to WeChat Official Accounts with one click.&lt;/strong>
 Several similar applications already exist, but they&amp;rsquo;re all web-based applications where you edit Markdown text on their platforms.&lt;/p>
-&lt;p>My previous workflow was:&lt;br>
+&lt;p>My previous workflow was:
 Edit Markdown content in VSCode, then copy it to another Markdown rendering application, and finally copy it to WeChat Official Accounts.&lt;/p>
 &lt;p>&lt;strong>Surprisingly, there isn&amp;rsquo;t a good VSCode extension for rendering Markdown that can be directly copied to WeChat Official Accounts.&lt;/strong>&lt;/p>
 &lt;p>This bothered me.&lt;/p>
@@ -35,13 +35,13 @@ Edit Markdown content in VSCode, then copy it to another Markdown rendering appl
 &lt;h2 id="week-9-startup-actions">Week 9 Startup Actions&lt;/h2>
 &lt;p>I&amp;rsquo;ve developed a secondary application based on an open-source project, &lt;a href="https://github.com/xianmin/inpot-desktop">inpot-desktop: A cross-platform software focused on input translation&lt;/a>.&lt;/p>
 &lt;p>It primarily solves a personal need: inputting Chinese and outputting English.&lt;/p>
-&lt;p>The traditional method has a rather cumbersome process.&lt;br>
+&lt;p>The traditional method has a rather cumbersome process.
 Open a browser, enter a URL, open a webpage, input Chinese, copy, switch, paste.&lt;/p>
-&lt;p>Most translation tools solve the workflow of translating foreign languages into your native language.&lt;br>
+&lt;p>Most translation tools solve the workflow of translating foreign languages into your native language.
 But there are few tools that translate from native language to foreign languages.&lt;/p>
-&lt;p>&lt;a href="https://github.com/pot-app/pot-desktop">Pot&lt;/a> is an open-source software released under the GPL license.&lt;br>
+&lt;p>&lt;a href="https://github.com/pot-app/pot-desktop">Pot&lt;/a> is an open-source software released under the GPL license.
 It has quite comprehensive features: selection translation, input translation, screenshot translation, text recognition, etc., and it integrates with many translation interfaces.&lt;/p>
-&lt;p>However, during my usage, I still encountered some &amp;ldquo;uncomfortable&amp;rdquo; pain points.&lt;br>
+&lt;p>However, during my usage, I still encountered some &amp;ldquo;uncomfortable&amp;rdquo; pain points.
 For example: when using input translation, you can&amp;rsquo;t switch windows, otherwise the source text would be lost; the translation window opens too slowly; and I don&amp;rsquo;t particularly like the vertical display format&amp;hellip;&lt;/p>
 &lt;p>Since it&amp;rsquo;s open-source software, I might as well modify it myself.&lt;/p>
 &lt;p>When communicating with international friends, you generally need to use English. If your English expression skills aren&amp;rsquo;t that fluent, how do you solve this problem?&lt;/p>
@@ -51,13 +51,13 @@ For example: when using input translation, you can&amp;rsquo;t switch windows, o
 &lt;img src="https://www.xianmin.org/wechat_qrcode.jpg" alt="图片1描述" style="width: 49%;object-fit: contain;">
 &lt;img src="https://www.xianmin.org/mp_wechat.jpg" alt="图片2描述" style="width: 49%;object-fit: contain;">
 &lt;/figure></description></item><item><title>Git Archive: Practical Guide for Efficient Packaging and Project Delivery</title><link>https://www.xianmin.org/en/post/2025/git-archive-tutorial-project-packaging/</link><pubDate>Sat, 12 Apr 2025 10:00:56 +0800</pubDate><guid>https://www.xianmin.org/en/post/2025/git-archive-tutorial-project-packaging/</guid><description>&lt;p>During software development and project delivery, we often need to package source code while excluding directories like &lt;code>.git/&lt;/code> and &lt;code>node_modules&lt;/code>.&lt;/p>
-&lt;p>The common approach is to manually select the required files for packaging.&lt;br>
-Or, delete unwanted files first, then package the entire folder.&lt;br>
+&lt;p>The common approach is to manually select the required files for packaging.
+Or, delete unwanted files first, then package the entire folder.
 Both methods require manual filtering.&lt;/p>
 &lt;p>So, is there an elegant way to conveniently package project source code?&lt;/p>
 &lt;h2 id="tldr">TL;DR&lt;/h2>
 &lt;p>Use the &lt;code>git archive&lt;/code> command for packaging, which automatically excludes the &lt;code>.git/&lt;/code> directory and files listed in &lt;code>.gitignore&lt;/code>.&lt;/p>
-&lt;p>Add a command called &lt;code>Git-ArchiveProject&lt;/code> to your Windows &lt;code>PowerShell Profile&lt;/code>.&lt;br>
+&lt;p>Add a command called &lt;code>Git-ArchiveProject&lt;/code> to your Windows &lt;code>PowerShell Profile&lt;/code>.
 When you use this command in a project directory, it packages the entire project and outputs a file named &lt;code>yyyyMMdd-projectName.zip&lt;/code> in the parent directory.&lt;/p>
 &lt;div class="highlight-container">
 &lt;button class="copy-code-btn outline">Copy&lt;/button>
@@ -249,60 +249,60 @@ When you use this command in a project directory, it packages the entire project
 &lt;li>&lt;strong>Can specify any historical version&lt;/strong>: Makes it easy to create archives of specific versions&lt;/li>
 &lt;/ol>
 &lt;h2 id="conclusion">Conclusion&lt;/h2>
-&lt;p>Not every client uses Git, and many private projects cannot be conveniently uploaded online.&lt;br>
+&lt;p>Not every client uses Git, and many private projects cannot be conveniently uploaded online.
 For small projects, zip archives are the most direct delivery method.&lt;/p>
-&lt;p>Previously, I would manually select files for packaging, which was inefficient.&lt;br>
+&lt;p>Previously, I would manually select files for packaging, which was inefficient.
 Later, I used 7z&amp;rsquo;s exclude command parameters to exclude some files, but that was still a bit cumbersome.&lt;/p>
 &lt;p>Since discovering the &lt;code>git archive&lt;/code> command, project delivery has become much more convenient.&lt;/p></description></item><item><title>Remote IT Concierge Startup Weekly (7) - Order Explosion</title><link>https://www.xianmin.org/en/post/weekly/007/</link><pubDate>Sun, 30 Mar 2025 15:23:55 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/007/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your Remote IT Concierge, and this is my startup weekly journal.&lt;/p>
 &lt;h2 id="week-7-startup-actions">Week 7 Startup Actions&lt;/h2>
-&lt;p>This week exploded with orders.&lt;br>
-Starting from Monday, I&amp;rsquo;ve been busy non-stop, working overtime every evening.&lt;br>
+&lt;p>This week exploded with orders.
+Starting from Monday, I&amp;rsquo;ve been busy non-stop, working overtime every evening.
 As of Sunday night at 10:30, I still have two orders incomplete.&lt;/p>
-&lt;p>Even with the explosion of orders, income remains limited because the hourly rate is fixed, and the working hours per day are also fixed.&lt;br>
-My current pricing method is to assess the workload based on the client&amp;rsquo;s requirements, estimate the time needed, and multiply by my hourly rate.&lt;br>
-My hourly rate has gradually adjusted to the current 80 per hour after conversations with multiple clients.&lt;br>
-&lt;strong>The quoted hourly rate is not the actual hourly rate, as initial communications and subsequent maintenance are not calculated in the time.&lt;/strong>&lt;br>
-So my actual hourly rate is probably around 50.&lt;br>
-This income is quite average, I would say - won&amp;rsquo;t starve, but won&amp;rsquo;t get rich either.&lt;br>
+&lt;p>Even with the explosion of orders, income remains limited because the hourly rate is fixed, and the working hours per day are also fixed.
+My current pricing method is to assess the workload based on the client&amp;rsquo;s requirements, estimate the time needed, and multiply by my hourly rate.
+My hourly rate has gradually adjusted to the current 80 per hour after conversations with multiple clients.
+&lt;strong>The quoted hourly rate is not the actual hourly rate, as initial communications and subsequent maintenance are not calculated in the time.&lt;/strong>
+So my actual hourly rate is probably around 50.
+This income is quite average, I would say - won&amp;rsquo;t starve, but won&amp;rsquo;t get rich either.
 Compared to regular employment, it&amp;rsquo;s a bit more flexible, but ultimately I&amp;rsquo;m still selling my time, and when it gets busy, there&amp;rsquo;s not much freedom to speak of.&lt;/p>
 &lt;p>This week, I took on a variety of jobs.&lt;/p>
 &lt;h3 id="i-consulting">I. Consulting&lt;/h3>
-&lt;p>I posted an advertisement last week, and someone actually wanted to chat with me, haha!&lt;br>
-I was quite busy that day, so we only talked for an hour, mainly about personal emotional matters.&lt;br>
-Although I&amp;rsquo;m not a relationship expert, my price is low, and being a fellow programmer, I can perhaps empathize better.&lt;br>
-I shared my theory of &lt;strong>first-hand experience and second-hand experience&lt;/strong> with him, which essentially means going on more dates with girls to gain first-hand experience.&lt;br>
+&lt;p>I posted an advertisement last week, and someone actually wanted to chat with me, haha!
+I was quite busy that day, so we only talked for an hour, mainly about personal emotional matters.
+Although I&amp;rsquo;m not a relationship expert, my price is low, and being a fellow programmer, I can perhaps empathize better.
+I shared my theory of &lt;strong>first-hand experience and second-hand experience&lt;/strong> with him, which essentially means going on more dates with girls to gain first-hand experience.
 My consulting service is priced low, mainly because I want to gain more first-hand experience in this area while also making new friends.&lt;/p>
 &lt;h3 id="ii-teaching">II. Teaching&lt;/h3>
-&lt;p>This is somewhat of a regular client.&lt;br>
-The first time I helped him solve dependency issues in his development environment, I discovered he was using AI for programming but didn&amp;rsquo;t understand code or project management, so the code written by AI was a mess, difficult to maintain, and even AI itself couldn&amp;rsquo;t improve it.&lt;br>
-I advised him to simply restart with a new project, and I demonstrated to him the best practices for modern AI programming.&lt;br>
-For example, &lt;strong>how to use Git for version control, techniques for coding with AI, how to break down code, and how to solve bugs, etc.&lt;/strong>&lt;br>
+&lt;p>This is somewhat of a regular client.
+The first time I helped him solve dependency issues in his development environment, I discovered he was using AI for programming but didn&amp;rsquo;t understand code or project management, so the code written by AI was a mess, difficult to maintain, and even AI itself couldn&amp;rsquo;t improve it.
+I advised him to simply restart with a new project, and I demonstrated to him the best practices for modern AI programming.
+For example, &lt;strong>how to use Git for version control, techniques for coding with AI, how to break down code, and how to solve bugs, etc.&lt;/strong>
 There were a few near misses, but the AI managed to save the situation.&lt;/p>
 &lt;h3 id="iii-project-internationalization">III. Project Internationalization&lt;/h3>
-&lt;p>This was secondary development based on a medium-sized open-source project.&lt;br>
+&lt;p>This was secondary development based on a medium-sized open-source project.
 The original project was only in English, and with a large codebase and numerous text elements, it was a time-consuming task though not technically difficult.&lt;/p>
 &lt;p>&lt;strong>Small businesses with limited staff can&amp;rsquo;t handle all the work, but hiring more people increases costs. Hiring me is a perfect fit—I can immediately start working, establish a temporary collaboration, and leave when the job is done. Solving big problems with minimal cost.&lt;/strong>&lt;/p>
 &lt;h3 id="iv-docker-deployment">IV. Docker Deployment&lt;/h3>
-&lt;p>Remotely helping a client set up an entire application.&lt;br>
+&lt;p>Remotely helping a client set up an entire application.
 Although Docker is already quite convenient, in reality, it&amp;rsquo;s still a troublesome thing for non-developers.&lt;/p>
 &lt;h3 id="v-linux-server-application-deployment">V. Linux Server Application Deployment&lt;/h3>
-&lt;p>Another service for a regular client.&lt;br>
+&lt;p>Another service for a regular client.
 His application was running normally on the local machine but had errors on the server.&lt;/p>
-&lt;p>The main task here was debugging to find the cause of the error.&lt;br>
-Without specific error messages, even AI would struggle.&lt;br>
-I located the faulty file, had AI write a test for it, which ran fine locally but helped pinpoint the error location on the server.&lt;br>
+&lt;p>The main task here was debugging to find the cause of the error.
+Without specific error messages, even AI would struggle.
+I located the faulty file, had AI write a test for it, which ran fine locally but helped pinpoint the error location on the server.
 After that, having AI fix it was simple.&lt;/p>
 &lt;h3 id="vi-echarts-visualization">VI. ECharts Visualization&lt;/h3>
-&lt;p>The client mentioned that someone had worked on it for 2 days before giving up.&lt;br>
+&lt;p>The client mentioned that someone had worked on it for 2 days before giving up.
 If it were me, I would have abandoned it much earlier if there was no progress after half a day&amp;hellip;&lt;/p>
-&lt;p>Why was it difficult? In the end, I discovered that the data provided by the backend was problematic.&lt;br>
+&lt;p>Why was it difficult? In the end, I discovered that the data provided by the backend was problematic.
 If the data is flawed, the generated charts will always be incorrect.&lt;/p>
-&lt;p>How did I discover this? First, I used simulated data to create a correct chart, at least proving that the chart could be generated normally.&lt;br>
+&lt;p>How did I discover this? First, I used simulated data to create a correct chart, at least proving that the chart could be generated normally.
 Then I examined the data from the backend and how it was processed, using console.log to print it out.&lt;/p>
 &lt;h3 id="vii-why-do-i-seem-to-know-a-bit-of-everything">VII. Why Do I Seem to Know a Bit of Everything?&lt;/h3>
 &lt;p>To sum it up, I&amp;rsquo;m a programmer trained through the school of hard knocks and real-world experience—broad in technical knowledge but not deep in any particular area.&lt;/p>
-&lt;p>To this day, I don&amp;rsquo;t know if this is good or bad.&lt;br>
-In my early years, I studied C language, learned about assembly, and wanted to delve into the Linux system&amp;rsquo;s underlying layers, but never had practical opportunities.&lt;br>
+&lt;p>To this day, I don&amp;rsquo;t know if this is good or bad.
+In my early years, I studied C language, learned about assembly, and wanted to delve into the Linux system&amp;rsquo;s underlying layers, but never had practical opportunities.
 I started with Python, then entered the frontend world because of market demand.&lt;/p>
 &lt;p>&lt;strong>Later, I faced reality: life is short, and whether it&amp;rsquo;s a black cat or a white cat, a cat that catches mice is a good cat&amp;hellip;&lt;/strong>&lt;/p>
 &lt;h2 id="conclusion">Conclusion&lt;/h2>
@@ -314,13 +314,13 @@ I started with Python, then entered the frontend world because of market demand.
 &lt;img src="https://www.xianmin.org/mp_wechat.jpg" alt="图片2描述" style="width: 49%;object-fit: contain;">
 &lt;/figure></description></item><item><title>Remote IT Concierge Startup Weekly (8) - Having Work Keeps the Mind at Ease</title><link>https://www.xianmin.org/en/post/weekly/008/</link><pubDate>Sun, 30 Mar 2025 15:23:55 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/008/</guid><description>&lt;p>Hello, I&amp;rsquo;m Xianmin, your IT tech butler, and this is my startup weekly journal.&lt;/p>
 &lt;h2 id="week-8-startup-actions">Week 8 Startup Actions&lt;/h2>
-&lt;p>This week I connected with an outsourcing company that probably needed extra hands, so they found me.&lt;br>
-I started with some small tasks, and I noticed their project was a long-term one with many tasks remaining.&lt;br>
-&lt;strong>I took the initiative to suggest to the manager: &amp;ldquo;Why not book my afternoons exclusively for your projects? That way I won&amp;rsquo;t have to look for other work.&amp;rdquo;&lt;/strong>&lt;br>
+&lt;p>This week I connected with an outsourcing company that probably needed extra hands, so they found me.
+I started with some small tasks, and I noticed their project was a long-term one with many tasks remaining.
+&lt;strong>I took the initiative to suggest to the manager: &amp;ldquo;Why not book my afternoons exclusively for your projects? That way I won&amp;rsquo;t have to look for other work.&amp;rdquo;&lt;/strong>
 My thinking was simple: working half-days gives both parties flexibility to make arrangements. They want to save costs, and I don&amp;rsquo;t want to rely completely on one company - it&amp;rsquo;s mutually beneficial.&lt;/p>
-&lt;p>Last month, a follower commented, &amp;ldquo;Having work keeps the mind at ease.&amp;rdquo;&lt;br>
+&lt;p>Last month, a follower commented, &amp;ldquo;Having work keeps the mind at ease.&amp;rdquo;
 I think they made a good point.&lt;/p>
-&lt;p>Thinking about it, &amp;ldquo;having work&amp;rdquo; can be broken down into two dimensions: &lt;strong>&amp;ldquo;having skills&amp;rdquo; and &amp;ldquo;having clients&amp;rdquo;&lt;/strong>.&lt;br>
+&lt;p>Thinking about it, &amp;ldquo;having work&amp;rdquo; can be broken down into two dimensions: &lt;strong>&amp;ldquo;having skills&amp;rdquo; and &amp;ldquo;having clients&amp;rdquo;&lt;/strong>.
 &lt;strong>&amp;ldquo;Having skills&amp;rdquo; helps avoid being eliminated by the market. &amp;ldquo;Having clients&amp;rdquo; prevents falling into a passive position.&lt;/strong>&lt;/p>
 &lt;p>As a tech worker, in the past, I focused solely on improving my skills, while completely ignoring the dimension of &amp;ldquo;having clients.&amp;rdquo;&lt;/p>
 &lt;h2 id="reflections">Reflections&lt;/h2>
@@ -345,36 +345,36 @@ I think they made a good point.&lt;/p>
 &lt;/figure></description></item><item><title>Remote IT Concierge Startup Weekly (6) - First Consulting Business</title><link>https://www.xianmin.org/en/post/weekly/006/</link><pubDate>Sun, 23 Mar 2025 06:39:41 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/006/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your Remote IT Concierge, and this is my startup weekly journal.&lt;/p>
 &lt;h2 id="week-6-startup-actions">Week 6 Startup Actions&lt;/h2>
 &lt;p>My biggest achievement this week was receiving my first consulting job.&lt;/p>
-&lt;p>The client was a college student about to graduate and looking for work, who was a customer of mine two weeks ago.&lt;br>
-He told me he was feeling uncertain about his future as graduation approached and wanted to chat with me.&lt;br>
-I acknowledged my limited knowledge and that I couldn&amp;rsquo;t solve his problems in a short time, telling him that even after many years in society, I also face uncertainty.&lt;br>
+&lt;p>The client was a college student about to graduate and looking for work, who was a customer of mine two weeks ago.
+He told me he was feeling uncertain about his future as graduation approached and wanted to chat with me.
+I acknowledged my limited knowledge and that I couldn&amp;rsquo;t solve his problems in a short time, telling him that even after many years in society, I also face uncertainty.
 He still wanted to talk, proactively offered payment, and since I had time available, I agreed to chat.&lt;/p>
 &lt;p>This consultation (which could also be described as a collision between a confused Gen Z graduate and a confused middle-aged unemployed person) was conducted in two parts:&lt;/p>
 &lt;h3 id="first-hour-discussing-life">First Hour: Discussing Life&lt;/h3>
-&lt;p>I&amp;rsquo;m hesitant to give life advice, but he wanted to know what I would tell my ten-year-old self.&lt;br>
-I said my ideas are mostly from books, nothing original,&lt;br>
-and recommended &amp;ldquo;Poor Charlie&amp;rsquo;s Almanack,&amp;rdquo; sharing the concepts of margin of safety and mental models from the book.&lt;br>
-&lt;strong>My understanding of &amp;ldquo;margin of safety&amp;rdquo; is not just about securing your capital; by extension, health, time, credit, etc., should all be kept safe and not overdrawn.&lt;/strong>&lt;br>
+&lt;p>I&amp;rsquo;m hesitant to give life advice, but he wanted to know what I would tell my ten-year-old self.
+I said my ideas are mostly from books, nothing original,
+and recommended &amp;ldquo;Poor Charlie&amp;rsquo;s Almanack,&amp;rdquo; sharing the concepts of margin of safety and mental models from the book.
+&lt;strong>My understanding of &amp;ldquo;margin of safety&amp;rdquo; is not just about securing your capital; by extension, health, time, credit, etc., should all be kept safe and not overdrawn.&lt;/strong>
 Also, Munger&amp;rsquo;s &amp;ldquo;inverse thinking&amp;rdquo; method is interesting: &lt;strong>rather than thinking &amp;ldquo;what should I do,&amp;rdquo; consider &amp;ldquo;what should I avoid.&amp;rdquo;&lt;/strong>&lt;/p>
 &lt;p>When he mentioned applying to a Web3 company, I gave a friendly reminder that without proper domestic compliance, there&amp;rsquo;s little security and potential legal risks.&lt;/p>
-&lt;p>He said he was considering graduate school.&lt;br>
-I encouraged him to pursue it, saying it&amp;rsquo;s never too late and a year is enough time.&lt;br>
-The core thinking model in computer science is &lt;strong>divide and conquer&lt;/strong>.&lt;br>
-Graduate school is a big goal and problem - how do we break it down into specific smaller goals and problems?&lt;br>
-Thinking isn&amp;rsquo;t enough; only action matters.&lt;br>
+&lt;p>He said he was considering graduate school.
+I encouraged him to pursue it, saying it&amp;rsquo;s never too late and a year is enough time.
+The core thinking model in computer science is &lt;strong>divide and conquer&lt;/strong>.
+Graduate school is a big goal and problem - how do we break it down into specific smaller goals and problems?
+Thinking isn&amp;rsquo;t enough; only action matters.
 &lt;strong>Take action, and the world will give you answers.&lt;/strong>&lt;/p>
 &lt;p>He later extended for another hour.&lt;/p>
 &lt;h3 id="second-hour-discussing-technology">Second Hour: Discussing Technology&lt;/h3>
-&lt;p>This mainly focused on explaining unclear aspects of the project I did for him two weeks ago.&lt;br>
-On the technical side, there was no fluff - I simply explained what he asked about.&lt;br>
+&lt;p>This mainly focused on explaining unclear aspects of the project I did for him two weeks ago.
+On the technical side, there was no fluff - I simply explained what he asked about.
 I also pointed out the key technical aspects of his project.&lt;/p>
 &lt;p>However, interview and job search advice is not my area of expertise.&lt;/p>
 &lt;h2 id="reflections-on-this-consultation">Reflections on This Consultation&lt;/h2>
-&lt;p>If this student had initially just wanted to chat casually without mentioning payment, I probably would have kept it casual without sharing too much.&lt;br>
+&lt;p>If this student had initially just wanted to chat casually without mentioning payment, I probably would have kept it casual without sharing too much.
 But since he paid, the nature changed, and I felt obligated to provide good service.&lt;/p>
-&lt;p>Everyone can offer consulting services; everyone has their unique experiences.&lt;br>
-Payment can secure better service.&lt;br>
-If you want to gain something from others, it&amp;rsquo;s better to offer them something first.&lt;br>
+&lt;p>Everyone can offer consulting services; everyone has their unique experiences.
+Payment can secure better service.
+If you want to gain something from others, it&amp;rsquo;s better to offer them something first.
 This is what I learned from this college student.&lt;/p>
 &lt;p>This consultation came without preparation but gave me some inspiration.&lt;/p>
 &lt;p>Perhaps I could package &amp;ldquo;consulting services&amp;rdquo; as a product? I need to think more about this.&lt;/p>
@@ -390,12 +390,12 @@ This is what I learned from this college student.&lt;/p>
 &lt;/ol>
 &lt;p>Fee: 42 per hour. (The number 42 is &amp;ldquo;the answer to the ultimate question of life, the universe, and everything&amp;rdquo; 😄)&lt;/p>
 &lt;h2 id="conclusion">Conclusion&lt;/h2>
-&lt;p>What types of consulting services are worth paying for?&lt;br>
+&lt;p>What types of consulting services are worth paying for?
 How can we effectively evaluate a consultant&amp;rsquo;s professional ability and service quality? What are some reliable evaluation metrics and reference factors?&lt;/p></description></item><item><title>Remote IT Concierge Startup Weekly (5) - Solving Big Problems with Small Investment</title><link>https://www.xianmin.org/en/post/weekly/005/</link><pubDate>Fri, 14 Mar 2025 18:07:14 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/005/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your Remote IT Concierge, and this is my startup weekly journal.&lt;/p>
 &lt;h2 id="week-5-startup-actions">Week 5 Startup Actions&lt;/h2>
 &lt;p>For those who have been following my previous weekly journals, you might notice that I&amp;rsquo;ve changed the title.&lt;/p>
-&lt;p>Yes, the short-term self-rescue action can now be concluded.&lt;br>
-&lt;strong>I have the ability to work independently, can bring value to clients, and have received positive feedback.&lt;/strong>&lt;br>
+&lt;p>Yes, the short-term self-rescue action can now be concluded.
+&lt;strong>I have the ability to work independently, can bring value to clients, and have received positive feedback.&lt;/strong>
 Therefore, I think I can temporarily put aside the idea of job hunting and start building my own business.&lt;/p>
 &lt;p>From an entrepreneurial perspective, the previous content themes had these issues:&lt;/p>
 &lt;ol>
@@ -404,7 +404,7 @@ Therefore, I think I can temporarily put aside the idea of job hunting and start
 &lt;li>It was somewhat self-centered rather than client value-oriented.&lt;/li>
 &lt;/ol>
 &lt;p>Currently, my main direction hasn&amp;rsquo;t changed - I still hope to create a useful and profitable product. This week, I&amp;rsquo;ve restarted my personal development plan.&lt;/p>
-&lt;p>&lt;strong>For survival, freelancing remains the primary focus, with current weekly earnings stable at around 1500, allowing for selective project acceptance.&lt;/strong>&lt;br>
+&lt;p>&lt;strong>For survival, freelancing remains the primary focus, with current weekly earnings stable at around 1500, allowing for selective project acceptance.&lt;/strong>
 I try to limit freelancing work to 5 hours daily, using the remaining time for personal projects.&lt;/p>
 &lt;p>These are some recent reflections.&lt;/p>
 &lt;h2 id="this-weeks-achievements">This Week&amp;rsquo;s Achievements&lt;/h2>
@@ -415,8 +415,8 @@ I try to limit freelancing work to 5 hours daily, using the remaining time for p
 &lt;li>Helped a university student with assignments.&lt;/li>
 &lt;/ol>
 &lt;h2 id="closing-words">Closing Words&lt;/h2>
-&lt;p>Since starting these weekly journals, I&amp;rsquo;ve received private messages from several strangers, sharing freelancing opportunities and potential income sources;&lt;br>
-Some shared job opportunities, telling me about companies that accept remote work that might suit me.&lt;br>
+&lt;p>Since starting these weekly journals, I&amp;rsquo;ve received private messages from several strangers, sharing freelancing opportunities and potential income sources;
+Some shared job opportunities, telling me about companies that accept remote work that might suit me.
 There was also lots of encouragement.&lt;/p>
 &lt;p>&lt;strong>I sincerely thank you all.&lt;/strong>&lt;/p>
 &lt;hr>
@@ -424,48 +424,48 @@ There was also lots of encouragement.&lt;/p>
 &lt;figure style="display: flex; gap: 10px;">
 &lt;img src="https://www.xianmin.org/wechat_qrcode.jpg" alt="图片1描述" style="width: 49%;object-fit: contain;">
 &lt;img src="https://www.xianmin.org/mp_wechat.jpg" alt="图片2描述" style="width: 49%;object-fit: contain;">
-&lt;/figure></description></item><item><title>Weekly Journal of a 33-Year-Old Unemployed Rural Programmer's Self-Help Journey (4) - AI Efficiency, Income ¥1410</title><link>https://www.xianmin.org/en/post/weekly/004/</link><pubDate>Sun, 09 Mar 2025 05:50:37 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/004/</guid><description>&lt;p>Hello, I&amp;rsquo;m Xianmin, a programmer and your technical butler.&lt;br>
+&lt;/figure></description></item><item><title>Weekly Journal of a 33-Year-Old Unemployed Rural Programmer's Self-Help Journey (4) - AI Efficiency, Income ¥1410</title><link>https://www.xianmin.org/en/post/weekly/004/</link><pubDate>Sun, 09 Mar 2025 05:50:37 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/004/</guid><description>&lt;p>Hello, I&amp;rsquo;m Xianmin, a programmer and your technical butler.
 Living in the countryside, unemployed for two years, making my own way - here&amp;rsquo;s my weekly self-help journal.&lt;/p>
 &lt;h2 id="this-weeks-self-help-actions">This Week&amp;rsquo;s Self-Help Actions&lt;/h2>
 &lt;p>Let me share some interesting projects:&lt;/p>
 &lt;h3 id="enterprise-spreadsheet-automation">Enterprise Spreadsheet Automation&lt;/h3>
 &lt;p>Extracting information from spreadsheets, downloading attachments to specified locations, compressing, and updating spreadsheets.&lt;/p>
-&lt;p>Using Node.js &amp;amp; TypeScript.&lt;br>
-In previous years, type annotation was the most troublesome part of writing TypeScript.&lt;br>
-With AI, the efficiency of writing TypeScript has improved tremendously.&lt;br>
+&lt;p>Using Node.js &amp;amp; TypeScript.
+In previous years, type annotation was the most troublesome part of writing TypeScript.
+With AI, the efficiency of writing TypeScript has improved tremendously.
 Programs written in TypeScript are more robust and easier to maintain.&lt;/p>
 &lt;p>From my experience, AI remains in an assistant role - I must understand every step it takes to avoid being led astray.&lt;/p>
 &lt;h3 id="automa-automation-script">Automa Automation Script&lt;/h3>
 &lt;p>This was a requirement from a returning client - automating resume submissions to recruitment websites.&lt;/p>
 &lt;p>This task was quite time-consuming because AI couldn&amp;rsquo;t help much; everything had to be manually located and debugged.&lt;/p>
-&lt;p>There&amp;rsquo;s quite a market demand for automation scripts, as each person has different operation processes requiring customized solutions.&lt;br>
+&lt;p>There&amp;rsquo;s quite a market demand for automation scripts, as each person has different operation processes requiring customized solutions.
 I might take on more of these types of orders in the future.&lt;/p>
 &lt;p>For repetitive operations, we should let machines help us complete them automatically.&lt;/p>
 &lt;h3 id="vue-to-react-conversion">Vue to React Conversion&lt;/h3>
 &lt;p>This is another example where understanding AI&amp;rsquo;s actions is crucial.&lt;/p>
 &lt;p>Clients use AI for conversion, but when they don&amp;rsquo;t understand React code and can&amp;rsquo;t get it running, they&amp;rsquo;re stuck.&lt;/p>
-&lt;p>Some say AI will replace programmers, but from what we see now, complete replacement isn&amp;rsquo;t possible.&lt;br>
+&lt;p>Some say AI will replace programmers, but from what we see now, complete replacement isn&amp;rsquo;t possible.
 However, it can compress five days&amp;rsquo; work into one day, or perhaps what used to require five people can now be done by one person.&lt;/p>
-&lt;p>This benefits freelance programmers like me.&lt;br>
-Previously, a two-day job priced at ¥1000 would be rejected by clients as too expensive.&lt;br>
-Such orders couldn&amp;rsquo;t be closed - programmers needed time, while clients had insufficient budgets.&lt;br>
-But now it only takes two hours, priced at ¥200, which clients can accept.&lt;br>
-So in my view, &lt;strong>our potential market for orders has broadened.&lt;/strong>&lt;br>
+&lt;p>This benefits freelance programmers like me.
+Previously, a two-day job priced at ¥1000 would be rejected by clients as too expensive.
+Such orders couldn&amp;rsquo;t be closed - programmers needed time, while clients had insufficient budgets.
+But now it only takes two hours, priced at ¥200, which clients can accept.
+So in my view, &lt;strong>our potential market for orders has broadened.&lt;/strong>
 However, from an employment perspective, there might be fewer positions, and even higher requirements.&lt;/p>
 &lt;h3 id="wangeditor-based-secondary-development">WangEditor-Based Secondary Development&lt;/h3>
 &lt;p>This is a failed case.&lt;/p>
-&lt;p>The client initially said it was fixing two bugs.&lt;br>
+&lt;p>The client initially said it was fixing two bugs.
 After accepting the order, I discovered it was an experimental project, mainly focusing on secondary development of WangEditor, a rich text editor.&lt;/p>
-&lt;p>The requirements seemed simple on the surface, but in practice, it required diving deep into WangEditor&amp;rsquo;s source code.&lt;br>
-After spending two hours studying the source code, I told the client it would take much more time.&lt;br>
-Then I learned the client was an intermediary who had transferred the order to me.&lt;br>
+&lt;p>The requirements seemed simple on the surface, but in practice, it required diving deep into WangEditor&amp;rsquo;s source code.
+After spending two hours studying the source code, I told the client it would take much more time.
+Then I learned the client was an intermediary who had transferred the order to me.
 Sigh, when you can&amp;rsquo;t communicate directly with the end client, communication becomes difficult, and I had to eventually refund.&lt;/p>
 &lt;h2 id="this-weeks-income">This Week&amp;rsquo;s Income&lt;/h2>
-&lt;p>Completed 8 orders, totaling ¥1410.&lt;br>
-Two of these were from returning clients.&lt;br>
+&lt;p>Completed 8 orders, totaling ¥1410.
+Two of these were from returning clients.
 Thanks to all the bosses who supported me!&lt;/p>
-&lt;p>&lt;strong>Why do many people face difficulties after unemployment? A major reason is the lack of their own client resources.&lt;/strong>&lt;br>
-When I previously ran a youth hostel, nearly 30% of annual turnover came from regular customers.&lt;br>
+&lt;p>&lt;strong>Why do many people face difficulties after unemployment? A major reason is the lack of their own client resources.&lt;/strong>
+When I previously ran a youth hostel, nearly 30% of annual turnover came from regular customers.
 But after transitioning back to programming, the hostel client resources became mostly unusable, and I had to start over.&lt;/p>
 &lt;p>&lt;strong>Client relationships need to be accumulated, and trust requires time and collaborative cases to deepen.&lt;/strong>&lt;/p>
 &lt;p>Currently, I don&amp;rsquo;t have many regular clients, and I&amp;rsquo;m still learning and imitating - for instance, adding clients&amp;rsquo; contact information so they might think of me when they have future needs.&lt;/p>
@@ -474,37 +474,37 @@ But after transitioning back to programming, the hostel client resources became 
 &lt;p>&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg">&lt;/p></description></item><item><title>Weekly Journal of a 33-year-old Unemployed Rural Programmer's Self-Help Journey (3) - Finding My Position</title><link>https://www.xianmin.org/en/post/weekly/003/</link><pubDate>Sat, 01 Mar 2025 14:41:53 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/003/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, 33 years old, a programmer living in the countryside, unemployed for two years.&lt;/p>
 &lt;p>This week, my income broke through a thousand yuan, achieving a milestone goal.&lt;/p>
 &lt;h2 id="this-weeks-self-help-actions">This Week&amp;rsquo;s Self-Help Actions&lt;/h2>
-&lt;p>The first four days of this week were busy.&lt;br>
-I had to wear multiple hats - salesperson, customer service, after-sales support, and writer, doing everything myself.&lt;br>
-I won&amp;rsquo;t elaborate much on computer skills as they&amp;rsquo;re my bread and butter.&lt;br>
+&lt;p>The first four days of this week were busy.
+I had to wear multiple hats - salesperson, customer service, after-sales support, and writer, doing everything myself.
+I won&amp;rsquo;t elaborate much on computer skills as they&amp;rsquo;re my bread and butter.
 Moreover, I found that my jack-of-all-trades technical skills are particularly suitable for small jobs that professionals might overlook.&lt;/p>
-&lt;p>Being needed gives a sense of value.&lt;br>
-On my busiest day, I communicated with more than ten clients while handling four tasks simultaneously.&lt;br>
+&lt;p>Being needed gives a sense of value.
+On my busiest day, I communicated with more than ten clients while handling four tasks simultaneously.
 Although the money earned isn&amp;rsquo;t much, it&amp;rsquo;s at least a validation of my personal labor.&lt;/p>
 &lt;h2 id="lets-talk-about-failed-cases">Let&amp;rsquo;s Talk About Failed Cases&lt;/h2>
-&lt;p>The first one was a remote printing job.&lt;br>
-The client was very nice to me, first giving me a small task with a tip, then assigning me this job.&lt;br>
-As luck would have it, I had two unfinished projects at the time.&lt;br>
-After pondering for two hours, I realized remote printing wasn&amp;rsquo;t that simple, and with other ongoing projects, I had to refund the payment.&lt;br>
-It was quite awkward, as it consumed the trust placed in me.&lt;br>
+&lt;p>The first one was a remote printing job.
+The client was very nice to me, first giving me a small task with a tip, then assigning me this job.
+As luck would have it, I had two unfinished projects at the time.
+After pondering for two hours, I realized remote printing wasn&amp;rsquo;t that simple, and with other ongoing projects, I had to refund the payment.
+It was quite awkward, as it consumed the trust placed in me.
 Well, accepting payment is a guarantee of trust - if you don&amp;rsquo;t have time or confidence, don&amp;rsquo;t take the money carelessly.&lt;/p>
-&lt;p>The second case was developing a webpage modification plugin.&lt;br>
-The client described it simply - just changing 1 to 2 in a table on a webpage, so I quoted a low price.&lt;br>
-Later, I discovered it was a foreign government website, and just the key login took over an hour, with modifications being not so straightforward.&lt;br>
-I had to refund again.&lt;br>
+&lt;p>The second case was developing a webpage modification plugin.
+The client described it simply - just changing 1 to 2 in a table on a webpage, so I quoted a low price.
+Later, I discovered it was a foreign government website, and just the key login took over an hour, with modifications being not so straightforward.
+I had to refund again.
 This client was quite cunning, describing an apparently easy task that was actually much more complex.&lt;/p>
 &lt;p>As for successful cases, I won&amp;rsquo;t say much, but here&amp;rsquo;s one touching feedback:&lt;/p>
 &lt;p>&lt;strong>&amp;ldquo;What I couldn&amp;rsquo;t solve in a week, you fixed in an hour. I&amp;rsquo;ll come directly to you next time.&amp;rdquo;&lt;/strong>&lt;/p>
 &lt;h2 id="phase-summary">Phase Summary&lt;/h2>
-&lt;p>In February, after the Spring Festival, I reassessed my situation.&lt;br>
-I clarified my direction: focusing on freelancing to solve survival needs first,&lt;br>
-with content writing and personal projects as my second trajectory for personal development.&lt;br>
+&lt;p>In February, after the Spring Festival, I reassessed my situation.
+I clarified my direction: focusing on freelancing to solve survival needs first,
+with content writing and personal projects as my second trajectory for personal development.
 Although this choice remains high-risk, it&amp;rsquo;s shaped by past experiences - there&amp;rsquo;s no good or bad about it.&lt;/p>
-&lt;p>Looking at the results from the past three weeks, this year&amp;rsquo;s short-term self-help plan seems feasible.&lt;br>
-As long as freelancing can solve survival needs, I don&amp;rsquo;t need to look for a job for now.&lt;br>
-I&amp;rsquo;ve now repositioned myself as: &lt;strong>Your Personal Technical Handyman.&lt;/strong>&lt;br>
-In other words, I&amp;rsquo;m like a temporary computer technology plumber.&lt;br>
-Can&amp;rsquo;t fix a bug? I&amp;rsquo;ll repair it; Can&amp;rsquo;t set up development environment? I&amp;rsquo;ll help remotely;&lt;br>
+&lt;p>Looking at the results from the past three weeks, this year&amp;rsquo;s short-term self-help plan seems feasible.
+As long as freelancing can solve survival needs, I don&amp;rsquo;t need to look for a job for now.
+I&amp;rsquo;ve now repositioned myself as: &lt;strong>Your Personal Technical Handyman.&lt;/strong>
+In other words, I&amp;rsquo;m like a temporary computer technology plumber.
+Can&amp;rsquo;t fix a bug? I&amp;rsquo;ll repair it; Can&amp;rsquo;t set up development environment? I&amp;rsquo;ll help remotely;
 Don&amp;rsquo;t want to handle legacy projects? No problem, let me do it; Need a small application? I can make it in three days.&lt;/p>
 &lt;p>&lt;strong>For larger projects, unless particularly interesting, I probably won&amp;rsquo;t consider them for now.&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>Some reflections:&lt;/strong>&lt;/p>
@@ -580,26 +580,26 @@ Don&amp;rsquo;t want to handle legacy projects? No problem, let me do it; Need a
 &lt;h2 id="closing-words">Closing Words&lt;/h2>
 &lt;p>If you have any thoughts about this middle-aged unemployed programmer&amp;rsquo;s self-help journey, please feel free to leave a comment, thank you! 🙏&lt;/p></description></item><item><title>Weekly: 33-years-old Unemployed Programmer's Self-rescue(2) - Writing Academic Papers</title><link>https://www.xianmin.org/en/post/weekly/002/</link><pubDate>Sun, 23 Feb 2025 00:31:09 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/002/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, 33 years old, a programmer living in the countryside, unemployed for two years.&lt;/p>
 &lt;h2 id="this-weeks-self-help-actions">This Week&amp;rsquo;s Self-Help Actions&lt;/h2>
-&lt;p>Last weekend, I took on a writing job for an academic paper about machine learning.&lt;br>
-I don&amp;rsquo;t know much about machine learning, but I can write some Python.&lt;br>
-With AI assistance available, I boldly accepted the project.&lt;br>
+&lt;p>Last weekend, I took on a writing job for an academic paper about machine learning.
+I don&amp;rsquo;t know much about machine learning, but I can write some Python.
+With AI assistance available, I boldly accepted the project.
 Looking back now, it was a bit presumptuous.&lt;/p>
-&lt;p>I spent four full days coding. During the first two days with little progress, I almost gave up.&lt;br>
-On the third day, things started moving forward, but hardware limitations and AI debugging loops became challenging.&lt;br>
-The main issue was my lack of understanding. When asking AI for explanations, I could read every word but couldn&amp;rsquo;t grasp why things were done certain ways.&lt;br>
-I didn&amp;rsquo;t have time to study the fundamentals, so I had to push through with countless new AI conversations and experiments.&lt;br>
-The most troublesome part was the loss of context - I had to keep summarizing our previous progress for the AI.&lt;br>
-Nevertheless, I managed to achieve the experimental objectives, with only one day left before the client&amp;rsquo;s deadline.&lt;br>
+&lt;p>I spent four full days coding. During the first two days with little progress, I almost gave up.
+On the third day, things started moving forward, but hardware limitations and AI debugging loops became challenging.
+The main issue was my lack of understanding. When asking AI for explanations, I could read every word but couldn&amp;rsquo;t grasp why things were done certain ways.
+I didn&amp;rsquo;t have time to study the fundamentals, so I had to push through with countless new AI conversations and experiments.
+The most troublesome part was the loss of context - I had to keep summarizing our previous progress for the AI.
+Nevertheless, I managed to achieve the experimental objectives, with only one day left before the client&amp;rsquo;s deadline.
 On the final day, I hurriedly produced a paper of nearly 20,000 words, of course, with AI assistance.&lt;/p>
-&lt;p>When I submitted the work, I felt completely drained of energy for the entire week.&lt;br>
-This was my first time writing an academic paper and my first time coding for machine learning.&lt;br>
-This job wasn&amp;rsquo;t just stepping out of my comfort zone - it was like rolling in uncomfortable darkness.&lt;br>
-Although I&amp;rsquo;m not entirely satisfied with the quality of the paper and code, at least I delivered something to the client.&lt;br>
+&lt;p>When I submitted the work, I felt completely drained of energy for the entire week.
+This was my first time writing an academic paper and my first time coding for machine learning.
+This job wasn&amp;rsquo;t just stepping out of my comfort zone - it was like rolling in uncomfortable darkness.
+Although I&amp;rsquo;m not entirely satisfied with the quality of the paper and code, at least I delivered something to the client.
 This money wasn&amp;rsquo;t easy to earn!&lt;/p>
-&lt;p>In retrospect, for a professional, this would have been a two-day job.&lt;br>
-One day for coding, one day for writing - equivalent to 500 per day, making it somewhat feasible.&lt;br>
-My main challenge was being completely unfamiliar with machine learning, which requires time to learn.&lt;br>
-I estimate it would take two weeks to grasp the basic knowledge.&lt;br>
+&lt;p>In retrospect, for a professional, this would have been a two-day job.
+One day for coding, one day for writing - equivalent to 500 per day, making it somewhat feasible.
+My main challenge was being completely unfamiliar with machine learning, which requires time to learn.
+I estimate it would take two weeks to grasp the basic knowledge.
 But I&amp;rsquo;m unsure what else I could do with machine learning knowledge besides writing papers.&lt;/p>
 &lt;h2 id="this-weeks-income">This Week&amp;rsquo;s Income&lt;/h2>
 &lt;ol>
@@ -610,46 +610,46 @@ But I&amp;rsquo;m unsure what else I could do with machine learning knowledge be
 &lt;li>Have you had experience in tutoring academic paper writing?&lt;/li>
 &lt;li>Do you think machine learning is worth investing time to learn?&lt;/li>
 &lt;/ol>
-&lt;p>If you have any thoughts about a middle-aged unemployed programmer&amp;rsquo;s self-help journey, please leave a comment. Thank you! 🙏&lt;/p></description></item><item><title>Weekly: 33-years-old Unemployed Programmer's Self-rescue (1)</title><link>https://www.xianmin.org/en/post/weekly/001/</link><pubDate>Sun, 16 Feb 2025 02:23:22 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/001/</guid><description>&lt;p>Hello, I&amp;rsquo;m Xianmin, 33 years old, a programmer living in the countryside, unemployed for two years.&lt;br>
-I have a middle school education, self-taught programming, and started my career in Shenzhen.&lt;br>
-Later, I ran a youth hostel in Lijiang for 7 years, which closed due to the pandemic and other reasons.&lt;br>
-Not wanting to return to big cities, I did remote work for over a year.&lt;br>
-Two years ago, I went traveling with my girlfriend, and my programming work was interrupted again.&lt;br>
-During the travels, I helped my girlfriend with social media accounts, shooting videos, and writing content.&lt;br>
-Last year showed some improvement, but the income wasn&amp;rsquo;t enough to cover even half of one person&amp;rsquo;s expenses.&lt;br>
+&lt;p>If you have any thoughts about a middle-aged unemployed programmer&amp;rsquo;s self-help journey, please leave a comment. Thank you! 🙏&lt;/p></description></item><item><title>Weekly: 33-years-old Unemployed Programmer's Self-rescue (1)</title><link>https://www.xianmin.org/en/post/weekly/001/</link><pubDate>Sun, 16 Feb 2025 02:23:22 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/001/</guid><description>&lt;p>Hello, I&amp;rsquo;m Xianmin, 33 years old, a programmer living in the countryside, unemployed for two years.
+I have a middle school education, self-taught programming, and started my career in Shenzhen.
+Later, I ran a youth hostel in Lijiang for 7 years, which closed due to the pandemic and other reasons.
+Not wanting to return to big cities, I did remote work for over a year.
+Two years ago, I went traveling with my girlfriend, and my programming work was interrupted again.
+During the travels, I helped my girlfriend with social media accounts, shooting videos, and writing content.
+Last year showed some improvement, but the income wasn&amp;rsquo;t enough to cover even half of one person&amp;rsquo;s expenses.
 The dream of being financially supported by content creation fell through.&lt;/p>
-&lt;p>This year, to solve survival problems, I must make some changes.&lt;br>
+&lt;p>This year, to solve survival problems, I must make some changes.
 Let&amp;rsquo;s start with this weekly journal, recording my self-rescue actions from the past week.&lt;/p>
 &lt;h2 id="how-to-save-myself">How to Save Myself&lt;/h2>
-&lt;p>Last year, I briefly tried the independent development path, creating a reader application called EvoReader.&lt;br>
-But after launch, there was little feedback, and many features weren&amp;rsquo;t completed, so I paused the project.&lt;br>
-Since I hadn&amp;rsquo;t figured out how to promote or monetize it, continuing development might only increase sunk costs.&lt;br>
-I lacked confidence in this project.&lt;br>
-Then I started learning and understanding how other independent developers do it, how they make money.&lt;br>
-The reality is much harder than I imagined, with most independent developers&amp;rsquo; works disappearing in the vast internet ocean.&lt;br>
-Even for the few that stand out, monetization is extremely difficult.&lt;br>
-Succeeding in this path requires exceptionally high comprehensive abilities, and it&amp;rsquo;s time-consuming with uncertain results.&lt;br>
+&lt;p>Last year, I briefly tried the independent development path, creating a reader application called EvoReader.
+But after launch, there was little feedback, and many features weren&amp;rsquo;t completed, so I paused the project.
+Since I hadn&amp;rsquo;t figured out how to promote or monetize it, continuing development might only increase sunk costs.
+I lacked confidence in this project.
+Then I started learning and understanding how other independent developers do it, how they make money.
+The reality is much harder than I imagined, with most independent developers&amp;rsquo; works disappearing in the vast internet ocean.
+Even for the few that stand out, monetization is extremely difficult.
+Succeeding in this path requires exceptionally high comprehensive abilities, and it&amp;rsquo;s time-consuming with uncertain results.
 I urgently need to make money now, so this path can only be a side project in my spare time.&lt;/p>
 &lt;h2 id="ruling-out-big-city-job-search">Ruling Out Big City Job Search&lt;/h2>
-&lt;p>Having lived in rural Yunnan for many years, I&amp;rsquo;m too used to freedom and can&amp;rsquo;t return to big cities.&lt;br>
+&lt;p>Having lived in rural Yunnan for many years, I&amp;rsquo;m too used to freedom and can&amp;rsquo;t return to big cities.
 With my resume, job hunting would be extremely challenging.&lt;/p>
 &lt;h2 id="finding-remote-work">Finding Remote Work&lt;/h2>
-&lt;p>Usually, only small startup teams might need a versatile programmer like me.&lt;br>
+&lt;p>Usually, only small startup teams might need a versatile programmer like me.
 This is relatively suitable but requires the right opportunity.&lt;/p>
 &lt;h2 id="freelancing">Freelancing&lt;/h2>
-&lt;p>Last year, I took some small projects on a platform, which proved to be a viable path.&lt;br>
-However, there were too few projects with low rates.&lt;br>
-I hadn&amp;rsquo;t accumulated enough experience, having had many choices before, I didn&amp;rsquo;t put much effort into freelancing.&lt;br>
+&lt;p>Last year, I took some small projects on a platform, which proved to be a viable path.
+However, there were too few projects with low rates.
+I hadn&amp;rsquo;t accumulated enough experience, having had many choices before, I didn&amp;rsquo;t put much effort into freelancing.
 I used to avoid projects I wasn&amp;rsquo;t interested in, but now I have to change my mindset.&lt;/p>
-&lt;p>Freelancing provides simple and direct feedback - each project means income.&lt;br>
-With AI support, efficiency has greatly improved.&lt;br>
+&lt;p>Freelancing provides simple and direct feedback - each project means income.
+With AI support, efficiency has greatly improved.
 This is my main path for short-term self-rescue.&lt;/p>
 &lt;h2 id="content-writing">Content Writing&lt;/h2>
-&lt;p>I&amp;rsquo;ve had a personal website for a long time, which helped me find jobs and meet new friends.&lt;br>
-But, well, the output was too little, update frequency too low, mainly because I was too lazy.&lt;br>
+&lt;p>I&amp;rsquo;ve had a personal website for a long time, which helped me find jobs and meet new friends.
+But, well, the output was too little, update frequency too low, mainly because I was too lazy.
 This path serves freelancing in the short term and potential personal works in the long term.&lt;/p>
 &lt;h2 id="writing-more-utility-applications">Writing More Utility Applications&lt;/h2>
-&lt;p>I&amp;rsquo;ve now mastered an AI development process for personal use.&lt;br>
+&lt;p>I&amp;rsquo;ve now mastered an AI development process for personal use.
 Development efficiency skyrockets as long as I have ideas.&lt;/p>
 &lt;h2 id="this-weeks-accomplishments">This Week&amp;rsquo;s Accomplishments&lt;/h2>
 &lt;ol>
@@ -669,21 +669,21 @@ Development efficiency skyrockets as long as I have ideas.&lt;/p>
 &lt;p>If you have any thoughts on this middle-aged unemployed programmer&amp;rsquo;s self-rescue action, please leave a comment, thank you! 🙏&lt;/p></description></item><item><title>Why I Choose Vivaldi as My Primary Browser</title><link>https://www.xianmin.org/en/post/2025/why-choose-vivaldi-browser-vs-chrome/</link><pubDate>Thu, 13 Feb 2025 12:57:01 +0800</pubDate><guid>https://www.xianmin.org/en/post/2025/why-choose-vivaldi-browser-vs-chrome/</guid><description>&lt;p>I used Chrome for many years. It was fast, had plenty of extensions, and made web debugging convenient - meeting all my needs.&lt;/p>
 &lt;p>However, one day, Chrome suddenly changed its UI style, making it uncomfortable to use.&lt;/p>
 &lt;p>The main issue was the change in the right-click menu, where menu options had larger spacing and required scrolling when there were too many options.&lt;/p>
-&lt;p>Initially, I could revert to the old UI style through &lt;code>chrome://flags/&lt;/code>, but later that option was completely removed.&lt;br>
+&lt;p>Initially, I could revert to the old UI style through &lt;code>chrome://flags/&lt;/code>, but later that option was completely removed.
 While searching online for new solutions, I came across someone mentioning Vivaldi.&lt;/p>
 &lt;p>So I decided to give it a try.&lt;/p>
 &lt;p>&lt;img alt="Vivaldi Browser" src="https://www.xianmin.org/post/2025/why-choose-vivaldi-browser-vs-chrome/vivaldi.jpg" title="Vivaldi Browser Interface">&lt;/p>
 &lt;p>Switching to Vivaldi wasn&amp;rsquo;t difficult at all since it&amp;rsquo;s also a Chromium-based browser that can directly install extensions from the Chrome Web Store.&lt;/p>
 &lt;p>I migrated my bookmarks, installed my frequently used extensions, and most of my needs were met.&lt;/p>
 &lt;p>&lt;strong>Vivaldi&amp;rsquo;s right-click menu can be switched back to the old style, which was my initial motivation for using it.&lt;/strong>&lt;/p>
-&lt;p>Vivaldi adds many extra features on top of Chromium.&lt;br>
+&lt;p>Vivaldi adds many extra features on top of Chromium.
 I didn&amp;rsquo;t use them much at first, but later discovered that some features were quite useful.&lt;/p>
 &lt;p>Here are several features I use most frequently:&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Sidebar Tab Management.&lt;/strong>&lt;/li>
 &lt;/ol>
-&lt;p>When you have many tabs open, it&amp;rsquo;s hard to see their titles or find the tab you want to switch to.&lt;br>
-The sidebar window manager makes it convenient.&lt;br>
+&lt;p>When you have many tabs open, it&amp;rsquo;s hard to see their titles or find the tab you want to switch to.
+The sidebar window manager makes it convenient.
 It&amp;rsquo;s easy to switch between tabs and perform operations like deletion and moving tabs.&lt;/p>
 &lt;ol start="2">
 &lt;li>&lt;strong>Multi-page Tiling.&lt;/strong>&lt;/li>
@@ -738,22 +738,22 @@ It&amp;rsquo;s easy to switch between tabs and perform operations like deletion 
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/WindRunnerMax/TKScript">WindRunnerMax/TKScript: Userscripts &amp;amp; Browser Extensions&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.runningcheese.com/enable-copy">3 Methods to Solve 99% of Web Page Copy Issues - Running Cheese&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Multilingual Hugo Blog - How to Elegantly Manage Markdown Content</title><link>https://www.xianmin.org/en/post/2024/hugo-multilingual-blog-structure/</link><pubDate>Tue, 05 Nov 2024 11:04:39 +0800</pubDate><guid>https://www.xianmin.org/en/post/2024/hugo-multilingual-blog-structure/</guid><description>&lt;p>This website is built with &lt;a href="https://gohugo.io/">Hugo&lt;/a> and deployed on Github.&lt;br>
-To publish a new article, I only need to edit the Markdown file and upload it to Github, where GitHub Actions automatically generates the webpage for me.&lt;br>
+&lt;/ul></description></item><item><title>Multilingual Hugo Blog - How to Elegantly Manage Markdown Content</title><link>https://www.xianmin.org/en/post/2024/hugo-multilingual-blog-structure/</link><pubDate>Tue, 05 Nov 2024 11:04:39 +0800</pubDate><guid>https://www.xianmin.org/en/post/2024/hugo-multilingual-blog-structure/</guid><description>&lt;p>This website is built with &lt;a href="https://gohugo.io/">Hugo&lt;/a> and deployed on Github.
+To publish a new article, I only need to edit the Markdown file and upload it to Github, where GitHub Actions automatically generates the webpage for me.
 The entire process is so simple that I can update blog posts even from my phone.&lt;/p>
-&lt;p>As the number of blog posts increased, managing Markdown files became a challenge.&lt;br>
-Previously, without good organizational habits, I placed all files directly in the &lt;code>post/&lt;/code> directory.&lt;br>
-Later, as files accumulated, I created subdirectories like &lt;code>post/2024/&lt;/code> within the &lt;code>post/&lt;/code> directory.&lt;br>
-The URL of a blog post is related to its file location. For example, a blog post at &lt;code>post/2024/example.md&lt;/code> would have the URL &lt;code>/post/2024/example/&lt;/code>.&lt;br>
+&lt;p>As the number of blog posts increased, managing Markdown files became a challenge.
+Previously, without good organizational habits, I placed all files directly in the &lt;code>post/&lt;/code> directory.
+Later, as files accumulated, I created subdirectories like &lt;code>post/2024/&lt;/code> within the &lt;code>post/&lt;/code> directory.
+The URL of a blog post is related to its file location. For example, a blog post at &lt;code>post/2024/example.md&lt;/code> would have the URL &lt;code>/post/2024/example/&lt;/code>.
 &lt;strong>To avoid changing the URLs of published posts&lt;/strong>, I left the old Markdown files in their original locations.&lt;/p>
 &lt;p>&lt;img alt="my blog old post structure" src="https://www.xianmin.org/image/post/2024/hugo-multilingual-blog-structure.png">&lt;/p>
 &lt;h2 id="multilingual-sites">Multilingual Sites&lt;/h2>
-&lt;p>Hugo has supported multilingual sites for many years, and I had considered creating an English version of my site, but translation was always an issue.&lt;br>
-With the advancement of AI in recent years, translation quality has improved significantly.&lt;br>
+&lt;p>Hugo has supported multilingual sites for many years, and I had considered creating an English version of my site, but translation was always an issue.
+With the advancement of AI in recent years, translation quality has improved significantly.
 Recently, I had the idea to create a multilingual site.&lt;/p>
-&lt;p>In Hugo, for multilingual sites, if you want a blog post to have multiple language versions, you typically need to create corresponding language versions of the md file.&lt;br>
+&lt;p>In Hugo, for multilingual sites, if you want a blog post to have multiple language versions, you typically need to create corresponding language versions of the md file.
 For example, the English version of &lt;code>blog.md&lt;/code> would be &lt;code>blog.en.md&lt;/code>, and other languages follow the same pattern.&lt;/p>
-&lt;p>Without a proper organization scheme, as time goes by, the number of files in the &lt;code>post/&lt;/code> directory would keep increasing, making it increasingly difficult to manage.&lt;br>
+&lt;p>Without a proper organization scheme, as time goes by, the number of files in the &lt;code>post/&lt;/code> directory would keep increasing, making it increasingly difficult to manage.
 Additionally, modifying blog post URLs would become more complicated in the future.&lt;/p>
 &lt;p>Therefore, it&amp;rsquo;s essential to address &lt;strong>how to organize files in the post/ directory&lt;/strong> early on.&lt;/p>
 &lt;h2 id="need-for-a-proper-organization-scheme">Need for a Proper Organization Scheme&lt;/h2>
@@ -802,7 +802,7 @@ summary: 本文介绍使用 Hugo 搭建多语言站点后的文件组织方案�
 ---&lt;/code>&lt;/pre>
 &lt;/div>
 &lt;h2 id="organizing-old-markdown-files">Organizing Old Markdown Files&lt;/h2>
-&lt;p>With a proper organization scheme in place, we should reorganize existing files and place them in appropriate locations.&lt;br>
+&lt;p>With a proper organization scheme in place, we should reorganize existing files and place them in appropriate locations.
 It&amp;rsquo;s particularly important to &lt;strong>avoid URL changes&lt;/strong>. Hugo provides a &lt;code>url&lt;/code> parameter that can set URLs to fixed values.&lt;/p>
 &lt;p>Here&amp;rsquo;s my process:&lt;/p>
 &lt;p>Step 1: Delete the &lt;code>public/&lt;/code> directory, generate a new &lt;code>public/&lt;/code> based on existing blog posts, and rename it to &lt;code>public_old/&lt;/code>.&lt;/p>
