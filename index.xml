@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 25 Apr 2025 10:00:56 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>用 VSCode 写公众号：markdown-to-wechat</title><link>https://www.xianmin.org/post/2025/vscode-markdown-to-wechat/</link><pubDate>Fri, 25 Apr 2025 10:00:56 +0800</pubDate><guid>https://www.xianmin.org/post/2025/vscode-markdown-to-wechat/</guid><description>&lt;p align="center">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 27 Apr 2025 12:15:32 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>独立开发者的真实生存现状与破局之道 | 远程技术管家创业周记（11）</title><link>https://www.xianmin.org/post/weekly/011/</link><pubDate>Sun, 27 Apr 2025 12:15:32 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/011/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
+&lt;h2 id="本周行动">本周行动&lt;/h2>
+&lt;p>发布了一个 VSCode 扩展——&lt;a href="https://marketplace.visualstudio.com/items/?itemName=Xianmin.markdown-to-wechat">markdown-to-wechat - Visual Studio Marketplace&lt;/a> 。
+这个扩展主要是解决我个人的一个痛点，算是今年的第一个开源小作品。&lt;/p>
+&lt;p>还记得三周前，有客户问我，我有哪些项目案例。
+&lt;strong>我个人经手的项目不算多，但大大小小的加起来也有上百个了。&lt;/strong>
+这些项目有我全职开发的，也有只是修复 bug 的，不过很多在网上都找不见踪迹了。
+只好找一些截图，跟他说，我做过这个、做过那个。
+很多时候，没有自己署名的项目，一般都不好意思放到个人网站上，毕竟版权是属于公司的。
+我也没有大厂的工作经历做背书，空口无凭啊。&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Talk is cheap. Show me the code.&amp;rdquo; - Linus Torvalds&lt;/p>
+&lt;/blockquote>
+&lt;p>这或许是做个人项目的价值之一吧。&lt;/p>
+&lt;h2 id="近期做的有趣项目">近期做的有趣项目&lt;/h2>
+&lt;h3 id="数据标注脚本">数据标注脚本&lt;/h3>
+&lt;p>数据标注，一般都是要人工做的，这位朋友为了提升工作效率，让我帮他写了一个脚本。
+脚本的作用无非就是批量点击、批量粘贴，再增加几个快捷键便于操作。
+&lt;strong>在操作效率上，至少提升了十倍吧。&lt;/strong>
+我好奇的咨询了一下，他们这一行的收益如何。
+他说，也没多少。
+不过我看他是给 AI 做标注，当前的工作量应该是挺稳定的。&lt;/p>
+&lt;h3 id="ai-应用">AI 应用&lt;/h3>
+&lt;p>今年接触的有一半项目都是跟 AI 相关的，这东西看起来高大上，其实就是调用一下 AI 的接口，就算是拥抱 AI 啦。
+做项目呢，依旧是过去的那一套工具链。
+现在的 AI 项目大多如此，包装得很高级，骨子里还是那套增删改查。不过这也是好事，让我这种&amp;quot;技术管家&amp;quot;也能接单干活。&lt;/p>
+&lt;h3 id="帮科研工作者干杂活">帮科研工作者干杂活&lt;/h3>
+&lt;p>我发现优秀的科研工作者是有生意头脑的，他们知道把手头繁琐的工作外包出去。
+现在各行各业真是都卷的不行。
+&lt;strong>生命中最宝贵的是什么，是时间啊。&lt;/strong>
+如果能花点小钱买到时间，我觉得太划算了。
+唯一的挑战是需要理解他们的专业知识，好在我接触的科研人员都很有耐心，愿意解释他们的需求。&lt;/p>
+&lt;h2 id="结束语">结束语&lt;/h2>
+&lt;p>偶尔会有失业的朋友私信向我请教，如何接单，该怎么办。
+愧不敢当，其实我也没太多可分享的，每个人的境遇不同，技术水平不同，何况我也还在生存线上挣扎呢。&lt;/p>
+&lt;p>就像我写这篇周记，其实挺水的，可万一就来单了呢？
+不曝光自己，肯定是没有单的。
+水就水点吧，水平就在这儿，如果明年还是这水平，哎，那明年再说吧。&lt;/p>
+&lt;p>我最近也在反思，自己似乎在做一些无用功。
+不过换个角度想，今年写这些鬼东西也才两个月，才写了十篇出头吧，我觉得还有很大的提升空间。
+必须得先行动起来，在行动中去反思去改进。&lt;/p>
+&lt;p>分享一个两年前看过的视频： &lt;a href="https://www.bilibili.com/video/BV1da4y1p7c9/?vd_source=594fbb093a27640e480caa16373d580f">【Netflix】托尼·罗宾斯：做自己的大师 1080P官方双语字幕 Tony Robbins I Am Not Your Guru_哔哩哔哩_bilibili&lt;/a> 。&lt;/p>
+&lt;p>关注我，下期再见！&lt;/p>
+&lt;hr>
+&lt;p>如果你在生活中，遇到任何计算机相关的技术问题，欢迎扫描下方二维码，免费咨询。&lt;/p>
+&lt;figure style="display: flex; gap: 10px;">
+&lt;img src="https://www.xianmin.org/wechat_qrcode.jpg" alt="图片1描述" style="width: 49%;object-fit: contain;">
+&lt;img src="https://www.xianmin.org/mp_wechat.jpg" alt="图片2描述" style="width: 49%;object-fit: contain;">
+&lt;/figure></description></item><item><title>用 VSCode 写公众号：markdown-to-wechat</title><link>https://www.xianmin.org/post/2025/vscode-markdown-to-wechat/</link><pubDate>Fri, 25 Apr 2025 10:00:56 +0800</pubDate><guid>https://www.xianmin.org/post/2025/vscode-markdown-to-wechat/</guid><description>&lt;p align="center">
 &lt;img width="200px" src="https://www.xianmin.org/images/2025/04/markdown-to-wechat.png" />
 &lt;/p>
 &lt;p>有没有人像我一样用 VSCode 编辑 Markdown 文本，然后发布到微信公众号的？&lt;/p>
@@ -1027,64 +1075,4 @@ represents a cluster device name.&lt;/code>&lt;/pre>
 &lt;p>&lt;strong>不要关闭 Page file 。&lt;/strong>&lt;/p>
 &lt;p>之前我关闭是因为我的 C 盘空间不够用，128G 都快塞满了，加装内存后，我觉得我的内存完全够用，干脆就把 Page file 关了。&lt;/p>
 &lt;p>现在查资料发现， &lt;strong>Page File 不仅仅只是作为虚拟内存，一些程序和系统进程可能会依赖于 page file 来工作，关闭后可能会导致这些程序无法正常运行，甚至出现蓝屏。&lt;/strong>&lt;/p>
-&lt;p>至于迅雷为什么要在驱动这个层级搞事情，我格局太小想不明白。 &lt;a href="https://zhuanlan.zhihu.com/p/43433631">与国产流氓软件的斗争 - 知乎&lt;/a>&lt;/p></description></item><item><title>使用 PWA 创建跨平台应用，关联本地文件</title><link>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</link><pubDate>Sat, 27 Jan 2024 14:20:00 +0800</pubDate><guid>https://www.xianmin.org/post/2024/01-evo-reader-v20240127/</guid><description>&lt;p>「渐进式 Web 应用 (PWA) 是使用 Web 技术生成的应用程序，可以从一个代码库安装并可在所有设备上运行。」&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>PWA 技术好些年前就已经推出了，但在国内似乎一直未受到重视。
-我最早注意到这项技术，是在 Chrome 浏览器的地址栏上发现突然多了个 Install 按钮，就安装体验了一下，比如 Github 和 Twitter 。
-体验感受并不好，和 web 网页基本没差别，就是在系统桌面和任务栏多了个应用图标，还要额外打开一个窗口。
-包括现在，我也认为 &lt;strong>大部分网站在桌面操作系统上 PWA 化是没啥意义的&lt;/strong> 。&lt;/p>
-&lt;p>最近我写了个 &lt;a href="https://evoreader.github.io/">epub 阅读器&lt;/a> ，
-我需要一个跨平台方案，可以直接读取本地文件：双击 .epub 文件，直接用 app 打开，就是关联为默认程序，而不是在 app 中打开文件。
-我原本考虑是用 Electron ，代码都写好了，但对于一个工具类的小应用，用 Electron 构建总感觉有些偏重。
-安装包近 100M ，需要编译不同平台的安装包，每次更新都要再次编译。
-一次偶然的搜索发现，可以用 PWA 支持 &lt;strong>关联本地 .epub 文件&lt;/strong> ，这让我对 PWA 技术重新产生了兴趣。&lt;/p>
-&lt;p>实现代码非常简单，添加一个 &lt;code>manifest.json&lt;/code> 文件，然后在项目中加入代码：&lt;/p>
-&lt;div class="highlight-container">
-&lt;button class="copy-code-btn outline">Copy&lt;/button>
-&lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2">2&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3">3&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-4">4&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-5">5&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-6">6&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-7">7&lt;/a>
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-8">8&lt;/a>
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-ts" data-lang="ts">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#007020;font-weight:bold">if&lt;/span> (&lt;span style="color:#4070a0">&amp;#39;launchQueue&amp;#39;&lt;/span> &lt;span style="color:#007020;font-weight:bold">in&lt;/span> &lt;span style="color:#007020">window&lt;/span>) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> console.log(&lt;span style="color:#4070a0">&amp;#39;File Handling API is supported!&amp;#39;&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#007020">window&lt;/span>.launchQueue.setConsumer((launchParams: &lt;span style="color:#902000">LaunchParams&lt;/span>) &lt;span style="color:#666">=&amp;gt;&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> handleFiles(launchParams.files)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> })
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>} &lt;span style="color:#007020;font-weight:bold">else&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> console.error(&lt;span style="color:#4070a0">&amp;#39;File Handling API is not supported!&amp;#39;&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>具体实现细节就不多说了，可以查阅文档 &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> 。&lt;/p>
-&lt;p>&lt;strong>技术实现不难，只是有时候我们不知道还有更简单高效的解决方案。&lt;/strong>&lt;/p>
-&lt;p>当我用 PWA 创建了本地跨平台应用，这感觉太爽了， &lt;strong>省去了一堆 Electron 依赖&lt;/strong> ，不用在系统层面的 api 上耗费精力，专注于应用层的开发，效率提升了许多。
-从用户角度考虑， PWA 应用， &lt;strong>安装快捷，不占用空间，卸载方便，打开迅速，app 更新也不需要安装包&lt;/strong> ，体验非常轻松。&lt;/p>
-&lt;p>另外：&lt;/p>
-&lt;ul>
-&lt;li>PWA 应用支持 &lt;strong>离线使用&lt;/strong> ;&lt;/li>
-&lt;li>PWA 应用可以上传到 Windows Store 或 Chrome App Store 。（可惜我暂时没账号，就先不上传了）&lt;/li>
-&lt;/ul>
-&lt;h2 id="示例">示例&lt;/h2>
-&lt;p>EvoReader (&lt;a href="https://evoreader.github.io/">https://evoreader.github.io/&lt;/a>) 是一个轻量的跨平台 epub 阅读器， 可以用它浏览本地的 &lt;code>.epub&lt;/code> 文件。不了解 PWA 安装的，可以查阅 &lt;a href="https://github.com/EvoReader/EvoReader/blob/main/0-install-guide.md">安装指南&lt;/a> 。&lt;/p>
-&lt;p>如果你对这个项目感兴趣，欢迎点一下 &lt;a href="https://github.com/EvoReader/EvoReader">https://github.com/EvoReader/EvoReader&lt;/a> 上的小星星，有任何建议或 Bug ，欢迎向我反馈！&lt;/p>
-&lt;p>&lt;img alt="Install EvoReader" src="https://github.com/EvoReader/EvoReader/raw/main/images/install-guide/install-guide-0.png">&lt;/p>
-&lt;p>&lt;img alt="open .epub file on Mac" src="https://github.com/EvoReader/EvoReader/raw/main/images/install-guide/install-guide-4.png">&lt;/p>
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>&lt;a href="https://learn.microsoft.com/zh-cn/microsoft-edge/progressive-web-apps-chromium/">渐进式 Web 应用 （PWA） 概述 - Microsoft Edge Development | Microsoft Learn&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li id="fn:2">
-&lt;p>&lt;a href="https://learn.microsoft.com/zh-cn/microsoft-edge/progressive-web-apps-chromium/how-to/handle-files">处理渐进式Web 应用中的文件 - Microsoft Edge Development | Microsoft Learn&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div></description></item></channel></rss>
+&lt;p>至于迅雷为什么要在驱动这个层级搞事情，我格局太小想不明白。 &lt;a href="https://zhuanlan.zhihu.com/p/43433631">与国产流氓软件的斗争 - 知乎&lt;/a>&lt;/p></description></item></channel></rss>
