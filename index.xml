@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 04 May 2025 15:05:59 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>创业者没有假期 | 远程技术管家创业周记（12）</title><link>https://www.xianmin.org/post/weekly/012/</link><pubDate>Sun, 04 May 2025 15:05:59 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/012/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 11 May 2025 14:39:12 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>一次失败的二开经历 | 远程技术管家创业周记（13）</title><link>https://www.xianmin.org/post/weekly/013/</link><pubDate>Sun, 11 May 2025 14:39:12 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/013/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
+&lt;h2 id="本周行动">本周行动&lt;/h2>
+&lt;p>五一前接了个 4000 的活儿，是个跨平台的桌面应用。
+客户着急要，我答应了一周内交付，五一期间就没有休息。&lt;/p>
+&lt;p>跨平台应用最大的挑战是兼容性问题。
+我平时主力开发机用的是 Windows , 在 Windows 下一路开发，一路测试。
+MacOS 呢，中间编译测试过一次，没问题。
+但是等功能开发完成，再编译测试，就打不开了，报错。
+报错内容丢给 AI ，AI 瞎改了一通，找不到实际 bug 根源。
+从没问题到有问题，中间大概有 30 次提交。
+不知道是哪一步出现的问题。
+这时候只能用二分法，去定位哪一次提交导致的程序出错。
+差不多回退四次，就能找到了。
+发现只是一行代码，在 MacOS 下不支持，但是编译呢，又能通过，可程序打开却会导致崩溃。
+编译太耗费时间，差不多用了半天，才修复这个 bug 。
+后面就成功交付了。&lt;/p>
+&lt;h2 id="一个失败的案例">一个失败的案例&lt;/h2>
+&lt;p>五一期间还接了个二次开发的活儿，远程看客户演示，基本功能都完成差不多了，有三点需要修改。
+我粗略看了下源码，前端用的 react ，后端用的 python ，这俩我都熟悉啊，就接下了这个活儿。&lt;/p>
+&lt;p>真正开始改动的时候，发现还是大意了，要改动的其中一个核心文件有将近 2000 行代码。
+状态值分散在各处，根本无从下手。
+&lt;strong>我想的很简单，不是有 AI 嘛，让它帮忙重构，分割成多个组件，用上下文重新管理。&lt;/strong>&lt;/p>
+&lt;p>重构的差不多，可以动手了。
+但又发现，客户的需求，与原先的代码逻辑是不一致的。
+要实现客户的需求，得换一套操作逻辑，还得继续重构。
+最后我放弃了，浪费了两天时间。&lt;/p>
+&lt;ol>
+&lt;li>二次开发，一定要注意原本的代码规范如何，如果有多个文件大于 1000 行，那就要小心了，大概率代码凌乱。&lt;/li>
+&lt;li>对于代码凌乱的项目，不改变原有的逻辑，添加一两个功能可能还好。如果要重构，最好的方式，彻底重写效率可能还高一些。&lt;/li>
+&lt;li>太久远的历史遗留项目，比如六七年前的 vue2 项目，node 12 以下的版本，这一类的活儿也可能比较恶心。&lt;/li>
+&lt;/ol>
+&lt;h2 id="结束语">结束语&lt;/h2>
+&lt;p>你有没有失败的二次开发的经历呢？&lt;/p></description></item><item><title>创业者没有假期 | 远程技术管家创业周记（12）</title><link>https://www.xianmin.org/post/weekly/012/</link><pubDate>Sun, 04 May 2025 15:05:59 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/012/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
 &lt;p>从上周开始呢，我就一直在思考如何突破现状。&lt;/p>
 &lt;p>当前的状况，靠接单解决温饱是没问题的，只要肯花时间，还能有点儿盈余。
 &lt;strong>想要增加收入呢，要么多花时间，要么提高单价。&lt;/strong>
@@ -996,40 +1028,4 @@ summary: 本文介绍使用 Hugo 搭建多语言站点后的文件组织方案�
 &lt;p>&lt;a href="https://en.wikipedia.org/wiki/Userscript">Userscript - Wikipedia&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>启用 ublock Cookie 规则，避免网站 Cookie 弹窗</title><link>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</link><pubDate>Fri, 06 Sep 2024 14:20:00 +0800</pubDate><guid>https://www.xianmin.org/post/2024/03-ublock-enable-cookie/</guid><description>&lt;p>由于欧洲的数据保护政策，许多网站都会弹窗提醒你「接受 Cookies」 。&lt;/p>
-&lt;link rel="stylesheet" href="https://www.xianmin.org/css/hugo-easy-gallery.css" />
-&lt;div class="box">
-&lt;figure itemprop="associatedMedia"
-itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img">
-&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/avoid-cookie-00.png" />
-&lt;/div>
-&lt;a href="https://www.xianmin.org/image/other/avoid-cookie-00.png" itemprop="contentUrl">&lt;/a>
-&lt;figcaption>&lt;h4>cookie&lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/div>
-&lt;p>我个人并 &lt;strong>不关心&lt;/strong> 网站的 Cookie 存储了哪些数据，
-而且我也没那么多精力看各个网站的 Cookie 政策,
-所以每次弹窗，我都是无脑点击 「Accept all cookies」 。
-通常，点击一次，也就不会再弹窗了。&lt;/p>
-&lt;p>直到最近，有几次 Cookie 弹窗，让我感到有些烦了。
-我就问 AI ： 有什么办法可以避免 「Cookie 弹窗」 呢？
-Perplexity 告诉我可以安装 「I don&amp;rsquo;t care about cookies」 扩展。
-我不想安装额外的扩展，就又尝试了搜索引擎。
-发现有的广告屏蔽扩展也可以屏蔽 Cookie 。
-我个人用的是 uBlock 这个屏蔽广告的扩展，
-打开设置页，在规则列表中，找到了屏蔽 Cookie 弹窗的规则，
-只是它默认是未选中的，将 Cookie Notices 规则选中就可以了。&lt;/p>
-&lt;div class="box">
-&lt;figure itemprop="associatedMedia"
-itemscope itemtype="http://schema.org/ImageObject" >
-&lt;div class="img">
-&lt;img itemprop="thumbnail" src="https://www.xianmin.org/image/other/avoid-cookie-01.png" />
-&lt;/div>
-&lt;a href="https://www.xianmin.org/image/other/avoid-cookie-01.png" itemprop="contentUrl">&lt;/a>
-&lt;figcaption>&lt;h4>cookie&lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/div>
-&lt;p>这样就再也不用被 Cookie 弹窗烦恼了。&lt;/p></description></item></channel></rss>
+&lt;/div></description></item></channel></rss>

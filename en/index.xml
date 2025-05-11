@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 04 May 2025 15:05:59 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Entrepreneurs Have No Holidays | Remote IT Concierge Startup Weekly (12)</title><link>https://www.xianmin.org/en/post/weekly/012/</link><pubDate>Sun, 04 May 2025 15:05:59 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/012/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your IT tech butler, and this is my startup weekly journal.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xianmin's Blog</title><link>https://www.xianmin.org/en/</link><description>Recent content on Xianmin's Blog</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 11 May 2025 14:39:12 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/en/index.xml" rel="self" type="application/rss+xml"/><item><title>A Failed Second Development Experience | Remote IT Concierge Startup Weekly (13)</title><link>https://www.xianmin.org/en/post/weekly/013/</link><pubDate>Sun, 11 May 2025 14:39:12 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/013/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your Remote IT Concierge, and this is my startup weekly journal.&lt;/p>
+&lt;h2 id="this-weeks-actions">This Week&amp;rsquo;s Actions&lt;/h2>
+&lt;p>Before May Day holiday, I took on a 4,000 yuan project for a cross-platform desktop application.
+The client needed it urgently, so I promised to deliver within a week, which meant working through the holiday.&lt;/p>
+&lt;p>The biggest challenge with cross-platform applications is compatibility issues.
+I primarily develop on Windows, so I continuously developed and tested on Windows.
+For MacOS, I compiled and tested once in the middle of development, and everything seemed fine.
+However, when I finished the functionality and compiled it again for testing, it wouldn&amp;rsquo;t open and showed errors.
+I fed the error messages to AI, but it made random changes without finding the actual source of the bug.
+Between working and not working, there were about 30 commits.
+I wasn&amp;rsquo;t sure which step introduced the problem.
+At this point, I could only use binary search to locate which commit caused the error.
+After about four rollbacks, I found it.
+It turned out to be just one line of code that wasn&amp;rsquo;t supported on MacOS, yet it compiled successfully but crashed when the program opened.
+Compilation was time-consuming, and it took about half a day to fix this bug.
+After that, I successfully delivered the project.&lt;/p>
+&lt;h2 id="a-failed-case">A Failed Case&lt;/h2>
+&lt;p>During the May Day holiday, I also took on a second development project. The client demonstrated it remotely, and most of the basic functionality was already complete with just three points needing modification.
+I briefly looked at the source code - the frontend used React and the backend used Python, both of which I&amp;rsquo;m familiar with, so I accepted the project.&lt;/p>
+&lt;p>When I actually started making changes, I realized I had been careless. One of the core files that needed modification had nearly 2,000 lines of code.
+State values were scattered throughout, making it difficult to know where to begin.
+&lt;strong>I thought it would be simple - I had AI, so I&amp;rsquo;d have it help me refactor, split it into multiple components, and manage everything with context.&lt;/strong>&lt;/p>
+&lt;p>When the refactoring was mostly complete and I was ready to start working, I discovered that the client&amp;rsquo;s requirements were inconsistent with the original code logic.
+To implement what the client wanted would require a completely different operational logic and further refactoring.
+In the end, I gave up, wasting two days.&lt;/p>
+&lt;ol>
+&lt;li>For second development projects, always pay attention to the original code standards. If there are multiple files exceeding 1,000 lines, be cautious - the code is likely messy.&lt;/li>
+&lt;li>For projects with chaotic code, adding one or two features without changing the original logic might be manageable. But if refactoring is needed, completely rewriting from scratch might actually be more efficient.&lt;/li>
+&lt;li>Legacy projects from long ago, like Vue 2 projects from 6-7 years ago or Node.js projects below version 12, can also be particularly painful to work with.&lt;/li>
+&lt;/ol>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>Have you ever had a failed second development experience?&lt;/p></description></item><item><title>Entrepreneurs Have No Holidays | Remote IT Concierge Startup Weekly (12)</title><link>https://www.xianmin.org/en/post/weekly/012/</link><pubDate>Sun, 04 May 2025 15:05:59 +0000</pubDate><guid>https://www.xianmin.org/en/post/weekly/012/</guid><description>&lt;p>Hi, I&amp;rsquo;m Xianmin, your IT tech butler, and this is my startup weekly journal.&lt;/p>
 &lt;p>Since last week, I&amp;rsquo;ve been constantly thinking about how to break through the current situation.&lt;/p>
 &lt;p>In my current state, making ends meet through freelancing is not a problem, and as long as I&amp;rsquo;m willing to invest time, I can even have some surplus.
 &lt;strong>To increase income, I either need to spend more time or raise my rates.&lt;/strong>
