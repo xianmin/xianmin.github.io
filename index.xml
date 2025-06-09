@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 18 May 2025 21:15:39 +0800</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>不要依赖单一平台、单一收入来源 | 远程技术管家创业周记（14）</title><link>https://www.xianmin.org/post/weekly/014/</link><pubDate>Sun, 18 May 2025 21:15:39 +0800</pubDate><guid>https://www.xianmin.org/post/weekly/014/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贤民的博客</title><link>https://www.xianmin.org/</link><description>Recent content on 贤民的博客</description><follow_challenge><feedId>57631672911801359</feedId><userId>51859777516028928</userId></follow_challenge><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 09 Jun 2025 01:35:00 +0000</lastBuildDate><atom:link href="https://www.xianmin.org/index.xml" rel="self" type="application/rss+xml"/><item><title>一个可本地运行的 AI 绘图创作工具 | 远程技术管家创业周记（15）</title><link>https://www.xianmin.org/post/weekly/015/</link><pubDate>Mon, 09 Jun 2025 01:35:00 +0000</pubDate><guid>https://www.xianmin.org/post/weekly/015/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
+&lt;h2 id="本周思考">本周思考&lt;/h2>
+&lt;p>本周参与了一个开源项目， &lt;a href="https://github.com/11cafe/jaaz">Jaaz&lt;/a> ，一个可本地运行的 AI 绘图创作工具。
+这个项目是由 &lt;a href="https://github.com/11cafe">11cafe&lt;/a> 发起的，团队中的小伙伴能力都很强，才发布一周，就在 Github 上收获了 300+ 的关注。
+很荣幸我能参与到早期的开发。&lt;/p>
+&lt;p>&lt;img alt="Jaaz storyboards 创作截图" src="https://www.xianmin.org/images/2025/06/screenshoot.png">&lt;/p>
+&lt;p>做开源项目，大多数时候都是搞情怀，没有资金支撑，是很难维持的。
+比如我自己也有做开源项目，但只能说解决个人需求，再和其他人分享。
+因为生计问题，没办法投入更多精力和时间，只能偶尔空闲了去维护。
+代码完全开源，容易被一些小老板们改个名、套个壳，拿去当做自己的产品售卖。
+所以我也特别好奇， Jaaz 如何接下来在商业上能有所运转。&lt;/p>
+&lt;h2 id="信息过载导致决策瘫痪">信息过载导致决策瘫痪&lt;/h2>
+&lt;p>周记中断了 2 周。太忙了，是原因之一。
+从接单干活的角度，每一分钟都是钱，只要想做，真的忙不过来。
+写作内容陷入瓶颈，不知道写什么，车轱辘话说多了，自己也觉得没意思。&lt;/p>
+&lt;p>还有一个主要原因，我个人分析是 &lt;strong>由于信息过载，导致了决策瘫痪。&lt;/strong>&lt;/p>
+&lt;p>整个五月份，除了给别人干活，我同时也在思索「要写什么内容、要如何调整方向、该做什么样的产品」的问题。
+此前的周记内容形式在我看来，有点儿陷入了低质量重复。
+这样的内容，我自己不喜欢写，估计读者朋友也不会喜欢看。
+那就看看其他人都在写些什么吧，然后就被信息洪流淹没了，自己更不知道写什么了。
+干脆就断更了，现在还是没有找到感觉。&lt;/p>
+&lt;blockquote>
+&lt;p>DeepSeek: 信息过载 → 超出个体的认知处理能力 → 导致关键信息淹没、优先级混乱、选项评估困难、情感压力剧增、决策标准模糊 → 大脑不堪重负 → 无法有效整合信息形成清晰的判断和选择 → 最终表现为犹豫不决、拖延、回避决策（即决策瘫痪）。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="结束语">结束语&lt;/h2>
+&lt;p>自己找不到方向，那就让老板找方向，给老板干活吧。&lt;/p></description></item><item><title>不要依赖单一平台、单一收入来源 | 远程技术管家创业周记（14）</title><link>https://www.xianmin.org/post/weekly/014/</link><pubDate>Sun, 18 May 2025 21:15:39 +0800</pubDate><guid>https://www.xianmin.org/post/weekly/014/</guid><description>&lt;p>你好，我是贤民，你身边的 IT 技术管家，这里是我的创业周记。&lt;/p>
 &lt;h2 id="本周思考">本周思考&lt;/h2>
 &lt;p>上周，女友的自媒体账号被抖音封禁 15 天，没有任何理由，导致这半个月没有任何收入。&lt;/p>
 &lt;p>这也给我带来了反思，如果我的接单渠道消失了，我的收入是否会受影响？这也是为什么我要做多个平台、多个账号，多渠道发布内容。即便最坏的情况，我的微信不能用了，那我的老客户也可能通过我的个人网站找到我。这或许也是做个人网站的好处之一，它是我们个体在互联网上与他人链接的一个根据地，不受平台约束。（如何您有做个人网站的需求，欢迎与我联系！）&lt;/p>
@@ -981,36 +1006,4 @@ summary: 本文介绍使用 Hugo 搭建多语言站点后的文件组织方案�
 &lt;ul>
 &lt;li>&lt;a href="https://gohugo.io/content-management/multilingual/">Multilingual mode | Hugo&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://gohugo.io/content-management/urls/">URL management | Hugo&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>博客主题 Jane V3 大版本更新</title><link>https://www.xianmin.org/post/2024/2024-09-20-jane-theme-v3-major-update/</link><pubDate>Fri, 20 Sep 2024 11:29:47 +0000</pubDate><guid>https://www.xianmin.org/post/2024/2024-09-20-jane-theme-v3-major-update/</guid><description>&lt;p>项目主页： &lt;a href="https://github.com/xianmin/hugo-theme-jane">https://github.com/xianmin/hugo-theme-jane&lt;/a> 。&lt;/p>
-&lt;h2 id="更新内容">更新内容&lt;/h2>
-&lt;ul>
-&lt;li>使用 &lt;a href="https://picocss.com/">Pico CSS&lt;/a> 作为配色方案，可切换主题颜色，可切换 dark / light 模式。&lt;/li>
-&lt;li>自定义主页。&lt;/li>
-&lt;li>添加 STYLE SETTINGS ，位于 /assets/sass/_settings.scss ；&lt;/li>
-&lt;li>弃用 Category 页面，合并到 Archive 页面。&lt;/li>
-&lt;/ul>
-&lt;p>由于修改的地方比较多，还有很多地方不完善，请您谅解！&lt;/p>
-&lt;h2 id="自定义你的主页">自定义你的主页&lt;/h2>
-&lt;p>原本的主页是翻页式的文章列表，风格难免有些单一。现在你可以拥有一个更加个性化的主页了。&lt;/p>
-&lt;p>复制 &lt;code>/exampleSite/content/_index.md&lt;/code> 到你的网站 &lt;code>/content/_index.md&lt;/code> ，修改里面的参数。&lt;/p>
-&lt;p>对于多语言站点，请创建类似的 &lt;code>_index.language.md&lt;/code> 文件，比如 &lt;code>_index.zh-cn.md&lt;/code> 。&lt;/p>
-&lt;h2 id="通过-style-settings-个性化你的网站">通过 STYLE SETTINGS 个性化你的网站&lt;/h2>
-&lt;p>将 &lt;code>/assets/sass/_settings.scss&lt;/code> 和 &lt;code>/assets/sass/_custom.scss&lt;/code> 复制到你的网站根目录下（注意：路径名、文件名要一致）。&lt;/p>
-&lt;p>在 &lt;code>_settings.scss&lt;/code> 中修改变量，在 &lt;code>/assets/sass/_custom.scss&lt;/code> 中添加自定义样式。&lt;/p>
-&lt;h2 id="从旧版本升级到-v3">从旧版本升级到 v3&lt;/h2>
-&lt;p>由于新版本使用到了 Sass 语言的最新功能，需要安装 Dart Sass 。&lt;/p>
-&lt;p>安装指南见官方文档： &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass">https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass&lt;/a> 。&lt;/p>
-&lt;p>如果你使用了 CI/CD 自动化工具，请记得同样要安装 Dart Sass: &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#installing-in-a-production-environment">https://gohugo.io/hugo-pipes/transpile-sass-to-css/#installing-in-a-production-environment&lt;/a>&lt;/p>
-&lt;p>注意: 升级之后可能会遇到一些兼容性问题。如果遇到困难，欢迎提 issue。&lt;/p>
-&lt;h2 id="这个主题的开发理念">这个主题的开发理念&lt;/h2>
-&lt;ol>
-&lt;li>没有 &lt;code>node_modules&lt;/code> ，越少的依赖越容易维护；&lt;/li>
-&lt;li>鼓励使用者按照个人喜好修改主题，让网站更个性化；&lt;/li>
-&lt;li>阅读体验始终是最重要的；&lt;/li>
-&lt;li>一次部署，专心写作，不再折腾。&lt;/li>
-&lt;/ol>
-&lt;h2 id="后记">后记&lt;/h2>
-&lt;p>这个网站主题用了七年了，除了第一年改动比较频繁，之后就没怎么动过。&lt;/p>
-&lt;p>我一直觉得对于个人博客，写作内容才是最重要的，网站的样式嘛，看的过去就行了。&lt;/p>
-&lt;p>这次大改版，也是心血来潮，彻底改了配色方案，顺便升级一下 hugo 版本。&lt;/p>
-&lt;p>希望使用者能够喜欢。&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
